@@ -1,0 +1,210 @@
+{
+  "$defs": {
+    "condition": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "all": {
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "any": {
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "not": {
+              "$ref": "#/$defs/condition"
+            }
+          },
+          "required": [
+            "not"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "effectId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "itemId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "pokemonId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "predicate": {
+              "enum": [
+                "effect-active",
+                "created-by-holder",
+                "ability-active",
+                "move-succeeds",
+                "form-is",
+                "holds-item",
+                "grounded",
+                "type-is",
+                "contact",
+                "chance",
+                "source-is-opponent",
+                "status-is"
+              ]
+            },
+            "subject": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "value": {}
+          },
+          "required": [
+            "predicate"
+          ],
+          "type": "object"
+        }
+      ]
+    }
+  },
+  "$id": "https://disboard.es/ChampionsDB/schemas/pokemon.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "abilityIds": {
+        "items": {
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "type": "string"
+        },
+        "type": "array",
+        "uniqueItems": true
+      },
+      "available": {
+        "const": true
+      },
+      "form": {
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "enum": [
+              "base",
+              "mega",
+              "regional",
+              "gender",
+              "alternate"
+            ]
+          }
+        },
+        "required": [
+          "kind"
+        ],
+        "type": "object"
+      },
+      "id": {
+        "pattern": "^[a-z0-9][a-z0-9-]*$",
+        "type": "string"
+      },
+      "identity": {
+        "const": true
+      },
+      "name": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "sex": {
+        "enum": [
+          "male",
+          "female",
+          "mixed",
+          "genderless"
+        ]
+      },
+      "speciesId": {
+        "pattern": "^[a-z0-9][a-z0-9-]*$",
+        "type": "string"
+      },
+      "stats": {
+        "additionalProperties": false,
+        "properties": {
+          "attack": {
+            "maximum": 255,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "defense": {
+            "maximum": 255,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "hp": {
+            "maximum": 255,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "spAttack": {
+            "maximum": 255,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "spDefense": {
+            "maximum": 255,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "speed": {
+            "maximum": 255,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "typeIds": {
+        "items": {
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "type": "string"
+        },
+        "maxItems": 2,
+        "minItems": 1,
+        "type": "array",
+        "uniqueItems": true
+      },
+      "weightKg": {
+        "minimum": 0,
+        "type": "number"
+      }
+    },
+    "required": [
+      "id",
+      "identity",
+      "available"
+    ],
+    "type": "object"
+  },
+  "title": "ChampionsDB: pokemon",
+  "type": "array"
+}

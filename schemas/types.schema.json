@@ -1,0 +1,132 @@
+{
+  "$defs": {
+    "condition": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "all": {
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "any": {
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "not": {
+              "$ref": "#/$defs/condition"
+            }
+          },
+          "required": [
+            "not"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "effectId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "itemId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "pokemonId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "predicate": {
+              "enum": [
+                "effect-active",
+                "created-by-holder",
+                "ability-active",
+                "move-succeeds",
+                "form-is",
+                "holds-item",
+                "grounded",
+                "type-is",
+                "contact",
+                "chance",
+                "source-is-opponent",
+                "status-is"
+              ]
+            },
+            "subject": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "value": {}
+          },
+          "required": [
+            "predicate"
+          ],
+          "type": "object"
+        }
+      ]
+    }
+  },
+  "$id": "https://disboard.es/ChampionsDB/schemas/types.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "available": {
+        "const": true
+      },
+      "effectiveness": {
+        "additionalProperties": {
+          "enum": [
+            0,
+            0.5,
+            1,
+            2
+          ]
+        },
+        "type": "object"
+      },
+      "id": {
+        "pattern": "^[a-z0-9][a-z0-9-]*$",
+        "type": "string"
+      },
+      "identity": {
+        "const": true
+      },
+      "name": {
+        "minLength": 1,
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "identity",
+      "available"
+    ],
+    "type": "object"
+  },
+  "title": "ChampionsDB: types",
+  "type": "array"
+}

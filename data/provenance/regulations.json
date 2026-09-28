@@ -1,0 +1,206 @@
+{
+  "facts": {
+    "regulations/m-c/available": {
+      "value": true,
+      "witnesses": [
+        "293a4e2f57474b16daff7ec5350d5a2ee6f2b4cf265599ae8d796b3658fa20ef",
+        "c1cf2b1a26814d06f72965c850b92c7997b42ee732a0d6eb8388f5dbe0820257"
+      ]
+    },
+    "regulations/m-c/identity": {
+      "value": true,
+      "witnesses": [
+        "293a4e2f57474b16daff7ec5350d5a2ee6f2b4cf265599ae8d796b3658fa20ef",
+        "c1cf2b1a26814d06f72965c850b92c7997b42ee732a0d6eb8388f5dbe0820257"
+      ]
+    },
+    "regulations/m-c/name": {
+      "value": "Reglamento M-C",
+      "witnesses": [
+        "3484e3710c5fb8ca0beae1627872ba76f9bec40f1744a3c24335a3f42159dcc8",
+        "504a5dde424c40b9191c07a7145e0e50f47a4c8c39f882225ed42c9319ef5654"
+      ]
+    },
+    "regulations/m-c/rules.playerTimeSeconds": {
+      "value": 420,
+      "witnesses": [
+        "9851b162686758ca809da4b5a9c2a6e650f9bdd9f70ad70305a2af97d16f1ade",
+        "93e87a1b4fe819a880f2504cf797e836e0e32b1e7698189035bb1d281475c2ed"
+      ]
+    },
+    "regulations/m-c/rules.teamPreviewSeconds": {
+      "value": 90,
+      "witnesses": [
+        "93abd8d0d6aba4f7013d4f4b1cf7d0699a96a11cd2b9d5a3e634f14bbe443ded",
+        "7e61bc4ba473085ae6a16a9bdcfd71dfe404bfbd6168be1916472256bbbb3cdf"
+      ]
+    },
+    "regulations/m-c/rules.turnTimeSeconds": {
+      "value": 45,
+      "witnesses": [
+        "ed81e53b72f3f81f9ca450dc4f0bb10144990f1feacac9d58c1d5e80262aaa7d",
+        "3f6507d701255913f36cd2a3b05811223cdc53316c34b6be0490ece4ae993803"
+      ]
+    },
+    "regulations/m-c/validFrom": {
+      "value": {
+        "date": "2026-09-09",
+        "precision": "day"
+      },
+      "witnesses": [
+        "2ea2ccb71d84a769c422527c5e0366d51d5aacf5c2f3f2c4ca0c893705612e9c",
+        "a73236584763f055d5f292ac95fcfef591b61c49954e5ce9792b81d310a263a3"
+      ]
+    },
+    "regulations/m-c/validUntil": {
+      "value": {
+        "date": "2026-12-02",
+        "precision": "day"
+      },
+      "witnesses": [
+        "49f426ea4aa3cc5bd16a1f4f7eec58ea821d9a42740ab46890b4b8f163180937",
+        "6d89eb9ae8fd1c9e70752c01b2c21fb155fa4891641f47b6111869dacd2b49d5"
+      ]
+    }
+  },
+  "observations": {
+    "293a4e2f57474b16daff7ec5350d5a2ee6f2b4cf265599ae8d796b3658fa20ef": {
+      "context": "champions-current-capture",
+      "document": "official/regulation-m-c",
+      "locator": "heading",
+      "observed": "M-C",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": true
+    },
+    "2ea2ccb71d84a769c422527c5e0366d51d5aacf5c2f3f2c4ca0c893705612e9c": {
+      "context": "champions-current-capture",
+      "document": "official/regulation-m-c",
+      "locator": "Duración del reglamento M-C",
+      "observed": "9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": {
+        "date": "2026-09-09",
+        "precision": "day"
+      }
+    },
+    "3484e3710c5fb8ca0beae1627872ba76f9bec40f1744a3c24335a3f42159dcc8": {
+      "context": "champions-current-capture",
+      "document": "official/regulation-m-c",
+      "locator": "heading",
+      "observed": "M-C",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": "Reglamento M-C"
+    },
+    "3f6507d701255913f36cd2a3b05811223cdc53316c34b6be0490ece4ae993803": {
+      "context": "champions-current-capture",
+      "document": "serebii/regulation-m-c",
+      "locator": "Turn Time: 45 Seconds",
+      "observed": "Turn Time: 45 Seconds",
+      "provider": "serebii",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "value": 45
+    },
+    "49f426ea4aa3cc5bd16a1f4f7eec58ea821d9a42740ab46890b4b8f163180937": {
+      "context": "champions-current-capture",
+      "document": "official/regulation-m-c",
+      "locator": "Duración del reglamento M-C",
+      "observed": "9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": {
+        "date": "2026-12-02",
+        "precision": "day"
+      }
+    },
+    "504a5dde424c40b9191c07a7145e0e50f47a4c8c39f882225ed42c9319ef5654": {
+      "context": "champions-current-capture",
+      "document": "serebii/regulation-m-c",
+      "locator": "heading",
+      "observed": "M-C",
+      "provider": "serebii",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "value": "Reglamento M-C"
+    },
+    "6d89eb9ae8fd1c9e70752c01b2c21fb155fa4891641f47b6111869dacd2b49d5": {
+      "context": "champions-current-capture",
+      "document": "serebii/regulation-m-c",
+      "locator": "Regulation Date",
+      "observed": "Date September 9th 2026 - December 2nd 2026",
+      "provider": "serebii",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "value": {
+        "date": "2026-12-02",
+        "precision": "day"
+      }
+    },
+    "7e61bc4ba473085ae6a16a9bdcfd71dfe404bfbd6168be1916472256bbbb3cdf": {
+      "context": "champions-current-capture",
+      "document": "serebii/regulation-m-c",
+      "locator": "Team Preview: 90 Seconds",
+      "observed": "Team Preview: 90 Seconds",
+      "provider": "serebii",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "value": 90
+    },
+    "93abd8d0d6aba4f7013d4f4b1cf7d0699a96a11cd2b9d5a3e634f14bbe443ded": {
+      "context": "champions-current-capture",
+      "document": "official/regulation-m-c",
+      "locator": "Tiempo para la vista previa de equipos: 90 segundos",
+      "observed": "Tiempo para la vista previa de equipos: 90 segundos",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": 90
+    },
+    "93e87a1b4fe819a880f2504cf797e836e0e32b1e7698189035bb1d281475c2ed": {
+      "context": "champions-current-capture",
+      "document": "serebii/regulation-m-c",
+      "locator": "Your Time: 7 Minutes",
+      "observed": "Your Time: 7 Minutes",
+      "provider": "serebii",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "value": 420
+    },
+    "9851b162686758ca809da4b5a9c2a6e650f9bdd9f70ad70305a2af97d16f1ade": {
+      "context": "champions-current-capture",
+      "document": "official/regulation-m-c",
+      "locator": "Tiempo del jugador: 7 minutos",
+      "observed": "Tiempo del jugador: 7 minutos",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": 420
+    },
+    "a73236584763f055d5f292ac95fcfef591b61c49954e5ce9792b81d310a263a3": {
+      "context": "champions-current-capture",
+      "document": "serebii/regulation-m-c",
+      "locator": "Regulation Date",
+      "observed": "Date September 9th 2026 - December 2nd 2026",
+      "provider": "serebii",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "value": {
+        "date": "2026-09-09",
+        "precision": "day"
+      }
+    },
+    "c1cf2b1a26814d06f72965c850b92c7997b42ee732a0d6eb8388f5dbe0820257": {
+      "context": "champions-current-capture",
+      "document": "serebii/regulation-m-c",
+      "locator": "heading",
+      "observed": "M-C",
+      "provider": "serebii",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "value": true
+    },
+    "ed81e53b72f3f81f9ca450dc4f0bb10144990f1feacac9d58c1d5e80262aaa7d": {
+      "context": "champions-current-capture",
+      "document": "official/regulation-m-c",
+      "locator": "Tiempo de turno: 45 segundos",
+      "observed": "Tiempo de turno: 45 segundos",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": 45
+    }
+  }
+}

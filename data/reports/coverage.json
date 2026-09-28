@@ -1,0 +1,101 @@
+{
+  "collections": {
+    "abilities": {
+      "excluded": 0,
+      "fieldsExpected": 1256,
+      "fieldsPublished": 838,
+      "inventoried": 314,
+      "recordsPublished": 215
+    },
+    "battle-rules": {
+      "excluded": 0,
+      "fieldsExpected": 64,
+      "fieldsPublished": 24,
+      "inventoried": 16,
+      "recordsPublished": 6
+    },
+    "effects": {
+      "excluded": 0,
+      "fieldsExpected": 360,
+      "fieldsPublished": 293,
+      "inventoried": 72,
+      "recordsPublished": 72
+    },
+    "interactions": {
+      "associationsAwaitingClassification": 312,
+      "excluded": 0,
+      "fieldsExpected": 447,
+      "fieldsPublished": 447,
+      "inventoried": 149,
+      "recordsPublished": 149
+    },
+    "items": {
+      "excluded": 0,
+      "fieldsExpected": 996,
+      "fieldsPublished": 851,
+      "inventoried": 166,
+      "recordsPublished": 162
+    },
+    "learnsets": {
+      "excluded": 3,
+      "fieldsExpected": 88884,
+      "fieldsPublished": 85984,
+      "inventoried": 22224,
+      "recordsPublished": 21496
+    },
+    "moves": {
+      "excluded": 405,
+      "fieldsExpected": 10304,
+      "fieldsPublished": 9509,
+      "inventoried": 920,
+      "recordsPublished": 502
+    },
+    "natures": {
+      "excluded": 0,
+      "fieldsExpected": 150,
+      "fieldsPublished": 150,
+      "inventoried": 25,
+      "recordsPublished": 25
+    },
+    "pokemon": {
+      "excluded": 0,
+      "fieldsExpected": 5310,
+      "fieldsPublished": 5194,
+      "inventoried": 354,
+      "recordsPublished": 351
+    },
+    "regulations": {
+      "excluded": 0,
+      "fieldsExpected": 29,
+      "fieldsPublished": 8,
+      "inventoried": 3,
+      "recordsPublished": 1
+    },
+    "species": {
+      "excluded": 0,
+      "fieldsExpected": 924,
+      "fieldsPublished": 915,
+      "inventoried": 231,
+      "recordsPublished": 231
+    },
+    "types": {
+      "excluded": 0,
+      "fieldsExpected": 378,
+      "fieldsPublished": 378,
+      "inventoried": 18,
+      "recordsPublished": 18
+    }
+  },
+  "complete": false,
+  "pendingByReason": {
+    "association-needs-semantic-review": 1,
+    "association-not-fully-classified": 312,
+    "conflict": 634,
+    "missing": 275,
+    "missing-endpoint": 11,
+    "uncorroborated": 2038
+  },
+  "pendingCount": 3271,
+  "scope": "Inventario reconciliado de los catálogos capturados; las asociaciones sin clasificación y mecánicas aún no modeladas siguen pendientes.",
+  "unknownIsNotImpossible": true
+}

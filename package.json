@@ -1,0 +1,31 @@
+{
+  "name": "champions-db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "data:update": "node scripts/update.mjs",
+    "data:rebuild": "node scripts/update.mjs --offline",
+    "data:validate": "node scripts/validate.mjs",
+    "test": "node --test test/*.test.mjs",
+    "site:build": "node scripts/build-site.mjs",
+    "site:dev": "npm run site:build && node scripts/serve-site.mjs",
+    "site:preview": "node scripts/serve-site.mjs",
+    "site:check": "node scripts/check-site.mjs",
+    "test:browser": "playwright test"
+  },
+  "overrides": {
+    "sockjs": {
+      "uuid": "11.1.1"
+    }
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "ajv": "8.20.0",
+    "cheerio": "1.1.2",
+    "pokemon-showdown": "0.11.11"
+  }
+}

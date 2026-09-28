@@ -1,0 +1,302 @@
+[
+  {
+    "available": true,
+    "decreased": "spAttack",
+    "id": "adamant",
+    "identity": true,
+    "increased": "attack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Firme"
+  },
+  {
+    "available": true,
+    "decreased": null,
+    "id": "bashful",
+    "identity": true,
+    "increased": null,
+    "multipliers": {
+      "decreased": 1,
+      "increased": 1
+    },
+    "name": "Tímida"
+  },
+  {
+    "available": true,
+    "decreased": "attack",
+    "id": "bold",
+    "identity": true,
+    "increased": "defense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Osada"
+  },
+  {
+    "available": true,
+    "decreased": "speed",
+    "id": "brave",
+    "identity": true,
+    "increased": "attack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Audaz"
+  },
+  {
+    "available": true,
+    "decreased": "attack",
+    "id": "calm",
+    "identity": true,
+    "increased": "spDefense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Serena"
+  },
+  {
+    "available": true,
+    "decreased": "spAttack",
+    "id": "careful",
+    "identity": true,
+    "increased": "spDefense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Cauta"
+  },
+  {
+    "available": true,
+    "decreased": null,
+    "id": "docile",
+    "identity": true,
+    "increased": null,
+    "multipliers": {
+      "decreased": 1,
+      "increased": 1
+    },
+    "name": "Dócil"
+  },
+  {
+    "available": true,
+    "decreased": "defense",
+    "id": "gentle",
+    "identity": true,
+    "increased": "spDefense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Amable"
+  },
+  {
+    "available": true,
+    "decreased": null,
+    "id": "hardy",
+    "identity": true,
+    "increased": null,
+    "multipliers": {
+      "decreased": 1,
+      "increased": 1
+    },
+    "name": "Fuerte"
+  },
+  {
+    "available": true,
+    "decreased": "defense",
+    "id": "hasty",
+    "identity": true,
+    "increased": "speed",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Activa"
+  },
+  {
+    "available": true,
+    "decreased": "spAttack",
+    "id": "impish",
+    "identity": true,
+    "increased": "defense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Agitada"
+  },
+  {
+    "available": true,
+    "decreased": "spAttack",
+    "id": "jolly",
+    "identity": true,
+    "increased": "speed",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Alegre"
+  },
+  {
+    "available": true,
+    "decreased": "spDefense",
+    "id": "lax",
+    "identity": true,
+    "increased": "defense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Floja"
+  },
+  {
+    "available": true,
+    "decreased": "defense",
+    "id": "lonely",
+    "identity": true,
+    "increased": "attack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Huraña"
+  },
+  {
+    "available": true,
+    "decreased": "defense",
+    "id": "mild",
+    "identity": true,
+    "increased": "spAttack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Afable"
+  },
+  {
+    "available": true,
+    "decreased": "attack",
+    "id": "modest",
+    "identity": true,
+    "increased": "spAttack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Modesta"
+  },
+  {
+    "available": true,
+    "decreased": "spDefense",
+    "id": "naive",
+    "identity": true,
+    "increased": "speed",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Ingenua"
+  },
+  {
+    "available": true,
+    "decreased": "spDefense",
+    "id": "naughty",
+    "identity": true,
+    "increased": "attack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Pícara"
+  },
+  {
+    "available": true,
+    "decreased": "speed",
+    "id": "quiet",
+    "identity": true,
+    "increased": "spAttack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Mansa"
+  },
+  {
+    "available": true,
+    "decreased": null,
+    "id": "quirky",
+    "identity": true,
+    "increased": null,
+    "multipliers": {
+      "decreased": 1,
+      "increased": 1
+    },
+    "name": "Rara"
+  },
+  {
+    "available": true,
+    "decreased": "spDefense",
+    "id": "rash",
+    "identity": true,
+    "increased": "spAttack",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Alocada"
+  },
+  {
+    "available": true,
+    "decreased": "speed",
+    "id": "relaxed",
+    "identity": true,
+    "increased": "defense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Plácida"
+  },
+  {
+    "available": true,
+    "decreased": "speed",
+    "id": "sassy",
+    "identity": true,
+    "increased": "spDefense",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Grosera"
+  },
+  {
+    "available": true,
+    "decreased": null,
+    "id": "serious",
+    "identity": true,
+    "increased": null,
+    "multipliers": {
+      "decreased": 1,
+      "increased": 1
+    },
+    "name": "Seria"
+  },
+  {
+    "available": true,
+    "decreased": "attack",
+    "id": "timid",
+    "identity": true,
+    "increased": "speed",
+    "multipliers": {
+      "decreased": 0.9,
+      "increased": 1.1
+    },
+    "name": "Miedosa"
+  }
+]

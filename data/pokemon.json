@@ -1,0 +1,9660 @@
+[
+  {
+    "abilityIds": [
+      "ability-034",
+      "ability-065"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0003000",
+    "identity": true,
+    "name": "Venusaur",
+    "sex": "mixed",
+    "speciesId": "species-003",
+    "stats": {
+      "attack": 82,
+      "defense": 83,
+      "hp": 80,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    },
+    "typeIds": [
+      "grass",
+      "poison"
+    ],
+    "weightKg": 100
+  },
+  {
+    "abilityIds": [
+      "ability-047"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0003001",
+    "identity": true,
+    "name": "Mega-Venusaur",
+    "sex": "mixed",
+    "speciesId": "species-003",
+    "stats": {
+      "attack": 100,
+      "defense": 123,
+      "hp": 80,
+      "spAttack": 122,
+      "spDefense": 120,
+      "speed": 80
+    },
+    "typeIds": [
+      "grass",
+      "poison"
+    ],
+    "weightKg": 155.5
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-094"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0006000",
+    "identity": true,
+    "name": "Charizard",
+    "sex": "mixed",
+    "speciesId": "species-006",
+    "stats": {
+      "attack": 84,
+      "defense": 78,
+      "hp": 78,
+      "spAttack": 109,
+      "spDefense": 85,
+      "speed": 100
+    },
+    "typeIds": [
+      "fire",
+      "flying"
+    ],
+    "weightKg": 90.5
+  },
+  {
+    "abilityIds": [
+      "ability-181"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0006001",
+    "identity": true,
+    "name": "Mega-Charizard X",
+    "sex": "mixed",
+    "speciesId": "species-006",
+    "stats": {
+      "attack": 130,
+      "defense": 111,
+      "hp": 78,
+      "spAttack": 130,
+      "spDefense": 85,
+      "speed": 100
+    },
+    "typeIds": [
+      "dragon",
+      "fire"
+    ],
+    "weightKg": 110.5
+  },
+  {
+    "abilityIds": [
+      "ability-070"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0006002",
+    "identity": true,
+    "name": "Mega-Charizard Y",
+    "sex": "mixed",
+    "speciesId": "species-006",
+    "stats": {
+      "attack": 104,
+      "defense": 78,
+      "hp": 78,
+      "spAttack": 159,
+      "spDefense": 115,
+      "speed": 100
+    },
+    "typeIds": [
+      "fire",
+      "flying"
+    ],
+    "weightKg": 100.5
+  },
+  {
+    "abilityIds": [
+      "ability-044",
+      "ability-067"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0009000",
+    "identity": true,
+    "name": "Blastoise",
+    "sex": "mixed",
+    "speciesId": "species-009",
+    "stats": {
+      "attack": 83,
+      "defense": 100,
+      "hp": 79,
+      "spAttack": 85,
+      "spDefense": 105,
+      "speed": 78
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 85.5
+  },
+  {
+    "abilityIds": [
+      "ability-178"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0009001",
+    "identity": true,
+    "name": "Mega-Blastoise",
+    "sex": "mixed",
+    "speciesId": "species-009",
+    "stats": {
+      "attack": 103,
+      "defense": 120,
+      "hp": 79,
+      "spAttack": 135,
+      "spDefense": 115,
+      "speed": 78
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 101.1
+  },
+  {
+    "abilityIds": [
+      "ability-068",
+      "ability-097"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0015000",
+    "identity": true,
+    "name": "Beedrill",
+    "sex": "mixed",
+    "speciesId": "species-015",
+    "stats": {
+      "attack": 90,
+      "defense": 40,
+      "hp": 65,
+      "spAttack": 45,
+      "spDefense": 80,
+      "speed": 75
+    },
+    "typeIds": [
+      "bug",
+      "poison"
+    ],
+    "weightKg": 29.5
+  },
+  {
+    "abilityIds": [
+      "ability-091"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0015001",
+    "identity": true,
+    "name": "Mega-Beedrill",
+    "sex": "mixed",
+    "speciesId": "species-015",
+    "stats": {
+      "attack": 150,
+      "defense": 40,
+      "hp": 65,
+      "spAttack": 15,
+      "spDefense": 80,
+      "speed": 145
+    },
+    "typeIds": [
+      "bug",
+      "poison"
+    ],
+    "weightKg": 40.5
+  },
+  {
+    "abilityIds": [
+      "ability-051",
+      "ability-077",
+      "ability-145"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0018000",
+    "identity": true,
+    "name": "Pidgeot",
+    "sex": "mixed",
+    "speciesId": "species-018",
+    "stats": {
+      "attack": 80,
+      "defense": 75,
+      "hp": 83,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 101
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ],
+    "weightKg": 39.5
+  },
+  {
+    "abilityIds": [
+      "ability-099"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0018001",
+    "identity": true,
+    "name": "Mega-Pidgeot",
+    "sex": "mixed",
+    "speciesId": "species-018",
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 83,
+      "spAttack": 135,
+      "spDefense": 80,
+      "speed": 121
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ],
+    "weightKg": 50.5
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-061",
+      "ability-127"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0024000",
+    "identity": true,
+    "name": "Arbok",
+    "sex": "mixed",
+    "speciesId": "species-024",
+    "stats": {
+      "attack": 95,
+      "defense": 69,
+      "hp": 60,
+      "spAttack": 65,
+      "spDefense": 79,
+      "speed": 80
+    },
+    "typeIds": [
+      "poison"
+    ],
+    "weightKg": 65
+  },
+  {
+    "abilityIds": [
+      "ability-009",
+      "ability-031"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0025000",
+    "identity": true,
+    "name": "Pikachu",
+    "sex": "mixed",
+    "speciesId": "species-025",
+    "stats": {
+      "attack": 55,
+      "defense": 40,
+      "hp": 35,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 90
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 6
+  },
+  {
+    "abilityIds": [
+      "ability-009",
+      "ability-031"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0026000",
+    "identity": true,
+    "name": "Raichu",
+    "sex": "mixed",
+    "speciesId": "species-026",
+    "stats": {
+      "attack": 90,
+      "defense": 55,
+      "hp": 60,
+      "spAttack": 90,
+      "spDefense": 80,
+      "speed": 110
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 30
+  },
+  {
+    "abilityIds": [
+      "ability-207"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0026001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-026",
+    "stats": {
+      "attack": 85,
+      "defense": 50,
+      "hp": 60,
+      "spAttack": 95,
+      "spDefense": 85,
+      "speed": 110
+    },
+    "typeIds": [
+      "electric",
+      "psychic"
+    ],
+    "weightKg": 21
+  },
+  {
+    "abilityIds": [
+      "ability-226"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0026002",
+    "identity": true,
+    "name": "Mega-Raichu X",
+    "sex": "mixed",
+    "speciesId": "species-026",
+    "stats": {
+      "attack": 135,
+      "defense": 95,
+      "hp": 60,
+      "spAttack": 90,
+      "spDefense": 95,
+      "speed": 110
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 38
+  },
+  {
+    "abilityIds": [
+      "ability-099"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0026003",
+    "identity": true,
+    "name": "Mega-Raichu Y",
+    "sex": "mixed",
+    "speciesId": "species-026",
+    "stats": {
+      "attack": 100,
+      "defense": 55,
+      "hp": 60,
+      "spAttack": 160,
+      "spDefense": 80,
+      "speed": 130
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 26
+  },
+  {
+    "abilityIds": [
+      "ability-056",
+      "ability-098",
+      "ability-109"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0036000",
+    "identity": true,
+    "name": "Clefable",
+    "sex": "mixed",
+    "speciesId": "species-036",
+    "stats": {
+      "attack": 70,
+      "defense": 73,
+      "hp": 95,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 60
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 40
+  },
+  {
+    "abilityIds": [
+      "ability-156"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0036001",
+    "identity": true,
+    "name": "Mega-Clefable",
+    "sex": "mixed",
+    "speciesId": "species-036",
+    "stats": {
+      "attack": 80,
+      "defense": 93,
+      "hp": 95,
+      "spAttack": 135,
+      "spDefense": 110,
+      "speed": 70
+    },
+    "typeIds": [
+      "fairy",
+      "flying"
+    ],
+    "weightKg": 42.3
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-070"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0038000",
+    "identity": true,
+    "name": "Ninetales",
+    "sex": "mixed",
+    "speciesId": "species-038",
+    "stats": {
+      "attack": 76,
+      "defense": 75,
+      "hp": 73,
+      "spAttack": 81,
+      "spDefense": 100,
+      "speed": 100
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 19.9
+  },
+  {
+    "abilityIds": [
+      "ability-081",
+      "ability-117"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0038001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-038",
+    "stats": {
+      "attack": 67,
+      "defense": 75,
+      "hp": 73,
+      "spAttack": 81,
+      "spDefense": 100,
+      "speed": 109
+    },
+    "typeIds": [
+      "fairy",
+      "ice"
+    ],
+    "weightKg": 19.9
+  },
+  {
+    "abilityIds": [
+      "ability-056",
+      "ability-119",
+      "ability-172"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0040000",
+    "identity": true,
+    "name": "Wigglytuff",
+    "sex": "mixed",
+    "speciesId": "species-040",
+    "stats": {
+      "attack": 70,
+      "defense": 45,
+      "hp": 140,
+      "spAttack": 85,
+      "spDefense": 50,
+      "speed": 45
+    },
+    "typeIds": [
+      "fairy",
+      "normal"
+    ],
+    "weightKg": 12
+  },
+  {
+    "abilityIds": [
+      "ability-027",
+      "ability-034"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0045000",
+    "identity": true,
+    "name": "Vileplume",
+    "sex": "mixed",
+    "speciesId": "species-045",
+    "stats": {
+      "attack": 80,
+      "defense": 85,
+      "hp": 75,
+      "spAttack": 110,
+      "spDefense": 90,
+      "speed": 50
+    },
+    "typeIds": [
+      "grass",
+      "poison"
+    ],
+    "weightKg": 18.6
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-101",
+      "ability-127"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0053000",
+    "identity": true,
+    "name": "Persian",
+    "sex": "mixed",
+    "speciesId": "species-053",
+    "stats": {
+      "attack": 70,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 115
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 32
+  },
+  {
+    "abilityIds": [
+      "ability-101",
+      "ability-155",
+      "ability-169"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0053001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-053",
+    "stats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 75,
+      "spDefense": 65,
+      "speed": 115
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 33
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-022",
+      "ability-154"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0059000",
+    "identity": true,
+    "name": "Arcanine",
+    "sex": "mixed",
+    "speciesId": "species-059",
+    "stats": {
+      "attack": 110,
+      "defense": 80,
+      "hp": 90,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 95
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 155
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-022",
+      "ability-069"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0059001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-059",
+    "stats": {
+      "attack": 115,
+      "defense": 80,
+      "hp": 95,
+      "spAttack": 95,
+      "spDefense": 80,
+      "speed": 90
+    },
+    "typeIds": [
+      "fire",
+      "rock"
+    ],
+    "weightKg": 168
+  },
+  {
+    "abilityIds": [
+      "ability-028",
+      "ability-039",
+      "ability-098"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0065000",
+    "identity": true,
+    "name": "Alakazam",
+    "sex": "mixed",
+    "speciesId": "species-065",
+    "stats": {
+      "attack": 50,
+      "defense": 45,
+      "hp": 55,
+      "spAttack": 135,
+      "spDefense": 95,
+      "speed": 120
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 48
+  },
+  {
+    "abilityIds": [
+      "ability-036"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0065001",
+    "identity": true,
+    "name": "Mega-Alakazam",
+    "sex": "mixed",
+    "speciesId": "species-065",
+    "stats": {
+      "attack": 50,
+      "defense": 65,
+      "hp": 55,
+      "spAttack": 175,
+      "spDefense": 105,
+      "speed": 150
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 48
+  },
+  {
+    "abilityIds": [
+      "ability-062",
+      "ability-080",
+      "ability-099"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0068000",
+    "identity": true,
+    "name": "Machamp",
+    "sex": "mixed",
+    "speciesId": "species-068",
+    "stats": {
+      "attack": 130,
+      "defense": 80,
+      "hp": 90,
+      "spAttack": 65,
+      "spDefense": 85,
+      "speed": 55
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 130
+  },
+  {
+    "abilityIds": [
+      "ability-034",
+      "ability-082"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0071000",
+    "identity": true,
+    "name": "Victreebel",
+    "sex": "mixed",
+    "speciesId": "species-071",
+    "stats": {
+      "attack": 105,
+      "defense": 65,
+      "hp": 80,
+      "spAttack": 100,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "typeIds": [
+      "grass",
+      "poison"
+    ],
+    "weightKg": 15.5
+  },
+  {
+    "abilityIds": [
+      "ability-215"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0071001",
+    "identity": true,
+    "name": "Mega-Victreebel",
+    "sex": "mixed",
+    "speciesId": "species-071",
+    "stats": {
+      "attack": 125,
+      "defense": 85,
+      "hp": 80,
+      "spAttack": 135,
+      "spDefense": 95,
+      "speed": 70
+    },
+    "typeIds": [
+      "grass",
+      "poison"
+    ],
+    "weightKg": 125.5
+  },
+  {
+    "abilityIds": [
+      "ability-012",
+      "ability-020",
+      "ability-144"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0080000",
+    "identity": true,
+    "name": "Slowbro",
+    "sex": "mixed",
+    "speciesId": "species-080",
+    "stats": {
+      "attack": 75,
+      "defense": 110,
+      "hp": 95,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 30
+    },
+    "typeIds": [
+      "psychic",
+      "water"
+    ],
+    "weightKg": 78.5
+  },
+  {
+    "abilityIds": [
+      "ability-075"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0080001",
+    "identity": true,
+    "name": "Mega-Slowbro",
+    "sex": "mixed",
+    "speciesId": "species-080",
+    "stats": {
+      "attack": 75,
+      "defense": 180,
+      "hp": 95,
+      "spAttack": 130,
+      "spDefense": 80,
+      "speed": 30
+    },
+    "typeIds": [
+      "psychic",
+      "water"
+    ],
+    "weightKg": 120
+  },
+  {
+    "abilityIds": [
+      "ability-020",
+      "ability-144",
+      "ability-259"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0080002",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-080",
+    "stats": {
+      "attack": 100,
+      "defense": 95,
+      "hp": 95,
+      "spAttack": 100,
+      "spDefense": 70,
+      "speed": 30
+    },
+    "typeIds": [
+      "poison",
+      "psychic"
+    ],
+    "weightKg": 70.5
+  },
+  {
+    "abilityIds": [
+      "ability-039",
+      "ability-051",
+      "ability-128"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0083000",
+    "identity": true,
+    "name": "Farfetch’d",
+    "sex": "mixed",
+    "speciesId": "species-083",
+    "stats": {
+      "attack": 90,
+      "defense": 55,
+      "hp": 52,
+      "spAttack": 58,
+      "spDefense": 62,
+      "speed": 60
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ],
+    "weightKg": 15
+  },
+  {
+    "abilityIds": [
+      "ability-130"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0094000",
+    "identity": true,
+    "name": "Gengar",
+    "sex": "mixed",
+    "speciesId": "species-094",
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 60,
+      "spAttack": 130,
+      "spDefense": 75,
+      "speed": 110
+    },
+    "typeIds": [
+      "ghost",
+      "poison"
+    ],
+    "weightKg": 40.5
+  },
+  {
+    "abilityIds": [
+      "ability-023"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0094001",
+    "identity": true,
+    "name": "Mega-Gengar",
+    "sex": "mixed",
+    "speciesId": "species-094",
+    "stats": {
+      "attack": 65,
+      "defense": 80,
+      "hp": 60,
+      "spAttack": 170,
+      "spDefense": 95,
+      "speed": 130
+    },
+    "typeIds": [
+      "ghost",
+      "poison"
+    ],
+    "weightKg": 40.5
+  },
+  {
+    "abilityIds": [
+      "ability-039",
+      "ability-048",
+      "ability-113"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0115000",
+    "identity": true,
+    "name": "Kangaskhan",
+    "sex": "female",
+    "speciesId": "species-115",
+    "stats": {
+      "attack": 95,
+      "defense": 80,
+      "hp": 105,
+      "spAttack": 40,
+      "spDefense": 80,
+      "speed": 90
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 80
+  },
+  {
+    "abilityIds": [
+      "ability-185"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0115001",
+    "identity": true,
+    "name": "Mega-Kangaskhan",
+    "sex": "female",
+    "speciesId": "species-115",
+    "stats": {
+      "attack": 125,
+      "defense": 100,
+      "hp": 105,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 100
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 100
+  },
+  {
+    "abilityIds": [
+      "ability-030",
+      "ability-035",
+      "ability-148"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0121000",
+    "identity": true,
+    "name": "Starmie",
+    "sex": "genderless",
+    "speciesId": "species-121",
+    "stats": {
+      "attack": 75,
+      "defense": 85,
+      "hp": 60,
+      "spAttack": 100,
+      "spDefense": 85,
+      "speed": 115
+    },
+    "typeIds": [
+      "psychic",
+      "water"
+    ],
+    "weightKg": 80
+  },
+  {
+    "abilityIds": [
+      "ability-037"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0121001",
+    "identity": true,
+    "name": "Mega-Starmie",
+    "sex": "genderless",
+    "speciesId": "species-121",
+    "stats": {
+      "attack": 100,
+      "defense": 105,
+      "hp": 60,
+      "spAttack": 130,
+      "spDefense": 105,
+      "speed": 120
+    },
+    "typeIds": [
+      "psychic",
+      "water"
+    ],
+    "weightKg": 80
+  },
+  {
+    "abilityIds": [
+      "ability-043",
+      "ability-101",
+      "ability-111"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0122000",
+    "identity": true,
+    "name": "Mr. Mime",
+    "sex": "mixed",
+    "speciesId": "species-122",
+    "stats": {
+      "attack": 45,
+      "defense": 65,
+      "hp": 40,
+      "spAttack": 100,
+      "spDefense": 120,
+      "speed": 90
+    },
+    "typeIds": [
+      "fairy",
+      "psychic"
+    ],
+    "weightKg": 54.5
+  },
+  {
+    "abilityIds": [
+      "ability-052",
+      "ability-104",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0127000",
+    "identity": true,
+    "name": "Pinsir",
+    "sex": "mixed",
+    "speciesId": "species-127",
+    "stats": {
+      "attack": 125,
+      "defense": 100,
+      "hp": 65,
+      "spAttack": 55,
+      "spDefense": 70,
+      "speed": 85
+    },
+    "typeIds": [
+      "bug"
+    ],
+    "weightKg": 55
+  },
+  {
+    "abilityIds": [
+      "ability-184"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0127001",
+    "identity": true,
+    "name": "Mega-Pinsir",
+    "sex": "mixed",
+    "speciesId": "species-127",
+    "stats": {
+      "attack": 155,
+      "defense": 120,
+      "hp": 65,
+      "spAttack": 65,
+      "spDefense": 90,
+      "speed": 105
+    },
+    "typeIds": [
+      "bug",
+      "flying"
+    ],
+    "weightKg": 59
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-083",
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0128000",
+    "identity": true,
+    "name": "Tauros",
+    "sex": "male",
+    "speciesId": "species-128",
+    "stats": {
+      "attack": 100,
+      "defense": 95,
+      "hp": 75,
+      "spAttack": 40,
+      "spDefense": 70,
+      "speed": 110
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 88.4
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-083",
+      "ability-291"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0128001",
+    "identity": true,
+    "sex": "male",
+    "speciesId": "species-128",
+    "stats": {
+      "attack": 110,
+      "defense": 105,
+      "hp": 75,
+      "spAttack": 30,
+      "spDefense": 70,
+      "speed": 100
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 115
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-083",
+      "ability-291"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0128002",
+    "identity": true,
+    "sex": "male",
+    "speciesId": "species-128",
+    "stats": {
+      "attack": 110,
+      "defense": 105,
+      "hp": 75,
+      "spAttack": 30,
+      "spDefense": 70,
+      "speed": 100
+    },
+    "typeIds": [
+      "fighting",
+      "fire"
+    ],
+    "weightKg": 85
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-083",
+      "ability-291"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0128003",
+    "identity": true,
+    "sex": "male",
+    "speciesId": "species-128",
+    "stats": {
+      "attack": 110,
+      "defense": 105,
+      "hp": 75,
+      "spAttack": 30,
+      "spDefense": 70,
+      "speed": 100
+    },
+    "typeIds": [
+      "fighting",
+      "water"
+    ],
+    "weightKg": 110
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0130000",
+    "identity": true,
+    "name": "Gyarados",
+    "sex": "mixed",
+    "speciesId": "species-130",
+    "stats": {
+      "attack": 125,
+      "defense": 79,
+      "hp": 95,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 81
+    },
+    "typeIds": [
+      "flying",
+      "water"
+    ],
+    "weightKg": 235
+  },
+  {
+    "abilityIds": [
+      "ability-104"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0130001",
+    "identity": true,
+    "name": "Mega-Gyarados",
+    "sex": "mixed",
+    "speciesId": "species-130",
+    "stats": {
+      "attack": 155,
+      "defense": 109,
+      "hp": 95,
+      "spAttack": 70,
+      "spDefense": 130,
+      "speed": 81
+    },
+    "typeIds": [
+      "dark",
+      "water"
+    ],
+    "weightKg": 305
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-150"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0132000",
+    "identity": true,
+    "name": "Ditto",
+    "sex": "genderless",
+    "speciesId": "species-132",
+    "stats": {
+      "attack": 48,
+      "defense": 48,
+      "hp": 48,
+      "spAttack": 48,
+      "spDefense": 48,
+      "speed": 48
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 4
+  },
+  {
+    "abilityIds": [
+      "ability-011",
+      "ability-093"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0134000",
+    "identity": true,
+    "name": "Vaporeon",
+    "sex": "mixed",
+    "speciesId": "species-134",
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 130,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 65
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 29
+  },
+  {
+    "abilityIds": [
+      "ability-010",
+      "ability-095"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0135000",
+    "identity": true,
+    "name": "Jolteon",
+    "sex": "mixed",
+    "speciesId": "species-135",
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 130
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 24.5
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-062"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0136000",
+    "identity": true,
+    "name": "Flareon",
+    "sex": "mixed",
+    "speciesId": "species-136",
+    "stats": {
+      "attack": 130,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 95,
+      "spDefense": 110,
+      "speed": 65
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 25
+  },
+  {
+    "abilityIds": [
+      "ability-046",
+      "ability-069",
+      "ability-127"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0142000",
+    "identity": true,
+    "name": "Aerodactyl",
+    "sex": "mixed",
+    "speciesId": "species-142",
+    "stats": {
+      "attack": 105,
+      "defense": 65,
+      "hp": 80,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 130
+    },
+    "typeIds": [
+      "flying",
+      "rock"
+    ],
+    "weightKg": 59
+  },
+  {
+    "abilityIds": [
+      "ability-181"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0142001",
+    "identity": true,
+    "name": "Mega-Aerodactyl",
+    "sex": "mixed",
+    "speciesId": "species-142",
+    "stats": {
+      "attack": 135,
+      "defense": 85,
+      "hp": 80,
+      "spAttack": 70,
+      "spDefense": 95,
+      "speed": 150
+    },
+    "typeIds": [
+      "flying",
+      "rock"
+    ],
+    "weightKg": 79
+  },
+  {
+    "abilityIds": [
+      "ability-017",
+      "ability-047",
+      "ability-082"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0143000",
+    "identity": true,
+    "name": "Snorlax",
+    "sex": "mixed",
+    "speciesId": "species-143",
+    "stats": {
+      "attack": 110,
+      "defense": 65,
+      "hp": 160,
+      "spAttack": 65,
+      "spDefense": 110,
+      "speed": 30
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 460
+  },
+  {
+    "abilityIds": [
+      "ability-039",
+      "ability-136"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0149000",
+    "identity": true,
+    "name": "Dragonite",
+    "sex": "mixed",
+    "speciesId": "species-149",
+    "stats": {
+      "attack": 134,
+      "defense": 95,
+      "hp": 91,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    },
+    "typeIds": [
+      "dragon",
+      "flying"
+    ],
+    "weightKg": 210
+  },
+  {
+    "abilityIds": [
+      "ability-136"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0149001",
+    "identity": true,
+    "name": "Mega-Dragonite",
+    "sex": "mixed",
+    "speciesId": "species-149",
+    "stats": {
+      "attack": 124,
+      "defense": 115,
+      "hp": 91,
+      "spAttack": 145,
+      "spDefense": 125,
+      "speed": 100
+    },
+    "typeIds": [
+      "dragon",
+      "flying"
+    ],
+    "weightKg": 290
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-102"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0154000",
+    "identity": true,
+    "name": "Meganium",
+    "sex": "mixed",
+    "speciesId": "species-154",
+    "stats": {
+      "attack": 82,
+      "defense": 100,
+      "hp": 80,
+      "spAttack": 83,
+      "spDefense": 100,
+      "speed": 80
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 100.5
+  },
+  {
+    "abilityIds": [
+      "ability-315"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0154001",
+    "identity": true,
+    "name": "Mega-Meganium",
+    "sex": "mixed",
+    "speciesId": "species-154",
+    "stats": {
+      "attack": 92,
+      "defense": 115,
+      "hp": 80,
+      "spAttack": 143,
+      "spDefense": 115,
+      "speed": 80
+    },
+    "typeIds": [
+      "fairy",
+      "grass"
+    ],
+    "weightKg": 201
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-066"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0157000",
+    "identity": true,
+    "name": "Typhlosion",
+    "sex": "mixed",
+    "speciesId": "species-157",
+    "stats": {
+      "attack": 84,
+      "defense": 78,
+      "hp": 78,
+      "spAttack": 109,
+      "spDefense": 85,
+      "speed": 100
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 79.5
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-119"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0157001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-157",
+    "stats": {
+      "attack": 84,
+      "defense": 78,
+      "hp": 73,
+      "spAttack": 119,
+      "spDefense": 85,
+      "speed": 95
+    },
+    "typeIds": [
+      "fire",
+      "ghost"
+    ],
+    "weightKg": 69.8
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0160000",
+    "identity": true,
+    "name": "Feraligatr",
+    "sex": "mixed",
+    "speciesId": "species-160",
+    "stats": {
+      "attack": 105,
+      "defense": 100,
+      "hp": 85,
+      "spAttack": 79,
+      "spDefense": 83,
+      "speed": 78
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 88.8
+  },
+  {
+    "abilityIds": [
+      "ability-312"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0160001",
+    "identity": true,
+    "name": "Mega-Feraligatr",
+    "sex": "mixed",
+    "speciesId": "species-160",
+    "stats": {
+      "attack": 160,
+      "defense": 125,
+      "hp": 85,
+      "spAttack": 89,
+      "spDefense": 93,
+      "speed": 78
+    },
+    "typeIds": [
+      "dragon",
+      "water"
+    ],
+    "weightKg": 108.8
+  },
+  {
+    "abilityIds": [
+      "ability-015",
+      "ability-068",
+      "ability-097"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0168000",
+    "identity": true,
+    "name": "Ariados",
+    "sex": "mixed",
+    "speciesId": "species-168",
+    "stats": {
+      "attack": 90,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 40
+    },
+    "typeIds": [
+      "bug",
+      "poison"
+    ],
+    "weightKg": 33.5
+  },
+  {
+    "abilityIds": [
+      "ability-009",
+      "ability-057"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0181000",
+    "identity": true,
+    "name": "Ampharos",
+    "sex": "mixed",
+    "speciesId": "species-181",
+    "stats": {
+      "attack": 75,
+      "defense": 85,
+      "hp": 90,
+      "spAttack": 115,
+      "spDefense": 90,
+      "speed": 55
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 61.5
+  },
+  {
+    "abilityIds": [
+      "ability-104"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0181001",
+    "identity": true,
+    "name": "Mega-Ampharos",
+    "sex": "mixed",
+    "speciesId": "species-181",
+    "stats": {
+      "attack": 95,
+      "defense": 105,
+      "hp": 90,
+      "spAttack": 165,
+      "spDefense": 110,
+      "speed": 45
+    },
+    "typeIds": [
+      "dragon",
+      "electric"
+    ],
+    "weightKg": 61.5
+  },
+  {
+    "abilityIds": [
+      "ability-037",
+      "ability-047",
+      "ability-157"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0184000",
+    "identity": true,
+    "name": "Azumarill",
+    "sex": "mixed",
+    "speciesId": "species-184",
+    "stats": {
+      "attack": 50,
+      "defense": 80,
+      "hp": 100,
+      "spAttack": 60,
+      "spDefense": 80,
+      "speed": 50
+    },
+    "typeIds": [
+      "fairy",
+      "water"
+    ],
+    "weightKg": 28.5
+  },
+  {
+    "abilityIds": [
+      "ability-002",
+      "ability-006",
+      "ability-011"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0186000",
+    "identity": true,
+    "name": "Politoed",
+    "sex": "mixed",
+    "speciesId": "species-186",
+    "stats": {
+      "attack": 75,
+      "defense": 75,
+      "hp": 90,
+      "spAttack": 90,
+      "spDefense": 100,
+      "speed": 70
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 33.9
+  },
+  {
+    "abilityIds": [
+      "ability-028",
+      "ability-156"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0196000",
+    "identity": true,
+    "name": "Espeon",
+    "sex": "mixed",
+    "speciesId": "species-196",
+    "stats": {
+      "attack": 65,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 130,
+      "spDefense": 95,
+      "speed": 110
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 26.5
+  },
+  {
+    "abilityIds": [
+      "ability-028",
+      "ability-039"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0197000",
+    "identity": true,
+    "name": "Umbreon",
+    "sex": "mixed",
+    "speciesId": "species-197",
+    "stats": {
+      "attack": 65,
+      "defense": 110,
+      "hp": 95,
+      "spAttack": 60,
+      "spDefense": 130,
+      "speed": 65
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 27
+  },
+  {
+    "abilityIds": [
+      "ability-012",
+      "ability-020",
+      "ability-144"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0199000",
+    "identity": true,
+    "name": "Slowking",
+    "sex": "mixed",
+    "speciesId": "species-199",
+    "stats": {
+      "attack": 75,
+      "defense": 80,
+      "hp": 95,
+      "spAttack": 100,
+      "spDefense": 110,
+      "speed": 30
+    },
+    "typeIds": [
+      "psychic",
+      "water"
+    ],
+    "weightKg": 79.5
+  },
+  {
+    "abilityIds": [
+      "ability-020",
+      "ability-144",
+      "ability-261"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0199001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-199",
+    "stats": {
+      "attack": 65,
+      "defense": 80,
+      "hp": 95,
+      "spAttack": 110,
+      "spDefense": 110,
+      "speed": 30
+    },
+    "typeIds": [
+      "poison",
+      "psychic"
+    ],
+    "weightKg": 79.5
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-142"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0205000",
+    "identity": true,
+    "name": "Forretress",
+    "sex": "mixed",
+    "speciesId": "species-205",
+    "stats": {
+      "attack": 90,
+      "defense": 140,
+      "hp": 75,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 40
+    },
+    "typeIds": [
+      "bug",
+      "steel"
+    ],
+    "weightKg": 125.8
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-069",
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0208000",
+    "identity": true,
+    "name": "Steelix",
+    "sex": "mixed",
+    "speciesId": "species-208",
+    "stats": {
+      "attack": 85,
+      "defense": 200,
+      "hp": 75,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 30
+    },
+    "typeIds": [
+      "ground",
+      "steel"
+    ],
+    "weightKg": 400
+  },
+  {
+    "abilityIds": [
+      "ability-159"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0208001",
+    "identity": true,
+    "name": "Mega-Steelix",
+    "sex": "mixed",
+    "speciesId": "species-208",
+    "stats": {
+      "attack": 125,
+      "defense": 230,
+      "hp": 75,
+      "spAttack": 55,
+      "spDefense": 95,
+      "speed": 30
+    },
+    "typeIds": [
+      "ground",
+      "steel"
+    ],
+    "weightKg": 740
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-033",
+      "ability-038"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0211000",
+    "identity": true,
+    "name": "Qwilfish",
+    "sex": "mixed",
+    "speciesId": "species-211",
+    "stats": {
+      "attack": 95,
+      "defense": 85,
+      "hp": 65,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 85
+    },
+    "typeIds": [
+      "poison",
+      "water"
+    ],
+    "weightKg": 3.9
+  },
+  {
+    "abilityIds": [
+      "ability-068",
+      "ability-101",
+      "ability-135"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0212000",
+    "identity": true,
+    "name": "Scizor",
+    "sex": "mixed",
+    "speciesId": "species-212",
+    "stats": {
+      "attack": 130,
+      "defense": 100,
+      "hp": 70,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 65
+    },
+    "typeIds": [
+      "bug",
+      "steel"
+    ],
+    "weightKg": 118
+  },
+  {
+    "abilityIds": [
+      "ability-101"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0212001",
+    "identity": true,
+    "name": "Mega-Scizor",
+    "sex": "mixed",
+    "speciesId": "species-212",
+    "stats": {
+      "attack": 150,
+      "defense": 140,
+      "hp": 70,
+      "spAttack": 65,
+      "spDefense": 100,
+      "speed": 75
+    },
+    "typeIds": [
+      "bug",
+      "steel"
+    ],
+    "weightKg": 125
+  },
+  {
+    "abilityIds": [
+      "ability-062",
+      "ability-068",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0214000",
+    "identity": true,
+    "name": "Heracross",
+    "sex": "mixed",
+    "speciesId": "species-214",
+    "stats": {
+      "attack": 125,
+      "defense": 75,
+      "hp": 80,
+      "spAttack": 40,
+      "spDefense": 95,
+      "speed": 85
+    },
+    "typeIds": [
+      "bug",
+      "fighting"
+    ],
+    "weightKg": 54
+  },
+  {
+    "abilityIds": [
+      "ability-092"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0214001",
+    "identity": true,
+    "name": "Mega-Heracross",
+    "sex": "mixed",
+    "speciesId": "species-214",
+    "stats": {
+      "attack": 185,
+      "defense": 115,
+      "hp": 80,
+      "spAttack": 40,
+      "spDefense": 105,
+      "speed": 75
+    },
+    "typeIds": [
+      "bug",
+      "fighting"
+    ],
+    "weightKg": 62.5
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-051",
+      "ability-133"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0227000",
+    "identity": true,
+    "name": "Skarmory",
+    "sex": "mixed",
+    "speciesId": "species-227",
+    "stats": {
+      "attack": 80,
+      "defense": 140,
+      "hp": 65,
+      "spAttack": 40,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "typeIds": [
+      "flying",
+      "steel"
+    ],
+    "weightKg": 50.5
+  },
+  {
+    "abilityIds": [
+      "ability-242"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0227001",
+    "identity": true,
+    "name": "Mega-Skarmory",
+    "sex": "mixed",
+    "speciesId": "species-227",
+    "stats": {
+      "attack": 140,
+      "defense": 110,
+      "hp": 65,
+      "spAttack": 40,
+      "spDefense": 100,
+      "speed": 110
+    },
+    "typeIds": [
+      "flying",
+      "steel"
+    ],
+    "weightKg": 40.4
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-048",
+      "ability-127"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0229000",
+    "identity": true,
+    "name": "Houndoom",
+    "sex": "mixed",
+    "speciesId": "species-229",
+    "stats": {
+      "attack": 90,
+      "defense": 50,
+      "hp": 75,
+      "spAttack": 110,
+      "spDefense": 80,
+      "speed": 95
+    },
+    "typeIds": [
+      "dark",
+      "fire"
+    ],
+    "weightKg": 35
+  },
+  {
+    "abilityIds": [
+      "ability-094"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0229001",
+    "identity": true,
+    "name": "Mega-Houndoom",
+    "sex": "mixed",
+    "speciesId": "species-229",
+    "stats": {
+      "attack": 90,
+      "defense": 90,
+      "hp": 75,
+      "spAttack": 140,
+      "spDefense": 90,
+      "speed": 115
+    },
+    "typeIds": [
+      "dark",
+      "fire"
+    ],
+    "weightKg": 49.5
+  },
+  {
+    "abilityIds": [
+      "ability-045",
+      "ability-127"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0248000",
+    "identity": true,
+    "name": "Tyranitar",
+    "sex": "mixed",
+    "speciesId": "species-248",
+    "stats": {
+      "attack": 134,
+      "defense": 110,
+      "hp": 100,
+      "spAttack": 95,
+      "spDefense": 100,
+      "speed": 61
+    },
+    "typeIds": [
+      "dark",
+      "rock"
+    ],
+    "weightKg": 202
+  },
+  {
+    "abilityIds": [
+      "ability-045"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0248001",
+    "identity": true,
+    "name": "Mega-Tyranitar",
+    "sex": "mixed",
+    "speciesId": "species-248",
+    "stats": {
+      "attack": 164,
+      "defense": 150,
+      "hp": 100,
+      "spAttack": 95,
+      "spDefense": 120,
+      "speed": 71
+    },
+    "typeIds": [
+      "dark",
+      "rock"
+    ],
+    "weightKg": 255
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-084"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0254000",
+    "identity": true,
+    "name": "Sceptile",
+    "sex": "mixed",
+    "speciesId": "species-254",
+    "stats": {
+      "attack": 85,
+      "defense": 65,
+      "hp": 70,
+      "spAttack": 105,
+      "spDefense": 85,
+      "speed": 120
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 52.2
+  },
+  {
+    "abilityIds": [
+      "ability-031"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0254001",
+    "identity": true,
+    "name": "Mega-Sceptile",
+    "sex": "mixed",
+    "speciesId": "species-254",
+    "stats": {
+      "attack": 110,
+      "defense": 75,
+      "hp": 70,
+      "spAttack": 145,
+      "spDefense": 85,
+      "speed": 145
+    },
+    "typeIds": [
+      "dragon",
+      "grass"
+    ],
+    "weightKg": 55.2
+  },
+  {
+    "abilityIds": [
+      "ability-003",
+      "ability-066"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0257000",
+    "identity": true,
+    "name": "Blaziken",
+    "sex": "mixed",
+    "speciesId": "species-257",
+    "stats": {
+      "attack": 120,
+      "defense": 70,
+      "hp": 80,
+      "spAttack": 110,
+      "spDefense": 70,
+      "speed": 80
+    },
+    "typeIds": [
+      "fighting",
+      "fire"
+    ],
+    "weightKg": 52
+  },
+  {
+    "abilityIds": [
+      "ability-003"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0257001",
+    "identity": true,
+    "name": "Mega-Blaziken",
+    "sex": "mixed",
+    "speciesId": "species-257",
+    "stats": {
+      "attack": 160,
+      "defense": 80,
+      "hp": 80,
+      "spAttack": 130,
+      "spDefense": 80,
+      "speed": 100
+    },
+    "typeIds": [
+      "fighting",
+      "fire"
+    ],
+    "weightKg": 52
+  },
+  {
+    "abilityIds": [
+      "ability-006",
+      "ability-067"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0260000",
+    "identity": true,
+    "name": "Swampert",
+    "sex": "mixed",
+    "speciesId": "species-260",
+    "stats": {
+      "attack": 110,
+      "defense": 90,
+      "hp": 100,
+      "spAttack": 85,
+      "spDefense": 90,
+      "speed": 60
+    },
+    "typeIds": [
+      "ground",
+      "water"
+    ],
+    "weightKg": 81.9
+  },
+  {
+    "abilityIds": [
+      "ability-033"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0260001",
+    "identity": true,
+    "name": "Mega-Swampert",
+    "sex": "mixed",
+    "speciesId": "species-260",
+    "stats": {
+      "attack": 150,
+      "defense": 110,
+      "hp": 100,
+      "spAttack": 95,
+      "spDefense": 110,
+      "speed": 70
+    },
+    "typeIds": [
+      "ground",
+      "water"
+    ],
+    "weightKg": 102
+  },
+  {
+    "abilityIds": [
+      "ability-002",
+      "ability-044",
+      "ability-051"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0279000",
+    "identity": true,
+    "name": "Pelipper",
+    "sex": "mixed",
+    "speciesId": "species-279",
+    "stats": {
+      "attack": 50,
+      "defense": 100,
+      "hp": 60,
+      "spAttack": 95,
+      "spDefense": 70,
+      "speed": 65
+    },
+    "typeIds": [
+      "flying",
+      "water"
+    ],
+    "weightKg": 28
+  },
+  {
+    "abilityIds": [
+      "ability-028",
+      "ability-036",
+      "ability-140"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0282000",
+    "identity": true,
+    "name": "Gardevoir",
+    "sex": "mixed",
+    "speciesId": "species-282",
+    "stats": {
+      "attack": 65,
+      "defense": 65,
+      "hp": 68,
+      "spAttack": 125,
+      "spDefense": 115,
+      "speed": 80
+    },
+    "typeIds": [
+      "fairy",
+      "psychic"
+    ],
+    "weightKg": 48.4
+  },
+  {
+    "abilityIds": [
+      "ability-182"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0282001",
+    "identity": true,
+    "name": "Mega-Gardevoir",
+    "sex": "mixed",
+    "speciesId": "species-282",
+    "stats": {
+      "attack": 85,
+      "defense": 65,
+      "hp": 68,
+      "spAttack": 165,
+      "spDefense": 135,
+      "speed": 100
+    },
+    "typeIds": [
+      "fairy",
+      "psychic"
+    ],
+    "weightKg": 48.4
+  },
+  {
+    "abilityIds": [
+      "ability-051",
+      "ability-100",
+      "ability-158"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0302000",
+    "identity": true,
+    "name": "Sableye",
+    "sex": "mixed",
+    "speciesId": "species-302",
+    "stats": {
+      "attack": 75,
+      "defense": 75,
+      "hp": 50,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 50
+    },
+    "typeIds": [
+      "dark",
+      "ghost"
+    ],
+    "weightKg": 11
+  },
+  {
+    "abilityIds": [
+      "ability-156"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0302001",
+    "identity": true,
+    "name": "Mega-Sableye",
+    "sex": "mixed",
+    "speciesId": "species-302",
+    "stats": {
+      "attack": 85,
+      "defense": 125,
+      "hp": 50,
+      "spAttack": 85,
+      "spDefense": 115,
+      "speed": 20
+    },
+    "typeIds": [
+      "dark",
+      "ghost"
+    ],
+    "weightKg": 161
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-052",
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0303000",
+    "identity": true,
+    "name": "Mawile",
+    "sex": "mixed",
+    "speciesId": "species-303",
+    "stats": {
+      "attack": 85,
+      "defense": 85,
+      "hp": 50,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 50
+    },
+    "typeIds": [
+      "fairy",
+      "steel"
+    ],
+    "weightKg": 11.5
+  },
+  {
+    "abilityIds": [
+      "ability-037"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0303001",
+    "identity": true,
+    "name": "Mega-Mawile",
+    "sex": "mixed",
+    "speciesId": "species-303",
+    "stats": {
+      "attack": 105,
+      "defense": 125,
+      "hp": 50,
+      "spAttack": 55,
+      "spDefense": 95,
+      "speed": 50
+    },
+    "typeIds": [
+      "fairy",
+      "steel"
+    ],
+    "weightKg": 23.5
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-069",
+      "ability-134"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0306000",
+    "identity": true,
+    "name": "Aggron",
+    "sex": "mixed",
+    "speciesId": "species-306",
+    "stats": {
+      "attack": 110,
+      "defense": 180,
+      "hp": 70,
+      "spAttack": 60,
+      "spDefense": 60,
+      "speed": 50
+    },
+    "typeIds": [
+      "rock",
+      "steel"
+    ],
+    "weightKg": 360
+  },
+  {
+    "abilityIds": [
+      "ability-111"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0306001",
+    "identity": true,
+    "name": "Mega-Aggron",
+    "sex": "mixed",
+    "speciesId": "species-306",
+    "stats": {
+      "attack": 140,
+      "defense": 230,
+      "hp": 70,
+      "spAttack": 60,
+      "spDefense": 80,
+      "speed": 50
+    },
+    "typeIds": [
+      "steel"
+    ],
+    "weightKg": 395
+  },
+  {
+    "abilityIds": [
+      "ability-074",
+      "ability-140"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0308000",
+    "identity": true,
+    "name": "Medicham",
+    "sex": "mixed",
+    "speciesId": "species-308",
+    "stats": {
+      "attack": 60,
+      "defense": 75,
+      "hp": 60,
+      "spAttack": 60,
+      "spDefense": 75,
+      "speed": 80
+    },
+    "typeIds": [
+      "fighting",
+      "psychic"
+    ],
+    "weightKg": 31.5
+  },
+  {
+    "abilityIds": [
+      "ability-074"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0308001",
+    "identity": true,
+    "name": "Mega-Medicham",
+    "sex": "mixed",
+    "speciesId": "species-308",
+    "stats": {
+      "attack": 100,
+      "defense": 85,
+      "hp": 60,
+      "spAttack": 80,
+      "spDefense": 85,
+      "speed": 100
+    },
+    "typeIds": [
+      "fighting",
+      "psychic"
+    ],
+    "weightKg": 31.5
+  },
+  {
+    "abilityIds": [
+      "ability-009",
+      "ability-031",
+      "ability-058"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0310000",
+    "identity": true,
+    "name": "Manectric",
+    "sex": "mixed",
+    "speciesId": "species-310",
+    "stats": {
+      "attack": 75,
+      "defense": 60,
+      "hp": 70,
+      "spAttack": 105,
+      "spDefense": 60,
+      "speed": 105
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 40.2
+  },
+  {
+    "abilityIds": [
+      "ability-022"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0310001",
+    "identity": true,
+    "name": "Mega-Manectric",
+    "sex": "mixed",
+    "speciesId": "species-310",
+    "stats": {
+      "attack": 75,
+      "defense": 80,
+      "hp": 70,
+      "spAttack": 135,
+      "spDefense": 80,
+      "speed": 135
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 44
+  },
+  {
+    "abilityIds": [
+      "ability-060",
+      "ability-064",
+      "ability-082"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0317000",
+    "identity": true,
+    "name": "Swalot",
+    "sex": "mixed",
+    "speciesId": "species-317",
+    "stats": {
+      "attack": 73,
+      "defense": 83,
+      "hp": 100,
+      "spAttack": 73,
+      "spDefense": 83,
+      "speed": 55
+    },
+    "typeIds": [
+      "poison"
+    ],
+    "weightKg": 80
+  },
+  {
+    "abilityIds": [
+      "ability-003",
+      "ability-024"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0319000",
+    "identity": true,
+    "name": "Sharpedo",
+    "sex": "mixed",
+    "speciesId": "species-319",
+    "stats": {
+      "attack": 120,
+      "defense": 40,
+      "hp": 70,
+      "spAttack": 95,
+      "spDefense": 40,
+      "speed": 95
+    },
+    "typeIds": [
+      "dark",
+      "water"
+    ],
+    "weightKg": 88.8
+  },
+  {
+    "abilityIds": [
+      "ability-173"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0319001",
+    "identity": true,
+    "name": "Mega-Sharpedo",
+    "sex": "mixed",
+    "speciesId": "species-319",
+    "stats": {
+      "attack": 140,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 110,
+      "spDefense": 65,
+      "speed": 105
+    },
+    "typeIds": [
+      "dark",
+      "water"
+    ],
+    "weightKg": 130.3
+  },
+  {
+    "abilityIds": [
+      "ability-040",
+      "ability-083",
+      "ability-116"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0323000",
+    "identity": true,
+    "name": "Camerupt",
+    "sex": "mixed",
+    "speciesId": "species-323",
+    "stats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 105,
+      "spDefense": 75,
+      "speed": 40
+    },
+    "typeIds": [
+      "fire",
+      "ground"
+    ],
+    "weightKg": 220
+  },
+  {
+    "abilityIds": [
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0323001",
+    "identity": true,
+    "name": "Mega-Camerupt",
+    "sex": "mixed",
+    "speciesId": "species-323",
+    "stats": {
+      "attack": 120,
+      "defense": 100,
+      "hp": 70,
+      "spAttack": 145,
+      "spDefense": 105,
+      "speed": 20
+    },
+    "typeIds": [
+      "fire",
+      "ground"
+    ],
+    "weightKg": 320.5
+  },
+  {
+    "abilityIds": [
+      "ability-070",
+      "ability-073",
+      "ability-075"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0324000",
+    "identity": true,
+    "name": "Torkoal",
+    "sex": "mixed",
+    "speciesId": "species-324",
+    "stats": {
+      "attack": 85,
+      "defense": 140,
+      "hp": 70,
+      "spAttack": 85,
+      "spDefense": 70,
+      "speed": 20
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 80.4
+  },
+  {
+    "abilityIds": [
+      "ability-013",
+      "ability-030"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0334000",
+    "identity": true,
+    "name": "Altaria",
+    "sex": "mixed",
+    "speciesId": "species-334",
+    "stats": {
+      "attack": 70,
+      "defense": 90,
+      "hp": 75,
+      "spAttack": 70,
+      "spDefense": 105,
+      "speed": 80
+    },
+    "typeIds": [
+      "dragon",
+      "flying"
+    ],
+    "weightKg": 20.6
+  },
+  {
+    "abilityIds": [
+      "ability-182"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0334001",
+    "identity": true,
+    "name": "Mega-Altaria",
+    "sex": "mixed",
+    "speciesId": "species-334",
+    "stats": {
+      "attack": 110,
+      "defense": 110,
+      "hp": 75,
+      "spAttack": 110,
+      "spDefense": 105,
+      "speed": 80
+    },
+    "typeIds": [
+      "dragon",
+      "fairy"
+    ],
+    "weightKg": 20.6
+  },
+  {
+    "abilityIds": [
+      "ability-056",
+      "ability-063",
+      "ability-172"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0350000",
+    "identity": true,
+    "name": "Milotic",
+    "sex": "mixed",
+    "speciesId": "species-350",
+    "stats": {
+      "attack": 60,
+      "defense": 79,
+      "hp": 95,
+      "spAttack": 100,
+      "spDefense": 125,
+      "speed": 81
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 162
+  },
+  {
+    "abilityIds": [
+      "ability-059"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0351000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-351",
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 0.8
+  },
+  {
+    "abilityIds": [
+      "ability-059"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0351001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-351",
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 0.8
+  },
+  {
+    "abilityIds": [
+      "ability-059"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0351002",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-351",
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 0.8
+  },
+  {
+    "abilityIds": [
+      "ability-059"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0351003",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-351",
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 70,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "typeIds": [
+      "ice"
+    ],
+    "weightKg": 0.8
+  },
+  {
+    "abilityIds": [
+      "ability-015",
+      "ability-119",
+      "ability-130"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0354000",
+    "identity": true,
+    "name": "Banette",
+    "sex": "mixed",
+    "speciesId": "species-354",
+    "stats": {
+      "attack": 115,
+      "defense": 65,
+      "hp": 64,
+      "spAttack": 83,
+      "spDefense": 63,
+      "speed": 65
+    },
+    "typeIds": [
+      "ghost"
+    ],
+    "weightKg": 12.5
+  },
+  {
+    "abilityIds": [
+      "ability-158"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0354001",
+    "identity": true,
+    "name": "Mega-Banette",
+    "sex": "mixed",
+    "speciesId": "species-354",
+    "stats": {
+      "attack": 165,
+      "defense": 75,
+      "hp": 64,
+      "spAttack": 93,
+      "spDefense": 83,
+      "speed": 75
+    },
+    "typeIds": [
+      "ghost"
+    ],
+    "weightKg": 13
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0358000",
+    "identity": true,
+    "name": "Chimecho",
+    "sex": "mixed",
+    "speciesId": "species-358",
+    "stats": {
+      "attack": 50,
+      "defense": 80,
+      "hp": 75,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 65
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 1
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0358001",
+    "identity": true,
+    "name": "Mega-Chimecho",
+    "sex": "mixed",
+    "speciesId": "species-358",
+    "stats": {
+      "attack": 50,
+      "defense": 110,
+      "hp": 75,
+      "spAttack": 135,
+      "spDefense": 120,
+      "speed": 65
+    },
+    "typeIds": [
+      "psychic",
+      "steel"
+    ],
+    "weightKg": 8
+  },
+  {
+    "abilityIds": [
+      "ability-046",
+      "ability-105",
+      "ability-154"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0359000",
+    "identity": true,
+    "name": "Absol",
+    "sex": "mixed",
+    "speciesId": "species-359",
+    "stats": {
+      "attack": 130,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 75,
+      "spDefense": 60,
+      "speed": 75
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 47
+  },
+  {
+    "abilityIds": [
+      "ability-156"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0359001",
+    "identity": true,
+    "name": "Mega-Absol",
+    "sex": "mixed",
+    "speciesId": "species-359",
+    "stats": {
+      "attack": 150,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 115,
+      "spDefense": 60,
+      "speed": 115
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 49
+  },
+  {
+    "abilityIds": [
+      "ability-292"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0359002",
+    "identity": true,
+    "name": "Mega-Absol Z",
+    "sex": "mixed",
+    "speciesId": "species-359",
+    "stats": {
+      "attack": 154,
+      "defense": 60,
+      "hp": 65,
+      "spAttack": 75,
+      "spDefense": 60,
+      "speed": 151
+    },
+    "typeIds": [
+      "dark",
+      "ghost"
+    ],
+    "weightKg": 49
+  },
+  {
+    "abilityIds": [
+      "ability-039",
+      "ability-115",
+      "ability-141"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0362000",
+    "identity": true,
+    "name": "Glalie",
+    "sex": "mixed",
+    "speciesId": "species-362",
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 80,
+      "spAttack": 80,
+      "spDefense": 80,
+      "speed": 80
+    },
+    "typeIds": [
+      "ice"
+    ],
+    "weightKg": 256.5
+  },
+  {
+    "abilityIds": [
+      "ability-174"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0362001",
+    "identity": true,
+    "name": "Mega-Glalie",
+    "sex": "mixed",
+    "speciesId": "species-362",
+    "stats": {
+      "attack": 120,
+      "defense": 80,
+      "hp": 80,
+      "spAttack": 120,
+      "spDefense": 80,
+      "speed": 100
+    },
+    "typeIds": [
+      "ice"
+    ],
+    "weightKg": 350.2
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0373000",
+    "identity": true,
+    "name": "Salamence",
+    "sex": "mixed",
+    "speciesId": "species-373",
+    "stats": {
+      "attack": 135,
+      "defense": 80,
+      "hp": 95,
+      "spAttack": 110,
+      "spDefense": 80,
+      "speed": 100
+    },
+    "typeIds": [
+      "dragon",
+      "flying"
+    ],
+    "weightKg": 102.6
+  },
+  {
+    "abilityIds": [
+      "ability-184"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0373001",
+    "identity": true,
+    "name": "Mega-Salamence",
+    "sex": "mixed",
+    "speciesId": "species-373",
+    "stats": {
+      "attack": 145,
+      "defense": 130,
+      "hp": 95,
+      "spAttack": 120,
+      "spDefense": 90,
+      "speed": 120
+    },
+    "typeIds": [
+      "dragon",
+      "flying"
+    ],
+    "weightKg": 112.6
+  },
+  {
+    "abilityIds": [
+      "ability-029",
+      "ability-135"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0376000",
+    "identity": true,
+    "name": "Metagross",
+    "sex": "genderless",
+    "speciesId": "species-376",
+    "stats": {
+      "attack": 135,
+      "defense": 130,
+      "hp": 80,
+      "spAttack": 95,
+      "spDefense": 90,
+      "speed": 70
+    },
+    "typeIds": [
+      "psychic",
+      "steel"
+    ],
+    "weightKg": 550
+  },
+  {
+    "abilityIds": [
+      "ability-181"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0376001",
+    "identity": true,
+    "name": "Mega-Metagross",
+    "sex": "genderless",
+    "speciesId": "species-376",
+    "stats": {
+      "attack": 145,
+      "defense": 150,
+      "hp": 80,
+      "spAttack": 105,
+      "spDefense": 110,
+      "speed": 110
+    },
+    "typeIds": [
+      "psychic",
+      "steel"
+    ],
+    "weightKg": 942.9
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-075"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0389000",
+    "identity": true,
+    "name": "Torterra",
+    "sex": "mixed",
+    "speciesId": "species-389",
+    "stats": {
+      "attack": 109,
+      "defense": 105,
+      "hp": 95,
+      "spAttack": 75,
+      "spDefense": 85,
+      "speed": 56
+    },
+    "typeIds": [
+      "grass",
+      "ground"
+    ],
+    "weightKg": 310
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-089"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0392000",
+    "identity": true,
+    "name": "Infernape",
+    "sex": "mixed",
+    "speciesId": "species-392",
+    "stats": {
+      "attack": 104,
+      "defense": 71,
+      "hp": 76,
+      "spAttack": 104,
+      "spDefense": 71,
+      "speed": 108
+    },
+    "typeIds": [
+      "fighting",
+      "fire"
+    ],
+    "weightKg": 55
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-172"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0395000",
+    "identity": true,
+    "name": "Empoleon",
+    "sex": "mixed",
+    "speciesId": "species-395",
+    "stats": {
+      "attack": 86,
+      "defense": 88,
+      "hp": 84,
+      "spAttack": 111,
+      "spDefense": 101,
+      "speed": 60
+    },
+    "typeIds": [
+      "steel",
+      "water"
+    ],
+    "weightKg": 84.5
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-120"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0398000",
+    "identity": true,
+    "name": "Staraptor",
+    "sex": "mixed",
+    "speciesId": "species-398",
+    "stats": {
+      "attack": 120,
+      "defense": 70,
+      "hp": 85,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 100
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ],
+    "weightKg": 24.9
+  },
+  {
+    "abilityIds": [
+      "ability-126"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0398001",
+    "identity": true,
+    "name": "Mega-Staraptor",
+    "sex": "mixed",
+    "speciesId": "species-398",
+    "stats": {
+      "attack": 140,
+      "defense": 100,
+      "hp": 85,
+      "spAttack": 60,
+      "spDefense": 90,
+      "speed": 110
+    },
+    "typeIds": [
+      "fighting",
+      "flying"
+    ],
+    "weightKg": 50
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-062",
+      "ability-079"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0405000",
+    "identity": true,
+    "name": "Luxray",
+    "sex": "mixed",
+    "speciesId": "species-405",
+    "stats": {
+      "attack": 120,
+      "defense": 79,
+      "hp": 80,
+      "spAttack": 95,
+      "spDefense": 79,
+      "speed": 70
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 42
+  },
+  {
+    "abilityIds": [
+      "ability-030",
+      "ability-038",
+      "ability-101"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0407000",
+    "identity": true,
+    "name": "Roserade",
+    "sex": "mixed",
+    "speciesId": "species-407",
+    "stats": {
+      "attack": 70,
+      "defense": 65,
+      "hp": 60,
+      "spAttack": 125,
+      "spDefense": 105,
+      "speed": 90
+    },
+    "typeIds": [
+      "grass",
+      "poison"
+    ],
+    "weightKg": 14.5
+  },
+  {
+    "abilityIds": [
+      "ability-104",
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0409000",
+    "identity": true,
+    "name": "Rampardos",
+    "sex": "mixed",
+    "speciesId": "species-409",
+    "stats": {
+      "attack": 165,
+      "defense": 60,
+      "hp": 97,
+      "spAttack": 65,
+      "spDefense": 50,
+      "speed": 58
+    },
+    "typeIds": [
+      "rock"
+    ],
+    "weightKg": 102.5
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-043"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0411000",
+    "identity": true,
+    "name": "Bastiodon",
+    "sex": "mixed",
+    "speciesId": "species-411",
+    "stats": {
+      "attack": 52,
+      "defense": 168,
+      "hp": 60,
+      "spAttack": 47,
+      "spDefense": 138,
+      "speed": 30
+    },
+    "typeIds": [
+      "rock",
+      "steel"
+    ],
+    "weightKg": 149.5
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-056",
+      "ability-103"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0428000",
+    "identity": true,
+    "name": "Lopunny",
+    "sex": "mixed",
+    "speciesId": "species-428",
+    "stats": {
+      "attack": 76,
+      "defense": 84,
+      "hp": 65,
+      "spAttack": 54,
+      "spDefense": 96,
+      "speed": 105
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 33.3
+  },
+  {
+    "abilityIds": [
+      "ability-113"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0428001",
+    "identity": true,
+    "name": "Mega-Lopunny",
+    "sex": "mixed",
+    "speciesId": "species-428",
+    "stats": {
+      "attack": 136,
+      "defense": 94,
+      "hp": 65,
+      "spAttack": 54,
+      "spDefense": 96,
+      "speed": 135
+    },
+    "typeIds": [
+      "fighting",
+      "normal"
+    ],
+    "weightKg": 28.3
+  },
+  {
+    "abilityIds": [
+      "ability-046",
+      "ability-151"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0442000",
+    "identity": true,
+    "name": "Spiritomb",
+    "sex": "mixed",
+    "speciesId": "species-442",
+    "stats": {
+      "attack": 92,
+      "defense": 108,
+      "hp": 50,
+      "spAttack": 92,
+      "spDefense": 108,
+      "speed": 35
+    },
+    "typeIds": [
+      "dark",
+      "ghost"
+    ],
+    "weightKg": 108
+  },
+  {
+    "abilityIds": [
+      "ability-008",
+      "ability-024"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0445000",
+    "identity": true,
+    "name": "Garchomp",
+    "sex": "mixed",
+    "speciesId": "species-445",
+    "stats": {
+      "attack": 130,
+      "defense": 95,
+      "hp": 108,
+      "spAttack": 80,
+      "spDefense": 85,
+      "speed": 102
+    },
+    "typeIds": [
+      "dragon",
+      "ground"
+    ],
+    "weightKg": 95
+  },
+  {
+    "abilityIds": [
+      "ability-159"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0445001",
+    "identity": true,
+    "name": "Mega-Garchomp",
+    "sex": "mixed",
+    "speciesId": "species-445",
+    "stats": {
+      "attack": 170,
+      "defense": 115,
+      "hp": 108,
+      "spAttack": 120,
+      "spDefense": 95,
+      "speed": 92
+    },
+    "typeIds": [
+      "dragon",
+      "ground"
+    ],
+    "weightKg": 95
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0445002",
+    "identity": true,
+    "name": "Mega-Garchomp Z",
+    "sex": "mixed",
+    "speciesId": "species-445",
+    "stats": {
+      "attack": 130,
+      "defense": 85,
+      "hp": 108,
+      "spAttack": 141,
+      "spDefense": 85,
+      "speed": 151
+    },
+    "typeIds": [
+      "dragon"
+    ],
+    "weightKg": 99
+  },
+  {
+    "abilityIds": [
+      "ability-039",
+      "ability-080",
+      "ability-154"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0448000",
+    "identity": true,
+    "name": "Lucario",
+    "sex": "mixed",
+    "speciesId": "species-448",
+    "stats": {
+      "attack": 110,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 115,
+      "spDefense": 70,
+      "speed": 90
+    },
+    "typeIds": [
+      "fighting",
+      "steel"
+    ],
+    "weightKg": 54
+  },
+  {
+    "abilityIds": [
+      "ability-091"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0448001",
+    "identity": true,
+    "name": "Mega-Lucario",
+    "sex": "mixed",
+    "speciesId": "species-448",
+    "stats": {
+      "attack": 145,
+      "defense": 88,
+      "hp": 70,
+      "spAttack": 140,
+      "spDefense": 70,
+      "speed": 112
+    },
+    "typeIds": [
+      "fighting",
+      "steel"
+    ],
+    "weightKg": 57.5
+  },
+  {
+    "abilityIds": [
+      "ability-319"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0448002",
+    "identity": true,
+    "name": "Mega-Lucario Z",
+    "sex": "mixed",
+    "speciesId": "species-448",
+    "stats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 164,
+      "spDefense": 70,
+      "speed": 151
+    },
+    "typeIds": [
+      "fighting",
+      "steel"
+    ],
+    "weightKg": 49.4
+  },
+  {
+    "abilityIds": [
+      "ability-045",
+      "ability-159"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0450000",
+    "identity": true,
+    "name": "Hippowdon",
+    "sex": "mixed",
+    "speciesId": "species-450",
+    "stats": {
+      "attack": 112,
+      "defense": 118,
+      "hp": 108,
+      "spAttack": 68,
+      "spDefense": 72,
+      "speed": 47
+    },
+    "typeIds": [
+      "ground"
+    ],
+    "weightKg": 300
+  },
+  {
+    "abilityIds": [
+      "ability-087",
+      "ability-107",
+      "ability-143"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0454000",
+    "identity": true,
+    "name": "Toxicroak",
+    "sex": "mixed",
+    "speciesId": "species-454",
+    "stats": {
+      "attack": 106,
+      "defense": 65,
+      "hp": 83,
+      "spAttack": 86,
+      "spDefense": 65,
+      "speed": 85
+    },
+    "typeIds": [
+      "fighting",
+      "poison"
+    ],
+    "weightKg": 44.4
+  },
+  {
+    "abilityIds": [
+      "ability-043",
+      "ability-117"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0460000",
+    "identity": true,
+    "name": "Abomasnow",
+    "sex": "mixed",
+    "speciesId": "species-460",
+    "stats": {
+      "attack": 92,
+      "defense": 75,
+      "hp": 90,
+      "spAttack": 92,
+      "spDefense": 85,
+      "speed": 60
+    },
+    "typeIds": [
+      "grass",
+      "ice"
+    ],
+    "weightKg": 135.5
+  },
+  {
+    "abilityIds": [
+      "ability-117"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0460001",
+    "identity": true,
+    "name": "Mega-Abomasnow",
+    "sex": "mixed",
+    "speciesId": "species-460",
+    "stats": {
+      "attack": 132,
+      "defense": 105,
+      "hp": 90,
+      "spAttack": 132,
+      "spDefense": 105,
+      "speed": 30
+    },
+    "typeIds": [
+      "grass",
+      "ice"
+    ],
+    "weightKg": 185
+  },
+  {
+    "abilityIds": [
+      "ability-046",
+      "ability-124"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0461000",
+    "identity": true,
+    "name": "Weavile",
+    "sex": "mixed",
+    "speciesId": "species-461",
+    "stats": {
+      "attack": 120,
+      "defense": 65,
+      "hp": 70,
+      "spAttack": 45,
+      "spDefense": 85,
+      "speed": 125
+    },
+    "typeIds": [
+      "dark",
+      "ice"
+    ],
+    "weightKg": 34
+  },
+  {
+    "abilityIds": [
+      "ability-031",
+      "ability-116",
+      "ability-120"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0464000",
+    "identity": true,
+    "name": "Rhyperior",
+    "sex": "mixed",
+    "speciesId": "species-464",
+    "stats": {
+      "attack": 140,
+      "defense": 130,
+      "hp": 115,
+      "spAttack": 55,
+      "spDefense": 55,
+      "speed": 40
+    },
+    "typeIds": [
+      "ground",
+      "rock"
+    ],
+    "weightKg": 282.8
+  },
+  {
+    "abilityIds": [
+      "ability-034",
+      "ability-102"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0470000",
+    "identity": true,
+    "name": "Leafeon",
+    "sex": "mixed",
+    "speciesId": "species-470",
+    "stats": {
+      "attack": 110,
+      "defense": 130,
+      "hp": 65,
+      "spAttack": 60,
+      "spDefense": 65,
+      "speed": 95
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 25.5
+  },
+  {
+    "abilityIds": [
+      "ability-081",
+      "ability-115"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0471000",
+    "identity": true,
+    "name": "Glaceon",
+    "sex": "mixed",
+    "speciesId": "species-471",
+    "stats": {
+      "attack": 60,
+      "defense": 110,
+      "hp": 65,
+      "spAttack": 130,
+      "spDefense": 95,
+      "speed": 65
+    },
+    "typeIds": [
+      "ice"
+    ],
+    "weightKg": 25.9
+  },
+  {
+    "abilityIds": [
+      "ability-008",
+      "ability-052",
+      "ability-090"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0472000",
+    "identity": true,
+    "name": "Gliscor",
+    "sex": "mixed",
+    "speciesId": "species-472",
+    "stats": {
+      "attack": 95,
+      "defense": 125,
+      "hp": 75,
+      "spAttack": 45,
+      "spDefense": 75,
+      "speed": 95
+    },
+    "typeIds": [
+      "flying",
+      "ground"
+    ],
+    "weightKg": 42.5
+  },
+  {
+    "abilityIds": [
+      "ability-012",
+      "ability-047",
+      "ability-081"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0473000",
+    "identity": true,
+    "name": "Mamoswine",
+    "sex": "mixed",
+    "speciesId": "species-473",
+    "stats": {
+      "attack": 130,
+      "defense": 80,
+      "hp": 110,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 80
+    },
+    "typeIds": [
+      "ground",
+      "ice"
+    ],
+    "weightKg": 291
+  },
+  {
+    "abilityIds": [
+      "ability-080",
+      "ability-154",
+      "ability-292"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0475000",
+    "identity": true,
+    "name": "Gallade",
+    "sex": "male",
+    "speciesId": "species-475",
+    "stats": {
+      "attack": 125,
+      "defense": 65,
+      "hp": 68,
+      "spAttack": 65,
+      "spDefense": 115,
+      "speed": 80
+    },
+    "typeIds": [
+      "fighting",
+      "psychic"
+    ],
+    "weightKg": 52
+  },
+  {
+    "abilityIds": [
+      "ability-039"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0475001",
+    "identity": true,
+    "name": "Mega-Gallade",
+    "sex": "male",
+    "speciesId": "species-475",
+    "stats": {
+      "attack": 165,
+      "defense": 95,
+      "hp": 68,
+      "spAttack": 65,
+      "spDefense": 115,
+      "speed": 110
+    },
+    "typeIds": [
+      "fighting",
+      "psychic"
+    ],
+    "weightKg": 56.4
+  },
+  {
+    "abilityIds": [
+      "ability-081",
+      "ability-130"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0478000",
+    "identity": true,
+    "name": "Froslass",
+    "sex": "female",
+    "speciesId": "species-478",
+    "stats": {
+      "attack": 80,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 80,
+      "spDefense": 70,
+      "speed": 110
+    },
+    "typeIds": [
+      "ghost",
+      "ice"
+    ],
+    "weightKg": 26.6
+  },
+  {
+    "abilityIds": [
+      "ability-117"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0478001",
+    "identity": true,
+    "name": "Mega-Froslass",
+    "sex": "female",
+    "speciesId": "species-478",
+    "stats": {
+      "attack": 80,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 140,
+      "spDefense": 100,
+      "speed": 120
+    },
+    "typeIds": [
+      "ghost",
+      "ice"
+    ],
+    "weightKg": 29.6
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0479000",
+    "identity": true,
+    "sex": "genderless",
+    "speciesId": "species-479",
+    "stats": {
+      "attack": 50,
+      "defense": 77,
+      "hp": 50,
+      "spAttack": 95,
+      "spDefense": 77,
+      "speed": 91
+    },
+    "typeIds": [
+      "electric",
+      "ghost"
+    ],
+    "weightKg": 0.3
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0479001",
+    "identity": true,
+    "name": "Rotom Calor",
+    "sex": "genderless",
+    "speciesId": "species-479",
+    "stats": {
+      "attack": 65,
+      "defense": 107,
+      "hp": 50,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    },
+    "typeIds": [
+      "electric",
+      "fire"
+    ],
+    "weightKg": 0.3
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0479002",
+    "identity": true,
+    "name": "Rotom Lavado",
+    "sex": "genderless",
+    "speciesId": "species-479",
+    "stats": {
+      "attack": 65,
+      "defense": 107,
+      "hp": 50,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    },
+    "typeIds": [
+      "electric",
+      "water"
+    ],
+    "weightKg": 0.3
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0479003",
+    "identity": true,
+    "name": "Rotom Frío",
+    "sex": "genderless",
+    "speciesId": "species-479",
+    "stats": {
+      "attack": 65,
+      "defense": 107,
+      "hp": 50,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    },
+    "typeIds": [
+      "electric",
+      "ice"
+    ],
+    "weightKg": 0.3
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0479004",
+    "identity": true,
+    "name": "Rotom Ventilador",
+    "sex": "genderless",
+    "speciesId": "species-479",
+    "stats": {
+      "attack": 65,
+      "defense": 107,
+      "hp": 50,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    },
+    "typeIds": [
+      "electric",
+      "flying"
+    ],
+    "weightKg": 0.3
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0479005",
+    "identity": true,
+    "name": "Rotom Corte",
+    "sex": "genderless",
+    "speciesId": "species-479",
+    "stats": {
+      "attack": 65,
+      "defense": 107,
+      "hp": 50,
+      "spAttack": 105,
+      "spDefense": 107,
+      "speed": 86
+    },
+    "typeIds": [
+      "electric",
+      "grass"
+    ],
+    "weightKg": 0.3
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-126"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0497000",
+    "identity": true,
+    "name": "Serperior",
+    "sex": "mixed",
+    "speciesId": "species-497",
+    "stats": {
+      "attack": 75,
+      "defense": 95,
+      "hp": 75,
+      "spAttack": 75,
+      "spDefense": 95,
+      "speed": 113
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 63
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-120"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0500000",
+    "identity": true,
+    "name": "Emboar",
+    "sex": "mixed",
+    "speciesId": "species-500",
+    "stats": {
+      "attack": 123,
+      "defense": 65,
+      "hp": 110,
+      "spAttack": 100,
+      "spDefense": 65,
+      "speed": 65
+    },
+    "typeIds": [
+      "fighting",
+      "fire"
+    ],
+    "weightKg": 150
+  },
+  {
+    "abilityIds": [
+      "ability-104"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0500001",
+    "identity": true,
+    "name": "Mega-Emboar",
+    "sex": "mixed",
+    "speciesId": "species-500",
+    "stats": {
+      "attack": 148,
+      "defense": 75,
+      "hp": 110,
+      "spAttack": 110,
+      "spDefense": 110,
+      "speed": 75
+    },
+    "typeIds": [
+      "fighting",
+      "fire"
+    ],
+    "weightKg": 180.3
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-075"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0503000",
+    "identity": true,
+    "name": "Samurott",
+    "sex": "mixed",
+    "speciesId": "species-503",
+    "stats": {
+      "attack": 100,
+      "defense": 85,
+      "hp": 95,
+      "spAttack": 108,
+      "spDefense": 70,
+      "speed": 70
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 94.6
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-292"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0503001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-503",
+    "stats": {
+      "attack": 108,
+      "defense": 80,
+      "hp": 90,
+      "spAttack": 100,
+      "spDefense": 65,
+      "speed": 85
+    },
+    "typeIds": [
+      "dark",
+      "water"
+    ],
+    "weightKg": 58.2
+  },
+  {
+    "abilityIds": [
+      "ability-035",
+      "ability-051",
+      "ability-148"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0505000",
+    "identity": true,
+    "name": "Watchog",
+    "sex": "mixed",
+    "speciesId": "species-505",
+    "stats": {
+      "attack": 85,
+      "defense": 69,
+      "hp": 60,
+      "spAttack": 60,
+      "spDefense": 69,
+      "speed": 77
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 27
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-084",
+      "ability-158"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0510000",
+    "identity": true,
+    "name": "Liepard",
+    "sex": "mixed",
+    "speciesId": "species-510",
+    "stats": {
+      "attack": 88,
+      "defense": 50,
+      "hp": 64,
+      "spAttack": 88,
+      "spDefense": 50,
+      "speed": 106
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 37.5
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-082"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0512000",
+    "identity": true,
+    "name": "Simisage",
+    "sex": "mixed",
+    "speciesId": "species-512",
+    "stats": {
+      "attack": 98,
+      "defense": 63,
+      "hp": 75,
+      "spAttack": 98,
+      "spDefense": 63,
+      "speed": 101
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 30.5
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-082"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0514000",
+    "identity": true,
+    "name": "Simisear",
+    "sex": "mixed",
+    "speciesId": "species-514",
+    "stats": {
+      "attack": 98,
+      "defense": 63,
+      "hp": 75,
+      "spAttack": 98,
+      "spDefense": 63,
+      "speed": 101
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 28
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-082"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0516000",
+    "identity": true,
+    "name": "Simipour",
+    "sex": "mixed",
+    "speciesId": "species-516",
+    "stats": {
+      "attack": 98,
+      "defense": 63,
+      "hp": 75,
+      "spAttack": 98,
+      "spDefense": 63,
+      "speed": 101
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 29
+  },
+  {
+    "abilityIds": [
+      "ability-028",
+      "ability-108",
+      "ability-140"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0518000",
+    "identity": true,
+    "name": "Musharna",
+    "sex": "mixed",
+    "speciesId": "species-518",
+    "stats": {
+      "attack": 55,
+      "defense": 85,
+      "hp": 116,
+      "spAttack": 107,
+      "spDefense": 95,
+      "speed": 29
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 60.5
+  },
+  {
+    "abilityIds": [
+      "ability-104",
+      "ability-146",
+      "ability-159"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0530000",
+    "identity": true,
+    "name": "Excadrill",
+    "sex": "mixed",
+    "speciesId": "species-530",
+    "stats": {
+      "attack": 135,
+      "defense": 60,
+      "hp": 110,
+      "spAttack": 50,
+      "spDefense": 65,
+      "speed": 88
+    },
+    "typeIds": [
+      "ground",
+      "steel"
+    ],
+    "weightKg": 40.4
+  },
+  {
+    "abilityIds": [
+      "ability-311"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0530001",
+    "identity": true,
+    "name": "Mega-Excadrill",
+    "sex": "mixed",
+    "speciesId": "species-530",
+    "stats": {
+      "attack": 165,
+      "defense": 100,
+      "hp": 110,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 103
+    },
+    "typeIds": [
+      "ground",
+      "steel"
+    ],
+    "weightKg": 60
+  },
+  {
+    "abilityIds": [
+      "ability-103",
+      "ability-131",
+      "ability-144"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0531000",
+    "identity": true,
+    "name": "Audino",
+    "sex": "mixed",
+    "speciesId": "species-531",
+    "stats": {
+      "attack": 60,
+      "defense": 86,
+      "hp": 103,
+      "spAttack": 60,
+      "spDefense": 86,
+      "speed": 50
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 31
+  },
+  {
+    "abilityIds": [
+      "ability-131"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0531001",
+    "identity": true,
+    "name": "Mega-Audino",
+    "sex": "mixed",
+    "speciesId": "species-531",
+    "stats": {
+      "attack": 60,
+      "defense": 126,
+      "hp": 103,
+      "spAttack": 80,
+      "spDefense": 126,
+      "speed": 50
+    },
+    "typeIds": [
+      "fairy",
+      "normal"
+    ],
+    "weightKg": 32
+  },
+  {
+    "abilityIds": [
+      "ability-062",
+      "ability-089",
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0534000",
+    "identity": true,
+    "name": "Conkeldurr",
+    "sex": "mixed",
+    "speciesId": "species-534",
+    "stats": {
+      "attack": 140,
+      "defense": 95,
+      "hp": 105,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 45
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 87
+  },
+  {
+    "abilityIds": [
+      "ability-003",
+      "ability-038",
+      "ability-068"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0545000",
+    "identity": true,
+    "name": "Scolipede",
+    "sex": "mixed",
+    "speciesId": "species-545",
+    "stats": {
+      "attack": 100,
+      "defense": 89,
+      "hp": 60,
+      "spAttack": 55,
+      "spDefense": 69,
+      "speed": 112
+    },
+    "typeIds": [
+      "bug",
+      "poison"
+    ],
+    "weightKg": 200.5
+  },
+  {
+    "abilityIds": [
+      "ability-075"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0545001",
+    "identity": true,
+    "name": "Mega-Scolipede",
+    "sex": "mixed",
+    "speciesId": "species-545",
+    "stats": {
+      "attack": 140,
+      "defense": 149,
+      "hp": 60,
+      "spAttack": 75,
+      "spDefense": 99,
+      "speed": 62
+    },
+    "typeIds": [
+      "bug",
+      "poison"
+    ],
+    "weightKg": 230.5
+  },
+  {
+    "abilityIds": [
+      "ability-034",
+      "ability-151",
+      "ability-158"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0547000",
+    "identity": true,
+    "name": "Whimsicott",
+    "sex": "mixed",
+    "speciesId": "species-547",
+    "stats": {
+      "attack": 67,
+      "defense": 85,
+      "hp": 60,
+      "spAttack": 77,
+      "spDefense": 75,
+      "speed": 116
+    },
+    "typeIds": [
+      "fairy",
+      "grass"
+    ],
+    "weightKg": 6.6
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-083",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0553000",
+    "identity": true,
+    "name": "Krookodile",
+    "sex": "mixed",
+    "speciesId": "species-553",
+    "stats": {
+      "attack": 117,
+      "defense": 80,
+      "hp": 95,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 92
+    },
+    "typeIds": [
+      "dark",
+      "ground"
+    ],
+    "weightKg": 96.3
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-061",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0560000",
+    "identity": true,
+    "name": "Scrafty",
+    "sex": "mixed",
+    "speciesId": "species-560",
+    "stats": {
+      "attack": 90,
+      "defense": 115,
+      "hp": 65,
+      "spAttack": 45,
+      "spDefense": 115,
+      "speed": 58
+    },
+    "typeIds": [
+      "dark",
+      "fighting"
+    ],
+    "weightKg": 30
+  },
+  {
+    "abilityIds": [
+      "ability-022"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0560001",
+    "identity": true,
+    "name": "Mega-Scrafty",
+    "sex": "mixed",
+    "speciesId": "species-560",
+    "stats": {
+      "attack": 130,
+      "defense": 135,
+      "hp": 65,
+      "spAttack": 55,
+      "spDefense": 135,
+      "speed": 68
+    },
+    "typeIds": [
+      "dark",
+      "fighting"
+    ],
+    "weightKg": 31
+  },
+  {
+    "abilityIds": [
+      "ability-152"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0563000",
+    "identity": true,
+    "name": "Cofagrigus",
+    "sex": "mixed",
+    "speciesId": "species-563",
+    "stats": {
+      "attack": 50,
+      "defense": 145,
+      "hp": 58,
+      "spAttack": 95,
+      "spDefense": 105,
+      "speed": 30
+    },
+    "typeIds": [
+      "ghost"
+    ],
+    "weightKg": 76.5
+  },
+  {
+    "abilityIds": [
+      "ability-001",
+      "ability-106",
+      "ability-133"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0569000",
+    "identity": true,
+    "name": "Garbodor",
+    "sex": "mixed",
+    "speciesId": "species-569",
+    "stats": {
+      "attack": 95,
+      "defense": 82,
+      "hp": 80,
+      "spAttack": 60,
+      "spDefense": 82,
+      "speed": 75
+    },
+    "typeIds": [
+      "poison"
+    ],
+    "weightKg": 107.3
+  },
+  {
+    "abilityIds": [
+      "ability-149"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0571000",
+    "identity": true,
+    "name": "Zoroark",
+    "sex": "mixed",
+    "speciesId": "species-571",
+    "stats": {
+      "attack": 105,
+      "defense": 60,
+      "hp": 60,
+      "spAttack": 120,
+      "spDefense": 60,
+      "speed": 105
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 81.1
+  },
+  {
+    "abilityIds": [
+      "ability-149"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0571001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-571",
+    "stats": {
+      "attack": 100,
+      "defense": 60,
+      "hp": 55,
+      "spAttack": 125,
+      "spDefense": 60,
+      "speed": 110
+    },
+    "typeIds": [
+      "ghost",
+      "normal"
+    ],
+    "weightKg": 73
+  },
+  {
+    "abilityIds": [
+      "ability-098",
+      "ability-142",
+      "ability-144"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0579000",
+    "identity": true,
+    "name": "Reuniclus",
+    "sex": "mixed",
+    "speciesId": "species-579",
+    "stats": {
+      "attack": 65,
+      "defense": 75,
+      "hp": 110,
+      "spAttack": 125,
+      "spDefense": 85,
+      "speed": 30
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 20.1
+  },
+  {
+    "abilityIds": [
+      "ability-115",
+      "ability-117",
+      "ability-133"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0584000",
+    "identity": true,
+    "name": "Vanilluxe",
+    "sex": "mixed",
+    "speciesId": "species-584",
+    "stats": {
+      "attack": 95,
+      "defense": 85,
+      "hp": 71,
+      "spAttack": 110,
+      "spDefense": 95,
+      "speed": 79
+    },
+    "typeIds": [
+      "ice"
+    ],
+    "weightKg": 57.5
+  },
+  {
+    "abilityIds": [
+      "ability-009",
+      "ability-078"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0587000",
+    "identity": true,
+    "name": "Emolga",
+    "sex": "mixed",
+    "speciesId": "species-587",
+    "stats": {
+      "attack": 75,
+      "defense": 60,
+      "hp": 55,
+      "spAttack": 75,
+      "spDefense": 60,
+      "speed": 103
+    },
+    "typeIds": [
+      "electric",
+      "flying"
+    ],
+    "weightKg": 5
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0604000",
+    "identity": true,
+    "name": "Eelektross",
+    "sex": "mixed",
+    "speciesId": "species-604",
+    "stats": {
+      "attack": 115,
+      "defense": 80,
+      "hp": 85,
+      "spAttack": 105,
+      "spDefense": 80,
+      "speed": 50
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 80.5
+  },
+  {
+    "abilityIds": [
+      "ability-313"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0604001",
+    "identity": true,
+    "name": "Mega-Eelektross",
+    "sex": "mixed",
+    "speciesId": "species-604",
+    "stats": {
+      "attack": 145,
+      "defense": 80,
+      "hp": 85,
+      "spAttack": 135,
+      "spDefense": 90,
+      "speed": 80
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 180
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-049",
+      "ability-151"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0609000",
+    "identity": true,
+    "name": "Chandelure",
+    "sex": "mixed",
+    "speciesId": "species-609",
+    "stats": {
+      "attack": 55,
+      "defense": 90,
+      "hp": 60,
+      "spAttack": 145,
+      "spDefense": 90,
+      "speed": 80
+    },
+    "typeIds": [
+      "fire",
+      "ghost"
+    ],
+    "weightKg": 34.3
+  },
+  {
+    "abilityIds": [
+      "ability-151"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0609001",
+    "identity": true,
+    "name": "Mega-Chandelure",
+    "sex": "mixed",
+    "speciesId": "species-609",
+    "stats": {
+      "attack": 75,
+      "defense": 110,
+      "hp": 60,
+      "spAttack": 175,
+      "spDefense": 110,
+      "speed": 90
+    },
+    "typeIds": [
+      "fire",
+      "ghost"
+    ],
+    "weightKg": 69.6
+  },
+  {
+    "abilityIds": [
+      "ability-033",
+      "ability-081",
+      "ability-202"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0614000",
+    "identity": true,
+    "name": "Beartic",
+    "sex": "mixed",
+    "speciesId": "species-614",
+    "stats": {
+      "attack": 130,
+      "defense": 80,
+      "hp": 95,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 50
+    },
+    "typeIds": [
+      "ice"
+    ],
+    "weightKg": 260
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-008",
+      "ability-009"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0618000",
+    "identity": true,
+    "name": "Stunfisk",
+    "sex": "mixed",
+    "speciesId": "species-618",
+    "stats": {
+      "attack": 66,
+      "defense": 84,
+      "hp": 109,
+      "spAttack": 81,
+      "spDefense": 99,
+      "speed": 32
+    },
+    "typeIds": [
+      "electric",
+      "ground"
+    ],
+    "weightKg": 11
+  },
+  {
+    "abilityIds": [
+      "ability-250"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0618001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-618",
+    "stats": {
+      "attack": 81,
+      "defense": 99,
+      "hp": 109,
+      "spAttack": 66,
+      "spDefense": 84,
+      "speed": 32
+    },
+    "typeIds": [
+      "ground",
+      "steel"
+    ],
+    "weightKg": 20.5
+  },
+  {
+    "abilityIds": [
+      "ability-089",
+      "ability-099",
+      "ability-103"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0623000",
+    "identity": true,
+    "name": "Golurk",
+    "sex": "genderless",
+    "speciesId": "species-623",
+    "stats": {
+      "attack": 124,
+      "defense": 80,
+      "hp": 89,
+      "spAttack": 55,
+      "spDefense": 80,
+      "speed": 55
+    },
+    "typeIds": [
+      "ghost",
+      "ground"
+    ],
+    "weightKg": 330
+  },
+  {
+    "abilityIds": [
+      "ability-260"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0623001",
+    "identity": true,
+    "name": "Mega-Golurk",
+    "sex": "genderless",
+    "speciesId": "species-623",
+    "stats": {
+      "attack": 159,
+      "defense": 105,
+      "hp": 89,
+      "spAttack": 70,
+      "spDefense": 105,
+      "speed": 55
+    },
+    "typeIds": [
+      "ghost",
+      "ground"
+    ],
+    "weightKg": 330
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0635000",
+    "identity": true,
+    "name": "Hydreigon",
+    "sex": "mixed",
+    "speciesId": "species-635",
+    "stats": {
+      "attack": 105,
+      "defense": 90,
+      "hp": 92,
+      "spAttack": 125,
+      "spDefense": 90,
+      "speed": 98
+    },
+    "typeIds": [
+      "dark",
+      "dragon"
+    ],
+    "weightKg": 160
+  },
+  {
+    "abilityIds": [
+      "ability-049",
+      "ability-068"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0637000",
+    "identity": true,
+    "name": "Volcarona",
+    "sex": "mixed",
+    "speciesId": "species-637",
+    "stats": {
+      "attack": 60,
+      "defense": 65,
+      "hp": 85,
+      "spAttack": 135,
+      "spDefense": 105,
+      "speed": 100
+    },
+    "typeIds": [
+      "bug",
+      "fire"
+    ],
+    "weightKg": 46
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-171"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0652000",
+    "identity": true,
+    "name": "Chesnaught",
+    "sex": "mixed",
+    "speciesId": "species-652",
+    "stats": {
+      "attack": 107,
+      "defense": 122,
+      "hp": 88,
+      "spAttack": 74,
+      "spDefense": 75,
+      "speed": 64
+    },
+    "typeIds": [
+      "fighting",
+      "grass"
+    ],
+    "weightKg": 90
+  },
+  {
+    "abilityIds": [
+      "ability-171"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0652001",
+    "identity": true,
+    "name": "Mega-Chesnaught",
+    "sex": "mixed",
+    "speciesId": "species-652",
+    "stats": {
+      "attack": 137,
+      "defense": 172,
+      "hp": 88,
+      "spAttack": 74,
+      "spDefense": 115,
+      "speed": 44
+    },
+    "typeIds": [
+      "fighting",
+      "grass"
+    ],
+    "weightKg": 90
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-170"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0655000",
+    "identity": true,
+    "name": "Delphox",
+    "sex": "mixed",
+    "speciesId": "species-655",
+    "stats": {
+      "attack": 69,
+      "defense": 72,
+      "hp": 75,
+      "spAttack": 114,
+      "spDefense": 100,
+      "speed": 104
+    },
+    "typeIds": [
+      "fire",
+      "psychic"
+    ],
+    "weightKg": 39
+  },
+  {
+    "abilityIds": [
+      "ability-026"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0655001",
+    "identity": true,
+    "name": "Mega-Delphox",
+    "sex": "mixed",
+    "speciesId": "species-655",
+    "stats": {
+      "attack": 69,
+      "defense": 72,
+      "hp": 75,
+      "spAttack": 159,
+      "spDefense": 125,
+      "speed": 134
+    },
+    "typeIds": [
+      "fire",
+      "psychic"
+    ],
+    "weightKg": 39
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-168"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0658000",
+    "identity": true,
+    "name": "Greninja",
+    "sex": "mixed",
+    "speciesId": "species-658",
+    "stats": {
+      "attack": 95,
+      "defense": 67,
+      "hp": 72,
+      "spAttack": 103,
+      "spDefense": 71,
+      "speed": 122
+    },
+    "typeIds": [
+      "dark",
+      "water"
+    ],
+    "weightKg": 40
+  },
+  {
+    "abilityIds": [
+      "ability-168"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0658003",
+    "identity": true,
+    "name": "Mega-Greninja",
+    "sex": "mixed",
+    "speciesId": "species-658",
+    "stats": {
+      "attack": 125,
+      "defense": 77,
+      "hp": 72,
+      "spAttack": 133,
+      "spDefense": 81,
+      "speed": 142
+    },
+    "typeIds": [
+      "dark",
+      "water"
+    ],
+    "weightKg": 40
+  },
+  {
+    "abilityIds": [
+      "ability-037",
+      "ability-053",
+      "ability-167"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0660000",
+    "identity": true,
+    "name": "Diggersby",
+    "sex": "mixed",
+    "speciesId": "species-660",
+    "stats": {
+      "attack": 56,
+      "defense": 77,
+      "hp": 85,
+      "spAttack": 50,
+      "spDefense": 77,
+      "speed": 78
+    },
+    "typeIds": [
+      "ground",
+      "normal"
+    ],
+    "weightKg": 42.4
+  },
+  {
+    "abilityIds": [
+      "ability-049",
+      "ability-177"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0663000",
+    "identity": true,
+    "name": "Talonflame",
+    "sex": "mixed",
+    "speciesId": "species-663",
+    "stats": {
+      "attack": 81,
+      "defense": 71,
+      "hp": 78,
+      "spAttack": 74,
+      "spDefense": 69,
+      "speed": 126
+    },
+    "typeIds": [
+      "fire",
+      "flying"
+    ],
+    "weightKg": 24.5
+  },
+  {
+    "abilityIds": [
+      "ability-014",
+      "ability-019",
+      "ability-132"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0666000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-666",
+    "stats": {
+      "attack": 52,
+      "defense": 50,
+      "hp": 80,
+      "spAttack": 90,
+      "spDefense": 50,
+      "speed": 89
+    },
+    "typeIds": [
+      "bug",
+      "flying"
+    ],
+    "weightKg": 17
+  },
+  {
+    "abilityIds": [
+      "ability-079",
+      "ability-127",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0668000",
+    "identity": true,
+    "name": "Pyroar",
+    "sex": "mixed",
+    "speciesId": "species-668",
+    "stats": {
+      "attack": 68,
+      "defense": 72,
+      "hp": 86,
+      "spAttack": 109,
+      "spDefense": 66,
+      "speed": 106
+    },
+    "typeIds": [
+      "fire",
+      "normal"
+    ],
+    "weightKg": 81.5
+  },
+  {
+    "abilityIds": [
+      "ability-316"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0668001",
+    "identity": true,
+    "name": "Mega-Pyroar",
+    "sex": "mixed",
+    "speciesId": "species-668",
+    "stats": {
+      "attack": 88,
+      "defense": 92,
+      "hp": 86,
+      "spAttack": 129,
+      "spDefense": 86,
+      "speed": 126
+    },
+    "typeIds": [
+      "fire",
+      "normal"
+    ],
+    "weightKg": 93.3
+  },
+  {
+    "abilityIds": [
+      "ability-166",
+      "ability-180"
+    ],
+    "available": true,
+    "id": "pokemon-0670005",
+    "identity": true,
+    "sex": "female",
+    "speciesId": "species-670",
+    "stats": {
+      "attack": 65,
+      "defense": 67,
+      "hp": 74,
+      "spAttack": 125,
+      "spDefense": 128,
+      "speed": 92
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 0.9
+  },
+  {
+    "abilityIds": [
+      "ability-187"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0670006",
+    "identity": true,
+    "name": "Mega-Floette",
+    "sex": "female",
+    "speciesId": "species-670",
+    "stats": {
+      "attack": 85,
+      "defense": 87,
+      "hp": 74,
+      "spAttack": 155,
+      "spDefense": 148,
+      "speed": 102
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 100.8
+  },
+  {
+    "abilityIds": [
+      "ability-166",
+      "ability-180"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0671000",
+    "identity": true,
+    "sex": "female",
+    "speciesId": "species-671",
+    "stats": {
+      "attack": 65,
+      "defense": 68,
+      "hp": 78,
+      "spAttack": 112,
+      "spDefense": 154,
+      "speed": 75
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 10
+  },
+  {
+    "abilityIds": [
+      "ability-157",
+      "ability-179"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0673000",
+    "identity": true,
+    "name": "Gogoat",
+    "sex": "mixed",
+    "speciesId": "species-673",
+    "stats": {
+      "attack": 100,
+      "defense": 62,
+      "hp": 123,
+      "spAttack": 97,
+      "spDefense": 81,
+      "speed": 68
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 91
+  },
+  {
+    "abilityIds": [
+      "ability-089",
+      "ability-104",
+      "ability-113"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0675000",
+    "identity": true,
+    "name": "Pangoro",
+    "sex": "mixed",
+    "speciesId": "species-675",
+    "stats": {
+      "attack": 124,
+      "defense": 78,
+      "hp": 95,
+      "spAttack": 69,
+      "spDefense": 71,
+      "speed": 58
+    },
+    "typeIds": [
+      "dark",
+      "fighting"
+    ],
+    "weightKg": 136
+  },
+  {
+    "abilityIds": [
+      "ability-169"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0676000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-676",
+    "stats": {
+      "attack": 80,
+      "defense": 60,
+      "hp": 75,
+      "spAttack": 65,
+      "spDefense": 90,
+      "speed": 102
+    },
+    "typeIds": [
+      "normal"
+    ],
+    "weightKg": 28
+  },
+  {
+    "abilityIds": [
+      "ability-051",
+      "ability-151",
+      "ability-158"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0678000",
+    "identity": true,
+    "sex": "male",
+    "speciesId": "species-678",
+    "stats": {
+      "attack": 48,
+      "defense": 76,
+      "hp": 74,
+      "spAttack": 83,
+      "spDefense": 81,
+      "speed": 104
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 8.5
+  },
+  {
+    "abilityIds": [
+      "ability-051",
+      "ability-151",
+      "ability-172"
+    ],
+    "available": true,
+    "form": {
+      "kind": "gender"
+    },
+    "id": "pokemon-0678001",
+    "identity": true,
+    "sex": "female",
+    "speciesId": "species-678",
+    "stats": {
+      "attack": 48,
+      "defense": 76,
+      "hp": 74,
+      "spAttack": 83,
+      "spDefense": 81,
+      "speed": 104
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 8.5
+  },
+  {
+    "abilityIds": [
+      "ability-036"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0678002",
+    "identity": true,
+    "name": "Mega-Meowstic",
+    "sex": "male",
+    "speciesId": "species-678",
+    "stats": {
+      "attack": 48,
+      "defense": 76,
+      "hp": 74,
+      "spAttack": 143,
+      "spDefense": 101,
+      "speed": 124
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 10.1
+  },
+  {
+    "abilityIds": [
+      "ability-176"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0681000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-681",
+    "stats": {
+      "attack": 50,
+      "defense": 140,
+      "hp": 60,
+      "spAttack": 50,
+      "spDefense": 140,
+      "speed": 60
+    },
+    "typeIds": [
+      "ghost",
+      "steel"
+    ],
+    "weightKg": 53
+  },
+  {
+    "abilityIds": [
+      "ability-176"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0681001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-681",
+    "stats": {
+      "attack": 140,
+      "defense": 50,
+      "hp": 60,
+      "spAttack": 140,
+      "spDefense": 50,
+      "speed": 60
+    },
+    "typeIds": [
+      "ghost",
+      "steel"
+    ],
+    "weightKg": 53
+  },
+  {
+    "abilityIds": [
+      "ability-131",
+      "ability-165"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0683000",
+    "identity": true,
+    "name": "Aromatisse",
+    "sex": "mixed",
+    "speciesId": "species-683",
+    "stats": {
+      "attack": 72,
+      "defense": 72,
+      "hp": 101,
+      "spAttack": 99,
+      "spDefense": 89,
+      "speed": 29
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 15.5
+  },
+  {
+    "abilityIds": [
+      "ability-084",
+      "ability-175"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0685000",
+    "identity": true,
+    "name": "Slurpuff",
+    "sex": "mixed",
+    "speciesId": "species-685",
+    "stats": {
+      "attack": 80,
+      "defense": 86,
+      "hp": 82,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 72
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 5
+  },
+  {
+    "abilityIds": [
+      "ability-021",
+      "ability-126",
+      "ability-151"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0687000",
+    "identity": true,
+    "name": "Malamar",
+    "sex": "mixed",
+    "speciesId": "species-687",
+    "stats": {
+      "attack": 92,
+      "defense": 88,
+      "hp": 86,
+      "spAttack": 68,
+      "spDefense": 75,
+      "speed": 73
+    },
+    "typeIds": [
+      "dark",
+      "psychic"
+    ],
+    "weightKg": 47
+  },
+  {
+    "abilityIds": [
+      "ability-126"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0687001",
+    "identity": true,
+    "name": "Mega-Malamar",
+    "sex": "mixed",
+    "speciesId": "species-687",
+    "stats": {
+      "attack": 102,
+      "defense": 88,
+      "hp": 86,
+      "spAttack": 98,
+      "spDefense": 120,
+      "speed": 88
+    },
+    "typeIds": [
+      "dark",
+      "psychic"
+    ],
+    "weightKg": 69.8
+  },
+  {
+    "abilityIds": [
+      "ability-097",
+      "ability-124",
+      "ability-181"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0689000",
+    "identity": true,
+    "name": "Barbaracle",
+    "sex": "mixed",
+    "speciesId": "species-689",
+    "stats": {
+      "attack": 105,
+      "defense": 115,
+      "hp": 72,
+      "spAttack": 54,
+      "spDefense": 86,
+      "speed": 68
+    },
+    "typeIds": [
+      "rock",
+      "water"
+    ],
+    "weightKg": 96
+  },
+  {
+    "abilityIds": [
+      "ability-181"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0689001",
+    "identity": true,
+    "name": "Mega-Barbaracle",
+    "sex": "mixed",
+    "speciesId": "species-689",
+    "stats": {
+      "attack": 140,
+      "defense": 130,
+      "hp": 72,
+      "spAttack": 64,
+      "spDefense": 106,
+      "speed": 88
+    },
+    "typeIds": [
+      "fighting",
+      "rock"
+    ],
+    "weightKg": 100
+  },
+  {
+    "abilityIds": [
+      "ability-038",
+      "ability-091",
+      "ability-143"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0691000",
+    "identity": true,
+    "name": "Dragalge",
+    "sex": "mixed",
+    "speciesId": "species-691",
+    "stats": {
+      "attack": 75,
+      "defense": 90,
+      "hp": 65,
+      "spAttack": 97,
+      "spDefense": 123,
+      "speed": 44
+    },
+    "typeIds": [
+      "dragon",
+      "poison"
+    ],
+    "weightKg": 81.5
+  },
+  {
+    "abilityIds": [
+      "ability-144"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0691001",
+    "identity": true,
+    "name": "Mega-Dragalge",
+    "sex": "mixed",
+    "speciesId": "species-691",
+    "stats": {
+      "attack": 85,
+      "defense": 105,
+      "hp": 65,
+      "spAttack": 132,
+      "spDefense": 163,
+      "speed": 44
+    },
+    "typeIds": [
+      "dragon",
+      "poison"
+    ],
+    "weightKg": 100.3
+  },
+  {
+    "abilityIds": [
+      "ability-178"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0693000",
+    "identity": true,
+    "name": "Clawitzer",
+    "sex": "mixed",
+    "speciesId": "species-693",
+    "stats": {
+      "attack": 73,
+      "defense": 88,
+      "hp": 71,
+      "spAttack": 120,
+      "spDefense": 89,
+      "speed": 59
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 35.3
+  },
+  {
+    "abilityIds": [
+      "ability-008",
+      "ability-087",
+      "ability-094"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0695000",
+    "identity": true,
+    "name": "Heliolisk",
+    "sex": "mixed",
+    "speciesId": "species-695",
+    "stats": {
+      "attack": 55,
+      "defense": 52,
+      "hp": 62,
+      "spAttack": 109,
+      "spDefense": 94,
+      "speed": 109
+    },
+    "typeIds": [
+      "electric",
+      "normal"
+    ],
+    "weightKg": 21
+  },
+  {
+    "abilityIds": [
+      "ability-069",
+      "ability-173"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0697000",
+    "identity": true,
+    "name": "Tyrantrum",
+    "sex": "mixed",
+    "speciesId": "species-697",
+    "stats": {
+      "attack": 121,
+      "defense": 119,
+      "hp": 82,
+      "spAttack": 69,
+      "spDefense": 59,
+      "speed": 71
+    },
+    "typeIds": [
+      "dragon",
+      "rock"
+    ],
+    "weightKg": 270
+  },
+  {
+    "abilityIds": [
+      "ability-117",
+      "ability-174"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0699000",
+    "identity": true,
+    "name": "Aurorus",
+    "sex": "mixed",
+    "speciesId": "species-699",
+    "stats": {
+      "attack": 77,
+      "defense": 72,
+      "hp": 123,
+      "spAttack": 99,
+      "spDefense": 92,
+      "speed": 58
+    },
+    "typeIds": [
+      "ice",
+      "rock"
+    ],
+    "weightKg": 225
+  },
+  {
+    "abilityIds": [
+      "ability-056",
+      "ability-182"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0700000",
+    "identity": true,
+    "name": "Sylveon",
+    "sex": "mixed",
+    "speciesId": "species-700",
+    "stats": {
+      "attack": 65,
+      "defense": 65,
+      "hp": 95,
+      "spAttack": 110,
+      "spDefense": 130,
+      "speed": 60
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 23.5
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-084",
+      "ability-104"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0701000",
+    "identity": true,
+    "name": "Hawlucha",
+    "sex": "mixed",
+    "speciesId": "species-701",
+    "stats": {
+      "attack": 92,
+      "defense": 75,
+      "hp": 78,
+      "spAttack": 74,
+      "spDefense": 63,
+      "speed": 118
+    },
+    "typeIds": [
+      "fighting",
+      "flying"
+    ],
+    "weightKg": 21.5
+  },
+  {
+    "abilityIds": [
+      "ability-099"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0701001",
+    "identity": true,
+    "name": "Mega-Hawlucha",
+    "sex": "mixed",
+    "speciesId": "species-701",
+    "stats": {
+      "attack": 137,
+      "defense": 100,
+      "hp": 78,
+      "spAttack": 74,
+      "spDefense": 93,
+      "speed": 118
+    },
+    "typeIds": [
+      "fighting",
+      "flying"
+    ],
+    "weightKg": 25
+  },
+  {
+    "abilityIds": [
+      "ability-053",
+      "ability-057",
+      "ability-167"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0702000",
+    "identity": true,
+    "name": "Dedenne",
+    "sex": "mixed",
+    "speciesId": "species-702",
+    "stats": {
+      "attack": 58,
+      "defense": 57,
+      "hp": 67,
+      "spAttack": 81,
+      "spDefense": 67,
+      "speed": 101
+    },
+    "typeIds": [
+      "electric",
+      "fairy"
+    ],
+    "weightKg": 2.2
+  },
+  {
+    "abilityIds": [
+      "ability-093",
+      "ability-157",
+      "ability-183"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0706000",
+    "identity": true,
+    "name": "Goodra",
+    "sex": "mixed",
+    "speciesId": "species-706",
+    "stats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 90,
+      "spAttack": 110,
+      "spDefense": 150,
+      "speed": 80
+    },
+    "typeIds": [
+      "dragon"
+    ],
+    "weightKg": 150.5
+  },
+  {
+    "abilityIds": [
+      "ability-075",
+      "ability-157",
+      "ability-183"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0706001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-706",
+    "stats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 80,
+      "spAttack": 110,
+      "spDefense": 150,
+      "speed": 60
+    },
+    "typeIds": [
+      "dragon",
+      "steel"
+    ],
+    "weightKg": 334.1
+  },
+  {
+    "abilityIds": [
+      "ability-158",
+      "ability-170"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0707000",
+    "identity": true,
+    "name": "Klefki",
+    "sex": "mixed",
+    "speciesId": "species-707",
+    "stats": {
+      "attack": 80,
+      "defense": 91,
+      "hp": 57,
+      "spAttack": 80,
+      "spDefense": 87,
+      "speed": 75
+    },
+    "typeIds": [
+      "fairy",
+      "steel"
+    ],
+    "weightKg": 3
+  },
+  {
+    "abilityIds": [
+      "ability-030",
+      "ability-119",
+      "ability-139"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0709000",
+    "identity": true,
+    "name": "Trevenant",
+    "sex": "mixed",
+    "speciesId": "species-709",
+    "stats": {
+      "attack": 110,
+      "defense": 76,
+      "hp": 85,
+      "spAttack": 65,
+      "spDefense": 82,
+      "speed": 56
+    },
+    "typeIds": [
+      "ghost",
+      "grass"
+    ],
+    "weightKg": 71
+  },
+  {
+    "abilityIds": [
+      "ability-015",
+      "ability-053",
+      "ability-119"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0711000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-711",
+    "stats": {
+      "attack": 90,
+      "defense": 122,
+      "hp": 65,
+      "spAttack": 58,
+      "spDefense": 75,
+      "speed": 84
+    },
+    "typeIds": [
+      "ghost",
+      "grass"
+    ],
+    "weightKg": 12.5
+  },
+  {
+    "abilityIds": [
+      "ability-015",
+      "ability-053",
+      "ability-119"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0711001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-711",
+    "stats": {
+      "attack": 85,
+      "defense": 122,
+      "hp": 55,
+      "spAttack": 58,
+      "spDefense": 75,
+      "speed": 99
+    },
+    "typeIds": [
+      "ghost",
+      "grass"
+    ],
+    "weightKg": 9.5
+  },
+  {
+    "abilityIds": [
+      "ability-015",
+      "ability-053",
+      "ability-119"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0711002",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-711",
+    "stats": {
+      "attack": 95,
+      "defense": 122,
+      "hp": 75,
+      "spAttack": 58,
+      "spDefense": 75,
+      "speed": 69
+    },
+    "typeIds": [
+      "ghost",
+      "grass"
+    ],
+    "weightKg": 14
+  },
+  {
+    "abilityIds": [
+      "ability-015",
+      "ability-053",
+      "ability-119"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0711003",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-711",
+    "stats": {
+      "attack": 100,
+      "defense": 122,
+      "hp": 85,
+      "spAttack": 58,
+      "spDefense": 75,
+      "speed": 54
+    },
+    "typeIds": [
+      "ghost",
+      "grass"
+    ],
+    "weightKg": 39
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-020",
+      "ability-115"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0713000",
+    "identity": true,
+    "name": "Avalugg",
+    "sex": "mixed",
+    "speciesId": "species-713",
+    "stats": {
+      "attack": 117,
+      "defense": 184,
+      "hp": 95,
+      "spAttack": 44,
+      "spDefense": 46,
+      "speed": 28
+    },
+    "typeIds": [
+      "ice"
+    ],
+    "weightKg": 505
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-115",
+      "ability-173"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0713001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-713",
+    "stats": {
+      "attack": 127,
+      "defense": 184,
+      "hp": 95,
+      "spAttack": 34,
+      "spDefense": 36,
+      "speed": 38
+    },
+    "typeIds": [
+      "ice",
+      "rock"
+    ],
+    "weightKg": 262.4
+  },
+  {
+    "abilityIds": [
+      "ability-119",
+      "ability-140",
+      "ability-151"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0715000",
+    "identity": true,
+    "name": "Noivern",
+    "sex": "mixed",
+    "speciesId": "species-715",
+    "stats": {
+      "attack": 70,
+      "defense": 80,
+      "hp": 85,
+      "spAttack": 97,
+      "spDefense": 80,
+      "speed": 123
+    },
+    "typeIds": [
+      "dragon",
+      "flying"
+    ],
+    "weightKg": 85
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-203"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0724000",
+    "identity": true,
+    "name": "Decidueye",
+    "sex": "mixed",
+    "speciesId": "species-724",
+    "stats": {
+      "attack": 107,
+      "defense": 75,
+      "hp": 78,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 70
+    },
+    "typeIds": [
+      "ghost",
+      "grass"
+    ],
+    "weightKg": 36.6
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-113"
+    ],
+    "available": true,
+    "form": {
+      "kind": "regional"
+    },
+    "id": "pokemon-0724001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-724",
+    "stats": {
+      "attack": 112,
+      "defense": 80,
+      "hp": 88,
+      "spAttack": 95,
+      "spDefense": 95,
+      "speed": 60
+    },
+    "typeIds": [
+      "fighting",
+      "grass"
+    ],
+    "weightKg": 37
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-066"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0727000",
+    "identity": true,
+    "name": "Incineroar",
+    "sex": "mixed",
+    "speciesId": "species-727",
+    "stats": {
+      "attack": 115,
+      "defense": 90,
+      "hp": 95,
+      "spAttack": 80,
+      "spDefense": 90,
+      "speed": 60
+    },
+    "typeIds": [
+      "dark",
+      "fire"
+    ],
+    "weightKg": 83
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-204"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0730000",
+    "identity": true,
+    "name": "Primarina",
+    "sex": "mixed",
+    "speciesId": "species-730",
+    "stats": {
+      "attack": 74,
+      "defense": 74,
+      "hp": 80,
+      "spAttack": 126,
+      "spDefense": 116,
+      "speed": 60
+    },
+    "typeIds": [
+      "fairy",
+      "water"
+    ],
+    "weightKg": 44
+  },
+  {
+    "abilityIds": [
+      "ability-051",
+      "ability-092",
+      "ability-125"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0733000",
+    "identity": true,
+    "name": "Toucannon",
+    "sex": "mixed",
+    "speciesId": "species-733",
+    "stats": {
+      "attack": 120,
+      "defense": 75,
+      "hp": 80,
+      "spAttack": 75,
+      "spDefense": 75,
+      "speed": 60
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ],
+    "weightKg": 26
+  },
+  {
+    "abilityIds": [
+      "ability-052",
+      "ability-083",
+      "ability-089"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0740000",
+    "identity": true,
+    "name": "Crabominable",
+    "sex": "mixed",
+    "speciesId": "species-740",
+    "stats": {
+      "attack": 132,
+      "defense": 77,
+      "hp": 97,
+      "spAttack": 62,
+      "spDefense": 67,
+      "speed": 43
+    },
+    "typeIds": [
+      "fighting",
+      "ice"
+    ],
+    "weightKg": 180
+  },
+  {
+    "abilityIds": [
+      "ability-089"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0740001",
+    "identity": true,
+    "name": "Mega-Crabominable",
+    "sex": "mixed",
+    "speciesId": "species-740",
+    "stats": {
+      "attack": 157,
+      "defense": 122,
+      "hp": 97,
+      "spAttack": 62,
+      "spDefense": 107,
+      "speed": 33
+    },
+    "typeIds": [
+      "fighting",
+      "ice"
+    ],
+    "weightKg": 252.8
+  },
+  {
+    "abilityIds": [
+      "ability-051",
+      "ability-080",
+      "ability-146"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0745000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-745",
+    "stats": {
+      "attack": 115,
+      "defense": 65,
+      "hp": 75,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 112
+    },
+    "typeIds": [
+      "rock"
+    ],
+    "weightKg": 25
+  },
+  {
+    "abilityIds": [
+      "ability-051",
+      "ability-072",
+      "ability-099"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0745001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-745",
+    "stats": {
+      "attack": 115,
+      "defense": 75,
+      "hp": 85,
+      "spAttack": 55,
+      "spDefense": 75,
+      "speed": 82
+    },
+    "typeIds": [
+      "rock"
+    ],
+    "weightKg": 25
+  },
+  {
+    "abilityIds": [
+      "ability-181"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0745002",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-745",
+    "stats": {
+      "attack": 117,
+      "defense": 65,
+      "hp": 75,
+      "spAttack": 55,
+      "spDefense": 65,
+      "speed": 110
+    },
+    "typeIds": [
+      "rock"
+    ],
+    "weightKg": 25
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-144",
+      "ability-196"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0748000",
+    "identity": true,
+    "name": "Toxapex",
+    "sex": "mixed",
+    "speciesId": "species-748",
+    "stats": {
+      "attack": 63,
+      "defense": 152,
+      "hp": 50,
+      "spAttack": 53,
+      "spDefense": 142,
+      "speed": 35
+    },
+    "typeIds": [
+      "poison",
+      "water"
+    ],
+    "weightKg": 14.5
+  },
+  {
+    "abilityIds": [
+      "ability-020",
+      "ability-039",
+      "ability-192"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0750000",
+    "identity": true,
+    "name": "Mudsdale",
+    "sex": "mixed",
+    "speciesId": "species-750",
+    "stats": {
+      "attack": 125,
+      "defense": 100,
+      "hp": 100,
+      "spAttack": 55,
+      "spDefense": 85,
+      "speed": 35
+    },
+    "typeIds": [
+      "ground"
+    ],
+    "weightKg": 920
+  },
+  {
+    "abilityIds": [
+      "ability-011",
+      "ability-199"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0752000",
+    "identity": true,
+    "name": "Araquanid",
+    "sex": "mixed",
+    "speciesId": "species-752",
+    "stats": {
+      "attack": 70,
+      "defense": 92,
+      "hp": 68,
+      "spAttack": 50,
+      "spDefense": 132,
+      "speed": 42
+    },
+    "typeIds": [
+      "bug",
+      "water"
+    ],
+    "weightKg": 82
+  },
+  {
+    "abilityIds": [
+      "ability-012",
+      "ability-212"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0758000",
+    "identity": true,
+    "name": "Salazzle",
+    "sex": "female",
+    "speciesId": "species-758",
+    "stats": {
+      "attack": 64,
+      "defense": 60,
+      "hp": 68,
+      "spAttack": 111,
+      "spDefense": 60,
+      "speed": 117
+    },
+    "typeIds": [
+      "fire",
+      "poison"
+    ],
+    "weightKg": 22.2
+  },
+  {
+    "abilityIds": [
+      "ability-102",
+      "ability-175",
+      "ability-214"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0763000",
+    "identity": true,
+    "name": "Tsareena",
+    "sex": "female",
+    "speciesId": "species-763",
+    "stats": {
+      "attack": 120,
+      "defense": 98,
+      "hp": 72,
+      "spAttack": 50,
+      "spDefense": 98,
+      "speed": 72
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 21.4
+  },
+  {
+    "abilityIds": [
+      "ability-039",
+      "ability-140",
+      "ability-180"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0765000",
+    "identity": true,
+    "name": "Oranguru",
+    "sex": "mixed",
+    "speciesId": "species-765",
+    "stats": {
+      "attack": 60,
+      "defense": 80,
+      "hp": 90,
+      "spAttack": 90,
+      "spDefense": 110,
+      "speed": 60
+    },
+    "typeIds": [
+      "normal",
+      "psychic"
+    ],
+    "weightKg": 76
+  },
+  {
+    "abilityIds": [
+      "ability-128",
+      "ability-222"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0766000",
+    "identity": true,
+    "name": "Passimian",
+    "sex": "mixed",
+    "speciesId": "species-766",
+    "stats": {
+      "attack": 120,
+      "defense": 90,
+      "hp": 100,
+      "spAttack": 40,
+      "spDefense": 60,
+      "speed": 80
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 82.8
+  },
+  {
+    "abilityIds": [
+      "ability-194"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0768000",
+    "identity": true,
+    "name": "Golisopod",
+    "sex": "mixed",
+    "speciesId": "species-768",
+    "stats": {
+      "attack": 125,
+      "defense": 140,
+      "hp": 75,
+      "spAttack": 60,
+      "spDefense": 90,
+      "speed": 40
+    },
+    "typeIds": [
+      "bug",
+      "water"
+    ],
+    "weightKg": 108
+  },
+  {
+    "abilityIds": [
+      "ability-181"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0768001",
+    "identity": true,
+    "name": "Mega-Golisopod",
+    "sex": "mixed",
+    "speciesId": "species-768",
+    "stats": {
+      "attack": 150,
+      "defense": 175,
+      "hp": 75,
+      "spAttack": 70,
+      "spDefense": 120,
+      "speed": 40
+    },
+    "typeIds": [
+      "bug",
+      "steel"
+    ],
+    "weightKg": 148
+  },
+  {
+    "abilityIds": [
+      "ability-209"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0778000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-778",
+    "stats": {
+      "attack": 90,
+      "defense": 80,
+      "hp": 55,
+      "spAttack": 50,
+      "spDefense": 105,
+      "speed": 96
+    },
+    "typeIds": [
+      "fairy",
+      "ghost"
+    ],
+    "weightKg": 0.7
+  },
+  {
+    "abilityIds": [
+      "ability-013",
+      "ability-157",
+      "ability-201"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0780000",
+    "identity": true,
+    "name": "Drampa",
+    "sex": "mixed",
+    "speciesId": "species-780",
+    "stats": {
+      "attack": 60,
+      "defense": 85,
+      "hp": 78,
+      "spAttack": 135,
+      "spDefense": 91,
+      "speed": 36
+    },
+    "typeIds": [
+      "dragon",
+      "normal"
+    ],
+    "weightKg": 185
+  },
+  {
+    "abilityIds": [
+      "ability-201"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0780001",
+    "identity": true,
+    "name": "Mega-Drampa",
+    "sex": "mixed",
+    "speciesId": "species-780",
+    "stats": {
+      "attack": 85,
+      "defense": 110,
+      "hp": 78,
+      "spAttack": 160,
+      "spDefense": 116,
+      "speed": 36
+    },
+    "typeIds": [
+      "dragon",
+      "normal"
+    ],
+    "weightKg": 240.5
+  },
+  {
+    "abilityIds": [
+      "ability-043",
+      "ability-142",
+      "ability-171"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0784000",
+    "identity": true,
+    "name": "Kommo-o",
+    "sex": "mixed",
+    "speciesId": "species-784",
+    "stats": {
+      "attack": 110,
+      "defense": 125,
+      "hp": 75,
+      "spAttack": 100,
+      "spDefense": 105,
+      "speed": 85
+    },
+    "typeIds": [
+      "dragon",
+      "fighting"
+    ],
+    "weightKg": 78.2
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-229"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0812000",
+    "identity": true,
+    "name": "Rillaboom",
+    "sex": "mixed",
+    "speciesId": "species-812",
+    "stats": {
+      "attack": 125,
+      "defense": 90,
+      "hp": 100,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 85
+    },
+    "typeIds": [
+      "grass"
+    ],
+    "weightKg": 90
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-236"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0815000",
+    "identity": true,
+    "name": "Cinderace",
+    "sex": "mixed",
+    "speciesId": "species-815",
+    "stats": {
+      "attack": 116,
+      "defense": 75,
+      "hp": 80,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 119
+    },
+    "typeIds": [
+      "fire"
+    ],
+    "weightKg": 33
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-097"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0818000",
+    "identity": true,
+    "name": "Inteleon",
+    "sex": "mixed",
+    "speciesId": "species-818",
+    "stats": {
+      "attack": 85,
+      "defense": 65,
+      "hp": 70,
+      "spAttack": 125,
+      "spDefense": 65,
+      "speed": 120
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 45.2
+  },
+  {
+    "abilityIds": [
+      "ability-046",
+      "ability-127",
+      "ability-240"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0823000",
+    "identity": true,
+    "name": "Corviknight",
+    "sex": "mixed",
+    "speciesId": "species-823",
+    "stats": {
+      "attack": 87,
+      "defense": 105,
+      "hp": 98,
+      "spAttack": 53,
+      "spDefense": 85,
+      "speed": 67
+    },
+    "typeIds": [
+      "flying",
+      "steel"
+    ],
+    "weightKg": 75
+  },
+  {
+    "abilityIds": [
+      "ability-050",
+      "ability-084",
+      "ability-198"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0828000",
+    "identity": true,
+    "name": "Thievul",
+    "sex": "mixed",
+    "speciesId": "species-828",
+    "stats": {
+      "attack": 58,
+      "defense": 58,
+      "hp": 70,
+      "spAttack": 87,
+      "spDefense": 92,
+      "speed": 90
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 19.9
+  },
+  {
+    "abilityIds": [
+      "ability-055",
+      "ability-082",
+      "ability-247"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0841000",
+    "identity": true,
+    "name": "Flapple",
+    "sex": "mixed",
+    "speciesId": "species-841",
+    "stats": {
+      "attack": 110,
+      "defense": 80,
+      "hp": 70,
+      "spAttack": 95,
+      "spDefense": 60,
+      "speed": 70
+    },
+    "typeIds": [
+      "dragon",
+      "grass"
+    ],
+    "weightKg": 1
+  },
+  {
+    "abilityIds": [
+      "ability-047",
+      "ability-082",
+      "ability-247"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0842000",
+    "identity": true,
+    "name": "Appletun",
+    "sex": "mixed",
+    "speciesId": "species-842",
+    "stats": {
+      "attack": 85,
+      "defense": 80,
+      "hp": 110,
+      "spAttack": 100,
+      "spDefense": 80,
+      "speed": 30
+    },
+    "typeIds": [
+      "dragon",
+      "grass"
+    ],
+    "weightKg": 13
+  },
+  {
+    "abilityIds": [
+      "ability-008",
+      "ability-061",
+      "ability-245"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0844000",
+    "identity": true,
+    "name": "Sandaconda",
+    "sex": "mixed",
+    "speciesId": "species-844",
+    "stats": {
+      "attack": 107,
+      "defense": 125,
+      "hp": 72,
+      "spAttack": 65,
+      "spDefense": 70,
+      "speed": 71
+    },
+    "typeIds": [
+      "ground"
+    ],
+    "weightKg": 65.5
+  },
+  {
+    "abilityIds": [
+      "ability-057",
+      "ability-101",
+      "ability-244"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0849000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-849",
+    "stats": {
+      "attack": 98,
+      "defense": 70,
+      "hp": 75,
+      "spAttack": 114,
+      "spDefense": 70,
+      "speed": 75
+    },
+    "typeIds": [
+      "electric",
+      "poison"
+    ],
+    "weightKg": 40
+  },
+  {
+    "abilityIds": [
+      "ability-058",
+      "ability-101",
+      "ability-244"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0849001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-849",
+    "stats": {
+      "attack": 98,
+      "defense": 70,
+      "hp": 75,
+      "spAttack": 114,
+      "spDefense": 70,
+      "speed": 75
+    },
+    "typeIds": [
+      "electric",
+      "poison"
+    ],
+    "weightKg": 40
+  },
+  {
+    "abilityIds": [
+      "ability-007",
+      "ability-101"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0853000",
+    "identity": true,
+    "name": "Grapploct",
+    "sex": "mixed",
+    "speciesId": "species-853",
+    "stats": {
+      "attack": 118,
+      "defense": 90,
+      "hp": 80,
+      "spAttack": 70,
+      "spDefense": 80,
+      "speed": 42
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 39
+  },
+  {
+    "abilityIds": [
+      "ability-130",
+      "ability-133"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0855000",
+    "identity": true,
+    "sex": "genderless",
+    "speciesId": "species-855",
+    "stats": {
+      "attack": 65,
+      "defense": 65,
+      "hp": 60,
+      "spAttack": 134,
+      "spDefense": 114,
+      "speed": 70
+    },
+    "typeIds": [
+      "ghost"
+    ],
+    "weightKg": 0.4
+  },
+  {
+    "abilityIds": [
+      "ability-107",
+      "ability-131",
+      "ability-156"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0858000",
+    "identity": true,
+    "name": "Hatterene",
+    "sex": "female",
+    "speciesId": "species-858",
+    "stats": {
+      "attack": 90,
+      "defense": 95,
+      "hp": 57,
+      "spAttack": 136,
+      "spDefense": 103,
+      "speed": 29
+    },
+    "typeIds": [
+      "fairy",
+      "psychic"
+    ],
+    "weightKg": 5.1
+  },
+  {
+    "abilityIds": [
+      "ability-119",
+      "ability-124",
+      "ability-158"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0861000",
+    "identity": true,
+    "name": "Grimmsnarl",
+    "sex": "male",
+    "speciesId": "species-861",
+    "stats": {
+      "attack": 120,
+      "defense": 65,
+      "hp": 95,
+      "spAttack": 95,
+      "spDefense": 75,
+      "speed": 60
+    },
+    "typeIds": [
+      "dark",
+      "fairy"
+    ],
+    "weightKg": 61
+  },
+  {
+    "abilityIds": [
+      "ability-004",
+      "ability-181",
+      "ability-252"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0863000",
+    "identity": true,
+    "name": "Perrserker",
+    "sex": "mixed",
+    "speciesId": "species-863",
+    "stats": {
+      "attack": 110,
+      "defense": 100,
+      "hp": 70,
+      "spAttack": 50,
+      "spDefense": 60,
+      "speed": 50
+    },
+    "typeIds": [
+      "steel"
+    ],
+    "weightKg": 28
+  },
+  {
+    "abilityIds": [
+      "ability-080",
+      "ability-113"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0865000",
+    "identity": true,
+    "name": "Sirfetch’d",
+    "sex": "mixed",
+    "speciesId": "species-865",
+    "stats": {
+      "attack": 135,
+      "defense": 95,
+      "hp": 62,
+      "spAttack": 68,
+      "spDefense": 82,
+      "speed": 65
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 117
+  },
+  {
+    "abilityIds": [
+      "ability-077",
+      "ability-115",
+      "ability-251"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0866000",
+    "identity": true,
+    "name": "Mr. Rime",
+    "sex": "mixed",
+    "speciesId": "species-866",
+    "stats": {
+      "attack": 85,
+      "defense": 75,
+      "hp": 80,
+      "spAttack": 110,
+      "spDefense": 100,
+      "speed": 70
+    },
+    "typeIds": [
+      "ice",
+      "psychic"
+    ],
+    "weightKg": 58.2
+  },
+  {
+    "abilityIds": [
+      "ability-254"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0867000",
+    "identity": true,
+    "name": "Runerigus",
+    "sex": "mixed",
+    "speciesId": "species-867",
+    "stats": {
+      "attack": 95,
+      "defense": 145,
+      "hp": 58,
+      "spAttack": 50,
+      "spDefense": 105,
+      "speed": 30
+    },
+    "typeIds": [
+      "ghost",
+      "ground"
+    ],
+    "weightKg": 66.6
+  },
+  {
+    "abilityIds": [
+      "ability-165",
+      "ability-175"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0869000",
+    "identity": true,
+    "sex": "female",
+    "speciesId": "species-869",
+    "stats": {
+      "attack": 60,
+      "defense": 75,
+      "hp": 65,
+      "spAttack": 110,
+      "spDefense": 121,
+      "speed": 64
+    },
+    "typeIds": [
+      "fairy"
+    ],
+    "weightKg": 0.5
+  },
+  {
+    "abilityIds": [
+      "ability-004",
+      "ability-128"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0870000",
+    "identity": true,
+    "name": "Falinks",
+    "sex": "genderless",
+    "speciesId": "species-870",
+    "stats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 65,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 75
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 62
+  },
+  {
+    "abilityIds": [
+      "ability-128"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0870001",
+    "identity": true,
+    "name": "Mega-Falinks",
+    "sex": "genderless",
+    "speciesId": "species-870",
+    "stats": {
+      "attack": 135,
+      "defense": 135,
+      "hp": 65,
+      "spAttack": 70,
+      "spDefense": 65,
+      "speed": 100
+    },
+    "typeIds": [
+      "fighting"
+    ],
+    "weightKg": 99
+  },
+  {
+    "abilityIds": [
+      "ability-031",
+      "ability-226"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0871000",
+    "identity": true,
+    "name": "Pincurchin",
+    "sex": "mixed",
+    "speciesId": "species-871",
+    "stats": {
+      "attack": 101,
+      "defense": 95,
+      "hp": 48,
+      "spAttack": 91,
+      "spDefense": 85,
+      "speed": 15
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 1
+  },
+  {
+    "abilityIds": [
+      "ability-028",
+      "ability-039",
+      "ability-227"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0876000",
+    "identity": true,
+    "sex": "male",
+    "speciesId": "species-876",
+    "stats": {
+      "attack": 65,
+      "defense": 55,
+      "hp": 60,
+      "spAttack": 105,
+      "spDefense": 95,
+      "speed": 95
+    },
+    "typeIds": [
+      "normal",
+      "psychic"
+    ],
+    "weightKg": 28
+  },
+  {
+    "abilityIds": [
+      "ability-020",
+      "ability-028",
+      "ability-227"
+    ],
+    "available": true,
+    "form": {
+      "kind": "gender"
+    },
+    "id": "pokemon-0876001",
+    "identity": true,
+    "sex": "female",
+    "speciesId": "species-876",
+    "stats": {
+      "attack": 55,
+      "defense": 65,
+      "hp": 70,
+      "spAttack": 95,
+      "spDefense": 105,
+      "speed": 85
+    },
+    "typeIds": [
+      "normal",
+      "psychic"
+    ],
+    "weightKg": 28
+  },
+  {
+    "abilityIds": [
+      "ability-258"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0877000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-877",
+    "stats": {
+      "attack": 95,
+      "defense": 58,
+      "hp": 58,
+      "spAttack": 70,
+      "spDefense": 58,
+      "speed": 97
+    },
+    "typeIds": [
+      "dark",
+      "electric"
+    ],
+    "weightKg": 3
+  },
+  {
+    "abilityIds": [
+      "ability-029",
+      "ability-130",
+      "ability-151"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0887000",
+    "identity": true,
+    "name": "Dragapult",
+    "sex": "mixed",
+    "speciesId": "species-887",
+    "stats": {
+      "attack": 120,
+      "defense": 75,
+      "hp": 88,
+      "spAttack": 100,
+      "spDefense": 75,
+      "speed": 142
+    },
+    "typeIds": [
+      "dragon",
+      "ghost"
+    ],
+    "weightKg": 50
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-119",
+      "ability-157"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0899000",
+    "identity": true,
+    "name": "Wyrdeer",
+    "sex": "mixed",
+    "speciesId": "species-899",
+    "stats": {
+      "attack": 105,
+      "defense": 72,
+      "hp": 103,
+      "spAttack": 105,
+      "spDefense": 75,
+      "speed": 65
+    },
+    "typeIds": [
+      "normal",
+      "psychic"
+    ],
+    "weightKg": 95.1
+  },
+  {
+    "abilityIds": [
+      "ability-068",
+      "ability-125",
+      "ability-292"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0900000",
+    "identity": true,
+    "name": "Kleavor",
+    "sex": "mixed",
+    "speciesId": "species-900",
+    "stats": {
+      "attack": 135,
+      "defense": 95,
+      "hp": 70,
+      "spAttack": 45,
+      "spDefense": 70,
+      "speed": 85
+    },
+    "typeIds": [
+      "bug",
+      "rock"
+    ],
+    "weightKg": 89
+  },
+  {
+    "abilityIds": [
+      "ability-033",
+      "ability-091",
+      "ability-104"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0902000",
+    "identity": true,
+    "sex": "male",
+    "speciesId": "species-902",
+    "stats": {
+      "attack": 112,
+      "defense": 65,
+      "hp": 120,
+      "spAttack": 80,
+      "spDefense": 75,
+      "speed": 78
+    },
+    "typeIds": [
+      "ghost",
+      "water"
+    ],
+    "weightKg": 110
+  },
+  {
+    "abilityIds": [
+      "ability-033",
+      "ability-091",
+      "ability-104"
+    ],
+    "available": true,
+    "form": {
+      "kind": "gender"
+    },
+    "id": "pokemon-0902001",
+    "identity": true,
+    "sex": "female",
+    "speciesId": "species-902",
+    "stats": {
+      "attack": 92,
+      "defense": 65,
+      "hp": 120,
+      "spAttack": 100,
+      "spDefense": 75,
+      "speed": 78
+    },
+    "typeIds": [
+      "ghost",
+      "water"
+    ],
+    "weightKg": 110
+  },
+  {
+    "abilityIds": [
+      "ability-046",
+      "ability-084",
+      "ability-143"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0903000",
+    "identity": true,
+    "name": "Sneasler",
+    "sex": "mixed",
+    "speciesId": "species-903",
+    "stats": {
+      "attack": 130,
+      "defense": 60,
+      "hp": 80,
+      "spAttack": 40,
+      "spDefense": 80,
+      "speed": 120
+    },
+    "typeIds": [
+      "fighting",
+      "poison"
+    ],
+    "weightKg": 43
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-033",
+      "ability-038"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0904000",
+    "identity": true,
+    "name": "Overqwil",
+    "sex": "mixed",
+    "speciesId": "species-904",
+    "stats": {
+      "attack": 115,
+      "defense": 95,
+      "hp": 85,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 85
+    },
+    "typeIds": [
+      "dark",
+      "poison"
+    ],
+    "weightKg": 60.5
+  },
+  {
+    "abilityIds": [
+      "ability-065",
+      "ability-168"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0908000",
+    "identity": true,
+    "name": "Meowscarada",
+    "sex": "mixed",
+    "speciesId": "species-908",
+    "stats": {
+      "attack": 110,
+      "defense": 70,
+      "hp": 76,
+      "spAttack": 81,
+      "spDefense": 70,
+      "speed": 123
+    },
+    "typeIds": [
+      "dark",
+      "grass"
+    ],
+    "weightKg": 31.2
+  },
+  {
+    "abilityIds": [
+      "ability-066",
+      "ability-109"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0911000",
+    "identity": true,
+    "name": "Skeledirge",
+    "sex": "mixed",
+    "speciesId": "species-911",
+    "stats": {
+      "attack": 75,
+      "defense": 100,
+      "hp": 104,
+      "spAttack": 110,
+      "spDefense": 75,
+      "speed": 66
+    },
+    "typeIds": [
+      "fire",
+      "ghost"
+    ],
+    "weightKg": 326.5
+  },
+  {
+    "abilityIds": [
+      "ability-067",
+      "ability-153"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0914000",
+    "identity": true,
+    "name": "Quaquaval",
+    "sex": "mixed",
+    "speciesId": "species-914",
+    "stats": {
+      "attack": 120,
+      "defense": 80,
+      "hp": 85,
+      "spAttack": 85,
+      "spDefense": 75,
+      "speed": 85
+    },
+    "typeIds": [
+      "fighting",
+      "water"
+    ],
+    "weightKg": 61.9
+  },
+  {
+    "abilityIds": [
+      "ability-010",
+      "ability-030",
+      "ability-089"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0923000",
+    "identity": true,
+    "name": "Pawmot",
+    "sex": "mixed",
+    "speciesId": "species-923",
+    "stats": {
+      "attack": 115,
+      "defense": 70,
+      "hp": 70,
+      "spAttack": 70,
+      "spDefense": 60,
+      "speed": 105
+    },
+    "typeIds": [
+      "electric",
+      "fighting"
+    ],
+    "weightKg": 41
+  },
+  {
+    "abilityIds": [
+      "ability-101",
+      "ability-132",
+      "ability-167"
+    ],
+    "available": true,
+    "id": "pokemon-0925000",
+    "identity": true,
+    "speciesId": "species-925",
+    "stats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 74,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 111
+    },
+    "typeIds": [
+      "normal"
+    ]
+  },
+  {
+    "abilityIds": [
+      "ability-101",
+      "ability-132",
+      "ability-167"
+    ],
+    "available": true,
+    "id": "pokemon-0925001",
+    "identity": true,
+    "speciesId": "species-925",
+    "stats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 74,
+      "spAttack": 65,
+      "spDefense": 75,
+      "speed": 111
+    },
+    "typeIds": [
+      "normal"
+    ]
+  },
+  {
+    "abilityIds": [
+      "ability-139",
+      "ability-269"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0930000",
+    "identity": true,
+    "name": "Arboliva",
+    "sex": "mixed",
+    "speciesId": "species-930",
+    "stats": {
+      "attack": 69,
+      "defense": 90,
+      "hp": 78,
+      "spAttack": 125,
+      "spDefense": 109,
+      "speed": 39
+    },
+    "typeIds": [
+      "grass",
+      "normal"
+    ],
+    "weightKg": 48.2
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-055",
+      "ability-062"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0931000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-931",
+    "stats": {
+      "attack": 96,
+      "defense": 51,
+      "hp": 82,
+      "spAttack": 45,
+      "spDefense": 51,
+      "speed": 92
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ],
+    "weightKg": 2.4
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-055",
+      "ability-062"
+    ],
+    "available": true,
+    "id": "pokemon-0931001",
+    "identity": true,
+    "speciesId": "species-931",
+    "stats": {
+      "attack": 96,
+      "defense": 51,
+      "hp": 82,
+      "spAttack": 45,
+      "spDefense": 51,
+      "speed": 92
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ]
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-055",
+      "ability-125"
+    ],
+    "available": true,
+    "id": "pokemon-0931002",
+    "identity": true,
+    "speciesId": "species-931",
+    "stats": {
+      "attack": 96,
+      "defense": 51,
+      "hp": 82,
+      "spAttack": 45,
+      "spDefense": 51,
+      "speed": 92
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ]
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-055",
+      "ability-125"
+    ],
+    "available": true,
+    "id": "pokemon-0931003",
+    "identity": true,
+    "speciesId": "species-931",
+    "stats": {
+      "attack": 96,
+      "defense": 51,
+      "hp": 82,
+      "spAttack": 45,
+      "spDefense": 51,
+      "speed": 92
+    },
+    "typeIds": [
+      "flying",
+      "normal"
+    ]
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-029",
+      "ability-272"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0934000",
+    "identity": true,
+    "name": "Garganacl",
+    "sex": "mixed",
+    "speciesId": "species-934",
+    "stats": {
+      "attack": 100,
+      "defense": 130,
+      "hp": 100,
+      "spAttack": 45,
+      "spDefense": 90,
+      "speed": 35
+    },
+    "typeIds": [
+      "rock"
+    ],
+    "weightKg": 240
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-133"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0936000",
+    "identity": true,
+    "name": "Armarouge",
+    "sex": "mixed",
+    "speciesId": "species-936",
+    "stats": {
+      "attack": 60,
+      "defense": 100,
+      "hp": 85,
+      "spAttack": 125,
+      "spDefense": 80,
+      "speed": 75
+    },
+    "typeIds": [
+      "fire",
+      "psychic"
+    ],
+    "weightKg": 85
+  },
+  {
+    "abilityIds": [
+      "ability-018",
+      "ability-133"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0937000",
+    "identity": true,
+    "name": "Ceruledge",
+    "sex": "mixed",
+    "speciesId": "species-937",
+    "stats": {
+      "attack": 125,
+      "defense": 80,
+      "hp": 75,
+      "spAttack": 60,
+      "spDefense": 100,
+      "speed": 85
+    },
+    "typeIds": [
+      "fire",
+      "ghost"
+    ],
+    "weightKg": 62
+  },
+  {
+    "abilityIds": [
+      "ability-006",
+      "ability-009",
+      "ability-280"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0939000",
+    "identity": true,
+    "name": "Bellibolt",
+    "sex": "mixed",
+    "speciesId": "species-939",
+    "stats": {
+      "attack": 64,
+      "defense": 91,
+      "hp": 109,
+      "spAttack": 103,
+      "spDefense": 83,
+      "speed": 45
+    },
+    "typeIds": [
+      "electric"
+    ],
+    "weightKg": 113
+  },
+  {
+    "abilityIds": [
+      "ability-022",
+      "ability-198",
+      "ability-275"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0943000",
+    "identity": true,
+    "name": "Mabosstiff",
+    "sex": "mixed",
+    "speciesId": "species-943",
+    "stats": {
+      "attack": 120,
+      "defense": 90,
+      "hp": 80,
+      "spAttack": 60,
+      "spDefense": 70,
+      "speed": 85
+    },
+    "typeIds": [
+      "dark"
+    ],
+    "weightKg": 61
+  },
+  {
+    "abilityIds": [
+      "ability-015",
+      "ability-034",
+      "ability-141"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0952000",
+    "identity": true,
+    "name": "Scovillain",
+    "sex": "mixed",
+    "speciesId": "species-952",
+    "stats": {
+      "attack": 108,
+      "defense": 65,
+      "hp": 65,
+      "spAttack": 108,
+      "spDefense": 65,
+      "speed": 75
+    },
+    "typeIds": [
+      "fire",
+      "grass"
+    ],
+    "weightKg": 15
+  },
+  {
+    "abilityIds": [
+      "ability-318"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0952001",
+    "identity": true,
+    "name": "Mega-Scovillain",
+    "sex": "mixed",
+    "speciesId": "species-952",
+    "stats": {
+      "attack": 138,
+      "defense": 85,
+      "hp": 65,
+      "spAttack": 138,
+      "spDefense": 85,
+      "speed": 75
+    },
+    "typeIds": [
+      "fire",
+      "grass"
+    ],
+    "weightKg": 22
+  },
+  {
+    "abilityIds": [
+      "ability-003",
+      "ability-119",
+      "ability-290"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0956000",
+    "identity": true,
+    "name": "Espathra",
+    "sex": "mixed",
+    "speciesId": "species-956",
+    "stats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 95,
+      "spAttack": 101,
+      "spDefense": 60,
+      "speed": 105
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 90
+  },
+  {
+    "abilityIds": [
+      "ability-020",
+      "ability-104",
+      "ability-124"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0959000",
+    "identity": true,
+    "name": "Tinkaton",
+    "sex": "female",
+    "speciesId": "species-959",
+    "stats": {
+      "attack": 75,
+      "defense": 77,
+      "hp": 85,
+      "spAttack": 70,
+      "spDefense": 105,
+      "speed": 94
+    },
+    "typeIds": [
+      "fairy",
+      "steel"
+    ],
+    "weightKg": 112.8
+  },
+  {
+    "abilityIds": [
+      "ability-278"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0964000",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-964",
+    "stats": {
+      "attack": 70,
+      "defense": 72,
+      "hp": 100,
+      "spAttack": 53,
+      "spDefense": 62,
+      "speed": 100
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 60.2
+  },
+  {
+    "abilityIds": [
+      "ability-278"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0964001",
+    "identity": true,
+    "sex": "mixed",
+    "speciesId": "species-964",
+    "stats": {
+      "attack": 160,
+      "defense": 97,
+      "hp": 100,
+      "spAttack": 106,
+      "spDefense": 87,
+      "speed": 100
+    },
+    "typeIds": [
+      "water"
+    ],
+    "weightKg": 97.4
+  },
+  {
+    "abilityIds": [
+      "ability-008",
+      "ability-297"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0968000",
+    "identity": true,
+    "name": "Orthworm",
+    "sex": "mixed",
+    "speciesId": "species-968",
+    "stats": {
+      "attack": 85,
+      "defense": 145,
+      "hp": 70,
+      "spAttack": 60,
+      "spDefense": 55,
+      "speed": 65
+    },
+    "typeIds": [
+      "steel"
+    ],
+    "weightKg": 310
+  },
+  {
+    "abilityIds": [
+      "ability-212",
+      "ability-295"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0970000",
+    "identity": true,
+    "name": "Glimmora",
+    "sex": "mixed",
+    "speciesId": "species-970",
+    "stats": {
+      "attack": 55,
+      "defense": 90,
+      "hp": 83,
+      "spAttack": 130,
+      "spDefense": 81,
+      "speed": 86
+    },
+    "typeIds": [
+      "poison",
+      "rock"
+    ],
+    "weightKg": 45
+  },
+  {
+    "abilityIds": [
+      "ability-091"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0970001",
+    "identity": true,
+    "name": "Mega-Glimmora",
+    "sex": "mixed",
+    "speciesId": "species-970",
+    "stats": {
+      "attack": 90,
+      "defense": 105,
+      "hp": 83,
+      "spAttack": 150,
+      "spDefense": 96,
+      "speed": 101
+    },
+    "typeIds": [
+      "poison",
+      "rock"
+    ],
+    "weightKg": 77
+  },
+  {
+    "abilityIds": [
+      "ability-146",
+      "ability-218"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0972000",
+    "identity": true,
+    "name": "Houndstone",
+    "sex": "mixed",
+    "speciesId": "species-972",
+    "stats": {
+      "attack": 101,
+      "defense": 100,
+      "hp": 72,
+      "spAttack": 50,
+      "spDefense": 97,
+      "speed": 68
+    },
+    "typeIds": [
+      "ghost"
+    ],
+    "weightKg": 15
+  },
+  {
+    "abilityIds": [
+      "ability-039",
+      "ability-072",
+      "ability-128"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0979000",
+    "identity": true,
+    "name": "Annihilape",
+    "sex": "mixed",
+    "speciesId": "species-979",
+    "stats": {
+      "attack": 115,
+      "defense": 80,
+      "hp": 110,
+      "spAttack": 50,
+      "spDefense": 90,
+      "speed": 90
+    },
+    "typeIds": [
+      "fighting",
+      "ghost"
+    ],
+    "weightKg": 56
+  },
+  {
+    "abilityIds": [
+      "ability-157",
+      "ability-291",
+      "ability-296"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0981000",
+    "identity": true,
+    "name": "Farigiraf",
+    "sex": "mixed",
+    "speciesId": "species-981",
+    "stats": {
+      "attack": 90,
+      "defense": 70,
+      "hp": 120,
+      "spAttack": 110,
+      "spDefense": 70,
+      "speed": 60
+    },
+    "typeIds": [
+      "normal",
+      "psychic"
+    ],
+    "weightKg": 160
+  },
+  {
+    "abilityIds": [
+      "ability-046",
+      "ability-128",
+      "ability-293"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0983000",
+    "identity": true,
+    "name": "Kingambit",
+    "sex": "mixed",
+    "speciesId": "species-983",
+    "stats": {
+      "attack": 135,
+      "defense": 120,
+      "hp": 100,
+      "spAttack": 60,
+      "spDefense": 85,
+      "speed": 50
+    },
+    "typeIds": [
+      "dark",
+      "steel"
+    ],
+    "weightKg": 120
+  },
+  {
+    "abilityIds": [
+      "ability-115",
+      "ability-270"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-0998000",
+    "identity": true,
+    "name": "Baxcalibur",
+    "sex": "mixed",
+    "speciesId": "species-998",
+    "stats": {
+      "attack": 145,
+      "defense": 92,
+      "hp": 115,
+      "spAttack": 75,
+      "spDefense": 86,
+      "speed": 87
+    },
+    "typeIds": [
+      "dragon",
+      "ice"
+    ],
+    "weightKg": 210
+  },
+  {
+    "abilityIds": [
+      "ability-270"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0998001",
+    "identity": true,
+    "name": "Mega-Baxcalibur",
+    "sex": "mixed",
+    "speciesId": "species-998",
+    "stats": {
+      "attack": 175,
+      "defense": 117,
+      "hp": 115,
+      "spAttack": 105,
+      "spDefense": 101,
+      "speed": 87
+    },
+    "typeIds": [
+      "dragon",
+      "ice"
+    ],
+    "weightKg": 315
+  },
+  {
+    "abilityIds": [
+      "ability-283"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-1000000",
+    "identity": true,
+    "name": "Gholdengo",
+    "sex": "genderless",
+    "speciesId": "species-1000",
+    "stats": {
+      "attack": 60,
+      "defense": 95,
+      "hp": 87,
+      "spAttack": 133,
+      "spDefense": 91,
+      "speed": 84
+    },
+    "typeIds": [
+      "ghost",
+      "steel"
+    ],
+    "weightKg": 30
+  },
+  {
+    "abilityIds": [
+      "ability-085",
+      "ability-299"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-1013000",
+    "identity": true,
+    "sex": "genderless",
+    "speciesId": "species-1013",
+    "stats": {
+      "attack": 60,
+      "defense": 106,
+      "hp": 71,
+      "spAttack": 121,
+      "spDefense": 80,
+      "speed": 70
+    },
+    "typeIds": [
+      "ghost",
+      "grass"
+    ],
+    "weightKg": 2.2
+  },
+  {
+    "abilityIds": [
+      "ability-005",
+      "ability-192",
+      "ability-242"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-1018000",
+    "identity": true,
+    "name": "Archaludon",
+    "sex": "mixed",
+    "speciesId": "species-1018",
+    "stats": {
+      "attack": 105,
+      "defense": 130,
+      "hp": 90,
+      "spAttack": 125,
+      "spDefense": 65,
+      "speed": 85
+    },
+    "typeIds": [
+      "dragon",
+      "steel"
+    ],
+    "weightKg": 60
+  },
+  {
+    "abilityIds": [
+      "ability-060",
+      "ability-144",
+      "ability-306"
+    ],
+    "available": true,
+    "form": {
+      "kind": "base"
+    },
+    "id": "pokemon-1019000",
+    "identity": true,
+    "name": "Hydrapple",
+    "sex": "mixed",
+    "speciesId": "species-1019",
+    "stats": {
+      "attack": 80,
+      "defense": 110,
+      "hp": 106,
+      "spAttack": 120,
+      "spDefense": 80,
+      "speed": 44
+    },
+    "typeIds": [
+      "dragon",
+      "grass"
+    ],
+    "weightKg": 93
+  }
+]

@@ -1,1 +1,65 @@
 # ChampionsDB
+
+Base estática de datos de combate de **Pokémon Champions**, en español de España. JSON y JavaScript ESM, sin servidor ni base de datos. Incluye una web de tablas y filtros combinables preparada para `https://disboard.es/ChampionsDB/`. El despliegue en GitHub queda pendiente de configurar el remoto y activar Pages.
+
+**La cobertura es parcial y se mide explícitamente.** Solo se publican campos y relaciones corroborados por dos proveedores distintos. Los conflictos, las ausencias y las reglas aún sin interpretar se enumeran en [el informe de pendientes](data/reports/pending.json). No se incluyen datos de uso, tiers, winrates ni recomendaciones competitivas.
+
+## Uso
+
+Requiere Node.js 24. Las dependencias de desarrollo son Ajv, Cheerio, el cargador de datos de Pokémon Showdown y Playwright para las pruebas de navegador. El navegador no necesita ninguna.
+
+```sh
+npm ci
+npm test
+npm run data:update
+npm run data:validate
+npm run data:rebuild
+npm run site:dev
+```
+
+- `data:update`: descarga las fuentes, reutiliza capturas inmutables, normaliza, contrasta, valida y publica una generación completa.
+- `data:validate`: verifica todos los registros, referencias, evidencias, esquemas y huellas del conjunto publicado.
+- `data:rebuild`: reconstruye sin red a partir del manifiesto y las capturas locales. Una ejecución sin cambios conserva los archivos y su informe de cambios.
+- `site:build`: genera la web completa en `dist/`, con cobertura compacta y evidencias por entidad.
+- `site:dev`: construye y sirve la web en `http://127.0.0.1:4173/ChampionsDB/`.
+- `test:browser`: comprueba tablas, filtros, detalles, teclado y móvil con Playwright (instalar antes Chromium con `npx playwright install chromium`).
+
+Los JSON de consulta están en [`data/`](data/). El [manifiesto](data/manifest.json), la [cobertura](data/reports/coverage.json) y la [procedencia por colección](data/provenance/) permiten auditar la publicación. `complete: false` es una limitación real, no una etiqueta decorativa.
+
+## Consultas sin servidor
+
+```js
+import {loadDatabase} from './lib/queries.mjs';
+
+const db = await loadDatabase('/ChampionsDB/data/');
+const lluvia = db.producersOfEffect('rain');
+// { records: [{ pokemon, paths }], coverage }
+
+db.pokemonForMove('move-240');       // Danza Lluvia
+db.pokemonForAbility('ability-002'); // Llovizna
+db.formsOfSpecies('species-003');   // Venusaur y sus formas
+db.relatedToEffect('paralysis');
+db.conditions();
+db.berries();
+db.megaStones();
+db.regulation('m-c');
+```
+
+Los índices se generan una vez en memoria. Lluvia distingue creación directa y rutas condicionales mediante copia de habilidades; no presenta Nado Rápido como productor. La elegibilidad de una habilidad copiada **no se evalúa como en un simulador**: la ruta devuelve los requisitos pendientes de cumplir.
+
+## Actualización en GitHub
+
+[El workflow](.github/workflows/update-data.yml) tiene ejecución manual y semanal, los lunes a las **04:17 UTC**. Comprueba las pruebas y la publicación, verifica la reconstrucción sin red y hace commit únicamente de `data/` y `sources/snapshot.json` cuando cambian. Las capturas e informes se guardan como artefactos durante 30 días.
+
+Este repositorio todavía no tiene remoto configurado. Para activar el workflow hay que alojarlo en GitHub, usar la rama `main` y permitir escritura al token de Actions. Una protección de rama que prohíba esos commits debe configurarse por el propietario. No se ha modificado el dominio ni desplegado una web.
+
+## Documentación
+
+- [Modelo, semántica y relaciones](docs/modelo.md).
+- [Web: filtros, arquitectura, pruebas y activación de GitHub Pages](docs/web.md).
+- [Fuentes, normalización y límites de cobertura](docs/aprovisionamiento.md).
+- [Operación, reconstrucción y revisión de nuevas mecánicas](docs/operacion.md).
+- [Registro de proveedores y dependencias conocidas](sources/providers.json).
+- [Reglas y equivalencias revisadas, vinculadas a sus evidencias](rules/reviewed.json).
+
+El código conserva la licencia del repositorio. Los nombres y textos de Pokémon y las fuentes externas mantienen sus respectivos derechos; no se les atribuye automáticamente la licencia del código.

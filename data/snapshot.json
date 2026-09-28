@@ -1,0 +1,695 @@
+{
+  "documents": {
+    "champout/esp/btl_condition": {
+      "bytes": 14241,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/btl_condition",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/btl_condition.json"
+    },
+    "champout/esp/btl_state_syn": {
+      "bytes": 131006,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/btl_state_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "395fc437eb84f9ef73ef9948c2bd677e2ed6c65bdd6f176aee91aad51c79bb96",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/btl_state_syn.json"
+    },
+    "champout/esp/help_syn": {
+      "bytes": 775047,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/help_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "83d072f479d6cade5ae470c58f00060afce74d84e07b6765c300b82ea3242343",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/help_syn.json"
+    },
+    "champout/esp/iteminfo_syn": {
+      "bytes": 156311,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/iteminfo_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "26d2e9becb6d123b77f93ea50a47a4edfb34fc6900987a8943a561b351639d69",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/iteminfo_syn.json"
+    },
+    "champout/esp/itemname": {
+      "bytes": 80119,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/itemname",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "e8e374f6add6529898b358ad9f42a6a4384905f3a3954fd41b5bc88240f3f7d0",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/itemname.json"
+    },
+    "champout/esp/monsname_syn": {
+      "bytes": 487181,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/monsname_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "835521c965c6051761a442f123f73024e41d91127eec0ab050155576833a647a",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/monsname_syn.json"
+    },
+    "champout/esp/seikaku": {
+      "bytes": 11918,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/seikaku",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/seikaku.json"
+    },
+    "champout/esp/tokusei": {
+      "bytes": 104053,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/tokusei",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "7b56e9c389448ba753d360f5ae5d1bbbb53f550bef08ddbd25b13ac9ad83d597",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/tokusei.json"
+    },
+    "champout/esp/tokuseiinfo_syn": {
+      "bytes": 235067,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/tokuseiinfo_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "b08626280c19a36682a3904e5d161acd5e68e4884223f5c915b4b425d7feba42",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/tokuseiinfo_syn.json"
+    },
+    "champout/esp/tournament_rule": {
+      "bytes": 63351,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/tournament_rule",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "5a4dafa5ce79883a6fbc481e5bc70a126e556841945743fc337b10b514883a2e",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/tournament_rule.json"
+    },
+    "champout/esp/typename": {
+      "bytes": 8681,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/typename",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "74df1f499196e88d75735289b72d59b596f6159eb8caab06535256195cee17de",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/typename.json"
+    },
+    "champout/esp/ui_control": {
+      "bytes": 8523,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/ui_control",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/ui_control.json"
+    },
+    "champout/esp/wazaclassification": {
+      "bytes": 5978,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/wazaclassification",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "99059950575231fa2314d2086b091b247a6c049e12c5bad5c4d6043211575612",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/wazaclassification.json"
+    },
+    "champout/esp/wazainfo_syn": {
+      "bytes": 442146,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/wazainfo_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "7f7e94710aba87615633ae5a37ed62ffcc014b9724c6508e429ad5d35e8ae87d",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/wazainfo_syn.json"
+    },
+    "champout/esp/wazaname": {
+      "bytes": 401866,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/wazaname",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "f379170eb64eed39fde79a28df75583a5777aced4b3d73068536a0ff5193a565",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/wazaname.json"
+    },
+    "champout/esp/wazatarget": {
+      "bytes": 5562,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/wazatarget",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "0a53999f52c2f08440274fa6086abdaf5931dbaabbb295cbd37a7aaa30acc689",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/wazatarget.json"
+    },
+    "champout/esp/zkn_form_syn": {
+      "bytes": 154012,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/esp/zkn_form_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "a3dfaa1dcceedddccfe84c8258084190d3739dd41e531ca5475377acb909ce2e",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/esp/zkn_form_syn.json"
+    },
+    "champout/masterdata/item": {
+      "bytes": 63882,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/masterdata/item",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "556ad830a535d6280310379f8dfa738f45ef3f38896b86f4a3981aae8269df5e",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/masterdata/item.json"
+    },
+    "champout/masterdata/personal": {
+      "bytes": 298136,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/masterdata/personal",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/masterdata/personal.json"
+    },
+    "champout/masterdata/waza": {
+      "bytes": 437286,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/masterdata/waza",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/masterdata/waza.json"
+    },
+    "champout/masterdata/waza_learn": {
+      "bytes": 109719,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/masterdata/waza_learn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "fa40af93a85ad57b7308332e498437bed35be42c526a237b02f0af314e766b1a",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/masterdata/waza_learn.json"
+    },
+    "champout/usa/btl_condition": {
+      "bytes": 13950,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/btl_condition",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "4ea0c31686e32abe549b29966a0f2a5505ac0a9aa5dfc7eb59df60c5de657604",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/btl_condition.json"
+    },
+    "champout/usa/btl_state_syn": {
+      "bytes": 123311,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/btl_state_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "0fd29ce30b4fb7d1a9786d0bb746cd6c2db00143bda3a3ae804b0b67004a1710",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/btl_state_syn.json"
+    },
+    "champout/usa/help_syn": {
+      "bytes": 773994,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/help_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "fd2d55ad535ea3840f7d73463fa403398f1e21af0aa31e9a1fd4884adad716b1",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/help_syn.json"
+    },
+    "champout/usa/iteminfo_syn": {
+      "bytes": 156377,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/iteminfo_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "5525dc9d70090c9168595046f5190ea22515241763242644cc3d41592a6545af",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/iteminfo_syn.json"
+    },
+    "champout/usa/itemname": {
+      "bytes": 79941,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/itemname",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "bb2112743bf62fe2d1cfa2e760749d643b5f705a5c766c432e348eddee543b17",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/itemname.json"
+    },
+    "champout/usa/monsname_syn": {
+      "bytes": 487221,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/monsname_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "431863aab7ff216642e88a3ba99552c7c239ca014836a8f06670d9010ecd2c16",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/monsname_syn.json"
+    },
+    "champout/usa/seikaku": {
+      "bytes": 11888,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/seikaku",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "b8f01a58b5a6840359088278b9e99cf78368117a6ce82b0af8216a7c4167b61c",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/seikaku.json"
+    },
+    "champout/usa/tokusei": {
+      "bytes": 103701,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/tokusei",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "49d306f1459604648b92f4997b203a4bc656670e1e21080bca3e009b8b0926dd",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/tokusei.json"
+    },
+    "champout/usa/tokuseiinfo_syn": {
+      "bytes": 218279,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/tokuseiinfo_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "c34916fbc3be357146b3dda25aaf09a53523ebf76de159b205587c5100159813",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/tokuseiinfo_syn.json"
+    },
+    "champout/usa/tournament_rule": {
+      "bytes": 67568,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/tournament_rule",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "a2e2a3ef94a561fb69c9e7ebc4f21d573fc97363e7fa11798731a713ffef2e6b",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/tournament_rule.json"
+    },
+    "champout/usa/typename": {
+      "bytes": 8651,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/typename",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "a363d78adaa466c09a7d089745cb961cc3f77caa5d6b667492de520c9ad99fbf",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/typename.json"
+    },
+    "champout/usa/ui_control": {
+      "bytes": 8383,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/ui_control",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "05ae8fd46268619f71fc521e5cc1a47bf98e7096bcedda2ddcb460b1bdda99ed",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/ui_control.json"
+    },
+    "champout/usa/wazaclassification": {
+      "bytes": 5978,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/wazaclassification",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "9c9808b7cc58a2f8d465af382cde7b739694ffec02ccc1291c780ddf8e254694",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/wazaclassification.json"
+    },
+    "champout/usa/wazainfo_syn": {
+      "bytes": 413916,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/wazainfo_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "bf2f6247a7b159f5c959709a43408462b3d25abf22046c46ff515a47d2e488fc",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/wazainfo_syn.json"
+    },
+    "champout/usa/wazaname": {
+      "bytes": 400182,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/wazaname",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "033353da2891bf9ac3d1e7883df3c6749a161aeb22dae7857de32b40c3fd4a3c",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/wazaname.json"
+    },
+    "champout/usa/wazatarget": {
+      "bytes": 5530,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/wazatarget",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "9f5d0b553e77b63b97b3b1cb0da74d3491b1568392ae7c35a2aa11b5be8c5d8f",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/wazatarget.json"
+    },
+    "champout/usa/zkn_form_syn": {
+      "bytes": 153736,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "champout/usa/zkn_form_syn",
+      "provider": "champout",
+      "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
+      "sha256": "f5aee898684e0ef87b167af6c66f1d6f75d2131bed68711d27cedac1f480100c",
+      "url": "https://raw.githubusercontent.com/projectpokemon/champout/50e7233b78c3b81df29563f9695386c28e77fc95/rom-txt/usa/zkn_form_syn.json"
+    },
+    "nintendo/updates": {
+      "bytes": 160492,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "nintendo/updates",
+      "provider": "nintendo",
+      "revision": "live",
+      "sha256": "4d7f9baa7f16047696e0e3f9abe228894eb7bfe747b31432035a4cddee990991",
+      "url": "https://www.nintendo.com/es-es/Ayuda/Compras-y-suscripciones/Juegos/Como-actualizar-Pokemon-Champions-3079895.html"
+    },
+    "official/regulation-m-c": {
+      "bytes": 2843,
+      "capturedAt": "2026-09-28T14:45:06.821Z",
+      "id": "official/regulation-m-c",
+      "provider": "pokemon",
+      "revision": "live",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "url": "https://champions-news.pokemon-home.com/es/page/816.html"
+    },
+    "opgg/abilities": {
+      "bytes": 2112711,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/abilities",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "00e725599a63b4238adf46fa41667a3697db15d2be20e41457a19fa25e77016f",
+      "url": "https://op.gg/es/pokemon-champions/abilities"
+    },
+    "opgg/conditions": {
+      "bytes": 948955,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/conditions",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "url": "https://op.gg/es/pokemon-champions/conditions"
+    },
+    "opgg/effects": {
+      "bytes": 1361783,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/effects",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "16f43b9ae3bcadd76338c42ce1bbcf262dac2f803ac31c6bc2a01ded6b5debb1",
+      "url": "https://op.gg/es/pokemon-champions/buff-effects"
+    },
+    "opgg/items": {
+      "bytes": 902219,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/items",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "d52fdcebc1d63097ef6ab6446a5f32890a91abfc1a8a1200727786eefa6b4d7d",
+      "url": "https://op.gg/es/pokemon-champions/items"
+    },
+    "opgg/moves": {
+      "bytes": 3660191,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/moves",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "58fdb2a6fb16f4111aff6d48dbbb309f636651d17779bf521f91aa548d110b09",
+      "url": "https://op.gg/es/pokemon-champions/moves"
+    },
+    "opgg/natures": {
+      "bytes": 336755,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/natures",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "87b5e31a03ee738b4c45eeda03c1fd83d0d63d5aef220e5ee9eeaf88c162a04a",
+      "url": "https://op.gg/es/pokemon-champions/natures"
+    },
+    "opgg/pokemon": {
+      "bytes": 2074242,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/pokemon",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "6547116cae95bbd8e4b79f8751459853d5d26de0b66be7e8755dc59d98a472be",
+      "url": "https://op.gg/es/pokemon-champions/pokedex"
+    },
+    "opgg/type-chart-code": {
+      "bytes": 32511,
+      "capturedAt": "2026-09-28T14:36:01.977Z",
+      "id": "opgg/type-chart-code",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "4a55df3bbf6768860aa428549338cf0868e1ffa8da734b65afd18d41221afee9",
+      "url": "https://s-stats-platform-cdn.op.gg/app-router/_next/static/chunks/0bre3lhykf756.js"
+    },
+    "opgg/types": {
+      "bytes": 746394,
+      "capturedAt": "2026-09-28T15:06:51.750Z",
+      "id": "opgg/types",
+      "provider": "opgg",
+      "revision": "live",
+      "sha256": "d7607f308c04974ed34c2b63f77fa2ed4ae1c723a642e8fc39939392b3399cec",
+      "url": "https://op.gg/es/pokemon-champions/types"
+    },
+    "serebii/items": {
+      "bytes": 128129,
+      "capturedAt": "2026-09-28T14:45:57.058Z",
+      "id": "serebii/items",
+      "provider": "serebii",
+      "revision": "live",
+      "sha256": "76bf8029dfa6a3966580760a7f1464f742f1dfb158d0f42fe02c23b752f15374",
+      "url": "https://www.serebii.net/pokemonchampions/items.shtml"
+    },
+    "serebii/patch": {
+      "bytes": 40666,
+      "capturedAt": "2026-09-28T14:45:56.940Z",
+      "id": "serebii/patch",
+      "provider": "serebii",
+      "revision": "live",
+      "sha256": "f376182906e271e303a5821a100d16f212a6f4b048592e3c830a17be1cc3613e",
+      "url": "https://www.serebii.net/pokemonchampions/patch.shtml"
+    },
+    "serebii/pokedex": {
+      "bytes": 78065,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "serebii/pokedex",
+      "provider": "serebii",
+      "revision": "live",
+      "sha256": "f7dc90547f8435e1169c461773ddcbb1dfceb77b91b19c092498255f3824e08b",
+      "url": "https://www.serebii.net/pokedex-champions/"
+    },
+    "serebii/regulation-m-c": {
+      "bytes": 66904,
+      "capturedAt": "2026-09-28T14:45:07.150Z",
+      "id": "serebii/regulation-m-c",
+      "provider": "serebii",
+      "revision": "live",
+      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+      "url": "https://www.serebii.net/pokemonchampions/rankedbattle/regulationm-c.shtml"
+    },
+    "serebii/statusconditions": {
+      "bytes": 39365,
+      "capturedAt": "2026-09-28T14:45:56.580Z",
+      "id": "serebii/statusconditions",
+      "provider": "serebii",
+      "revision": "live",
+      "sha256": "023c4536b9a7e0472fba82e5d299ac1df5412436351b171c60a9978494145291",
+      "url": "https://www.serebii.net/pokemonchampions/statusconditions.shtml"
+    },
+    "serebii/training": {
+      "bytes": 39579,
+      "capturedAt": "2026-09-28T14:45:56.715Z",
+      "id": "serebii/training",
+      "provider": "serebii",
+      "revision": "live",
+      "sha256": "7e9941f2a10eb938894301256b122601a11090f9249569efc44fb0b426268d9d",
+      "url": "https://www.serebii.net/pokemonchampions/training.shtml"
+    },
+    "serebii/updatedattacks": {
+      "bytes": 59578,
+      "capturedAt": "2026-09-28T14:45:56.834Z",
+      "id": "serebii/updatedattacks",
+      "provider": "serebii",
+      "revision": "live",
+      "sha256": "a6cc6be888f2a47b9d1d9f07af4d4c8fd85c675cae6b00101a971dc80b9747e1",
+      "url": "https://www.serebii.net/pokemonchampions/updatedattacks.shtml"
+    },
+    "showdown/base/abilities": {
+      "bytes": 156774,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/abilities",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "818edd100c8eb5bdf4d4ded8dd1b1ce9d394f87f40f7d9d53a5414276e84f82b",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/abilities.ts"
+    },
+    "showdown/base/conditions": {
+      "bytes": 28860,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/conditions",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "03ec1b90913f864a0baab0574a70abb856d5e84f722acf96ab11a7601a72fc35",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/conditions.ts"
+    },
+    "showdown/base/formats-data": {
+      "bytes": 93325,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/formats-data",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "c213f7dfad4d39ba20a1cabedd0165c7ff5bc9059a2ef052f8544edd5840624c",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/formats-data.ts"
+    },
+    "showdown/base/items": {
+      "bytes": 163747,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/items",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "75da206e2cb09868bb549360f38a144c2f50b24e1d189e03b485d550a4f6357a",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/items.ts"
+    },
+    "showdown/base/learnsets": {
+      "bytes": 3725143,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/learnsets",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "26969c5e9ca7310b701612da8c9cea217b7d43efb8cd22a7e46783a6ca9b386e",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/learnsets.ts"
+    },
+    "showdown/base/moves": {
+      "bytes": 484667,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/moves",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "b9ec9ea2222b456739577d62068a70b55217a887efe57f3f82eb7acc8230cbee",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/moves.ts"
+    },
+    "showdown/base/natures": {
+      "bytes": 1490,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/natures",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "5cfefee4c23dd19f629deb9a67f75361226bd24fe34cefe9a13d30d985428416",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/natures.ts"
+    },
+    "showdown/base/pokedex": {
+      "bytes": 538263,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/pokedex",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "73048386b864be5aff093e9393acf32e8016299e9d7b76078bf5120b769e2fe0",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/pokedex.ts"
+    },
+    "showdown/base/pokemongo": {
+      "bytes": 43442,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/pokemongo",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "182ba1083390e7c6627f1bbfe5a68173623d3c68f75f04ca2adeb72460675e78",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/pokemongo.ts"
+    },
+    "showdown/base/rulesets": {
+      "bytes": 180968,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/rulesets",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "ec02d9a93f6d2fc7238bae31f2f1ec8518d331610d6167d48422ccfb5ef6aa12",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/rulesets.ts"
+    },
+    "showdown/base/scripts": {
+      "bytes": 56,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/scripts",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "54c7522b3d5d05f6a020d78b129589e7b2e57fbb9d095800c78c33a64a8ff383",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/scripts.ts"
+    },
+    "showdown/base/typechart": {
+      "bytes": 6745,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/base/typechart",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "7b0eae126bdcf98edfd71cbe75af00b763f5f0d5db36024b6f3e7c5e4aea95ac",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/typechart.ts"
+    },
+    "showdown/champions/abilities": {
+      "bytes": 2526,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/abilities",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "86c3843d402f1ff7be276d8f2da08d6744b8a8822349560b300ddcfa9c1fbc52",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/abilities.ts"
+    },
+    "showdown/champions/conditions": {
+      "bytes": 1834,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/conditions",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "851507309dde0b58807e33b17d8ce7e607dad70893546f67bad294ad70249005",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/conditions.ts"
+    },
+    "showdown/champions/formats-data": {
+      "bytes": 73173,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/formats-data",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "a512b537a84574a324c250c6ff99ad60f0cf1e82420fdae60d4635eec8661e13",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/formats-data.ts"
+    },
+    "showdown/champions/items": {
+      "bytes": 16006,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/items",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "b39dafa66d136ebb1a8576367ced2c9f4519aa1c17d5d65c59b368ac15d7de77",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/items.ts"
+    },
+    "showdown/champions/learnsets": {
+      "bytes": 348078,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/learnsets",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "826d302703358260a1c4967e2bf8edd15f1fe7e0f664c8ab14aff734906cc9d0",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/learnsets.ts"
+    },
+    "showdown/champions/moves": {
+      "bytes": 18743,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/moves",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "e8f8d5adf374462e71f899ed91ef40a06cbd2a3eab96a51ea4980bfb4889bdac",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/moves.ts"
+    },
+    "showdown/champions/rulesets": {
+      "bytes": 2469,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/rulesets",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "31671152a6ff1f09d81a5306baadaa1593ef235e5c7cdcc9180c67bac8e84cd9",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/rulesets.ts"
+    },
+    "showdown/champions/scripts": {
+      "bytes": 21966,
+      "capturedAt": "2026-09-28T14:30:49.090Z",
+      "id": "showdown/champions/scripts",
+      "provider": "showdown",
+      "revision": "a5df8274e85b0889bf2a9b3422a08b39732374fc",
+      "sha256": "8282488fa630255417e8bd4d6037d45e8d382ae28cdd84c230e59b33befa5fc2",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/a5df8274e85b0889bf2a9b3422a08b39732374fc/data/mods/champions/scripts.ts"
+    }
+  },
+  "formatVersion": 1,
+  "game": "pokemon-champions",
+  "locale": "es-ES",
+  "revisions": {
+    "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
+    "showdown": "a5df8274e85b0889bf2a9b3422a08b39732374fc"
+  }
+}

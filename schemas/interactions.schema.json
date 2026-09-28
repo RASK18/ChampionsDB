@@ -1,0 +1,303 @@
+{
+  "$defs": {
+    "condition": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "all": {
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "any": {
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "not": {
+              "$ref": "#/$defs/condition"
+            }
+          },
+          "required": [
+            "not"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "effectId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "itemId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "pokemonId": {
+              "pattern": "^[a-z0-9][a-z0-9-]*$",
+              "type": "string"
+            },
+            "predicate": {
+              "enum": [
+                "effect-active",
+                "created-by-holder",
+                "ability-active",
+                "move-succeeds",
+                "form-is",
+                "holds-item",
+                "grounded",
+                "type-is",
+                "contact",
+                "chance",
+                "source-is-opponent",
+                "status-is"
+              ]
+            },
+            "subject": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "value": {}
+          },
+          "required": [
+            "predicate"
+          ],
+          "type": "object"
+        }
+      ]
+    }
+  },
+  "$id": "https://disboard.es/ChampionsDB/schemas/interactions.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "available": {
+        "const": true
+      },
+      "id": {
+        "pattern": "^[a-z0-9][a-z0-9-]*$",
+        "type": "string"
+      },
+      "identity": {
+        "const": true
+      },
+      "rule": {
+        "additionalProperties": false,
+        "properties": {
+          "parameters": {
+            "type": "object"
+          },
+          "recipient": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "relation": {
+            "enum": [
+              "causes",
+              "cures",
+              "prevents",
+              "extends",
+              "suppresses",
+              "boosts",
+              "reduces",
+              "activates",
+              "benefits",
+              "transforms",
+              "copies",
+              "modifies"
+            ]
+          },
+          "requirements": {
+            "$ref": "#/$defs/condition"
+          },
+          "source": {
+            "additionalProperties": false,
+            "oneOf": [
+              {
+                "not": {
+                  "required": [
+                    "selector"
+                  ]
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              {
+                "not": {
+                  "required": [
+                    "id"
+                  ]
+                },
+                "required": [
+                  "selector"
+                ]
+              }
+            ],
+            "properties": {
+              "collection": {
+                "enum": [
+                  "types",
+                  "species",
+                  "pokemon",
+                  "learnsets",
+                  "moves",
+                  "abilities",
+                  "items",
+                  "effects",
+                  "interactions",
+                  "natures",
+                  "battle-rules",
+                  "regulations"
+                ]
+              },
+              "id": {
+                "pattern": "^[a-z0-9][a-z0-9-]*$",
+                "type": "string"
+              },
+              "selector": {
+                "additionalProperties": false,
+                "properties": {
+                  "category": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "property": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "typeId": {
+                    "pattern": "^[a-z0-9][a-z0-9-]*$",
+                    "type": "string"
+                  }
+                },
+                "required": [],
+                "type": "object"
+              }
+            },
+            "required": [
+              "collection"
+            ],
+            "type": "object"
+          },
+          "target": {
+            "additionalProperties": false,
+            "oneOf": [
+              {
+                "not": {
+                  "required": [
+                    "selector"
+                  ]
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              {
+                "not": {
+                  "required": [
+                    "id"
+                  ]
+                },
+                "required": [
+                  "selector"
+                ]
+              }
+            ],
+            "properties": {
+              "collection": {
+                "enum": [
+                  "types",
+                  "species",
+                  "pokemon",
+                  "learnsets",
+                  "moves",
+                  "abilities",
+                  "items",
+                  "effects",
+                  "interactions",
+                  "natures",
+                  "battle-rules",
+                  "regulations"
+                ]
+              },
+              "id": {
+                "pattern": "^[a-z0-9][a-z0-9-]*$",
+                "type": "string"
+              },
+              "selector": {
+                "additionalProperties": false,
+                "properties": {
+                  "category": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "property": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "typeId": {
+                    "pattern": "^[a-z0-9][a-z0-9-]*$",
+                    "type": "string"
+                  }
+                },
+                "required": [],
+                "type": "object"
+              }
+            },
+            "required": [
+              "collection"
+            ],
+            "type": "object"
+          },
+          "trigger": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "source",
+          "target",
+          "relation",
+          "trigger",
+          "recipient",
+          "requirements",
+          "parameters"
+        ],
+        "type": "object"
+      }
+    },
+    "required": [
+      "id",
+      "identity",
+      "available",
+      "rule"
+    ],
+    "type": "object"
+  },
+  "title": "ChampionsDB: interactions",
+  "type": "array"
+}

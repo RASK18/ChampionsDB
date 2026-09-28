@@ -1,0 +1,4171 @@
+[
+  {
+    "available": true,
+    "id": "ability-002--weather--rain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-002"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "rain"
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-033--benefits--rain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 2,
+        "stat": "speed"
+      },
+      "recipient": "self",
+      "relation": "benefits",
+      "requirements": {
+        "all": [
+          {
+            "effectId": "rain",
+            "predicate": "effect-active"
+          }
+        ]
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-033"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "rain"
+      },
+      "trigger": "while-active"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-034--benefits--harsh-sunlight",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 2,
+        "stat": "speed"
+      },
+      "recipient": "self",
+      "relation": "benefits",
+      "requirements": {
+        "all": [
+          {
+            "effectId": "harsh-sunlight",
+            "predicate": "effect-active"
+          }
+        ]
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-034"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "harsh-sunlight"
+      },
+      "trigger": "while-active"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-036--copies--opponent",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "self",
+      "relation": "copies",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "source-is-opponent"
+          }
+        ]
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-036"
+      },
+      "target": {
+        "collection": "abilities",
+        "selector": {
+          "property": "copyable"
+        }
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-045--weather--sandstorm",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-045"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sandstorm"
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-070--weather--harsh-sunlight",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-070"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "harsh-sunlight"
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-117--weather--snow",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-117"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "snow"
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-146--benefits--sandstorm",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 2,
+        "stat": "speed"
+      },
+      "recipient": "self",
+      "relation": "benefits",
+      "requirements": {
+        "all": [
+          {
+            "effectId": "sandstorm",
+            "predicate": "effect-active"
+          }
+        ]
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-146"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sandstorm"
+      },
+      "trigger": "while-active"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-202--benefits--snow",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 2,
+        "stat": "speed"
+      },
+      "recipient": "self",
+      "relation": "benefits",
+      "requirements": {
+        "all": [
+          {
+            "effectId": "snow",
+            "predicate": "effect-active"
+          }
+        ]
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-202"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "snow"
+      },
+      "trigger": "while-active"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-226--weather--electric-terrain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-226"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "electric-terrain"
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-227--weather--psychic-terrain",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-227"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "psychic-terrain"
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "ability-229--weather--grassy-terrain",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "abilities",
+        "id": "ability-229"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "grassy-terrain"
+      },
+      "trigger": "on-entry"
+    }
+  },
+  {
+    "available": true,
+    "id": "harsh-sunlight--damage--fire",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 1.5
+      },
+      "recipient": "matching-moves",
+      "relation": "boosts",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "effects",
+        "id": "harsh-sunlight"
+      },
+      "target": {
+        "collection": "moves",
+        "selector": {
+          "typeId": "fire"
+        }
+      },
+      "trigger": "damage-calculation"
+    }
+  },
+  {
+    "available": true,
+    "id": "harsh-sunlight--damage--water",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 0.5
+      },
+      "recipient": "matching-moves",
+      "relation": "reduces",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "effects",
+        "id": "harsh-sunlight"
+      },
+      "target": {
+        "collection": "moves",
+        "selector": {
+          "typeId": "water"
+        }
+      },
+      "trigger": "damage-calculation"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-149--cures--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "usesPerBattle": 1
+      },
+      "recipient": "holder",
+      "relation": "cures",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-149"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-status"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-150--cures--sleep",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "usesPerBattle": 1
+      },
+      "recipient": "holder",
+      "relation": "cures",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-150"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sleep"
+      },
+      "trigger": "on-status"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-151--cures--bad-poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "usesPerBattle": 1
+      },
+      "recipient": "holder",
+      "relation": "cures",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-151"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "bad-poison"
+      },
+      "trigger": "on-status"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-151--cures--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "usesPerBattle": 1
+      },
+      "recipient": "holder",
+      "relation": "cures",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-151"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-status"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-152--cures--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "usesPerBattle": 1
+      },
+      "recipient": "holder",
+      "relation": "cures",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-152"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-status"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-153--cures--freezing",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "usesPerBattle": 1
+      },
+      "recipient": "holder",
+      "relation": "cures",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-153"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "freezing"
+      },
+      "trigger": "on-status"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2559--transforms--pokemon-0036001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0036000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2559",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2559"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0036001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2560--transforms--pokemon-0071001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0071000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2560",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2560"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0071001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2561--transforms--pokemon-0121001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0121000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2561",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2561"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0121001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2562--transforms--pokemon-0149001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0149000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2562",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2562"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0149001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2563--transforms--pokemon-0154001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0154000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2563",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2563"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0154001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2564--transforms--pokemon-0160001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0160000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2564",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2564"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0160001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2565--transforms--pokemon-0227001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0227000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2565",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2565"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0227001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2566--transforms--pokemon-0478001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0478000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2566",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2566"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0478001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2569--transforms--pokemon-0500001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0500000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2569",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2569"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0500001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2570--transforms--pokemon-0530001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0530000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2570",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2570"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0530001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2573--transforms--pokemon-0604001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0604000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2573",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2573"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0604001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2574--transforms--pokemon-0609001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0609000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2574",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2574"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0609001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2575--transforms--pokemon-0652001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0652000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2575",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2575"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0652001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2576--transforms--pokemon-0655001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0655000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2576",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2576"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0655001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2577--transforms--pokemon-0658003",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0658000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2577",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2577"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0658003"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2578--transforms--pokemon-0668001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0668000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2578",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2578"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0668001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2580--transforms--pokemon-0687001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0687000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2580",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2580"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0687001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2582--transforms--pokemon-0691001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0691000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2582",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2582"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0691001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2583--transforms--pokemon-0701001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0701000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2583",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2583"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0701001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2585--transforms--pokemon-0780001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0780000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2585",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2585"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0780001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2587--transforms--pokemon-0870001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0870000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2587",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2587"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0870001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2635--transforms--pokemon-0026002",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0026000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2635",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2635"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0026002"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2636--transforms--pokemon-0026003",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0026000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2636",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2636"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0026003"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2637--transforms--pokemon-0358001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0358000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2637",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2637"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0358001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2638--transforms--pokemon-0359002",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0359000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2638",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2638"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0359002"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2640--transforms--pokemon-0445002",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0445000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2640",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2640"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0445002"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2641--transforms--pokemon-0448002",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0448000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2641",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2641"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0448002"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2642--transforms--pokemon-0623001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0623000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2642",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2642"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0623001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2644--transforms--pokemon-0740001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0740000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2644",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2644"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0740001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2645--transforms--pokemon-0768001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0768000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2645",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2645"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0768001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2647--transforms--pokemon-0952001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0952000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2647",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2647"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0952001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2648--transforms--pokemon-0998001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0998000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2648",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2648"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0998001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2650--transforms--pokemon-0970001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0970000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2650",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2650"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0970001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-282--extends--snow",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "additionalTurns": 3,
+        "duration": {
+          "turns": 8
+        }
+      },
+      "recipient": "field",
+      "relation": "extends",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "created-by-holder"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-282"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "snow"
+      },
+      "trigger": "on-effect-created"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-283--extends--sandstorm",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "additionalTurns": 3,
+        "duration": {
+          "turns": 8
+        }
+      },
+      "recipient": "field",
+      "relation": "extends",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "created-by-holder"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-283"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sandstorm"
+      },
+      "trigger": "on-effect-created"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-284--extends--harsh-sunlight",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "additionalTurns": 3,
+        "duration": {
+          "turns": 8
+        }
+      },
+      "recipient": "field",
+      "relation": "extends",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "created-by-holder"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-284"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "harsh-sunlight"
+      },
+      "trigger": "on-effect-created"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-285--extends--rain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "additionalTurns": 3,
+        "duration": {
+          "turns": 8
+        }
+      },
+      "recipient": "field",
+      "relation": "extends",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "created-by-holder"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-285"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "rain"
+      },
+      "trigger": "on-effect-created"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-656--transforms--pokemon-0094001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0094000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-656",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-656"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0094001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-657--transforms--pokemon-0282001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0282000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-657",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-657"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0282001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-658--transforms--pokemon-0181001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0181000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-658",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-658"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0181001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-659--transforms--pokemon-0003001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0003000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-659",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-659"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0003001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-660--transforms--pokemon-0006001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0006000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-660",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-660"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0006001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-661--transforms--pokemon-0009001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0009000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-661",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-661"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0009001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-664--transforms--pokemon-0257001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0257000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-664",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-664"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0257001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-665--transforms--pokemon-0308001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0308000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-665",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-665"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0308001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-666--transforms--pokemon-0229001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0229000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-666",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-666"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0229001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-667--transforms--pokemon-0306001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0306000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-667",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-667"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0306001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-668--transforms--pokemon-0354001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0354000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-668",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-668"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0354001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-669--transforms--pokemon-0248001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0248000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-669",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-669"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0248001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-670--transforms--pokemon-0212001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0212000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-670",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-670"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0212001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-671--transforms--pokemon-0127001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0127000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-671",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-671"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0127001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-672--transforms--pokemon-0142001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0142000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-672",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-672"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0142001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-673--transforms--pokemon-0448001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0448000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-673",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-673"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0448001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-674--transforms--pokemon-0460001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0460000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-674",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-674"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0460001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-675--transforms--pokemon-0115001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0115000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-675",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-675"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0115001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-676--transforms--pokemon-0130001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0130000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-676",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-676"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0130001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-677--transforms--pokemon-0359001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0359000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-677",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-677"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0359001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-678--transforms--pokemon-0006002",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0006000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-678",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-678"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0006002"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-679--transforms--pokemon-0065001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0065000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-679",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-679"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0065001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-680--transforms--pokemon-0214001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0214000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-680",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-680"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0214001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-681--transforms--pokemon-0303001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0303000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-681",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-681"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0303001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-682--transforms--pokemon-0310001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0310000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-682",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-682"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0310001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-683--transforms--pokemon-0445001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0445000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-683",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-683"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0445001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-752--transforms--pokemon-0260001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0260000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-752",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-752"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0260001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-753--transforms--pokemon-0254001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0254000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-753",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-753"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0254001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-754--transforms--pokemon-0302001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0302000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-754",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-754"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0302001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-755--transforms--pokemon-0334001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0334000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-755",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-755"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0334001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-756--transforms--pokemon-0475001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0475000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-756",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-756"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0475001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-757--transforms--pokemon-0531001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0531000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-757",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-757"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0531001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-758--transforms--pokemon-0376001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0376000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-758",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-758"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0376001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-759--transforms--pokemon-0319001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0319000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-759",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-759"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0319001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-760--transforms--pokemon-0080001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0080000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-760",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-760"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0080001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-761--transforms--pokemon-0208001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0208000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-761",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-761"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0208001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-762--transforms--pokemon-0018001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0018000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-762",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-762"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0018001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-763--transforms--pokemon-0362001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0362000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-763",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-763"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0362001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-767--transforms--pokemon-0323001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0323000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-767",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-767"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0323001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-768--transforms--pokemon-0428001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0428000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-768",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-768"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0428001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-769--transforms--pokemon-0373001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0373000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-769",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-769"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0373001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-770--transforms--pokemon-0015001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0015000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-770",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-770"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0015001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-007--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-007"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-008--secondary--freezing",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-008"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "freezing"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-009--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-009"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-034--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-034"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-047--causes--sleep",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-047"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sleep"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-053--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-053"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-058--secondary--freezing",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-058"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "freezing"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-059--secondary--freezing",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-059"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "freezing"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-077--causes--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-077"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-078--causes--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-078"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-079--causes--sleep",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-079"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sleep"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-085--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-085"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-086--causes--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-086"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-087--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-087"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-095--causes--sleep",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-095"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sleep"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-126--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-126"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-137--causes--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-137"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-188--secondary--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-188"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-192--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-192"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-201--weather--sandstorm",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-201"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "sandstorm"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-240--weather--rain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-240"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "rain"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-241--weather--harsh-sunlight",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-241"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "harsh-sunlight"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-257--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-257"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-261--causes--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-261"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-299--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-299"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-340--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-340"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-344--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-344"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-394--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-394"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-398--secondary--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-398"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-422--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-422"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-423--secondary--freezing",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-423"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "freezing"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-424--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-424"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-435--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-435"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-436--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-436"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-440--secondary--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-440"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-441--secondary--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-441"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-482--secondary--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-482"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-503--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-503"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-517--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-517"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-580--weather--grassy-terrain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-580"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "grassy-terrain"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-581--weather--misty-terrain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-581"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "misty-terrain"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-604--weather--electric-terrain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-604"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "electric-terrain"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-609--secondary--paralysis",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-609"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "paralysis"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-672--causes--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-672"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-678--weather--psychic-terrain",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-678"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "psychic-terrain"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-801--secondary--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.2
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-801"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-815--secondary--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-815"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-883--weather--snow",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
+      "recipient": "field",
+      "relation": "causes",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-883"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "snow"
+      },
+      "trigger": "on-use"
+    }
+  },
+  {
+    "available": true,
+    "id": "rain--damage--fire",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 0.5
+      },
+      "recipient": "matching-moves",
+      "relation": "reduces",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "effects",
+        "id": "rain"
+      },
+      "target": {
+        "collection": "moves",
+        "selector": {
+          "typeId": "fire"
+        }
+      },
+      "trigger": "damage-calculation"
+    }
+  },
+  {
+    "available": true,
+    "id": "rain--damage--water",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "multiplier": 1.5
+      },
+      "recipient": "matching-moves",
+      "relation": "boosts",
+      "requirements": {
+        "all": []
+      },
+      "source": {
+        "collection": "effects",
+        "id": "rain"
+      },
+      "target": {
+        "collection": "moves",
+        "selector": {
+          "typeId": "water"
+        }
+      },
+      "trigger": "damage-calculation"
+    }
+  }
+]

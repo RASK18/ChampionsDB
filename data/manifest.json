@@ -1,0 +1,154 @@
+{
+  "complete": false,
+  "context": {
+    "game": "pokemon-champions",
+    "gameVersion": "1.2.0",
+    "locale": "es-ES",
+    "regulation": "m-c",
+    "sourceCompatibility": "checked-per-claim; conflicts withheld",
+    "versionEvidence": [
+      "nintendo/updates",
+      "serebii/patch"
+    ]
+  },
+  "datasetId": "30c175fe0b0744863bf56ce81c749c7bb1ca2f8acf28c5c0a30479d78051fdbb",
+  "files": {
+    "abilities.json": {
+      "bytes": 46264,
+      "sha256": "f3554a09640dee63d6b45ab821ff51603d1cd399644c56a168df05e3106d80ea"
+    },
+    "battle-rules.json": {
+      "bytes": 1334,
+      "sha256": "fd1889638c83cda95b30c5c6f33ac39eeb5ac2b2fb265dfee5bbc737868aea15"
+    },
+    "effects.json": {
+      "bytes": 16284,
+      "sha256": "cb47a693a09b60fc1d42dd348a647e58393aab91ab8b16d0f73dd9e6da884afc"
+    },
+    "interactions.json": {
+      "bytes": 87766,
+      "sha256": "e78a2e4695302a9852cf0f393c10ed601f3e7b2e3d5303243a5d63b1ec1e44fa"
+    },
+    "items.json": {
+      "bytes": 44168,
+      "sha256": "5e43bf5f89cc3c8b354b21bd59b005588d05b9ca30c4cf042614eb9a8da3f254"
+    },
+    "learnsets.json": {
+      "bytes": 3310387,
+      "sha256": "ed42815ced5df9d9411ab4cc85b57576874e51d8c2e57e362d4040ee2500a7ce"
+    },
+    "moves.json": {
+      "bytes": 284511,
+      "sha256": "4a90001f1be73e7bcc04e43a6e12429d658ee6902052403a5b263c53574c943e"
+    },
+    "natures.json": {
+      "bytes": 5572,
+      "sha256": "b047984ece08aeb1075a18f9802c88f2b2651c9233cb6a8c5a8bbd3529cb9e28"
+    },
+    "pokemon.json": {
+      "bytes": 168681,
+      "sha256": "62de40715ee9d4942483f5afa85aff88ca9d637144d7e053f9d0eea3ae496159"
+    },
+    "provenance/abilities.json": {
+      "bytes": 922256,
+      "sha256": "289009f4037b1403779dd20ca69f474becf1c69d1d02050ee5870474027fb147"
+    },
+    "provenance/battle-rules.json": {
+      "bytes": 28914,
+      "sha256": "e6eaa7ad6d60d57cb564bb3dda0e5549dbff67b8925e3ac56b89526aec330d42"
+    },
+    "provenance/effects.json": {
+      "bytes": 324229,
+      "sha256": "440ed0d4f225cf51d7e01582440bd793e3420a846af1183c970e378dc5a1029d"
+    },
+    "provenance/interactions.json": {
+      "bytes": 632111,
+      "sha256": "a8faedc43dc677b27526605bd0f70bd31ccc47b25998fefe59d2cb2ec8047a10"
+    },
+    "provenance/items.json": {
+      "bytes": 1038107,
+      "sha256": "c742387c47ec966f68eb433fcaab210665cd34212ba0e7e23ecde45aeadc3e14"
+    },
+    "provenance/learnsets.json": {
+      "bytes": 40162562,
+      "sha256": "7a68f43b018c668e2d282804addb3ffaa594eecbe622776eced1d5d2e09bdd7f"
+    },
+    "provenance/moves.json": {
+      "bytes": 8539821,
+      "sha256": "c596a28d7b9ee5ec03c408f695fae14e88d3b3e9d4f115be8cc6d17ffcd16981"
+    },
+    "provenance/natures.json": {
+      "bytes": 132353,
+      "sha256": "80c3fbffe88260a9dd3d2cf1a8531194fb3aa71beeff3f2c6ee95927788df9fa"
+    },
+    "provenance/pokemon.json": {
+      "bytes": 5360837,
+      "sha256": "b4c3debf20536fa040f1a57366559bc982851036612254f82462d2707a357812"
+    },
+    "provenance/regulations.json": {
+      "bytes": 8022,
+      "sha256": "0f8b66df740408da68416b9f3742a84a863a31c07c416a83442dcfccee5c930d"
+    },
+    "provenance/species.json": {
+      "bytes": 1233483,
+      "sha256": "7cbe6ad0e33c6bd90abf34923517b2075cf0e50072a4a132ee6e561fee4cf2e9"
+    },
+    "provenance/types.json": {
+      "bytes": 288258,
+      "sha256": "c66895091aa6246fde452e62982f32a77d5bca0769106a5ff16ddedf5af122c6"
+    },
+    "regulations.json": {
+      "bytes": 376,
+      "sha256": "f42c1cc734238e6b6440996651bf2fcf221a1f2cde6d3b82e9b0e9bec09bacd5"
+    },
+    "reports/changes.json": {
+      "bytes": 335,
+      "sha256": "cfe2019d344d40a19e7c5b3164c02beb1daf2edf893211913221692dbcbc8c40"
+    },
+    "reports/coverage.json": {
+      "bytes": 2451,
+      "sha256": "53e28d4d5bfc74ee5a2ef96425abd480eeb5f69d27ee3bfc4c1b495c02495bf2"
+    },
+    "reports/excluded.json": {
+      "bytes": 283908,
+      "sha256": "e2b1e67825b74b1ecef5c4652e7286dc09ae7bae677a80c886adb04d89de7fc2"
+    },
+    "reports/mappings.json": {
+      "bytes": 53976,
+      "sha256": "036e6ee44b09541391a39e21084723f5a66d6cb2b2f2e1b23f7004d55b4c27ff"
+    },
+    "reports/pending.json": {
+      "bytes": 1713127,
+      "sha256": "129fdc573a10104889d8bff51b5730dbcd9e7756dda0b9c5f85c499636a6b2be"
+    },
+    "reports/stale.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "reports/withdrawn.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "snapshot.json": {
+      "bytes": 33581,
+      "sha256": "6488ba97b76c6a44eed4e5da213aeb3ff865b0cc9f6484180c658f97387f20f9"
+    },
+    "species.json": {
+      "bytes": 28910,
+      "sha256": "2df09c2d4a673cc52f0e2cf8a3335a74a04b85ad0ca99c582da1935c40faf154"
+    },
+    "types.json": {
+      "bytes": 8288,
+      "sha256": "9daa0df740d7a0dfb6d1b4355477cf4cc10ee5454e9cabfbf5bb65d8e95d4330"
+    }
+  },
+  "formatVersion": 1,
+  "game": "pokemon-champions",
+  "locale": "es-ES",
+  "rulesHash": "9fece6ec1eddc606f6a3e324dc66bcedd9d27e8ee5cc5e88ffdf9b0b30091fe7",
+  "scope": "combat",
+  "sourceRevisions": {
+    "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
+    "showdown": "a5df8274e85b0889bf2a9b3422a08b39732374fc"
+  }
+}

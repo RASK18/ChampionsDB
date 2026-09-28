@@ -1,0 +1,643 @@
+{
+  "facts": {
+    "battle-rules/bad-poison/available": {
+      "value": true,
+      "witnesses": [
+        "d9bde6cb57e7f80bf1f763427dd755ac7acdd283b9d62de7ae3cdad727e7610a",
+        "436fd240510fb09aa85c7918bcb3775a431f969c612d0af2371f6b4bcfcc34e1"
+      ]
+    },
+    "battle-rules/bad-poison/identity": {
+      "value": true,
+      "witnesses": [
+        "d9bde6cb57e7f80bf1f763427dd755ac7acdd283b9d62de7ae3cdad727e7610a",
+        "436fd240510fb09aa85c7918bcb3775a431f969c612d0af2371f6b4bcfcc34e1"
+      ]
+    },
+    "battle-rules/bad-poison/name": {
+      "value": "Grav. envenenado",
+      "witnesses": [
+        "81d4bf72fdaafb7d194be31c248ac278d6dd51fb32e0105c619a2ae4ed13c820",
+        "ba9059c35c40687899669533d4d8c1751d3db92729910f93cdf8593375be42e4"
+      ]
+    },
+    "battle-rules/bad-poison/rule": {
+      "value": {
+        "firstTurnDamageFraction": [
+          1,
+          16
+        ],
+        "incrementPerTurn": [
+          1,
+          16
+        ],
+        "resetOnSwitch": true
+      },
+      "witnesses": [
+        "ae2527429e528375f5816acd541cf09dc1cc2dcf32579bedc9b82944f73fa5ef",
+        "bdc31f4ff01eb55576c5fbc53ab4cf2b41cd19556eaef5b309aa2fc5ebba30de"
+      ]
+    },
+    "battle-rules/burning/available": {
+      "value": true,
+      "witnesses": [
+        "a840fb4982ad0e81dc20c48cc3bb0f10418a97d3851a5997982f4316ef6efc18",
+        "0c3244d1125500dc693593b2ecdcb4e91c1cb5e4f738fae045066e0d69e76296"
+      ]
+    },
+    "battle-rules/burning/identity": {
+      "value": true,
+      "witnesses": [
+        "a840fb4982ad0e81dc20c48cc3bb0f10418a97d3851a5997982f4316ef6efc18",
+        "0c3244d1125500dc693593b2ecdcb4e91c1cb5e4f738fae045066e0d69e76296"
+      ]
+    },
+    "battle-rules/burning/name": {
+      "value": "Quemado",
+      "witnesses": [
+        "0879a80e41918dbae9ede9fa61c0cad4c5899685bc70170ab95f4c4d84dbaeb8",
+        "3ca96d861e68bef69b6583462f65cc5e1d468bc5a67487b86820435c0b7f1668"
+      ]
+    },
+    "battle-rules/burning/rule": {
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          16
+        ],
+        "physicalDamageMultiplier": 0.5
+      },
+      "witnesses": [
+        "e48ac10f621364085ac16e68d7379631b8d696cf95798bbd19fe6e1c405c4641",
+        "7b037cd1d4072c7d702ccfaea28bd56efda42d6d2cde0790707ea94abf19d881"
+      ]
+    },
+    "battle-rules/freezing/available": {
+      "value": true,
+      "witnesses": [
+        "8ce90661d0d07dc195fe473213ba022f5413884cd4afde0cab37b1dc95ddcc71",
+        "8f2d9d7802425bae46fb48d35648b0a06f888eaf89733563448f1c7250eaa1a2",
+        "992d0376baf9b55994ade94d6a4862ff061f6db9d1dd755453b0524fc7101009"
+      ]
+    },
+    "battle-rules/freezing/identity": {
+      "value": true,
+      "witnesses": [
+        "8ce90661d0d07dc195fe473213ba022f5413884cd4afde0cab37b1dc95ddcc71",
+        "8f2d9d7802425bae46fb48d35648b0a06f888eaf89733563448f1c7250eaa1a2",
+        "992d0376baf9b55994ade94d6a4862ff061f6db9d1dd755453b0524fc7101009"
+      ]
+    },
+    "battle-rules/freezing/name": {
+      "value": "Congelado",
+      "witnesses": [
+        "be5a87a70a8950bb2f8c41ec826e83d8f97a213dd6e1e75a9884c4060a16901a",
+        "fad8c872e1fdf285fc9a1b07f66ef806849dbcf63f5ee2a07e084c383f869b96"
+      ]
+    },
+    "battle-rules/freezing/rule": {
+      "value": {
+        "forcedThawTurn": 3,
+        "thawProbability": 0.25,
+        "trigger": "attempt-move"
+      },
+      "witnesses": [
+        "187a1045a9f51afac9b60746df6af78ae47e7a58e80ff893150383591be7bf7d",
+        "e934d63abedc98e216b1ed324c16d0d9025ff0b693dae6bfc49b9b4d5e9697a2"
+      ]
+    },
+    "battle-rules/paralysis/available": {
+      "value": true,
+      "witnesses": [
+        "54fcb949969773eab1f62ce0ef94231831822f09eaf456d9d2ab1e3ae60b3e89",
+        "18febce99aa8d8b20f445ad952efb5631e0219ca5e6e9d030d53d81f9af5da18",
+        "af28a9139fdd5540b4ba8914f4e2b988c3b1dd15eda14f10fe09547f749b9ecd"
+      ]
+    },
+    "battle-rules/paralysis/identity": {
+      "value": true,
+      "witnesses": [
+        "54fcb949969773eab1f62ce0ef94231831822f09eaf456d9d2ab1e3ae60b3e89",
+        "18febce99aa8d8b20f445ad952efb5631e0219ca5e6e9d030d53d81f9af5da18",
+        "af28a9139fdd5540b4ba8914f4e2b988c3b1dd15eda14f10fe09547f749b9ecd"
+      ]
+    },
+    "battle-rules/paralysis/name": {
+      "value": "Paralizado",
+      "witnesses": [
+        "de25b59401879c1818374f3a52140022d431012dcc2a14c3094b037217ab865c",
+        "a56cedf32f26730cf810cfb4202edd4cfaf8844eb91dcf5418c286735990737f"
+      ]
+    },
+    "battle-rules/paralysis/rule": {
+      "value": {
+        "failureProbability": 0.125,
+        "speedMultiplier": 0.5
+      },
+      "witnesses": [
+        "fd3a291f10ca486a3270d3607041606fed80c275494bb72e8a670807fa9a0173",
+        "50734048efd0c19f3a680e680b6017f918d161f53f0f306cbf675978ac3d0d35"
+      ]
+    },
+    "battle-rules/poison/available": {
+      "value": true,
+      "witnesses": [
+        "f3546ec78e676a66ddda00d1ee0b1563220ccf8944a74358cd9e00550f5f0c12",
+        "51783ee585a0f37922ae7e5c5ccde1e232251ff2624c139d6698743bf9a5b008"
+      ]
+    },
+    "battle-rules/poison/identity": {
+      "value": true,
+      "witnesses": [
+        "f3546ec78e676a66ddda00d1ee0b1563220ccf8944a74358cd9e00550f5f0c12",
+        "51783ee585a0f37922ae7e5c5ccde1e232251ff2624c139d6698743bf9a5b008"
+      ]
+    },
+    "battle-rules/poison/name": {
+      "value": "Envenenado",
+      "witnesses": [
+        "626ff054ecdc2323848e70f8bf6d88e0842bc5d547eb86c9c577d8be2b1888a6",
+        "a0470d3e0c96daa1bb983232bdf0958b5d0594385faf680e992d556464098c61"
+      ]
+    },
+    "battle-rules/poison/rule": {
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          8
+        ]
+      },
+      "witnesses": [
+        "2364aa7dfef47c187a36d65140f49a2a5c2a52a9792779b0bb37e12f23d82040",
+        "5b8ee67be316da3fecc458fe0f581a491c59ed3719b24456d0acf89394baa70f"
+      ]
+    },
+    "battle-rules/sleep/available": {
+      "value": true,
+      "witnesses": [
+        "ff539189147ca1cd2cd70fbad6b2cd665dcd89e6d989c18286edc6f2fe1ee175",
+        "6329f0e1b1087cad07704dcb9c58305b22fa165da7ee7a72a454cde96f814f96"
+      ]
+    },
+    "battle-rules/sleep/identity": {
+      "value": true,
+      "witnesses": [
+        "ff539189147ca1cd2cd70fbad6b2cd665dcd89e6d989c18286edc6f2fe1ee175",
+        "6329f0e1b1087cad07704dcb9c58305b22fa165da7ee7a72a454cde96f814f96"
+      ]
+    },
+    "battle-rules/sleep/name": {
+      "value": "Dormido",
+      "witnesses": [
+        "78aa19d8a88d8a33bd24875b6e0f7c6b82bfd303b310d30a3de0b31235d7e7c1",
+        "499df9c0e410a95b0dfc3c62f3ec9ba4403b1ee3988291e13c1edcd77bde8bc5"
+      ]
+    },
+    "battle-rules/sleep/rule": {
+      "value": {
+        "firstTurnAsleep": true,
+        "forcedWakeTurn": 3,
+        "restWakeTurn": 3,
+        "secondTurnWakeChanceDisplayedPercent": 33
+      },
+      "witnesses": [
+        "f68d8c8005145d676ddd29a7863cb2f80a0f0cde301413f1acaa5c994f93a4d8",
+        "e35beb42d7d60a733952d798744614297451c12e1c4ab4af114b398c3b045583"
+      ]
+    }
+  },
+  "observations": {
+    "0879a80e41918dbae9ede9fa61c0cad4c5899685bc70170ab95f4c4d84dbaeb8": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=burning].name",
+      "observed": "Quemado",
+      "provider": "opgg",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": "Quemado"
+    },
+    "0c3244d1125500dc693593b2ecdcb4e91c1cb5e4f738fae045066e0d69e76296": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=burning].description",
+      "observed": "El Pokémon pierde 1/16 de sus PS máximos al final de cada turno y el daño que infligen sus ataques físicos se reduce a la mitad.",
+      "provider": "opgg",
+      "review": "review-battle-rules-burning-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": true
+    },
+    "187a1045a9f51afac9b60746df6af78ae47e7a58e80ff893150383591be7bf7d": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_freezing_info",
+      "observed": "El Pokémon no puede usar la mayoría de los\nmovimientos, pero tiene una probabilidad del\n25 % de descongelarse al intentarlo. Se librará\nde la congelación al tercer turno o si recibe daño\nde ciertos movimientos, como los de tipo Fuego.\nNo afecta a los Pokémon de tipo Hielo.",
+      "provider": "champout",
+      "review": "review-battle-rules-freezing-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": {
+        "forcedThawTurn": 3,
+        "thawProbability": 0.25,
+        "trigger": "attempt-move"
+      }
+    },
+    "18febce99aa8d8b20f445ad952efb5631e0219ca5e6e9d030d53d81f9af5da18": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_paralysis_info",
+      "observed": "El Pokémon tiene una probabilidad del 12,5 %\nde no poder usar movimientos y su Velocidad se\nreduce a la mitad. No afecta a los Pokémon de\ntipo Eléctrico.",
+      "provider": "champout",
+      "review": "review-battle-rules-paralysis-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": true
+    },
+    "2364aa7dfef47c187a36d65140f49a2a5c2a52a9792779b0bb37e12f23d82040": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_poison_info",
+      "observed": "El Pokémon pierde 1/8 de sus PS máximos\nal final de cada turno. No afecta a los Pokémon\nde tipo Veneno o Acero.",
+      "provider": "champout",
+      "review": "review-battle-rules-poison-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          8
+        ]
+      }
+    },
+    "3ca96d861e68bef69b6583462f65cc5e1d468bc5a67487b86820435c0b7f1668": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/ui_control",
+      "locator": "ui_control_yakedo",
+      "observed": "Quemado",
+      "provider": "champout",
+      "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
+      "value": "Quemado"
+    },
+    "436fd240510fb09aa85c7918bcb3775a431f969c612d0af2371f6b4bcfcc34e1": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=bad-poison].description",
+      "observed": "El Pokémon pierde PS al final de cada turno. El daño empieza por 1/16 de sus PS máximos y aumenta 1/16 cada turno (2/16 en el segundo, 3/16 en el tercero, etc.). Si, tras cambiarse por otro, vuelve al combate, se reiniciará la cuenta desde 1/16.",
+      "provider": "opgg",
+      "review": "review-battle-rules-bad-poison-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": true
+    },
+    "499df9c0e410a95b0dfc3c62f3ec9ba4403b1ee3988291e13c1edcd77bde8bc5": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/ui_control",
+      "locator": "ui_control_nemuri",
+      "observed": "Dormido",
+      "provider": "champout",
+      "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
+      "value": "Dormido"
+    },
+    "50734048efd0c19f3a680e680b6017f918d161f53f0f306cbf675978ac3d0d35": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=paralysis].description",
+      "observed": "El Pokémon tiene una probabilidad del 12,5 % de no poder usar movimientos y su Velocidad se reduce a la mitad.",
+      "provider": "opgg",
+      "review": "review-battle-rules-paralysis-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": {
+        "failureProbability": 0.125,
+        "speedMultiplier": 0.5
+      }
+    },
+    "51783ee585a0f37922ae7e5c5ccde1e232251ff2624c139d6698743bf9a5b008": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=poison].description",
+      "observed": "El Pokémon pierde 1/8 de sus PS máximos al final de cada turno.",
+      "provider": "opgg",
+      "review": "review-battle-rules-poison-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": true
+    },
+    "54fcb949969773eab1f62ce0ef94231831822f09eaf456d9d2ab1e3ae60b3e89": {
+      "context": "champions-current-capture",
+      "document": "serebii/statusconditions",
+      "locator": "Paralysis.New Effect",
+      "observed": "12.5% chance of being unable to moveSpeed reduced to 50% of maximum",
+      "provider": "serebii",
+      "sha256": "023c4536b9a7e0472fba82e5d299ac1df5412436351b171c60a9978494145291",
+      "value": true
+    },
+    "5b8ee67be316da3fecc458fe0f581a491c59ed3719b24456d0acf89394baa70f": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=poison].description",
+      "observed": "El Pokémon pierde 1/8 de sus PS máximos al final de cada turno.",
+      "provider": "opgg",
+      "review": "review-battle-rules-poison-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          8
+        ]
+      }
+    },
+    "626ff054ecdc2323848e70f8bf6d88e0842bc5d547eb86c9c577d8be2b1888a6": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=poison].name",
+      "observed": "Envenenado",
+      "provider": "opgg",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": "Envenenado"
+    },
+    "6329f0e1b1087cad07704dcb9c58305b22fa165da7ee7a72a454cde96f814f96": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=sleep].description",
+      "observed": "El Pokémon solo puede usar Ronquido o Sonámbulo. Permanece dormido durante el primer turno, tiene una probabilidad del 33 % de despertar en el segundo y se despertará seguro en el tercero. Si se durmió con Descanso, no despertará hasta el tercer turno.",
+      "provider": "opgg",
+      "review": "review-battle-rules-sleep-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": true
+    },
+    "78aa19d8a88d8a33bd24875b6e0f7c6b82bfd303b310d30a3de0b31235d7e7c1": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=sleep].name",
+      "observed": "Dormido",
+      "provider": "opgg",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": "Dormido"
+    },
+    "7b037cd1d4072c7d702ccfaea28bd56efda42d6d2cde0790707ea94abf19d881": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=burning].description",
+      "observed": "El Pokémon pierde 1/16 de sus PS máximos al final de cada turno y el daño que infligen sus ataques físicos se reduce a la mitad.",
+      "provider": "opgg",
+      "review": "review-battle-rules-burning-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          16
+        ],
+        "physicalDamageMultiplier": 0.5
+      }
+    },
+    "81d4bf72fdaafb7d194be31c248ac278d6dd51fb32e0105c619a2ae4ed13c820": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=bad-poison].name",
+      "observed": "Grav. envenenado",
+      "provider": "opgg",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": "Grav. envenenado"
+    },
+    "8ce90661d0d07dc195fe473213ba022f5413884cd4afde0cab37b1dc95ddcc71": {
+      "context": "champions-current-capture",
+      "document": "serebii/statusconditions",
+      "locator": "Freeze.New Effect",
+      "observed": "Pok�mon is unable to use moves (except for moves that thaw)25% chance to thaw each turn it attempts to use a move.Pok�mon will thaw on third turn after becoming frozen",
+      "provider": "serebii",
+      "sha256": "023c4536b9a7e0472fba82e5d299ac1df5412436351b171c60a9978494145291",
+      "value": true
+    },
+    "8f2d9d7802425bae46fb48d35648b0a06f888eaf89733563448f1c7250eaa1a2": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_freezing_info",
+      "observed": "El Pokémon no puede usar la mayoría de los\nmovimientos, pero tiene una probabilidad del\n25 % de descongelarse al intentarlo. Se librará\nde la congelación al tercer turno o si recibe daño\nde ciertos movimientos, como los de tipo Fuego.\nNo afecta a los Pokémon de tipo Hielo.",
+      "provider": "champout",
+      "review": "review-battle-rules-freezing-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": true
+    },
+    "992d0376baf9b55994ade94d6a4862ff061f6db9d1dd755453b0524fc7101009": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=freezing].description",
+      "observed": "El Pokémon no puede usar la mayoría de los movimientos, pero tiene una probabilidad del 25 % de descongelarse al intentarlo. Se librará de la congelación al tercer turno o si recibe daño de ciertos movimientos, como los de tipo Fuego.",
+      "provider": "opgg",
+      "review": "review-battle-rules-freezing-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": true
+    },
+    "a0470d3e0c96daa1bb983232bdf0958b5d0594385faf680e992d556464098c61": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/ui_control",
+      "locator": "ui_control_doku",
+      "observed": "Envenenado",
+      "provider": "champout",
+      "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
+      "value": "Envenenado"
+    },
+    "a56cedf32f26730cf810cfb4202edd4cfaf8844eb91dcf5418c286735990737f": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/ui_control",
+      "locator": "ui_control_mahi",
+      "observed": "Paralizado",
+      "provider": "champout",
+      "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
+      "value": "Paralizado"
+    },
+    "a840fb4982ad0e81dc20c48cc3bb0f10418a97d3851a5997982f4316ef6efc18": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_burning_info",
+      "observed": "El Pokémon pierde 1/16 de sus PS máximos\nal final de cada turno y el daño que infligen\nsus ataques físicos se reduce a la mitad.\nNo afecta a los Pokémon de tipo Fuego.",
+      "provider": "champout",
+      "review": "review-battle-rules-burning-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": true
+    },
+    "ae2527429e528375f5816acd541cf09dc1cc2dcf32579bedc9b82944f73fa5ef": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_bad_poison_info",
+      "observed": "El Pokémon pierde PS al final de cada turno.\nEl daño empieza por 1/16 de sus PS máximos y\naumenta 1/16 cada turno (2/16 en el segundo,\n3/16 en el tercero, etc.). Si, tras cambiarse por\notro, vuelve al combate, se reiniciará la cuenta\ndesde 1/16. No afecta a los Pokémon de tipo\nVeneno o Acero.",
+      "provider": "champout",
+      "review": "review-battle-rules-bad-poison-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": {
+        "firstTurnDamageFraction": [
+          1,
+          16
+        ],
+        "incrementPerTurn": [
+          1,
+          16
+        ],
+        "resetOnSwitch": true
+      }
+    },
+    "af28a9139fdd5540b4ba8914f4e2b988c3b1dd15eda14f10fe09547f749b9ecd": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=paralysis].description",
+      "observed": "El Pokémon tiene una probabilidad del 12,5 % de no poder usar movimientos y su Velocidad se reduce a la mitad.",
+      "provider": "opgg",
+      "review": "review-battle-rules-paralysis-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": true
+    },
+    "ba9059c35c40687899669533d4d8c1751d3db92729910f93cdf8593375be42e4": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/ui_control",
+      "locator": "ui_control_moudoku",
+      "observed": "Grav. envenenado",
+      "provider": "champout",
+      "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
+      "value": "Grav. envenenado"
+    },
+    "bdc31f4ff01eb55576c5fbc53ab4cf2b41cd19556eaef5b309aa2fc5ebba30de": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=bad-poison].description",
+      "observed": "El Pokémon pierde PS al final de cada turno. El daño empieza por 1/16 de sus PS máximos y aumenta 1/16 cada turno (2/16 en el segundo, 3/16 en el tercero, etc.). Si, tras cambiarse por otro, vuelve al combate, se reiniciará la cuenta desde 1/16.",
+      "provider": "opgg",
+      "review": "review-battle-rules-bad-poison-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": {
+        "firstTurnDamageFraction": [
+          1,
+          16
+        ],
+        "incrementPerTurn": [
+          1,
+          16
+        ],
+        "resetOnSwitch": true
+      }
+    },
+    "be5a87a70a8950bb2f8c41ec826e83d8f97a213dd6e1e75a9884c4060a16901a": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=freezing].name",
+      "observed": "Congelado",
+      "provider": "opgg",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": "Congelado"
+    },
+    "d9bde6cb57e7f80bf1f763427dd755ac7acdd283b9d62de7ae3cdad727e7610a": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_bad_poison_info",
+      "observed": "El Pokémon pierde PS al final de cada turno.\nEl daño empieza por 1/16 de sus PS máximos y\naumenta 1/16 cada turno (2/16 en el segundo,\n3/16 en el tercero, etc.). Si, tras cambiarse por\notro, vuelve al combate, se reiniciará la cuenta\ndesde 1/16. No afecta a los Pokémon de tipo\nVeneno o Acero.",
+      "provider": "champout",
+      "review": "review-battle-rules-bad-poison-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": true
+    },
+    "de25b59401879c1818374f3a52140022d431012dcc2a14c3094b037217ab865c": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=paralysis].name",
+      "observed": "Paralizado",
+      "provider": "opgg",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": "Paralizado"
+    },
+    "e35beb42d7d60a733952d798744614297451c12e1c4ab4af114b398c3b045583": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=sleep].description",
+      "observed": "El Pokémon solo puede usar Ronquido o Sonámbulo. Permanece dormido durante el primer turno, tiene una probabilidad del 33 % de despertar en el segundo y se despertará seguro en el tercero. Si se durmió con Descanso, no despertará hasta el tercer turno.",
+      "provider": "opgg",
+      "review": "review-battle-rules-sleep-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": {
+        "firstTurnAsleep": true,
+        "forcedWakeTurn": 3,
+        "restWakeTurn": 3,
+        "secondTurnWakeChanceDisplayedPercent": 33
+      }
+    },
+    "e48ac10f621364085ac16e68d7379631b8d696cf95798bbd19fe6e1c405c4641": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_burning_info",
+      "observed": "El Pokémon pierde 1/16 de sus PS máximos\nal final de cada turno y el daño que infligen\nsus ataques físicos se reduce a la mitad.\nNo afecta a los Pokémon de tipo Fuego.",
+      "provider": "champout",
+      "review": "review-battle-rules-burning-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          16
+        ],
+        "physicalDamageMultiplier": 0.5
+      }
+    },
+    "e934d63abedc98e216b1ed324c16d0d9025ff0b693dae6bfc49b9b4d5e9697a2": {
+      "context": "champions-current-capture",
+      "document": "opgg/conditions",
+      "locator": "conditions[key=freezing].description",
+      "observed": "El Pokémon no puede usar la mayoría de los movimientos, pero tiene una probabilidad del 25 % de descongelarse al intentarlo. Se librará de la congelación al tercer turno o si recibe daño de ciertos movimientos, como los de tipo Fuego.",
+      "provider": "opgg",
+      "review": "review-battle-rules-freezing-rule",
+      "sha256": "b0a7a76b271e62863e12b2923f790fbcca9deeb25aaa43358be8709429a98244",
+      "value": {
+        "forcedThawTurn": 3,
+        "thawProbability": 0.25,
+        "trigger": "attempt-move"
+      }
+    },
+    "f3546ec78e676a66ddda00d1ee0b1563220ccf8944a74358cd9e00550f5f0c12": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_poison_info",
+      "observed": "El Pokémon pierde 1/8 de sus PS máximos\nal final de cada turno. No afecta a los Pokémon\nde tipo Veneno o Acero.",
+      "provider": "champout",
+      "review": "review-battle-rules-poison-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": true
+    },
+    "f68d8c8005145d676ddd29a7863cb2f80a0f0cde301413f1acaa5c994f93a4d8": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_sleep_info",
+      "observed": "El Pokémon solo puede usar Ronquido o\nSonámbulo. Permanece dormido durante el\nprimer turno, tiene una probabilidad del 33 %\nde despertar en el segundo y se despertará\nseguro en el tercero. Si se durmió con Descanso,\nno despertará hasta el tercer turno.",
+      "provider": "champout",
+      "review": "review-battle-rules-sleep-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": {
+        "firstTurnAsleep": true,
+        "forcedWakeTurn": 3,
+        "restWakeTurn": 3,
+        "secondTurnWakeChanceDisplayedPercent": 33
+      }
+    },
+    "fad8c872e1fdf285fc9a1b07f66ef806849dbcf63f5ee2a07e084c383f869b96": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/ui_control",
+      "locator": "ui_control_koori",
+      "observed": "Congelado",
+      "provider": "champout",
+      "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
+      "value": "Congelado"
+    },
+    "fd3a291f10ca486a3270d3607041606fed80c275494bb72e8a670807fa9a0173": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_paralysis_info",
+      "observed": "El Pokémon tiene una probabilidad del 12,5 %\nde no poder usar movimientos y su Velocidad se\nreduce a la mitad. No afecta a los Pokémon de\ntipo Eléctrico.",
+      "provider": "champout",
+      "review": "review-battle-rules-paralysis-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": {
+        "failureProbability": 0.125,
+        "speedMultiplier": 0.5
+      }
+    },
+    "ff539189147ca1cd2cd70fbad6b2cd665dcd89e6d989c18286edc6f2fe1ee175": {
+      "context": "champions-current-capture",
+      "document": "champout/esp/btl_condition",
+      "locator": "btl_condition_sleep_info",
+      "observed": "El Pokémon solo puede usar Ronquido o\nSonámbulo. Permanece dormido durante el\nprimer turno, tiene una probabilidad del 33 %\nde despertar en el segundo y se despertará\nseguro en el tercero. Si se durmió con Descanso,\nno despertará hasta el tercer turno.",
+      "provider": "champout",
+      "review": "review-battle-rules-sleep-rule",
+      "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
+      "value": true
+    }
+  }
+}

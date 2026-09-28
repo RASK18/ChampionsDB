@@ -1,0 +1,1610 @@
+[
+  {
+    "available": true,
+    "id": "species-003",
+    "identity": true,
+    "name": "Venusaur",
+    "nationalDex": 3
+  },
+  {
+    "available": true,
+    "id": "species-006",
+    "identity": true,
+    "name": "Charizard",
+    "nationalDex": 6
+  },
+  {
+    "available": true,
+    "id": "species-009",
+    "identity": true,
+    "name": "Blastoise",
+    "nationalDex": 9
+  },
+  {
+    "available": true,
+    "id": "species-015",
+    "identity": true,
+    "name": "Beedrill",
+    "nationalDex": 15
+  },
+  {
+    "available": true,
+    "id": "species-018",
+    "identity": true,
+    "name": "Pidgeot",
+    "nationalDex": 18
+  },
+  {
+    "available": true,
+    "id": "species-024",
+    "identity": true,
+    "name": "Arbok",
+    "nationalDex": 24
+  },
+  {
+    "available": true,
+    "id": "species-025",
+    "identity": true,
+    "name": "Pikachu",
+    "nationalDex": 25
+  },
+  {
+    "available": true,
+    "id": "species-026",
+    "identity": true,
+    "name": "Raichu",
+    "nationalDex": 26
+  },
+  {
+    "available": true,
+    "id": "species-036",
+    "identity": true,
+    "name": "Clefable",
+    "nationalDex": 36
+  },
+  {
+    "available": true,
+    "id": "species-038",
+    "identity": true,
+    "name": "Ninetales",
+    "nationalDex": 38
+  },
+  {
+    "available": true,
+    "id": "species-040",
+    "identity": true,
+    "name": "Wigglytuff",
+    "nationalDex": 40
+  },
+  {
+    "available": true,
+    "id": "species-045",
+    "identity": true,
+    "name": "Vileplume",
+    "nationalDex": 45
+  },
+  {
+    "available": true,
+    "id": "species-053",
+    "identity": true,
+    "name": "Persian",
+    "nationalDex": 53
+  },
+  {
+    "available": true,
+    "id": "species-059",
+    "identity": true,
+    "name": "Arcanine",
+    "nationalDex": 59
+  },
+  {
+    "available": true,
+    "id": "species-065",
+    "identity": true,
+    "name": "Alakazam",
+    "nationalDex": 65
+  },
+  {
+    "available": true,
+    "id": "species-068",
+    "identity": true,
+    "name": "Machamp",
+    "nationalDex": 68
+  },
+  {
+    "available": true,
+    "id": "species-071",
+    "identity": true,
+    "name": "Victreebel",
+    "nationalDex": 71
+  },
+  {
+    "available": true,
+    "id": "species-080",
+    "identity": true,
+    "name": "Slowbro",
+    "nationalDex": 80
+  },
+  {
+    "available": true,
+    "id": "species-083",
+    "identity": true,
+    "name": "Farfetch’d",
+    "nationalDex": 83
+  },
+  {
+    "available": true,
+    "id": "species-094",
+    "identity": true,
+    "name": "Gengar",
+    "nationalDex": 94
+  },
+  {
+    "available": true,
+    "id": "species-1000",
+    "identity": true,
+    "name": "Gholdengo",
+    "nationalDex": 1000
+  },
+  {
+    "available": true,
+    "id": "species-1013",
+    "identity": true,
+    "name": "Sinistcha",
+    "nationalDex": 1013
+  },
+  {
+    "available": true,
+    "id": "species-1018",
+    "identity": true,
+    "name": "Archaludon",
+    "nationalDex": 1018
+  },
+  {
+    "available": true,
+    "id": "species-1019",
+    "identity": true,
+    "name": "Hydrapple",
+    "nationalDex": 1019
+  },
+  {
+    "available": true,
+    "id": "species-115",
+    "identity": true,
+    "name": "Kangaskhan",
+    "nationalDex": 115
+  },
+  {
+    "available": true,
+    "id": "species-121",
+    "identity": true,
+    "name": "Starmie",
+    "nationalDex": 121
+  },
+  {
+    "available": true,
+    "id": "species-122",
+    "identity": true,
+    "name": "Mr. Mime",
+    "nationalDex": 122
+  },
+  {
+    "available": true,
+    "id": "species-127",
+    "identity": true,
+    "name": "Pinsir",
+    "nationalDex": 127
+  },
+  {
+    "available": true,
+    "id": "species-128",
+    "identity": true,
+    "name": "Tauros",
+    "nationalDex": 128
+  },
+  {
+    "available": true,
+    "id": "species-130",
+    "identity": true,
+    "name": "Gyarados",
+    "nationalDex": 130
+  },
+  {
+    "available": true,
+    "id": "species-132",
+    "identity": true,
+    "name": "Ditto",
+    "nationalDex": 132
+  },
+  {
+    "available": true,
+    "id": "species-134",
+    "identity": true,
+    "name": "Vaporeon",
+    "nationalDex": 134
+  },
+  {
+    "available": true,
+    "id": "species-135",
+    "identity": true,
+    "name": "Jolteon",
+    "nationalDex": 135
+  },
+  {
+    "available": true,
+    "id": "species-136",
+    "identity": true,
+    "name": "Flareon",
+    "nationalDex": 136
+  },
+  {
+    "available": true,
+    "id": "species-142",
+    "identity": true,
+    "name": "Aerodactyl",
+    "nationalDex": 142
+  },
+  {
+    "available": true,
+    "id": "species-143",
+    "identity": true,
+    "name": "Snorlax",
+    "nationalDex": 143
+  },
+  {
+    "available": true,
+    "id": "species-149",
+    "identity": true,
+    "name": "Dragonite",
+    "nationalDex": 149
+  },
+  {
+    "available": true,
+    "id": "species-154",
+    "identity": true,
+    "name": "Meganium",
+    "nationalDex": 154
+  },
+  {
+    "available": true,
+    "id": "species-157",
+    "identity": true,
+    "name": "Typhlosion",
+    "nationalDex": 157
+  },
+  {
+    "available": true,
+    "id": "species-160",
+    "identity": true,
+    "name": "Feraligatr",
+    "nationalDex": 160
+  },
+  {
+    "available": true,
+    "id": "species-168",
+    "identity": true,
+    "name": "Ariados",
+    "nationalDex": 168
+  },
+  {
+    "available": true,
+    "id": "species-181",
+    "identity": true,
+    "name": "Ampharos",
+    "nationalDex": 181
+  },
+  {
+    "available": true,
+    "id": "species-184",
+    "identity": true,
+    "name": "Azumarill",
+    "nationalDex": 184
+  },
+  {
+    "available": true,
+    "id": "species-186",
+    "identity": true,
+    "name": "Politoed",
+    "nationalDex": 186
+  },
+  {
+    "available": true,
+    "id": "species-196",
+    "identity": true,
+    "name": "Espeon",
+    "nationalDex": 196
+  },
+  {
+    "available": true,
+    "id": "species-197",
+    "identity": true,
+    "name": "Umbreon",
+    "nationalDex": 197
+  },
+  {
+    "available": true,
+    "id": "species-199",
+    "identity": true,
+    "name": "Slowking",
+    "nationalDex": 199
+  },
+  {
+    "available": true,
+    "id": "species-205",
+    "identity": true,
+    "name": "Forretress",
+    "nationalDex": 205
+  },
+  {
+    "available": true,
+    "id": "species-208",
+    "identity": true,
+    "name": "Steelix",
+    "nationalDex": 208
+  },
+  {
+    "available": true,
+    "id": "species-211",
+    "identity": true,
+    "name": "Qwilfish",
+    "nationalDex": 211
+  },
+  {
+    "available": true,
+    "id": "species-212",
+    "identity": true,
+    "name": "Scizor",
+    "nationalDex": 212
+  },
+  {
+    "available": true,
+    "id": "species-214",
+    "identity": true,
+    "name": "Heracross",
+    "nationalDex": 214
+  },
+  {
+    "available": true,
+    "id": "species-227",
+    "identity": true,
+    "name": "Skarmory",
+    "nationalDex": 227
+  },
+  {
+    "available": true,
+    "id": "species-229",
+    "identity": true,
+    "name": "Houndoom",
+    "nationalDex": 229
+  },
+  {
+    "available": true,
+    "id": "species-248",
+    "identity": true,
+    "name": "Tyranitar",
+    "nationalDex": 248
+  },
+  {
+    "available": true,
+    "id": "species-254",
+    "identity": true,
+    "name": "Sceptile",
+    "nationalDex": 254
+  },
+  {
+    "available": true,
+    "id": "species-257",
+    "identity": true,
+    "name": "Blaziken",
+    "nationalDex": 257
+  },
+  {
+    "available": true,
+    "id": "species-260",
+    "identity": true,
+    "name": "Swampert",
+    "nationalDex": 260
+  },
+  {
+    "available": true,
+    "id": "species-279",
+    "identity": true,
+    "name": "Pelipper",
+    "nationalDex": 279
+  },
+  {
+    "available": true,
+    "id": "species-282",
+    "identity": true,
+    "name": "Gardevoir",
+    "nationalDex": 282
+  },
+  {
+    "available": true,
+    "id": "species-302",
+    "identity": true,
+    "name": "Sableye",
+    "nationalDex": 302
+  },
+  {
+    "available": true,
+    "id": "species-303",
+    "identity": true,
+    "name": "Mawile",
+    "nationalDex": 303
+  },
+  {
+    "available": true,
+    "id": "species-306",
+    "identity": true,
+    "name": "Aggron",
+    "nationalDex": 306
+  },
+  {
+    "available": true,
+    "id": "species-308",
+    "identity": true,
+    "name": "Medicham",
+    "nationalDex": 308
+  },
+  {
+    "available": true,
+    "id": "species-310",
+    "identity": true,
+    "name": "Manectric",
+    "nationalDex": 310
+  },
+  {
+    "available": true,
+    "id": "species-317",
+    "identity": true,
+    "name": "Swalot",
+    "nationalDex": 317
+  },
+  {
+    "available": true,
+    "id": "species-319",
+    "identity": true,
+    "name": "Sharpedo",
+    "nationalDex": 319
+  },
+  {
+    "available": true,
+    "id": "species-323",
+    "identity": true,
+    "name": "Camerupt",
+    "nationalDex": 323
+  },
+  {
+    "available": true,
+    "id": "species-324",
+    "identity": true,
+    "name": "Torkoal",
+    "nationalDex": 324
+  },
+  {
+    "available": true,
+    "id": "species-334",
+    "identity": true,
+    "name": "Altaria",
+    "nationalDex": 334
+  },
+  {
+    "available": true,
+    "id": "species-350",
+    "identity": true,
+    "name": "Milotic",
+    "nationalDex": 350
+  },
+  {
+    "available": true,
+    "id": "species-351",
+    "identity": true,
+    "name": "Castform",
+    "nationalDex": 351
+  },
+  {
+    "available": true,
+    "id": "species-354",
+    "identity": true,
+    "name": "Banette",
+    "nationalDex": 354
+  },
+  {
+    "available": true,
+    "id": "species-358",
+    "identity": true,
+    "name": "Chimecho",
+    "nationalDex": 358
+  },
+  {
+    "available": true,
+    "id": "species-359",
+    "identity": true,
+    "name": "Absol",
+    "nationalDex": 359
+  },
+  {
+    "available": true,
+    "id": "species-362",
+    "identity": true,
+    "name": "Glalie",
+    "nationalDex": 362
+  },
+  {
+    "available": true,
+    "id": "species-373",
+    "identity": true,
+    "name": "Salamence",
+    "nationalDex": 373
+  },
+  {
+    "available": true,
+    "id": "species-376",
+    "identity": true,
+    "name": "Metagross",
+    "nationalDex": 376
+  },
+  {
+    "available": true,
+    "id": "species-389",
+    "identity": true,
+    "name": "Torterra",
+    "nationalDex": 389
+  },
+  {
+    "available": true,
+    "id": "species-392",
+    "identity": true,
+    "name": "Infernape",
+    "nationalDex": 392
+  },
+  {
+    "available": true,
+    "id": "species-395",
+    "identity": true,
+    "name": "Empoleon",
+    "nationalDex": 395
+  },
+  {
+    "available": true,
+    "id": "species-398",
+    "identity": true,
+    "name": "Staraptor",
+    "nationalDex": 398
+  },
+  {
+    "available": true,
+    "id": "species-405",
+    "identity": true,
+    "name": "Luxray",
+    "nationalDex": 405
+  },
+  {
+    "available": true,
+    "id": "species-407",
+    "identity": true,
+    "name": "Roserade",
+    "nationalDex": 407
+  },
+  {
+    "available": true,
+    "id": "species-409",
+    "identity": true,
+    "name": "Rampardos",
+    "nationalDex": 409
+  },
+  {
+    "available": true,
+    "id": "species-411",
+    "identity": true,
+    "name": "Bastiodon",
+    "nationalDex": 411
+  },
+  {
+    "available": true,
+    "id": "species-428",
+    "identity": true,
+    "name": "Lopunny",
+    "nationalDex": 428
+  },
+  {
+    "available": true,
+    "id": "species-442",
+    "identity": true,
+    "name": "Spiritomb",
+    "nationalDex": 442
+  },
+  {
+    "available": true,
+    "id": "species-445",
+    "identity": true,
+    "name": "Garchomp",
+    "nationalDex": 445
+  },
+  {
+    "available": true,
+    "id": "species-448",
+    "identity": true,
+    "name": "Lucario",
+    "nationalDex": 448
+  },
+  {
+    "available": true,
+    "id": "species-450",
+    "identity": true,
+    "name": "Hippowdon",
+    "nationalDex": 450
+  },
+  {
+    "available": true,
+    "id": "species-454",
+    "identity": true,
+    "name": "Toxicroak",
+    "nationalDex": 454
+  },
+  {
+    "available": true,
+    "id": "species-460",
+    "identity": true,
+    "name": "Abomasnow",
+    "nationalDex": 460
+  },
+  {
+    "available": true,
+    "id": "species-461",
+    "identity": true,
+    "name": "Weavile",
+    "nationalDex": 461
+  },
+  {
+    "available": true,
+    "id": "species-464",
+    "identity": true,
+    "name": "Rhyperior",
+    "nationalDex": 464
+  },
+  {
+    "available": true,
+    "id": "species-470",
+    "identity": true,
+    "name": "Leafeon",
+    "nationalDex": 470
+  },
+  {
+    "available": true,
+    "id": "species-471",
+    "identity": true,
+    "name": "Glaceon",
+    "nationalDex": 471
+  },
+  {
+    "available": true,
+    "id": "species-472",
+    "identity": true,
+    "name": "Gliscor",
+    "nationalDex": 472
+  },
+  {
+    "available": true,
+    "id": "species-473",
+    "identity": true,
+    "name": "Mamoswine",
+    "nationalDex": 473
+  },
+  {
+    "available": true,
+    "id": "species-475",
+    "identity": true,
+    "name": "Gallade",
+    "nationalDex": 475
+  },
+  {
+    "available": true,
+    "id": "species-478",
+    "identity": true,
+    "name": "Froslass",
+    "nationalDex": 478
+  },
+  {
+    "available": true,
+    "id": "species-479",
+    "identity": true,
+    "name": "Rotom",
+    "nationalDex": 479
+  },
+  {
+    "available": true,
+    "id": "species-497",
+    "identity": true,
+    "name": "Serperior",
+    "nationalDex": 497
+  },
+  {
+    "available": true,
+    "id": "species-500",
+    "identity": true,
+    "name": "Emboar",
+    "nationalDex": 500
+  },
+  {
+    "available": true,
+    "id": "species-503",
+    "identity": true,
+    "name": "Samurott",
+    "nationalDex": 503
+  },
+  {
+    "available": true,
+    "id": "species-505",
+    "identity": true,
+    "name": "Watchog",
+    "nationalDex": 505
+  },
+  {
+    "available": true,
+    "id": "species-510",
+    "identity": true,
+    "name": "Liepard",
+    "nationalDex": 510
+  },
+  {
+    "available": true,
+    "id": "species-512",
+    "identity": true,
+    "name": "Simisage",
+    "nationalDex": 512
+  },
+  {
+    "available": true,
+    "id": "species-514",
+    "identity": true,
+    "name": "Simisear",
+    "nationalDex": 514
+  },
+  {
+    "available": true,
+    "id": "species-516",
+    "identity": true,
+    "name": "Simipour",
+    "nationalDex": 516
+  },
+  {
+    "available": true,
+    "id": "species-518",
+    "identity": true,
+    "name": "Musharna",
+    "nationalDex": 518
+  },
+  {
+    "available": true,
+    "id": "species-530",
+    "identity": true,
+    "name": "Excadrill",
+    "nationalDex": 530
+  },
+  {
+    "available": true,
+    "id": "species-531",
+    "identity": true,
+    "name": "Audino",
+    "nationalDex": 531
+  },
+  {
+    "available": true,
+    "id": "species-534",
+    "identity": true,
+    "name": "Conkeldurr",
+    "nationalDex": 534
+  },
+  {
+    "available": true,
+    "id": "species-545",
+    "identity": true,
+    "name": "Scolipede",
+    "nationalDex": 545
+  },
+  {
+    "available": true,
+    "id": "species-547",
+    "identity": true,
+    "name": "Whimsicott",
+    "nationalDex": 547
+  },
+  {
+    "available": true,
+    "id": "species-553",
+    "identity": true,
+    "name": "Krookodile",
+    "nationalDex": 553
+  },
+  {
+    "available": true,
+    "id": "species-560",
+    "identity": true,
+    "name": "Scrafty",
+    "nationalDex": 560
+  },
+  {
+    "available": true,
+    "id": "species-563",
+    "identity": true,
+    "name": "Cofagrigus",
+    "nationalDex": 563
+  },
+  {
+    "available": true,
+    "id": "species-569",
+    "identity": true,
+    "name": "Garbodor",
+    "nationalDex": 569
+  },
+  {
+    "available": true,
+    "id": "species-571",
+    "identity": true,
+    "name": "Zoroark",
+    "nationalDex": 571
+  },
+  {
+    "available": true,
+    "id": "species-579",
+    "identity": true,
+    "name": "Reuniclus",
+    "nationalDex": 579
+  },
+  {
+    "available": true,
+    "id": "species-584",
+    "identity": true,
+    "name": "Vanilluxe",
+    "nationalDex": 584
+  },
+  {
+    "available": true,
+    "id": "species-587",
+    "identity": true,
+    "name": "Emolga",
+    "nationalDex": 587
+  },
+  {
+    "available": true,
+    "id": "species-604",
+    "identity": true,
+    "name": "Eelektross",
+    "nationalDex": 604
+  },
+  {
+    "available": true,
+    "id": "species-609",
+    "identity": true,
+    "name": "Chandelure",
+    "nationalDex": 609
+  },
+  {
+    "available": true,
+    "id": "species-614",
+    "identity": true,
+    "name": "Beartic",
+    "nationalDex": 614
+  },
+  {
+    "available": true,
+    "id": "species-618",
+    "identity": true,
+    "name": "Stunfisk",
+    "nationalDex": 618
+  },
+  {
+    "available": true,
+    "id": "species-623",
+    "identity": true,
+    "name": "Golurk",
+    "nationalDex": 623
+  },
+  {
+    "available": true,
+    "id": "species-635",
+    "identity": true,
+    "name": "Hydreigon",
+    "nationalDex": 635
+  },
+  {
+    "available": true,
+    "id": "species-637",
+    "identity": true,
+    "name": "Volcarona",
+    "nationalDex": 637
+  },
+  {
+    "available": true,
+    "id": "species-652",
+    "identity": true,
+    "name": "Chesnaught",
+    "nationalDex": 652
+  },
+  {
+    "available": true,
+    "id": "species-655",
+    "identity": true,
+    "name": "Delphox",
+    "nationalDex": 655
+  },
+  {
+    "available": true,
+    "id": "species-658",
+    "identity": true,
+    "name": "Greninja",
+    "nationalDex": 658
+  },
+  {
+    "available": true,
+    "id": "species-660",
+    "identity": true,
+    "name": "Diggersby",
+    "nationalDex": 660
+  },
+  {
+    "available": true,
+    "id": "species-663",
+    "identity": true,
+    "name": "Talonflame",
+    "nationalDex": 663
+  },
+  {
+    "available": true,
+    "id": "species-666",
+    "identity": true,
+    "name": "Vivillon",
+    "nationalDex": 666
+  },
+  {
+    "available": true,
+    "id": "species-668",
+    "identity": true,
+    "name": "Pyroar",
+    "nationalDex": 668
+  },
+  {
+    "available": true,
+    "id": "species-670",
+    "identity": true,
+    "nationalDex": 670
+  },
+  {
+    "available": true,
+    "id": "species-671",
+    "identity": true,
+    "name": "Florges",
+    "nationalDex": 671
+  },
+  {
+    "available": true,
+    "id": "species-673",
+    "identity": true,
+    "name": "Gogoat",
+    "nationalDex": 673
+  },
+  {
+    "available": true,
+    "id": "species-675",
+    "identity": true,
+    "name": "Pangoro",
+    "nationalDex": 675
+  },
+  {
+    "available": true,
+    "id": "species-676",
+    "identity": true,
+    "name": "Furfrou",
+    "nationalDex": 676
+  },
+  {
+    "available": true,
+    "id": "species-678",
+    "identity": true,
+    "nationalDex": 678
+  },
+  {
+    "available": true,
+    "id": "species-681",
+    "identity": true,
+    "nationalDex": 681
+  },
+  {
+    "available": true,
+    "id": "species-683",
+    "identity": true,
+    "name": "Aromatisse",
+    "nationalDex": 683
+  },
+  {
+    "available": true,
+    "id": "species-685",
+    "identity": true,
+    "name": "Slurpuff",
+    "nationalDex": 685
+  },
+  {
+    "available": true,
+    "id": "species-687",
+    "identity": true,
+    "name": "Malamar",
+    "nationalDex": 687
+  },
+  {
+    "available": true,
+    "id": "species-689",
+    "identity": true,
+    "name": "Barbaracle",
+    "nationalDex": 689
+  },
+  {
+    "available": true,
+    "id": "species-691",
+    "identity": true,
+    "name": "Dragalge",
+    "nationalDex": 691
+  },
+  {
+    "available": true,
+    "id": "species-693",
+    "identity": true,
+    "name": "Clawitzer",
+    "nationalDex": 693
+  },
+  {
+    "available": true,
+    "id": "species-695",
+    "identity": true,
+    "name": "Heliolisk",
+    "nationalDex": 695
+  },
+  {
+    "available": true,
+    "id": "species-697",
+    "identity": true,
+    "name": "Tyrantrum",
+    "nationalDex": 697
+  },
+  {
+    "available": true,
+    "id": "species-699",
+    "identity": true,
+    "name": "Aurorus",
+    "nationalDex": 699
+  },
+  {
+    "available": true,
+    "id": "species-700",
+    "identity": true,
+    "name": "Sylveon",
+    "nationalDex": 700
+  },
+  {
+    "available": true,
+    "id": "species-701",
+    "identity": true,
+    "name": "Hawlucha",
+    "nationalDex": 701
+  },
+  {
+    "available": true,
+    "id": "species-702",
+    "identity": true,
+    "name": "Dedenne",
+    "nationalDex": 702
+  },
+  {
+    "available": true,
+    "id": "species-706",
+    "identity": true,
+    "name": "Goodra",
+    "nationalDex": 706
+  },
+  {
+    "available": true,
+    "id": "species-707",
+    "identity": true,
+    "name": "Klefki",
+    "nationalDex": 707
+  },
+  {
+    "available": true,
+    "id": "species-709",
+    "identity": true,
+    "name": "Trevenant",
+    "nationalDex": 709
+  },
+  {
+    "available": true,
+    "id": "species-711",
+    "identity": true,
+    "nationalDex": 711
+  },
+  {
+    "available": true,
+    "id": "species-713",
+    "identity": true,
+    "name": "Avalugg",
+    "nationalDex": 713
+  },
+  {
+    "available": true,
+    "id": "species-715",
+    "identity": true,
+    "name": "Noivern",
+    "nationalDex": 715
+  },
+  {
+    "available": true,
+    "id": "species-724",
+    "identity": true,
+    "name": "Decidueye",
+    "nationalDex": 724
+  },
+  {
+    "available": true,
+    "id": "species-727",
+    "identity": true,
+    "name": "Incineroar",
+    "nationalDex": 727
+  },
+  {
+    "available": true,
+    "id": "species-730",
+    "identity": true,
+    "name": "Primarina",
+    "nationalDex": 730
+  },
+  {
+    "available": true,
+    "id": "species-733",
+    "identity": true,
+    "name": "Toucannon",
+    "nationalDex": 733
+  },
+  {
+    "available": true,
+    "id": "species-740",
+    "identity": true,
+    "name": "Crabominable",
+    "nationalDex": 740
+  },
+  {
+    "available": true,
+    "id": "species-745",
+    "identity": true,
+    "name": "Lycanroc",
+    "nationalDex": 745
+  },
+  {
+    "available": true,
+    "id": "species-748",
+    "identity": true,
+    "name": "Toxapex",
+    "nationalDex": 748
+  },
+  {
+    "available": true,
+    "id": "species-750",
+    "identity": true,
+    "name": "Mudsdale",
+    "nationalDex": 750
+  },
+  {
+    "available": true,
+    "id": "species-752",
+    "identity": true,
+    "name": "Araquanid",
+    "nationalDex": 752
+  },
+  {
+    "available": true,
+    "id": "species-758",
+    "identity": true,
+    "name": "Salazzle",
+    "nationalDex": 758
+  },
+  {
+    "available": true,
+    "id": "species-763",
+    "identity": true,
+    "name": "Tsareena",
+    "nationalDex": 763
+  },
+  {
+    "available": true,
+    "id": "species-765",
+    "identity": true,
+    "name": "Oranguru",
+    "nationalDex": 765
+  },
+  {
+    "available": true,
+    "id": "species-766",
+    "identity": true,
+    "name": "Passimian",
+    "nationalDex": 766
+  },
+  {
+    "available": true,
+    "id": "species-768",
+    "identity": true,
+    "name": "Golisopod",
+    "nationalDex": 768
+  },
+  {
+    "available": true,
+    "id": "species-778",
+    "identity": true,
+    "name": "Mimikyu",
+    "nationalDex": 778
+  },
+  {
+    "available": true,
+    "id": "species-780",
+    "identity": true,
+    "name": "Drampa",
+    "nationalDex": 780
+  },
+  {
+    "available": true,
+    "id": "species-784",
+    "identity": true,
+    "name": "Kommo-o",
+    "nationalDex": 784
+  },
+  {
+    "available": true,
+    "id": "species-812",
+    "identity": true,
+    "name": "Rillaboom",
+    "nationalDex": 812
+  },
+  {
+    "available": true,
+    "id": "species-815",
+    "identity": true,
+    "name": "Cinderace",
+    "nationalDex": 815
+  },
+  {
+    "available": true,
+    "id": "species-818",
+    "identity": true,
+    "name": "Inteleon",
+    "nationalDex": 818
+  },
+  {
+    "available": true,
+    "id": "species-823",
+    "identity": true,
+    "name": "Corviknight",
+    "nationalDex": 823
+  },
+  {
+    "available": true,
+    "id": "species-828",
+    "identity": true,
+    "name": "Thievul",
+    "nationalDex": 828
+  },
+  {
+    "available": true,
+    "id": "species-841",
+    "identity": true,
+    "name": "Flapple",
+    "nationalDex": 841
+  },
+  {
+    "available": true,
+    "id": "species-842",
+    "identity": true,
+    "name": "Appletun",
+    "nationalDex": 842
+  },
+  {
+    "available": true,
+    "id": "species-844",
+    "identity": true,
+    "name": "Sandaconda",
+    "nationalDex": 844
+  },
+  {
+    "available": true,
+    "id": "species-849",
+    "identity": true,
+    "nationalDex": 849
+  },
+  {
+    "available": true,
+    "id": "species-853",
+    "identity": true,
+    "name": "Grapploct",
+    "nationalDex": 853
+  },
+  {
+    "available": true,
+    "id": "species-855",
+    "identity": true,
+    "name": "Polteageist",
+    "nationalDex": 855
+  },
+  {
+    "available": true,
+    "id": "species-858",
+    "identity": true,
+    "name": "Hatterene",
+    "nationalDex": 858
+  },
+  {
+    "available": true,
+    "id": "species-861",
+    "identity": true,
+    "name": "Grimmsnarl",
+    "nationalDex": 861
+  },
+  {
+    "available": true,
+    "id": "species-863",
+    "identity": true,
+    "name": "Perrserker",
+    "nationalDex": 863
+  },
+  {
+    "available": true,
+    "id": "species-865",
+    "identity": true,
+    "name": "Sirfetch’d",
+    "nationalDex": 865
+  },
+  {
+    "available": true,
+    "id": "species-866",
+    "identity": true,
+    "name": "Mr. Rime",
+    "nationalDex": 866
+  },
+  {
+    "available": true,
+    "id": "species-867",
+    "identity": true,
+    "name": "Runerigus",
+    "nationalDex": 867
+  },
+  {
+    "available": true,
+    "id": "species-869",
+    "identity": true,
+    "name": "Alcremie",
+    "nationalDex": 869
+  },
+  {
+    "available": true,
+    "id": "species-870",
+    "identity": true,
+    "name": "Falinks",
+    "nationalDex": 870
+  },
+  {
+    "available": true,
+    "id": "species-871",
+    "identity": true,
+    "name": "Pincurchin",
+    "nationalDex": 871
+  },
+  {
+    "available": true,
+    "id": "species-876",
+    "identity": true,
+    "nationalDex": 876
+  },
+  {
+    "available": true,
+    "id": "species-877",
+    "identity": true,
+    "name": "Morpeko",
+    "nationalDex": 877
+  },
+  {
+    "available": true,
+    "id": "species-887",
+    "identity": true,
+    "name": "Dragapult",
+    "nationalDex": 887
+  },
+  {
+    "available": true,
+    "id": "species-899",
+    "identity": true,
+    "name": "Wyrdeer",
+    "nationalDex": 899
+  },
+  {
+    "available": true,
+    "id": "species-900",
+    "identity": true,
+    "name": "Kleavor",
+    "nationalDex": 900
+  },
+  {
+    "available": true,
+    "id": "species-902",
+    "identity": true,
+    "nationalDex": 902
+  },
+  {
+    "available": true,
+    "id": "species-903",
+    "identity": true,
+    "name": "Sneasler",
+    "nationalDex": 903
+  },
+  {
+    "available": true,
+    "id": "species-904",
+    "identity": true,
+    "name": "Overqwil",
+    "nationalDex": 904
+  },
+  {
+    "available": true,
+    "id": "species-908",
+    "identity": true,
+    "name": "Meowscarada",
+    "nationalDex": 908
+  },
+  {
+    "available": true,
+    "id": "species-911",
+    "identity": true,
+    "name": "Skeledirge",
+    "nationalDex": 911
+  },
+  {
+    "available": true,
+    "id": "species-914",
+    "identity": true,
+    "name": "Quaquaval",
+    "nationalDex": 914
+  },
+  {
+    "available": true,
+    "id": "species-923",
+    "identity": true,
+    "name": "Pawmot",
+    "nationalDex": 923
+  },
+  {
+    "available": true,
+    "id": "species-925",
+    "identity": true,
+    "nationalDex": 925
+  },
+  {
+    "available": true,
+    "id": "species-930",
+    "identity": true,
+    "name": "Arboliva",
+    "nationalDex": 930
+  },
+  {
+    "available": true,
+    "id": "species-931",
+    "identity": true,
+    "nationalDex": 931
+  },
+  {
+    "available": true,
+    "id": "species-934",
+    "identity": true,
+    "name": "Garganacl",
+    "nationalDex": 934
+  },
+  {
+    "available": true,
+    "id": "species-936",
+    "identity": true,
+    "name": "Armarouge",
+    "nationalDex": 936
+  },
+  {
+    "available": true,
+    "id": "species-937",
+    "identity": true,
+    "name": "Ceruledge",
+    "nationalDex": 937
+  },
+  {
+    "available": true,
+    "id": "species-939",
+    "identity": true,
+    "name": "Bellibolt",
+    "nationalDex": 939
+  },
+  {
+    "available": true,
+    "id": "species-943",
+    "identity": true,
+    "name": "Mabosstiff",
+    "nationalDex": 943
+  },
+  {
+    "available": true,
+    "id": "species-952",
+    "identity": true,
+    "name": "Scovillain",
+    "nationalDex": 952
+  },
+  {
+    "available": true,
+    "id": "species-956",
+    "identity": true,
+    "name": "Espathra",
+    "nationalDex": 956
+  },
+  {
+    "available": true,
+    "id": "species-959",
+    "identity": true,
+    "name": "Tinkaton",
+    "nationalDex": 959
+  },
+  {
+    "available": true,
+    "id": "species-964",
+    "identity": true,
+    "name": "Palafin",
+    "nationalDex": 964
+  },
+  {
+    "available": true,
+    "id": "species-968",
+    "identity": true,
+    "name": "Orthworm",
+    "nationalDex": 968
+  },
+  {
+    "available": true,
+    "id": "species-970",
+    "identity": true,
+    "name": "Glimmora",
+    "nationalDex": 970
+  },
+  {
+    "available": true,
+    "id": "species-972",
+    "identity": true,
+    "name": "Houndstone",
+    "nationalDex": 972
+  },
+  {
+    "available": true,
+    "id": "species-979",
+    "identity": true,
+    "name": "Annihilape",
+    "nationalDex": 979
+  },
+  {
+    "available": true,
+    "id": "species-981",
+    "identity": true,
+    "name": "Farigiraf",
+    "nationalDex": 981
+  },
+  {
+    "available": true,
+    "id": "species-983",
+    "identity": true,
+    "name": "Kingambit",
+    "nationalDex": 983
+  },
+  {
+    "available": true,
+    "id": "species-998",
+    "identity": true,
+    "name": "Baxcalibur",
+    "nationalDex": 998
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "available": true,
+    "id": "bad-poison",
+    "identity": true,
+    "name": "Grav. envenenado",
+    "rule": {
+      "firstTurnDamageFraction": [
+        1,
+        16
+      ],
+      "incrementPerTurn": [
+        1,
+        16
+      ],
+      "resetOnSwitch": true
+    }
+  },
+  {
+    "available": true,
+    "id": "burning",
+    "identity": true,
+    "name": "Quemado",
+    "rule": {
+      "endTurnDamageFraction": [
+        1,
+        16
+      ],
+      "physicalDamageMultiplier": 0.5
+    }
+  },
+  {
+    "available": true,
+    "id": "freezing",
+    "identity": true,
+    "name": "Congelado",
+    "rule": {
+      "forcedThawTurn": 3,
+      "thawProbability": 0.25,
+      "trigger": "attempt-move"
+    }
+  },
+  {
+    "available": true,
+    "id": "paralysis",
+    "identity": true,
+    "name": "Paralizado",
+    "rule": {
+      "failureProbability": 0.125,
+      "speedMultiplier": 0.5
+    }
+  },
+  {
+    "available": true,
+    "id": "poison",
+    "identity": true,
+    "name": "Envenenado",
+    "rule": {
+      "endTurnDamageFraction": [
+        1,
+        8
+      ]
+    }
+  },
+  {
+    "available": true,
+    "id": "sleep",
+    "identity": true,
+    "name": "Dormido",
+    "rule": {
+      "firstTurnAsleep": true,
+      "forcedWakeTurn": 3,
+      "restWakeTurn": 3,
+      "secondTurnWakeChanceDisplayedPercent": 33
+    }
+  }
+]

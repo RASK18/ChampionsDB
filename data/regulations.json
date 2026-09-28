@@ -1,0 +1,21 @@
+[
+  {
+    "available": true,
+    "id": "m-c",
+    "identity": true,
+    "name": "Reglamento M-C",
+    "rules": {
+      "playerTimeSeconds": 420,
+      "teamPreviewSeconds": 90,
+      "turnTimeSeconds": 45
+    },
+    "validFrom": {
+      "date": "2026-09-09",
+      "precision": "day"
+    },
+    "validUntil": {
+      "date": "2026-12-02",
+      "precision": "day"
+    }
+  }
+]

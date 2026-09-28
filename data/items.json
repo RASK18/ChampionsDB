@@ -1,0 +1,1714 @@
+[
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Elimina la parálisis del portador. Puede usarse una vez por combate.",
+    "id": "item-149",
+    "identity": true,
+    "name": "Baya Zreza"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Elimina el sueño del portador. Puede usarse una vez por combate.",
+    "id": "item-150",
+    "identity": true,
+    "name": "Baya Atania"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Elimina el envenenamiento y el envenenamiento grave del portador. Puede usarse una vez por combate.",
+    "id": "item-151",
+    "identity": true,
+    "name": "Baya Meloc"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Elimina las quemaduras del portador. Puede usarse una vez por combate.",
+    "id": "item-152",
+    "identity": true,
+    "name": "Baya Safre"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Elimina la congelación del portador. Puede usarse una vez por combate.",
+    "id": "item-153",
+    "identity": true,
+    "name": "Baya Perasi"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Restaura 10 PP de un movimiento del portador al que no le quedan PP. Puede usarse una vez por combate.",
+    "id": "item-154",
+    "identity": true,
+    "name": "Baya Zanama"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Restaura 10 PS del portador cuando sus PS máximos se ven reducidos a la mitad o menos. Puede usarse una vez por combate.",
+    "id": "item-155",
+    "identity": true,
+    "name": "Baya Aranja"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Elimina la confusión del portador. Puede usarse una vez por combate.",
+    "id": "item-156",
+    "identity": true,
+    "name": "Baya Caquic"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Elimina todos los problemas de estado y la confusión del portador. Puede usarse una vez por combate.",
+    "id": "item-157",
+    "identity": true,
+    "name": "Baya Ziuela"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Restaura 1/4 de los PS máximos del portador cuando se ven reducidos a la mitad o menos. Puede usarse una vez por combate.",
+    "id": "item-158",
+    "identity": true,
+    "name": "Baya Zidra"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Fuego que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-184",
+    "identity": true,
+    "name": "Baya Caoca"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Agua que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-185",
+    "identity": true,
+    "name": "Baya Pasio"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Eléctrico que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-186",
+    "identity": true,
+    "name": "Baya Gualot"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Planta que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-187",
+    "identity": true,
+    "name": "Baya Tamar"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Hielo que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-188",
+    "identity": true,
+    "name": "Baya Rimoya"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Lucha que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-189",
+    "identity": true,
+    "name": "Baya Pomaro"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Veneno que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-190",
+    "identity": true,
+    "name": "Baya Kebia"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Tierra que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-191",
+    "identity": true,
+    "name": "Baya Acardo"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Volador que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-192",
+    "identity": true,
+    "name": "Baya Kouba"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Psíquico que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-193",
+    "identity": true,
+    "name": "Baya Payapa"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Bicho que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-194",
+    "identity": true,
+    "name": "Baya Yecana"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Roca que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-195",
+    "identity": true,
+    "name": "Baya Alcho"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Fantasma que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-196",
+    "identity": true,
+    "name": "Baya Drasi"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Dragón que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-197",
+    "identity": true,
+    "name": "Baya Anjiro"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Siniestro que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-198",
+    "identity": true,
+    "name": "Baya Dillo"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Acero que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-199",
+    "identity": true,
+    "name": "Baya Baribá"
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque de tipo Normal que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-200",
+    "identity": true,
+    "name": "Baya Chilan"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Reduce un 10 % la precisión de los movimientos que el rival usa contra el portador.",
+    "id": "item-213",
+    "identity": true,
+    "name": "Polvo Brillo"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Restaura las características del portador que se hayan visto reducidas. Puede usarse una vez por combate.",
+    "id": "item-214",
+    "identity": true,
+    "name": "Hierba Blanca"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Hace que el portador tenga una probabilidad del 20 % de actuar primero cuando su movimiento tiene la misma prioridad que otros.",
+    "id": "item-217",
+    "identity": true,
+    "name": "Garra Rápida"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Elimina los estados Enamorado, Mofa, Repetición anulada, Movimiento anulado, Cura anulada y Otra Vez del portador. Puede usarse una vez por combate.",
+    "id": "item-219",
+    "identity": true,
+    "name": "Hierba Mental"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Hace que el portador tenga una probabilidad del 10 % de amedrentar al objetivo al infligirle daño con un movimiento.",
+    "id": "item-221",
+    "identity": true,
+    "name": "Roca del Rey"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Bicho del portador.",
+    "id": "item-222",
+    "identity": true,
+    "name": "Polvo Plata"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Hace que el portador tenga una probabilidad del 10 % de aguantar con 1 PS un movimiento que lo debilitaría.",
+    "id": "item-230",
+    "identity": true,
+    "name": "Cinta Aguante"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un nivel la probabilidad de asestar golpes críticos del portador.",
+    "id": "item-232",
+    "identity": true,
+    "name": "Periscopio"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Acero del portador.",
+    "id": "item-233",
+    "identity": true,
+    "name": "Revest. Metálico"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Restauran 1/16 de los PS máximos del portador al final de cada turno.",
+    "id": "item-234",
+    "identity": true,
+    "name": "Restos"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Si la lleva Pikachu, le duplica el Ataque y el Ataque Especial.",
+    "id": "item-236",
+    "identity": true,
+    "name": "Bola Luminosa"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Tierra del portador.",
+    "id": "item-237",
+    "identity": true,
+    "name": "Arena Fina"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Roca del portador.",
+    "id": "item-238",
+    "identity": true,
+    "name": "Piedra Dura"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Planta del portador.",
+    "id": "item-239",
+    "identity": true,
+    "name": "Semilla Milagro"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumentan un 20 % la potencia de los movimientos de tipo Siniestro del portador.",
+    "id": "item-240",
+    "identity": true,
+    "name": "Gafas de Sol"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Hada del portador.",
+    "id": "item-2401",
+    "identity": true,
+    "name": "Pluma Feérica"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Lucha del portador.",
+    "id": "item-241",
+    "identity": true,
+    "name": "Cinturón Negro"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Eléctrico del portador.",
+    "id": "item-242",
+    "identity": true,
+    "name": "Imán"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Agua del portador.",
+    "id": "item-243",
+    "identity": true,
+    "name": "Agua Mística"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Volador del portador.",
+    "id": "item-244",
+    "identity": true,
+    "name": "Pico Afilado"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Veneno del portador.",
+    "id": "item-245",
+    "identity": true,
+    "name": "Flecha Venenosa"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Hielo del portador.",
+    "id": "item-246",
+    "identity": true,
+    "name": "Hielo Perpetuo"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Fantasma del portador.",
+    "id": "item-247",
+    "identity": true,
+    "name": "Hechizo"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Psíquico del portador.",
+    "id": "item-248",
+    "identity": true,
+    "name": "Cuchara Torcida"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Fuego del portador.",
+    "id": "item-249",
+    "identity": true,
+    "name": "Carbón"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Dragón del portador.",
+    "id": "item-250",
+    "identity": true,
+    "name": "Colmillo de Dragón"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos de tipo Normal del portador.",
+    "id": "item-251",
+    "identity": true,
+    "name": "Pañuelo de Seda"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Hace que el portador recupere una cantidad de PS equivalente a 1/8 del daño que inflija con un movimiento.",
+    "id": "item-253",
+    "identity": true,
+    "name": "Cascabel Concha"
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Clefable, le permite megaevolucionar.",
+    "id": "item-2559",
+    "identity": true,
+    "name": "Clefablita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0036000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Victreebel, le permite megaevolucionar.",
+    "id": "item-2560",
+    "identity": true,
+    "name": "Victreebelita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0071000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Starmie, le permite megaevolucionar.",
+    "id": "item-2561",
+    "identity": true,
+    "name": "Starmita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0121000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Dragonite, le permite megaevolucionar.",
+    "id": "item-2562",
+    "identity": true,
+    "name": "Dragonitita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0149000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Meganium, le permite megaevolucionar.",
+    "id": "item-2563",
+    "identity": true,
+    "name": "Meganiumita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0154000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Feraligatr, le permite megaevolucionar.",
+    "id": "item-2564",
+    "identity": true,
+    "name": "Feraligatrita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0160000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Skarmory, le permite megaevolucionar.",
+    "id": "item-2565",
+    "identity": true,
+    "name": "Skarmorita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0227000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Froslass, le permite megaevolucionar.",
+    "id": "item-2566",
+    "identity": true,
+    "name": "Froslassita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0478000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Emboar, le permite megaevolucionar.",
+    "id": "item-2569",
+    "identity": true,
+    "name": "Emboarita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0500000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Excadrill, le permite megaevolucionar.",
+    "id": "item-2570",
+    "identity": true,
+    "name": "Excadrillita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0530000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Eelektross, le permite megaevolucionar.",
+    "id": "item-2573",
+    "identity": true,
+    "name": "Eelektrossita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0604000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Chandelure, le permite megaevolucionar.",
+    "id": "item-2574",
+    "identity": true,
+    "name": "Chandelurita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0609000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Chesnaught, le permite megaevolucionar.",
+    "id": "item-2575",
+    "identity": true,
+    "name": "Chesnaughtita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0652000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Delphox, le permite megaevolucionar.",
+    "id": "item-2576",
+    "identity": true,
+    "name": "Delphoxita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0655000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Greninja, le permite megaevolucionar.",
+    "id": "item-2577",
+    "identity": true,
+    "name": "Greninjanita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0658000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Pyroar, le permite megaevolucionar.",
+    "id": "item-2578",
+    "identity": true,
+    "name": "Pyroarita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0668000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Floette Flor Eterna, le permite megaevolucionar.",
+    "id": "item-2579",
+    "identity": true,
+    "name": "Floettita"
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Malamar, le permite megaevolucionar.",
+    "id": "item-2580",
+    "identity": true,
+    "name": "Malamarita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0687000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Dragalge, le permite megaevolucionar.",
+    "id": "item-2582",
+    "identity": true,
+    "name": "Dragalgita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0691000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Hawlucha, le permite megaevolucionar.",
+    "id": "item-2583",
+    "identity": true,
+    "name": "Hawluchanita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0701000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Drampa, le permite megaevolucionar.",
+    "id": "item-2585",
+    "identity": true,
+    "name": "Drampanita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0780000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Falinks, le permite megaevolucionar.",
+    "id": "item-2587",
+    "identity": true,
+    "name": "Falinksita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0870000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "id": "item-259",
+    "identity": true,
+    "name": "Puerro"
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Raichu, le permite megaevolucionar a Mega-Raichu X. No tiene efecto en el Raichu de Alola.",
+    "id": "item-2635",
+    "identity": true,
+    "name": "Raichunita X",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0026000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Raichu, le permite megaevolucionar a Mega-Raichu Y. No tiene efecto en el Raichu de Alola.",
+    "id": "item-2636",
+    "identity": true,
+    "name": "Raichunita Y",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0026000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Chimecho, le permite megaevolucionar.",
+    "id": "item-2637",
+    "identity": true,
+    "name": "Chimechita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0358000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "id": "item-2638",
+    "identity": true,
+    "name": "Absolita Z",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0359000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "id": "item-2640",
+    "identity": true,
+    "name": "Garchompita Z",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0445000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "id": "item-2641",
+    "identity": true,
+    "name": "Lucarita Z",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0448000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Golurk, le permite megaevolucionar.",
+    "id": "item-2642",
+    "identity": true,
+    "name": "Golurkita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0623000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Meowstic, le permite megaevolucionar.",
+    "id": "item-2643",
+    "identity": true,
+    "name": "Meowsticita"
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Crabominable, le permite megaevolucionar.",
+    "id": "item-2644",
+    "identity": true,
+    "name": "Crabominablita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0740000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "description": "Si la lleva Golisopod, le permite megaevolucionar.",
+    "id": "item-2645",
+    "identity": true,
+    "name": "Golisopodita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0768000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Scovillain, le permite megaevolucionar.",
+    "id": "item-2647",
+    "identity": true,
+    "name": "Scovillainita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0952000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "description": "Si la lleva Baxcalibur, le permite megaevolucionar.",
+    "id": "item-2648",
+    "identity": true,
+    "name": "Baxcaliburita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0998000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 10 % la precisión de los movimientos del portador.",
+    "id": "item-265",
+    "identity": true,
+    "name": "Lupa"
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Glimmora, le permite megaevolucionar.",
+    "id": "item-2650",
+    "identity": true,
+    "name": "Glimmoranita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0970000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 10 % la potencia de los ataques físicos del portador.",
+    "id": "item-266",
+    "identity": true,
+    "name": "Cinta Fuerte"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumentan un 10 % la potencia de los ataques especiales del portador.",
+    "id": "item-267",
+    "identity": true,
+    "name": "Gafas Especiales"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 20 % la potencia de los movimientos supereficaces del portador.",
+    "id": "item-268",
+    "identity": true,
+    "name": "Cinturón de Experto"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Prolonga tres turnos la duración de Pantalla de Luz, Reflejo o Velo Aurora del portador, haciendo que duren ocho turnos en total.",
+    "id": "item-269",
+    "identity": true,
+    "name": "Refleluz"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 30 % la potencia de los movimientos del portador, pero hace que pierda 1/10 de sus PS máximos cada vez que un ataque alcanza a su objetivo.",
+    "id": "item-270",
+    "identity": true,
+    "name": "Vidasfera"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Si el portador tiene los PS al máximo, aguanta con 1 PS un movimiento que lo debilitaría de un golpe. Puede usarse una vez por combate.",
+    "id": "item-275",
+    "identity": true,
+    "name": "Banda Aguante"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "id": "item-276",
+    "identity": true,
+    "name": "Telescopio"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Potencia un movimiento que el portador use de forma consecutiva. Aumenta un 20 % adicional la potencia original del movimiento cada vez que se usa, hasta un máximo de un 100 %. El efecto se pierde si se usa otro movimiento.",
+    "id": "item-277",
+    "identity": true,
+    "name": "Metrónomo"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Reduce a la mitad la Velocidad del portador. Si no está en contacto con el suelo, pasará a estarlo y le afectarán los movimientos de tipo Tierra y los estados Púas, Púas tóxicas y Red Viscosa.",
+    "id": "item-278",
+    "identity": true,
+    "name": "Bola Férrea"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Prolonga tres turnos la duración de las nevadas provocadas por los movimientos o la habilidad del portador, haciendo que duren ocho turnos en total.",
+    "id": "item-282",
+    "identity": true,
+    "name": "Roca Helada"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Prolonga tres turnos la duración de las tormentas de arena provocadas por los movimientos o la habilidad del portador, haciendo que duren ocho turnos en total.",
+    "id": "item-283",
+    "identity": true,
+    "name": "Roca Suave"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Prolonga tres turnos la duración del tiempo soleado provocado por los movimientos o la habilidad del portador, haciendo que dure ocho turnos en total.",
+    "id": "item-284",
+    "identity": true,
+    "name": "Roca Calor"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Prolonga tres turnos la duración de la lluvia provocada por los movimientos o la habilidad del portador, haciendo que dure ocho turnos en total.",
+    "id": "item-285",
+    "identity": true,
+    "name": "Roca Lluvia"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 50 % la Velocidad del portador, pero, una vez que haya utilizado un movimiento, solo podrá usar el mismo hasta que sea cambiado por otro Pokémon.",
+    "id": "item-287",
+    "identity": true,
+    "name": "Pañuelo Elección"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Permite que el portador pueda cambiarse por otro Pokémon aunque haya efectos que lo impidan.",
+    "id": "item-295",
+    "identity": true,
+    "name": "Muda Concha"
+  },
+  {
+    "available": true,
+    "category": "held-item",
+    "description": "Hace que el portador recupere un 30 % más de PS al usar movimientos que drenan PS, tales como Absorbefuerza o Arraigo.",
+    "id": "item-296",
+    "identity": true,
+    "name": "Raíz Grande"
+  },
+  {
+    "available": true,
+    "id": "item-540",
+    "identity": true,
+    "name": "Casco Dentado"
+  },
+  {
+    "available": true,
+    "id": "item-541",
+    "identity": true,
+    "name": "Globo Helio"
+  },
+  {
+    "available": true,
+    "id": "item-542",
+    "identity": true,
+    "name": "Tarjeta Roja"
+  },
+  {
+    "available": true,
+    "id": "item-544",
+    "identity": true,
+    "name": "Banda Atadura"
+  },
+  {
+    "available": true,
+    "id": "item-547",
+    "identity": true,
+    "name": "Botón Escape"
+  },
+  {
+    "available": true,
+    "id": "item-564",
+    "identity": true,
+    "name": "Gema Normal"
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Gengar, le permite megaevolucionar.",
+    "id": "item-656",
+    "identity": true,
+    "name": "Gengarita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0094000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Gardevoir, le permite megaevolucionar.",
+    "id": "item-657",
+    "identity": true,
+    "name": "Gardevoirita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0282000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Ampharos, le permite megaevolucionar.",
+    "id": "item-658",
+    "identity": true,
+    "name": "Ampharosita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0181000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Venusaur, le permite megaevolucionar.",
+    "id": "item-659",
+    "identity": true,
+    "name": "Venusaurita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0003000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Charizard, le permite megaevolucionar a Mega-Charizard X.",
+    "id": "item-660",
+    "identity": true,
+    "name": "Charizardita X",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0006000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Blastoise, le permite megaevolucionar.",
+    "id": "item-661",
+    "identity": true,
+    "name": "Blastoisita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0009000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Blaziken, le permite megaevolucionar.",
+    "id": "item-664",
+    "identity": true,
+    "name": "Blazikenita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0257000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Medicham, le permite megaevolucionar.",
+    "id": "item-665",
+    "identity": true,
+    "name": "Medichamita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0308000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Houndoom, le permite megaevolucionar.",
+    "id": "item-666",
+    "identity": true,
+    "name": "Houndoomita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0229000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Aggron, le permite megaevolucionar.",
+    "id": "item-667",
+    "identity": true,
+    "name": "Aggronita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0306000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Banette, le permite megaevolucionar.",
+    "id": "item-668",
+    "identity": true,
+    "name": "Banettita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0354000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Tyranitar, le permite megaevolucionar.",
+    "id": "item-669",
+    "identity": true,
+    "name": "Tyranitarita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0248000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Scizor, le permite megaevolucionar.",
+    "id": "item-670",
+    "identity": true,
+    "name": "Scizorita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0212000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Pinsir, le permite megaevolucionar.",
+    "id": "item-671",
+    "identity": true,
+    "name": "Pinsirita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0127000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Aerodactyl, le permite megaevolucionar.",
+    "id": "item-672",
+    "identity": true,
+    "name": "Aerodactylita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0142000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Lucario, le permite megaevolucionar.",
+    "id": "item-673",
+    "identity": true,
+    "name": "Lucarita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0448000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Abomasnow, le permite megaevolucionar.",
+    "id": "item-674",
+    "identity": true,
+    "name": "Abomasnowita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0460000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Kangaskhan, le permite megaevolucionar.",
+    "id": "item-675",
+    "identity": true,
+    "name": "Kangaskhanita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0115000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Gyarados, le permite megaevolucionar.",
+    "id": "item-676",
+    "identity": true,
+    "name": "Gyaradosita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0130000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Absol, le permite megaevolucionar.",
+    "id": "item-677",
+    "identity": true,
+    "name": "Absolita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0359000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Charizard, le permite megaevolucionar a Mega-Charizard Y.",
+    "id": "item-678",
+    "identity": true,
+    "name": "Charizardita Y",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0006000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Alakazam, le permite megaevolucionar.",
+    "id": "item-679",
+    "identity": true,
+    "name": "Alakazamita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0065000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Heracross, le permite megaevolucionar.",
+    "id": "item-680",
+    "identity": true,
+    "name": "Heracrossita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0214000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Mawile, le permite megaevolucionar.",
+    "id": "item-681",
+    "identity": true,
+    "name": "Mawilita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0303000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Manectric, le permite megaevolucionar.",
+    "id": "item-682",
+    "identity": true,
+    "name": "Manectricita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0310000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Garchomp, le permite megaevolucionar.",
+    "id": "item-683",
+    "identity": true,
+    "name": "Garchompita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0445000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "berry",
+    "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Hada que el portador reciba. Puede usarse una vez por combate.",
+    "id": "item-686",
+    "identity": true,
+    "name": "Baya Hibis"
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Swampert, le permite megaevolucionar.",
+    "id": "item-752",
+    "identity": true,
+    "name": "Swampertita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0260000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Sceptile, le permite megaevolucionar.",
+    "id": "item-753",
+    "identity": true,
+    "name": "Sceptilita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0254000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Sableye, le permite megaevolucionar.",
+    "id": "item-754",
+    "identity": true,
+    "name": "Sableynita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0302000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Altaria, le permite megaevolucionar.",
+    "id": "item-755",
+    "identity": true,
+    "name": "Altarianita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0334000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Gallade, le permite megaevolucionar.",
+    "id": "item-756",
+    "identity": true,
+    "name": "Galladita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0475000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Audino, le permite megaevolucionar.",
+    "id": "item-757",
+    "identity": true,
+    "name": "Audinita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0531000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Metagross, le permite megaevolucionar.",
+    "id": "item-758",
+    "identity": true,
+    "name": "Metagrossita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0376000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Sharpedo, le permite megaevolucionar.",
+    "id": "item-759",
+    "identity": true,
+    "name": "Sharpedonita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0319000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Slowbro, le permite megaevolucionar. No tiene efecto en el Slowbro de Galar.",
+    "id": "item-760",
+    "identity": true,
+    "name": "Slowbronita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0080000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Steelix, le permite megaevolucionar.",
+    "id": "item-761",
+    "identity": true,
+    "name": "Steelixita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0208000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Pidgeot, le permite megaevolucionar.",
+    "id": "item-762",
+    "identity": true,
+    "name": "Pidgeotita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0018000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Glalie, le permite megaevolucionar.",
+    "id": "item-763",
+    "identity": true,
+    "name": "Glalita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0362000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Camerupt, le permite megaevolucionar.",
+    "id": "item-767",
+    "identity": true,
+    "name": "Cameruptita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0323000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Lopunny, le permite megaevolucionar.",
+    "id": "item-768",
+    "identity": true,
+    "name": "Lopunnita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0428000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "description": "Si la lleva Salamence, le permite megaevolucionar.",
+    "id": "item-769",
+    "identity": true,
+    "name": "Salamencita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0373000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Beedrill, le permite megaevolucionar.",
+    "id": "item-770",
+    "identity": true,
+    "name": "Beedrillita",
+    "restrictions": [
+      {
+        "pokemonId": "pokemon-0015000",
+        "predicate": "form-is"
+      }
+    ]
+  },
+  {
+    "available": true,
+    "id": "item-879",
+    "identity": true,
+    "name": "Cubresuelos"
+  },
+  {
+    "available": true,
+    "id": "item-881",
+    "identity": true,
+    "name": "Semilla Electro"
+  },
+  {
+    "available": true,
+    "id": "item-882",
+    "identity": true,
+    "name": "Semilla Psique"
+  },
+  {
+    "available": true,
+    "id": "item-883",
+    "identity": true,
+    "name": "Semilla Bruma"
+  },
+  {
+    "available": true,
+    "id": "item-884",
+    "identity": true,
+    "name": "Semilla Hierba"
+  }
+]

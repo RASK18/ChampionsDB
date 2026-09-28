@@ -1,0 +1,1485 @@
+[
+  {
+    "available": true,
+    "description": "Hace que el Pokémon tenga una probabilidad del 10 % de amedrentar al objetivo al infligirle daño con un movimiento.",
+    "id": "ability-001",
+    "identity": true,
+    "name": "Hedor"
+  },
+  {
+    "available": true,
+    "description": "Hace que llueva durante cinco turnos cuando el Pokémon entra en combate.",
+    "id": "ability-002",
+    "identity": true,
+    "name": "Llovizna"
+  },
+  {
+    "available": true,
+    "id": "ability-003",
+    "identity": true,
+    "name": "Impulso"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon reciba golpes críticos.",
+    "id": "ability-004",
+    "identity": true,
+    "name": "Armadura Batalla"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon tiene los PS al máximo, aguanta con 1 PS un movimiento que lo debilitaría de un golpe. Además, no le afectan los movimientos fulminantes.",
+    "id": "ability-005",
+    "identity": true,
+    "name": "Robustez"
+  },
+  {
+    "available": true,
+    "description": "Evita que se puedan utilizar movimientos explosivos y que se activen las habilidades explosivas. Afecta a todos los Pokémon.",
+    "id": "ability-006",
+    "identity": true,
+    "name": "Humedad"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon pueda ser paralizado.",
+    "id": "ability-007",
+    "identity": true,
+    "name": "Flexibilidad"
+  },
+  {
+    "available": true,
+    "id": "ability-008",
+    "identity": true,
+    "name": "Velo Arena"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 30 % de paralizar al atacante si el Pokémon es alcanzado por un movimiento de contacto.",
+    "id": "ability-009",
+    "identity": true,
+    "name": "Electricidad Estática"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de tipo Eléctrico y restaura 1/4 de sus PS máximos si recibe uno.",
+    "id": "ability-010",
+    "identity": true,
+    "name": "Absorbe Electricidad"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de tipo Agua y restaura 1/4 de sus PS máximos si recibe uno.",
+    "id": "ability-011",
+    "identity": true,
+    "name": "Absorbe Agua"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon adquiera los estados Enamorado y Mofa y que se sienta intimidado.",
+    "id": "ability-012",
+    "identity": true,
+    "name": "Despiste"
+  },
+  {
+    "available": true,
+    "description": "Anula todos los efectos del tiempo atmosférico.",
+    "id": "ability-013",
+    "identity": true,
+    "name": "Aclimatación"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 30 % la precisión de los movimientos del Pokémon.",
+    "id": "ability-014",
+    "identity": true,
+    "name": "Ojo Compuesto"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon pueda quedarse dormido o somnoliento.",
+    "id": "ability-015",
+    "identity": true,
+    "name": "Insomnio"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon pueda ser envenenado o gravemente envenenado.",
+    "id": "ability-017",
+    "identity": true,
+    "name": "Inmunidad"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de tipo Fuego y le provoca el estado Absorbe Fuego si recibe uno.",
+    "id": "ability-018",
+    "identity": true,
+    "name": "Absorbe Fuego"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los efectos secundarios de los ataques.",
+    "id": "ability-019",
+    "identity": true,
+    "name": "Polvo Escudo"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon pueda ser confundido o se sienta intimidado.",
+    "id": "ability-020",
+    "identity": true,
+    "name": "Ritmo Propio"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos y objetos de otros Pokémon que fuerzan el cambio.",
+    "id": "ability-021",
+    "identity": true,
+    "name": "Ventosas"
+  },
+  {
+    "available": true,
+    "description": "Reduce un nivel el Ataque del rival cuando el Pokémon entra en combate.",
+    "id": "ability-022",
+    "identity": true,
+    "name": "Intimidación"
+  },
+  {
+    "available": true,
+    "description": "Impide que el rival sea cambiado por otro Pokémon.",
+    "id": "ability-023",
+    "identity": true,
+    "name": "Sombra Trampa"
+  },
+  {
+    "available": true,
+    "description": "Hace que el atacante pierda 1/8 de sus PS máximos si el Pokémon es alcanzado por un movimiento de contacto.",
+    "id": "ability-024",
+    "identity": true,
+    "name": "Piel Tosca"
+  },
+  {
+    "available": true,
+    "description": "Hace que el Pokémon flote y deje de estar en contacto con el suelo, lo que impide que le afecten los movimientos de tipo Tierra y los estados Púas, Púas tóxicas y Red Viscosa.",
+    "id": "ability-026",
+    "identity": true,
+    "name": "Levitación"
+  },
+  {
+    "available": true,
+    "id": "ability-027",
+    "identity": true,
+    "name": "Efecto Espora"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon resulta quemado, envenenado, gravemente envenenado o paralizado por un movimiento o la habilidad de otro Pokémon, le provoca el mismo problema de estado.",
+    "id": "ability-028",
+    "identity": true,
+    "name": "Sincronía"
+  },
+  {
+    "available": true,
+    "description": "Evita que los movimientos o la habilidad de otros Pokémon reduzcan las características del Pokémon.",
+    "id": "ability-029",
+    "identity": true,
+    "name": "Cuerpo Puro"
+  },
+  {
+    "available": true,
+    "description": "Elimina los problemas de estado del Pokémon cuando se retira del combate.",
+    "id": "ability-030",
+    "identity": true,
+    "name": "Cura Natural"
+  },
+  {
+    "available": true,
+    "description": "Atrae hacia el Pokémon los movimientos de tipo Eléctrico y lo hace inmune a ellos. Además, aumenta un nivel su Ataque Especial si recibe uno.",
+    "id": "ability-031",
+    "identity": true,
+    "name": "Pararrayos"
+  },
+  {
+    "available": true,
+    "description": "Duplica la Velocidad del Pokémon cuando llueve.",
+    "id": "ability-033",
+    "identity": true,
+    "name": "Nado Rápido"
+  },
+  {
+    "available": true,
+    "description": "Duplica la Velocidad del Pokémon cuando hace sol.",
+    "id": "ability-034",
+    "identity": true,
+    "name": "Clorofila"
+  },
+  {
+    "available": true,
+    "description": "Evita que la Precisión del Pokémon pueda verse reducida e ignora los cambios en la Evasión del objetivo.",
+    "id": "ability-035",
+    "identity": true,
+    "name": "Iluminación"
+  },
+  {
+    "available": true,
+    "description": "Sustituye la habilidad del Pokémon por la de un rival cuando entra en combate.",
+    "id": "ability-036",
+    "identity": true,
+    "name": "Calco"
+  },
+  {
+    "available": true,
+    "description": "Duplica la potencia de los ataques físicos del Pokémon.",
+    "id": "ability-037",
+    "identity": true,
+    "name": "Potencia"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 30 % de envenenar al atacante si el Pokémon es alcanzado por un movimiento de contacto.",
+    "id": "ability-038",
+    "identity": true,
+    "name": "Punto Tóxico"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon se amedrente ante los ataques de otros Pokémon y que se sienta intimidado.",
+    "id": "ability-039",
+    "identity": true,
+    "name": "Fuerza Mental"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon pueda ser congelado.",
+    "id": "ability-040",
+    "identity": true,
+    "name": "Escudo Magma"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos que usan sonido.",
+    "id": "ability-043",
+    "identity": true,
+    "name": "Insonorizar"
+  },
+  {
+    "available": true,
+    "description": "Restaura 1/16 de los PS máximos del Pokémon al final de cada turno cuando llueve.",
+    "id": "ability-044",
+    "identity": true,
+    "name": "Cura Lluvia"
+  },
+  {
+    "available": true,
+    "description": "Provoca una tormenta de arena que dura cinco turnos cuando el Pokémon entra en combate.",
+    "id": "ability-045",
+    "identity": true,
+    "name": "Chorro Arena"
+  },
+  {
+    "available": true,
+    "description": "Hace que los movimientos que el rival use contra el Pokémon consuman 1 PP más.",
+    "id": "ability-046",
+    "identity": true,
+    "name": "Presión"
+  },
+  {
+    "available": true,
+    "description": "Reduce a la mitad el daño que el Pokémon recibe de movimientos de tipo Fuego o Hielo.",
+    "id": "ability-047",
+    "identity": true,
+    "name": "Sebo"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon se duerme, tardará la mitad de tiempo en despertarse.",
+    "id": "ability-048",
+    "identity": true,
+    "name": "Madrugar"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 30 % de quemar al atacante si el Pokémon es alcanzado por un movimiento de contacto.",
+    "id": "ability-049",
+    "identity": true,
+    "name": "Cuerpo Llama"
+  },
+  {
+    "available": true,
+    "id": "ability-050",
+    "identity": true,
+    "name": "Fuga"
+  },
+  {
+    "available": true,
+    "description": "Evita que la Precisión del Pokémon pueda verse reducida e ignora los cambios en la Evasión del objetivo.",
+    "id": "ability-051",
+    "identity": true,
+    "name": "Vista Lince"
+  },
+  {
+    "available": true,
+    "description": "Evita que los movimientos o la habilidad de otros Pokémon reduzcan el Ataque del Pokémon.",
+    "id": "ability-052",
+    "identity": true,
+    "name": "Corte Fuerte"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon no lleva un objeto, recoge al final del turno el que otro Pokémon haya consumido.",
+    "id": "ability-053",
+    "identity": true,
+    "name": "Recogida"
+  },
+  {
+    "available": true,
+    "description": "Cuando el Pokémon usa un ataque físico, aumenta un 50 % su Ataque, pero reduce un 20 % su Precisión.",
+    "id": "ability-055",
+    "identity": true,
+    "name": "Entusiasmo"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 30 % de enamorar al atacante si el Pokémon es alcanzado por un movimiento de contacto. Solo tiene efecto si el atacante es del sexo opuesto al del Pokémon.",
+    "id": "ability-056",
+    "identity": true,
+    "name": "Gran Encanto"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % el Ataque Especial del Pokémon si un aliado presente en combate tiene la habilidad Más o la habilidad Menos.",
+    "id": "ability-057",
+    "identity": true,
+    "name": "Más"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % el Ataque Especial del Pokémon si un aliado presente en combate tiene la habilidad Más o la habilidad Menos.",
+    "id": "ability-058",
+    "identity": true,
+    "name": "Menos"
+  },
+  {
+    "available": true,
+    "description": "Cambia el tipo del Pokémon al tipo Agua, Fuego o Hielo en función del tiempo atmosférico.",
+    "id": "ability-059",
+    "identity": true,
+    "name": "Predicción"
+  },
+  {
+    "available": true,
+    "description": "Impide que el objeto que lleva el Pokémon pueda ser robado o se pierda.",
+    "id": "ability-060",
+    "identity": true,
+    "name": "Viscosidad"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 30 % de eliminar los problemas de estado del Pokémon al final de cada turno.",
+    "id": "ability-061",
+    "identity": true,
+    "name": "Mudar"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % el Ataque del Pokémon si sufre un problema de estado. Ignora la reducción a la mitad del daño que infligen los ataques físicos provocada por las quemaduras.",
+    "id": "ability-062",
+    "identity": true,
+    "name": "Agallas"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la Defensa del Pokémon si sufre un problema de estado.",
+    "id": "ability-063",
+    "identity": true,
+    "name": "Escama Especial"
+  },
+  {
+    "available": true,
+    "id": "ability-064",
+    "identity": true
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Planta del Pokémon cuando sus PS máximos se ven reducidos a 1/3 o menos.",
+    "id": "ability-065",
+    "identity": true,
+    "name": "Espesura"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Fuego del Pokémon cuando sus PS máximos se ven reducidos a 1/3 o menos.",
+    "id": "ability-066",
+    "identity": true,
+    "name": "Mar Llamas"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Agua del Pokémon cuando sus PS máximos se ven reducidos a 1/3 o menos.",
+    "id": "ability-067",
+    "identity": true,
+    "name": "Torrente"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Bicho del Pokémon cuando sus PS máximos se ven reducidos a 1/3 o menos.",
+    "id": "ability-068",
+    "identity": true,
+    "name": "Enjambre"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon pierda PS al usar movimientos que también hieren al usuario.",
+    "id": "ability-069",
+    "identity": true,
+    "name": "Cabeza Roca"
+  },
+  {
+    "available": true,
+    "description": "Hace que salga el sol durante cinco turnos cuando el Pokémon entra en combate.",
+    "id": "ability-070",
+    "identity": true,
+    "name": "Sequía"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon pueda quedarse dormido o somnoliento.",
+    "id": "ability-072",
+    "identity": true,
+    "name": "Espíritu Vital"
+  },
+  {
+    "available": true,
+    "description": "Evita que los movimientos o la habilidad de otros Pokémon reduzcan las características del Pokémon.",
+    "id": "ability-073",
+    "identity": true,
+    "name": "Humo Blanco"
+  },
+  {
+    "available": true,
+    "description": "Duplica la potencia de los ataques físicos del Pokémon.",
+    "id": "ability-074",
+    "identity": true,
+    "name": "Energía Pura"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon reciba golpes críticos.",
+    "id": "ability-075",
+    "identity": true,
+    "name": "Caparazón"
+  },
+  {
+    "available": true,
+    "description": "Duplica la Evasión del Pokémon si está confuso.",
+    "id": "ability-077",
+    "identity": true,
+    "name": "Tumbos"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de tipo Eléctrico y aumenta un nivel su Velocidad si recibe uno.",
+    "id": "ability-078",
+    "identity": true,
+    "name": "Electromotor"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 25 % la potencia de los movimientos del Pokémon si el objetivo es del mismo sexo o la reduce un 25 % si es del sexo opuesto. Se mantiene igual si se desconoce el sexo del Pokémon o del objetivo.",
+    "id": "ability-079",
+    "identity": true,
+    "name": "Rivalidad"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un nivel la Velocidad del Pokémon cuando se amedrenta.",
+    "id": "ability-080",
+    "identity": true,
+    "name": "Impasible"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 25 % la Evasión del Pokémon cuando nieva.",
+    "id": "ability-081",
+    "identity": true,
+    "name": "Manto Níveo"
+  },
+  {
+    "available": true,
+    "description": "Permite que el Pokémon consuma la baya que lleva cuando sus PS máximos se ven reducidos a la mitad o menos en vez de esperar a que le queden 1/4 o menos.",
+    "id": "ability-082",
+    "identity": true,
+    "name": "Gula"
+  },
+  {
+    "available": true,
+    "description": "Aumenta hasta el sexto nivel el Ataque del Pokémon si recibe un golpe crítico.",
+    "id": "ability-083",
+    "identity": true,
+    "name": "Irascible"
+  },
+  {
+    "available": true,
+    "description": "Duplica la Velocidad del Pokémon si consume o pierde el objeto que lleva.",
+    "id": "ability-084",
+    "identity": true,
+    "name": "Liviano"
+  },
+  {
+    "available": true,
+    "description": "Reduce a la mitad el daño que el Pokémon recibe de movimientos de tipo Fuego y por quemaduras.",
+    "id": "ability-085",
+    "identity": true,
+    "name": "Ignífugo"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de tipo Agua y restaura 1/4 de sus PS máximos si recibe uno, pero aumenta un 25 % el daño que recibe de movimientos de tipo Fuego. Restaura 1/8 de sus PS máximos al final de cada turno cuando llueve, pero resta 1/8 de sus PS máximos al final de cada turno cuando hace sol.",
+    "id": "ability-087",
+    "identity": true,
+    "name": "Piel Seca"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 20 % la potencia de los movimientos con los puños del Pokémon.",
+    "id": "ability-089",
+    "identity": true,
+    "name": "Puño Férreo"
+  },
+  {
+    "available": true,
+    "description": "Restaura 1/8 de los PS máximos del Pokémon al final de cada turno en vez de restárselos si resulta envenenado o gravemente envenenado.",
+    "id": "ability-090",
+    "identity": true,
+    "name": "Antídoto"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 100 % la potencia de los movimientos cuyo tipo coincida con el del Pokémon en vez de un 50 %.",
+    "id": "ability-091",
+    "identity": true,
+    "name": "Adaptable"
+  },
+  {
+    "available": true,
+    "description": "Permite ejecutar siempre los movimientos de ataque múltiple con el número máximo de golpes.",
+    "id": "ability-092",
+    "identity": true,
+    "name": "Encadenado"
+  },
+  {
+    "available": true,
+    "description": "Elimina todos los problemas de estado del Pokémon al final de cada turno cuando llueve.",
+    "id": "ability-093",
+    "identity": true,
+    "name": "Hidratación"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % el Ataque Especial del Pokémon cuando hace sol, pero le hace perder 1/8 de sus PS máximos al final de cada turno.",
+    "id": "ability-094",
+    "identity": true,
+    "name": "Poder Solar"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la Velocidad del Pokémon si sufre un problema de estado. Ignora la reducción de la Velocidad provocada por la parálisis.",
+    "id": "ability-095",
+    "identity": true,
+    "name": "Pies Rápidos"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 125 % la potencia de los golpes críticos del Pokémon en vez de un 50 %.",
+    "id": "ability-097",
+    "identity": true,
+    "name": "Francotirador"
+  },
+  {
+    "available": true,
+    "description": "El Pokémon solo recibe daño de ataques.",
+    "id": "ability-098",
+    "identity": true,
+    "name": "Muro Mágico"
+  },
+  {
+    "available": true,
+    "description": "Los movimientos del Pokémon y los de su atacante tienen una precisión del 100 %.",
+    "id": "ability-099",
+    "identity": true,
+    "name": "Indefenso"
+  },
+  {
+    "available": true,
+    "description": "Hace que el Pokémon actúe el último cuando su movimiento tiene la misma prioridad que otros.",
+    "id": "ability-100",
+    "identity": true,
+    "name": "Rezagado"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos del Pokémon si esta es de 60 o inferior.",
+    "id": "ability-101",
+    "identity": true,
+    "name": "Experto"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los problemas de estado cuando hace sol.",
+    "id": "ability-102",
+    "identity": true,
+    "name": "Defensa Hoja"
+  },
+  {
+    "available": true,
+    "description": "Anula los efectos del objeto que lleva el Pokémon.",
+    "id": "ability-103",
+    "identity": true,
+    "name": "Zoquete"
+  },
+  {
+    "available": true,
+    "description": "Los movimientos del Pokémon no se ven afectados por la habilidad del objetivo, salvo algunas excepciones.",
+    "id": "ability-104",
+    "identity": true,
+    "name": "Rompemoldes"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un nivel la probabilidad de asestar golpes críticos del Pokémon.",
+    "id": "ability-105",
+    "identity": true,
+    "name": "Afortunado"
+  },
+  {
+    "available": true,
+    "description": "Hace que el atacante pierda 1/4 de sus PS máximos si debilita al Pokémon con un movimiento de contacto.",
+    "id": "ability-106",
+    "identity": true,
+    "name": "Detonación"
+  },
+  {
+    "available": true,
+    "description": "Permite prever los movimientos del rival que sean fulminantes o supereficaces contra el Pokémon cuando este entra en combate.",
+    "id": "ability-107",
+    "identity": true,
+    "name": "Anticipación"
+  },
+  {
+    "available": true,
+    "description": "Permite identificar el movimiento más potente del rival cuando el Pokémon entra en combate.",
+    "id": "ability-108",
+    "identity": true,
+    "name": "Alerta"
+  },
+  {
+    "available": true,
+    "description": "Ignora los cambios en las características del objetivo, a excepción de la Velocidad, cuando el Pokémon ataca o recibe daño.",
+    "id": "ability-109",
+    "identity": true,
+    "name": "Ignorante"
+  },
+  {
+    "available": true,
+    "description": "Reduce un 25 % el daño que el Pokémon recibe de movimientos supereficaces.",
+    "id": "ability-111",
+    "identity": true,
+    "name": "Filtro"
+  },
+  {
+    "available": true,
+    "description": "Permite alcanzar a Pokémon de tipo Fantasma con movimientos de tipo Normal o Lucha. Además, evita que el Pokémon se sienta intimidado.",
+    "id": "ability-113",
+    "identity": true,
+    "name": "Intrépido"
+  },
+  {
+    "available": true,
+    "description": "Restaura 1/16 de los PS máximos del Pokémon al final de cada turno cuando nieva.",
+    "id": "ability-115",
+    "identity": true,
+    "name": "Gélido"
+  },
+  {
+    "available": true,
+    "description": "Reduce un 25 % el daño que el Pokémon recibe de movimientos supereficaces.",
+    "id": "ability-116",
+    "identity": true,
+    "name": "Roca Sólida"
+  },
+  {
+    "available": true,
+    "description": "Hace que nieve durante cinco turnos cuando el Pokémon entra en combate.",
+    "id": "ability-117",
+    "identity": true,
+    "name": "Nevada"
+  },
+  {
+    "available": true,
+    "description": "Permite identificar el objeto que lleva el rival cuando el Pokémon entra en combate.",
+    "id": "ability-119",
+    "identity": true,
+    "name": "Cacheo"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 20 % la potencia de los movimientos del Pokémon que también hieren al usuario.",
+    "id": "ability-120",
+    "identity": true,
+    "name": "Audaz"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon no lleva un objeto, roba el del Pokémon que lo ataque con un movimiento de contacto.",
+    "id": "ability-124",
+    "identity": true,
+    "name": "Hurto"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 30 % la potencia de los movimientos del Pokémon, pero anula sus efectos secundarios.",
+    "id": "ability-125",
+    "identity": true,
+    "name": "Potencia Bruta"
+  },
+  {
+    "available": true,
+    "description": "Invierte los cambios en las características que sufra el Pokémon: se reducen en vez de aumentar y aumentan en vez de reducirse.",
+    "id": "ability-126",
+    "identity": true,
+    "name": "Respondón"
+  },
+  {
+    "available": true,
+    "description": "Impide que el rival consuma bayas.",
+    "id": "ability-127",
+    "identity": true,
+    "name": "Nerviosismo"
+  },
+  {
+    "available": true,
+    "description": "Aumenta dos niveles el Ataque del Pokémon cuando el rival le reduce cualquiera de sus características.",
+    "id": "ability-128",
+    "identity": true,
+    "name": "Competitivo"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 30 % de provocar el estado Movimiento anulado en el atacante durante cuatro turnos si el Pokémon recibe daño de un movimiento.",
+    "id": "ability-130",
+    "identity": true,
+    "name": "Cuerpo Maldito"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 50 % de eliminar los problemas de estado de un aliado al final de cada turno.",
+    "id": "ability-131",
+    "identity": true,
+    "name": "Alma Cura"
+  },
+  {
+    "available": true,
+    "description": "Reduce un 25 % el daño que reciben los aliados.",
+    "id": "ability-132",
+    "identity": true,
+    "name": "Compiescolta"
+  },
+  {
+    "available": true,
+    "description": "Reduce un nivel la Defensa del Pokémon y aumenta dos niveles su Velocidad cuando recibe daño de un ataque físico.",
+    "id": "ability-133",
+    "identity": true,
+    "name": "Armadura Frágil"
+  },
+  {
+    "available": true,
+    "description": "Duplica el peso del Pokémon.",
+    "id": "ability-134",
+    "identity": true,
+    "name": "Metal Pesado"
+  },
+  {
+    "available": true,
+    "description": "Reduce a la mitad el peso del Pokémon.",
+    "id": "ability-135",
+    "identity": true,
+    "name": "Metal Liviano"
+  },
+  {
+    "available": true,
+    "description": "Reduce a la mitad el daño que recibe el Pokémon cuando sus PS están al máximo.",
+    "id": "ability-136",
+    "identity": true,
+    "name": "Multiescamas"
+  },
+  {
+    "available": true,
+    "description": "Tras consumir una baya, el Pokémon tiene una probabilidad del 50 % de recolectar otra igual al final de cada turno. La probabilidad es del 100 % cuando hace sol.",
+    "id": "ability-139",
+    "identity": true,
+    "name": "Cosecha"
+  },
+  {
+    "available": true,
+    "description": "Permite evadir los ataques de los aliados.",
+    "id": "ability-140",
+    "identity": true,
+    "name": "Telepatía"
+  },
+  {
+    "available": true,
+    "description": "Aumenta dos niveles una de las características del Pokémon y reduce un nivel otra de ellas al final de cada turno.",
+    "id": "ability-141",
+    "identity": true,
+    "name": "Veleta"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune al daño causado por las tormentas de arena y a las habilidades y los movimientos que usan polvos.",
+    "id": "ability-142",
+    "identity": true,
+    "name": "Funda"
+  },
+  {
+    "available": true,
+    "description": "Tiene una probabilidad del 30 % de envenenar al objetivo al que el Pokémon ataque con un movimiento de contacto.",
+    "id": "ability-143",
+    "identity": true,
+    "name": "Toque Tóxico"
+  },
+  {
+    "available": true,
+    "description": "Restaura 1/3 de los PS máximos del Pokémon cuando se retira del combate.",
+    "id": "ability-144",
+    "identity": true,
+    "name": "Regeneración"
+  },
+  {
+    "available": true,
+    "description": "Evita que los movimientos o la habilidad de otros Pokémon reduzcan la Defensa del Pokémon.",
+    "id": "ability-145",
+    "identity": true,
+    "name": "Sacapecho"
+  },
+  {
+    "available": true,
+    "description": "Duplica la Velocidad del Pokémon durante las tormentas de arena.",
+    "id": "ability-146",
+    "identity": true,
+    "name": "Ímpetu Arena"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 30 % la potencia del movimiento del Pokémon si es el último en atacar en ese turno.",
+    "id": "ability-148",
+    "identity": true,
+    "name": "Cálculo Final"
+  },
+  {
+    "available": true,
+    "description": "El Pokémon adopta el aspecto del último Pokémon del equipo antes de entrar en combate. Si recibe daño de un movimiento, la ilusión termina.",
+    "id": "ability-149",
+    "identity": true,
+    "name": "Ilusión"
+  },
+  {
+    "available": true,
+    "description": "Transforma al Pokémon en el mismo que tiene enfrente. Copia todos los valores de las características de ese Pokémon a excepción de los PS.",
+    "id": "ability-150",
+    "identity": true,
+    "name": "Impostor"
+  },
+  {
+    "available": true,
+    "description": "Cuando el Pokémon usa un movimiento, ignora los efectos de Pantalla de Luz, Reflejo, Velo Aurora, Velo Sagrado y el sustituto del objetivo.",
+    "id": "ability-151",
+    "identity": true,
+    "name": "Allanamiento"
+  },
+  {
+    "available": true,
+    "description": "Sustituye la habilidad del atacante por Momia si el Pokémon es alcanzado por un movimiento de contacto.",
+    "id": "ability-152",
+    "identity": true,
+    "name": "Momia"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un nivel el Ataque del Pokémon cuando debilita a un objetivo con un ataque.",
+    "id": "ability-153",
+    "identity": true,
+    "name": "Autoestima"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un nivel el Ataque del Pokémon si recibe daño de un movimiento de tipo Siniestro.",
+    "id": "ability-154",
+    "identity": true,
+    "name": "Justiciero"
+  },
+  {
+    "available": true,
+    "id": "ability-155",
+    "identity": true,
+    "name": "Cobardía"
+  },
+  {
+    "available": true,
+    "description": "Devuelve los movimientos de estado al atacante sin que el Pokémon se vea afectado por ellos.",
+    "id": "ability-156",
+    "identity": true,
+    "name": "Espejo Mágico"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de tipo Planta y aumenta un nivel su Ataque si recibe uno.",
+    "id": "ability-157",
+    "identity": true,
+    "name": "Herbívoro"
+  },
+  {
+    "available": true,
+    "id": "ability-158",
+    "identity": true,
+    "name": "Bromista"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 30 % la potencia de los movimientos de tipo Roca, Tierra y Acero del Pokémon durante las tormentas de arena.",
+    "id": "ability-159",
+    "identity": true,
+    "name": "Poder Arena"
+  },
+  {
+    "available": true,
+    "description": "Protege al Pokémon y a sus aliados de los estados Enamorado, Mofa, Repetición anulada, Movimiento anulado, Cura anulada y Otra Vez.",
+    "id": "ability-165",
+    "identity": true,
+    "name": "Velo Aroma"
+  },
+  {
+    "available": true,
+    "description": "Evita que los Pokémon de tipo Planta aliados sufran problemas de estado o que les reduzcan sus características.",
+    "id": "ability-166",
+    "identity": true,
+    "name": "Velo Flor"
+  },
+  {
+    "available": true,
+    "description": "Restaura 1/3 de los PS máximos del Pokémon cuando consume una baya, además de beneficiarse de su efecto habitual.",
+    "id": "ability-167",
+    "identity": true,
+    "name": "Carrillo"
+  },
+  {
+    "available": true,
+    "description": "Cambia el tipo del Pokémon al del primer movimiento que va a usar tras entrar en combate.",
+    "id": "ability-168",
+    "identity": true,
+    "name": "Mutatipo"
+  },
+  {
+    "available": true,
+    "description": "Reduce a la mitad el daño que el Pokémon recibe de ataques físicos.",
+    "id": "ability-169",
+    "identity": true,
+    "name": "Pelaje Recio"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon no lleva un objeto, roba el del objetivo al que inflige daño con un movimiento.",
+    "id": "ability-170",
+    "identity": true,
+    "name": "Prestidigitador"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos que usan proyectiles.",
+    "id": "ability-171",
+    "identity": true,
+    "name": "Antibalas"
+  },
+  {
+    "available": true,
+    "description": "Aumenta dos niveles el Ataque Especial del Pokémon cuando el rival le reduce cualquiera de sus características.",
+    "id": "ability-172",
+    "identity": true,
+    "name": "Tenacidad"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos de mordedura del Pokémon.",
+    "id": "ability-173",
+    "identity": true,
+    "name": "Mandíbula Fuerte"
+  },
+  {
+    "available": true,
+    "description": "Convierte los movimientos de tipo Normal del Pokémon en movimientos de tipo Hielo y aumenta un 20 % su potencia.",
+    "id": "ability-174",
+    "identity": true,
+    "name": "Piel Helada"
+  },
+  {
+    "available": true,
+    "description": "Evita que el Pokémon y sus aliados puedan quedarse dormidos o somnolientos.",
+    "id": "ability-175",
+    "identity": true,
+    "name": "Velo Dulce"
+  },
+  {
+    "available": true,
+    "description": "El Pokémon adopta su Forma Filo al atacar o bien su Forma Escudo si usa el movimiento Escudo Real.",
+    "id": "ability-176",
+    "identity": true,
+    "name": "Cambio Táctico"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un nivel la prioridad de los movimientos de tipo Volador del Pokémon cuando sus PS están al máximo.",
+    "id": "ability-177",
+    "identity": true,
+    "name": "Alas Vendaval"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos del Pokémon que usan pulsos.",
+    "id": "ability-178",
+    "identity": true,
+    "name": "Megadisparador"
+  },
+  {
+    "available": true,
+    "id": "ability-179",
+    "identity": true,
+    "name": "Manto Frondoso"
+  },
+  {
+    "available": true,
+    "description": "Pasa el objeto del Pokémon a un aliado cuando este consuma el suyo.",
+    "id": "ability-180",
+    "identity": true,
+    "name": "Simbiosis"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 30 % la potencia de los movimientos de contacto del Pokémon.",
+    "id": "ability-181",
+    "identity": true,
+    "name": "Garra Dura"
+  },
+  {
+    "available": true,
+    "description": "Convierte los movimientos de tipo Normal del Pokémon en movimientos de tipo Hada y aumenta un 20 % su potencia.",
+    "id": "ability-182",
+    "identity": true,
+    "name": "Piel Feérica"
+  },
+  {
+    "available": true,
+    "description": "Reduce un nivel la Velocidad del atacante si el Pokémon es alcanzado por un movimiento de contacto.",
+    "id": "ability-183",
+    "identity": true,
+    "name": "Baba"
+  },
+  {
+    "available": true,
+    "description": "Convierte los movimientos de tipo Normal del Pokémon en movimientos de tipo Volador y aumenta un 20 % su potencia.",
+    "id": "ability-184",
+    "identity": true,
+    "name": "Piel Celeste"
+  },
+  {
+    "available": true,
+    "description": "Hace que el Pokémon una fuerzas con su cría en un ataque doble. La potencia del ataque de la cría equivale al 25 % de la de su madre.",
+    "id": "ability-185",
+    "identity": true,
+    "name": "Amor Filial"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 33 % la potencia de los movimientos de tipo Hada de todos los Pokémon.",
+    "id": "ability-187",
+    "identity": true,
+    "name": "Aura Feérica"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un nivel la Defensa del Pokémon si recibe daño de un movimiento.",
+    "id": "ability-192",
+    "identity": true,
+    "name": "Firmeza"
+  },
+  {
+    "available": true,
+    "id": "ability-194",
+    "identity": true,
+    "name": "Retirada"
+  },
+  {
+    "available": true,
+    "description": "Hace que el Pokémon siempre aseste un golpe crítico al atacar si el objetivo está envenenado o gravemente envenenado.",
+    "id": "ability-196",
+    "identity": true,
+    "name": "Ensañamiento"
+  },
+  {
+    "available": true,
+    "id": "ability-198",
+    "identity": true,
+    "name": "Vigilante"
+  },
+  {
+    "available": true,
+    "description": "Reduce a la mitad el daño que el Pokémon recibe de movimientos de tipo Fuego y duplica la potencia de sus movimientos de tipo Agua. Además, evita que pueda ser quemado.",
+    "id": "ability-199",
+    "identity": true,
+    "name": "Pompa"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un nivel el Ataque Especial del Pokémon cuando sus PS máximos se ven reducidos a la mitad o menos debido a algún ataque.",
+    "id": "ability-201",
+    "identity": true,
+    "name": "Cólera"
+  },
+  {
+    "available": true,
+    "description": "Duplica la Velocidad del Pokémon cuando nieva.",
+    "id": "ability-202",
+    "identity": true,
+    "name": "Quitanieves"
+  },
+  {
+    "available": true,
+    "description": "Permite usar cualquier movimiento sin que el Pokémon entre en contacto con el objetivo.",
+    "id": "ability-203",
+    "identity": true,
+    "name": "Remoto"
+  },
+  {
+    "available": true,
+    "description": "Convierte los movimientos que usan sonido del Pokémon en movimientos de tipo Agua.",
+    "id": "ability-204",
+    "identity": true,
+    "name": "Voz Fluida"
+  },
+  {
+    "available": true,
+    "description": "Duplica la Velocidad del Pokémon cuando hay un campo eléctrico activo en el terreno de combate.",
+    "id": "ability-207",
+    "identity": true,
+    "name": "Cola Surf"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon recibe un ataque cuando está en su Forma Encubierta, pierde 1/8 de sus PS máximos en vez de recibir daño y cambia a su Forma Descubierta.",
+    "id": "ability-209",
+    "identity": true,
+    "name": "Disfraz"
+  },
+  {
+    "available": true,
+    "description": "Permite envenenar o envenenar gravemente incluso a Pokémon de tipo Acero o Veneno.",
+    "id": "ability-212",
+    "identity": true,
+    "name": "Corrosión"
+  },
+  {
+    "available": true,
+    "description": "Impide que el rival use movimientos de prioridad alta contra el Pokémon y sus aliados.",
+    "id": "ability-214",
+    "identity": true,
+    "name": "Regia Presencia"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon recibe daño de un movimiento y se debilita, le devuelve al atacante la misma cantidad de daño.",
+    "id": "ability-215",
+    "identity": true,
+    "name": "Revés"
+  },
+  {
+    "available": true,
+    "id": "ability-218",
+    "identity": true,
+    "name": "Peluche"
+  },
+  {
+    "available": true,
+    "description": "Hace que el Pokémon adquiera la habilidad de un aliado debilitado.",
+    "id": "ability-222",
+    "identity": true,
+    "name": "Receptor"
+  },
+  {
+    "available": true,
+    "description": "Crea un campo eléctrico en el terreno de combate durante cinco turnos cuando el Pokémon entra en combate.",
+    "id": "ability-226",
+    "identity": true,
+    "name": "Electrogénesis"
+  },
+  {
+    "available": true,
+    "id": "ability-227",
+    "identity": true,
+    "name": "Psicogénesis"
+  },
+  {
+    "available": true,
+    "id": "ability-229",
+    "identity": true,
+    "name": "Herbogénesis"
+  },
+  {
+    "available": true,
+    "id": "ability-236",
+    "identity": true,
+    "name": "Líbero"
+  },
+  {
+    "available": true,
+    "description": "Devuelve los efectos de reducción de características dirigidos al Pokémon sin que se vea afectado por ellos.",
+    "id": "ability-240",
+    "identity": true,
+    "name": "Coraza Reflejo"
+  },
+  {
+    "available": true,
+    "description": "Ignora los efectos de las habilidades o los movimientos que permiten a un Pokémon centrar la atención sobre sí.",
+    "id": "ability-242",
+    "identity": true,
+    "name": "Acérrimo"
+  },
+  {
+    "available": true,
+    "id": "ability-244",
+    "identity": true,
+    "name": "Punk Rock"
+  },
+  {
+    "available": true,
+    "description": "Provoca una tormenta de arena que dura cinco turnos cuando el Pokémon recibe daño de un movimiento.",
+    "id": "ability-245",
+    "identity": true,
+    "name": "Expulsarena"
+  },
+  {
+    "available": true,
+    "description": "Duplica los efectos de las bayas que consume el Pokémon.",
+    "id": "ability-247",
+    "identity": true,
+    "name": "Maduración"
+  },
+  {
+    "available": true,
+    "description": "Cambia el tipo del Pokémon según el campo que haya en el terreno de combate.",
+    "id": "ability-250",
+    "identity": true,
+    "name": "Mimetismo"
+  },
+  {
+    "available": true,
+    "description": "Elimina los estados Pantalla de Luz, Reflejo y Velo Aurora cuando el Pokémon entra en combate.",
+    "id": "ability-251",
+    "identity": true,
+    "name": "Antibarrera"
+  },
+  {
+    "available": true,
+    "id": "ability-252",
+    "identity": true,
+    "name": "Alma Acerada"
+  },
+  {
+    "available": true,
+    "description": "Intercambia las habilidades del Pokémon y el objetivo si el Pokémon recibe un movimiento de contacto.",
+    "id": "ability-254",
+    "identity": true,
+    "name": "Alma Errante"
+  },
+  {
+    "available": true,
+    "description": "El Pokémon alterna entre su Forma Saciada y Forma Voraz al final de cada turno.",
+    "id": "ability-258",
+    "identity": true,
+    "name": "Mutapetito"
+  },
+  {
+    "available": true,
+    "description": "Hace que el Pokémon tenga una probabilidad del 30 % de actuar primero cuando su movimiento tiene la misma prioridad que otros.",
+    "id": "ability-259",
+    "identity": true,
+    "name": "Mano Rápida"
+  },
+  {
+    "available": true,
+    "description": "Cuando el Pokémon ataca con un movimiento de contacto, es capaz de alcanzar incluso a objetivos que se hayan protegido y les inflige 1/4 del daño original. El resto de los efectos no se ven afectados por esta habilidad y se activarán de forma habitual.",
+    "id": "ability-260",
+    "identity": true,
+    "name": "Puño Invisible"
+  },
+  {
+    "available": true,
+    "description": "Elimina los cambios en las características de los aliados cuando el Pokémon entra en combate.",
+    "id": "ability-261",
+    "identity": true,
+    "name": "Medicina Extraña"
+  },
+  {
+    "available": true,
+    "id": "ability-269",
+    "identity": true,
+    "name": "Disemillar"
+  },
+  {
+    "available": true,
+    "id": "ability-270",
+    "identity": true,
+    "name": "Termoconversión"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los problemas de estado y reduce a la mitad el daño que recibe de movimientos de tipo Fantasma.",
+    "id": "ability-272",
+    "identity": true,
+    "name": "Sal Purificadora"
+  },
+  {
+    "available": true,
+    "id": "ability-275",
+    "identity": true,
+    "name": "Perro Guardián"
+  },
+  {
+    "available": true,
+    "description": "El Pokémon adopta su Forma Heroica cuando se retira del combate.",
+    "id": "ability-278",
+    "identity": true,
+    "name": "Cambio Heroico"
+  },
+  {
+    "available": true,
+    "description": "El Pokémon adquiere el estado Cargado de electricidad si recibe daño de un movimiento.",
+    "id": "ability-280",
+    "identity": true,
+    "name": "Dinamo"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de estado.",
+    "id": "ability-283",
+    "identity": true,
+    "name": "Cuerpo Áureo"
+  },
+  {
+    "available": true,
+    "description": "Si el rival aumenta sus características, el Pokémon aumenta las suyas de igual modo.",
+    "id": "ability-290",
+    "identity": true,
+    "name": "Oportunista"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon consume una baya, vuelve a consumirla una vez más al final del siguiente turno.",
+    "id": "ability-291",
+    "identity": true,
+    "name": "Rumia"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos cortantes del Pokémon.",
+    "id": "ability-292",
+    "identity": true,
+    "name": "Cortante"
+  },
+  {
+    "available": true,
+    "description": "Cuando el Pokémon entra en combate, aumenta un 10 % la potencia de sus movimientos por cada miembro del equipo que se haya debilitado, hasta un máximo del 50 %.",
+    "id": "ability-293",
+    "identity": true,
+    "name": "General Supremo"
+  },
+  {
+    "available": true,
+    "description": "Provoca el estado Púas tóxicas en el lado rival cuando el Pokémon recibe daño de un ataque físico.",
+    "id": "ability-295",
+    "identity": true,
+    "name": "Capa Tóxica"
+  },
+  {
+    "available": true,
+    "description": "Impide que el rival use movimientos de prioridad alta contra el Pokémon y sus aliados.",
+    "id": "ability-296",
+    "identity": true,
+    "name": "Cola Armadura"
+  },
+  {
+    "available": true,
+    "description": "Hace al Pokémon inmune a los movimientos de tipo Tierra y restaura 1/4 de sus PS máximos si recibe uno.",
+    "id": "ability-297",
+    "identity": true,
+    "name": "Geofagia"
+  },
+  {
+    "available": true,
+    "description": "Restaura 1/4 de los PS máximos de un aliado cuando el Pokémon entra en combate.",
+    "id": "ability-299",
+    "identity": true,
+    "name": "Hospitalidad"
+  },
+  {
+    "available": true,
+    "description": "Reduce un nivel la Evasión del rival cuando el Pokémon entra en combate. Solo tiene efecto una vez por combate.",
+    "id": "ability-306",
+    "identity": true,
+    "name": "Néctar Dulce"
+  },
+  {
+    "available": true,
+    "description": "Cuando el Pokémon ataca con un movimiento de contacto, es capaz de alcanzar incluso a objetivos que se hayan protegido y les inflige 1/4 del daño original. El resto de los efectos no se ven afectados por esta habilidad y se activarán de forma habitual.",
+    "id": "ability-311",
+    "identity": true,
+    "name": "Turbotaladro"
+  },
+  {
+    "available": true,
+    "description": "Convierte los movimientos de tipo Normal del Pokémon en movimientos de tipo Dragón y aumenta un 20 % su potencia.",
+    "id": "ability-312",
+    "identity": true,
+    "name": "Piel Dragontina"
+  },
+  {
+    "available": true,
+    "description": "Hace que el Pokémon flote y deje de estar en contacto con el suelo, lo que impide que le afecten los movimientos de tipo Tierra y los estados Púas, Púas tóxicas y Red Viscosa. Aumenta un nivel la característica más alta del Pokémon cuando debilita a un objetivo con un ataque.",
+    "id": "ability-313",
+    "identity": true,
+    "name": "Impulso Anguila"
+  },
+  {
+    "available": true,
+    "description": "El Pokémon puede usar movimientos con los mismos resultados que si hiciese sol, aunque realmente ese no sea el tiempo atmosférico actual.",
+    "id": "ability-315",
+    "identity": true,
+    "name": "Megasolar"
+  },
+  {
+    "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Fuego del Pokémon.",
+    "id": "ability-316",
+    "identity": true,
+    "name": "Crin de Fuego"
+  },
+  {
+    "available": true,
+    "description": "Si el Pokémon recibe daño de un movimiento, quema al atacante.",
+    "id": "ability-318",
+    "identity": true,
+    "name": "Salpicante"
+  },
+  {
+    "available": true,
+    "id": "ability-319",
+    "identity": true
+  }
+]

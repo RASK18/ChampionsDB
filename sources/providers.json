@@ -1,0 +1,39 @@
+{
+  "champout": {
+    "url": "https://github.com/projectpokemon/champout",
+    "role": "Tablas extraídas de Champions y textos esp; esp no es latam.",
+    "upstream": "Pokémon Champions; archivos de juego y masterdata",
+    "independence": "Extracción de datos del juego. No es una confirmación editorial independiente de su contenido."
+  },
+  "opgg": {
+    "url": "https://op.gg/es/pokemon-champions",
+    "role": "Catálogos en español, metadatos y relaciones; las asociaciones no implican causalidad.",
+    "upstream": "APIs y scraping; proveedores subyacentes no identificados completamente",
+    "independence": "No demostrada respecto de champout u otras bases. Se cuenta como proveedor distinto, no como origen independiente probado.",
+    "provenanceNote": "https://log.op.gg/we-borrowed-a-nintendo-from-work-and-one-more-site-was-born/"
+  },
+  "showdown": {
+    "url": "https://github.com/smogon/pokemon-showdown/tree/master/data/mods/champions",
+    "role": "Módulo Champions resuelto con sus herencias explícitas; no se importa el catálogo genérico como disponibilidad.",
+    "upstream": "Investigación comunitaria y datos de la franquicia",
+    "independence": "Dependencias concretas de las tablas no demostradas; puede retrasarse respecto de parches oficiales."
+  },
+  "serebii": {
+    "url": "https://www.serebii.net/pokemonchampions/",
+    "role": "Páginas de Champions sobre objetos, cambios, estados y reglamentos.",
+    "upstream": "Documentación editorial del juego",
+    "independence": "Origen por campo no demostrado. No se consultan tablas de otras entregas para rellenar huecos."
+  },
+  "nintendo": {
+    "url": "https://www.nintendo.com/es-es/Ayuda/Compras-y-suscripciones/Juegos/Como-actualizar-Pokemon-Champions-3079895.html",
+    "role": "Notas oficiales de actualización en español de España.",
+    "upstream": "Anuncios oficiales de Pokémon Champions",
+    "independence": "Puede compartir texto y origen con Pokémon; no contar copias del mismo anuncio como contraste independiente."
+  },
+  "pokemon": {
+    "url": "https://champions-news.pokemon-home.com/es/page/816.html",
+    "role": "Reglamento oficial M-C.",
+    "upstream": "Anuncios oficiales de Pokémon Champions",
+    "independence": "Puede compartir origen con Nintendo."
+  }
+}
