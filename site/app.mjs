@@ -384,11 +384,12 @@ const ideas = [
   ["Atacante especial rápido", "Velocidad base y At. Especial de 100 o más; ajusta ambos umbrales a tu equipo.", () => [criterion("stats.speed", "gte", 100), criterion("stats.spAttack", "gte", 100)]],
   ["Prioridad ofensiva", "Aprende un mismo movimiento de prioridad positiva y potencia conocida superior a cero.", () => [moveBlock(criterion("priority", "gte", 1), criterion("power.value", "gte", 1))]],
 ];
+const ideaIcons = ['◉', '▦', '☆', '✧', '◈', 'ϟ', '≫'];
 function renderIdeas() {
   $("inspiration").hidden = current !== "pokemon";
   if (current !== "pokemon") return;
-  $("idea-list").replaceChildren(...ideas.map(([title, description, make]) =>
-    button(title, () => {
+  $("idea-list").replaceChildren(...ideas.map(([title, description, make], index) =>
+    button([el('span', {class: 'idea-icon', 'aria-hidden': 'true'}, ideaIcons[index]), title], () => {
       state().query = { kind: "group", mode: "all", children: make() };
       state().search = "";
       $("search").value = "";
@@ -1366,17 +1367,24 @@ function renderResults(result) {
     const mobileReason = s.bucket === "possible"
       ? el("div", { class: "mobile-reason" }, undecided(s.query, c, row, graph).join(" · "))
       : null;
+    const identity = c === 'pokemon'
+      ? el('div', {class: 'pokemon-ident'},
+          el('img', {
+            class: 'pokemon-sprite',
+            src: `./site/sprites/${row.id}.png`,
+            alt: '', width: '44', height: '44', loading: 'lazy', decoding: 'async',
+          }),
+          el('div', {class: 'pokemon-name'},
+            button(name(c, row), () => showDetail(c, row), {class: 'name-button'}),
+            why, mobileReason))
+      : [button(name(c, row), () => showDetail(c, row), {class: 'name-button'}), why, mobileReason];
     const tr = el(
       "tr",
       {},
       el(
         "td",
-        {},
-        button(name(c, row), () => showDetail(c, row), {
-          class: "name-button",
-        }),
-        why,
-        mobileReason,
+        {class: c === 'pokemon' ? 'pokemon-cell' : ''},
+        identity,
       ),
     );
     for (const path of columns) tr.append(el("td", {}, cell(c, row, path)));
@@ -1513,6 +1521,11 @@ function openDialog(title) {
 async function showDetail(c, row) {
   const token = ++detailRequest;
   const box = openDialog(name(c, row));
+  if (c === 'pokemon') box.append(el('div', {class: 'detail-hero'},
+    el('img', {src: `./site/sprites/${row.id}.png`, alt: '', width: '92', height: '92'}),
+    el('div', {},
+      el('strong', {}, row.name),
+      el('p', {class: 'muted'}, row.typeIds.map((id) => label('types', id)).join(' · ')))));
   if (c === 'pokemon' && !isTeamEntryForm(row)) {
     const entry = entryFormId(row) && graph?.maps.pokemon.get(entryFormId(row));
     box.append(el('p', {class:'help'},
@@ -1766,11 +1779,7 @@ $("theme").onclick = () => {
     `Cambiar a tema ${document.documentElement.dataset.theme === "dark" ? "claro" : "oscuro"}`,
   );
 };
-document.documentElement.dataset.theme = matchMedia(
-  "(prefers-color-scheme: dark)",
-).matches
-  ? "dark"
-  : "light";
+document.documentElement.dataset.theme = "dark";
 $("quick-tab").onclick = () => {
   mode = "quick";
   renderEditor();

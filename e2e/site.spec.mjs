@@ -128,6 +128,9 @@ test("Arbok queda descartado y no se ofrece una pestaña sin verificar", async (
   await page.getByRole("button", { name: /^Intimidación y cambio/ }).click();
   await expect(page.locator("#possible-count")).toHaveText("0");
   await expect(page.locator("#possible-tab")).toBeHidden();
+  await expect.poll(() => page.locator('tbody .pokemon-sprite').first()
+    .evaluate((image) => image.complete && image.naturalWidth > 0)).toBe(true);
+  await page.screenshot({ path: 'test-results/preset.png', fullPage: true });
   await page.locator("#search").fill("Arbok");
   await expect(page.locator("#confirmed-count")).toHaveText("0");
   await expect(page.locator("tbody tr")).toHaveCount(0);
@@ -230,6 +233,15 @@ test("móvil 320px, teclado, tema y tabla desplazable sin desbordar la página",
   await page.keyboard.press("Escape");
   await expect(page.locator("tbody button").first()).toBeFocused();
   await page.screenshot({ path: "test-results/mobile.png", fullPage: true });
+});
+test('la vista intermedia conserva búsqueda, filtros y tabla sin desbordamiento', async ({ page }) => {
+  await page.setViewportSize({ width: 768, height: 900 });
+  await page.reload();
+  await expect(page.locator('#filters')).toBeVisible();
+  await expect(page.getByRole('searchbox')).toBeVisible();
+  await expect(page.locator('tbody .pokemon-sprite').first()).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(768);
+  await page.screenshot({ path: 'test-results/tablet.png', fullPage: true });
 });
 test("error de carga recuperable", async ({ page }) => {
   await page.route("**/data/items.json*", (route) =>

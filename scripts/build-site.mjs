@@ -42,6 +42,16 @@ const unlabelled = [
 ];
 if (unlabelled.length)
   throw Error(`Campos sin etiqueta española: ${unlabelled.join(", ")}`);
+const spriteManifest = await json('site/sprites/manifest.json');
+const pokemonIds = new Set(data.pokemon.map((row) => row.id));
+if (Object.keys(spriteManifest).length !== pokemonIds.size)
+  throw Error('El catálogo de sprites no cubre todas las formas publicadas');
+for (const [id, sprite] of Object.entries(spriteManifest)) {
+  if (!pokemonIds.has(id) || !/^https:\/\/(play\.pokemonshowdown\.com|raw\.githubusercontent\.com)\//.test(sprite.source))
+    throw Error(`Sprite no trazable: ${id}`);
+  const bytes = await readFile(join(root, `site/sprites/${id}.png`));
+  if (sha(bytes) !== sprite.sha256) throw Error(`Huella incorrecta del sprite: ${id}`);
+}
 await rm(stage, { recursive: true, force: true });
 await mkdir(stage, { recursive: true });
 await mkdir(join(stage, "site"), { recursive: true });

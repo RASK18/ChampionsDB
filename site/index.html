@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="color-scheme" content="light dark" />
+    <meta name="color-scheme" content="dark light" />
     <meta
       name="description"
       content="Datos de combate de Pokémon Champions en español. Tablas, filtros y relaciones con fuentes verificadas."
     />
     <title>ChampionsDB · Datos de combate</title>
     <link rel="stylesheet" href="./site/style.css" />
+    <link rel="stylesheet" href="./site/redesign.css" />
     <script type="module" src="./site/app.mjs"></script>
   </head>
   <body>
@@ -22,16 +23,18 @@
           ><small>DATOS DE COMBATE</small></span
         ></a
       >
+      <nav id="navigation" aria-label="Secciones"></nav>
       <div class="top-actions">
-        <span id="version" class="version">Pokémon Champions</span
-        ><button id="theme" aria-label="Cambiar tema">
-          ◐ <span>Tema</span>
+        <label class="search-label top-search"
+          ><span class="sr-only">Buscar por nombre o descripción</span
+          ><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg
+          ><input id="search" type="search" placeholder="Buscar en ChampionsDB..." autocomplete="off" /></label
+        ><button id="theme" aria-label="Cambiar tema" title="Cambiar tema">
+          <span aria-hidden="true">☼</span><span class="sr-only">Tema</span>
         </button>
       </div>
     </header>
-    <nav id="navigation" aria-label="Secciones"></nav>
     <main>
-      <div id="notice" role="status">Cargando el catálogo verificado…</div>
       <div id="workspace" hidden>
         <div class="heading">
           <div>
@@ -51,9 +54,10 @@
         </div>
         <div id="subnav"></div>
         <section id="inspiration" class="inspiration" aria-labelledby="inspiration-title">
-          <div>
+          <span class="inspiration-mark" aria-hidden="true">✦</span>
+          <div class="inspiration-copy">
             <h2 id="inspiration-title">¿Qué necesitas para tu equipo?</h2>
-            <p>Prueba una búsqueda y cambia después cualquiera de sus condiciones.</p>
+            <p>Reduce la búsqueda y arma equipos más fuertes con condiciones.</p>
           </div>
           <div id="idea-list" class="idea-list"></div>
         </section>
@@ -67,6 +71,12 @@
               <button id="quick-tab" aria-pressed="true">Explorar</button
               ><button id="advanced-tab" aria-pressed="false">Todos los campos</button>
             </div>
+            <div class="filter-tools">
+              <button id="columns-button" aria-label="Columnas">Columnas</button
+              ><button id="sort-button" aria-label="Ordenar">Ordenar</button>
+            </div>
+            <div id="columns-panel" class="settings" hidden></div>
+            <div id="sort-panel" class="settings" hidden></div>
             <button id="jump-results" type="button">Ver resultados</button>
             <div id="filter-editor"></div>
             <div id="filter-summary" class="filter-summary"></div>
@@ -76,19 +86,6 @@
             </p>
           </aside>
           <section id="results" tabindex="-1" aria-label="Resultados">
-            <div class="toolbar">
-              <label class="search-label"
-                ><span class="sr-only">Buscar por nombre o descripción</span
-                ><input
-                  id="search"
-                  type="search"
-                  placeholder="Buscar por nombre o descripción…"
-                  autocomplete="off" /></label
-              ><button id="columns-button">Columnas</button
-              ><button id="sort-button">Ordenar</button>
-            </div>
-            <div id="columns-panel" class="settings" hidden></div>
-            <div id="sort-panel" class="settings" hidden></div>
             <div class="result-line" aria-live="polite" aria-atomic="true">
               <div class="result-tabs">
                 <button id="confirmed-tab" aria-pressed="true">
@@ -107,8 +104,10 @@
       </div>
     </main>
     <footer>
-      ChampionsDB <span>Datos de Pokémon Champions · Español de España</span
-      ><button id="coverage-button" class="text-button">
+      <span id="notice" role="status">Cargando el catálogo verificado…</span>
+      <span id="version" class="version">Pokémon Champions</span>
+      <span>Datos de Pokémon Champions · Español de España</span>
+      <button id="coverage-button" class="text-button">
         Cobertura y fuentes
       </button>
     </footer>
