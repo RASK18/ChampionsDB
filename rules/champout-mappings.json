@@ -1,0 +1,276 @@
+{
+  "states": {
+    "BTR_STATE_SYN_01_03": {
+      "category": "weather",
+      "id": "harsh-sunlight"
+    },
+    "BTR_STATE_SYN_02_03": {
+      "category": "weather",
+      "id": "rain"
+    },
+    "BTR_STATE_SYN_03_03": {
+      "category": "weather",
+      "id": "sandstorm"
+    },
+    "BTR_STATE_SYN_04_03": {
+      "category": "weather",
+      "id": "snow"
+    },
+    "BTR_STATE_SYN_05_03": {
+      "category": "terrain",
+      "id": "electric-terrain"
+    },
+    "BTR_STATE_SYN_06_03": {
+      "category": "terrain",
+      "id": "grassy-terrain"
+    },
+    "BTR_STATE_SYN_07_03": {
+      "category": "terrain",
+      "id": "misty-terrain"
+    },
+    "BTR_STATE_SYN_08_03": {
+      "category": "field",
+      "id": "trick-room"
+    },
+    "BTR_STATE_SYN_09_03": {
+      "category": "field",
+      "id": "magic-room"
+    },
+    "BTR_STATE_SYN_106_03": {
+      "category": "volatile",
+      "id": "salt-cured"
+    },
+    "BTR_STATE_SYN_108_03": {
+      "category": "volatile",
+      "id": "syrupy"
+    },
+    "BTR_STATE_SYN_10_03": {
+      "category": "field",
+      "id": "wonder-room"
+    },
+    "BTR_STATE_SYN_111_03": {
+      "category": "volatile",
+      "id": "healing-prevented"
+    },
+    "BTR_STATE_SYN_112_03": {
+      "category": "volatile",
+      "id": "vulnerable"
+    },
+    "BTR_STATE_SYN_113_03": {
+      "category": "volatile",
+      "id": "recharging"
+    },
+    "BTR_STATE_SYN_114_03": {
+      "category": "volatile",
+      "id": "charging"
+    },
+    "BTR_STATE_SYN_115_03": {
+      "category": "volatile",
+      "id": "sky-high"
+    },
+    "BTR_STATE_SYN_116_03": {
+      "category": "volatile",
+      "id": "submerged"
+    },
+    "BTR_STATE_SYN_117_03": {
+      "category": "volatile",
+      "id": "underground"
+    },
+    "BTR_STATE_SYN_118_03": {
+      "category": "volatile",
+      "id": "concealed"
+    },
+    "BTR_STATE_SYN_119_03": {
+      "category": "volatile",
+      "id": "minimized"
+    },
+    "BTR_STATE_SYN_11_03": {
+      "category": "volatile",
+      "id": "critical-hit-ratio-boost-92"
+    },
+    "BTR_STATE_SYN_120_03": {
+      "category": "volatile",
+      "id": "atk-def-swapped"
+    },
+    "BTR_STATE_SYN_121_03": {
+      "category": "volatile",
+      "id": "flash-fire"
+    },
+    "BTR_STATE_SYN_124_03": {
+      "category": "volatile",
+      "id": "jaw-lock"
+    },
+    "BTR_STATE_SYN_125_03": {
+      "category": "volatile",
+      "id": "micle-berry"
+    },
+    "BTR_STATE_SYN_12_03": {
+      "category": "volatile",
+      "id": "confused"
+    },
+    "BTR_STATE_SYN_13_03": {
+      "category": "volatile",
+      "id": "infatuated"
+    },
+    "BTR_STATE_SYN_15_03": {
+      "category": "volatile",
+      "id": "drowsy"
+    },
+    "BTR_STATE_SYN_16_03": {
+      "category": "volatile",
+      "id": "encore"
+    },
+    "BTR_STATE_SYN_17_03": {
+      "category": "volatile",
+      "id": "no-ability"
+    },
+    "BTR_STATE_SYN_18_03": {
+      "category": "volatile",
+      "id": "unable-to-repeat"
+    },
+    "BTR_STATE_SYN_19_03": {
+      "category": "team",
+      "id": "tailwind"
+    },
+    "BTR_STATE_SYN_24_03": {
+      "category": "volatile",
+      "id": "move-disabled"
+    },
+    "BTR_STATE_SYN_25_03": {
+      "category": "volatile",
+      "id": "cant-escape"
+    },
+    "BTR_STATE_SYN_26_03": {
+      "category": "volatile",
+      "id": "locked-on"
+    },
+    "BTR_STATE_SYN_28_03": {
+      "category": "volatile",
+      "id": "electric-boost"
+    },
+    "BTR_STATE_SYN_29_03": {
+      "category": "field",
+      "id": "gravity"
+    },
+    "BTR_STATE_SYN_31_03": {
+      "category": "team",
+      "id": "safeguard"
+    },
+    "BTR_STATE_SYN_32_03": {
+      "category": "team",
+      "id": "stealth-rock"
+    },
+    "BTR_STATE_SYN_33_03": {
+      "category": "volatile",
+      "id": "stockpiling"
+    },
+    "BTR_STATE_SYN_34_03": {
+      "category": "volatile",
+      "id": "taunted"
+    },
+    "BTR_STATE_SYN_36_03": {
+      "category": "volatile",
+      "id": "magnet-rise"
+    },
+    "BTR_STATE_SYN_37_03": {
+      "category": "team",
+      "id": "toxic-spikes"
+    },
+    "BTR_STATE_SYN_39_03": {
+      "category": "team",
+      "id": "wish"
+    },
+    "BTR_STATE_SYN_40_03": {
+      "category": "team",
+      "id": "sticky-web"
+    },
+    "BTR_STATE_SYN_41_03": {
+      "category": "volatile",
+      "id": "ingrained"
+    },
+    "BTR_STATE_SYN_42_03": {
+      "category": "volatile",
+      "id": "cursed"
+    },
+    "BTR_STATE_SYN_43_03": {
+      "category": "volatile",
+      "id": "trick-or-treating"
+    },
+    "BTR_STATE_SYN_44_03": {
+      "category": "team",
+      "id": "light-screen"
+    },
+    "BTR_STATE_SYN_45_03": {
+      "category": "team",
+      "id": "reflect"
+    },
+    "BTR_STATE_SYN_46_03": {
+      "category": "volatile",
+      "id": "sealing-off"
+    },
+    "BTR_STATE_SYN_47_03": {
+      "category": "volatile",
+      "id": "perishing"
+    },
+    "BTR_STATE_SYN_48_03": {
+      "category": "team",
+      "id": "spikes"
+    },
+    "BTR_STATE_SYN_50_03": {
+      "category": "volatile",
+      "id": "destiny-bound"
+    },
+    "BTR_STATE_SYN_51_03": {
+      "category": "volatile",
+      "id": "forest-cursed"
+    },
+    "BTR_STATE_SYN_52_03": {
+      "category": "volatile",
+      "id": "leech-seeded"
+    },
+    "BTR_STATE_SYN_54_03": {
+      "category": "volatile",
+      "id": "bound"
+    },
+    "BTR_STATE_SYN_57_03": {
+      "category": "volatile",
+      "id": "rampaging"
+    },
+    "BTR_STATE_SYN_60_03": {
+      "category": "volatile",
+      "id": "future-attack"
+    },
+    "BTR_STATE_SYN_61_03": {
+      "category": "volatile",
+      "id": "uproar"
+    },
+    "BTR_STATE_SYN_62_03": {
+      "category": "volatile",
+      "id": "aqua-ring"
+    },
+    "BTR_STATE_SYN_64_03": {
+      "category": "volatile",
+      "id": "landed"
+    },
+    "BTR_STATE_SYN_65_03": {
+      "category": "volatile",
+      "id": "fairy-locked"
+    },
+    "BTR_STATE_SYN_72_03": {
+      "category": "terrain",
+      "id": "psychic-terrain"
+    },
+    "BTR_STATE_SYN_73_03": {
+      "category": "volatile",
+      "id": "throat-chopped"
+    },
+    "BTR_STATE_SYN_74_03": {
+      "category": "team",
+      "id": "aurora-veil"
+    },
+    "BTR_STATE_SYN_77_03": {
+      "category": "volatile",
+      "id": "octolock"
+    }
+  }
+}

@@ -15,6 +15,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un nivel la Velocidad del Pokémon al final de cada turno, exceptuando el turno en el que entra en combate para sustituir a otro.",
     "id": "ability-003",
     "identity": true,
     "name": "Impulso"
@@ -49,6 +50,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un 25 % la Evasión del Pokémon durante las tormentas de arena y lo hace inmune al daño causado por estas.",
     "id": "ability-008",
     "identity": true,
     "name": "Velo Arena"
@@ -167,6 +169,7 @@
   },
   {
     "available": true,
+    "description": "Tiene una probabilidad del 30 % de envenenar, paralizar o dormir al atacante si el Pokémon es alcanzado por un movimiento de contacto. No afecta a los Pokémon de tipo Planta.",
     "id": "ability-027",
     "identity": true,
     "name": "Efecto Espora"
@@ -306,6 +309,7 @@
   },
   {
     "available": true,
+    "description": "Permite que el Pokémon pueda cambiarse por otro aunque haya efectos que lo impidan.",
     "id": "ability-050",
     "identity": true,
     "name": "Fuga"
@@ -396,8 +400,10 @@
   },
   {
     "available": true,
+    "description": "Si el Pokémon recibe un movimiento que drena PS, el atacante recibe una cantidad de daño equivalente a los PS que habría recuperado.",
     "id": "ability-064",
-    "identity": true
+    "identity": true,
+    "name": "Viscosecreción"
   },
   {
     "available": true,
@@ -919,6 +925,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un nivel la Velocidad del Pokémon si se siente intimidado o si recibe daño de un movimiento de tipo Siniestro, Fantasma o Bicho.",
     "id": "ability-155",
     "identity": true,
     "name": "Cobardía"
@@ -939,6 +946,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un nivel la prioridad de los movimientos de estado del Pokémon, pero los Pokémon de tipo Siniestro se vuelven inmunes a ellos.",
     "id": "ability-158",
     "identity": true,
     "name": "Bromista"
@@ -1050,6 +1058,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un 50 % la Defensa del Pokémon cuando hay un campo de hierba activo en el terreno de combate.",
     "id": "ability-179",
     "identity": true,
     "name": "Manto Frondoso"
@@ -1112,6 +1121,7 @@
   },
   {
     "available": true,
+    "description": "Hace que el Pokémon se retire del combate cuando sus PS máximos se ven reducidos a la mitad o menos.",
     "id": "ability-194",
     "identity": true,
     "name": "Retirada"
@@ -1125,6 +1135,7 @@
   },
   {
     "available": true,
+    "description": "Duplica la potencia de los movimientos del Pokémon si el objetivo acaba de entrar en combate para sustituir a otro.",
     "id": "ability-198",
     "identity": true,
     "name": "Vigilante"
@@ -1201,6 +1212,7 @@
   },
   {
     "available": true,
+    "description": "Reduce a la mitad el daño que el Pokémon recibe de movimientos de contacto, pero duplica el que le infligen los de tipo Fuego.",
     "id": "ability-218",
     "identity": true,
     "name": "Peluche"
@@ -1221,18 +1233,21 @@
   },
   {
     "available": true,
+    "description": "Crea un campo psíquico en el terreno de combate durante cinco turnos cuando el Pokémon entra en combate.",
     "id": "ability-227",
     "identity": true,
     "name": "Psicogénesis"
   },
   {
     "available": true,
+    "description": "Crea un campo de hierba en el terreno de combate durante cinco turnos cuando el Pokémon entra en combate.",
     "id": "ability-229",
     "identity": true,
     "name": "Herbogénesis"
   },
   {
     "available": true,
+    "description": "Cambia el tipo del Pokémon al del primer movimiento que va a usar tras entrar en combate.",
     "id": "ability-236",
     "identity": true,
     "name": "Líbero"
@@ -1253,6 +1268,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un 30 % la potencia de los movimientos que usan sonido del Pokémon y reduce a la mitad el daño que recibe de dichos movimientos.",
     "id": "ability-244",
     "identity": true,
     "name": "Punk Rock"
@@ -1287,6 +1303,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Acero del Pokémon y sus aliados.",
     "id": "ability-252",
     "identity": true,
     "name": "Alma Acerada"
@@ -1328,12 +1345,14 @@
   },
   {
     "available": true,
+    "description": "Crea un campo de hierba en el terreno de combate durante cinco turnos cuando el Pokémon recibe daño de un movimiento.",
     "id": "ability-269",
     "identity": true,
     "name": "Disemillar"
   },
   {
     "available": true,
+    "description": "Aumenta un nivel el Ataque del Pokémon si recibe daño de un movimiento de tipo Fuego. Además, evita que pueda ser quemado.",
     "id": "ability-270",
     "identity": true,
     "name": "Termoconversión"
@@ -1347,6 +1366,7 @@
   },
   {
     "available": true,
+    "description": "Aumenta un nivel el Ataque del Pokémon en vez de sentirse intimidado. Además, hace al Pokémon inmune a los movimientos y objetos de otros Pokémon que fuerzan el cambio.",
     "id": "ability-275",
     "identity": true,
     "name": "Perro Guardián"
@@ -1479,7 +1499,9 @@
   },
   {
     "available": true,
+    "description": "Reduce a la mitad el daño que el Pokémon recibe de movimientos de contacto.",
     "id": "ability-319",
-    "identity": true
+    "identity": true,
+    "name": "Aura Protectora"
   }
 ]

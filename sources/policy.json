@@ -1,0 +1,9 @@
+{
+  "availability": "Presencia y banderas de las tablas capturadas; no equivale a legalidad en un reglamento ni garantiza que el volcado incorpore el último parche.",
+  "locale": "esp",
+  "minimumProviders": 1,
+  "missing": "Solo los 147 huecos autorizados pueden completarse con otro proveedor. Champout siempre prevalece cuando aporta el campo.",
+  "mode": "champout-primary",
+  "provider": "champout",
+  "supplementalScope": "rules/supplemental-scope.json"
+}

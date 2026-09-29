@@ -84,7 +84,8 @@ const coverage=await readJSON(path.join(root,'data/reports/coverage.json'));
 const db=createIndexes(publication.data,coverage);
 test('entire delivered dataset validates schemas, references, IDs, cells and provenance',async()=>{
   const report=await validateDataset(publication);assert.ok(report.records>20000);assert.ok(report.claims>90000);
-  for(const entry of Object.values(publication.evidence))assert.ok(new Set(entry.evidence.map(e=>e.provider)).size>=2);
+  assert.equal(publication.manifest.sourcePolicy.mode,'champout-primary');
+  for(const [claim,entry] of Object.entries(publication.evidence))for(const e of entry.evidence)assert.ok(e.provider==='champout'||publication.manifest.sourcePolicy.supplementalClaims[claim]?.providers.includes(e.provider),claim);
 });
 test('rain separates direct producers, beneficiaries, and conditional ability copying',()=>{
   const rain=db.producersOfEffect('rain');
@@ -100,21 +101,22 @@ test('Mega forms stay related to the species and have their own stats, abilities
   assert.ok(publication.data.learnsets.some(l=>l.pokemonId==='pokemon-0003001'));
   assert.ok(publication.data.interactions.some(i=>i.rule.relation==='transforms'&&i.rule.target.id==='pokemon-0003001'));
 });
-test('Champions PP corrections, forbidden moves, paralysis and freeze',async()=>{
+test('Champout effective PP, paralysis and freeze',async()=>{
   assert.equal(db.get('moves','move-273').pp,8);assert.equal(db.get('moves','move-668').pp,8);
-  for(const [pid,mid] of [['pokemon-0186000','move-001'],['pokemon-1018000','move-243'],['pokemon-1018000','move-368']])assert.ok(!publication.data.learnsets.some(l=>l.pokemonId===pid&&l.moveId===mid));
   assert.equal(db.get('battle-rules','paralysis').rule.failureProbability,0.125);
   assert.equal(db.get('battle-rules','freezing').rule.thawProbability,0.25);
   assert.equal(db.get('battle-rules','freezing').rule.forcedThawTurn,3);
 });
 test('conditions, berries, Mega stones, neutral natures, immunities and nullable semantics',()=>{
   assert.equal(db.conditions().records.length,6);assert.ok(db.berries().records.length>5);assert.ok(db.megaStones().records.length>20);
-  assert.deepEqual(db.get('natures','hardy').multipliers,{increased:1,decreased:1});assert.equal(db.get('natures','hardy').increased,null);
+  assert.equal(db.get('natures','hardy').name,'Fuerte');assert.equal(db.get('natures','hardy').increased,null);
   assert.equal(db.get('types','normal').effectiveness.ghost,0);
   assert.deepEqual(db.get('moves','move-240').power,{kind:'not-applicable'});
   assert.deepEqual(db.get('moves','move-240').accuracy,{kind:'not-applicable'});
   assert.deepEqual(db.get('moves','move-447').power,{kind:'variable'});
-  assert.equal(db.regulation('m-c').record.validFrom.date,'2026-09-09');
+  assert.ok(publication.data.regulations.length<=1);
+  if(publication.data.regulations.length)assert.equal(publication.data.regulations[0].rules.eligibilityComplete,false);
+  assert.equal(publication.manifest.context.gameVersion,null);
 });
 test('missing capture or bad format cannot alter the previous publication',async()=>{
   const dir=await mkdtemp(path.join(os.tmpdir(),'champions-failure-'));

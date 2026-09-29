@@ -1,0 +1,426 @@
+{
+  "formatVersion": 1,
+  "interpretation": "Mecánicas del módulo Champions de Showdown y del motor que hereda. Se excluyen formatos opcionales y mecánicas ajenas. No se afirma exhaustividad.",
+  "reviewedOn": "2026-09-29",
+  "rules": [
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            10,
+            41
+          ],
+          "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
+          "sha256": "319d932adef2b4d948b8580a0118adbeb492d870462f51e2261259f1c9278100"
+        }
+      ],
+      "id": "stat-calculation",
+      "name": "Cálculo de estadísticas",
+      "value": {
+        "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
+        "exceptionsComplete": false,
+        "hpFormula": "PS = PS base + puntos de PS + 75",
+        "natureBoostMultiplier": 1.1,
+        "natureDropMultiplier": 0.9,
+        "natureNeutralMultiplier": 1,
+        "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/sim/battle-actions",
+          "lines": [
+            1664,
+            1722
+          ],
+          "locator": "BattleActions.getDamage",
+          "sha256": "e0b1495b565ebd772839805118447100fb3b85f679daf14a293be878edb4309d"
+        },
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            198,
+            317
+          ],
+          "locator": "Champions modifyDamage",
+          "sha256": "116bd725b4fc7edfee66813dc486ccec5f465e974a7390e92d6eb1cb3295ca31"
+        },
+        {
+          "document": "supplement/showdown/sim/battle",
+          "lines": [
+            2391,
+            2394
+          ],
+          "locator": "Battle.randomizer",
+          "sha256": "fb5db134428dc80290153c518c7e70176b0e2aa8514afb893aeaa95bfc8f19a5"
+        }
+      ],
+      "id": "damage-calculation",
+      "name": "Cálculo de daño",
+      "value": {
+        "baseFormula": "B = suelo(suelo(suelo(2 × nivel / 5 + 2) × potencia × ataque / defensa) / 50) + 2",
+        "description": "Ataque/Defensa para movimientos físicos; Ataque Especial/Defensa Especial para especiales, salvo sustituciones del movimiento. Los modificadores se aplican sucesivamente con redondeos del motor; la fórmula base no es un simulador completo.",
+        "exceptionsComplete": false,
+        "modifierOrder": [
+          "objetivos múltiples",
+          "clima",
+          "golpe crítico",
+          "azar",
+          "mismo tipo",
+          "efectividad",
+          "quemadura",
+          "modificadores finales"
+        ],
+        "randomMaximumPercent": 100,
+        "randomMinimumPercent": 85,
+        "randomOutcomes": 16,
+        "spreadMultiplier": 0.75,
+        "stabMultiplier": 1.5
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/sim/battle-actions",
+          "lines": [
+            1623,
+            1704
+          ],
+          "locator": "BattleActions.getDamage critical hits",
+          "sha256": "1ec84518d34f9b1d92234e7c536840ceadcbf2fb946e3df3ba01a9bc3c3d3e1d"
+        },
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            219,
+            224
+          ],
+          "locator": "Champions critical damage multiplier",
+          "sha256": "6b4924b7601f9aaa2db9612410dc865b5cc58c1e27be97699c28d0ec885afc6f"
+        }
+      ],
+      "id": "critical-hits",
+      "name": "Golpes críticos",
+      "value": {
+        "criticalChanceDenominators": [
+          24,
+          8,
+          2,
+          1
+        ],
+        "damageMultiplier": 1.5,
+        "description": "Probabilidades desde el nivel normal hasta tres aumentos: 1/24, 1/8, 1/2 y 1. Las habilidades y movimientos pueden modificar o impedir el crítico.",
+        "exceptionsComplete": false,
+        "ignoresNegativeAttackStages": true,
+        "ignoresPositiveDefenseStages": true
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/sim/battle-actions",
+          "lines": [
+            695,
+            743
+          ],
+          "locator": "BattleActions.trySpreadMoveHit accuracy",
+          "sha256": "942948ab78b1651f3d211b039ec74fbfb94ac40f703c8cd87659c4d7b38afe99"
+        }
+      ],
+      "id": "accuracy-evasion",
+      "name": "Precisión y evasión",
+      "value": {
+        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/sim/pokemon",
+          "lines": [
+            576,
+            595
+          ],
+          "locator": "Pokemon.calculateStat boost table",
+          "sha256": "d60aae72405e29e432a8e70c81cd3ab6acd317965d893f95ebddbe22d6e36e1b"
+        }
+      ],
+      "id": "stat-stages",
+      "name": "Niveles de características",
+      "value": {
+        "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/sim/battle",
+          "lines": [
+            404,
+            412
+          ],
+          "locator": "Battle.comparePriority",
+          "sha256": "f98eea83c0d6231c99c0d859e0b76b6767bc5f4a40b2919efc14c11f177ca7d1"
+        },
+        {
+          "document": "supplement/showdown/sim/battle-queue",
+          "lines": [
+            173,
+            195
+          ],
+          "locator": "BattleQueue.resolveAction ordering",
+          "sha256": "dc203cf44222efb9017b0a2560a9a2330fef04589b42c699f6638328b02ecc00"
+        },
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            44,
+            54
+          ],
+          "locator": "Champions getActionSpeed",
+          "sha256": "157235d8842fbb6eb7390452726c6b653e2f97c1a94ed1f4ad93ef411e52c2df"
+        }
+      ],
+      "id": "turn-order",
+      "name": "Orden de acciones",
+      "value": {
+        "description": "Los cambios ordinarios se resuelven antes de las megaevoluciones y estas antes de los movimientos. Dentro de los movimientos manda la prioridad, después la Velocidad. Espacio Raro invierte la comparación de Velocidad dentro de la prioridad. Efectos específicos pueden alterar el orden.",
+        "exceptionsComplete": false,
+        "normalSpeedOrder": "descendente",
+        "trickRoomSpeedOrder": "ascendente"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            123,
+            178
+          ],
+          "locator": "Champions clearVolatile",
+          "sha256": "38105bd37a40cd42504b71c1b831191057193a3250822daa5233dfe6fefa7057"
+        },
+        {
+          "document": "supplement/showdown/sim/battle-actions",
+          "lines": [
+            62,
+            136
+          ],
+          "locator": "BattleActions.switchIn switchCopyFlag",
+          "sha256": "7ec7729dd12d6b953cf94ed14094ffa7e73d59998c69eab8e853c0a74693b071"
+        }
+      ],
+      "id": "switching",
+      "name": "Cambios de Pokémon",
+      "value": {
+        "clearTemporaryMoveCopies": true,
+        "description": "Un cambio ordinario elimina los cambios temporales de estadísticas y los estados volátiles y restaura movimientos y habilidad de base. Los movimientos que transfieren efectos al relevo tienen tratamiento específico.",
+        "exceptionsComplete": false,
+        "resetStatStages": true,
+        "restoreBaseAbility": true
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            55,
+            122
+          ],
+          "locator": "Champions formeChange",
+          "sha256": "4cb93bbc9a7c3031809628e60b81fdd2dad5c809db29095c833a72bc2755fb6d"
+        },
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            184,
+            197
+          ],
+          "locator": "Champions canMegaEvo",
+          "sha256": "ecd88b68f6a6f9f53a6757592889e4b728714e4e72b4e5b8a69d49dccdc35e22"
+        },
+        {
+          "document": "supplement/showdown/sim/battle-actions",
+          "lines": [
+            1898,
+            1916
+          ],
+          "locator": "BattleActions.runMegaEvo",
+          "sha256": "15181ec919dee7553ed32fc35da8d5da3a70bbe3d61b4c4518b68af9dbc397c0"
+        }
+      ],
+      "id": "mega-evolution",
+      "name": "Megaevolución",
+      "value": {
+        "description": "La piedra equipada determina la forma compatible. Solo puede megaevolucionar un Pokémon de cada equipo por combate. La forma mega se conserva al debilitarse; las interacciones de reanimación no confirmadas no se dan por resueltas.",
+        "exceptionsComplete": false,
+        "perSideLimit": 1,
+        "requiresHeldStone": true
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/base/abilities",
+          "lines": [
+            5118,
+            5152
+          ],
+          "locator": "Abilities.trace",
+          "sha256": "68e0ad6ee87cf4f581ba5e1acadeca64bbba76c4df04dec7997647650762f42e"
+        },
+        {
+          "document": "supplement/showdown/base/moves",
+          "lines": [
+            15323,
+            15346
+          ],
+          "locator": "Moves.roleplay",
+          "sha256": "6b25d20fea8adc754ec1308c1466f06b8ba0cc86380cdedf1a522e226ae994e1"
+        },
+        {
+          "document": "supplement/showdown/champions/abilities",
+          "locator": "Champions ability overrides (Trace inherited)",
+          "sha256": "86c3843d402f1ff7be276d8f2da08d6744b8a8822349560b300ddcfa9c1fbc52"
+        },
+        {
+          "document": "supplement/showdown/champions/moves",
+          "locator": "Champions move overrides (Role Play inherited)",
+          "sha256": "e8f8d5adf374462e71f899ed91ef40a06cbd2a3eab96a51ea4980bfb4889bdac"
+        }
+      ],
+      "id": "ability-copying",
+      "name": "Copia de habilidades",
+      "value": {
+        "description": "Rastro elige una habilidad copiable de un rival adyacente; excluye las marcadas como no copiables. Imitación falla si ambas habilidades ya coinciden, si la del objetivo impide Imitación o si la del usuario no puede sustituirse. La presencia de una habilidad de copia no garantiza una ruta concreta.",
+        "exceptionsComplete": false
+      }
+    },
+    {
+      "bindings": [
+        {
+          "document": "supplement/showdown/champions/scripts",
+          "lines": [
+            1,
+            3
+          ],
+          "locator": "Scripts.gen = 9 (Champions)",
+          "sha256": "009e5e38b22dfc910f6cf161a28ef258b7f2741762ad41558ad180780bfada08"
+        },
+        {
+          "document": "supplement/showdown/base/moves",
+          "lines": [
+            2849,
+            2874
+          ],
+          "locator": "Moves.copycat",
+          "sha256": "a43964178f8b9cbf8ad7c8573ed7e8c14f88ec2c29f31fcdee189635f258efea"
+        },
+        {
+          "document": "supplement/showdown/champions/moves",
+          "locator": "Champions overrides for mimic, sketch and metronome",
+          "sha256": "e8f8d5adf374462e71f899ed91ef40a06cbd2a3eab96a51ea4980bfb4889bdac"
+        }
+      ],
+      "id": "move-copying",
+      "name": "Copia y ejecución de otros movimientos",
+      "value": {
+        "description": "Copión ejecuta el último movimiento utilizado si existe y sus propiedades permiten copiarlo. Una copia temporal no añade ese movimiento al aprendizaje permanente. Mímico, Esquema y Metrónomo están marcados como no disponibles en el módulo Champions consultado; no se deduce disponibilidad de las tablas genéricas.",
+        "exceptionsComplete": false
+      }
+    }
+  ]
+}

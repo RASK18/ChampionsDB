@@ -3,43 +3,567 @@
     "regulations/m-c/available": {
       "value": true,
       "witnesses": [
-        "293a4e2f57474b16daff7ec5350d5a2ee6f2b4cf265599ae8d796b3658fa20ef",
-        "c1cf2b1a26814d06f72965c850b92c7997b42ee732a0d6eb8388f5dbe0820257"
+        "4bd40758e0a52aca9c66cc2ae934ff9307c74672fe96d32d8c27b5ce6222cc19"
       ]
     },
     "regulations/m-c/identity": {
       "value": true,
       "witnesses": [
-        "293a4e2f57474b16daff7ec5350d5a2ee6f2b4cf265599ae8d796b3658fa20ef",
-        "c1cf2b1a26814d06f72965c850b92c7997b42ee732a0d6eb8388f5dbe0820257"
+        "4bd40758e0a52aca9c66cc2ae934ff9307c74672fe96d32d8c27b5ce6222cc19"
       ]
     },
     "regulations/m-c/name": {
       "value": "Reglamento M-C",
       "witnesses": [
-        "3484e3710c5fb8ca0beae1627872ba76f9bec40f1744a3c24335a3f42159dcc8",
-        "504a5dde424c40b9191c07a7145e0e50f47a4c8c39f882225ed42c9319ef5654"
+        "3fce2992cdca2cb8bd28fc99e5374de06486e5826a625eadb22f0a3b193b4dc5"
       ]
     },
-    "regulations/m-c/rules.playerTimeSeconds": {
-      "value": 420,
+    "regulations/m-c/rules": {
+      "value": {
+        "battleTimeSeconds": 1200,
+        "eligibilityComplete": false,
+        "eligibilityScope": "Lista oficial de formas de entrada al equipo; las transformaciones en combate se documentan por separado. No valida movimientos, habilidades u objetos del equipo.",
+        "eligiblePokemon": [
+          "pokemon-0003000",
+          "pokemon-0006000",
+          "pokemon-0009000",
+          "pokemon-0015000",
+          "pokemon-0018000",
+          "pokemon-0024000",
+          "pokemon-0025000",
+          "pokemon-0026000",
+          "pokemon-0026001",
+          "pokemon-0036000",
+          "pokemon-0038000",
+          "pokemon-0038001",
+          "pokemon-0040000",
+          "pokemon-0045000",
+          "pokemon-0053000",
+          "pokemon-0053001",
+          "pokemon-0059000",
+          "pokemon-0059001",
+          "pokemon-0065000",
+          "pokemon-0068000",
+          "pokemon-0071000",
+          "pokemon-0080000",
+          "pokemon-0080002",
+          "pokemon-0083000",
+          "pokemon-0094000",
+          "pokemon-0115000",
+          "pokemon-0121000",
+          "pokemon-0122000",
+          "pokemon-0127000",
+          "pokemon-0128000",
+          "pokemon-0128001",
+          "pokemon-0128002",
+          "pokemon-0128003",
+          "pokemon-0130000",
+          "pokemon-0132000",
+          "pokemon-0134000",
+          "pokemon-0135000",
+          "pokemon-0136000",
+          "pokemon-0142000",
+          "pokemon-0143000",
+          "pokemon-0149000",
+          "pokemon-0154000",
+          "pokemon-0157000",
+          "pokemon-0157001",
+          "pokemon-0160000",
+          "pokemon-0168000",
+          "pokemon-0181000",
+          "pokemon-0184000",
+          "pokemon-0186000",
+          "pokemon-0196000",
+          "pokemon-0197000",
+          "pokemon-0199000",
+          "pokemon-0199001",
+          "pokemon-0205000",
+          "pokemon-0208000",
+          "pokemon-0211000",
+          "pokemon-0212000",
+          "pokemon-0214000",
+          "pokemon-0227000",
+          "pokemon-0229000",
+          "pokemon-0248000",
+          "pokemon-0254000",
+          "pokemon-0257000",
+          "pokemon-0260000",
+          "pokemon-0279000",
+          "pokemon-0282000",
+          "pokemon-0302000",
+          "pokemon-0303000",
+          "pokemon-0306000",
+          "pokemon-0308000",
+          "pokemon-0310000",
+          "pokemon-0317000",
+          "pokemon-0319000",
+          "pokemon-0323000",
+          "pokemon-0324000",
+          "pokemon-0334000",
+          "pokemon-0350000",
+          "pokemon-0351000",
+          "pokemon-0354000",
+          "pokemon-0358000",
+          "pokemon-0359000",
+          "pokemon-0362000",
+          "pokemon-0373000",
+          "pokemon-0376000",
+          "pokemon-0389000",
+          "pokemon-0392000",
+          "pokemon-0395000",
+          "pokemon-0398000",
+          "pokemon-0405000",
+          "pokemon-0407000",
+          "pokemon-0409000",
+          "pokemon-0411000",
+          "pokemon-0428000",
+          "pokemon-0442000",
+          "pokemon-0445000",
+          "pokemon-0448000",
+          "pokemon-0450000",
+          "pokemon-0454000",
+          "pokemon-0460000",
+          "pokemon-0461000",
+          "pokemon-0464000",
+          "pokemon-0470000",
+          "pokemon-0471000",
+          "pokemon-0472000",
+          "pokemon-0473000",
+          "pokemon-0475000",
+          "pokemon-0478000",
+          "pokemon-0479000",
+          "pokemon-0479001",
+          "pokemon-0479002",
+          "pokemon-0479003",
+          "pokemon-0479004",
+          "pokemon-0479005",
+          "pokemon-0497000",
+          "pokemon-0500000",
+          "pokemon-0503000",
+          "pokemon-0503001",
+          "pokemon-0505000",
+          "pokemon-0510000",
+          "pokemon-0512000",
+          "pokemon-0514000",
+          "pokemon-0516000",
+          "pokemon-0518000",
+          "pokemon-0530000",
+          "pokemon-0531000",
+          "pokemon-0534000",
+          "pokemon-0545000",
+          "pokemon-0547000",
+          "pokemon-0553000",
+          "pokemon-0560000",
+          "pokemon-0563000",
+          "pokemon-0569000",
+          "pokemon-0571000",
+          "pokemon-0571001",
+          "pokemon-0579000",
+          "pokemon-0584000",
+          "pokemon-0587000",
+          "pokemon-0604000",
+          "pokemon-0609000",
+          "pokemon-0614000",
+          "pokemon-0618000",
+          "pokemon-0618001",
+          "pokemon-0623000",
+          "pokemon-0635000",
+          "pokemon-0637000",
+          "pokemon-0652000",
+          "pokemon-0655000",
+          "pokemon-0658000",
+          "pokemon-0660000",
+          "pokemon-0663000",
+          "pokemon-0668000",
+          "pokemon-0670005",
+          "pokemon-0671000",
+          "pokemon-0673000",
+          "pokemon-0675000",
+          "pokemon-0676000",
+          "pokemon-0678000",
+          "pokemon-0678001",
+          "pokemon-0681000",
+          "pokemon-0683000",
+          "pokemon-0685000",
+          "pokemon-0687000",
+          "pokemon-0689000",
+          "pokemon-0691000",
+          "pokemon-0693000",
+          "pokemon-0695000",
+          "pokemon-0697000",
+          "pokemon-0699000",
+          "pokemon-0700000",
+          "pokemon-0701000",
+          "pokemon-0702000",
+          "pokemon-0706000",
+          "pokemon-0706001",
+          "pokemon-0707000",
+          "pokemon-0709000",
+          "pokemon-0711000",
+          "pokemon-0711001",
+          "pokemon-0711002",
+          "pokemon-0711003",
+          "pokemon-0713000",
+          "pokemon-0713001",
+          "pokemon-0715000",
+          "pokemon-0724000",
+          "pokemon-0724001",
+          "pokemon-0727000",
+          "pokemon-0730000",
+          "pokemon-0733000",
+          "pokemon-0740000",
+          "pokemon-0745000",
+          "pokemon-0745001",
+          "pokemon-0745002",
+          "pokemon-0748000",
+          "pokemon-0750000",
+          "pokemon-0752000",
+          "pokemon-0758000",
+          "pokemon-0763000",
+          "pokemon-0765000",
+          "pokemon-0766000",
+          "pokemon-0768000",
+          "pokemon-0778000",
+          "pokemon-0780000",
+          "pokemon-0784000",
+          "pokemon-0812000",
+          "pokemon-0815000",
+          "pokemon-0818000",
+          "pokemon-0823000",
+          "pokemon-0828000",
+          "pokemon-0841000",
+          "pokemon-0842000",
+          "pokemon-0844000",
+          "pokemon-0849000",
+          "pokemon-0849001",
+          "pokemon-0853000",
+          "pokemon-0855000",
+          "pokemon-0858000",
+          "pokemon-0861000",
+          "pokemon-0863000",
+          "pokemon-0865000",
+          "pokemon-0866000",
+          "pokemon-0867000",
+          "pokemon-0869000",
+          "pokemon-0870000",
+          "pokemon-0871000",
+          "pokemon-0876000",
+          "pokemon-0876001",
+          "pokemon-0877000",
+          "pokemon-0887000",
+          "pokemon-0899000",
+          "pokemon-0900000",
+          "pokemon-0902000",
+          "pokemon-0902001",
+          "pokemon-0903000",
+          "pokemon-0904000",
+          "pokemon-0908000",
+          "pokemon-0911000",
+          "pokemon-0914000",
+          "pokemon-0923000",
+          "pokemon-0925001",
+          "pokemon-0930000",
+          "pokemon-0931000",
+          "pokemon-0931002",
+          "pokemon-0934000",
+          "pokemon-0936000",
+          "pokemon-0937000",
+          "pokemon-0939000",
+          "pokemon-0943000",
+          "pokemon-0952000",
+          "pokemon-0956000",
+          "pokemon-0959000",
+          "pokemon-0964000",
+          "pokemon-0968000",
+          "pokemon-0970000",
+          "pokemon-0972000",
+          "pokemon-0979000",
+          "pokemon-0981000",
+          "pokemon-0983000",
+          "pokemon-0998000",
+          "pokemon-1000000",
+          "pokemon-1013000",
+          "pokemon-1018000",
+          "pokemon-1019000"
+        ],
+        "eligiblePokemonNames": [
+          "Venusaur",
+          "Charizard",
+          "Blastoise",
+          "Beedrill",
+          "Pidgeot",
+          "Arbok",
+          "Pikachu",
+          "Raichu",
+          "Raichu (Forma de Alola)",
+          "Clefable",
+          "Ninetales",
+          "Ninetales (Forma de Alola)",
+          "Wigglytuff",
+          "Vileplume",
+          "Persian",
+          "Persian (Forma de Alola)",
+          "Arcanine",
+          "Arcanine (Forma de Hisui)",
+          "Alakazam",
+          "Machamp",
+          "Victreebel",
+          "Slowbro",
+          "Slowbro (Forma de Galar)",
+          "Farfetch’d",
+          "Gengar",
+          "Kangaskhan",
+          "Starmie",
+          "Mr. Mime",
+          "Pinsir",
+          "Tauros",
+          "Tauros (Forma de Paldea (Variedad Combatiente))",
+          "Tauros (Forma de Paldea (Variedad Ardiente))",
+          "Tauros (Forma de Paldea (Variedad Acuática))",
+          "Gyarados",
+          "Ditto",
+          "Vaporeon",
+          "Jolteon",
+          "Flareon",
+          "Aerodactyl",
+          "Snorlax",
+          "Dragonite",
+          "Meganium",
+          "Typhlosion",
+          "Typhlosion (Forma de Hisui)",
+          "Feraligatr",
+          "Ariados",
+          "Ampharos",
+          "Azumarill",
+          "Politoed",
+          "Espeon",
+          "Umbreon",
+          "Slowking",
+          "Slowking (Forma de Galar)",
+          "Forretress",
+          "Steelix",
+          "Qwilfish",
+          "Scizor",
+          "Heracross",
+          "Skarmory",
+          "Houndoom",
+          "Tyranitar",
+          "Sceptile",
+          "Blaziken",
+          "Swampert",
+          "Pelipper",
+          "Gardevoir",
+          "Sableye",
+          "Mawile",
+          "Aggron",
+          "Medicham",
+          "Manectric",
+          "Swalot",
+          "Sharpedo",
+          "Camerupt",
+          "Torkoal",
+          "Altaria",
+          "Milotic",
+          "Castform",
+          "Banette",
+          "Chimecho",
+          "Absol",
+          "Glalie",
+          "Salamence",
+          "Metagross",
+          "Torterra",
+          "Infernape",
+          "Empoleon",
+          "Staraptor",
+          "Luxray",
+          "Roserade",
+          "Rampardos",
+          "Bastiodon",
+          "Lopunny",
+          "Spiritomb",
+          "Garchomp",
+          "Lucario",
+          "Hippowdon",
+          "Toxicroak",
+          "Abomasnow",
+          "Weavile",
+          "Rhyperior",
+          "Leafeon",
+          "Glaceon",
+          "Gliscor",
+          "Mamoswine",
+          "Gallade",
+          "Froslass",
+          "Rotom (Forma de Rotom)",
+          "Rotom (Rotom Calor)",
+          "Rotom (Rotom Lavado)",
+          "Rotom (Rotom Frío)",
+          "Rotom (Rotom Ventilador)",
+          "Rotom (Rotom Corte)",
+          "Serperior",
+          "Emboar",
+          "Samurott",
+          "Samurott (Forma de Hisui)",
+          "Watchog",
+          "Liepard",
+          "Simisage",
+          "Simisear",
+          "Simipour",
+          "Musharna",
+          "Excadrill",
+          "Audino",
+          "Conkeldurr",
+          "Scolipede",
+          "Whimsicott",
+          "Krookodile",
+          "Scrafty",
+          "Cofagrigus",
+          "Garbodor",
+          "Zoroark",
+          "Zoroark (Forma de Hisui)",
+          "Reuniclus",
+          "Vanilluxe",
+          "Emolga",
+          "Eelektross",
+          "Chandelure",
+          "Beartic",
+          "Stunfisk",
+          "Stunfisk (Forma de Galar)",
+          "Golurk",
+          "Hydreigon",
+          "Volcarona",
+          "Chesnaught",
+          "Delphox",
+          "Greninja",
+          "Diggersby",
+          "Talonflame",
+          "Vivillon",
+          "Pyroar",
+          "Floette",
+          "Florges",
+          "Gogoat",
+          "Pangoro",
+          "Furfrou",
+          "Meowstic (Macho)",
+          "Meowstic (Hembra)",
+          "Aegislash",
+          "Aromatisse",
+          "Slurpuff",
+          "Malamar",
+          "Barbaracle",
+          "Dragalge",
+          "Clawitzer",
+          "Heliolisk",
+          "Tyrantrum",
+          "Aurorus",
+          "Sylveon",
+          "Hawlucha",
+          "Dedenne",
+          "Goodra",
+          "Goodra (Forma de Hisui)",
+          "Klefki",
+          "Trevenant",
+          "Gourgeist (Variante Mediana)",
+          "Gourgeist (Variante Pequeña)",
+          "Gourgeist (Variante Grande)",
+          "Gourgeist (Variante Enorme)",
+          "Avalugg",
+          "Avalugg (Forma de Hisui)",
+          "Noivern",
+          "Decidueye",
+          "Decidueye (Forma de Hisui)",
+          "Incineroar",
+          "Primarina",
+          "Toucannon",
+          "Crabominable",
+          "Lycanroc (Forma Diurna)",
+          "Lycanroc (Forma Nocturna)",
+          "Lycanroc (Forma Crepuscular)",
+          "Toxapex",
+          "Mudsdale",
+          "Araquanid",
+          "Salazzle",
+          "Tsareena",
+          "Oranguru",
+          "Passimian",
+          "Golisopod",
+          "Mimikyu",
+          "Drampa",
+          "Kommo-o",
+          "Rillaboom",
+          "Cinderace",
+          "Inteleon",
+          "Corviknight",
+          "Thievul",
+          "Flapple",
+          "Appletun",
+          "Sandaconda",
+          "Toxtricity (Forma Aguda)",
+          "Toxtricity (Forma Grave)",
+          "Grapploct",
+          "Polteageist",
+          "Hatterene",
+          "Grimmsnarl",
+          "Perrserker",
+          "Sirfetch’d",
+          "Mr. Rime",
+          "Runerigus",
+          "Alcremie",
+          "Falinks",
+          "Pincurchin",
+          "Indeedee (Macho)",
+          "Indeedee (Hembra)",
+          "Morpeko",
+          "Dragapult",
+          "Wyrdeer",
+          "Kleavor",
+          "Basculegion (Macho)",
+          "Basculegion (Hembra)",
+          "Sneasler",
+          "Overqwil",
+          "Meowscarada",
+          "Skeledirge",
+          "Quaquaval",
+          "Pawmot",
+          "Maushold",
+          "Arboliva",
+          "Squawkabilly",
+          "Squawkabilly",
+          "Garganacl",
+          "Armarouge",
+          "Ceruledge",
+          "Bellibolt",
+          "Mabosstiff",
+          "Scovillain",
+          "Espathra",
+          "Tinkaton",
+          "Palafin",
+          "Orthworm",
+          "Glimmora",
+          "Houndstone",
+          "Annihilape",
+          "Farigiraf",
+          "Kingambit",
+          "Baxcalibur",
+          "Gholdengo",
+          "Sinistcha",
+          "Archaludon",
+          "Hydrapple"
+        ],
+        "endsAtUtc": "2026-12-02T01:59:00Z",
+        "itemClause": true,
+        "megaEvolutionLimit": 1,
+        "playerTimeSeconds": 420,
+        "startsAtUtc": "2026-09-09T02:00:00Z",
+        "teamPreviewSeconds": 90,
+        "turnTimeSeconds": 45,
+        "unmappedPokemonNames": [
+          "Vivillon"
+        ]
+      },
       "witnesses": [
-        "9851b162686758ca809da4b5a9c2a6e650f9bdd9f70ad70305a2af97d16f1ade",
-        "93e87a1b4fe819a880f2504cf797e836e0e32b1e7698189035bb1d281475c2ed"
-      ]
-    },
-    "regulations/m-c/rules.teamPreviewSeconds": {
-      "value": 90,
-      "witnesses": [
-        "93abd8d0d6aba4f7013d4f4b1cf7d0699a96a11cd2b9d5a3e634f14bbe443ded",
-        "7e61bc4ba473085ae6a16a9bdcfd71dfe404bfbd6168be1916472256bbbb3cdf"
-      ]
-    },
-    "regulations/m-c/rules.turnTimeSeconds": {
-      "value": 45,
-      "witnesses": [
-        "ed81e53b72f3f81f9ca450dc4f0bb10144990f1feacac9d58c1d5e80262aaa7d",
-        "3f6507d701255913f36cd2a3b05811223cdc53316c34b6be0490ece4ae993803"
+        "cdda709532f9eb1e78c591ff70b48c5872e1265976727dcc3613fc30752eed5e",
+        "f54857a1b700a8e2e0a983ae61b5ab5dfb4209132b92b962503b3dd49c1ad0d3"
       ]
     },
     "regulations/m-c/validFrom": {
@@ -48,8 +572,7 @@
         "precision": "day"
       },
       "witnesses": [
-        "2ea2ccb71d84a769c422527c5e0366d51d5aacf5c2f3f2c4ca0c893705612e9c",
-        "a73236584763f055d5f292ac95fcfef591b61c49954e5ce9792b81d310a263a3"
+        "f36f97826307a63a8ab2dcceb0576223bedb5f15e9aea85283efff867590d275"
       ]
     },
     "regulations/m-c/validUntil": {
@@ -58,56 +581,16 @@
         "precision": "day"
       },
       "witnesses": [
-        "49f426ea4aa3cc5bd16a1f4f7eec58ea821d9a42740ab46890b4b8f163180937",
-        "6d89eb9ae8fd1c9e70752c01b2c21fb155fa4891641f47b6111869dacd2b49d5"
+        "1934b05283c5dd76927e6bebac6dab07b57bdd2263775b904b2d649954bf7feb"
       ]
     }
   },
   "observations": {
-    "293a4e2f57474b16daff7ec5350d5a2ee6f2b4cf265599ae8d796b3658fa20ef": {
-      "context": "champions-current-capture",
-      "document": "official/regulation-m-c",
-      "locator": "heading",
-      "observed": "M-C",
-      "provider": "pokemon",
-      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
-      "value": true
-    },
-    "2ea2ccb71d84a769c422527c5e0366d51d5aacf5c2f3f2c4ca0c893705612e9c": {
-      "context": "champions-current-capture",
-      "document": "official/regulation-m-c",
-      "locator": "Duración del reglamento M-C",
-      "observed": "9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC",
-      "provider": "pokemon",
-      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
-      "value": {
-        "date": "2026-09-09",
-        "precision": "day"
-      }
-    },
-    "3484e3710c5fb8ca0beae1627872ba76f9bec40f1744a3c24335a3f42159dcc8": {
-      "context": "champions-current-capture",
-      "document": "official/regulation-m-c",
-      "locator": "heading",
-      "observed": "M-C",
-      "provider": "pokemon",
-      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
-      "value": "Reglamento M-C"
-    },
-    "3f6507d701255913f36cd2a3b05811223cdc53316c34b6be0490ece4ae993803": {
-      "context": "champions-current-capture",
-      "document": "serebii/regulation-m-c",
-      "locator": "Turn Time: 45 Seconds",
-      "observed": "Turn Time: 45 Seconds",
-      "provider": "serebii",
-      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
-      "value": 45
-    },
-    "49f426ea4aa3cc5bd16a1f4f7eec58ea821d9a42740ab46890b4b8f163180937": {
-      "context": "champions-current-capture",
-      "document": "official/regulation-m-c",
-      "locator": "Duración del reglamento M-C",
-      "observed": "9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC",
+    "1934b05283c5dd76927e6bebac6dab07b57bdd2263775b904b2d649954bf7feb": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/official/regulation",
+      "locator": "Reglamento M-C: periodo, mecánicas, objetos y límites",
+      "observed": "Reglamento Reglamento M-C (actualización del 9 de septiembre) ¡Nuevo reglamento para los Combates Clasificatorios! Duración del reglamento M-C Del miércoles 9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC Detalles del reglamento M-C Pokémon permitidos De todos los Pokémon disponibles en Pokémon Champions, solo podrán participar los que aparecen en la lista de Pokémon permitidos. Pokémon permitidos Mecánicas Algunos Pokémon pueden megaevolucionar si llevan una Megapiedra. Solo se puede megaevolucionar una vez por combate. Las siguientes megaevoluciones estarán permitidas a partir de este reglamento. • Mega-Absol Z • Mega-Salamence • Mega-Garchomp Z • Mega-Lucario Z • Mega-Golisopod • Mega-Baxcalibur Objetos equipados No se permite que dos Pokémon lleven el mismo objeto. Límites de tiempo Tiempo de combate: 20 minutos Tiempo del jugador: 7 minutos Tiempo de turno: 45 segundos Tiempo para la vista previa de equipos: 90 segundos ¿Qué es el reglamento? En el reglamento se especifican diversas restricciones, como qué Pokémon pueden participar o qué objetos se pueden usar. Más noticias",
       "provider": "pokemon",
       "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
       "value": {
@@ -115,92 +598,2446 @@
         "precision": "day"
       }
     },
-    "504a5dde424c40b9191c07a7145e0e50f47a4c8c39f882225ed42c9319ef5654": {
-      "context": "champions-current-capture",
-      "document": "serebii/regulation-m-c",
-      "locator": "heading",
-      "observed": "M-C",
-      "provider": "serebii",
-      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+    "3fce2992cdca2cb8bd28fc99e5374de06486e5826a625eadb22f0a3b193b4dc5": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/official/regulation",
+      "locator": "Reglamento M-C: periodo, mecánicas, objetos y límites",
+      "observed": "Reglamento Reglamento M-C (actualización del 9 de septiembre) ¡Nuevo reglamento para los Combates Clasificatorios! Duración del reglamento M-C Del miércoles 9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC Detalles del reglamento M-C Pokémon permitidos De todos los Pokémon disponibles en Pokémon Champions, solo podrán participar los que aparecen en la lista de Pokémon permitidos. Pokémon permitidos Mecánicas Algunos Pokémon pueden megaevolucionar si llevan una Megapiedra. Solo se puede megaevolucionar una vez por combate. Las siguientes megaevoluciones estarán permitidas a partir de este reglamento. • Mega-Absol Z • Mega-Salamence • Mega-Garchomp Z • Mega-Lucario Z • Mega-Golisopod • Mega-Baxcalibur Objetos equipados No se permite que dos Pokémon lleven el mismo objeto. Límites de tiempo Tiempo de combate: 20 minutos Tiempo del jugador: 7 minutos Tiempo de turno: 45 segundos Tiempo para la vista previa de equipos: 90 segundos ¿Qué es el reglamento? En el reglamento se especifican diversas restricciones, como qué Pokémon pueden participar o qué objetos se pueden usar. Más noticias",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
       "value": "Reglamento M-C"
     },
-    "6d89eb9ae8fd1c9e70752c01b2c21fb155fa4891641f47b6111869dacd2b49d5": {
-      "context": "champions-current-capture",
-      "document": "serebii/regulation-m-c",
-      "locator": "Regulation Date",
-      "observed": "Date September 9th 2026 - December 2nd 2026",
-      "provider": "serebii",
-      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
+    "4bd40758e0a52aca9c66cc2ae934ff9307c74672fe96d32d8c27b5ce6222cc19": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/official/regulation",
+      "locator": "Reglamento M-C: periodo, mecánicas, objetos y límites",
+      "observed": "Reglamento Reglamento M-C (actualización del 9 de septiembre) ¡Nuevo reglamento para los Combates Clasificatorios! Duración del reglamento M-C Del miércoles 9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC Detalles del reglamento M-C Pokémon permitidos De todos los Pokémon disponibles en Pokémon Champions, solo podrán participar los que aparecen en la lista de Pokémon permitidos. Pokémon permitidos Mecánicas Algunos Pokémon pueden megaevolucionar si llevan una Megapiedra. Solo se puede megaevolucionar una vez por combate. Las siguientes megaevoluciones estarán permitidas a partir de este reglamento. • Mega-Absol Z • Mega-Salamence • Mega-Garchomp Z • Mega-Lucario Z • Mega-Golisopod • Mega-Baxcalibur Objetos equipados No se permite que dos Pokémon lleven el mismo objeto. Límites de tiempo Tiempo de combate: 20 minutos Tiempo del jugador: 7 minutos Tiempo de turno: 45 segundos Tiempo para la vista previa de equipos: 90 segundos ¿Qué es el reglamento? En el reglamento se especifican diversas restricciones, como qué Pokémon pueden participar o qué objetos se pueden usar. Más noticias",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
+      "value": true
+    },
+    "cdda709532f9eb1e78c591ff70b48c5872e1265976727dcc3613fc30752eed5e": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/official/regulation",
+      "locator": "Reglamento M-C: periodo, mecánicas, objetos y límites",
+      "observed": "Reglamento Reglamento M-C (actualización del 9 de septiembre) ¡Nuevo reglamento para los Combates Clasificatorios! Duración del reglamento M-C Del miércoles 9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC Detalles del reglamento M-C Pokémon permitidos De todos los Pokémon disponibles en Pokémon Champions, solo podrán participar los que aparecen en la lista de Pokémon permitidos. Pokémon permitidos Mecánicas Algunos Pokémon pueden megaevolucionar si llevan una Megapiedra. Solo se puede megaevolucionar una vez por combate. Las siguientes megaevoluciones estarán permitidas a partir de este reglamento. • Mega-Absol Z • Mega-Salamence • Mega-Garchomp Z • Mega-Lucario Z • Mega-Golisopod • Mega-Baxcalibur Objetos equipados No se permite que dos Pokémon lleven el mismo objeto. Límites de tiempo Tiempo de combate: 20 minutos Tiempo del jugador: 7 minutos Tiempo de turno: 45 segundos Tiempo para la vista previa de equipos: 90 segundos ¿Qué es el reglamento? En el reglamento se especifican diversas restricciones, como qué Pokémon pueden participar o qué objetos se pueden usar. Más noticias",
+      "provider": "pokemon",
+      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
       "value": {
-        "date": "2026-12-02",
-        "precision": "day"
+        "battleTimeSeconds": 1200,
+        "eligibilityComplete": false,
+        "eligibilityScope": "Lista oficial de formas de entrada al equipo; las transformaciones en combate se documentan por separado. No valida movimientos, habilidades u objetos del equipo.",
+        "eligiblePokemon": [
+          "pokemon-0003000",
+          "pokemon-0006000",
+          "pokemon-0009000",
+          "pokemon-0015000",
+          "pokemon-0018000",
+          "pokemon-0024000",
+          "pokemon-0025000",
+          "pokemon-0026000",
+          "pokemon-0026001",
+          "pokemon-0036000",
+          "pokemon-0038000",
+          "pokemon-0038001",
+          "pokemon-0040000",
+          "pokemon-0045000",
+          "pokemon-0053000",
+          "pokemon-0053001",
+          "pokemon-0059000",
+          "pokemon-0059001",
+          "pokemon-0065000",
+          "pokemon-0068000",
+          "pokemon-0071000",
+          "pokemon-0080000",
+          "pokemon-0080002",
+          "pokemon-0083000",
+          "pokemon-0094000",
+          "pokemon-0115000",
+          "pokemon-0121000",
+          "pokemon-0122000",
+          "pokemon-0127000",
+          "pokemon-0128000",
+          "pokemon-0128001",
+          "pokemon-0128002",
+          "pokemon-0128003",
+          "pokemon-0130000",
+          "pokemon-0132000",
+          "pokemon-0134000",
+          "pokemon-0135000",
+          "pokemon-0136000",
+          "pokemon-0142000",
+          "pokemon-0143000",
+          "pokemon-0149000",
+          "pokemon-0154000",
+          "pokemon-0157000",
+          "pokemon-0157001",
+          "pokemon-0160000",
+          "pokemon-0168000",
+          "pokemon-0181000",
+          "pokemon-0184000",
+          "pokemon-0186000",
+          "pokemon-0196000",
+          "pokemon-0197000",
+          "pokemon-0199000",
+          "pokemon-0199001",
+          "pokemon-0205000",
+          "pokemon-0208000",
+          "pokemon-0211000",
+          "pokemon-0212000",
+          "pokemon-0214000",
+          "pokemon-0227000",
+          "pokemon-0229000",
+          "pokemon-0248000",
+          "pokemon-0254000",
+          "pokemon-0257000",
+          "pokemon-0260000",
+          "pokemon-0279000",
+          "pokemon-0282000",
+          "pokemon-0302000",
+          "pokemon-0303000",
+          "pokemon-0306000",
+          "pokemon-0308000",
+          "pokemon-0310000",
+          "pokemon-0317000",
+          "pokemon-0319000",
+          "pokemon-0323000",
+          "pokemon-0324000",
+          "pokemon-0334000",
+          "pokemon-0350000",
+          "pokemon-0351000",
+          "pokemon-0354000",
+          "pokemon-0358000",
+          "pokemon-0359000",
+          "pokemon-0362000",
+          "pokemon-0373000",
+          "pokemon-0376000",
+          "pokemon-0389000",
+          "pokemon-0392000",
+          "pokemon-0395000",
+          "pokemon-0398000",
+          "pokemon-0405000",
+          "pokemon-0407000",
+          "pokemon-0409000",
+          "pokemon-0411000",
+          "pokemon-0428000",
+          "pokemon-0442000",
+          "pokemon-0445000",
+          "pokemon-0448000",
+          "pokemon-0450000",
+          "pokemon-0454000",
+          "pokemon-0460000",
+          "pokemon-0461000",
+          "pokemon-0464000",
+          "pokemon-0470000",
+          "pokemon-0471000",
+          "pokemon-0472000",
+          "pokemon-0473000",
+          "pokemon-0475000",
+          "pokemon-0478000",
+          "pokemon-0479000",
+          "pokemon-0479001",
+          "pokemon-0479002",
+          "pokemon-0479003",
+          "pokemon-0479004",
+          "pokemon-0479005",
+          "pokemon-0497000",
+          "pokemon-0500000",
+          "pokemon-0503000",
+          "pokemon-0503001",
+          "pokemon-0505000",
+          "pokemon-0510000",
+          "pokemon-0512000",
+          "pokemon-0514000",
+          "pokemon-0516000",
+          "pokemon-0518000",
+          "pokemon-0530000",
+          "pokemon-0531000",
+          "pokemon-0534000",
+          "pokemon-0545000",
+          "pokemon-0547000",
+          "pokemon-0553000",
+          "pokemon-0560000",
+          "pokemon-0563000",
+          "pokemon-0569000",
+          "pokemon-0571000",
+          "pokemon-0571001",
+          "pokemon-0579000",
+          "pokemon-0584000",
+          "pokemon-0587000",
+          "pokemon-0604000",
+          "pokemon-0609000",
+          "pokemon-0614000",
+          "pokemon-0618000",
+          "pokemon-0618001",
+          "pokemon-0623000",
+          "pokemon-0635000",
+          "pokemon-0637000",
+          "pokemon-0652000",
+          "pokemon-0655000",
+          "pokemon-0658000",
+          "pokemon-0660000",
+          "pokemon-0663000",
+          "pokemon-0668000",
+          "pokemon-0670005",
+          "pokemon-0671000",
+          "pokemon-0673000",
+          "pokemon-0675000",
+          "pokemon-0676000",
+          "pokemon-0678000",
+          "pokemon-0678001",
+          "pokemon-0681000",
+          "pokemon-0683000",
+          "pokemon-0685000",
+          "pokemon-0687000",
+          "pokemon-0689000",
+          "pokemon-0691000",
+          "pokemon-0693000",
+          "pokemon-0695000",
+          "pokemon-0697000",
+          "pokemon-0699000",
+          "pokemon-0700000",
+          "pokemon-0701000",
+          "pokemon-0702000",
+          "pokemon-0706000",
+          "pokemon-0706001",
+          "pokemon-0707000",
+          "pokemon-0709000",
+          "pokemon-0711000",
+          "pokemon-0711001",
+          "pokemon-0711002",
+          "pokemon-0711003",
+          "pokemon-0713000",
+          "pokemon-0713001",
+          "pokemon-0715000",
+          "pokemon-0724000",
+          "pokemon-0724001",
+          "pokemon-0727000",
+          "pokemon-0730000",
+          "pokemon-0733000",
+          "pokemon-0740000",
+          "pokemon-0745000",
+          "pokemon-0745001",
+          "pokemon-0745002",
+          "pokemon-0748000",
+          "pokemon-0750000",
+          "pokemon-0752000",
+          "pokemon-0758000",
+          "pokemon-0763000",
+          "pokemon-0765000",
+          "pokemon-0766000",
+          "pokemon-0768000",
+          "pokemon-0778000",
+          "pokemon-0780000",
+          "pokemon-0784000",
+          "pokemon-0812000",
+          "pokemon-0815000",
+          "pokemon-0818000",
+          "pokemon-0823000",
+          "pokemon-0828000",
+          "pokemon-0841000",
+          "pokemon-0842000",
+          "pokemon-0844000",
+          "pokemon-0849000",
+          "pokemon-0849001",
+          "pokemon-0853000",
+          "pokemon-0855000",
+          "pokemon-0858000",
+          "pokemon-0861000",
+          "pokemon-0863000",
+          "pokemon-0865000",
+          "pokemon-0866000",
+          "pokemon-0867000",
+          "pokemon-0869000",
+          "pokemon-0870000",
+          "pokemon-0871000",
+          "pokemon-0876000",
+          "pokemon-0876001",
+          "pokemon-0877000",
+          "pokemon-0887000",
+          "pokemon-0899000",
+          "pokemon-0900000",
+          "pokemon-0902000",
+          "pokemon-0902001",
+          "pokemon-0903000",
+          "pokemon-0904000",
+          "pokemon-0908000",
+          "pokemon-0911000",
+          "pokemon-0914000",
+          "pokemon-0923000",
+          "pokemon-0925001",
+          "pokemon-0930000",
+          "pokemon-0931000",
+          "pokemon-0931002",
+          "pokemon-0934000",
+          "pokemon-0936000",
+          "pokemon-0937000",
+          "pokemon-0939000",
+          "pokemon-0943000",
+          "pokemon-0952000",
+          "pokemon-0956000",
+          "pokemon-0959000",
+          "pokemon-0964000",
+          "pokemon-0968000",
+          "pokemon-0970000",
+          "pokemon-0972000",
+          "pokemon-0979000",
+          "pokemon-0981000",
+          "pokemon-0983000",
+          "pokemon-0998000",
+          "pokemon-1000000",
+          "pokemon-1013000",
+          "pokemon-1018000",
+          "pokemon-1019000"
+        ],
+        "eligiblePokemonNames": [
+          "Venusaur",
+          "Charizard",
+          "Blastoise",
+          "Beedrill",
+          "Pidgeot",
+          "Arbok",
+          "Pikachu",
+          "Raichu",
+          "Raichu (Forma de Alola)",
+          "Clefable",
+          "Ninetales",
+          "Ninetales (Forma de Alola)",
+          "Wigglytuff",
+          "Vileplume",
+          "Persian",
+          "Persian (Forma de Alola)",
+          "Arcanine",
+          "Arcanine (Forma de Hisui)",
+          "Alakazam",
+          "Machamp",
+          "Victreebel",
+          "Slowbro",
+          "Slowbro (Forma de Galar)",
+          "Farfetch’d",
+          "Gengar",
+          "Kangaskhan",
+          "Starmie",
+          "Mr. Mime",
+          "Pinsir",
+          "Tauros",
+          "Tauros (Forma de Paldea (Variedad Combatiente))",
+          "Tauros (Forma de Paldea (Variedad Ardiente))",
+          "Tauros (Forma de Paldea (Variedad Acuática))",
+          "Gyarados",
+          "Ditto",
+          "Vaporeon",
+          "Jolteon",
+          "Flareon",
+          "Aerodactyl",
+          "Snorlax",
+          "Dragonite",
+          "Meganium",
+          "Typhlosion",
+          "Typhlosion (Forma de Hisui)",
+          "Feraligatr",
+          "Ariados",
+          "Ampharos",
+          "Azumarill",
+          "Politoed",
+          "Espeon",
+          "Umbreon",
+          "Slowking",
+          "Slowking (Forma de Galar)",
+          "Forretress",
+          "Steelix",
+          "Qwilfish",
+          "Scizor",
+          "Heracross",
+          "Skarmory",
+          "Houndoom",
+          "Tyranitar",
+          "Sceptile",
+          "Blaziken",
+          "Swampert",
+          "Pelipper",
+          "Gardevoir",
+          "Sableye",
+          "Mawile",
+          "Aggron",
+          "Medicham",
+          "Manectric",
+          "Swalot",
+          "Sharpedo",
+          "Camerupt",
+          "Torkoal",
+          "Altaria",
+          "Milotic",
+          "Castform",
+          "Banette",
+          "Chimecho",
+          "Absol",
+          "Glalie",
+          "Salamence",
+          "Metagross",
+          "Torterra",
+          "Infernape",
+          "Empoleon",
+          "Staraptor",
+          "Luxray",
+          "Roserade",
+          "Rampardos",
+          "Bastiodon",
+          "Lopunny",
+          "Spiritomb",
+          "Garchomp",
+          "Lucario",
+          "Hippowdon",
+          "Toxicroak",
+          "Abomasnow",
+          "Weavile",
+          "Rhyperior",
+          "Leafeon",
+          "Glaceon",
+          "Gliscor",
+          "Mamoswine",
+          "Gallade",
+          "Froslass",
+          "Rotom (Forma de Rotom)",
+          "Rotom (Rotom Calor)",
+          "Rotom (Rotom Lavado)",
+          "Rotom (Rotom Frío)",
+          "Rotom (Rotom Ventilador)",
+          "Rotom (Rotom Corte)",
+          "Serperior",
+          "Emboar",
+          "Samurott",
+          "Samurott (Forma de Hisui)",
+          "Watchog",
+          "Liepard",
+          "Simisage",
+          "Simisear",
+          "Simipour",
+          "Musharna",
+          "Excadrill",
+          "Audino",
+          "Conkeldurr",
+          "Scolipede",
+          "Whimsicott",
+          "Krookodile",
+          "Scrafty",
+          "Cofagrigus",
+          "Garbodor",
+          "Zoroark",
+          "Zoroark (Forma de Hisui)",
+          "Reuniclus",
+          "Vanilluxe",
+          "Emolga",
+          "Eelektross",
+          "Chandelure",
+          "Beartic",
+          "Stunfisk",
+          "Stunfisk (Forma de Galar)",
+          "Golurk",
+          "Hydreigon",
+          "Volcarona",
+          "Chesnaught",
+          "Delphox",
+          "Greninja",
+          "Diggersby",
+          "Talonflame",
+          "Vivillon",
+          "Pyroar",
+          "Floette",
+          "Florges",
+          "Gogoat",
+          "Pangoro",
+          "Furfrou",
+          "Meowstic (Macho)",
+          "Meowstic (Hembra)",
+          "Aegislash",
+          "Aromatisse",
+          "Slurpuff",
+          "Malamar",
+          "Barbaracle",
+          "Dragalge",
+          "Clawitzer",
+          "Heliolisk",
+          "Tyrantrum",
+          "Aurorus",
+          "Sylveon",
+          "Hawlucha",
+          "Dedenne",
+          "Goodra",
+          "Goodra (Forma de Hisui)",
+          "Klefki",
+          "Trevenant",
+          "Gourgeist (Variante Mediana)",
+          "Gourgeist (Variante Pequeña)",
+          "Gourgeist (Variante Grande)",
+          "Gourgeist (Variante Enorme)",
+          "Avalugg",
+          "Avalugg (Forma de Hisui)",
+          "Noivern",
+          "Decidueye",
+          "Decidueye (Forma de Hisui)",
+          "Incineroar",
+          "Primarina",
+          "Toucannon",
+          "Crabominable",
+          "Lycanroc (Forma Diurna)",
+          "Lycanroc (Forma Nocturna)",
+          "Lycanroc (Forma Crepuscular)",
+          "Toxapex",
+          "Mudsdale",
+          "Araquanid",
+          "Salazzle",
+          "Tsareena",
+          "Oranguru",
+          "Passimian",
+          "Golisopod",
+          "Mimikyu",
+          "Drampa",
+          "Kommo-o",
+          "Rillaboom",
+          "Cinderace",
+          "Inteleon",
+          "Corviknight",
+          "Thievul",
+          "Flapple",
+          "Appletun",
+          "Sandaconda",
+          "Toxtricity (Forma Aguda)",
+          "Toxtricity (Forma Grave)",
+          "Grapploct",
+          "Polteageist",
+          "Hatterene",
+          "Grimmsnarl",
+          "Perrserker",
+          "Sirfetch’d",
+          "Mr. Rime",
+          "Runerigus",
+          "Alcremie",
+          "Falinks",
+          "Pincurchin",
+          "Indeedee (Macho)",
+          "Indeedee (Hembra)",
+          "Morpeko",
+          "Dragapult",
+          "Wyrdeer",
+          "Kleavor",
+          "Basculegion (Macho)",
+          "Basculegion (Hembra)",
+          "Sneasler",
+          "Overqwil",
+          "Meowscarada",
+          "Skeledirge",
+          "Quaquaval",
+          "Pawmot",
+          "Maushold",
+          "Arboliva",
+          "Squawkabilly",
+          "Squawkabilly",
+          "Garganacl",
+          "Armarouge",
+          "Ceruledge",
+          "Bellibolt",
+          "Mabosstiff",
+          "Scovillain",
+          "Espathra",
+          "Tinkaton",
+          "Palafin",
+          "Orthworm",
+          "Glimmora",
+          "Houndstone",
+          "Annihilape",
+          "Farigiraf",
+          "Kingambit",
+          "Baxcalibur",
+          "Gholdengo",
+          "Sinistcha",
+          "Archaludon",
+          "Hydrapple"
+        ],
+        "endsAtUtc": "2026-12-02T01:59:00Z",
+        "itemClause": true,
+        "megaEvolutionLimit": 1,
+        "playerTimeSeconds": 420,
+        "startsAtUtc": "2026-09-09T02:00:00Z",
+        "teamPreviewSeconds": 90,
+        "turnTimeSeconds": 45,
+        "unmappedPokemonNames": [
+          "Vivillon"
+        ]
       }
     },
-    "7e61bc4ba473085ae6a16a9bdcfd71dfe404bfbd6168be1916472256bbbb3cdf": {
-      "context": "champions-current-capture",
-      "document": "serebii/regulation-m-c",
-      "locator": "Team Preview: 90 Seconds",
-      "observed": "Team Preview: 90 Seconds",
-      "provider": "serebii",
-      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
-      "value": 90
-    },
-    "93abd8d0d6aba4f7013d4f4b1cf7d0699a96a11cd2b9d5a3e634f14bbe443ded": {
-      "context": "champions-current-capture",
-      "document": "official/regulation-m-c",
-      "locator": "Tiempo para la vista previa de equipos: 90 segundos",
-      "observed": "Tiempo para la vista previa de equipos: 90 segundos",
+    "f36f97826307a63a8ab2dcceb0576223bedb5f15e9aea85283efff867590d275": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/official/regulation",
+      "locator": "Reglamento M-C: periodo, mecánicas, objetos y límites",
+      "observed": "Reglamento Reglamento M-C (actualización del 9 de septiembre) ¡Nuevo reglamento para los Combates Clasificatorios! Duración del reglamento M-C Del miércoles 9 de septiembre de 2026 a las 02:00 UTC al miércoles 2 de diciembre de 2026 a la 01:59 UTC Detalles del reglamento M-C Pokémon permitidos De todos los Pokémon disponibles en Pokémon Champions, solo podrán participar los que aparecen en la lista de Pokémon permitidos. Pokémon permitidos Mecánicas Algunos Pokémon pueden megaevolucionar si llevan una Megapiedra. Solo se puede megaevolucionar una vez por combate. Las siguientes megaevoluciones estarán permitidas a partir de este reglamento. • Mega-Absol Z • Mega-Salamence • Mega-Garchomp Z • Mega-Lucario Z • Mega-Golisopod • Mega-Baxcalibur Objetos equipados No se permite que dos Pokémon lleven el mismo objeto. Límites de tiempo Tiempo de combate: 20 minutos Tiempo del jugador: 7 minutos Tiempo de turno: 45 segundos Tiempo para la vista previa de equipos: 90 segundos ¿Qué es el reglamento? En el reglamento se especifican diversas restricciones, como qué Pokémon pueden participar o qué objetos se pueden usar. Más noticias",
       "provider": "pokemon",
       "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
-      "value": 90
-    },
-    "93e87a1b4fe819a880f2504cf797e836e0e32b1e7698189035bb1d281475c2ed": {
-      "context": "champions-current-capture",
-      "document": "serebii/regulation-m-c",
-      "locator": "Your Time: 7 Minutes",
-      "observed": "Your Time: 7 Minutes",
-      "provider": "serebii",
-      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
-      "value": 420
-    },
-    "9851b162686758ca809da4b5a9c2a6e650f9bdd9f70ad70305a2af97d16f1ade": {
-      "context": "champions-current-capture",
-      "document": "official/regulation-m-c",
-      "locator": "Tiempo del jugador: 7 minutos",
-      "observed": "Tiempo del jugador: 7 minutos",
-      "provider": "pokemon",
-      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
-      "value": 420
-    },
-    "a73236584763f055d5f292ac95fcfef591b61c49954e5ce9792b81d310a263a3": {
-      "context": "champions-current-capture",
-      "document": "serebii/regulation-m-c",
-      "locator": "Regulation Date",
-      "observed": "Date September 9th 2026 - December 2nd 2026",
-      "provider": "serebii",
-      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
       "value": {
         "date": "2026-09-09",
         "precision": "day"
       }
     },
-    "c1cf2b1a26814d06f72965c850b92c7997b42ee732a0d6eb8388f5dbe0820257": {
-      "context": "champions-current-capture",
-      "document": "serebii/regulation-m-c",
-      "locator": "heading",
-      "observed": "M-C",
-      "provider": "serebii",
-      "sha256": "ffe1cb7b4fd0d97585f53171b6020548d53834aaeb4956b8826d8d8feee417e2",
-      "value": true
-    },
-    "ed81e53b72f3f81f9ca450dc4f0bb10144990f1feacac9d58c1d5e80262aaa7d": {
-      "context": "champions-current-capture",
-      "document": "official/regulation-m-c",
-      "locator": "Tiempo de turno: 45 segundos",
-      "observed": "Tiempo de turno: 45 segundos",
+    "f54857a1b700a8e2e0a983ae61b5ab5dfb4209132b92b962503b3dd49c1ad0d3": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/official/eligible-pokemon",
+      "locator": "const pokemons: lista oficial del reglamento enlazado",
+      "observed": [
+        [
+          "0003-000",
+          1,
+          "Venusaur"
+        ],
+        [
+          "0006-000",
+          1,
+          "Charizard"
+        ],
+        [
+          "0009-000",
+          1,
+          "Blastoise"
+        ],
+        [
+          "0015-000",
+          1,
+          "Beedrill"
+        ],
+        [
+          "0018-000",
+          1,
+          "Pidgeot"
+        ],
+        [
+          "0024-000",
+          1,
+          "Arbok"
+        ],
+        [
+          "0025-000",
+          1,
+          "Pikachu"
+        ],
+        [
+          "0026-000",
+          1,
+          "Raichu"
+        ],
+        [
+          "0026-001",
+          1,
+          "Raichu (Forma de Alola)"
+        ],
+        [
+          "0036-000",
+          1,
+          "Clefable"
+        ],
+        [
+          "0038-000",
+          1,
+          "Ninetales"
+        ],
+        [
+          "0038-001",
+          1,
+          "Ninetales (Forma de Alola)"
+        ],
+        [
+          "0040-000",
+          1,
+          "Wigglytuff"
+        ],
+        [
+          "0045-000",
+          1,
+          "Vileplume"
+        ],
+        [
+          "0053-000",
+          1,
+          "Persian"
+        ],
+        [
+          "0053-001",
+          1,
+          "Persian (Forma de Alola)"
+        ],
+        [
+          "0059-000",
+          1,
+          "Arcanine"
+        ],
+        [
+          "0059-001",
+          1,
+          "Arcanine (Forma de Hisui)"
+        ],
+        [
+          "0065-000",
+          1,
+          "Alakazam"
+        ],
+        [
+          "0068-000",
+          1,
+          "Machamp"
+        ],
+        [
+          "0071-000",
+          1,
+          "Victreebel"
+        ],
+        [
+          "0080-000",
+          1,
+          "Slowbro"
+        ],
+        [
+          "0080-002",
+          1,
+          "Slowbro (Forma de Galar)"
+        ],
+        [
+          "0083-000",
+          1,
+          "Farfetch’d"
+        ],
+        [
+          "0094-000",
+          1,
+          "Gengar"
+        ],
+        [
+          "0115-000",
+          1,
+          "Kangaskhan"
+        ],
+        [
+          "0121-000",
+          1,
+          "Starmie"
+        ],
+        [
+          "0122-000",
+          1,
+          "Mr. Mime"
+        ],
+        [
+          "0127-000",
+          1,
+          "Pinsir"
+        ],
+        [
+          "0128-000",
+          1,
+          "Tauros"
+        ],
+        [
+          "0128-001",
+          1,
+          "Tauros (Forma de Paldea (Variedad Combatiente))"
+        ],
+        [
+          "0128-002",
+          1,
+          "Tauros (Forma de Paldea (Variedad Ardiente))"
+        ],
+        [
+          "0128-003",
+          1,
+          "Tauros (Forma de Paldea (Variedad Acuática))"
+        ],
+        [
+          "0130-000",
+          1,
+          "Gyarados"
+        ],
+        [
+          "0132-000",
+          1,
+          "Ditto"
+        ],
+        [
+          "0134-000",
+          1,
+          "Vaporeon"
+        ],
+        [
+          "0135-000",
+          1,
+          "Jolteon"
+        ],
+        [
+          "0136-000",
+          1,
+          "Flareon"
+        ],
+        [
+          "0142-000",
+          1,
+          "Aerodactyl"
+        ],
+        [
+          "0143-000",
+          1,
+          "Snorlax"
+        ],
+        [
+          "0149-000",
+          1,
+          "Dragonite"
+        ],
+        [
+          "0154-000",
+          1,
+          "Meganium"
+        ],
+        [
+          "0157-000",
+          1,
+          "Typhlosion"
+        ],
+        [
+          "0157-001",
+          1,
+          "Typhlosion (Forma de Hisui)"
+        ],
+        [
+          "0160-000",
+          1,
+          "Feraligatr"
+        ],
+        [
+          "0168-000",
+          1,
+          "Ariados"
+        ],
+        [
+          "0181-000",
+          1,
+          "Ampharos"
+        ],
+        [
+          "0184-000",
+          1,
+          "Azumarill"
+        ],
+        [
+          "0186-000",
+          1,
+          "Politoed"
+        ],
+        [
+          "0196-000",
+          1,
+          "Espeon"
+        ],
+        [
+          "0197-000",
+          1,
+          "Umbreon"
+        ],
+        [
+          "0199-000",
+          1,
+          "Slowking"
+        ],
+        [
+          "0199-001",
+          1,
+          "Slowking (Forma de Galar)"
+        ],
+        [
+          "0205-000",
+          1,
+          "Forretress"
+        ],
+        [
+          "0208-000",
+          1,
+          "Steelix"
+        ],
+        [
+          "0211-000",
+          1,
+          "Qwilfish"
+        ],
+        [
+          "0212-000",
+          1,
+          "Scizor"
+        ],
+        [
+          "0214-000",
+          1,
+          "Heracross"
+        ],
+        [
+          "0227-000",
+          1,
+          "Skarmory"
+        ],
+        [
+          "0229-000",
+          1,
+          "Houndoom"
+        ],
+        [
+          "0248-000",
+          1,
+          "Tyranitar"
+        ],
+        [
+          "0254-000",
+          1,
+          "Sceptile"
+        ],
+        [
+          "0257-000",
+          1,
+          "Blaziken"
+        ],
+        [
+          "0260-000",
+          1,
+          "Swampert"
+        ],
+        [
+          "0279-000",
+          1,
+          "Pelipper"
+        ],
+        [
+          "0282-000",
+          1,
+          "Gardevoir"
+        ],
+        [
+          "0302-000",
+          1,
+          "Sableye"
+        ],
+        [
+          "0303-000",
+          1,
+          "Mawile"
+        ],
+        [
+          "0306-000",
+          1,
+          "Aggron"
+        ],
+        [
+          "0308-000",
+          1,
+          "Medicham"
+        ],
+        [
+          "0310-000",
+          1,
+          "Manectric"
+        ],
+        [
+          "0317-000",
+          1,
+          "Swalot"
+        ],
+        [
+          "0319-000",
+          1,
+          "Sharpedo"
+        ],
+        [
+          "0323-000",
+          1,
+          "Camerupt"
+        ],
+        [
+          "0324-000",
+          1,
+          "Torkoal"
+        ],
+        [
+          "0334-000",
+          1,
+          "Altaria"
+        ],
+        [
+          "0350-000",
+          1,
+          "Milotic"
+        ],
+        [
+          "0351-000",
+          1,
+          "Castform"
+        ],
+        [
+          "0354-000",
+          1,
+          "Banette"
+        ],
+        [
+          "0358-000",
+          1,
+          "Chimecho"
+        ],
+        [
+          "0359-000",
+          1,
+          "Absol"
+        ],
+        [
+          "0362-000",
+          1,
+          "Glalie"
+        ],
+        [
+          "0373-000",
+          1,
+          "Salamence"
+        ],
+        [
+          "0376-000",
+          1,
+          "Metagross"
+        ],
+        [
+          "0389-000",
+          1,
+          "Torterra"
+        ],
+        [
+          "0392-000",
+          1,
+          "Infernape"
+        ],
+        [
+          "0395-000",
+          1,
+          "Empoleon"
+        ],
+        [
+          "0398-000",
+          1,
+          "Staraptor"
+        ],
+        [
+          "0405-000",
+          1,
+          "Luxray"
+        ],
+        [
+          "0407-000",
+          1,
+          "Roserade"
+        ],
+        [
+          "0409-000",
+          1,
+          "Rampardos"
+        ],
+        [
+          "0411-000",
+          1,
+          "Bastiodon"
+        ],
+        [
+          "0428-000",
+          1,
+          "Lopunny"
+        ],
+        [
+          "0442-000",
+          1,
+          "Spiritomb"
+        ],
+        [
+          "0445-000",
+          1,
+          "Garchomp"
+        ],
+        [
+          "0448-000",
+          1,
+          "Lucario"
+        ],
+        [
+          "0450-000",
+          1,
+          "Hippowdon"
+        ],
+        [
+          "0454-000",
+          1,
+          "Toxicroak"
+        ],
+        [
+          "0460-000",
+          1,
+          "Abomasnow"
+        ],
+        [
+          "0461-000",
+          1,
+          "Weavile"
+        ],
+        [
+          "0464-000",
+          1,
+          "Rhyperior"
+        ],
+        [
+          "0470-000",
+          1,
+          "Leafeon"
+        ],
+        [
+          "0471-000",
+          1,
+          "Glaceon"
+        ],
+        [
+          "0472-000",
+          1,
+          "Gliscor"
+        ],
+        [
+          "0473-000",
+          1,
+          "Mamoswine"
+        ],
+        [
+          "0475-000",
+          1,
+          "Gallade"
+        ],
+        [
+          "0478-000",
+          1,
+          "Froslass"
+        ],
+        [
+          "0479-000",
+          1,
+          "Rotom (Forma de Rotom)"
+        ],
+        [
+          "0479-001",
+          1,
+          "Rotom (Rotom Calor)"
+        ],
+        [
+          "0479-002",
+          1,
+          "Rotom (Rotom Lavado)"
+        ],
+        [
+          "0479-003",
+          1,
+          "Rotom (Rotom Frío)"
+        ],
+        [
+          "0479-004",
+          1,
+          "Rotom (Rotom Ventilador)"
+        ],
+        [
+          "0479-005",
+          1,
+          "Rotom (Rotom Corte)"
+        ],
+        [
+          "0497-000",
+          1,
+          "Serperior"
+        ],
+        [
+          "0500-000",
+          1,
+          "Emboar"
+        ],
+        [
+          "0503-000",
+          1,
+          "Samurott"
+        ],
+        [
+          "0503-001",
+          1,
+          "Samurott (Forma de Hisui)"
+        ],
+        [
+          "0505-000",
+          1,
+          "Watchog"
+        ],
+        [
+          "0510-000",
+          1,
+          "Liepard"
+        ],
+        [
+          "0512-000",
+          1,
+          "Simisage"
+        ],
+        [
+          "0514-000",
+          1,
+          "Simisear"
+        ],
+        [
+          "0516-000",
+          1,
+          "Simipour"
+        ],
+        [
+          "0518-000",
+          1,
+          "Musharna"
+        ],
+        [
+          "0530-000",
+          1,
+          "Excadrill"
+        ],
+        [
+          "0531-000",
+          1,
+          "Audino"
+        ],
+        [
+          "0534-000",
+          1,
+          "Conkeldurr"
+        ],
+        [
+          "0545-000",
+          1,
+          "Scolipede"
+        ],
+        [
+          "0547-000",
+          1,
+          "Whimsicott"
+        ],
+        [
+          "0553-000",
+          1,
+          "Krookodile"
+        ],
+        [
+          "0560-000",
+          1,
+          "Scrafty"
+        ],
+        [
+          "0563-000",
+          1,
+          "Cofagrigus"
+        ],
+        [
+          "0569-000",
+          1,
+          "Garbodor"
+        ],
+        [
+          "0571-000",
+          1,
+          "Zoroark"
+        ],
+        [
+          "0571-001",
+          1,
+          "Zoroark (Forma de Hisui)"
+        ],
+        [
+          "0579-000",
+          1,
+          "Reuniclus"
+        ],
+        [
+          "0584-000",
+          1,
+          "Vanilluxe"
+        ],
+        [
+          "0587-000",
+          1,
+          "Emolga"
+        ],
+        [
+          "0604-000",
+          1,
+          "Eelektross"
+        ],
+        [
+          "0609-000",
+          1,
+          "Chandelure"
+        ],
+        [
+          "0614-000",
+          1,
+          "Beartic"
+        ],
+        [
+          "0618-000",
+          1,
+          "Stunfisk"
+        ],
+        [
+          "0618-001",
+          1,
+          "Stunfisk (Forma de Galar)"
+        ],
+        [
+          "0623-000",
+          1,
+          "Golurk"
+        ],
+        [
+          "0635-000",
+          1,
+          "Hydreigon"
+        ],
+        [
+          "0637-000",
+          1,
+          "Volcarona"
+        ],
+        [
+          "0652-000",
+          1,
+          "Chesnaught"
+        ],
+        [
+          "0655-000",
+          1,
+          "Delphox"
+        ],
+        [
+          "0658-000",
+          1,
+          "Greninja"
+        ],
+        [
+          "0660-000",
+          1,
+          "Diggersby"
+        ],
+        [
+          "0663-000",
+          1,
+          "Talonflame"
+        ],
+        [
+          "0666-018",
+          1,
+          "Vivillon"
+        ],
+        [
+          "0668-000",
+          1,
+          "Pyroar"
+        ],
+        [
+          "0670-005",
+          1,
+          "Floette"
+        ],
+        [
+          "0671-000",
+          1,
+          "Florges"
+        ],
+        [
+          "0673-000",
+          1,
+          "Gogoat"
+        ],
+        [
+          "0675-000",
+          1,
+          "Pangoro"
+        ],
+        [
+          "0676-000",
+          1,
+          "Furfrou"
+        ],
+        [
+          "0678-000",
+          1,
+          "Meowstic (Macho)"
+        ],
+        [
+          "0678-001",
+          1,
+          "Meowstic (Hembra)"
+        ],
+        [
+          "0681-000",
+          1,
+          "Aegislash"
+        ],
+        [
+          "0683-000",
+          1,
+          "Aromatisse"
+        ],
+        [
+          "0685-000",
+          1,
+          "Slurpuff"
+        ],
+        [
+          "0687-000",
+          1,
+          "Malamar"
+        ],
+        [
+          "0689-000",
+          1,
+          "Barbaracle"
+        ],
+        [
+          "0691-000",
+          1,
+          "Dragalge"
+        ],
+        [
+          "0693-000",
+          1,
+          "Clawitzer"
+        ],
+        [
+          "0695-000",
+          1,
+          "Heliolisk"
+        ],
+        [
+          "0697-000",
+          1,
+          "Tyrantrum"
+        ],
+        [
+          "0699-000",
+          1,
+          "Aurorus"
+        ],
+        [
+          "0700-000",
+          1,
+          "Sylveon"
+        ],
+        [
+          "0701-000",
+          1,
+          "Hawlucha"
+        ],
+        [
+          "0702-000",
+          1,
+          "Dedenne"
+        ],
+        [
+          "0706-000",
+          1,
+          "Goodra"
+        ],
+        [
+          "0706-001",
+          1,
+          "Goodra (Forma de Hisui)"
+        ],
+        [
+          "0707-000",
+          1,
+          "Klefki"
+        ],
+        [
+          "0709-000",
+          1,
+          "Trevenant"
+        ],
+        [
+          "0711-000",
+          1,
+          "Gourgeist (Variante Mediana)"
+        ],
+        [
+          "0711-001",
+          1,
+          "Gourgeist (Variante Pequeña)"
+        ],
+        [
+          "0711-002",
+          1,
+          "Gourgeist (Variante Grande)"
+        ],
+        [
+          "0711-003",
+          1,
+          "Gourgeist (Variante Enorme)"
+        ],
+        [
+          "0713-000",
+          1,
+          "Avalugg"
+        ],
+        [
+          "0713-001",
+          1,
+          "Avalugg (Forma de Hisui)"
+        ],
+        [
+          "0715-000",
+          1,
+          "Noivern"
+        ],
+        [
+          "0724-000",
+          1,
+          "Decidueye"
+        ],
+        [
+          "0724-001",
+          1,
+          "Decidueye (Forma de Hisui)"
+        ],
+        [
+          "0727-000",
+          1,
+          "Incineroar"
+        ],
+        [
+          "0730-000",
+          1,
+          "Primarina"
+        ],
+        [
+          "0733-000",
+          1,
+          "Toucannon"
+        ],
+        [
+          "0740-000",
+          1,
+          "Crabominable"
+        ],
+        [
+          "0745-000",
+          1,
+          "Lycanroc (Forma Diurna)"
+        ],
+        [
+          "0745-001",
+          1,
+          "Lycanroc (Forma Nocturna)"
+        ],
+        [
+          "0745-002",
+          1,
+          "Lycanroc (Forma Crepuscular)"
+        ],
+        [
+          "0748-000",
+          1,
+          "Toxapex"
+        ],
+        [
+          "0750-000",
+          1,
+          "Mudsdale"
+        ],
+        [
+          "0752-000",
+          1,
+          "Araquanid"
+        ],
+        [
+          "0758-000",
+          1,
+          "Salazzle"
+        ],
+        [
+          "0763-000",
+          1,
+          "Tsareena"
+        ],
+        [
+          "0765-000",
+          1,
+          "Oranguru"
+        ],
+        [
+          "0766-000",
+          1,
+          "Passimian"
+        ],
+        [
+          "0768-000",
+          1,
+          "Golisopod"
+        ],
+        [
+          "0778-000",
+          1,
+          "Mimikyu"
+        ],
+        [
+          "0780-000",
+          1,
+          "Drampa"
+        ],
+        [
+          "0784-000",
+          1,
+          "Kommo-o"
+        ],
+        [
+          "0812-000",
+          1,
+          "Rillaboom"
+        ],
+        [
+          "0815-000",
+          1,
+          "Cinderace"
+        ],
+        [
+          "0818-000",
+          1,
+          "Inteleon"
+        ],
+        [
+          "0823-000",
+          1,
+          "Corviknight"
+        ],
+        [
+          "0828-000",
+          1,
+          "Thievul"
+        ],
+        [
+          "0841-000",
+          1,
+          "Flapple"
+        ],
+        [
+          "0842-000",
+          1,
+          "Appletun"
+        ],
+        [
+          "0844-000",
+          1,
+          "Sandaconda"
+        ],
+        [
+          "0849-000",
+          1,
+          "Toxtricity (Forma Aguda)"
+        ],
+        [
+          "0849-001",
+          1,
+          "Toxtricity (Forma Grave)"
+        ],
+        [
+          "0853-000",
+          1,
+          "Grapploct"
+        ],
+        [
+          "0855-000",
+          1,
+          "Polteageist"
+        ],
+        [
+          "0858-000",
+          1,
+          "Hatterene"
+        ],
+        [
+          "0861-000",
+          1,
+          "Grimmsnarl"
+        ],
+        [
+          "0863-000",
+          1,
+          "Perrserker"
+        ],
+        [
+          "0865-000",
+          1,
+          "Sirfetch’d"
+        ],
+        [
+          "0866-000",
+          1,
+          "Mr. Rime"
+        ],
+        [
+          "0867-000",
+          1,
+          "Runerigus"
+        ],
+        [
+          "0869-000",
+          1,
+          "Alcremie"
+        ],
+        [
+          "0870-000",
+          1,
+          "Falinks"
+        ],
+        [
+          "0871-000",
+          1,
+          "Pincurchin"
+        ],
+        [
+          "0876-000",
+          1,
+          "Indeedee (Macho)"
+        ],
+        [
+          "0876-001",
+          1,
+          "Indeedee (Hembra)"
+        ],
+        [
+          "0877-000",
+          1,
+          "Morpeko"
+        ],
+        [
+          "0887-000",
+          1,
+          "Dragapult"
+        ],
+        [
+          "0899-000",
+          1,
+          "Wyrdeer"
+        ],
+        [
+          "0900-000",
+          1,
+          "Kleavor"
+        ],
+        [
+          "0902-000",
+          1,
+          "Basculegion (Macho)"
+        ],
+        [
+          "0902-001",
+          1,
+          "Basculegion (Hembra)"
+        ],
+        [
+          "0903-000",
+          1,
+          "Sneasler"
+        ],
+        [
+          "0904-000",
+          1,
+          "Overqwil"
+        ],
+        [
+          "0908-000",
+          1,
+          "Meowscarada"
+        ],
+        [
+          "0911-000",
+          1,
+          "Skeledirge"
+        ],
+        [
+          "0914-000",
+          1,
+          "Quaquaval"
+        ],
+        [
+          "0923-000",
+          1,
+          "Pawmot"
+        ],
+        [
+          "0925-001",
+          1,
+          "Maushold"
+        ],
+        [
+          "0930-000",
+          1,
+          "Arboliva"
+        ],
+        [
+          "0931-000",
+          1,
+          "Squawkabilly"
+        ],
+        [
+          "0931-002",
+          1,
+          "Squawkabilly"
+        ],
+        [
+          "0934-000",
+          1,
+          "Garganacl"
+        ],
+        [
+          "0936-000",
+          1,
+          "Armarouge"
+        ],
+        [
+          "0937-000",
+          1,
+          "Ceruledge"
+        ],
+        [
+          "0939-000",
+          1,
+          "Bellibolt"
+        ],
+        [
+          "0943-000",
+          1,
+          "Mabosstiff"
+        ],
+        [
+          "0952-000",
+          1,
+          "Scovillain"
+        ],
+        [
+          "0956-000",
+          1,
+          "Espathra"
+        ],
+        [
+          "0959-000",
+          1,
+          "Tinkaton"
+        ],
+        [
+          "0964-000",
+          1,
+          "Palafin"
+        ],
+        [
+          "0968-000",
+          1,
+          "Orthworm"
+        ],
+        [
+          "0970-000",
+          1,
+          "Glimmora"
+        ],
+        [
+          "0972-000",
+          1,
+          "Houndstone"
+        ],
+        [
+          "0979-000",
+          1,
+          "Annihilape"
+        ],
+        [
+          "0981-000",
+          1,
+          "Farigiraf"
+        ],
+        [
+          "0983-000",
+          1,
+          "Kingambit"
+        ],
+        [
+          "0998-000",
+          1,
+          "Baxcalibur"
+        ],
+        [
+          "1000-000",
+          1,
+          "Gholdengo"
+        ],
+        [
+          "1013-000",
+          1,
+          "Sinistcha"
+        ],
+        [
+          "1018-000",
+          1,
+          "Archaludon"
+        ],
+        [
+          "1019-000",
+          1,
+          "Hydrapple"
+        ]
+      ],
       "provider": "pokemon",
-      "sha256": "d6fc4337181d41f986f30c0a76c9ef48758b3fe6c0e3ddff3e5cb38243ecf7d1",
-      "value": 45
+      "sha256": "e0a8cb6bcd27f0ee013781c9a615a87c3b0040fe40adb7b5e66ce8c84cc94ed0",
+      "value": {
+        "battleTimeSeconds": 1200,
+        "eligibilityComplete": false,
+        "eligibilityScope": "Lista oficial de formas de entrada al equipo; las transformaciones en combate se documentan por separado. No valida movimientos, habilidades u objetos del equipo.",
+        "eligiblePokemon": [
+          "pokemon-0003000",
+          "pokemon-0006000",
+          "pokemon-0009000",
+          "pokemon-0015000",
+          "pokemon-0018000",
+          "pokemon-0024000",
+          "pokemon-0025000",
+          "pokemon-0026000",
+          "pokemon-0026001",
+          "pokemon-0036000",
+          "pokemon-0038000",
+          "pokemon-0038001",
+          "pokemon-0040000",
+          "pokemon-0045000",
+          "pokemon-0053000",
+          "pokemon-0053001",
+          "pokemon-0059000",
+          "pokemon-0059001",
+          "pokemon-0065000",
+          "pokemon-0068000",
+          "pokemon-0071000",
+          "pokemon-0080000",
+          "pokemon-0080002",
+          "pokemon-0083000",
+          "pokemon-0094000",
+          "pokemon-0115000",
+          "pokemon-0121000",
+          "pokemon-0122000",
+          "pokemon-0127000",
+          "pokemon-0128000",
+          "pokemon-0128001",
+          "pokemon-0128002",
+          "pokemon-0128003",
+          "pokemon-0130000",
+          "pokemon-0132000",
+          "pokemon-0134000",
+          "pokemon-0135000",
+          "pokemon-0136000",
+          "pokemon-0142000",
+          "pokemon-0143000",
+          "pokemon-0149000",
+          "pokemon-0154000",
+          "pokemon-0157000",
+          "pokemon-0157001",
+          "pokemon-0160000",
+          "pokemon-0168000",
+          "pokemon-0181000",
+          "pokemon-0184000",
+          "pokemon-0186000",
+          "pokemon-0196000",
+          "pokemon-0197000",
+          "pokemon-0199000",
+          "pokemon-0199001",
+          "pokemon-0205000",
+          "pokemon-0208000",
+          "pokemon-0211000",
+          "pokemon-0212000",
+          "pokemon-0214000",
+          "pokemon-0227000",
+          "pokemon-0229000",
+          "pokemon-0248000",
+          "pokemon-0254000",
+          "pokemon-0257000",
+          "pokemon-0260000",
+          "pokemon-0279000",
+          "pokemon-0282000",
+          "pokemon-0302000",
+          "pokemon-0303000",
+          "pokemon-0306000",
+          "pokemon-0308000",
+          "pokemon-0310000",
+          "pokemon-0317000",
+          "pokemon-0319000",
+          "pokemon-0323000",
+          "pokemon-0324000",
+          "pokemon-0334000",
+          "pokemon-0350000",
+          "pokemon-0351000",
+          "pokemon-0354000",
+          "pokemon-0358000",
+          "pokemon-0359000",
+          "pokemon-0362000",
+          "pokemon-0373000",
+          "pokemon-0376000",
+          "pokemon-0389000",
+          "pokemon-0392000",
+          "pokemon-0395000",
+          "pokemon-0398000",
+          "pokemon-0405000",
+          "pokemon-0407000",
+          "pokemon-0409000",
+          "pokemon-0411000",
+          "pokemon-0428000",
+          "pokemon-0442000",
+          "pokemon-0445000",
+          "pokemon-0448000",
+          "pokemon-0450000",
+          "pokemon-0454000",
+          "pokemon-0460000",
+          "pokemon-0461000",
+          "pokemon-0464000",
+          "pokemon-0470000",
+          "pokemon-0471000",
+          "pokemon-0472000",
+          "pokemon-0473000",
+          "pokemon-0475000",
+          "pokemon-0478000",
+          "pokemon-0479000",
+          "pokemon-0479001",
+          "pokemon-0479002",
+          "pokemon-0479003",
+          "pokemon-0479004",
+          "pokemon-0479005",
+          "pokemon-0497000",
+          "pokemon-0500000",
+          "pokemon-0503000",
+          "pokemon-0503001",
+          "pokemon-0505000",
+          "pokemon-0510000",
+          "pokemon-0512000",
+          "pokemon-0514000",
+          "pokemon-0516000",
+          "pokemon-0518000",
+          "pokemon-0530000",
+          "pokemon-0531000",
+          "pokemon-0534000",
+          "pokemon-0545000",
+          "pokemon-0547000",
+          "pokemon-0553000",
+          "pokemon-0560000",
+          "pokemon-0563000",
+          "pokemon-0569000",
+          "pokemon-0571000",
+          "pokemon-0571001",
+          "pokemon-0579000",
+          "pokemon-0584000",
+          "pokemon-0587000",
+          "pokemon-0604000",
+          "pokemon-0609000",
+          "pokemon-0614000",
+          "pokemon-0618000",
+          "pokemon-0618001",
+          "pokemon-0623000",
+          "pokemon-0635000",
+          "pokemon-0637000",
+          "pokemon-0652000",
+          "pokemon-0655000",
+          "pokemon-0658000",
+          "pokemon-0660000",
+          "pokemon-0663000",
+          "pokemon-0668000",
+          "pokemon-0670005",
+          "pokemon-0671000",
+          "pokemon-0673000",
+          "pokemon-0675000",
+          "pokemon-0676000",
+          "pokemon-0678000",
+          "pokemon-0678001",
+          "pokemon-0681000",
+          "pokemon-0683000",
+          "pokemon-0685000",
+          "pokemon-0687000",
+          "pokemon-0689000",
+          "pokemon-0691000",
+          "pokemon-0693000",
+          "pokemon-0695000",
+          "pokemon-0697000",
+          "pokemon-0699000",
+          "pokemon-0700000",
+          "pokemon-0701000",
+          "pokemon-0702000",
+          "pokemon-0706000",
+          "pokemon-0706001",
+          "pokemon-0707000",
+          "pokemon-0709000",
+          "pokemon-0711000",
+          "pokemon-0711001",
+          "pokemon-0711002",
+          "pokemon-0711003",
+          "pokemon-0713000",
+          "pokemon-0713001",
+          "pokemon-0715000",
+          "pokemon-0724000",
+          "pokemon-0724001",
+          "pokemon-0727000",
+          "pokemon-0730000",
+          "pokemon-0733000",
+          "pokemon-0740000",
+          "pokemon-0745000",
+          "pokemon-0745001",
+          "pokemon-0745002",
+          "pokemon-0748000",
+          "pokemon-0750000",
+          "pokemon-0752000",
+          "pokemon-0758000",
+          "pokemon-0763000",
+          "pokemon-0765000",
+          "pokemon-0766000",
+          "pokemon-0768000",
+          "pokemon-0778000",
+          "pokemon-0780000",
+          "pokemon-0784000",
+          "pokemon-0812000",
+          "pokemon-0815000",
+          "pokemon-0818000",
+          "pokemon-0823000",
+          "pokemon-0828000",
+          "pokemon-0841000",
+          "pokemon-0842000",
+          "pokemon-0844000",
+          "pokemon-0849000",
+          "pokemon-0849001",
+          "pokemon-0853000",
+          "pokemon-0855000",
+          "pokemon-0858000",
+          "pokemon-0861000",
+          "pokemon-0863000",
+          "pokemon-0865000",
+          "pokemon-0866000",
+          "pokemon-0867000",
+          "pokemon-0869000",
+          "pokemon-0870000",
+          "pokemon-0871000",
+          "pokemon-0876000",
+          "pokemon-0876001",
+          "pokemon-0877000",
+          "pokemon-0887000",
+          "pokemon-0899000",
+          "pokemon-0900000",
+          "pokemon-0902000",
+          "pokemon-0902001",
+          "pokemon-0903000",
+          "pokemon-0904000",
+          "pokemon-0908000",
+          "pokemon-0911000",
+          "pokemon-0914000",
+          "pokemon-0923000",
+          "pokemon-0925001",
+          "pokemon-0930000",
+          "pokemon-0931000",
+          "pokemon-0931002",
+          "pokemon-0934000",
+          "pokemon-0936000",
+          "pokemon-0937000",
+          "pokemon-0939000",
+          "pokemon-0943000",
+          "pokemon-0952000",
+          "pokemon-0956000",
+          "pokemon-0959000",
+          "pokemon-0964000",
+          "pokemon-0968000",
+          "pokemon-0970000",
+          "pokemon-0972000",
+          "pokemon-0979000",
+          "pokemon-0981000",
+          "pokemon-0983000",
+          "pokemon-0998000",
+          "pokemon-1000000",
+          "pokemon-1013000",
+          "pokemon-1018000",
+          "pokemon-1019000"
+        ],
+        "eligiblePokemonNames": [
+          "Venusaur",
+          "Charizard",
+          "Blastoise",
+          "Beedrill",
+          "Pidgeot",
+          "Arbok",
+          "Pikachu",
+          "Raichu",
+          "Raichu (Forma de Alola)",
+          "Clefable",
+          "Ninetales",
+          "Ninetales (Forma de Alola)",
+          "Wigglytuff",
+          "Vileplume",
+          "Persian",
+          "Persian (Forma de Alola)",
+          "Arcanine",
+          "Arcanine (Forma de Hisui)",
+          "Alakazam",
+          "Machamp",
+          "Victreebel",
+          "Slowbro",
+          "Slowbro (Forma de Galar)",
+          "Farfetch’d",
+          "Gengar",
+          "Kangaskhan",
+          "Starmie",
+          "Mr. Mime",
+          "Pinsir",
+          "Tauros",
+          "Tauros (Forma de Paldea (Variedad Combatiente))",
+          "Tauros (Forma de Paldea (Variedad Ardiente))",
+          "Tauros (Forma de Paldea (Variedad Acuática))",
+          "Gyarados",
+          "Ditto",
+          "Vaporeon",
+          "Jolteon",
+          "Flareon",
+          "Aerodactyl",
+          "Snorlax",
+          "Dragonite",
+          "Meganium",
+          "Typhlosion",
+          "Typhlosion (Forma de Hisui)",
+          "Feraligatr",
+          "Ariados",
+          "Ampharos",
+          "Azumarill",
+          "Politoed",
+          "Espeon",
+          "Umbreon",
+          "Slowking",
+          "Slowking (Forma de Galar)",
+          "Forretress",
+          "Steelix",
+          "Qwilfish",
+          "Scizor",
+          "Heracross",
+          "Skarmory",
+          "Houndoom",
+          "Tyranitar",
+          "Sceptile",
+          "Blaziken",
+          "Swampert",
+          "Pelipper",
+          "Gardevoir",
+          "Sableye",
+          "Mawile",
+          "Aggron",
+          "Medicham",
+          "Manectric",
+          "Swalot",
+          "Sharpedo",
+          "Camerupt",
+          "Torkoal",
+          "Altaria",
+          "Milotic",
+          "Castform",
+          "Banette",
+          "Chimecho",
+          "Absol",
+          "Glalie",
+          "Salamence",
+          "Metagross",
+          "Torterra",
+          "Infernape",
+          "Empoleon",
+          "Staraptor",
+          "Luxray",
+          "Roserade",
+          "Rampardos",
+          "Bastiodon",
+          "Lopunny",
+          "Spiritomb",
+          "Garchomp",
+          "Lucario",
+          "Hippowdon",
+          "Toxicroak",
+          "Abomasnow",
+          "Weavile",
+          "Rhyperior",
+          "Leafeon",
+          "Glaceon",
+          "Gliscor",
+          "Mamoswine",
+          "Gallade",
+          "Froslass",
+          "Rotom (Forma de Rotom)",
+          "Rotom (Rotom Calor)",
+          "Rotom (Rotom Lavado)",
+          "Rotom (Rotom Frío)",
+          "Rotom (Rotom Ventilador)",
+          "Rotom (Rotom Corte)",
+          "Serperior",
+          "Emboar",
+          "Samurott",
+          "Samurott (Forma de Hisui)",
+          "Watchog",
+          "Liepard",
+          "Simisage",
+          "Simisear",
+          "Simipour",
+          "Musharna",
+          "Excadrill",
+          "Audino",
+          "Conkeldurr",
+          "Scolipede",
+          "Whimsicott",
+          "Krookodile",
+          "Scrafty",
+          "Cofagrigus",
+          "Garbodor",
+          "Zoroark",
+          "Zoroark (Forma de Hisui)",
+          "Reuniclus",
+          "Vanilluxe",
+          "Emolga",
+          "Eelektross",
+          "Chandelure",
+          "Beartic",
+          "Stunfisk",
+          "Stunfisk (Forma de Galar)",
+          "Golurk",
+          "Hydreigon",
+          "Volcarona",
+          "Chesnaught",
+          "Delphox",
+          "Greninja",
+          "Diggersby",
+          "Talonflame",
+          "Vivillon",
+          "Pyroar",
+          "Floette",
+          "Florges",
+          "Gogoat",
+          "Pangoro",
+          "Furfrou",
+          "Meowstic (Macho)",
+          "Meowstic (Hembra)",
+          "Aegislash",
+          "Aromatisse",
+          "Slurpuff",
+          "Malamar",
+          "Barbaracle",
+          "Dragalge",
+          "Clawitzer",
+          "Heliolisk",
+          "Tyrantrum",
+          "Aurorus",
+          "Sylveon",
+          "Hawlucha",
+          "Dedenne",
+          "Goodra",
+          "Goodra (Forma de Hisui)",
+          "Klefki",
+          "Trevenant",
+          "Gourgeist (Variante Mediana)",
+          "Gourgeist (Variante Pequeña)",
+          "Gourgeist (Variante Grande)",
+          "Gourgeist (Variante Enorme)",
+          "Avalugg",
+          "Avalugg (Forma de Hisui)",
+          "Noivern",
+          "Decidueye",
+          "Decidueye (Forma de Hisui)",
+          "Incineroar",
+          "Primarina",
+          "Toucannon",
+          "Crabominable",
+          "Lycanroc (Forma Diurna)",
+          "Lycanroc (Forma Nocturna)",
+          "Lycanroc (Forma Crepuscular)",
+          "Toxapex",
+          "Mudsdale",
+          "Araquanid",
+          "Salazzle",
+          "Tsareena",
+          "Oranguru",
+          "Passimian",
+          "Golisopod",
+          "Mimikyu",
+          "Drampa",
+          "Kommo-o",
+          "Rillaboom",
+          "Cinderace",
+          "Inteleon",
+          "Corviknight",
+          "Thievul",
+          "Flapple",
+          "Appletun",
+          "Sandaconda",
+          "Toxtricity (Forma Aguda)",
+          "Toxtricity (Forma Grave)",
+          "Grapploct",
+          "Polteageist",
+          "Hatterene",
+          "Grimmsnarl",
+          "Perrserker",
+          "Sirfetch’d",
+          "Mr. Rime",
+          "Runerigus",
+          "Alcremie",
+          "Falinks",
+          "Pincurchin",
+          "Indeedee (Macho)",
+          "Indeedee (Hembra)",
+          "Morpeko",
+          "Dragapult",
+          "Wyrdeer",
+          "Kleavor",
+          "Basculegion (Macho)",
+          "Basculegion (Hembra)",
+          "Sneasler",
+          "Overqwil",
+          "Meowscarada",
+          "Skeledirge",
+          "Quaquaval",
+          "Pawmot",
+          "Maushold",
+          "Arboliva",
+          "Squawkabilly",
+          "Squawkabilly",
+          "Garganacl",
+          "Armarouge",
+          "Ceruledge",
+          "Bellibolt",
+          "Mabosstiff",
+          "Scovillain",
+          "Espathra",
+          "Tinkaton",
+          "Palafin",
+          "Orthworm",
+          "Glimmora",
+          "Houndstone",
+          "Annihilape",
+          "Farigiraf",
+          "Kingambit",
+          "Baxcalibur",
+          "Gholdengo",
+          "Sinistcha",
+          "Archaludon",
+          "Hydrapple"
+        ],
+        "endsAtUtc": "2026-12-02T01:59:00Z",
+        "itemClause": true,
+        "megaEvolutionLimit": 1,
+        "playerTimeSeconds": 420,
+        "startsAtUtc": "2026-09-09T02:00:00Z",
+        "teamPreviewSeconds": 90,
+        "turnTimeSeconds": 45,
+        "unmappedPokemonNames": [
+          "Vivillon"
+        ]
+      }
     }
   }
 }

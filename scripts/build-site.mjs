@@ -108,6 +108,7 @@ await emit("data/coverage.json", coverage);
 const siteManifest = {
   datasetId: manifest.datasetId,
   context: manifest.context,
+  sourcePolicy: manifest.sourcePolicy,
   complete: manifest.complete,
   files,
 };

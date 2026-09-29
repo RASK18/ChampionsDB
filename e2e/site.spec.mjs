@@ -1,7 +1,26 @@
 import { test, expect } from "@playwright/test";
+import { readFileSync } from "node:fs";
+const count = (collection) => JSON.parse(readFileSync(new URL(`../data/${collection}.json`, import.meta.url))).length.toLocaleString("es");
 test.beforeEach(async ({ page }) => {
   await page.goto("./");
-  await expect(page.locator("#confirmed-count")).toHaveText("351");
+  await expect(page.locator("#confirmed-count")).toHaveText(count("pokemon"));
+});
+
+test("complementos visibles: efectividades, naturalezas y fuentes delimitadas", async ({ page }) => {
+  const nav = page.getByRole("navigation");
+  await nav.getByRole("button", { name: "Tipos", exact: true }).click();
+  await page.getByRole("button", { name: "Ver matriz", exact: true }).click();
+  await expect(page.locator("tbody tr")).toHaveCount(18);
+  await expect(page.locator("tbody")).not.toContainText("Pendiente");
+  await expect(page.locator("tbody")).not.toContainText("Sin dato");
+  await expect(page.locator("tbody td:not(:first-child)")).toHaveCount(324);
+  await nav.getByRole("button", { name: "Naturalezas", exact: true }).click();
+  await page.getByRole("searchbox").fill("Fuerte");
+  await expect(page.locator("#confirmed-count")).toHaveText("1");
+  await expect(page.locator("tbody")).not.toContainText("Pendiente");
+  await page.getByRole("button", { name: "Cobertura y fuentes", exact: true }).click();
+  await expect(page.getByRole("dialog")).toContainText("147 huecos autorizados");
+  await expect(page.getByRole("dialog")).toContainText("sin sustituir datos de champout");
 });
 test("carga diferida, paginación, búsqueda, memoria de sección y recarga", async ({
   page,
@@ -46,7 +65,7 @@ test("filtro rápido inclusivo y exclusivo refleja el mismo grupo avanzado", asy
     (await page.locator("#confirmed-count").innerText()).replaceAll(".", ""),
   );
   expect(count).toBeGreaterThan(0);
-  expect(count).toBeLessThan(351);
+  expect(count).toBeLessThan(1000);
   await types.getByLabel("Operación de Tipos").selectOption("none");
   await expect(page.locator("#filter-summary")).toContainText(
     "No contiene ninguno",
@@ -109,7 +128,7 @@ test("Lluvia, evidencias por entidad y matriz de tipos", async ({ page }) => {
     .getByRole("button", { name: "Consultar evidencias", exact: true })
     .click();
   await expect(
-    page.getByText("Evidencias y campos pendientes", { exact: true }),
+    page.getByText("Evidencias y campos sin dato", { exact: true }),
   ).toBeVisible();
   expect(
     await page.evaluate(() =>
@@ -162,13 +181,13 @@ test("error de carga recuperable", async ({ page }) => {
   await expect(page.locator("#notice")).toContainText("No se pudo cargar");
   await page.unroute("**/data/items.json*");
   await page.getByRole("button", { name: "Reintentar", exact: true }).click();
-  await expect(page.locator("#confirmed-count")).toHaveText("162");
+  await expect(page.locator("#confirmed-count")).toHaveText(count("items"));
 });
 test("aprendizajes paginados con nombres resueltos y filtros sobre datos anidados", async ({
   page,
 }) => {
   await page.getByRole("button", { name: "Aprendizajes", exact: true }).click();
-  await expect(page.locator("#confirmed-count")).toHaveText("21.496");
+  await expect(page.locator("#confirmed-count")).toHaveText(count("learnsets"));
   await expect(page.locator("tbody tr")).toHaveCount(50);
   await expect(page.locator("tbody tr").first()).not.toContainText("move-");
   await page.getByLabel("Filas por página").selectOption("100");
@@ -220,7 +239,7 @@ test("todas las secciones, detalles y captura de escritorio sin errores de conso
     .getByRole("navigation")
     .getByRole("button", { name: "Pokémon", exact: true })
     .click();
-  await expect(page.locator("#confirmed-count")).toHaveText("351");
+  await expect(page.locator("#confirmed-count")).toHaveText(count("pokemon"));
   await page.screenshot({ path: "test-results/desktop.png", fullPage: true });
   expect(errors).toEqual([]);
 });

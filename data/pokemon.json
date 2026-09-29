@@ -392,6 +392,7 @@
     },
     "id": "pokemon-0026001",
     "identity": true,
+    "name": "Raichu (Forma de Alola)",
     "sex": "mixed",
     "speciesId": "species-026",
     "stats": {
@@ -553,6 +554,7 @@
     },
     "id": "pokemon-0038001",
     "identity": true,
+    "name": "Ninetales (Forma de Alola)",
     "sex": "mixed",
     "speciesId": "species-038",
     "stats": {
@@ -666,6 +668,7 @@
     },
     "id": "pokemon-0053001",
     "identity": true,
+    "name": "Persian (Forma de Alola)",
     "sex": "mixed",
     "speciesId": "species-053",
     "stats": {
@@ -721,6 +724,7 @@
     },
     "id": "pokemon-0059001",
     "identity": true,
+    "name": "Arcanine (Forma de Hisui)",
     "sex": "mixed",
     "speciesId": "species-059",
     "stats": {
@@ -942,6 +946,7 @@
     },
     "id": "pokemon-0080002",
     "identity": true,
+    "name": "Slowbro (Forma de Galar)",
     "sex": "mixed",
     "speciesId": "species-080",
     "stats": {
@@ -1275,6 +1280,7 @@
     },
     "id": "pokemon-0128001",
     "identity": true,
+    "name": "Tauros (Forma de Paldea (Variedad Combatiente))",
     "sex": "male",
     "speciesId": "species-128",
     "stats": {
@@ -1302,6 +1308,7 @@
     },
     "id": "pokemon-0128002",
     "identity": true,
+    "name": "Tauros (Forma de Paldea (Variedad Ardiente))",
     "sex": "male",
     "speciesId": "species-128",
     "stats": {
@@ -1330,6 +1337,7 @@
     },
     "id": "pokemon-0128003",
     "identity": true,
+    "name": "Tauros (Forma de Paldea (Variedad Acuática))",
     "sex": "male",
     "speciesId": "species-128",
     "stats": {
@@ -1740,6 +1748,7 @@
     },
     "id": "pokemon-0157001",
     "identity": true,
+    "name": "Typhlosion (Forma de Hisui)",
     "sex": "mixed",
     "speciesId": "species-157",
     "stats": {
@@ -2045,6 +2054,7 @@
     },
     "id": "pokemon-0199001",
     "identity": true,
+    "name": "Slowking (Forma de Galar)",
     "sex": "mixed",
     "speciesId": "species-199",
     "stats": {
@@ -3238,6 +3248,7 @@
     },
     "id": "pokemon-0351000",
     "identity": true,
+    "name": "Castform (Forma de Castform)",
     "sex": "mixed",
     "speciesId": "species-351",
     "stats": {
@@ -3263,6 +3274,7 @@
     },
     "id": "pokemon-0351001",
     "identity": true,
+    "name": "Castform (Forma Sol)",
     "sex": "mixed",
     "speciesId": "species-351",
     "stats": {
@@ -3288,6 +3300,7 @@
     },
     "id": "pokemon-0351002",
     "identity": true,
+    "name": "Castform (Forma Lluvia)",
     "sex": "mixed",
     "speciesId": "species-351",
     "stats": {
@@ -3313,6 +3326,7 @@
     },
     "id": "pokemon-0351003",
     "identity": true,
+    "name": "Castform (Forma Nieve)",
     "sex": "mixed",
     "speciesId": "species-351",
     "stats": {
@@ -4579,6 +4593,7 @@
     },
     "id": "pokemon-0479000",
     "identity": true,
+    "name": "Rotom (Forma de Rotom)",
     "sex": "genderless",
     "speciesId": "species-479",
     "stats": {
@@ -4605,7 +4620,7 @@
     },
     "id": "pokemon-0479001",
     "identity": true,
-    "name": "Rotom Calor",
+    "name": "Rotom (Rotom Calor)",
     "sex": "genderless",
     "speciesId": "species-479",
     "stats": {
@@ -4632,7 +4647,7 @@
     },
     "id": "pokemon-0479002",
     "identity": true,
-    "name": "Rotom Lavado",
+    "name": "Rotom (Rotom Lavado)",
     "sex": "genderless",
     "speciesId": "species-479",
     "stats": {
@@ -4659,7 +4674,7 @@
     },
     "id": "pokemon-0479003",
     "identity": true,
-    "name": "Rotom Frío",
+    "name": "Rotom (Rotom Frío)",
     "sex": "genderless",
     "speciesId": "species-479",
     "stats": {
@@ -4686,7 +4701,7 @@
     },
     "id": "pokemon-0479004",
     "identity": true,
-    "name": "Rotom Ventilador",
+    "name": "Rotom (Rotom Ventilador)",
     "sex": "genderless",
     "speciesId": "species-479",
     "stats": {
@@ -4713,7 +4728,7 @@
     },
     "id": "pokemon-0479005",
     "identity": true,
-    "name": "Rotom Corte",
+    "name": "Rotom (Rotom Corte)",
     "sex": "genderless",
     "speciesId": "species-479",
     "stats": {
@@ -4850,6 +4865,7 @@
     },
     "id": "pokemon-0503001",
     "identity": true,
+    "name": "Samurott (Forma de Hisui)",
     "sex": "mixed",
     "speciesId": "species-503",
     "stats": {
@@ -5430,6 +5446,7 @@
     },
     "id": "pokemon-0571001",
     "identity": true,
+    "name": "Zoroark (Forma de Hisui)",
     "sex": "mixed",
     "speciesId": "species-571",
     "stats": {
@@ -5705,6 +5722,7 @@
     },
     "id": "pokemon-0618001",
     "identity": true,
+    "name": "Stunfisk (Forma de Galar)",
     "sex": "mixed",
     "speciesId": "species-618",
     "stats": {
@@ -6066,6 +6084,7 @@
     },
     "id": "pokemon-0666000",
     "identity": true,
+    "name": "Vivillon (Motivo Polar)",
     "sex": "mixed",
     "speciesId": "species-666",
     "stats": {
@@ -6144,8 +6163,12 @@
       "ability-180"
     ],
     "available": true,
+    "form": {
+      "kind": "alternate"
+    },
     "id": "pokemon-0670005",
     "identity": true,
+    "name": "Floette (Flor Eterna)",
     "sex": "female",
     "speciesId": "species-670",
     "stats": {
@@ -6198,6 +6221,7 @@
     },
     "id": "pokemon-0671000",
     "identity": true,
+    "name": "Florges (Flor Roja)",
     "sex": "female",
     "speciesId": "species-671",
     "stats": {
@@ -6279,6 +6303,7 @@
     },
     "id": "pokemon-0676000",
     "identity": true,
+    "name": "Furfrou (Forma Salvaje)",
     "sex": "mixed",
     "speciesId": "species-676",
     "stats": {
@@ -6302,10 +6327,11 @@
     ],
     "available": true,
     "form": {
-      "kind": "base"
+      "kind": "gender"
     },
     "id": "pokemon-0678000",
     "identity": true,
+    "name": "Meowstic (Macho)",
     "sex": "male",
     "speciesId": "species-678",
     "stats": {
@@ -6333,6 +6359,7 @@
     },
     "id": "pokemon-0678001",
     "identity": true,
+    "name": "Meowstic (Hembra)",
     "sex": "female",
     "speciesId": "species-678",
     "stats": {
@@ -6376,6 +6403,32 @@
   },
   {
     "abilityIds": [
+      "ability-036"
+    ],
+    "available": true,
+    "form": {
+      "kind": "mega"
+    },
+    "id": "pokemon-0678003",
+    "identity": true,
+    "name": "Mega-Meowstic",
+    "sex": "female",
+    "speciesId": "species-678",
+    "stats": {
+      "attack": 48,
+      "defense": 76,
+      "hp": 74,
+      "spAttack": 143,
+      "spDefense": 101,
+      "speed": 124
+    },
+    "typeIds": [
+      "psychic"
+    ],
+    "weightKg": 10.1
+  },
+  {
+    "abilityIds": [
       "ability-176"
     ],
     "available": true,
@@ -6384,6 +6437,7 @@
     },
     "id": "pokemon-0681000",
     "identity": true,
+    "name": "Aegislash (Forma Escudo)",
     "sex": "mixed",
     "speciesId": "species-681",
     "stats": {
@@ -6410,6 +6464,7 @@
     },
     "id": "pokemon-0681001",
     "identity": true,
+    "name": "Aegislash (Forma Filo)",
     "sex": "mixed",
     "speciesId": "species-681",
     "stats": {
@@ -6911,6 +6966,7 @@
     },
     "id": "pokemon-0706001",
     "identity": true,
+    "name": "Goodra (Forma de Hisui)",
     "sex": "mixed",
     "speciesId": "species-706",
     "stats": {
@@ -6996,6 +7052,7 @@
     },
     "id": "pokemon-0711000",
     "identity": true,
+    "name": "Gourgeist (Variante Mediana)",
     "sex": "mixed",
     "speciesId": "species-711",
     "stats": {
@@ -7024,6 +7081,7 @@
     },
     "id": "pokemon-0711001",
     "identity": true,
+    "name": "Gourgeist (Variante Pequeña)",
     "sex": "mixed",
     "speciesId": "species-711",
     "stats": {
@@ -7052,6 +7110,7 @@
     },
     "id": "pokemon-0711002",
     "identity": true,
+    "name": "Gourgeist (Variante Grande)",
     "sex": "mixed",
     "speciesId": "species-711",
     "stats": {
@@ -7080,6 +7139,7 @@
     },
     "id": "pokemon-0711003",
     "identity": true,
+    "name": "Gourgeist (Variante Enorme)",
     "sex": "mixed",
     "speciesId": "species-711",
     "stats": {
@@ -7136,6 +7196,7 @@
     },
     "id": "pokemon-0713001",
     "identity": true,
+    "name": "Avalugg (Forma de Hisui)",
     "sex": "mixed",
     "speciesId": "species-713",
     "stats": {
@@ -7220,6 +7281,7 @@
     },
     "id": "pokemon-0724001",
     "identity": true,
+    "name": "Decidueye (Forma de Hisui)",
     "sex": "mixed",
     "speciesId": "species-724",
     "stats": {
@@ -7389,6 +7451,7 @@
     },
     "id": "pokemon-0745000",
     "identity": true,
+    "name": "Lycanroc (Forma Diurna)",
     "sex": "mixed",
     "speciesId": "species-745",
     "stats": {
@@ -7416,6 +7479,7 @@
     },
     "id": "pokemon-0745001",
     "identity": true,
+    "name": "Lycanroc (Forma Nocturna)",
     "sex": "mixed",
     "speciesId": "species-745",
     "stats": {
@@ -7441,6 +7505,7 @@
     },
     "id": "pokemon-0745002",
     "identity": true,
+    "name": "Lycanroc (Forma Crepuscular)",
     "sex": "mixed",
     "speciesId": "species-745",
     "stats": {
@@ -7717,6 +7782,34 @@
     },
     "id": "pokemon-0778000",
     "identity": true,
+    "name": "Mimikyu (Forma Encubierta)",
+    "sex": "mixed",
+    "speciesId": "species-778",
+    "stats": {
+      "attack": 90,
+      "defense": 80,
+      "hp": 55,
+      "spAttack": 50,
+      "spDefense": 105,
+      "speed": 96
+    },
+    "typeIds": [
+      "fairy",
+      "ghost"
+    ],
+    "weightKg": 0.7
+  },
+  {
+    "abilityIds": [
+      "ability-209"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0778001",
+    "identity": true,
+    "name": "Mimikyu (Forma Descubierta)",
     "sex": "mixed",
     "speciesId": "species-778",
     "stats": {
@@ -8054,6 +8147,7 @@
     },
     "id": "pokemon-0849000",
     "identity": true,
+    "name": "Toxtricity (Forma Aguda)",
     "sex": "mixed",
     "speciesId": "species-849",
     "stats": {
@@ -8082,6 +8176,7 @@
     },
     "id": "pokemon-0849001",
     "identity": true,
+    "name": "Toxtricity (Forma Grave)",
     "sex": "mixed",
     "speciesId": "species-849",
     "stats": {
@@ -8136,6 +8231,7 @@
     },
     "id": "pokemon-0855000",
     "identity": true,
+    "name": "Polteageist (Forma Falsificada)",
     "sex": "genderless",
     "speciesId": "species-855",
     "stats": {
@@ -8331,6 +8427,7 @@
     },
     "id": "pokemon-0869000",
     "identity": true,
+    "name": "Alcremie (Crema de Vainilla)",
     "sex": "female",
     "speciesId": "species-869",
     "stats": {
@@ -8434,10 +8531,11 @@
     ],
     "available": true,
     "form": {
-      "kind": "base"
+      "kind": "gender"
     },
     "id": "pokemon-0876000",
     "identity": true,
+    "name": "Indeedee (Macho)",
     "sex": "male",
     "speciesId": "species-876",
     "stats": {
@@ -8466,6 +8564,7 @@
     },
     "id": "pokemon-0876001",
     "identity": true,
+    "name": "Indeedee (Hembra)",
     "sex": "female",
     "speciesId": "species-876",
     "stats": {
@@ -8492,6 +8591,34 @@
     },
     "id": "pokemon-0877000",
     "identity": true,
+    "name": "Morpeko (Forma Saciada)",
+    "sex": "mixed",
+    "speciesId": "species-877",
+    "stats": {
+      "attack": 95,
+      "defense": 58,
+      "hp": 58,
+      "spAttack": 70,
+      "spDefense": 58,
+      "speed": 97
+    },
+    "typeIds": [
+      "dark",
+      "electric"
+    ],
+    "weightKg": 3
+  },
+  {
+    "abilityIds": [
+      "ability-258"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0877001",
+    "identity": true,
+    "name": "Morpeko (Forma Voraz)",
     "sex": "mixed",
     "speciesId": "species-877",
     "stats": {
@@ -8603,10 +8730,11 @@
     ],
     "available": true,
     "form": {
-      "kind": "base"
+      "kind": "gender"
     },
     "id": "pokemon-0902000",
     "identity": true,
+    "name": "Basculegion (Macho)",
     "sex": "male",
     "speciesId": "species-902",
     "stats": {
@@ -8635,6 +8763,7 @@
     },
     "id": "pokemon-0902001",
     "identity": true,
+    "name": "Basculegion (Hembra)",
     "sex": "female",
     "speciesId": "species-902",
     "stats": {
@@ -8829,8 +8958,13 @@
       "ability-167"
     ],
     "available": true,
+    "form": {
+      "kind": "base"
+    },
     "id": "pokemon-0925000",
     "identity": true,
+    "name": "Maushold (Familia de Tres)",
+    "sex": "genderless",
     "speciesId": "species-925",
     "stats": {
       "attack": 75,
@@ -8842,7 +8976,8 @@
     },
     "typeIds": [
       "normal"
-    ]
+    ],
+    "weightKg": 2.3
   },
   {
     "abilityIds": [
@@ -8851,8 +8986,13 @@
       "ability-167"
     ],
     "available": true,
+    "form": {
+      "kind": "alternate"
+    },
     "id": "pokemon-0925001",
     "identity": true,
+    "name": "Maushold (Familia de Cuatro)",
+    "sex": "genderless",
     "speciesId": "species-925",
     "stats": {
       "attack": 75,
@@ -8864,7 +9004,8 @@
     },
     "typeIds": [
       "normal"
-    ]
+    ],
+    "weightKg": 2.8
   },
   {
     "abilityIds": [
@@ -8906,6 +9047,7 @@
     },
     "id": "pokemon-0931000",
     "identity": true,
+    "name": "Squawkabilly (Plumaje Verde)",
     "sex": "mixed",
     "speciesId": "species-931",
     "stats": {
@@ -8929,8 +9071,13 @@
       "ability-062"
     ],
     "available": true,
+    "form": {
+      "kind": "alternate"
+    },
     "id": "pokemon-0931001",
     "identity": true,
+    "name": "Squawkabilly (Plumaje Azul)",
+    "sex": "mixed",
     "speciesId": "species-931",
     "stats": {
       "attack": 96,
@@ -8943,7 +9090,8 @@
     "typeIds": [
       "flying",
       "normal"
-    ]
+    ],
+    "weightKg": 2.4
   },
   {
     "abilityIds": [
@@ -8952,8 +9100,13 @@
       "ability-125"
     ],
     "available": true,
+    "form": {
+      "kind": "alternate"
+    },
     "id": "pokemon-0931002",
     "identity": true,
+    "name": "Squawkabilly (Plumaje Amarillo)",
+    "sex": "mixed",
     "speciesId": "species-931",
     "stats": {
       "attack": 96,
@@ -8966,7 +9119,8 @@
     "typeIds": [
       "flying",
       "normal"
-    ]
+    ],
+    "weightKg": 2.4
   },
   {
     "abilityIds": [
@@ -8975,8 +9129,13 @@
       "ability-125"
     ],
     "available": true,
+    "form": {
+      "kind": "alternate"
+    },
     "id": "pokemon-0931003",
     "identity": true,
+    "name": "Squawkabilly (Plumaje Blanco)",
+    "sex": "mixed",
     "speciesId": "species-931",
     "stats": {
       "attack": 96,
@@ -8989,7 +9148,8 @@
     "typeIds": [
       "flying",
       "normal"
-    ]
+    ],
+    "weightKg": 2.4
   },
   {
     "abilityIds": [
@@ -9254,6 +9414,7 @@
     },
     "id": "pokemon-0964000",
     "identity": true,
+    "name": "Palafin (Forma Ingenua)",
     "sex": "mixed",
     "speciesId": "species-964",
     "stats": {
@@ -9279,6 +9440,7 @@
     },
     "id": "pokemon-0964001",
     "identity": true,
+    "name": "Palafin (Forma Heroica)",
     "sex": "mixed",
     "speciesId": "species-964",
     "stats": {
@@ -9583,6 +9745,7 @@
     },
     "id": "pokemon-1013000",
     "identity": true,
+    "name": "Sinistcha (Forma Mediocre)",
     "sex": "genderless",
     "speciesId": "species-1013",
     "stats": {

@@ -1,5 +1,6 @@
 import {canonical,hash,json} from './io.mjs';
 import {collections,expectedFields,put} from './model.mjs';
+import {acceptedObservations} from './source-policy.mjs';
 
 export class Claims {
   constructor(snapshot){this.snapshot=snapshot;this.claims=new Map();this.inventory=new Map();this.mapping=[];this.extraPending=[];}
@@ -24,14 +25,14 @@ export function reconcile(store,reviewed={equivalences:[],resolutions:[]}){
   const verified={},pending=[],decisions={};
   for(const [entity,fields] of [...store.inventory].sort(([a],[b])=>a.localeCompare(b)))for(const field of [...fields].sort()){
     const claim=`${entity}/${field}`;let obs=store.claims.get(claim)||[];
-    obs=obs.map(o=>({...o}));
+    obs=acceptedObservations(obs,claim,store.policy).map(o=>({...o}));
     for(const equivalence of reviewed.equivalences||[]){
       if(equivalence.claim!==claim)continue;
       const matched=equivalence.evidence.every(e=>obs.some(o=>o.document===e.document&&o.locator===e.locator&&hash(json(o.observed))===e.observedHash));
       if(matched)for(const o of obs)if(equivalence.evidence.some(e=>e.document===o.document&&e.locator===o.locator)){o.value=equivalence.value;o.review=equivalence.id;}
     }
     const groups=new Map();for(const o of obs){const signature=json(o.value);if(!groups.has(signature))groups.set(signature,[]);groups.get(signature).push(o);}
-    let winners=[...groups.values()].filter(g=>new Set(g.map(o=>o.provider)).size>=2);
+    let winners=[...groups.values()].filter(g=>new Set(g.map(o=>o.provider)).size>=(store.policy?.minimumProviders||2));
     let resolution;
     if(groups.size>1){
       resolution=(reviewed.resolutions||[]).find(r=>r.claim===claim&&r.evidence.every(e=>obs.some(o=>o.document===e.document&&hash(json(o.observed))===e.observedHash)));
@@ -78,6 +79,7 @@ export function references(collection,row){
     for(const id of row.abilityIds||[])add('abilityIds','abilities',id);
   }
   if(collection==='moves')add('typeId','types',row.typeId);
+  if(collection==='regulations')for(const id of row.rules?.eligiblePokemon||[])add('rules','pokemon',id);
   if(collection==='learnsets'){add('pokemonId','pokemon',row.pokemonId);add('moveId','moves',row.moveId);}
   if(collection==='interactions'&&row.rule){
     for(const end of ['source','target']){const r=row.rule[end];if(r?.id)add('rule',r.collection,r.id);}

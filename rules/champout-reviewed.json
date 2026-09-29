@@ -1,0 +1,3300 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-09-28",
+  "rules": [
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-240/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Hace que llueva durante cinco turnos.",
+          "locator": "WAZAINFO_SYN_240",
+          "observedHash": "c00bd4316a9d58ac43cfc5e49b64023dc67e35362863ad7d390970533c4a016b"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-240--weather--rain",
+      "field": "rule",
+      "id": "review-interactions-move-240--weather--rain-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-240"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "rain"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-241/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Hace que salga el sol durante cinco turnos.",
+          "locator": "WAZAINFO_SYN_241",
+          "observedHash": "76688a1ba68f0110f3be283b401401701770fcb746a478cf3a82af61d1884432"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-241--weather--harsh-sunlight",
+      "field": "rule",
+      "id": "review-interactions-move-241--weather--harsh-sunlight-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-241"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "harsh-sunlight"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-201/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Provoca una tormenta de arena que dura cinco turnos.",
+          "locator": "WAZAINFO_SYN_201",
+          "observedHash": "f972a9302cb995d4ac5a3cc24d10ae46c3cd4c4f5c1f178e30e1ba2e6996d265"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-201--weather--sandstorm",
+      "field": "rule",
+      "id": "review-interactions-move-201--weather--sandstorm-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-201"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sandstorm"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-883/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Hace que nieve durante cinco turnos.",
+          "locator": "WAZAINFO_SYN_883",
+          "observedHash": "034cd8272e32a2a02d9f746b34d4244907232921738e986cc43c98d82eef1de0"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-883--weather--snow",
+      "field": "rule",
+      "id": "review-interactions-move-883--weather--snow-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-883"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "snow"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-604/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Crea un campo eléctrico en el terreno de combate durante\ncinco turnos.",
+          "locator": "WAZAINFO_SYN_604",
+          "observedHash": "2eeadf3a953a2eb96f38b85e00c5592954e0c0ee5e835defc6e033e49a4c26f1"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-604--weather--electric-terrain",
+      "field": "rule",
+      "id": "review-interactions-move-604--weather--electric-terrain-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-604"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "electric-terrain"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-580/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Crea un campo de hierba en el terreno de combate durante\ncinco turnos.",
+          "locator": "WAZAINFO_SYN_580",
+          "observedHash": "d4fca82a64f404ff03410c171f164d6906362efa73f55cd46c36898c3985c42c"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-580--weather--grassy-terrain",
+      "field": "rule",
+      "id": "review-interactions-move-580--weather--grassy-terrain-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-580"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "grassy-terrain"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-581/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Crea un campo de niebla en el terreno de combate durante\ncinco turnos.",
+          "locator": "WAZAINFO_SYN_581",
+          "observedHash": "baea75c80371c446649741c7f407c9e889c69a2955acb97bba4792586bf24c88"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-581--weather--misty-terrain",
+      "field": "rule",
+      "id": "review-interactions-move-581--weather--misty-terrain-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-581"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "misty-terrain"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-678/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Crea un campo psíquico en el terreno de combate durante\ncinco turnos.",
+          "locator": "WAZAINFO_SYN_678",
+          "observedHash": "298924872a54bfc6f8d6a0b708fa7a434203429802cf2b550e66c4a15d2e5afe"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-678--weather--psychic-terrain",
+      "field": "rule",
+      "id": "review-interactions-move-678--weather--psychic-terrain-rule",
+      "note": "Ambos textos describen la creación del clima o terreno y su duración de cinco turnos.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-678"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "psychic-terrain"
+        },
+        "trigger": "on-use"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-002/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Hace que llueva durante cinco turnos cuando el Pokémon\nentra en combate.",
+          "locator": "TOKUSEIINFO_SYN_002",
+          "observedHash": "5e0ebaf549f34972e7e4f66cadce08523e0dbfdd34dea2cfe5290ef0019a3abd"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-002--weather--rain",
+      "field": "rule",
+      "id": "review-interactions-ability-002--weather--rain-rule",
+      "note": "Ambos textos indican creación del clima o terreno al entrar en combate. La duración solo se incluye cuando ambos la explicitan.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-002"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "rain"
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-070/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Hace que salga el sol durante cinco turnos cuando el Pokémon\nentra en combate.",
+          "locator": "TOKUSEIINFO_SYN_070",
+          "observedHash": "50103ba9bc9e08476e2bf07af2302afc527aed4d42cfc10c9e5b4b0047a47967"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-070--weather--harsh-sunlight",
+      "field": "rule",
+      "id": "review-interactions-ability-070--weather--harsh-sunlight-rule",
+      "note": "Ambos textos indican creación del clima o terreno al entrar en combate. La duración solo se incluye cuando ambos la explicitan.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-070"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "harsh-sunlight"
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-045/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Provoca una tormenta de arena que dura cinco turnos cuando\nel Pokémon entra en combate.",
+          "locator": "TOKUSEIINFO_SYN_045",
+          "observedHash": "e4df7199270602937da953b8ad72507d67cf54b30a34f02db4f50ec2dccf13ea"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-045--weather--sandstorm",
+      "field": "rule",
+      "id": "review-interactions-ability-045--weather--sandstorm-rule",
+      "note": "Ambos textos indican creación del clima o terreno al entrar en combate. La duración solo se incluye cuando ambos la explicitan.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-045"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sandstorm"
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-117/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Hace que nieve durante cinco turnos cuando el Pokémon entra\nen combate.",
+          "locator": "TOKUSEIINFO_SYN_117",
+          "observedHash": "f8d48f8e1425da1757a17e5805208c997e003a67d2d0697c1a2c0b062fa2f3f5"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-117--weather--snow",
+      "field": "rule",
+      "id": "review-interactions-ability-117--weather--snow-rule",
+      "note": "Ambos textos indican creación del clima o terreno al entrar en combate. La duración solo se incluye cuando ambos la explicitan.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-117"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "snow"
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-226/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Crea un campo eléctrico en el terreno de combate durante\ncinco turnos cuando el Pokémon entra en combate.",
+          "locator": "TOKUSEIINFO_SYN_226",
+          "observedHash": "c21eaecbc4a6f9e11f86a5d19c0d75a4cf6a58926152751ce122a6432f5b0602"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-226--weather--electric-terrain",
+      "field": "rule",
+      "id": "review-interactions-ability-226--weather--electric-terrain-rule",
+      "note": "Ambos textos indican creación del clima o terreno al entrar en combate. La duración solo se incluye cuando ambos la explicitan.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-226"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "electric-terrain"
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-229/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Crea un campo de hierba en el terreno de combate durante\ncinco turnos cuando el Pokémon entra en combate.",
+          "locator": "TOKUSEIINFO_SYN_229",
+          "observedHash": "ef8003659e1d16280a28163e022d165cc1893512b38ecba5260cee096ff325db"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-229--weather--grassy-terrain",
+      "field": "rule",
+      "id": "review-interactions-ability-229--weather--grassy-terrain-rule",
+      "note": "Ambos textos indican creación del clima o terreno al entrar en combate. La duración solo se incluye cuando ambos la explicitan.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-229"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "grassy-terrain"
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-227/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Crea un campo psíquico en el terreno de combate durante\ncinco turnos cuando el Pokémon entra en combate.",
+          "locator": "TOKUSEIINFO_SYN_227",
+          "observedHash": "926869b8bef8454421e8cffca89ef45c7ee0ab358450d704b5c2cc913c06f49b"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-227--weather--psychic-terrain",
+      "field": "rule",
+      "id": "review-interactions-ability-227--weather--psychic-terrain-rule",
+      "note": "Ambos textos indican creación del clima o terreno al entrar en combate. La duración solo se incluye cuando ambos la explicitan.",
+      "value": {
+        "parameters": {
+          "duration": {
+            "turns": 5
+          }
+        },
+        "recipient": "field",
+        "relation": "causes",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-227"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "psychic-terrain"
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-033/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Duplica la Velocidad del Pokémon cuando llueve.",
+          "locator": "TOKUSEIINFO_SYN_033",
+          "observedHash": "abd56a599149d8f2e509f94a0e18105c3634acd84ccee733b42b94ca6b86c37e"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-033--benefits--rain",
+      "field": "rule",
+      "id": "review-interactions-ability-033--benefits--rain-rule",
+      "note": "Ambos textos indican duplicación de Velocidad con ese clima. No es un productor.",
+      "value": {
+        "parameters": {
+          "multiplier": 2,
+          "stat": "speed"
+        },
+        "recipient": "self",
+        "relation": "benefits",
+        "requirements": {
+          "all": [
+            {
+              "effectId": "rain",
+              "predicate": "effect-active"
+            }
+          ]
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-033"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "rain"
+        },
+        "trigger": "while-active"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-034/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Duplica la Velocidad del Pokémon cuando hace sol.",
+          "locator": "TOKUSEIINFO_SYN_034",
+          "observedHash": "0090c700cfe26fc2f493573e55ddfa878f5665a3e09f8cc7dd3b577abb0eb023"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-034--benefits--harsh-sunlight",
+      "field": "rule",
+      "id": "review-interactions-ability-034--benefits--harsh-sunlight-rule",
+      "note": "Ambos textos indican duplicación de Velocidad con ese clima. No es un productor.",
+      "value": {
+        "parameters": {
+          "multiplier": 2,
+          "stat": "speed"
+        },
+        "recipient": "self",
+        "relation": "benefits",
+        "requirements": {
+          "all": [
+            {
+              "effectId": "harsh-sunlight",
+              "predicate": "effect-active"
+            }
+          ]
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-034"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "harsh-sunlight"
+        },
+        "trigger": "while-active"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-146/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Duplica la Velocidad del Pokémon durante las tormentas de\narena.",
+          "locator": "TOKUSEIINFO_SYN_146",
+          "observedHash": "be2aaea72c7e0eadbe05ac9566a119573c79b40b6f4e9f222dd0763e23667d6c"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-146--benefits--sandstorm",
+      "field": "rule",
+      "id": "review-interactions-ability-146--benefits--sandstorm-rule",
+      "note": "Ambos textos indican duplicación de Velocidad con ese clima. No es un productor.",
+      "value": {
+        "parameters": {
+          "multiplier": 2,
+          "stat": "speed"
+        },
+        "recipient": "self",
+        "relation": "benefits",
+        "requirements": {
+          "all": [
+            {
+              "effectId": "sandstorm",
+              "predicate": "effect-active"
+            }
+          ]
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-146"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sandstorm"
+        },
+        "trigger": "while-active"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-202/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Duplica la Velocidad del Pokémon cuando nieva.",
+          "locator": "TOKUSEIINFO_SYN_202",
+          "observedHash": "53da8743fd49a2a8f20ce8835f0f3734e1d367e2ceaff1576f559e6f2676df38"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-202--benefits--snow",
+      "field": "rule",
+      "id": "review-interactions-ability-202--benefits--snow-rule",
+      "note": "Ambos textos indican duplicación de Velocidad con ese clima. No es un productor.",
+      "value": {
+        "parameters": {
+          "multiplier": 2,
+          "stat": "speed"
+        },
+        "recipient": "self",
+        "relation": "benefits",
+        "requirements": {
+          "all": [
+            {
+              "effectId": "snow",
+              "predicate": "effect-active"
+            }
+          ]
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-202"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "snow"
+        },
+        "trigger": "while-active"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-285/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Prolonga tres turnos la duración de la lluvia provocada\npor los movimientos o la habilidad del portador,\nhaciendo que dure ocho turnos en total.",
+          "locator": "ITEMINFO_SYN_285",
+          "observedHash": "52e72107f6ccd579cad74335ca41c6c5e691641db51ec59b76b9e2ffabd43890"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-285--extends--rain",
+      "field": "rule",
+      "id": "review-interactions-item-285--extends--rain-rule",
+      "note": "Los dos textos especifican tres turnos adicionales para el clima creado por movimientos o habilidad del portador.",
+      "value": {
+        "parameters": {
+          "additionalTurns": 3,
+          "duration": {
+            "turns": 8
+          }
+        },
+        "recipient": "field",
+        "relation": "extends",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "created-by-holder"
+            }
+          ]
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-285"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "rain"
+        },
+        "trigger": "on-effect-created"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-284/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Prolonga tres turnos la duración del tiempo soleado\nprovocado por los movimientos o la habilidad del\nportador, haciendo que dure ocho turnos en total.",
+          "locator": "ITEMINFO_SYN_284",
+          "observedHash": "f208f9b2bcab38b6b92f694c1478874f50f9bbc0fa626d7be170db69cebde1be"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-284--extends--harsh-sunlight",
+      "field": "rule",
+      "id": "review-interactions-item-284--extends--harsh-sunlight-rule",
+      "note": "Los dos textos especifican tres turnos adicionales para el clima creado por movimientos o habilidad del portador.",
+      "value": {
+        "parameters": {
+          "additionalTurns": 3,
+          "duration": {
+            "turns": 8
+          }
+        },
+        "recipient": "field",
+        "relation": "extends",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "created-by-holder"
+            }
+          ]
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-284"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "harsh-sunlight"
+        },
+        "trigger": "on-effect-created"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-283/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Prolonga tres turnos la duración de las tormentas de\narena provocadas por los movimientos o la habilidad\ndel portador, haciendo que duren ocho turnos en total.",
+          "locator": "ITEMINFO_SYN_283",
+          "observedHash": "3e0ac27ecc726b98d1269befa5aef3823d5ed15fe73a77d00b689fc5d50af1c4"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-283--extends--sandstorm",
+      "field": "rule",
+      "id": "review-interactions-item-283--extends--sandstorm-rule",
+      "note": "Los dos textos especifican tres turnos adicionales para el clima creado por movimientos o habilidad del portador.",
+      "value": {
+        "parameters": {
+          "additionalTurns": 3,
+          "duration": {
+            "turns": 8
+          }
+        },
+        "recipient": "field",
+        "relation": "extends",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "created-by-holder"
+            }
+          ]
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-283"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sandstorm"
+        },
+        "trigger": "on-effect-created"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-282/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Prolonga tres turnos la duración de las nevadas\nprovocadas por los movimientos o la habilidad del\nportador, haciendo que duren ocho turnos en total.",
+          "locator": "ITEMINFO_SYN_282",
+          "observedHash": "6420502923a1324ed4289d3c9856f98cb2b7af0c8053364063a35701f98f27cd"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-282--extends--snow",
+      "field": "rule",
+      "id": "review-interactions-item-282--extends--snow-rule",
+      "note": "Los dos textos especifican tres turnos adicionales para el clima creado por movimientos o habilidad del portador.",
+      "value": {
+        "parameters": {
+          "additionalTurns": 3,
+          "duration": {
+            "turns": 8
+          }
+        },
+        "recipient": "field",
+        "relation": "extends",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "created-by-holder"
+            }
+          ]
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-282"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "snow"
+        },
+        "trigger": "on-effect-created"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-149/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Elimina la parálisis del portador. Puede usarse una vez\npor combate.",
+          "locator": "ITEMINFO_SYN_149",
+          "observedHash": "b2348d6e5ebb21ccb873584467db4e628166e82075b2f0aeeadf7fb35e504705"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-149--cures--paralysis",
+      "field": "rule",
+      "id": "review-interactions-item-149--cures--paralysis-rule",
+      "note": "Baya que cura el estado del portador; puede usarse una vez por combate. Veneno incluye envenenamiento grave.",
+      "value": {
+        "parameters": {
+          "usesPerBattle": 1
+        },
+        "recipient": "holder",
+        "relation": "cures",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-149"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-status"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-150/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Elimina el sueño del portador. Puede usarse una vez por\ncombate.",
+          "locator": "ITEMINFO_SYN_150",
+          "observedHash": "cd03799419ef2411e7337ae0fea66bb90c0b444effde9868271a7fdb07fdec96"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-150--cures--sleep",
+      "field": "rule",
+      "id": "review-interactions-item-150--cures--sleep-rule",
+      "note": "Baya que cura el estado del portador; puede usarse una vez por combate. Veneno incluye envenenamiento grave.",
+      "value": {
+        "parameters": {
+          "usesPerBattle": 1
+        },
+        "recipient": "holder",
+        "relation": "cures",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-150"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sleep"
+        },
+        "trigger": "on-status"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-151/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Elimina el envenenamiento y el envenenamiento grave\ndel portador. Puede usarse una vez por combate.",
+          "locator": "ITEMINFO_SYN_151",
+          "observedHash": "5ea9521d4f752ec9d8651b07a31a418698f95ac6c5af3d91c3927ff91997b3ae"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-151--cures--poison",
+      "field": "rule",
+      "id": "review-interactions-item-151--cures--poison-rule",
+      "note": "Baya que cura el estado del portador; puede usarse una vez por combate. Veneno incluye envenenamiento grave.",
+      "value": {
+        "parameters": {
+          "usesPerBattle": 1
+        },
+        "recipient": "holder",
+        "relation": "cures",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-151"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-status"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-151/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Elimina el envenenamiento y el envenenamiento grave\ndel portador. Puede usarse una vez por combate.",
+          "locator": "ITEMINFO_SYN_151",
+          "observedHash": "5ea9521d4f752ec9d8651b07a31a418698f95ac6c5af3d91c3927ff91997b3ae"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-151--cures--bad-poison",
+      "field": "rule",
+      "id": "review-interactions-item-151--cures--bad-poison-rule",
+      "note": "Baya que cura el estado del portador; puede usarse una vez por combate. Veneno incluye envenenamiento grave.",
+      "value": {
+        "parameters": {
+          "usesPerBattle": 1
+        },
+        "recipient": "holder",
+        "relation": "cures",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-151"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "bad-poison"
+        },
+        "trigger": "on-status"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-152/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Elimina las quemaduras del portador. Puede usarse\nuna vez por combate.",
+          "locator": "ITEMINFO_SYN_152",
+          "observedHash": "c74fca10807cc30f7177944aa7a22a2b36b180d82ef9d8d6a71c41f39efec898"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-152--cures--burning",
+      "field": "rule",
+      "id": "review-interactions-item-152--cures--burning-rule",
+      "note": "Baya que cura el estado del portador; puede usarse una vez por combate. Veneno incluye envenenamiento grave.",
+      "value": {
+        "parameters": {
+          "usesPerBattle": 1
+        },
+        "recipient": "holder",
+        "relation": "cures",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-152"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-status"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "items/item-153/description",
+          "document": "champout/esp/iteminfo_syn",
+          "excerpt": "Elimina la congelación del portador. Puede usarse\nuna vez por combate.",
+          "locator": "ITEMINFO_SYN_153",
+          "observedHash": "b5f307fbd1086f845ec5bd28fee9e2fc4f1aa3e991838039b76ecd901862bd39"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "item-153--cures--freezing",
+      "field": "rule",
+      "id": "review-interactions-item-153--cures--freezing-rule",
+      "note": "Baya que cura el estado del portador; puede usarse una vez por combate. Veneno incluye envenenamiento grave.",
+      "value": {
+        "parameters": {
+          "usesPerBattle": 1
+        },
+        "recipient": "holder",
+        "relation": "cures",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-153"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "freezing"
+        },
+        "trigger": "on-status"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/paralysis/description",
+          "document": "champout/esp/btl_condition",
+          "excerpt": "El Pokémon tiene una probabilidad del 12,5 %\nde no poder usar movimientos y su Velocidad se\nreduce a la mitad. No afecta a los Pokémon de\ntipo Eléctrico.",
+          "locator": "btl_condition_paralysis_info",
+          "observedHash": "ffd40d5302570448f0003690af0231ea1c2135c2b3b08fc09ab0a1e3dd38ecd6"
+        }
+      ],
+      "collection": "battle-rules",
+      "entity": "paralysis",
+      "field": "rule",
+      "id": "review-battle-rules-paralysis-rule",
+      "note": "Solo se publican las afirmaciones mecánicas comunes. Las inmunidades por tipo necesitan contraste adicional.",
+      "value": {
+        "failureProbability": 0.125,
+        "speedMultiplier": 0.5
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/freezing/description",
+          "document": "champout/esp/btl_condition",
+          "excerpt": "El Pokémon no puede usar la mayoría de los\nmovimientos, pero tiene una probabilidad del\n25 % de descongelarse al intentarlo. Se librará\nde la congelación al tercer turno o si recibe daño\nde ciertos movimientos, como los de tipo Fuego.\nNo afecta a los Pokémon de tipo Hielo.",
+          "locator": "btl_condition_freezing_info",
+          "observedHash": "d21f67cea5705ba26064e4b340da89ca1e35c992d170ac90ece12b9b08e6a090"
+        }
+      ],
+      "collection": "battle-rules",
+      "entity": "freezing",
+      "field": "rule",
+      "id": "review-battle-rules-freezing-rule",
+      "note": "Solo se publican las afirmaciones mecánicas comunes. Las inmunidades por tipo necesitan contraste adicional.",
+      "value": {
+        "forcedThawTurn": 3,
+        "thawProbability": 0.25,
+        "trigger": "attempt-move"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/burning/description",
+          "document": "champout/esp/btl_condition",
+          "excerpt": "El Pokémon pierde 1/16 de sus PS máximos\nal final de cada turno y el daño que infligen\nsus ataques físicos se reduce a la mitad.\nNo afecta a los Pokémon de tipo Fuego.",
+          "locator": "btl_condition_burning_info",
+          "observedHash": "da20b4a604b9153ac4e058857bd36bbeaabeae589272d615f67975214655c8c4"
+        }
+      ],
+      "collection": "battle-rules",
+      "entity": "burning",
+      "field": "rule",
+      "id": "review-battle-rules-burning-rule",
+      "note": "Solo se publican las afirmaciones mecánicas comunes. Las inmunidades por tipo necesitan contraste adicional.",
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          16
+        ],
+        "physicalDamageMultiplier": 0.5
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/poison/description",
+          "document": "champout/esp/btl_condition",
+          "excerpt": "El Pokémon pierde 1/8 de sus PS máximos\nal final de cada turno. No afecta a los Pokémon\nde tipo Veneno o Acero.",
+          "locator": "btl_condition_poison_info",
+          "observedHash": "3eef44b121cb15dc915dc141eb36bc0550aa44f8cde153218e578e7a1bdaae15"
+        }
+      ],
+      "collection": "battle-rules",
+      "entity": "poison",
+      "field": "rule",
+      "id": "review-battle-rules-poison-rule",
+      "note": "Solo se publican las afirmaciones mecánicas comunes. Las inmunidades por tipo necesitan contraste adicional.",
+      "value": {
+        "endTurnDamageFraction": [
+          1,
+          8
+        ]
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/bad-poison/description",
+          "document": "champout/esp/btl_condition",
+          "excerpt": "El Pokémon pierde PS al final de cada turno.\nEl daño empieza por 1/16 de sus PS máximos y\naumenta 1/16 cada turno (2/16 en el segundo,\n3/16 en el tercero, etc.). Si, tras cambiarse por\notro, vuelve al combate, se reiniciará la cuenta\ndesde 1/16. No afecta a los Pokémon de tipo\nVeneno o Acero.",
+          "locator": "btl_condition_bad_poison_info",
+          "observedHash": "f5270a63576795fcb8baf464d2da09248b75cc90350c46f260a5031f56d16b07"
+        }
+      ],
+      "collection": "battle-rules",
+      "entity": "bad-poison",
+      "field": "rule",
+      "id": "review-battle-rules-bad-poison-rule",
+      "note": "Solo se publican las afirmaciones mecánicas comunes. Las inmunidades por tipo necesitan contraste adicional.",
+      "value": {
+        "firstTurnDamageFraction": [
+          1,
+          16
+        ],
+        "incrementPerTurn": [
+          1,
+          16
+        ],
+        "resetOnSwitch": true
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/sleep/description",
+          "document": "champout/esp/btl_condition",
+          "excerpt": "El Pokémon solo puede usar Ronquido o\nSonámbulo. Permanece dormido durante el\nprimer turno, tiene una probabilidad del 33 %\nde despertar en el segundo y se despertará\nseguro en el tercero. Si se durmió con Descanso,\nno despertará hasta el tercer turno.",
+          "locator": "btl_condition_sleep_info",
+          "observedHash": "b499fb46686c395754178ba1e771ac2ef1b2995f7a555f4205219975de44a22d"
+        }
+      ],
+      "collection": "battle-rules",
+      "entity": "sleep",
+      "field": "rule",
+      "id": "review-battle-rules-sleep-rule",
+      "note": "Solo se publican las afirmaciones mecánicas comunes. Las inmunidades por tipo necesitan contraste adicional.",
+      "value": {
+        "firstTurnAsleep": true,
+        "forcedWakeTurn": 3,
+        "restWakeTurn": 3,
+        "secondTurnWakeChanceDisplayedPercent": 33
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/rain/description",
+          "document": "champout/esp/btl_state_syn",
+          "excerpt": "Aumenta un 50 % el daño que infligen los\nmovimientos de tipo Agua y reduce a la mitad\nel que infligen los de tipo Fuego.",
+          "locator": "BTR_STATE_SYN_02_02",
+          "observedHash": "8da4894c73808813770ed47639e3388e18fb8053552954a77685e0812c64cce7"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "rain--damage--water",
+      "field": "rule",
+      "id": "review-interactions-rain--damage--water-rule",
+      "note": "Ambos textos indican el tipo de movimiento y multiplicador del daño. Selector estructurado por tipo.",
+      "value": {
+        "parameters": {
+          "multiplier": 1.5
+        },
+        "recipient": "matching-moves",
+        "relation": "boosts",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "effects",
+          "id": "rain"
+        },
+        "target": {
+          "collection": "moves",
+          "selector": {
+            "typeId": "water"
+          }
+        },
+        "trigger": "damage-calculation"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/rain/description",
+          "document": "champout/esp/btl_state_syn",
+          "excerpt": "Aumenta un 50 % el daño que infligen los\nmovimientos de tipo Agua y reduce a la mitad\nel que infligen los de tipo Fuego.",
+          "locator": "BTR_STATE_SYN_02_02",
+          "observedHash": "8da4894c73808813770ed47639e3388e18fb8053552954a77685e0812c64cce7"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "rain--damage--fire",
+      "field": "rule",
+      "id": "review-interactions-rain--damage--fire-rule",
+      "note": "Ambos textos indican el tipo de movimiento y multiplicador del daño. Selector estructurado por tipo.",
+      "value": {
+        "parameters": {
+          "multiplier": 0.5
+        },
+        "recipient": "matching-moves",
+        "relation": "reduces",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "effects",
+          "id": "rain"
+        },
+        "target": {
+          "collection": "moves",
+          "selector": {
+            "typeId": "fire"
+          }
+        },
+        "trigger": "damage-calculation"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/harsh-sunlight/description",
+          "document": "champout/esp/btl_state_syn",
+          "excerpt": "Aumenta un 50 % el daño que infligen los\nmovimientos de tipo Fuego y reduce a la mitad\nel que infligen los de tipo Agua.",
+          "locator": "BTR_STATE_SYN_01_02",
+          "observedHash": "d8dd1d51726c1fa596f9d74391a7748a7794a3f413341f7309f1965028598a15"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "harsh-sunlight--damage--fire",
+      "field": "rule",
+      "id": "review-interactions-harsh-sunlight--damage--fire-rule",
+      "note": "Ambos textos indican el tipo de movimiento y multiplicador del daño. Selector estructurado por tipo.",
+      "value": {
+        "parameters": {
+          "multiplier": 1.5
+        },
+        "recipient": "matching-moves",
+        "relation": "boosts",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "effects",
+          "id": "harsh-sunlight"
+        },
+        "target": {
+          "collection": "moves",
+          "selector": {
+            "typeId": "fire"
+          }
+        },
+        "trigger": "damage-calculation"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "effects/harsh-sunlight/description",
+          "document": "champout/esp/btl_state_syn",
+          "excerpt": "Aumenta un 50 % el daño que infligen los\nmovimientos de tipo Fuego y reduce a la mitad\nel que infligen los de tipo Agua.",
+          "locator": "BTR_STATE_SYN_01_02",
+          "observedHash": "d8dd1d51726c1fa596f9d74391a7748a7794a3f413341f7309f1965028598a15"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "harsh-sunlight--damage--water",
+      "field": "rule",
+      "id": "review-interactions-harsh-sunlight--damage--water-rule",
+      "note": "Ambos textos indican el tipo de movimiento y multiplicador del daño. Selector estructurado por tipo.",
+      "value": {
+        "parameters": {
+          "multiplier": 0.5
+        },
+        "recipient": "matching-moves",
+        "relation": "reduces",
+        "requirements": {
+          "all": []
+        },
+        "source": {
+          "collection": "effects",
+          "id": "harsh-sunlight"
+        },
+        "target": {
+          "collection": "moves",
+          "selector": {
+            "typeId": "water"
+          }
+        },
+        "trigger": "damage-calculation"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "abilities/ability-036/description",
+          "document": "champout/esp/tokuseiinfo_syn",
+          "excerpt": "Sustituye la habilidad del Pokémon por la de un rival cuando\nentra en combate.",
+          "locator": "TOKUSEIINFO_SYN_036",
+          "observedHash": "6bda7bf16b109f6cb1e73b1198e8fecadf5b92431c81b0d9df579fdadbca1da0"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "ability-036--copies--opponent",
+      "field": "rule",
+      "id": "review-interactions-ability-036--copies--opponent-rule",
+      "note": "Rastro copia una habilidad rival. Las consultas indirectas exigen además comprobar que sea copiable y que se active la habilidad adquirida.",
+      "value": {
+        "parameters": {},
+        "recipient": "self",
+        "relation": "copies",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "source-is-opponent"
+            }
+          ]
+        },
+        "source": {
+          "collection": "abilities",
+          "id": "ability-036"
+        },
+        "target": {
+          "collection": "abilities",
+          "selector": {
+            "property": "copyable"
+          }
+        },
+        "trigger": "on-entry"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-447/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuanto más pesado sea el objetivo,\ncon un rango entre 20 y 120.",
+          "locator": "WAZAINFO_SYN_447",
+          "observedHash": "ba3595307864d79b01a263da18964ca495c9c436e2ad18bef4daa81d83e3a46d"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-447",
+      "field": "power",
+      "id": "review-moves-move-447-power",
+      "note": "Ambos textos describen potencia dependiente del peso o la Velocidad. No se corroboran aquí los intervalos numéricos.",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-067/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuanto más pesado sea el objetivo,\ncon un rango entre 20 y 120.",
+          "locator": "WAZAINFO_SYN_067",
+          "observedHash": "ba3595307864d79b01a263da18964ca495c9c436e2ad18bef4daa81d83e3a46d"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-067",
+      "field": "power",
+      "id": "review-moves-move-067-power",
+      "note": "Ambos textos describen potencia dependiente del peso o la Velocidad. No se corroboran aquí los intervalos numéricos.",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-360/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuanto menor sea la Velocidad del\nusuario en comparación con la del objetivo, con un rango\nentre 1 y 150.",
+          "locator": "WAZAINFO_SYN_360",
+          "observedHash": "f3fb3c5f36cf2073c2e0be7b760d568d6be5d6d074e178db66e7a19762f24a07"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-360",
+      "field": "power",
+      "id": "review-moves-move-360-power",
+      "note": "Ambos textos describen potencia dependiente del peso o la Velocidad. No se corroboran aquí los intervalos numéricos.",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-486/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuanto mayor sea la Velocidad del\nusuario en comparación con la del objetivo, con un rango\nentre 40 y 150.",
+          "locator": "WAZAINFO_SYN_486",
+          "observedHash": "fefe4e1d5218901004ab191f79c6a5fe16b0605b2baa13ec1d5fa6b4a77e265e"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-486",
+      "field": "power",
+      "id": "review-moves-move-486-power",
+      "note": "Ambos textos describen potencia dependiente del peso o la Velocidad. No se corroboran aquí los intervalos numéricos.",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-012/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Debilita al objetivo. Tiene una precisión fija del 30 %.",
+          "locator": "WAZAINFO_SYN_012",
+          "observedHash": "837ebc598d73cb403526db490305bf7e36e3e6c3760f09ed35c653397eaf41a7"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-012",
+      "field": "power",
+      "id": "champout-moves-move-012-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-032/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Debilita al objetivo. Tiene una precisión fija del 30 %.",
+          "locator": "WAZAINFO_SYN_032",
+          "observedHash": "837ebc598d73cb403526db490305bf7e36e3e6c3760f09ed35c653397eaf41a7"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-032",
+      "field": "power",
+      "id": "champout-moves-move-032-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-068/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Si el usuario ha recibido daño de un ataque físico en ese turno,\nse lo devuelve al atacante por duplicado.",
+          "locator": "WAZAINFO_SYN_068",
+          "observedHash": "96ee8115592d4dcdddcccbbe023bc58b3c9e3efbd1cc60d9712523b515a468ac"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-068",
+      "field": "power",
+      "id": "champout-moves-move-068-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-069/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "El objetivo pierde 50 PS.",
+          "locator": "WAZAINFO_SYN_069",
+          "observedHash": "90f6b34914bc4ae1219dbb5d59a516a81a725233ae6b8548fe41c57caf731eb0"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-069",
+      "field": "power",
+      "id": "champout-moves-move-069-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-090/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Debilita al objetivo. Tiene una precisión fija del 30 %.",
+          "locator": "WAZAINFO_SYN_090",
+          "observedHash": "837ebc598d73cb403526db490305bf7e36e3e6c3760f09ed35c653397eaf41a7"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-090",
+      "field": "power",
+      "id": "champout-moves-move-090-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-101/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "El objetivo pierde 50 PS.",
+          "locator": "WAZAINFO_SYN_101",
+          "observedHash": "90f6b34914bc4ae1219dbb5d59a516a81a725233ae6b8548fe41c57caf731eb0"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-101",
+      "field": "power",
+      "id": "champout-moves-move-101-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-162/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "El objetivo pierde la mitad de sus PS restantes.\nSi solo le queda 1 PS, pierde 1 PS.",
+          "locator": "WAZAINFO_SYN_162",
+          "observedHash": "2d282f80db342bf193349d42f446e2b39750c34d99ca0511df616b5a9193af76"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-162",
+      "field": "power",
+      "id": "champout-moves-move-162-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-175/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuantos menos PS tenga el usuario,\ncon un rango entre 20 y 200.",
+          "locator": "WAZAINFO_SYN_175",
+          "observedHash": "a944c9d973ec9ca2bc22d4aa9d02a4c8979fa17c465d0aa7de573e331cc50592"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-175",
+      "field": "power",
+      "id": "champout-moves-move-175-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-179/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuantos menos PS tenga el usuario,\ncon un rango entre 20 y 200.",
+          "locator": "WAZAINFO_SYN_179",
+          "observedHash": "a944c9d973ec9ca2bc22d4aa9d02a4c8979fa17c465d0aa7de573e331cc50592"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-179",
+      "field": "power",
+      "id": "champout-moves-move-179-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-243/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Si el usuario ha recibido daño de un ataque especial en ese\nturno, se lo devuelve al atacante por duplicado.",
+          "locator": "WAZAINFO_SYN_243",
+          "observedHash": "f128f2ed1a02330633d77a77809f515eaf2d1a0adf9c6a81d548434aa3e5a148"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-243",
+      "field": "power",
+      "id": "champout-moves-move-243-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-251/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Golpea al objetivo tantas veces como Pokémon haya\nen el equipo del usuario. Los Pokémon debilitados o\ncon problemas de estado no se cuentan. La potencia\ndel movimiento se calcula en base al Ataque de los\nPokémon del equipo del usuario.",
+          "locator": "WAZAINFO_SYN_251",
+          "observedHash": "adb5d9ecf8799c3d68179c14a96645a0a1336ebaf26c7f8a262f7f4ac9d41b34"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-251",
+      "field": "power",
+      "id": "champout-moves-move-251-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-255/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuantas más reservas acumule el usuario,\ncon un rango entre 100 y 300.\nFalla si el usuario no se encuentra en el estado Reserva.",
+          "locator": "WAZAINFO_SYN_255",
+          "observedHash": "c365218130574ca521e64e1347c2888da2a57b388539ced09af8e455694a9864"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-255",
+      "field": "power",
+      "id": "champout-moves-move-255-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-283/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Inflige una cantidad de daño equivalente a la diferencia entre\nlos PS restantes del objetivo y los del usuario.\nFalla si el objetivo tiene los mismos PS que el usuario o menos.",
+          "locator": "WAZAINFO_SYN_283",
+          "observedHash": "2995b9672dc19ba171deb1ca1e4e0b60679843bd4fb7a68d8ae96c4e87ec042c"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-283",
+      "field": "power",
+      "id": "champout-moves-move-283-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-329/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Debilita al objetivo. Tiene una precisión fija del 20 % o del\n30 % si el usuario es de tipo Hielo. No afecta a los Pokémon\nde tipo Hielo.",
+          "locator": "WAZAINFO_SYN_329",
+          "observedHash": "d24f8526adfb754b3510f87b6865504b3da12626b99e12902e63eb64e0366593"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-329",
+      "field": "power",
+      "id": "champout-moves-move-329-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-368/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Si el usuario ha recibido daño de un ataque en ese turno,\nle devuelve al rival el 150 % del daño infligido.",
+          "locator": "WAZAINFO_SYN_368",
+          "observedHash": "363fa3446bc2aa7203261bb09042ca67be4d65583bb931d5615e0e3a7e571658"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-368",
+      "field": "power",
+      "id": "champout-moves-move-368-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-374/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Su potencia y efecto varían según el objeto que lleve el usuario.\nEl usuario pierde el objeto tras atacar.",
+          "locator": "WAZAINFO_SYN_374",
+          "observedHash": "5fba746ecf631cf70229aa4bd7d6319d8e7fabf46057a111b6cd258fb3a989ef"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-374",
+      "field": "power",
+      "id": "champout-moves-move-374-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-484/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuanto más pesado sea el usuario en\ncomparación con el objetivo, con un rango entre 40 y 120.\nSu potencia se duplica y nunca falla contra objetivos con\nel estado Reducido.",
+          "locator": "WAZAINFO_SYN_484",
+          "observedHash": "2d87affcebbdb3d97a72bd66d22f3fb33081272a1eed1350d8882e60be729bf7"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-484",
+      "field": "power",
+      "id": "champout-moves-move-484-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-515/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Inflige una cantidad de daño equivalente a los PS restantes del\nusuario. El usuario se debilita tras usar este movimiento.",
+          "locator": "WAZAINFO_SYN_515",
+          "observedHash": "11ccfb926cf9bb8133a3dcf0c525e28921bfeaac1013225589165064fc9d9ee0"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-515",
+      "field": "power",
+      "id": "champout-moves-move-515-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-535/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuanto más pesado sea el usuario en\ncomparación con el objetivo, con un rango entre 40 y 120.\nSu potencia se duplica y nunca falla contra objetivos con\nel estado Reducido.",
+          "locator": "WAZAINFO_SYN_535",
+          "observedHash": "2d87affcebbdb3d97a72bd66d22f3fb33081272a1eed1350d8882e60be729bf7"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-535",
+      "field": "power",
+      "id": "champout-moves-move-535-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-894/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Si el usuario ha recibido daño de un ataque en ese turno,\nle devuelve al rival el 150 % del daño infligido.",
+          "locator": "WAZAINFO_SYN_894",
+          "observedHash": "363fa3446bc2aa7203261bb09042ca67be4d65583bb931d5615e0e3a7e571658"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-894",
+      "field": "power",
+      "id": "champout-moves-move-894-power",
+      "value": {
+        "kind": "not-applicable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-912/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene mayor potencia cuantos más PS tenga el objetivo,\ncon un rango entre 1 y 100.",
+          "locator": "WAZAINFO_SYN_912",
+          "observedHash": "bd162d200af4aecd266bed273231ffb44530a6893a730c75459b28fb6e3c9170"
+        }
+      ],
+      "collection": "moves",
+      "entity": "move-912",
+      "field": "power",
+      "id": "champout-moves-move-912-power",
+      "value": {
+        "kind": "variable"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-007/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de quemar al objetivo.",
+          "locator": "WAZAINFO_SYN_007",
+          "observedHash": "f647dc940011ce2a8706943e244df029a35099c787a83b38b26ab508d1e28a90"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-007--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-007--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-007"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-008/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de congelar al objetivo.",
+          "locator": "WAZAINFO_SYN_008",
+          "observedHash": "033a618e85f4fad5d06417e1f1256eb9598e3083857d4fcaa93676251bc10a3a"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-008--causes--freezing",
+      "field": "rule",
+      "id": "champout-interactions-move-008--causes--freezing-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-008"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "freezing"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-009/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de paralizar al objetivo.",
+          "locator": "WAZAINFO_SYN_009",
+          "observedHash": "69e477de9f093524a814d3453552f60caefc44883598162e1b5828371e7f86a2"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-009--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-009--causes--paralysis-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-009"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-034/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de paralizar al objetivo.\nSu potencia se duplica y nunca falla contra objetivos con\nel estado Reducido.",
+          "locator": "WAZAINFO_SYN_034",
+          "observedHash": "c96d80f4b2423fe06ccd37283b167ed77c684f28fffda86b4062caffa4d52776"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-034--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-034--causes--paralysis-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-034"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-047/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Duerme al objetivo.",
+          "locator": "WAZAINFO_SYN_047",
+          "observedHash": "14daaf9a4c94ef77bba4c6eff595d814a68514b23e651c138740863ecb613cb6"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-047--causes--sleep",
+      "field": "rule",
+      "id": "champout-interactions-move-047--causes--sleep-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-047"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sleep"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-053/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de quemar al objetivo.",
+          "locator": "WAZAINFO_SYN_053",
+          "observedHash": "f647dc940011ce2a8706943e244df029a35099c787a83b38b26ab508d1e28a90"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-053--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-053--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-053"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-058/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de congelar al objetivo.",
+          "locator": "WAZAINFO_SYN_058",
+          "observedHash": "033a618e85f4fad5d06417e1f1256eb9598e3083857d4fcaa93676251bc10a3a"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-058--causes--freezing",
+      "field": "rule",
+      "id": "champout-interactions-move-058--causes--freezing-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-058"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "freezing"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-059/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de congelar al objetivo.\nNunca falla cuando nieva.",
+          "locator": "WAZAINFO_SYN_059",
+          "observedHash": "879d2cc5fb80296c45ce1df55851695634e166681e31f738c9006d7a9503113d"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-059--causes--freezing",
+      "field": "rule",
+      "id": "champout-interactions-move-059--causes--freezing-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-059"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "freezing"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-077/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Envenena al objetivo. No afecta a los Pokémon de tipo Planta.",
+          "locator": "WAZAINFO_SYN_077",
+          "observedHash": "14b782fbbc3559db1ac15321e1f95979bd17d992a90635f7b3b1db765dabcf53"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-077--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-077--causes--poison-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-077"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-078/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Paraliza al objetivo. No afecta a los Pokémon de tipo Planta.",
+          "locator": "WAZAINFO_SYN_078",
+          "observedHash": "4b045eba68392bd8b2ddbd2a88258bd5b03c3e2cfeff95a0a792a00f864936dc"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-078--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-078--causes--paralysis-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-078"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-079/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Duerme al objetivo. No afecta a los Pokémon de tipo Planta.",
+          "locator": "WAZAINFO_SYN_079",
+          "observedHash": "3030dcdc954155cfcd7ed751eae67f887ade92f4388dd1022d33e227f0cbb20c"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-079--causes--sleep",
+      "field": "rule",
+      "id": "champout-interactions-move-079--causes--sleep-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-079"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sleep"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-085/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de paralizar al objetivo.",
+          "locator": "WAZAINFO_SYN_085",
+          "observedHash": "69e477de9f093524a814d3453552f60caefc44883598162e1b5828371e7f86a2"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-085--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-085--causes--paralysis-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-085"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-086/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Paraliza al objetivo. No afecta a los Pokémon de tipo Tierra.",
+          "locator": "WAZAINFO_SYN_086",
+          "observedHash": "c97d2374f821466741172d0c61a452311de3f734b223d50fc5d49480e67f4300"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-086--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-086--causes--paralysis-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-086"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-087/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de paralizar al objetivo.\nNunca falla cuando llueve. Si hace sol, tiene una precisión del\n50 %. Puede golpear a objetivos con el estado A gran altitud.",
+          "locator": "WAZAINFO_SYN_087",
+          "observedHash": "d2850fefc7e9f92c8aa8db757e83cb794e2fc092c9a430e54de15a28958c1c8f"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-087--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-087--causes--paralysis-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-087"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-092/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Envenena gravemente al objetivo. Nunca falla si el usuario es\nde tipo Veneno.",
+          "locator": "WAZAINFO_SYN_092",
+          "observedHash": "ea1f957abf3ea6390d8f8e4748a955e055c527120d850109293f254a8a846de7"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-092--causes--bad-poison",
+      "field": "rule",
+      "id": "champout-interactions-move-092--causes--bad-poison-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-092"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "bad-poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-095/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Duerme al objetivo.",
+          "locator": "WAZAINFO_SYN_095",
+          "observedHash": "14daaf9a4c94ef77bba4c6eff595d814a68514b23e651c138740863ecb613cb6"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-095--causes--sleep",
+      "field": "rule",
+      "id": "champout-interactions-move-095--causes--sleep-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-095"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "sleep"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-126/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de quemar al objetivo.",
+          "locator": "WAZAINFO_SYN_126",
+          "observedHash": "f647dc940011ce2a8706943e244df029a35099c787a83b38b26ab508d1e28a90"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-126--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-126--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-126"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-137/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Paraliza al objetivo.",
+          "locator": "WAZAINFO_SYN_137",
+          "observedHash": "3a776b6bd241114c946c0ebd84419a9886c88f92356f9559057945429bca2a39"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-137--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-137--causes--paralysis-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-137"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-188/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de envenenar al objetivo.",
+          "locator": "WAZAINFO_SYN_188",
+          "observedHash": "7f41b130db7859130d3ed259e46f3d69161949b918f721c03dd26a8b7299ad3c"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-188--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-188--causes--poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-188"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-192/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Paraliza al objetivo.",
+          "locator": "WAZAINFO_SYN_192",
+          "observedHash": "3a776b6bd241114c946c0ebd84419a9886c88f92356f9559057945429bca2a39"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-192--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-192--causes--paralysis-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-192"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-257/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de quemar al objetivo.",
+          "locator": "WAZAINFO_SYN_257",
+          "observedHash": "f647dc940011ce2a8706943e244df029a35099c787a83b38b26ab508d1e28a90"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-257--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-257--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-257"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-261/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Quema al objetivo.",
+          "locator": "WAZAINFO_SYN_261",
+          "observedHash": "e029121ccd5a458d4afabe54ae0847684f2b0c7e0d640902c5ad5af1f1f9321e"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-261--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-261--causes--burning-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-261"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-299/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de quemar al objetivo.\nAumenta un nivel la probabilidad de asestar golpes críticos\ndel usuario durante este ataque.",
+          "locator": "WAZAINFO_SYN_299",
+          "observedHash": "0c75ca454a532ca28d31d4e74741c84d0864d955da9aca38307f0d4ea346966e"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-299--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-299--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-299"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-305/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 50 % de envenenar gravemente\nal objetivo.",
+          "locator": "WAZAINFO_SYN_305",
+          "observedHash": "35ebe15c9272eebc7e179c6bc882f5fd0ee8ac7712280fdcc4b2e7187c8fe0a7"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-305--causes--bad-poison",
+      "field": "rule",
+      "id": "champout-interactions-move-305--causes--bad-poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.5
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-305"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "bad-poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-398/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de envenenar al objetivo.",
+          "locator": "WAZAINFO_SYN_398",
+          "observedHash": "7f41b130db7859130d3ed259e46f3d69161949b918f721c03dd26a8b7299ad3c"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-398--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-398--causes--poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-398"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-435/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de paralizar al objetivo.",
+          "locator": "WAZAINFO_SYN_435",
+          "observedHash": "061cc98d3afb359f85e7481bdd39eb7ca5a232facd2a17424b9d3e45a10a4360"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-435--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-435--causes--paralysis-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-435"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-436/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de quemar al objetivo.",
+          "locator": "WAZAINFO_SYN_436",
+          "observedHash": "014b4a480264c4859b887dfee236851b4e39957e6fb71d4ba76ecef2a5267712"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-436--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-436--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-436"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-440/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de envenenar al objetivo.\nAumenta un nivel la probabilidad de asestar golpes críticos\ndel usuario durante este ataque.",
+          "locator": "WAZAINFO_SYN_440",
+          "observedHash": "779e7b643837b30cb6d75a642c9a583df434a593102e24f1473a45c3a84d55f3"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-440--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-440--causes--poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-440"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-441/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de envenenar al objetivo.",
+          "locator": "WAZAINFO_SYN_441",
+          "observedHash": "7f41b130db7859130d3ed259e46f3d69161949b918f721c03dd26a8b7299ad3c"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-441--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-441--causes--poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-441"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-482/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de envenenar al objetivo.",
+          "locator": "WAZAINFO_SYN_482",
+          "observedHash": "87ec5075916224a20b3d52878e432e81c010d74b87efbd743a951c141084c5e2"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-482--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-482--causes--poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-482"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-503/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de quemar al objetivo.\nElimina la congelación del usuario y el objetivo.",
+          "locator": "WAZAINFO_SYN_503",
+          "observedHash": "9de423d2dedf20b265c070a3b9e39e5600426211d7aa49201786ba96512a3149"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-503--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-503--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-503"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-517/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Quema al objetivo.",
+          "locator": "WAZAINFO_SYN_517",
+          "observedHash": "e029121ccd5a458d4afabe54ae0847684f2b0c7e0d640902c5ad5af1f1f9321e"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-517--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-517--causes--burning-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-517"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-609/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Paraliza al objetivo.",
+          "locator": "WAZAINFO_SYN_609",
+          "observedHash": "3a776b6bd241114c946c0ebd84419a9886c88f92356f9559057945429bca2a39"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-609--causes--paralysis",
+      "field": "rule",
+      "id": "champout-interactions-move-609--causes--paralysis-rule",
+      "value": {
+        "parameters": {},
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-609"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "paralysis"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-780/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 10 % de quemar al objetivo.\nElimina la congelación del usuario.",
+          "locator": "WAZAINFO_SYN_780",
+          "observedHash": "90927c9115e1bb25b06a94f70d42b78df644c09e844a281d13d849b007cde6e9"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-780--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-780--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.1
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-780"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-801/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 20 % de envenenar al objetivo.\nSe convierte en un ataque físico si de ese modo va a infligir\nmás daño.",
+          "locator": "WAZAINFO_SYN_801",
+          "observedHash": "26d62e0f2adace2009a9a5dd4c17febb60ab51bb420ee21917d93c7bfd8d5cc6"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-801--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-801--causes--poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.2
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-801"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-815/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de quemar al objetivo.\nElimina la congelación del usuario y el objetivo.",
+          "locator": "WAZAINFO_SYN_815",
+          "observedHash": "9de423d2dedf20b265c070a3b9e39e5600426211d7aa49201786ba96512a3149"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-815--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-815--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-815"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-839/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 50 % de envenenar al objetivo.\nSu potencia se duplica si el objetivo está envenenado\no gravemente envenenado.",
+          "locator": "WAZAINFO_SYN_839",
+          "observedHash": "68abf3328614ee06c30b4c18ea18787fb04606cc6d10feaefe00e45440880eb3"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-839--causes--poison",
+      "field": "rule",
+      "id": "champout-interactions-move-839--causes--poison-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.5
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-839"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "poison"
+        },
+        "trigger": "on-hit"
+      }
+    },
+    {
+      "bindings": [
+        {
+          "claim": "moves/move-844/description",
+          "document": "champout/esp/wazainfo_syn",
+          "excerpt": "Tiene una probabilidad del 30 % de quemar al objetivo.\nSu potencia se duplica si el objetivo sufre un problema de\nestado.",
+          "locator": "WAZAINFO_SYN_844",
+          "observedHash": "a32712ac367801038c45b2748b453a7add8dc28118ccfb769af697ef676d295d"
+        }
+      ],
+      "collection": "interactions",
+      "entity": "move-844--causes--burning",
+      "field": "rule",
+      "id": "champout-interactions-move-844--causes--burning-rule",
+      "value": {
+        "parameters": {
+          "probability": 0.3
+        },
+        "recipient": "target",
+        "relation": "causes",
+        "requirements": {
+          "all": [
+            {
+              "predicate": "move-succeeds"
+            }
+          ]
+        },
+        "source": {
+          "collection": "moves",
+          "id": "move-844"
+        },
+        "target": {
+          "collection": "effects",
+          "id": "burning"
+        },
+        "trigger": "on-hit"
+      }
+    }
+  ],
+  "sourcePolicy": "champout-only"
+}

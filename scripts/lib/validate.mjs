@@ -3,8 +3,12 @@ import {collections} from './model.mjs';
 import {references} from './claims.mjs';
 import {json,hash,readJSON,root} from './io.mjs';
 import path from 'node:path';
+import {supplementScope} from './source-policy.mjs';
 
-export async function validateDataset({data,evidence,snapshot,manifest}){
+export async function validateDataset({data,evidence,snapshot,manifest,policy=manifest?.sourcePolicy}){
+  const single=['champout-only','champout-primary'].includes(policy?.mode);
+  const supplementalScopes=policy?.mode==='champout-primary'?(await readJSON(path.join(root,'rules/supplemental-scope.json'))).claims:[];
+  if(single&&(policy.provider!=='champout'||policy.minimumProviders!==1))throw new Error('Invalid champout source policy');
   const ajv=new Ajv({allErrors:true,strict:false});const errors=[];
   const sets=Object.fromEntries(collections.map(c=>[c,new Set(data[c].map(r=>r.id))]));
   for(const collection of collections){
@@ -18,7 +22,11 @@ export async function validateDataset({data,evidence,snapshot,manifest}){
         const claim=`${prefix}/${fieldPath}`,entry=evidence[claim];
         if(entry){
           if(json(value)!==json(entry.value))errors.push(`Value/evidence mismatch ${claim}`);
-          if(new Set(entry.evidence.map(e=>e.provider)).size<2)errors.push(`Insufficient providers ${claim}`);
+          if(new Set(entry.evidence.map(e=>e.provider)).size<(single?1:2))errors.push(`Insufficient providers ${claim}`);
+          if(single&&entry.evidence.some(e=>e.provider!=='champout')){
+            const allowed=policy.supplementalClaims?.[claim],scope=supplementScope(claim,supplementalScopes);
+            if(!scope||allowed?.scope!==scope||entry.evidence.some(e=>!allowed.providers.includes(e.provider)))errors.push(`Foreign provider outside authorized supplement ${claim}`);
+          }
           for(const e of entry.evidence){
             const doc=snapshot.documents[e.document];
             if(!doc||doc.sha256!==e.sha256||doc.provider!==e.provider||!e.locator||!e.context)errors.push(`Invalid provenance ${claim}`);
@@ -32,7 +40,10 @@ export async function validateDataset({data,evidence,snapshot,manifest}){
   }
   const relations=new Set();for(const row of data.learnsets){const pair=`${row.pokemonId}/${row.moveId}`;if(relations.has(pair))errors.push(`Duplicate learnset ${pair}`);relations.add(pair);}
   const ruleKeys=new Set();for(const row of data.interactions){const k=json(row.rule);if(ruleKeys.has(k))errors.push(`Duplicate interaction ${row.id}`);ruleKeys.add(k);}
-  for(const type of data.types){if(Object.keys(type.effectiveness||{}).length!==18)errors.push(`Incomplete type matrix ${type.id}`);}
+  for(const type of data.types){
+    if((!single||type.effectiveness)&&
+      (Object.keys(type.effectiveness||{}).length!==18||data.types.some(t=>![0,0.5,1,2].includes(type.effectiveness?.[t.id]))))errors.push(`Incomplete type matrix ${type.id}`);
+  }
   if(data.types.length!==18)errors.push('Expected complete 18-type matrix');
   if(manifest)for(const c of collections)if(manifest.files[`${c}.json`]?.sha256!==hash(json(data[c])))errors.push(`Manifest hash mismatch ${c}`);
   if(errors.length)throw new Error(errors.slice(0,30).join('\n')+`\n${errors.length} validation error(s)`);

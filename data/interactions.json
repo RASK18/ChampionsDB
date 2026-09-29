@@ -282,7 +282,11 @@
     "id": "ability-227--weather--psychic-terrain",
     "identity": true,
     "rule": {
-      "parameters": {},
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
       "recipient": "field",
       "relation": "causes",
       "requirements": {
@@ -304,7 +308,11 @@
     "id": "ability-229--weather--grassy-terrain",
     "identity": true,
     "rule": {
-      "parameters": {},
+      "parameters": {
+        "duration": {
+          "turns": 5
+        }
+      },
       "recipient": "field",
       "relation": "causes",
       "requirements": {
@@ -519,7 +527,7 @@
   },
   {
     "available": true,
-    "id": "item-2559--transforms--pokemon-0036001",
+    "id": "item-2559--0036000--transforms--0036001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -550,7 +558,7 @@
   },
   {
     "available": true,
-    "id": "item-2560--transforms--pokemon-0071001",
+    "id": "item-2560--0071000--transforms--0071001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -581,7 +589,7 @@
   },
   {
     "available": true,
-    "id": "item-2561--transforms--pokemon-0121001",
+    "id": "item-2561--0121000--transforms--0121001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -612,7 +620,7 @@
   },
   {
     "available": true,
-    "id": "item-2562--transforms--pokemon-0149001",
+    "id": "item-2562--0149000--transforms--0149001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -643,7 +651,7 @@
   },
   {
     "available": true,
-    "id": "item-2563--transforms--pokemon-0154001",
+    "id": "item-2563--0154000--transforms--0154001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -674,7 +682,7 @@
   },
   {
     "available": true,
-    "id": "item-2564--transforms--pokemon-0160001",
+    "id": "item-2564--0160000--transforms--0160001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -705,7 +713,7 @@
   },
   {
     "available": true,
-    "id": "item-2565--transforms--pokemon-0227001",
+    "id": "item-2565--0227000--transforms--0227001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -736,7 +744,7 @@
   },
   {
     "available": true,
-    "id": "item-2566--transforms--pokemon-0478001",
+    "id": "item-2566--0478000--transforms--0478001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -767,7 +775,7 @@
   },
   {
     "available": true,
-    "id": "item-2569--transforms--pokemon-0500001",
+    "id": "item-2569--0500000--transforms--0500001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -798,7 +806,7 @@
   },
   {
     "available": true,
-    "id": "item-2570--transforms--pokemon-0530001",
+    "id": "item-2570--0530000--transforms--0530001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -829,7 +837,69 @@
   },
   {
     "available": true,
-    "id": "item-2573--transforms--pokemon-0604001",
+    "id": "item-2571--0545000--transforms--0545001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0545000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2571",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2571"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0545001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2572--0560000--transforms--0560001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0560000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2572",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2572"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0560001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2573--0604000--transforms--0604001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -860,7 +930,7 @@
   },
   {
     "available": true,
-    "id": "item-2574--transforms--pokemon-0609001",
+    "id": "item-2574--0609000--transforms--0609001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -891,7 +961,7 @@
   },
   {
     "available": true,
-    "id": "item-2575--transforms--pokemon-0652001",
+    "id": "item-2575--0652000--transforms--0652001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -922,7 +992,7 @@
   },
   {
     "available": true,
-    "id": "item-2576--transforms--pokemon-0655001",
+    "id": "item-2576--0655000--transforms--0655001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -953,7 +1023,7 @@
   },
   {
     "available": true,
-    "id": "item-2577--transforms--pokemon-0658003",
+    "id": "item-2577--0658000--transforms--0658003",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -984,7 +1054,7 @@
   },
   {
     "available": true,
-    "id": "item-2578--transforms--pokemon-0668001",
+    "id": "item-2578--0668000--transforms--0668001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1015,7 +1085,38 @@
   },
   {
     "available": true,
-    "id": "item-2580--transforms--pokemon-0687001",
+    "id": "item-2579--0670005--transforms--0670006",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0670005",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2579",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2579"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0670006"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2580--0687000--transforms--0687001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1046,7 +1147,38 @@
   },
   {
     "available": true,
-    "id": "item-2582--transforms--pokemon-0691001",
+    "id": "item-2581--0689000--transforms--0689001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0689000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2581",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2581"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0689001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2582--0691000--transforms--0691001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1077,7 +1209,7 @@
   },
   {
     "available": true,
-    "id": "item-2583--transforms--pokemon-0701001",
+    "id": "item-2583--0701000--transforms--0701001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1108,7 +1240,7 @@
   },
   {
     "available": true,
-    "id": "item-2585--transforms--pokemon-0780001",
+    "id": "item-2585--0780000--transforms--0780001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1139,7 +1271,7 @@
   },
   {
     "available": true,
-    "id": "item-2587--transforms--pokemon-0870001",
+    "id": "item-2587--0870000--transforms--0870001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1170,7 +1302,7 @@
   },
   {
     "available": true,
-    "id": "item-2635--transforms--pokemon-0026002",
+    "id": "item-2635--0026000--transforms--0026002",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1201,7 +1333,7 @@
   },
   {
     "available": true,
-    "id": "item-2636--transforms--pokemon-0026003",
+    "id": "item-2636--0026000--transforms--0026003",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1232,7 +1364,7 @@
   },
   {
     "available": true,
-    "id": "item-2637--transforms--pokemon-0358001",
+    "id": "item-2637--0358000--transforms--0358001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1263,7 +1395,7 @@
   },
   {
     "available": true,
-    "id": "item-2638--transforms--pokemon-0359002",
+    "id": "item-2638--0359000--transforms--0359002",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1294,7 +1426,38 @@
   },
   {
     "available": true,
-    "id": "item-2640--transforms--pokemon-0445002",
+    "id": "item-2639--0398000--transforms--0398001",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0398000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2639",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2639"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0398001"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2640--0445000--transforms--0445002",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1325,7 +1488,7 @@
   },
   {
     "available": true,
-    "id": "item-2641--transforms--pokemon-0448002",
+    "id": "item-2641--0448000--transforms--0448002",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1356,7 +1519,7 @@
   },
   {
     "available": true,
-    "id": "item-2642--transforms--pokemon-0623001",
+    "id": "item-2642--0623000--transforms--0623001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1387,7 +1550,69 @@
   },
   {
     "available": true,
-    "id": "item-2644--transforms--pokemon-0740001",
+    "id": "item-2643--0678000--transforms--0678002",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0678000",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2643",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2643"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0678002"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2643--0678001--transforms--0678003",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "holder",
+      "relation": "transforms",
+      "requirements": {
+        "all": [
+          {
+            "pokemonId": "pokemon-0678001",
+            "predicate": "form-is"
+          },
+          {
+            "itemId": "item-2643",
+            "predicate": "holds-item"
+          }
+        ]
+      },
+      "source": {
+        "collection": "items",
+        "id": "item-2643"
+      },
+      "target": {
+        "collection": "pokemon",
+        "id": "pokemon-0678003"
+      },
+      "trigger": "mega-evolution"
+    }
+  },
+  {
+    "available": true,
+    "id": "item-2644--0740000--transforms--0740001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1418,7 +1643,7 @@
   },
   {
     "available": true,
-    "id": "item-2645--transforms--pokemon-0768001",
+    "id": "item-2645--0768000--transforms--0768001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1449,7 +1674,7 @@
   },
   {
     "available": true,
-    "id": "item-2647--transforms--pokemon-0952001",
+    "id": "item-2647--0952000--transforms--0952001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1480,7 +1705,7 @@
   },
   {
     "available": true,
-    "id": "item-2648--transforms--pokemon-0998001",
+    "id": "item-2648--0998000--transforms--0998001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1511,7 +1736,7 @@
   },
   {
     "available": true,
-    "id": "item-2650--transforms--pokemon-0970001",
+    "id": "item-2650--0970000--transforms--0970001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1666,7 +1891,7 @@
   },
   {
     "available": true,
-    "id": "item-656--transforms--pokemon-0094001",
+    "id": "item-656--0094000--transforms--0094001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1697,7 +1922,7 @@
   },
   {
     "available": true,
-    "id": "item-657--transforms--pokemon-0282001",
+    "id": "item-657--0282000--transforms--0282001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1728,7 +1953,7 @@
   },
   {
     "available": true,
-    "id": "item-658--transforms--pokemon-0181001",
+    "id": "item-658--0181000--transforms--0181001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1759,7 +1984,7 @@
   },
   {
     "available": true,
-    "id": "item-659--transforms--pokemon-0003001",
+    "id": "item-659--0003000--transforms--0003001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1790,7 +2015,7 @@
   },
   {
     "available": true,
-    "id": "item-660--transforms--pokemon-0006001",
+    "id": "item-660--0006000--transforms--0006001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1821,7 +2046,7 @@
   },
   {
     "available": true,
-    "id": "item-661--transforms--pokemon-0009001",
+    "id": "item-661--0009000--transforms--0009001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1852,7 +2077,7 @@
   },
   {
     "available": true,
-    "id": "item-664--transforms--pokemon-0257001",
+    "id": "item-664--0257000--transforms--0257001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1883,7 +2108,7 @@
   },
   {
     "available": true,
-    "id": "item-665--transforms--pokemon-0308001",
+    "id": "item-665--0308000--transforms--0308001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1914,7 +2139,7 @@
   },
   {
     "available": true,
-    "id": "item-666--transforms--pokemon-0229001",
+    "id": "item-666--0229000--transforms--0229001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1945,7 +2170,7 @@
   },
   {
     "available": true,
-    "id": "item-667--transforms--pokemon-0306001",
+    "id": "item-667--0306000--transforms--0306001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -1976,7 +2201,7 @@
   },
   {
     "available": true,
-    "id": "item-668--transforms--pokemon-0354001",
+    "id": "item-668--0354000--transforms--0354001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2007,7 +2232,7 @@
   },
   {
     "available": true,
-    "id": "item-669--transforms--pokemon-0248001",
+    "id": "item-669--0248000--transforms--0248001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2038,7 +2263,7 @@
   },
   {
     "available": true,
-    "id": "item-670--transforms--pokemon-0212001",
+    "id": "item-670--0212000--transforms--0212001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2069,7 +2294,7 @@
   },
   {
     "available": true,
-    "id": "item-671--transforms--pokemon-0127001",
+    "id": "item-671--0127000--transforms--0127001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2100,7 +2325,7 @@
   },
   {
     "available": true,
-    "id": "item-672--transforms--pokemon-0142001",
+    "id": "item-672--0142000--transforms--0142001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2131,7 +2356,7 @@
   },
   {
     "available": true,
-    "id": "item-673--transforms--pokemon-0448001",
+    "id": "item-673--0448000",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2162,7 +2387,7 @@
   },
   {
     "available": true,
-    "id": "item-674--transforms--pokemon-0460001",
+    "id": "item-674--0460000--transforms--0460001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2193,7 +2418,7 @@
   },
   {
     "available": true,
-    "id": "item-675--transforms--pokemon-0115001",
+    "id": "item-675--0115000--transforms--0115001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2224,7 +2449,7 @@
   },
   {
     "available": true,
-    "id": "item-676--transforms--pokemon-0130001",
+    "id": "item-676--0130000--transforms--0130001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2255,7 +2480,7 @@
   },
   {
     "available": true,
-    "id": "item-677--transforms--pokemon-0359001",
+    "id": "item-677--0359000",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2286,7 +2511,7 @@
   },
   {
     "available": true,
-    "id": "item-678--transforms--pokemon-0006002",
+    "id": "item-678--0006000--transforms--0006002",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2317,7 +2542,7 @@
   },
   {
     "available": true,
-    "id": "item-679--transforms--pokemon-0065001",
+    "id": "item-679--0065000--transforms--0065001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2348,7 +2573,7 @@
   },
   {
     "available": true,
-    "id": "item-680--transforms--pokemon-0214001",
+    "id": "item-680--0214000--transforms--0214001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2379,7 +2604,7 @@
   },
   {
     "available": true,
-    "id": "item-681--transforms--pokemon-0303001",
+    "id": "item-681--0303000--transforms--0303001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2410,7 +2635,7 @@
   },
   {
     "available": true,
-    "id": "item-682--transforms--pokemon-0310001",
+    "id": "item-682--0310000--transforms--0310001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2441,7 +2666,7 @@
   },
   {
     "available": true,
-    "id": "item-683--transforms--pokemon-0445001",
+    "id": "item-683--0445000",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2472,7 +2697,7 @@
   },
   {
     "available": true,
-    "id": "item-752--transforms--pokemon-0260001",
+    "id": "item-752--0260000--transforms--0260001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2503,7 +2728,7 @@
   },
   {
     "available": true,
-    "id": "item-753--transforms--pokemon-0254001",
+    "id": "item-753--0254000--transforms--0254001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2534,7 +2759,7 @@
   },
   {
     "available": true,
-    "id": "item-754--transforms--pokemon-0302001",
+    "id": "item-754--0302000--transforms--0302001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2565,7 +2790,7 @@
   },
   {
     "available": true,
-    "id": "item-755--transforms--pokemon-0334001",
+    "id": "item-755--0334000--transforms--0334001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2596,7 +2821,7 @@
   },
   {
     "available": true,
-    "id": "item-756--transforms--pokemon-0475001",
+    "id": "item-756--0475000--transforms--0475001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2627,7 +2852,7 @@
   },
   {
     "available": true,
-    "id": "item-757--transforms--pokemon-0531001",
+    "id": "item-757--0531000--transforms--0531001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2658,7 +2883,7 @@
   },
   {
     "available": true,
-    "id": "item-758--transforms--pokemon-0376001",
+    "id": "item-758--0376000--transforms--0376001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2689,7 +2914,7 @@
   },
   {
     "available": true,
-    "id": "item-759--transforms--pokemon-0319001",
+    "id": "item-759--0319000--transforms--0319001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2720,7 +2945,7 @@
   },
   {
     "available": true,
-    "id": "item-760--transforms--pokemon-0080001",
+    "id": "item-760--0080000--transforms--0080001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2751,7 +2976,7 @@
   },
   {
     "available": true,
-    "id": "item-761--transforms--pokemon-0208001",
+    "id": "item-761--0208000--transforms--0208001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2782,7 +3007,7 @@
   },
   {
     "available": true,
-    "id": "item-762--transforms--pokemon-0018001",
+    "id": "item-762--0018000--transforms--0018001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2813,7 +3038,7 @@
   },
   {
     "available": true,
-    "id": "item-763--transforms--pokemon-0362001",
+    "id": "item-763--0362000--transforms--0362001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2844,7 +3069,7 @@
   },
   {
     "available": true,
-    "id": "item-767--transforms--pokemon-0323001",
+    "id": "item-767--0323000--transforms--0323001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2875,7 +3100,7 @@
   },
   {
     "available": true,
-    "id": "item-768--transforms--pokemon-0428001",
+    "id": "item-768--0428000--transforms--0428001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2906,7 +3131,7 @@
   },
   {
     "available": true,
-    "id": "item-769--transforms--pokemon-0373001",
+    "id": "item-769--0373000--transforms--0373001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2937,7 +3162,7 @@
   },
   {
     "available": true,
-    "id": "item-770--transforms--pokemon-0015001",
+    "id": "item-770--0015000--transforms--0015001",
     "identity": true,
     "rule": {
       "parameters": {},
@@ -2968,7 +3193,7 @@
   },
   {
     "available": true,
-    "id": "move-007--secondary--burning",
+    "id": "move-007--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -2977,7 +3202,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -2992,7 +3221,7 @@
   },
   {
     "available": true,
-    "id": "move-008--secondary--freezing",
+    "id": "move-008--causes--freezing",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3001,7 +3230,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3016,7 +3249,7 @@
   },
   {
     "available": true,
-    "id": "move-009--secondary--paralysis",
+    "id": "move-009--causes--paralysis",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3025,7 +3258,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3040,7 +3277,7 @@
   },
   {
     "available": true,
-    "id": "move-034--secondary--paralysis",
+    "id": "move-034--causes--paralysis",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3049,7 +3286,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3071,7 +3312,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3086,7 +3331,7 @@
   },
   {
     "available": true,
-    "id": "move-053--secondary--burning",
+    "id": "move-053--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3095,7 +3340,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3110,7 +3359,7 @@
   },
   {
     "available": true,
-    "id": "move-058--secondary--freezing",
+    "id": "move-058--causes--freezing",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3119,7 +3368,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3134,7 +3387,7 @@
   },
   {
     "available": true,
-    "id": "move-059--secondary--freezing",
+    "id": "move-059--causes--freezing",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3143,7 +3396,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3165,7 +3422,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3187,7 +3448,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3209,7 +3474,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3224,7 +3493,7 @@
   },
   {
     "available": true,
-    "id": "move-085--secondary--paralysis",
+    "id": "move-085--causes--paralysis",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3233,7 +3502,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3255,7 +3528,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3270,7 +3547,7 @@
   },
   {
     "available": true,
-    "id": "move-087--secondary--paralysis",
+    "id": "move-087--causes--paralysis",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3279,7 +3556,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3294,6 +3575,32 @@
   },
   {
     "available": true,
+    "id": "move-092--causes--bad-poison",
+    "identity": true,
+    "rule": {
+      "parameters": {},
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-092"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "bad-poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
     "id": "move-095--causes--sleep",
     "identity": true,
     "rule": {
@@ -3301,7 +3608,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3316,7 +3627,7 @@
   },
   {
     "available": true,
-    "id": "move-126--secondary--burning",
+    "id": "move-126--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3325,7 +3636,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3347,7 +3662,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3362,7 +3681,7 @@
   },
   {
     "available": true,
-    "id": "move-188--secondary--poison",
+    "id": "move-188--causes--poison",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3371,7 +3690,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3386,16 +3709,18 @@
   },
   {
     "available": true,
-    "id": "move-192--secondary--paralysis",
+    "id": "move-192--causes--paralysis",
     "identity": true,
     "rule": {
-      "parameters": {
-        "probability": 1
-      },
+      "parameters": {},
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3488,7 +3813,7 @@
   },
   {
     "available": true,
-    "id": "move-257--secondary--burning",
+    "id": "move-257--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3497,7 +3822,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3519,7 +3848,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3534,7 +3867,7 @@
   },
   {
     "available": true,
-    "id": "move-299--secondary--burning",
+    "id": "move-299--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3543,7 +3876,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3558,7 +3895,35 @@
   },
   {
     "available": true,
-    "id": "move-340--secondary--paralysis",
+    "id": "move-305--causes--bad-poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.5
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-305"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "bad-poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-398--causes--poison",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3567,79 +3932,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
-      },
-      "source": {
-        "collection": "moves",
-        "id": "move-340"
-      },
-      "target": {
-        "collection": "effects",
-        "id": "paralysis"
-      },
-      "trigger": "on-hit"
-    }
-  },
-  {
-    "available": true,
-    "id": "move-344--secondary--paralysis",
-    "identity": true,
-    "rule": {
-      "parameters": {
-        "probability": 0.1
-      },
-      "recipient": "target",
-      "relation": "causes",
-      "requirements": {
-        "all": []
-      },
-      "source": {
-        "collection": "moves",
-        "id": "move-344"
-      },
-      "target": {
-        "collection": "effects",
-        "id": "paralysis"
-      },
-      "trigger": "on-hit"
-    }
-  },
-  {
-    "available": true,
-    "id": "move-394--secondary--burning",
-    "identity": true,
-    "rule": {
-      "parameters": {
-        "probability": 0.1
-      },
-      "recipient": "target",
-      "relation": "causes",
-      "requirements": {
-        "all": []
-      },
-      "source": {
-        "collection": "moves",
-        "id": "move-394"
-      },
-      "target": {
-        "collection": "effects",
-        "id": "burning"
-      },
-      "trigger": "on-hit"
-    }
-  },
-  {
-    "available": true,
-    "id": "move-398--secondary--poison",
-    "identity": true,
-    "rule": {
-      "parameters": {
-        "probability": 0.3
-      },
-      "recipient": "target",
-      "relation": "causes",
-      "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3654,79 +3951,7 @@
   },
   {
     "available": true,
-    "id": "move-422--secondary--paralysis",
-    "identity": true,
-    "rule": {
-      "parameters": {
-        "probability": 0.1
-      },
-      "recipient": "target",
-      "relation": "causes",
-      "requirements": {
-        "all": []
-      },
-      "source": {
-        "collection": "moves",
-        "id": "move-422"
-      },
-      "target": {
-        "collection": "effects",
-        "id": "paralysis"
-      },
-      "trigger": "on-hit"
-    }
-  },
-  {
-    "available": true,
-    "id": "move-423--secondary--freezing",
-    "identity": true,
-    "rule": {
-      "parameters": {
-        "probability": 0.1
-      },
-      "recipient": "target",
-      "relation": "causes",
-      "requirements": {
-        "all": []
-      },
-      "source": {
-        "collection": "moves",
-        "id": "move-423"
-      },
-      "target": {
-        "collection": "effects",
-        "id": "freezing"
-      },
-      "trigger": "on-hit"
-    }
-  },
-  {
-    "available": true,
-    "id": "move-424--secondary--burning",
-    "identity": true,
-    "rule": {
-      "parameters": {
-        "probability": 0.1
-      },
-      "recipient": "target",
-      "relation": "causes",
-      "requirements": {
-        "all": []
-      },
-      "source": {
-        "collection": "moves",
-        "id": "move-424"
-      },
-      "target": {
-        "collection": "effects",
-        "id": "burning"
-      },
-      "trigger": "on-hit"
-    }
-  },
-  {
-    "available": true,
-    "id": "move-435--secondary--paralysis",
+    "id": "move-435--causes--paralysis",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3735,7 +3960,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3750,7 +3979,7 @@
   },
   {
     "available": true,
-    "id": "move-436--secondary--burning",
+    "id": "move-436--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3759,7 +3988,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3774,7 +4007,7 @@
   },
   {
     "available": true,
-    "id": "move-440--secondary--poison",
+    "id": "move-440--causes--poison",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3783,7 +4016,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3798,7 +4035,7 @@
   },
   {
     "available": true,
-    "id": "move-441--secondary--poison",
+    "id": "move-441--causes--poison",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3807,7 +4044,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3822,7 +4063,7 @@
   },
   {
     "available": true,
-    "id": "move-482--secondary--poison",
+    "id": "move-482--causes--poison",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3831,7 +4072,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3846,7 +4091,7 @@
   },
   {
     "available": true,
-    "id": "move-503--secondary--burning",
+    "id": "move-503--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -3855,7 +4100,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3870,16 +4119,18 @@
   },
   {
     "available": true,
-    "id": "move-517--secondary--burning",
+    "id": "move-517--causes--burning",
     "identity": true,
     "rule": {
-      "parameters": {
-        "probability": 1
-      },
+      "parameters": {},
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3972,16 +4223,18 @@
   },
   {
     "available": true,
-    "id": "move-609--secondary--paralysis",
+    "id": "move-609--causes--paralysis",
     "identity": true,
     "rule": {
-      "parameters": {
-        "probability": 1
-      },
+      "parameters": {},
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -3990,28 +4243,6 @@
       "target": {
         "collection": "effects",
         "id": "paralysis"
-      },
-      "trigger": "on-hit"
-    }
-  },
-  {
-    "available": true,
-    "id": "move-672--causes--poison",
-    "identity": true,
-    "rule": {
-      "parameters": {},
-      "recipient": "target",
-      "relation": "causes",
-      "requirements": {
-        "all": []
-      },
-      "source": {
-        "collection": "moves",
-        "id": "move-672"
-      },
-      "target": {
-        "collection": "effects",
-        "id": "poison"
       },
       "trigger": "on-hit"
     }
@@ -4044,7 +4275,35 @@
   },
   {
     "available": true,
-    "id": "move-801--secondary--poison",
+    "id": "move-780--causes--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.1
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-780"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-801--causes--poison",
     "identity": true,
     "rule": {
       "parameters": {
@@ -4053,7 +4312,11 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
@@ -4068,7 +4331,7 @@
   },
   {
     "available": true,
-    "id": "move-815--secondary--burning",
+    "id": "move-815--causes--burning",
     "identity": true,
     "rule": {
       "parameters": {
@@ -4077,11 +4340,71 @@
       "recipient": "target",
       "relation": "causes",
       "requirements": {
-        "all": []
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
       },
       "source": {
         "collection": "moves",
         "id": "move-815"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "burning"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-839--causes--poison",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.5
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-839"
+      },
+      "target": {
+        "collection": "effects",
+        "id": "poison"
+      },
+      "trigger": "on-hit"
+    }
+  },
+  {
+    "available": true,
+    "id": "move-844--causes--burning",
+    "identity": true,
+    "rule": {
+      "parameters": {
+        "probability": 0.3
+      },
+      "recipient": "target",
+      "relation": "causes",
+      "requirements": {
+        "all": [
+          {
+            "predicate": "move-succeeds"
+          }
+        ]
+      },
+      "source": {
+        "collection": "moves",
+        "id": "move-844"
       },
       "target": {
         "collection": "effects",

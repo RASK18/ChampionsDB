@@ -1,6 +1,29 @@
 [
   {
     "available": true,
+    "id": "ability-copying",
+    "identity": true,
+    "name": "Copia de habilidades",
+    "rule": {
+      "description": "Rastro elige una habilidad copiable de un rival adyacente; excluye las marcadas como no copiables. Imitación falla si ambas habilidades ya coinciden, si la del objetivo impide Imitación o si la del usuario no puede sustituirse. La presencia de una habilidad de copia no garantiza una ruta concreta.",
+      "exceptionsComplete": false
+    }
+  },
+  {
+    "available": true,
+    "id": "accuracy-evasion",
+    "identity": true,
+    "name": "Precisión y evasión",
+    "rule": {
+      "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
+      "exceptionsComplete": false,
+      "maximumStage": 6,
+      "minimumStage": -6,
+      "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
+    }
+  },
+  {
+    "available": true,
     "id": "bad-poison",
     "identity": true,
     "name": "Grav. envenenado",
@@ -31,6 +54,51 @@
   },
   {
     "available": true,
+    "id": "critical-hits",
+    "identity": true,
+    "name": "Golpes críticos",
+    "rule": {
+      "criticalChanceDenominators": [
+        24,
+        8,
+        2,
+        1
+      ],
+      "damageMultiplier": 1.5,
+      "description": "Probabilidades desde el nivel normal hasta tres aumentos: 1/24, 1/8, 1/2 y 1. Las habilidades y movimientos pueden modificar o impedir el crítico.",
+      "exceptionsComplete": false,
+      "ignoresNegativeAttackStages": true,
+      "ignoresPositiveDefenseStages": true
+    }
+  },
+  {
+    "available": true,
+    "id": "damage-calculation",
+    "identity": true,
+    "name": "Cálculo de daño",
+    "rule": {
+      "baseFormula": "B = suelo(suelo(suelo(2 × nivel / 5 + 2) × potencia × ataque / defensa) / 50) + 2",
+      "description": "Ataque/Defensa para movimientos físicos; Ataque Especial/Defensa Especial para especiales, salvo sustituciones del movimiento. Los modificadores se aplican sucesivamente con redondeos del motor; la fórmula base no es un simulador completo.",
+      "exceptionsComplete": false,
+      "modifierOrder": [
+        "objetivos múltiples",
+        "clima",
+        "golpe crítico",
+        "azar",
+        "mismo tipo",
+        "efectividad",
+        "quemadura",
+        "modificadores finales"
+      ],
+      "randomMaximumPercent": 100,
+      "randomMinimumPercent": 85,
+      "randomOutcomes": 16,
+      "spreadMultiplier": 0.75,
+      "stabMultiplier": 1.5
+    }
+  },
+  {
+    "available": true,
     "id": "freezing",
     "identity": true,
     "name": "Congelado",
@@ -38,6 +106,28 @@
       "forcedThawTurn": 3,
       "thawProbability": 0.25,
       "trigger": "attempt-move"
+    }
+  },
+  {
+    "available": true,
+    "id": "mega-evolution",
+    "identity": true,
+    "name": "Megaevolución",
+    "rule": {
+      "description": "La piedra equipada determina la forma compatible. Solo puede megaevolucionar un Pokémon de cada equipo por combate. La forma mega se conserva al debilitarse; las interacciones de reanimación no confirmadas no se dan por resueltas.",
+      "exceptionsComplete": false,
+      "perSideLimit": 1,
+      "requiresHeldStone": true
+    }
+  },
+  {
+    "available": true,
+    "id": "move-copying",
+    "identity": true,
+    "name": "Copia y ejecución de otros movimientos",
+    "rule": {
+      "description": "Copión ejecuta el último movimiento utilizado si existe y sus propiedades permiten copiarlo. Una copia temporal no añade ese movimiento al aprendizaje permanente. Mímico, Esquema y Metrónomo están marcados como no disponibles en el módulo Champions consultado; no se deduce disponibilidad de las tablas genéricas.",
+      "exceptionsComplete": false
     }
   },
   {
@@ -72,6 +162,59 @@
       "forcedWakeTurn": 3,
       "restWakeTurn": 3,
       "secondTurnWakeChanceDisplayedPercent": 33
+    }
+  },
+  {
+    "available": true,
+    "id": "stat-calculation",
+    "identity": true,
+    "name": "Cálculo de estadísticas",
+    "rule": {
+      "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
+      "exceptionsComplete": false,
+      "hpFormula": "PS = PS base + puntos de PS + 75",
+      "natureBoostMultiplier": 1.1,
+      "natureDropMultiplier": 0.9,
+      "natureNeutralMultiplier": 1,
+      "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
+    }
+  },
+  {
+    "available": true,
+    "id": "stat-stages",
+    "identity": true,
+    "name": "Niveles de características",
+    "rule": {
+      "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
+      "exceptionsComplete": false,
+      "maximumStage": 6,
+      "minimumStage": -6,
+      "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
+    }
+  },
+  {
+    "available": true,
+    "id": "switching",
+    "identity": true,
+    "name": "Cambios de Pokémon",
+    "rule": {
+      "clearTemporaryMoveCopies": true,
+      "description": "Un cambio ordinario elimina los cambios temporales de estadísticas y los estados volátiles y restaura movimientos y habilidad de base. Los movimientos que transfieren efectos al relevo tienen tratamiento específico.",
+      "exceptionsComplete": false,
+      "resetStatStages": true,
+      "restoreBaseAbility": true
+    }
+  },
+  {
+    "available": true,
+    "id": "turn-order",
+    "identity": true,
+    "name": "Orden de acciones",
+    "rule": {
+      "description": "Los cambios ordinarios se resuelven antes de las megaevoluciones y estas antes de los movimientos. Dentro de los movimientos manda la prioridad, después la Velocidad. Espacio Raro invierte la comparación de Velocidad dentro de la prioridad. Efectos específicos pueden alterar el orden.",
+      "exceptionsComplete": false,
+      "normalSpeedOrder": "descendente",
+      "trickRoomSpeedOrder": "ascendente"
     }
   }
 ]

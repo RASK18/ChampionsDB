@@ -31,6 +31,7 @@ jobs:
       - run: npm test
       - run: npm run data:update
       - run: npm run data:validate
+      - run: npm test
       - name: Verificar reconstrucción sin red
         run: |
           before=$(git diff -- data sources/snapshot.json | sha256sum)
@@ -46,7 +47,7 @@ jobs:
           git diff --cached --name-only | while IFS= read -r file; do
             case "$file" in data/*|sources/snapshot.json) ;; *) exit 1 ;; esac
           done
-          git commit -m 'data: actualizar catálogo verificado de Champions'
+          git commit -m 'data: actualizar catálogo de champout de Champions'
           git push origin HEAD:main
       - name: Identificar el commit publicado
         id: revision

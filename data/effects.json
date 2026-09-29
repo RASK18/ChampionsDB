@@ -1,6 +1,7 @@
 [
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon recupera 1/16 de sus PS máximos al final de cada turno.",
     "id": "aqua-ring",
     "identity": true,
@@ -8,6 +9,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Se intercambian los valores del Ataque y la Defensa de los Pokémon.",
     "id": "atk-def-swapped",
     "identity": true,
@@ -15,6 +17,7 @@
   },
   {
     "available": true,
+    "category": "team",
     "description": "Reduce a la mitad el daño recibido de ataques físicos y especiales. En los Combates Dobles, se reduce a 2/3.",
     "id": "aurora-veil",
     "identity": true,
@@ -23,12 +26,14 @@
   {
     "available": true,
     "category": "status",
+    "description": "El Pokémon pierde PS al final de cada turno. El daño empieza por 1/16 de sus PS máximos y aumenta 1/16 cada turno (2/16 en el segundo, 3/16 en el tercero, etc.). Si, tras cambiarse por otro, vuelve al combate, se reiniciará la cuenta desde 1/16. No afecta a los Pokémon de tipo Veneno o Acero.",
     "id": "bad-poison",
     "identity": true,
     "name": "Grav. envenenado"
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon pierde 1/8 de sus PS máximos al final de cada turno durante cuatro o cinco turnos y no puede ser cambiado por otro.",
     "id": "bound",
     "identity": true,
@@ -37,18 +42,22 @@
   {
     "available": true,
     "category": "status",
+    "description": "El Pokémon pierde 1/16 de sus PS máximos al final de cada turno y el daño que infligen sus ataques físicos se reduce a la mitad. No afecta a los Pokémon de tipo Fuego.",
     "id": "burning",
     "identity": true,
     "name": "Quemado"
   },
   {
     "available": true,
+    "category": "volatile",
+    "description": "El Pokémon no puede ser cambiado por otro. No afecta a los Pokémon de tipo Fantasma.",
     "id": "cant-escape",
     "identity": true,
     "name": "Huida imposible"
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon debe cargar su movimiento durante un turno antes de usarlo.",
     "id": "charging",
     "identity": true,
@@ -56,6 +65,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon es inmune a los efectos del campo activo y ningún movimiento puede alcanzarlo.",
     "id": "concealed",
     "identity": true,
@@ -63,6 +73,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "De uno a cuatro turnos, el Pokémon tiene una probabilidad de 1 entre 3 de herirse a sí mismo.",
     "id": "confused",
     "identity": true,
@@ -70,13 +81,7 @@
   },
   {
     "available": true,
-    "description": "Los ataques del Pokémon tienen más probabilidades de asestar un golpe crítico.",
-    "id": "critical-hit-ratio-boost-12",
-    "identity": true,
-    "name": "Más críticos"
-  },
-  {
-    "available": true,
+    "category": "volatile",
     "description": "Los ataques del Pokémon tienen más probabilidades de asestar un golpe crítico.",
     "id": "critical-hit-ratio-boost-92",
     "identity": true,
@@ -84,6 +89,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon pierde 1/4 de sus PS máximos al final de cada turno.",
     "id": "cursed",
     "identity": true,
@@ -91,6 +97,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Si el Pokémon se debilita por un ataque del rival, este también se debilitará.",
     "id": "destiny-bound",
     "identity": true,
@@ -98,6 +105,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon se dormirá al final del turno siguiente al que ha recibido un movimiento que provoca somnolencia.",
     "id": "drowsy",
     "identity": true,
@@ -105,6 +113,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El siguiente movimiento de tipo Eléctrico que el Pokémon use tendrá el doble de potencia.",
     "id": "electric-boost",
     "identity": true,
@@ -120,6 +129,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon solo puede usar {0}.",
     "id": "encore",
     "identity": true,
@@ -127,6 +137,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Ningún Pokémon puede ser cambiado por otro hasta el final del turno siguiente al que se ha usado el movimiento Cerrojo Feérico.",
     "id": "fairy-locked",
     "identity": true,
@@ -134,6 +145,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Aumenta un 50 % la potencia de los movimientos de tipo Fuego del Pokémon.",
     "id": "flash-fire",
     "identity": true,
@@ -141,6 +153,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon adquiere el tipo Planta además de conservar sus propios tipos.",
     "id": "forest-cursed",
     "identity": true,
@@ -149,12 +162,14 @@
   {
     "available": true,
     "category": "status",
+    "description": "El Pokémon no puede usar la mayoría de los movimientos, pero tiene una probabilidad del 25 % de descongelarse al intentarlo. Se librará de la congelación al tercer turno o si recibe daño de ciertos movimientos, como los de tipo Fuego. No afecta a los Pokémon de tipo Hielo.",
     "id": "freezing",
     "identity": true,
     "name": "Congelado"
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon que ocupe esta posición dos turnos después de que se haya previsto un ataque recibirá el daño.",
     "id": "future-attack",
     "identity": true,
@@ -170,6 +185,7 @@
   },
   {
     "available": true,
+    "category": "field",
     "description": "Aumenta un 67 % la precisión de los movimientos. Los Pokémon de tipo Volador o con la habilidad Levitación, entre otros, pasan a estar en contacto con el suelo. No se pueden usar movimientos que separen del suelo.",
     "id": "gravity",
     "identity": true,
@@ -185,6 +201,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon no puede recuperar PS por efecto de movimientos, habilidades o el objeto que lleve.",
     "id": "healing-prevented",
     "identity": true,
@@ -192,6 +209,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon tiene una probabilidad del 50 % de no poder usar movimientos si el Pokémon que le provocó el estado Enamorado está presente en combate.",
     "id": "infatuated",
     "identity": true,
@@ -199,6 +217,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon recupera 1/16 de sus PS máximos al final de cada turno, pero no puede ser cambiado por otro y pasa a estar en contacto con el suelo.",
     "id": "ingrained",
     "identity": true,
@@ -206,6 +225,15 @@
   },
   {
     "available": true,
+    "category": "volatile",
+    "description": "Ni el usuario de Presa Maxilar ni el Pokémon que ha recibido el movimiento pueden ser cambiados por otros.",
+    "id": "jaw-lock",
+    "identity": true,
+    "name": "Presa Maxilar"
+  },
+  {
+    "available": true,
+    "category": "volatile",
     "description": "El Pokémon pasa a estar en contacto con el suelo y le afectan los movimientos de tipo Tierra.",
     "id": "landed",
     "identity": true,
@@ -213,12 +241,15 @@
   },
   {
     "available": true,
+    "category": "volatile",
+    "description": "El Pokémon pierde 1/8 de sus PS máximos al final de cada turno. Cualquier Pokémon que ocupe la posición del usuario de Drenadoras recupera esa misma cantidad de PS. No afecta a los Pokémon de tipo Planta.",
     "id": "leech-seeded",
     "identity": true,
     "name": "Drenadoras"
   },
   {
     "available": true,
+    "category": "team",
     "description": "Reduce a la mitad el daño recibido de ataques especiales. En los Combates Dobles, lo reduce a 2/3.",
     "id": "light-screen",
     "identity": true,
@@ -226,6 +257,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El movimiento del Pokémon acertará seguro en el siguiente turno al objetivo sobre el que se ha fijado el blanco.",
     "id": "locked-on",
     "identity": true,
@@ -233,6 +265,7 @@
   },
   {
     "available": true,
+    "category": "field",
     "description": "La mayoría de los objetos que llevan los Pokémon quedan inutilizados.",
     "id": "magic-room",
     "identity": true,
@@ -240,6 +273,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon flota y deja de estar en contacto con el suelo, lo que impide que le afecten los movimientos de tipo Tierra y los estados Púas, Púas tóxicas y Red Viscosa.",
     "id": "magnet-rise",
     "identity": true,
@@ -247,6 +281,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Aumenta un 20 % la precisión del siguiente movimiento que use el Pokémon.",
     "id": "micle-berry",
     "identity": true,
@@ -254,6 +289,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Movimientos como Plancha Voltaica, Golpe Cuerpo, Carga Dragón, Plancha Voladora, Golpe Calor y Cuerpo Pesado que se usen contra el Pokémon acertarán seguro e infligirán el doble de daño.",
     "id": "minimized",
     "identity": true,
@@ -269,6 +305,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon no puede usar {0}.",
     "id": "move-disabled",
     "identity": true,
@@ -276,6 +313,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "La habilidad del Pokémon ya no tiene efecto.",
     "id": "no-ability",
     "identity": true,
@@ -283,13 +321,23 @@
   },
   {
     "available": true,
+    "category": "volatile",
+    "description": "Reduce un nivel la Defensa y la Defensa Especial del Pokémon al final de cada turno.",
+    "id": "octolock",
+    "identity": true,
+    "name": "Octopresa"
+  },
+  {
+    "available": true,
     "category": "status",
+    "description": "El Pokémon tiene una probabilidad del 12,5 % de no poder usar movimientos y su Velocidad se reduce a la mitad. No afecta a los Pokémon de tipo Eléctrico.",
     "id": "paralysis",
     "identity": true,
     "name": "Paralizado"
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon se debilitará tres turnos después de adquirir este estado.",
     "id": "perishing",
     "identity": true,
@@ -298,6 +346,7 @@
   {
     "available": true,
     "category": "status",
+    "description": "El Pokémon pierde 1/8 de sus PS máximos al final de cada turno. No afecta a los Pokémon de tipo Veneno o Acero.",
     "id": "poison",
     "identity": true,
     "name": "Envenenado"
@@ -320,6 +369,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon ataca durante dos o tres turnos, en los cuales no puede realizar otras acciones. Después, se queda confuso.",
     "id": "rampaging",
     "identity": true,
@@ -327,6 +377,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon no puede actuar durante un turno.",
     "id": "recharging",
     "identity": true,
@@ -334,6 +385,7 @@
   },
   {
     "available": true,
+    "category": "team",
     "description": "Reduce a la mitad el daño recibido de ataques físicos. En los Combates Dobles, lo reduce a 2/3.",
     "id": "reflect",
     "identity": true,
@@ -341,6 +393,7 @@
   },
   {
     "available": true,
+    "category": "team",
     "description": "El Pokémon es inmune a los problemas de estado o la confusión.",
     "id": "safeguard",
     "identity": true,
@@ -348,6 +401,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon pierde 1/16 de sus PS máximos al final de cada turno, o 1/8 si es de tipo Acero o Agua.",
     "id": "salt-cured",
     "identity": true,
@@ -363,6 +417,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Ningún Pokémon rival puede utilizar los movimientos que el Pokémon que ha usado Sellar conoce.",
     "id": "sealing-off",
     "identity": true,
@@ -370,6 +425,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon es inmune a los efectos del campo activo y ningún movimiento puede alcanzarlo, a excepción de algunos como Trueno, Vendaval y Antiaéreo.",
     "id": "sky-high",
     "identity": true,
@@ -385,6 +441,7 @@
   },
   {
     "available": true,
+    "category": "weather",
     "description": "Aumenta un 50 % la Defensa de los Pokémon de tipo Hielo.",
     "id": "snow",
     "identity": true,
@@ -392,6 +449,7 @@
   },
   {
     "available": true,
+    "category": "team",
     "description": "Los Pokémon que entran en combate pierden 1/8 de sus PS máximos. El daño aumentará si el estado se provoca una o dos veces más una vez activo. No afecta a algunos Pokémon, como los de tipo Volador o con la habilidad Levitación.",
     "id": "spikes",
     "identity": true,
@@ -399,6 +457,7 @@
   },
   {
     "available": true,
+    "category": "team",
     "description": "Los Pokémon que entran en combate pierden 1/8 de sus PS máximos. El daño puede variar según la compatibilidad que el Pokémon tenga con el tipo Roca.",
     "id": "stealth-rock",
     "identity": true,
@@ -406,6 +465,7 @@
   },
   {
     "available": true,
+    "category": "team",
     "description": "Reduce un nivel la Velocidad de los Pokémon que entran en combate. No afecta a algunos Pokémon, como los de tipo Volador o aquellos con la habilidad Levitación, entre otros.",
     "id": "sticky-web",
     "identity": true,
@@ -413,6 +473,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Aumenta un nivel la Defensa y la Defensa Especial del Pokémon cada vez que usa Reserva.",
     "id": "stockpiling",
     "identity": true,
@@ -420,6 +481,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon es inmune a los efectos del campo activo y ningún movimiento puede alcanzarlo, a excepción de Surf y Torbellino, que infligirán el doble de daño.",
     "id": "submerged",
     "identity": true,
@@ -427,6 +489,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "Reduce un nivel la Velocidad del Pokémon al final de cada turno.",
     "id": "syrupy",
     "identity": true,
@@ -434,6 +497,7 @@
   },
   {
     "available": true,
+    "category": "team",
     "description": "Duplica la Velocidad del Pokémon.",
     "id": "tailwind",
     "identity": true,
@@ -441,6 +505,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon solo puede usar ataques.",
     "id": "taunted",
     "identity": true,
@@ -448,6 +513,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon no puede utilizar movimientos que usan sonido durante dos turnos.",
     "id": "throat-chopped",
     "identity": true,
@@ -455,12 +521,15 @@
   },
   {
     "available": true,
+    "category": "team",
+    "description": "Envenena a quien entra en combate, gravemente si el estado vuelve a provocarse una vez activo. No afecta a los Pokémon de tipo Volador o con la habilidad Levitación, entre otros. Se elimina si un Pokémon de tipo Veneno entra en combate.",
     "id": "toxic-spikes",
     "identity": true,
     "name": "Púas tóxicas"
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon adquiere el tipo Fantasma además de conservar sus propios tipos.",
     "id": "trick-or-treating",
     "identity": true,
@@ -468,6 +537,7 @@
   },
   {
     "available": true,
+    "category": "field",
     "description": "Los Pokémon con menor Velocidad actúan primero.",
     "id": "trick-room",
     "identity": true,
@@ -475,6 +545,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon no puede usar el mismo movimiento dos veces seguidas.",
     "id": "unable-to-repeat",
     "identity": true,
@@ -482,6 +553,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon es inmune a los efectos del campo activo y ningún movimiento puede alcanzarlo, a excepción de Terremoto, que infligirá el doble de daño.",
     "id": "underground",
     "identity": true,
@@ -489,6 +561,7 @@
   },
   {
     "available": true,
+    "category": "volatile",
     "description": "El Pokémon ataca durante tres turnos, en los cuales no puede realizar otras acciones y ningún Pokémon puede quedarse dormido.",
     "id": "uproar",
     "identity": true,
@@ -496,6 +569,15 @@
   },
   {
     "available": true,
+    "category": "volatile",
+    "description": "Los movimientos que los rivales usen contra el Pokémon acertarán seguro e infligirán el doble de daño.",
+    "id": "vulnerable",
+    "identity": true,
+    "name": "Vulnerable"
+  },
+  {
+    "available": true,
+    "category": "team",
     "description": "El Pokémon que ocupe esta posición al final del turno siguiente al que se ha usado el movimiento Deseo recuperará la mitad de los PS máximos del usuario.",
     "id": "wish",
     "identity": true,
@@ -503,6 +585,7 @@
   },
   {
     "available": true,
+    "category": "field",
     "description": "Se intercambian los valores de la Defensa y la Defensa Especial de los Pokémon.",
     "id": "wonder-room",
     "identity": true,

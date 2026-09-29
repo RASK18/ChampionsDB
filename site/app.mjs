@@ -118,7 +118,7 @@ function name(c, row) {
     return `${label("pokemon", row.pokemonId)} → ${label("moves", row.moveId)}`;
   if (c === "interactions")
     return `${pretty(row.rule.source.id || row.rule.source.selector)} · ${translate(row.rule.relation)}`;
-  return `${row.id} · nombre pendiente`;
+  return `${row.id} · sin nombre en la fuente`;
 }
 function fieldOptions(c) {
   return database.catalog[c].map((f) => [f.path, f.label]);
@@ -173,7 +173,7 @@ function error(message, retry) {
 }
 function notice() {
   const m = database.manifest;
-  const text = `Pokémon Champions ${m.context.gameVersion} · ${database.coverage.pendingCount.toLocaleString("es")} afirmaciones pendientes de verificar. La cobertura es parcial; cada campo publicado está corroborado.`;
+  const text = `Fuente principal: champout · revisión ${m.context.revision.slice(0, 8)}. Complementos limitados a los huecos autorizados. ${database.coverage.pendingCount.toLocaleString("es")} campos o reglas sin dato o sin interpretar.`;
   if ($("notice").textContent !== text) $("notice").textContent = text;
 }
 async function refresh() {
@@ -232,7 +232,7 @@ function navigate(c) {
       ? "Una fila por forma. Explora estadísticas, habilidades y movimientos."
       : c === "regulations"
         ? "Las restricciones pendientes no implican que un Pokémon sea legal."
-        : "Consulta los campos verificados y sus relaciones de combate.";
+        : "Consulta los campos documentados y sus relaciones de combate.";
   renderNavigation();
   renderSubnav();
   renderEditor();
@@ -949,7 +949,7 @@ function cell(c, row, path) {
           ? c === "natures"
             ? "No modifica"
             : "No aplicable"
-          : "Pendiente",
+          : "Sin dato",
     );
   if (path === "typeId" || path === "typeIds")
     return el("span", {}, [].concat(value.value).map(typeBadge));
@@ -1170,7 +1170,7 @@ function renderMatrix(rows) {
             }),
           ),
           types.map((d) =>
-            el("td", {}, `${t.effectiveness?.[d.id] ?? "Pendiente"}×`),
+            el("td", {}, t.effectiveness?.[d.id] === undefined ? "Sin dato" : `${t.effectiveness[d.id]}×`),
           ),
         ),
       ),
@@ -1214,7 +1214,7 @@ async function showDetail(c, row) {
       try {
         const [record, documents] = await database.evidence(c, row.id);
         if (token !== detailRequest) return;
-        sources.replaceChildren(el("h3", {}, "Evidencias y campos pendientes"));
+        sources.replaceChildren(el("h3", {}, "Evidencias y campos sin dato"));
         for (const [path, fact] of Object.entries(record.facts)) {
           const witnesses = fact.witnesses.map((id) => record.observations[id]);
           sources.append(
@@ -1255,7 +1255,7 @@ async function showDetail(c, row) {
         }
         if (record.pending.length)
           sources.append(
-            el("h3", {}, "Pendiente de corroboración"),
+            el("h3", {}, "Sin dato o sin interpretación"),
             record.pending.map((p) =>
               el("p", { class: "pending" }, `${p.claim}: ${p.reason}`),
             ),
@@ -1273,7 +1273,7 @@ async function showDetail(c, row) {
     for (const f of database.catalog[c])
       fields.append(el("dt", {}, f.label), el("dd", {}, cell(c, row, f.path)));
     relations.replaceChildren(
-      el("h3", {}, "Relaciones verificadas"),
+      el("h3", {}, "Relaciones documentadas"),
       el(
         "p",
         { class: "help" },
@@ -1365,7 +1365,7 @@ async function showDetail(c, row) {
             el(
               "p",
               { class: "muted" },
-              "No hay productores corroborados en el catálogo actual.",
+              "No hay productores documentados en el catálogo actual.",
             ),
           );
       };
@@ -1385,13 +1385,13 @@ function coverageDialog() {
     el(
       "p",
       {},
-      "Solo se muestran valores corroborados por dos proveedores. Esto no garantiza independencia entre proveedores ni cobertura completa del juego.",
+      "Champout es la fuente principal. OP.GG, Showdown y los anuncios oficiales completan únicamente los 147 huecos autorizados, sin sustituir datos de champout. Cada campo conserva su evidencia; no se exige doble proveedor. La presencia en las tablas no certifica legalidad vigente ni actualidad del último parche.",
     ),
     el("p", {}, `Conjunto: ${database.manifest.datasetId}`),
     el(
       "p",
       {},
-      "Las restricciones de los reglamentos y las mecánicas pendientes no se completan con datos de otros juegos.",
+      "Los complementos incluyen efectividades, naturalezas, reglas generales y el reglamento oficial. La cobertura completa de todas las interacciones y excepciones de combate continúa pendiente; los datos desconocidos no se interpretan como imposibles.",
     ),
   );
   const table = el(
@@ -1407,7 +1407,7 @@ function coverageDialog() {
           "Colección",
           "Publicados",
           "Inventariados",
-          "Campos verificados / esperados",
+          "Campos publicados / esperados",
         ].map((x) => el("th", {}, x)),
       ),
     ),
@@ -1496,7 +1496,7 @@ async function start() {
     graph = database.graph;
     $("workspace").hidden = false;
     $("version").textContent =
-      `Champions ${database.manifest.context.gameVersion}`;
+      `champout · ${database.manifest.context.revision.slice(0, 8)}`;
     navigate("pokemon");
   } catch (e) {
     error(e.message, start);

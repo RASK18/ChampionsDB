@@ -5,7 +5,8 @@
     "description": "Elimina la parálisis del portador. Puede usarse una vez por combate.",
     "id": "item-149",
     "identity": true,
-    "name": "Baya Zreza"
+    "name": "Baya Zreza",
+    "restrictions": []
   },
   {
     "available": true,
@@ -13,7 +14,8 @@
     "description": "Elimina el sueño del portador. Puede usarse una vez por combate.",
     "id": "item-150",
     "identity": true,
-    "name": "Baya Atania"
+    "name": "Baya Atania",
+    "restrictions": []
   },
   {
     "available": true,
@@ -21,7 +23,8 @@
     "description": "Elimina el envenenamiento y el envenenamiento grave del portador. Puede usarse una vez por combate.",
     "id": "item-151",
     "identity": true,
-    "name": "Baya Meloc"
+    "name": "Baya Meloc",
+    "restrictions": []
   },
   {
     "available": true,
@@ -29,7 +32,8 @@
     "description": "Elimina las quemaduras del portador. Puede usarse una vez por combate.",
     "id": "item-152",
     "identity": true,
-    "name": "Baya Safre"
+    "name": "Baya Safre",
+    "restrictions": []
   },
   {
     "available": true,
@@ -37,7 +41,8 @@
     "description": "Elimina la congelación del portador. Puede usarse una vez por combate.",
     "id": "item-153",
     "identity": true,
-    "name": "Baya Perasi"
+    "name": "Baya Perasi",
+    "restrictions": []
   },
   {
     "available": true,
@@ -45,7 +50,8 @@
     "description": "Restaura 10 PP de un movimiento del portador al que no le quedan PP. Puede usarse una vez por combate.",
     "id": "item-154",
     "identity": true,
-    "name": "Baya Zanama"
+    "name": "Baya Zanama",
+    "restrictions": []
   },
   {
     "available": true,
@@ -53,7 +59,8 @@
     "description": "Restaura 10 PS del portador cuando sus PS máximos se ven reducidos a la mitad o menos. Puede usarse una vez por combate.",
     "id": "item-155",
     "identity": true,
-    "name": "Baya Aranja"
+    "name": "Baya Aranja",
+    "restrictions": []
   },
   {
     "available": true,
@@ -61,7 +68,8 @@
     "description": "Elimina la confusión del portador. Puede usarse una vez por combate.",
     "id": "item-156",
     "identity": true,
-    "name": "Baya Caquic"
+    "name": "Baya Caquic",
+    "restrictions": []
   },
   {
     "available": true,
@@ -69,7 +77,8 @@
     "description": "Elimina todos los problemas de estado y la confusión del portador. Puede usarse una vez por combate.",
     "id": "item-157",
     "identity": true,
-    "name": "Baya Ziuela"
+    "name": "Baya Ziuela",
+    "restrictions": []
   },
   {
     "available": true,
@@ -77,7 +86,8 @@
     "description": "Restaura 1/4 de los PS máximos del portador cuando se ven reducidos a la mitad o menos. Puede usarse una vez por combate.",
     "id": "item-158",
     "identity": true,
-    "name": "Baya Zidra"
+    "name": "Baya Zidra",
+    "restrictions": []
   },
   {
     "available": true,
@@ -85,7 +95,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Fuego que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-184",
     "identity": true,
-    "name": "Baya Caoca"
+    "name": "Baya Caoca",
+    "restrictions": []
   },
   {
     "available": true,
@@ -93,7 +104,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Agua que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-185",
     "identity": true,
-    "name": "Baya Pasio"
+    "name": "Baya Pasio",
+    "restrictions": []
   },
   {
     "available": true,
@@ -101,7 +113,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Eléctrico que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-186",
     "identity": true,
-    "name": "Baya Gualot"
+    "name": "Baya Gualot",
+    "restrictions": []
   },
   {
     "available": true,
@@ -109,7 +122,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Planta que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-187",
     "identity": true,
-    "name": "Baya Tamar"
+    "name": "Baya Tamar",
+    "restrictions": []
   },
   {
     "available": true,
@@ -117,7 +131,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Hielo que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-188",
     "identity": true,
-    "name": "Baya Rimoya"
+    "name": "Baya Rimoya",
+    "restrictions": []
   },
   {
     "available": true,
@@ -125,7 +140,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Lucha que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-189",
     "identity": true,
-    "name": "Baya Pomaro"
+    "name": "Baya Pomaro",
+    "restrictions": []
   },
   {
     "available": true,
@@ -133,7 +149,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Veneno que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-190",
     "identity": true,
-    "name": "Baya Kebia"
+    "name": "Baya Kebia",
+    "restrictions": []
   },
   {
     "available": true,
@@ -141,7 +158,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Tierra que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-191",
     "identity": true,
-    "name": "Baya Acardo"
+    "name": "Baya Acardo",
+    "restrictions": []
   },
   {
     "available": true,
@@ -149,7 +167,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Volador que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-192",
     "identity": true,
-    "name": "Baya Kouba"
+    "name": "Baya Kouba",
+    "restrictions": []
   },
   {
     "available": true,
@@ -157,7 +176,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Psíquico que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-193",
     "identity": true,
-    "name": "Baya Payapa"
+    "name": "Baya Payapa",
+    "restrictions": []
   },
   {
     "available": true,
@@ -165,7 +185,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Bicho que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-194",
     "identity": true,
-    "name": "Baya Yecana"
+    "name": "Baya Yecana",
+    "restrictions": []
   },
   {
     "available": true,
@@ -173,7 +194,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Roca que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-195",
     "identity": true,
-    "name": "Baya Alcho"
+    "name": "Baya Alcho",
+    "restrictions": []
   },
   {
     "available": true,
@@ -181,7 +203,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Fantasma que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-196",
     "identity": true,
-    "name": "Baya Drasi"
+    "name": "Baya Drasi",
+    "restrictions": []
   },
   {
     "available": true,
@@ -189,7 +212,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Dragón que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-197",
     "identity": true,
-    "name": "Baya Anjiro"
+    "name": "Baya Anjiro",
+    "restrictions": []
   },
   {
     "available": true,
@@ -197,7 +221,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Siniestro que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-198",
     "identity": true,
-    "name": "Baya Dillo"
+    "name": "Baya Dillo",
+    "restrictions": []
   },
   {
     "available": true,
@@ -205,7 +230,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Acero que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-199",
     "identity": true,
-    "name": "Baya Baribá"
+    "name": "Baya Baribá",
+    "restrictions": []
   },
   {
     "available": true,
@@ -213,7 +239,8 @@
     "description": "Reduce a la mitad el daño de un ataque de tipo Normal que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-200",
     "identity": true,
-    "name": "Baya Chilan"
+    "name": "Baya Chilan",
+    "restrictions": []
   },
   {
     "available": true,
@@ -221,7 +248,8 @@
     "description": "Reduce un 10 % la precisión de los movimientos que el rival usa contra el portador.",
     "id": "item-213",
     "identity": true,
-    "name": "Polvo Brillo"
+    "name": "Polvo Brillo",
+    "restrictions": []
   },
   {
     "available": true,
@@ -229,7 +257,8 @@
     "description": "Restaura las características del portador que se hayan visto reducidas. Puede usarse una vez por combate.",
     "id": "item-214",
     "identity": true,
-    "name": "Hierba Blanca"
+    "name": "Hierba Blanca",
+    "restrictions": []
   },
   {
     "available": true,
@@ -237,7 +266,8 @@
     "description": "Hace que el portador tenga una probabilidad del 20 % de actuar primero cuando su movimiento tiene la misma prioridad que otros.",
     "id": "item-217",
     "identity": true,
-    "name": "Garra Rápida"
+    "name": "Garra Rápida",
+    "restrictions": []
   },
   {
     "available": true,
@@ -245,7 +275,8 @@
     "description": "Elimina los estados Enamorado, Mofa, Repetición anulada, Movimiento anulado, Cura anulada y Otra Vez del portador. Puede usarse una vez por combate.",
     "id": "item-219",
     "identity": true,
-    "name": "Hierba Mental"
+    "name": "Hierba Mental",
+    "restrictions": []
   },
   {
     "available": true,
@@ -253,7 +284,8 @@
     "description": "Hace que el portador tenga una probabilidad del 10 % de amedrentar al objetivo al infligirle daño con un movimiento.",
     "id": "item-221",
     "identity": true,
-    "name": "Roca del Rey"
+    "name": "Roca del Rey",
+    "restrictions": []
   },
   {
     "available": true,
@@ -261,7 +293,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Bicho del portador.",
     "id": "item-222",
     "identity": true,
-    "name": "Polvo Plata"
+    "name": "Polvo Plata",
+    "restrictions": []
   },
   {
     "available": true,
@@ -269,7 +302,8 @@
     "description": "Hace que el portador tenga una probabilidad del 10 % de aguantar con 1 PS un movimiento que lo debilitaría.",
     "id": "item-230",
     "identity": true,
-    "name": "Cinta Aguante"
+    "name": "Cinta Aguante",
+    "restrictions": []
   },
   {
     "available": true,
@@ -277,7 +311,8 @@
     "description": "Aumenta un nivel la probabilidad de asestar golpes críticos del portador.",
     "id": "item-232",
     "identity": true,
-    "name": "Periscopio"
+    "name": "Periscopio",
+    "restrictions": []
   },
   {
     "available": true,
@@ -285,7 +320,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Acero del portador.",
     "id": "item-233",
     "identity": true,
-    "name": "Revest. Metálico"
+    "name": "Revest. Metálico",
+    "restrictions": []
   },
   {
     "available": true,
@@ -293,7 +329,8 @@
     "description": "Restauran 1/16 de los PS máximos del portador al final de cada turno.",
     "id": "item-234",
     "identity": true,
-    "name": "Restos"
+    "name": "Restos",
+    "restrictions": []
   },
   {
     "available": true,
@@ -301,7 +338,17 @@
     "description": "Si la lleva Pikachu, le duplica el Ataque y el Ataque Especial.",
     "id": "item-236",
     "identity": true,
-    "name": "Bola Luminosa"
+    "name": "Bola Luminosa",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0025000",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
   },
   {
     "available": true,
@@ -309,7 +356,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Tierra del portador.",
     "id": "item-237",
     "identity": true,
-    "name": "Arena Fina"
+    "name": "Arena Fina",
+    "restrictions": []
   },
   {
     "available": true,
@@ -317,7 +365,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Roca del portador.",
     "id": "item-238",
     "identity": true,
-    "name": "Piedra Dura"
+    "name": "Piedra Dura",
+    "restrictions": []
   },
   {
     "available": true,
@@ -325,7 +374,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Planta del portador.",
     "id": "item-239",
     "identity": true,
-    "name": "Semilla Milagro"
+    "name": "Semilla Milagro",
+    "restrictions": []
   },
   {
     "available": true,
@@ -333,7 +383,8 @@
     "description": "Aumentan un 20 % la potencia de los movimientos de tipo Siniestro del portador.",
     "id": "item-240",
     "identity": true,
-    "name": "Gafas de Sol"
+    "name": "Gafas de Sol",
+    "restrictions": []
   },
   {
     "available": true,
@@ -341,7 +392,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Hada del portador.",
     "id": "item-2401",
     "identity": true,
-    "name": "Pluma Feérica"
+    "name": "Pluma Feérica",
+    "restrictions": []
   },
   {
     "available": true,
@@ -349,7 +401,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Lucha del portador.",
     "id": "item-241",
     "identity": true,
-    "name": "Cinturón Negro"
+    "name": "Cinturón Negro",
+    "restrictions": []
   },
   {
     "available": true,
@@ -357,7 +410,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Eléctrico del portador.",
     "id": "item-242",
     "identity": true,
-    "name": "Imán"
+    "name": "Imán",
+    "restrictions": []
   },
   {
     "available": true,
@@ -365,7 +419,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Agua del portador.",
     "id": "item-243",
     "identity": true,
-    "name": "Agua Mística"
+    "name": "Agua Mística",
+    "restrictions": []
   },
   {
     "available": true,
@@ -373,7 +428,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Volador del portador.",
     "id": "item-244",
     "identity": true,
-    "name": "Pico Afilado"
+    "name": "Pico Afilado",
+    "restrictions": []
   },
   {
     "available": true,
@@ -381,7 +437,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Veneno del portador.",
     "id": "item-245",
     "identity": true,
-    "name": "Flecha Venenosa"
+    "name": "Flecha Venenosa",
+    "restrictions": []
   },
   {
     "available": true,
@@ -389,7 +446,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Hielo del portador.",
     "id": "item-246",
     "identity": true,
-    "name": "Hielo Perpetuo"
+    "name": "Hielo Perpetuo",
+    "restrictions": []
   },
   {
     "available": true,
@@ -397,7 +455,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Fantasma del portador.",
     "id": "item-247",
     "identity": true,
-    "name": "Hechizo"
+    "name": "Hechizo",
+    "restrictions": []
   },
   {
     "available": true,
@@ -405,7 +464,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Psíquico del portador.",
     "id": "item-248",
     "identity": true,
-    "name": "Cuchara Torcida"
+    "name": "Cuchara Torcida",
+    "restrictions": []
   },
   {
     "available": true,
@@ -413,7 +473,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Fuego del portador.",
     "id": "item-249",
     "identity": true,
-    "name": "Carbón"
+    "name": "Carbón",
+    "restrictions": []
   },
   {
     "available": true,
@@ -421,7 +482,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Dragón del portador.",
     "id": "item-250",
     "identity": true,
-    "name": "Colmillo de Dragón"
+    "name": "Colmillo de Dragón",
+    "restrictions": []
   },
   {
     "available": true,
@@ -429,7 +491,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos de tipo Normal del portador.",
     "id": "item-251",
     "identity": true,
-    "name": "Pañuelo de Seda"
+    "name": "Pañuelo de Seda",
+    "restrictions": []
   },
   {
     "available": true,
@@ -437,7 +500,8 @@
     "description": "Hace que el portador recupere una cantidad de PS equivalente a 1/8 del daño que inflija con un movimiento.",
     "id": "item-253",
     "identity": true,
-    "name": "Cascabel Concha"
+    "name": "Cascabel Concha",
+    "restrictions": []
   },
   {
     "available": true,
@@ -448,8 +512,12 @@
     "name": "Clefablita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0036000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0036000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -462,8 +530,12 @@
     "name": "Victreebelita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0071000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0071000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -476,8 +548,12 @@
     "name": "Starmita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0121000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0121000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -490,8 +566,12 @@
     "name": "Dragonitita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0149000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0149000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -504,8 +584,12 @@
     "name": "Meganiumita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0154000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0154000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -518,8 +602,12 @@
     "name": "Feraligatrita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0160000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0160000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -532,8 +620,12 @@
     "name": "Skarmorita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0227000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0227000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -546,8 +638,12 @@
     "name": "Froslassita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0478000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0478000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -560,8 +656,12 @@
     "name": "Emboarita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0500000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0500000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -574,8 +674,48 @@
     "name": "Excadrillita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0530000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0530000",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Scolipede, le permite megaevolucionar.",
+    "id": "item-2571",
+    "identity": true,
+    "name": "Scolipedita",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0545000",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Scrafty, le permite megaevolucionar.",
+    "id": "item-2572",
+    "identity": true,
+    "name": "Scraftita",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0560000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -588,8 +728,12 @@
     "name": "Eelektrossita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0604000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0604000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -602,8 +746,12 @@
     "name": "Chandelurita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0609000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0609000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -616,8 +764,12 @@
     "name": "Chesnaughtita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0652000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0652000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -630,8 +782,12 @@
     "name": "Delphoxita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0655000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0655000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -644,8 +800,12 @@
     "name": "Greninjanita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0658000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0658000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -658,8 +818,12 @@
     "name": "Pyroarita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0668000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0668000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -669,7 +833,17 @@
     "description": "Si la lleva Floette Flor Eterna, le permite megaevolucionar.",
     "id": "item-2579",
     "identity": true,
-    "name": "Floettita"
+    "name": "Floettita",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0670005",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
   },
   {
     "available": true,
@@ -680,8 +854,30 @@
     "name": "Malamarita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0687000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0687000",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Barbaracle, le permite megaevolucionar.",
+    "id": "item-2581",
+    "identity": true,
+    "name": "Barbaraclita",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0689000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -694,8 +890,12 @@
     "name": "Dragalgita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0691000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0691000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -708,8 +908,12 @@
     "name": "Hawluchanita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0701000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0701000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -722,8 +926,12 @@
     "name": "Drampanita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0780000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0780000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -736,16 +944,36 @@
     "name": "Falinksita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0870000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0870000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Si lo lleva Farfetch’d o Sirfetch’d, le aumenta dos niveles la probabilidad de asestar golpes críticos.",
     "id": "item-259",
     "identity": true,
-    "name": "Puerro"
+    "name": "Puerro",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0083000",
+            "predicate": "form-is"
+          },
+          {
+            "pokemonId": "pokemon-0865000",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
   },
   {
     "available": true,
@@ -756,8 +984,12 @@
     "name": "Raichunita X",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0026000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0026000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -770,8 +1002,12 @@
     "name": "Raichunita Y",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0026000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0026000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -784,44 +1020,84 @@
     "name": "Chimechita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0358000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0358000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Absol, le permite megaevolucionar a Mega-Absol Z.",
     "id": "item-2638",
     "identity": true,
     "name": "Absolita Z",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0359000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0359000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Staraptor, le permite megaevolucionar.",
+    "id": "item-2639",
+    "identity": true,
+    "name": "Staraptorita",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0398000",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Garchomp, le permite megaevolucionar a Mega-Garchomp Z.",
     "id": "item-2640",
     "identity": true,
     "name": "Garchompita Z",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0445000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0445000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "mega-stone",
+    "description": "Si la lleva Lucario, le permite megaevolucionar a Mega-Lucario Z.",
     "id": "item-2641",
     "identity": true,
     "name": "Lucarita Z",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0448000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0448000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -834,8 +1110,12 @@
     "name": "Golurkita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0623000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0623000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -845,7 +1125,21 @@
     "description": "Si la lleva Meowstic, le permite megaevolucionar.",
     "id": "item-2643",
     "identity": true,
-    "name": "Meowsticita"
+    "name": "Meowsticita",
+    "restrictions": [
+      {
+        "any": [
+          {
+            "pokemonId": "pokemon-0678000",
+            "predicate": "form-is"
+          },
+          {
+            "pokemonId": "pokemon-0678001",
+            "predicate": "form-is"
+          }
+        ]
+      }
+    ]
   },
   {
     "available": true,
@@ -856,21 +1150,30 @@
     "name": "Crabominablita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0740000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0740000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "mega-stone",
     "description": "Si la lleva Golisopod, le permite megaevolucionar.",
     "id": "item-2645",
     "identity": true,
     "name": "Golisopodita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0768000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0768000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -883,21 +1186,30 @@
     "name": "Scovillainita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0952000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0952000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "mega-stone",
     "description": "Si la lleva Baxcalibur, le permite megaevolucionar.",
     "id": "item-2648",
     "identity": true,
     "name": "Baxcaliburita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0998000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0998000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -907,7 +1219,8 @@
     "description": "Aumenta un 10 % la precisión de los movimientos del portador.",
     "id": "item-265",
     "identity": true,
-    "name": "Lupa"
+    "name": "Lupa",
+    "restrictions": []
   },
   {
     "available": true,
@@ -918,8 +1231,12 @@
     "name": "Glimmoranita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0970000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0970000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -929,7 +1246,8 @@
     "description": "Aumenta un 10 % la potencia de los ataques físicos del portador.",
     "id": "item-266",
     "identity": true,
-    "name": "Cinta Fuerte"
+    "name": "Cinta Fuerte",
+    "restrictions": []
   },
   {
     "available": true,
@@ -937,7 +1255,8 @@
     "description": "Aumentan un 10 % la potencia de los ataques especiales del portador.",
     "id": "item-267",
     "identity": true,
-    "name": "Gafas Especiales"
+    "name": "Gafas Especiales",
+    "restrictions": []
   },
   {
     "available": true,
@@ -945,7 +1264,8 @@
     "description": "Aumenta un 20 % la potencia de los movimientos supereficaces del portador.",
     "id": "item-268",
     "identity": true,
-    "name": "Cinturón de Experto"
+    "name": "Cinturón de Experto",
+    "restrictions": []
   },
   {
     "available": true,
@@ -953,7 +1273,8 @@
     "description": "Prolonga tres turnos la duración de Pantalla de Luz, Reflejo o Velo Aurora del portador, haciendo que duren ocho turnos en total.",
     "id": "item-269",
     "identity": true,
-    "name": "Refleluz"
+    "name": "Refleluz",
+    "restrictions": []
   },
   {
     "available": true,
@@ -961,7 +1282,8 @@
     "description": "Aumenta un 30 % la potencia de los movimientos del portador, pero hace que pierda 1/10 de sus PS máximos cada vez que un ataque alcanza a su objetivo.",
     "id": "item-270",
     "identity": true,
-    "name": "Vidasfera"
+    "name": "Vidasfera",
+    "restrictions": []
   },
   {
     "available": true,
@@ -969,14 +1291,17 @@
     "description": "Si el portador tiene los PS al máximo, aguanta con 1 PS un movimiento que lo debilitaría de un golpe. Puede usarse una vez por combate.",
     "id": "item-275",
     "identity": true,
-    "name": "Banda Aguante"
+    "name": "Banda Aguante",
+    "restrictions": []
   },
   {
     "available": true,
     "category": "held-item",
+    "description": "Aumenta un 20 % la precisión de los movimientos del portador si actúa después que el objetivo.",
     "id": "item-276",
     "identity": true,
-    "name": "Telescopio"
+    "name": "Telescopio",
+    "restrictions": []
   },
   {
     "available": true,
@@ -984,7 +1309,8 @@
     "description": "Potencia un movimiento que el portador use de forma consecutiva. Aumenta un 20 % adicional la potencia original del movimiento cada vez que se usa, hasta un máximo de un 100 %. El efecto se pierde si se usa otro movimiento.",
     "id": "item-277",
     "identity": true,
-    "name": "Metrónomo"
+    "name": "Metrónomo",
+    "restrictions": []
   },
   {
     "available": true,
@@ -992,7 +1318,8 @@
     "description": "Reduce a la mitad la Velocidad del portador. Si no está en contacto con el suelo, pasará a estarlo y le afectarán los movimientos de tipo Tierra y los estados Púas, Púas tóxicas y Red Viscosa.",
     "id": "item-278",
     "identity": true,
-    "name": "Bola Férrea"
+    "name": "Bola Férrea",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1000,7 +1327,8 @@
     "description": "Prolonga tres turnos la duración de las nevadas provocadas por los movimientos o la habilidad del portador, haciendo que duren ocho turnos en total.",
     "id": "item-282",
     "identity": true,
-    "name": "Roca Helada"
+    "name": "Roca Helada",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1008,7 +1336,8 @@
     "description": "Prolonga tres turnos la duración de las tormentas de arena provocadas por los movimientos o la habilidad del portador, haciendo que duren ocho turnos en total.",
     "id": "item-283",
     "identity": true,
-    "name": "Roca Suave"
+    "name": "Roca Suave",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1016,7 +1345,8 @@
     "description": "Prolonga tres turnos la duración del tiempo soleado provocado por los movimientos o la habilidad del portador, haciendo que dure ocho turnos en total.",
     "id": "item-284",
     "identity": true,
-    "name": "Roca Calor"
+    "name": "Roca Calor",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1024,7 +1354,8 @@
     "description": "Prolonga tres turnos la duración de la lluvia provocada por los movimientos o la habilidad del portador, haciendo que dure ocho turnos en total.",
     "id": "item-285",
     "identity": true,
-    "name": "Roca Lluvia"
+    "name": "Roca Lluvia",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1032,7 +1363,8 @@
     "description": "Aumenta un 50 % la Velocidad del portador, pero, una vez que haya utilizado un movimiento, solo podrá usar el mismo hasta que sea cambiado por otro Pokémon.",
     "id": "item-287",
     "identity": true,
-    "name": "Pañuelo Elección"
+    "name": "Pañuelo Elección",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1040,7 +1372,8 @@
     "description": "Permite que el portador pueda cambiarse por otro Pokémon aunque haya efectos que lo impidan.",
     "id": "item-295",
     "identity": true,
-    "name": "Muda Concha"
+    "name": "Muda Concha",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1048,43 +1381,62 @@
     "description": "Hace que el portador recupere un 30 % más de PS al usar movimientos que drenan PS, tales como Absorbefuerza o Arraigo.",
     "id": "item-296",
     "identity": true,
-    "name": "Raíz Grande"
+    "name": "Raíz Grande",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Hace que el atacante pierda 1/6 de sus PS máximos si el portador es alcanzado por un movimiento de contacto.",
     "id": "item-540",
     "identity": true,
-    "name": "Casco Dentado"
+    "name": "Casco Dentado",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Hace que el portador flote y deje de estar en contacto con el suelo, lo que impide que le afecten los movimientos de tipo Tierra y los estados Púas, Púas tóxicas y Red Viscosa. Si el portador recibe daño de un movimiento, el objeto se pierde durante ese combate.",
     "id": "item-541",
     "identity": true,
-    "name": "Globo Helio"
+    "name": "Globo Helio",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Obliga al Pokémon que inflija daño al portador con un movimiento a cambiarse por otro. Puede usarse una vez por combate.",
     "id": "item-542",
     "identity": true,
-    "name": "Tarjeta Roja"
+    "name": "Tarjeta Roja",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Aumenta el daño que el portador inflige al objetivo con el estado Apresado, que pasa de 1/8 a 1/6 de sus PS máximos.",
     "id": "item-544",
     "identity": true,
-    "name": "Banda Atadura"
+    "name": "Banda Atadura",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Si el portador recibe daño de un movimiento, se retirará del combate. Puede usarse una vez por combate.",
     "id": "item-547",
     "identity": true,
-    "name": "Botón Escape"
+    "name": "Botón Escape",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Aumenta un 30 % la potencia de un movimiento de tipo Normal del portador. Puede usarse una vez por combate.",
     "id": "item-564",
     "identity": true,
-    "name": "Gema Normal"
+    "name": "Gema Normal",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1095,8 +1447,12 @@
     "name": "Gengarita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0094000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0094000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1109,8 +1465,12 @@
     "name": "Gardevoirita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0282000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0282000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1123,8 +1483,12 @@
     "name": "Ampharosita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0181000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0181000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1137,8 +1501,12 @@
     "name": "Venusaurita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0003000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0003000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1151,8 +1519,12 @@
     "name": "Charizardita X",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0006000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0006000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1165,8 +1537,12 @@
     "name": "Blastoisita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0009000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0009000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1179,8 +1555,12 @@
     "name": "Blazikenita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0257000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0257000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1193,8 +1573,12 @@
     "name": "Medichamita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0308000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0308000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1207,8 +1591,12 @@
     "name": "Houndoomita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0229000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0229000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1221,8 +1609,12 @@
     "name": "Aggronita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0306000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0306000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1235,8 +1627,12 @@
     "name": "Banettita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0354000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0354000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1249,8 +1645,12 @@
     "name": "Tyranitarita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0248000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0248000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1263,8 +1663,12 @@
     "name": "Scizorita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0212000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0212000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1277,8 +1681,12 @@
     "name": "Pinsirita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0127000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0127000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1291,8 +1699,12 @@
     "name": "Aerodactylita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0142000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0142000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1305,8 +1717,12 @@
     "name": "Lucarita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0448000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0448000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1319,8 +1735,12 @@
     "name": "Abomasnowita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0460000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0460000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1333,8 +1753,12 @@
     "name": "Kangaskhanita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0115000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0115000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1347,8 +1771,12 @@
     "name": "Gyaradosita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0130000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0130000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1361,8 +1789,12 @@
     "name": "Absolita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0359000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0359000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1375,8 +1807,12 @@
     "name": "Charizardita Y",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0006000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0006000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1389,8 +1825,12 @@
     "name": "Alakazamita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0065000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0065000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1403,8 +1843,12 @@
     "name": "Heracrossita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0214000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0214000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1417,8 +1861,12 @@
     "name": "Mawilita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0303000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0303000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1431,8 +1879,12 @@
     "name": "Manectricita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0310000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0310000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1445,8 +1897,12 @@
     "name": "Garchompita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0445000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0445000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1456,7 +1912,8 @@
     "description": "Reduce a la mitad el daño de un ataque supereficaz de tipo Hada que el portador reciba. Puede usarse una vez por combate.",
     "id": "item-686",
     "identity": true,
-    "name": "Baya Hibis"
+    "name": "Baya Hibis",
+    "restrictions": []
   },
   {
     "available": true,
@@ -1467,8 +1924,12 @@
     "name": "Swampertita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0260000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0260000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1481,8 +1942,12 @@
     "name": "Sceptilita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0254000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0254000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1495,8 +1960,12 @@
     "name": "Sableynita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0302000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0302000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1509,8 +1978,12 @@
     "name": "Altarianita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0334000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0334000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1523,8 +1996,12 @@
     "name": "Galladita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0475000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0475000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1537,8 +2014,12 @@
     "name": "Audinita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0531000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0531000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1551,8 +2032,12 @@
     "name": "Metagrossita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0376000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0376000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1565,8 +2050,12 @@
     "name": "Sharpedonita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0319000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0319000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1579,8 +2068,12 @@
     "name": "Slowbronita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0080000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0080000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1593,8 +2086,12 @@
     "name": "Steelixita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0208000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0208000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1607,8 +2104,12 @@
     "name": "Pidgeotita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0018000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0018000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1621,8 +2122,12 @@
     "name": "Glalita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0362000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0362000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1635,8 +2140,12 @@
     "name": "Cameruptita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0323000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0323000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1649,21 +2158,30 @@
     "name": "Lopunnita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0428000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0428000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "mega-stone",
     "description": "Si la lleva Salamence, le permite megaevolucionar.",
     "id": "item-769",
     "identity": true,
     "name": "Salamencita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0373000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0373000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
@@ -1676,39 +2194,58 @@
     "name": "Beedrillita",
     "restrictions": [
       {
-        "pokemonId": "pokemon-0015000",
-        "predicate": "form-is"
+        "any": [
+          {
+            "pokemonId": "pokemon-0015000",
+            "predicate": "form-is"
+          }
+        ]
       }
     ]
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Prolonga tres turnos la duración de los campos creados en el terreno de combate con los movimientos o la habilidad del portador, haciendo que duren ocho turnos en total.",
     "id": "item-879",
     "identity": true,
-    "name": "Cubresuelos"
+    "name": "Cubresuelos",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Aumenta un nivel la Defensa del portador cuando hay un campo eléctrico activo en el terreno de combate. Puede usarse una vez por combate.",
     "id": "item-881",
     "identity": true,
-    "name": "Semilla Electro"
+    "name": "Semilla Electro",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Aumenta un nivel la Defensa Especial del portador cuando hay un campo psíquico activo en el terreno de combate. Puede usarse una vez por combate.",
     "id": "item-882",
     "identity": true,
-    "name": "Semilla Psique"
+    "name": "Semilla Psique",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Aumenta un nivel la Defensa Especial del portador cuando hay un campo de niebla activo en el terreno de combate. Puede usarse una vez por combate.",
     "id": "item-883",
     "identity": true,
-    "name": "Semilla Bruma"
+    "name": "Semilla Bruma",
+    "restrictions": []
   },
   {
     "available": true,
+    "category": "held-item",
+    "description": "Aumenta un nivel la Defensa del portador cuando hay un campo de hierba activo en el terreno de combate. Puede usarse una vez por combate.",
     "id": "item-884",
     "identity": true,
-    "name": "Semilla Hierba"
+    "name": "Semilla Hierba",
+    "restrictions": []
   }
 ]

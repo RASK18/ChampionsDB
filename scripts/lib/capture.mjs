@@ -1,7 +1,7 @@
 import {readFile, mkdir, writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import {root,hash,readJSON,writeJSON,pool} from './io.mjs';
-import {load} from 'cheerio';
+
 
 export const cache=path.join(root,'.cache');
 export async function request(url,{fetcher=fetch,retries=3,retryDelay=500}={}) {
@@ -27,22 +27,12 @@ export async function capture({offline=false}={}) {
   const capturedAt=new Date().toISOString();
   let previous;try{previous=await readJSON(path.join(root,'sources/snapshot.json'));}catch(e){if(e.code!=='ENOENT')throw e;}
   const revision=async repo=>JSON.parse((await request(`https://api.github.com/repos/${repo}/commits/HEAD`)).toString()).sha;
-  const [champout,showdown]=await Promise.all([revision('projectpokemon/champout'),revision('smogon/pokemon-showdown')]);
+  const champout=await revision('projectpokemon/champout');
   const jobs=[];
   const add=(id,url,provider,revision)=>jobs.push({id,url,provider,revision});
   for(const name of ['personal','waza','waza_learn','item'])add(`champout/masterdata/${name}`,`https://raw.githubusercontent.com/projectpokemon/champout/${champout}/masterdata/${name}.json`,'champout',champout);
   const tables=['monsname_syn','zkn_form_syn','typename','wazaname','wazainfo_syn','wazatarget','wazaclassification','tokusei','tokuseiinfo_syn','itemname','iteminfo_syn','seikaku','btl_condition','btl_state_syn','help_syn','tournament_rule','ui_control'];
   for(const lang of ['esp','usa'])for(const name of tables)add(`champout/${lang}/${name}`,`https://raw.githubusercontent.com/projectpokemon/champout/${champout}/rom-txt/${lang}/${name}.json`,'champout',champout);
-  for(const [name,route] of Object.entries({pokemon:'pokedex',moves:'moves',abilities:'abilities',items:'items',effects:'buff-effects',conditions:'conditions',natures:'natures',types:'types'}))add(`opgg/${name}`,`https://op.gg/es/pokemon-champions/${route}`,'opgg','live');
-  const base=['abilities','conditions','formats-data','items','learnsets','moves','natures','pokedex','rulesets','scripts','typechart','pokemongo'];
-  const mods=['abilities','conditions','formats-data','items','learnsets','moves','rulesets','scripts'];
-  for(const name of base)add(`showdown/base/${name}`,`https://raw.githubusercontent.com/smogon/pokemon-showdown/${showdown}/data/${name}.ts`,'showdown',showdown);
-  for(const name of mods)add(`showdown/champions/${name}`,`https://raw.githubusercontent.com/smogon/pokemon-showdown/${showdown}/data/mods/champions/${name}.ts`,'showdown',showdown);
-  add('nintendo/updates','https://www.nintendo.com/es-es/Ayuda/Compras-y-suscripciones/Juegos/Como-actualizar-Pokemon-Champions-3079895.html','nintendo','live');
-  add('serebii/pokedex','https://www.serebii.net/pokedex-champions/','serebii','live');
-  add('official/regulation-m-c','https://champions-news.pokemon-home.com/es/page/816.html','pokemon','live');
-  add('serebii/regulation-m-c','https://www.serebii.net/pokemonchampions/rankedbattle/regulationm-c.shtml','serebii','live');
-  for(const route of ['statusconditions','training','updatedattacks','patch','items'])add(`serebii/${route}`,`https://www.serebii.net/pokemonchampions/${route}.shtml`,'serebii','live');
   await mkdir(path.join(cache,'objects'),{recursive:true});
   const documents={};
   const download=async job=>{
@@ -56,12 +46,5 @@ export async function capture({offline=false}={}) {
     process.stdout.write(`Captured ${job.id}\n`);
   };
   await pool(jobs,download);
-  const snapshot={documents};
-  const $=load(await document(snapshot,'opgg/types'));
-  const chunks=$('script[src]').toArray().map(e=>$(e).attr('src')).filter(s=>s.startsWith('https://s-stats-platform-cdn.op.gg/app-router/_next/'));
-  const chartCandidates=await pool(chunks,async url=>{const bytes=await request(url);return bytes.toString().includes('normal:{doubleDamageFrom:')?{url,bytes}:null;});
-  const chart=chartCandidates.find(Boolean);if(!chart)throw new Error('OP.GG type chart format changed');
-  const sha256=hash(chart.bytes);await writeFile(path.join(cache,'objects',sha256),chart.bytes);
-  documents['opgg/type-chart-code']={id:'opgg/type-chart-code',provider:'opgg',revision:'live',url:chart.url,sha256,bytes:chart.bytes.length,capturedAt};
-  return {formatVersion:1,game:'pokemon-champions',locale:'es-ES',revisions:{champout,showdown},documents};
+  return {formatVersion:1,game:'pokemon-champions',locale:'es-ES',revisions:{champout},documents};
 }

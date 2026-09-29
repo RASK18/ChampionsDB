@@ -248,7 +248,7 @@ test("potencia variable, no aplicable y naturalezas neutras conservan significad
     evaluate(
       condition("increased", "na"),
       "natures",
-      data.natures.find((n) => n.increased === null),
+      { id: "neutral-fixture", increased: null },
       graph,
     ),
     true,

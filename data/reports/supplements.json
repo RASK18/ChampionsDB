@@ -1,0 +1,1043 @@
+{
+  "authorized": 147,
+  "claims": [
+    {
+      "fields": [
+        "battle-rules/ability-copying/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/ability-copying/available"
+    },
+    {
+      "fields": [
+        "battle-rules/ability-copying/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/ability-copying/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/ability-copying/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/ability-copying/name"
+    },
+    {
+      "fields": [
+        "battle-rules/ability-copying/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/ability-copying/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/accuracy-evasion/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/accuracy-evasion/available"
+    },
+    {
+      "fields": [
+        "battle-rules/accuracy-evasion/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/accuracy-evasion/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/accuracy-evasion/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/accuracy-evasion/name"
+    },
+    {
+      "fields": [
+        "battle-rules/accuracy-evasion/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/accuracy-evasion/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/critical-hits/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/critical-hits/available"
+    },
+    {
+      "fields": [
+        "battle-rules/critical-hits/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/critical-hits/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/critical-hits/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/critical-hits/name"
+    },
+    {
+      "fields": [
+        "battle-rules/critical-hits/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/critical-hits/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/damage-calculation/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/damage-calculation/available"
+    },
+    {
+      "fields": [
+        "battle-rules/damage-calculation/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/damage-calculation/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/damage-calculation/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/damage-calculation/name"
+    },
+    {
+      "fields": [
+        "battle-rules/damage-calculation/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/damage-calculation/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/mega-evolution/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/mega-evolution/available"
+    },
+    {
+      "fields": [
+        "battle-rules/mega-evolution/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/mega-evolution/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/mega-evolution/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/mega-evolution/name"
+    },
+    {
+      "fields": [
+        "battle-rules/mega-evolution/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/mega-evolution/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/move-copying/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/move-copying/available"
+    },
+    {
+      "fields": [
+        "battle-rules/move-copying/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/move-copying/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/move-copying/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/move-copying/name"
+    },
+    {
+      "fields": [
+        "battle-rules/move-copying/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/move-copying/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-calculation/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-calculation/available"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-calculation/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-calculation/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-calculation/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-calculation/name"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-calculation/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-calculation/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-stages/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-stages/available"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-stages/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-stages/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-stages/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-stages/name"
+    },
+    {
+      "fields": [
+        "battle-rules/stat-stages/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/stat-stages/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/switching/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/switching/available"
+    },
+    {
+      "fields": [
+        "battle-rules/switching/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/switching/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/switching/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/switching/name"
+    },
+    {
+      "fields": [
+        "battle-rules/switching/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/switching/rule"
+    },
+    {
+      "fields": [
+        "battle-rules/turn-order/available"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/turn-order/available"
+    },
+    {
+      "fields": [
+        "battle-rules/turn-order/identity"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/turn-order/identity"
+    },
+    {
+      "fields": [
+        "battle-rules/turn-order/name"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/turn-order/name"
+    },
+    {
+      "fields": [
+        "battle-rules/turn-order/rule"
+      ],
+      "resolved": true,
+      "scope": "battle-rules/turn-order/rule"
+    },
+    {
+      "fields": [
+        "items/item-236/restrictions"
+      ],
+      "resolved": true,
+      "scope": "items/item-236/restrictions"
+    },
+    {
+      "fields": [
+        "items/item-259/restrictions"
+      ],
+      "resolved": true,
+      "scope": "items/item-259/restrictions"
+    },
+    {
+      "fields": [
+        "moves/move-037/target"
+      ],
+      "resolved": true,
+      "scope": "moves/move-037/target"
+    },
+    {
+      "fields": [
+        "moves/move-080/target"
+      ],
+      "resolved": true,
+      "scope": "moves/move-080/target"
+    },
+    {
+      "fields": [
+        "moves/move-165/description"
+      ],
+      "resolved": true,
+      "scope": "moves/move-165/description"
+    },
+    {
+      "fields": [
+        "moves/move-165/target"
+      ],
+      "resolved": true,
+      "scope": "moves/move-165/target"
+    },
+    {
+      "fields": [
+        "moves/move-200/target"
+      ],
+      "resolved": true,
+      "scope": "moves/move-200/target"
+    },
+    {
+      "fields": [
+        "moves/move-253/target"
+      ],
+      "resolved": true,
+      "scope": "moves/move-253/target"
+    },
+    {
+      "fields": [
+        "moves/move-833/target"
+      ],
+      "resolved": true,
+      "scope": "moves/move-833/target"
+    },
+    {
+      "fields": [
+        "natures/adamant/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/adamant/decreased"
+    },
+    {
+      "fields": [
+        "natures/adamant/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/adamant/increased"
+    },
+    {
+      "fields": [
+        "natures/adamant/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/adamant/multipliers"
+    },
+    {
+      "fields": [
+        "natures/bashful/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/bashful/decreased"
+    },
+    {
+      "fields": [
+        "natures/bashful/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/bashful/increased"
+    },
+    {
+      "fields": [
+        "natures/bashful/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/bashful/multipliers"
+    },
+    {
+      "fields": [
+        "natures/bold/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/bold/decreased"
+    },
+    {
+      "fields": [
+        "natures/bold/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/bold/increased"
+    },
+    {
+      "fields": [
+        "natures/bold/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/bold/multipliers"
+    },
+    {
+      "fields": [
+        "natures/brave/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/brave/decreased"
+    },
+    {
+      "fields": [
+        "natures/brave/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/brave/increased"
+    },
+    {
+      "fields": [
+        "natures/brave/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/brave/multipliers"
+    },
+    {
+      "fields": [
+        "natures/calm/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/calm/decreased"
+    },
+    {
+      "fields": [
+        "natures/calm/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/calm/increased"
+    },
+    {
+      "fields": [
+        "natures/calm/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/calm/multipliers"
+    },
+    {
+      "fields": [
+        "natures/careful/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/careful/decreased"
+    },
+    {
+      "fields": [
+        "natures/careful/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/careful/increased"
+    },
+    {
+      "fields": [
+        "natures/careful/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/careful/multipliers"
+    },
+    {
+      "fields": [
+        "natures/docile/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/docile/decreased"
+    },
+    {
+      "fields": [
+        "natures/docile/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/docile/increased"
+    },
+    {
+      "fields": [
+        "natures/docile/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/docile/multipliers"
+    },
+    {
+      "fields": [
+        "natures/gentle/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/gentle/decreased"
+    },
+    {
+      "fields": [
+        "natures/gentle/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/gentle/increased"
+    },
+    {
+      "fields": [
+        "natures/gentle/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/gentle/multipliers"
+    },
+    {
+      "fields": [
+        "natures/hardy/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/hardy/decreased"
+    },
+    {
+      "fields": [
+        "natures/hardy/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/hardy/increased"
+    },
+    {
+      "fields": [
+        "natures/hardy/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/hardy/multipliers"
+    },
+    {
+      "fields": [
+        "natures/hasty/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/hasty/decreased"
+    },
+    {
+      "fields": [
+        "natures/hasty/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/hasty/increased"
+    },
+    {
+      "fields": [
+        "natures/hasty/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/hasty/multipliers"
+    },
+    {
+      "fields": [
+        "natures/impish/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/impish/decreased"
+    },
+    {
+      "fields": [
+        "natures/impish/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/impish/increased"
+    },
+    {
+      "fields": [
+        "natures/impish/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/impish/multipliers"
+    },
+    {
+      "fields": [
+        "natures/jolly/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/jolly/decreased"
+    },
+    {
+      "fields": [
+        "natures/jolly/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/jolly/increased"
+    },
+    {
+      "fields": [
+        "natures/jolly/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/jolly/multipliers"
+    },
+    {
+      "fields": [
+        "natures/lax/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/lax/decreased"
+    },
+    {
+      "fields": [
+        "natures/lax/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/lax/increased"
+    },
+    {
+      "fields": [
+        "natures/lax/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/lax/multipliers"
+    },
+    {
+      "fields": [
+        "natures/lonely/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/lonely/decreased"
+    },
+    {
+      "fields": [
+        "natures/lonely/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/lonely/increased"
+    },
+    {
+      "fields": [
+        "natures/lonely/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/lonely/multipliers"
+    },
+    {
+      "fields": [
+        "natures/mild/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/mild/decreased"
+    },
+    {
+      "fields": [
+        "natures/mild/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/mild/increased"
+    },
+    {
+      "fields": [
+        "natures/mild/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/mild/multipliers"
+    },
+    {
+      "fields": [
+        "natures/modest/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/modest/decreased"
+    },
+    {
+      "fields": [
+        "natures/modest/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/modest/increased"
+    },
+    {
+      "fields": [
+        "natures/modest/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/modest/multipliers"
+    },
+    {
+      "fields": [
+        "natures/naive/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/naive/decreased"
+    },
+    {
+      "fields": [
+        "natures/naive/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/naive/increased"
+    },
+    {
+      "fields": [
+        "natures/naive/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/naive/multipliers"
+    },
+    {
+      "fields": [
+        "natures/naughty/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/naughty/decreased"
+    },
+    {
+      "fields": [
+        "natures/naughty/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/naughty/increased"
+    },
+    {
+      "fields": [
+        "natures/naughty/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/naughty/multipliers"
+    },
+    {
+      "fields": [
+        "natures/quiet/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/quiet/decreased"
+    },
+    {
+      "fields": [
+        "natures/quiet/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/quiet/increased"
+    },
+    {
+      "fields": [
+        "natures/quiet/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/quiet/multipliers"
+    },
+    {
+      "fields": [
+        "natures/quirky/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/quirky/decreased"
+    },
+    {
+      "fields": [
+        "natures/quirky/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/quirky/increased"
+    },
+    {
+      "fields": [
+        "natures/quirky/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/quirky/multipliers"
+    },
+    {
+      "fields": [
+        "natures/rash/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/rash/decreased"
+    },
+    {
+      "fields": [
+        "natures/rash/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/rash/increased"
+    },
+    {
+      "fields": [
+        "natures/rash/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/rash/multipliers"
+    },
+    {
+      "fields": [
+        "natures/relaxed/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/relaxed/decreased"
+    },
+    {
+      "fields": [
+        "natures/relaxed/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/relaxed/increased"
+    },
+    {
+      "fields": [
+        "natures/relaxed/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/relaxed/multipliers"
+    },
+    {
+      "fields": [
+        "natures/sassy/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/sassy/decreased"
+    },
+    {
+      "fields": [
+        "natures/sassy/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/sassy/increased"
+    },
+    {
+      "fields": [
+        "natures/sassy/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/sassy/multipliers"
+    },
+    {
+      "fields": [
+        "natures/serious/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/serious/decreased"
+    },
+    {
+      "fields": [
+        "natures/serious/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/serious/increased"
+    },
+    {
+      "fields": [
+        "natures/serious/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/serious/multipliers"
+    },
+    {
+      "fields": [
+        "natures/timid/decreased"
+      ],
+      "resolved": true,
+      "scope": "natures/timid/decreased"
+    },
+    {
+      "fields": [
+        "natures/timid/increased"
+      ],
+      "resolved": true,
+      "scope": "natures/timid/increased"
+    },
+    {
+      "fields": [
+        "natures/timid/multipliers"
+      ],
+      "resolved": true,
+      "scope": "natures/timid/multipliers"
+    },
+    {
+      "fields": [
+        "types/bug/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/bug/effectiveness"
+    },
+    {
+      "fields": [
+        "types/dark/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/dark/effectiveness"
+    },
+    {
+      "fields": [
+        "types/dragon/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/dragon/effectiveness"
+    },
+    {
+      "fields": [
+        "types/electric/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/electric/effectiveness"
+    },
+    {
+      "fields": [
+        "types/fairy/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/fairy/effectiveness"
+    },
+    {
+      "fields": [
+        "types/fighting/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/fighting/effectiveness"
+    },
+    {
+      "fields": [
+        "types/fire/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/fire/effectiveness"
+    },
+    {
+      "fields": [
+        "types/flying/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/flying/effectiveness"
+    },
+    {
+      "fields": [
+        "types/ghost/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/ghost/effectiveness"
+    },
+    {
+      "fields": [
+        "types/grass/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/grass/effectiveness"
+    },
+    {
+      "fields": [
+        "types/ground/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/ground/effectiveness"
+    },
+    {
+      "fields": [
+        "types/ice/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/ice/effectiveness"
+    },
+    {
+      "fields": [
+        "types/normal/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/normal/effectiveness"
+    },
+    {
+      "fields": [
+        "types/poison/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/poison/effectiveness"
+    },
+    {
+      "fields": [
+        "types/psychic/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/psychic/effectiveness"
+    },
+    {
+      "fields": [
+        "types/rock/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/rock/effectiveness"
+    },
+    {
+      "fields": [
+        "types/steel/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/steel/effectiveness"
+    },
+    {
+      "fields": [
+        "types/water/effectiveness"
+      ],
+      "resolved": true,
+      "scope": "types/water/effectiveness"
+    },
+    {
+      "fields": [
+        "interactions/item-677--0359000/identity",
+        "interactions/item-677--0359000/available",
+        "interactions/item-677--0359000/rule"
+      ],
+      "resolved": true,
+      "scope": "interactions/item-677--0359000"
+    },
+    {
+      "fields": [
+        "interactions/item-683--0445000/identity",
+        "interactions/item-683--0445000/available",
+        "interactions/item-683--0445000/rule"
+      ],
+      "resolved": true,
+      "scope": "interactions/item-683--0445000"
+    },
+    {
+      "fields": [
+        "interactions/item-673--0448000/identity",
+        "interactions/item-673--0448000/available",
+        "interactions/item-673--0448000/rule"
+      ],
+      "resolved": true,
+      "scope": "interactions/item-673--0448000"
+    },
+    {
+      "fields": [
+        "regulations/m-c/identity",
+        "regulations/m-c/available",
+        "regulations/m-c/name",
+        "regulations/m-c/validFrom",
+        "regulations/m-c/validUntil",
+        "regulations/m-c/rules"
+      ],
+      "resolved": true,
+      "scope": "regulations/current"
+    },
+    {
+      "fields": [],
+      "resolved": false,
+      "scope": "interactions/full-mechanics"
+    }
+  ]
+}

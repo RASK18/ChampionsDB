@@ -1,1541 +1,5 @@
 [
   {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "bug-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "dark-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "dive-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "dragon-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "dusk-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "electric-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "fairy-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "fighting-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "fire-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "flying-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "ghost-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "grass-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "great-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "ground-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "heal-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "ice-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "luxury-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "nest-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "net-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "normal-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "poison-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "poke-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "premier-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "psychic-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "quick-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "quick-coupon",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "rare-poke-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "repeat-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "rock-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "steel-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "teammate-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "timer-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "training-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "ultra-ball-guaranteed-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "category": "miscellaneous",
-    "collection": "items",
-    "opgg": "water-type-affinity-ticket",
-    "scope": "non-combat"
-  },
-  {
-    "champout": "0003000",
-    "collection": "pokemon",
-    "id": "pokemon-0003000",
-    "opgg": "venusaur"
-  },
-  {
-    "champout": "0003001",
-    "collection": "pokemon",
-    "id": "pokemon-0003001",
-    "opgg": "mega-venusaur"
-  },
-  {
-    "champout": "0006000",
-    "collection": "pokemon",
-    "id": "pokemon-0006000",
-    "opgg": "charizard"
-  },
-  {
-    "champout": "0006001",
-    "collection": "pokemon",
-    "id": "pokemon-0006001",
-    "opgg": "mega-charizard-x"
-  },
-  {
-    "champout": "0006002",
-    "collection": "pokemon",
-    "id": "pokemon-0006002",
-    "opgg": "mega-charizard-y"
-  },
-  {
-    "champout": "0009000",
-    "collection": "pokemon",
-    "id": "pokemon-0009000",
-    "opgg": "blastoise"
-  },
-  {
-    "champout": "0009001",
-    "collection": "pokemon",
-    "id": "pokemon-0009001",
-    "opgg": "mega-blastoise"
-  },
-  {
-    "champout": "0015000",
-    "collection": "pokemon",
-    "id": "pokemon-0015000",
-    "opgg": "beedrill"
-  },
-  {
-    "champout": "0015001",
-    "collection": "pokemon",
-    "id": "pokemon-0015001",
-    "opgg": "mega-beedrill"
-  },
-  {
-    "champout": "0018000",
-    "collection": "pokemon",
-    "id": "pokemon-0018000",
-    "opgg": "pidgeot"
-  },
-  {
-    "champout": "0018001",
-    "collection": "pokemon",
-    "id": "pokemon-0018001",
-    "opgg": "mega-pidgeot"
-  },
-  {
-    "champout": "0024000",
-    "collection": "pokemon",
-    "id": "pokemon-0024000",
-    "opgg": "arbok"
-  },
-  {
-    "champout": "0025000",
-    "collection": "pokemon",
-    "id": "pokemon-0025000",
-    "opgg": "pikachu"
-  },
-  {
-    "champout": "0026000",
-    "collection": "pokemon",
-    "id": "pokemon-0026000",
-    "opgg": "raichu"
-  },
-  {
-    "champout": "0026001",
-    "collection": "pokemon",
-    "id": "pokemon-0026001",
-    "opgg": "raichu-alolan"
-  },
-  {
-    "champout": "0026002",
-    "collection": "pokemon",
-    "id": "pokemon-0026002",
-    "opgg": "mega-raichu-x"
-  },
-  {
-    "champout": "0026003",
-    "collection": "pokemon",
-    "id": "pokemon-0026003",
-    "opgg": "mega-raichu-y"
-  },
-  {
-    "champout": "0036000",
-    "collection": "pokemon",
-    "id": "pokemon-0036000",
-    "opgg": "clefable"
-  },
-  {
-    "champout": "0036001",
-    "collection": "pokemon",
-    "id": "pokemon-0036001",
-    "opgg": "mega-clefable"
-  },
-  {
-    "champout": "0038000",
-    "collection": "pokemon",
-    "id": "pokemon-0038000",
-    "opgg": "ninetales"
-  },
-  {
-    "champout": "0038001",
-    "collection": "pokemon",
-    "id": "pokemon-0038001",
-    "opgg": "ninetales-alolan"
-  },
-  {
-    "champout": "0040000",
-    "collection": "pokemon",
-    "id": "pokemon-0040000",
-    "opgg": "wigglytuff"
-  },
-  {
-    "champout": "0045000",
-    "collection": "pokemon",
-    "id": "pokemon-0045000",
-    "opgg": "vileplume"
-  },
-  {
-    "champout": "0053000",
-    "collection": "pokemon",
-    "id": "pokemon-0053000",
-    "opgg": "persian"
-  },
-  {
-    "champout": "0053001",
-    "collection": "pokemon",
-    "id": "pokemon-0053001",
-    "opgg": "persian-alolan"
-  },
-  {
-    "champout": "0059000",
-    "collection": "pokemon",
-    "id": "pokemon-0059000",
-    "opgg": "arcanine"
-  },
-  {
-    "champout": "0059001",
-    "collection": "pokemon",
-    "id": "pokemon-0059001",
-    "opgg": "arcanine-hisui"
-  },
-  {
-    "champout": "0065000",
-    "collection": "pokemon",
-    "id": "pokemon-0065000",
-    "opgg": "alakazam"
-  },
-  {
-    "champout": "0065001",
-    "collection": "pokemon",
-    "id": "pokemon-0065001",
-    "opgg": "mega-alakazam"
-  },
-  {
-    "champout": "0068000",
-    "collection": "pokemon",
-    "id": "pokemon-0068000",
-    "opgg": "machamp"
-  },
-  {
-    "champout": "0071000",
-    "collection": "pokemon",
-    "id": "pokemon-0071000",
-    "opgg": "victreebel"
-  },
-  {
-    "champout": "0071001",
-    "collection": "pokemon",
-    "id": "pokemon-0071001",
-    "opgg": "mega-victreebel"
-  },
-  {
-    "champout": "0080000",
-    "collection": "pokemon",
-    "id": "pokemon-0080000",
-    "opgg": "slowbro"
-  },
-  {
-    "champout": "0080001",
-    "collection": "pokemon",
-    "id": "pokemon-0080001",
-    "opgg": "mega-slowbro"
-  },
-  {
-    "champout": "0080002",
-    "collection": "pokemon",
-    "id": "pokemon-0080002",
-    "opgg": "slowbro-galarian"
-  },
-  {
-    "champout": "0083000",
-    "collection": "pokemon",
-    "id": "pokemon-0083000",
-    "opgg": "farfetchd"
-  },
-  {
-    "champout": "0094000",
-    "collection": "pokemon",
-    "id": "pokemon-0094000",
-    "opgg": "gengar"
-  },
-  {
-    "champout": "0094001",
-    "collection": "pokemon",
-    "id": "pokemon-0094001",
-    "opgg": "mega-gengar"
-  },
-  {
-    "champout": "0115000",
-    "collection": "pokemon",
-    "id": "pokemon-0115000",
-    "opgg": "kangaskhan"
-  },
-  {
-    "champout": "0115001",
-    "collection": "pokemon",
-    "id": "pokemon-0115001",
-    "opgg": "mega-kangaskhan"
-  },
-  {
-    "champout": "0121000",
-    "collection": "pokemon",
-    "id": "pokemon-0121000",
-    "opgg": "starmie"
-  },
-  {
-    "champout": "0121001",
-    "collection": "pokemon",
-    "id": "pokemon-0121001",
-    "opgg": "mega-starmie"
-  },
-  {
-    "champout": "0122000",
-    "collection": "pokemon",
-    "id": "pokemon-0122000",
-    "opgg": "mr-mime"
-  },
-  {
-    "champout": "0127000",
-    "collection": "pokemon",
-    "id": "pokemon-0127000",
-    "opgg": "pinsir"
-  },
-  {
-    "champout": "0127001",
-    "collection": "pokemon",
-    "id": "pokemon-0127001",
-    "opgg": "mega-pinsir"
-  },
-  {
-    "champout": "0128000",
-    "collection": "pokemon",
-    "id": "pokemon-0128000",
-    "opgg": "tauros"
-  },
-  {
-    "champout": "0128001",
-    "collection": "pokemon",
-    "id": "pokemon-0128001",
-    "opgg": "tauros-paldean-combat"
-  },
-  {
-    "champout": "0128002",
-    "collection": "pokemon",
-    "id": "pokemon-0128002",
-    "opgg": "tauros-paldean-blaze"
-  },
-  {
-    "champout": "0128003",
-    "collection": "pokemon",
-    "id": "pokemon-0128003",
-    "opgg": "tauros-paldean-aqua"
-  },
-  {
-    "champout": "0130000",
-    "collection": "pokemon",
-    "id": "pokemon-0130000",
-    "opgg": "gyarados"
-  },
-  {
-    "champout": "0130001",
-    "collection": "pokemon",
-    "id": "pokemon-0130001",
-    "opgg": "mega-gyarados"
-  },
-  {
-    "champout": "0132000",
-    "collection": "pokemon",
-    "id": "pokemon-0132000",
-    "opgg": "ditto"
-  },
-  {
-    "champout": "0134000",
-    "collection": "pokemon",
-    "id": "pokemon-0134000",
-    "opgg": "vaporeon"
-  },
-  {
-    "champout": "0135000",
-    "collection": "pokemon",
-    "id": "pokemon-0135000",
-    "opgg": "jolteon"
-  },
-  {
-    "champout": "0136000",
-    "collection": "pokemon",
-    "id": "pokemon-0136000",
-    "opgg": "flareon"
-  },
-  {
-    "champout": "0142000",
-    "collection": "pokemon",
-    "id": "pokemon-0142000",
-    "opgg": "aerodactyl"
-  },
-  {
-    "champout": "0142001",
-    "collection": "pokemon",
-    "id": "pokemon-0142001",
-    "opgg": "mega-aerodactyl"
-  },
-  {
-    "champout": "0143000",
-    "collection": "pokemon",
-    "id": "pokemon-0143000",
-    "opgg": "snorlax"
-  },
-  {
-    "champout": "0149000",
-    "collection": "pokemon",
-    "id": "pokemon-0149000",
-    "opgg": "dragonite"
-  },
-  {
-    "champout": "0149001",
-    "collection": "pokemon",
-    "id": "pokemon-0149001",
-    "opgg": "mega-dragonite"
-  },
-  {
-    "champout": "0154000",
-    "collection": "pokemon",
-    "id": "pokemon-0154000",
-    "opgg": "meganium"
-  },
-  {
-    "champout": "0154001",
-    "collection": "pokemon",
-    "id": "pokemon-0154001",
-    "opgg": "mega-meganium"
-  },
-  {
-    "champout": "0157000",
-    "collection": "pokemon",
-    "id": "pokemon-0157000",
-    "opgg": "typhlosion"
-  },
-  {
-    "champout": "0157001",
-    "collection": "pokemon",
-    "id": "pokemon-0157001",
-    "opgg": "typhlosion-hisui"
-  },
-  {
-    "champout": "0160000",
-    "collection": "pokemon",
-    "id": "pokemon-0160000",
-    "opgg": "feraligatr"
-  },
-  {
-    "champout": "0160001",
-    "collection": "pokemon",
-    "id": "pokemon-0160001",
-    "opgg": "mega-feraligatr"
-  },
-  {
-    "champout": "0168000",
-    "collection": "pokemon",
-    "id": "pokemon-0168000",
-    "opgg": "ariados"
-  },
-  {
-    "champout": "0181000",
-    "collection": "pokemon",
-    "id": "pokemon-0181000",
-    "opgg": "ampharos"
-  },
-  {
-    "champout": "0181001",
-    "collection": "pokemon",
-    "id": "pokemon-0181001",
-    "opgg": "mega-ampharos"
-  },
-  {
-    "champout": "0184000",
-    "collection": "pokemon",
-    "id": "pokemon-0184000",
-    "opgg": "azumarill"
-  },
-  {
-    "champout": "0186000",
-    "collection": "pokemon",
-    "id": "pokemon-0186000",
-    "opgg": "politoed"
-  },
-  {
-    "champout": "0196000",
-    "collection": "pokemon",
-    "id": "pokemon-0196000",
-    "opgg": "espeon"
-  },
-  {
-    "champout": "0197000",
-    "collection": "pokemon",
-    "id": "pokemon-0197000",
-    "opgg": "umbreon"
-  },
-  {
-    "champout": "0199000",
-    "collection": "pokemon",
-    "id": "pokemon-0199000",
-    "opgg": "slowking"
-  },
-  {
-    "champout": "0199001",
-    "collection": "pokemon",
-    "id": "pokemon-0199001",
-    "opgg": "slowking-galarian"
-  },
-  {
-    "champout": "0205000",
-    "collection": "pokemon",
-    "id": "pokemon-0205000",
-    "opgg": "forretress"
-  },
-  {
-    "champout": "0208000",
-    "collection": "pokemon",
-    "id": "pokemon-0208000",
-    "opgg": "steelix"
-  },
-  {
-    "champout": "0208001",
-    "collection": "pokemon",
-    "id": "pokemon-0208001",
-    "opgg": "mega-steelix"
-  },
-  {
-    "champout": "0211000",
-    "collection": "pokemon",
-    "id": "pokemon-0211000",
-    "opgg": "qwilfish"
-  },
-  {
-    "champout": "0212000",
-    "collection": "pokemon",
-    "id": "pokemon-0212000",
-    "opgg": "scizor"
-  },
-  {
-    "champout": "0212001",
-    "collection": "pokemon",
-    "id": "pokemon-0212001",
-    "opgg": "mega-scizor"
-  },
-  {
-    "champout": "0214000",
-    "collection": "pokemon",
-    "id": "pokemon-0214000",
-    "opgg": "heracross"
-  },
-  {
-    "champout": "0214001",
-    "collection": "pokemon",
-    "id": "pokemon-0214001",
-    "opgg": "mega-heracross"
-  },
-  {
-    "champout": "0227000",
-    "collection": "pokemon",
-    "id": "pokemon-0227000",
-    "opgg": "skarmory"
-  },
-  {
-    "champout": "0227001",
-    "collection": "pokemon",
-    "id": "pokemon-0227001",
-    "opgg": "mega-skarmory"
-  },
-  {
-    "champout": "0229000",
-    "collection": "pokemon",
-    "id": "pokemon-0229000",
-    "opgg": "houndoom"
-  },
-  {
-    "champout": "0229001",
-    "collection": "pokemon",
-    "id": "pokemon-0229001",
-    "opgg": "mega-houndoom"
-  },
-  {
-    "champout": "0248000",
-    "collection": "pokemon",
-    "id": "pokemon-0248000",
-    "opgg": "tyranitar"
-  },
-  {
-    "champout": "0248001",
-    "collection": "pokemon",
-    "id": "pokemon-0248001",
-    "opgg": "mega-tyranitar"
-  },
-  {
-    "champout": "0254000",
-    "collection": "pokemon",
-    "id": "pokemon-0254000",
-    "opgg": "sceptile"
-  },
-  {
-    "champout": "0254001",
-    "collection": "pokemon",
-    "id": "pokemon-0254001",
-    "opgg": "mega-sceptile"
-  },
-  {
-    "champout": "0257000",
-    "collection": "pokemon",
-    "id": "pokemon-0257000",
-    "opgg": "blaziken"
-  },
-  {
-    "champout": "0257001",
-    "collection": "pokemon",
-    "id": "pokemon-0257001",
-    "opgg": "mega-blaziken"
-  },
-  {
-    "champout": "0260000",
-    "collection": "pokemon",
-    "id": "pokemon-0260000",
-    "opgg": "swampert"
-  },
-  {
-    "champout": "0260001",
-    "collection": "pokemon",
-    "id": "pokemon-0260001",
-    "opgg": "mega-swampert"
-  },
-  {
-    "champout": "0279000",
-    "collection": "pokemon",
-    "id": "pokemon-0279000",
-    "opgg": "pelipper"
-  },
-  {
-    "champout": "0282000",
-    "collection": "pokemon",
-    "id": "pokemon-0282000",
-    "opgg": "gardevoir"
-  },
-  {
-    "champout": "0282001",
-    "collection": "pokemon",
-    "id": "pokemon-0282001",
-    "opgg": "mega-gardevoir"
-  },
-  {
-    "champout": "0302000",
-    "collection": "pokemon",
-    "id": "pokemon-0302000",
-    "opgg": "sableye"
-  },
-  {
-    "champout": "0302001",
-    "collection": "pokemon",
-    "id": "pokemon-0302001",
-    "opgg": "mega-sableye"
-  },
-  {
-    "champout": "0303000",
-    "collection": "pokemon",
-    "id": "pokemon-0303000",
-    "opgg": "mawile"
-  },
-  {
-    "champout": "0303001",
-    "collection": "pokemon",
-    "id": "pokemon-0303001",
-    "opgg": "mega-mawile"
-  },
-  {
-    "champout": "0306000",
-    "collection": "pokemon",
-    "id": "pokemon-0306000",
-    "opgg": "aggron"
-  },
-  {
-    "champout": "0306001",
-    "collection": "pokemon",
-    "id": "pokemon-0306001",
-    "opgg": "mega-aggron"
-  },
-  {
-    "champout": "0308000",
-    "collection": "pokemon",
-    "id": "pokemon-0308000",
-    "opgg": "medicham"
-  },
-  {
-    "champout": "0308001",
-    "collection": "pokemon",
-    "id": "pokemon-0308001",
-    "opgg": "mega-medicham"
-  },
-  {
-    "champout": "0310000",
-    "collection": "pokemon",
-    "id": "pokemon-0310000",
-    "opgg": "manectric"
-  },
-  {
-    "champout": "0310001",
-    "collection": "pokemon",
-    "id": "pokemon-0310001",
-    "opgg": "mega-manectric"
-  },
-  {
-    "champout": "0317000",
-    "collection": "pokemon",
-    "id": "pokemon-0317000",
-    "opgg": "swalot"
-  },
-  {
-    "champout": "0319000",
-    "collection": "pokemon",
-    "id": "pokemon-0319000",
-    "opgg": "sharpedo"
-  },
-  {
-    "champout": "0319001",
-    "collection": "pokemon",
-    "id": "pokemon-0319001",
-    "opgg": "mega-sharpedo"
-  },
-  {
-    "champout": "0323000",
-    "collection": "pokemon",
-    "id": "pokemon-0323000",
-    "opgg": "camerupt"
-  },
-  {
-    "champout": "0323001",
-    "collection": "pokemon",
-    "id": "pokemon-0323001",
-    "opgg": "mega-camerupt"
-  },
-  {
-    "champout": "0324000",
-    "collection": "pokemon",
-    "id": "pokemon-0324000",
-    "opgg": "torkoal"
-  },
-  {
-    "champout": "0334000",
-    "collection": "pokemon",
-    "id": "pokemon-0334000",
-    "opgg": "altaria"
-  },
-  {
-    "champout": "0334001",
-    "collection": "pokemon",
-    "id": "pokemon-0334001",
-    "opgg": "mega-altaria"
-  },
-  {
-    "champout": "0350000",
-    "collection": "pokemon",
-    "id": "pokemon-0350000",
-    "opgg": "milotic"
-  },
-  {
-    "champout": "0351000",
-    "collection": "pokemon",
-    "id": "pokemon-0351000",
-    "opgg": "castform"
-  },
-  {
-    "champout": "0351001",
-    "collection": "pokemon",
-    "id": "pokemon-0351001",
-    "showdown": "castformsunny"
-  },
-  {
-    "champout": "0351002",
-    "collection": "pokemon",
-    "id": "pokemon-0351002",
-    "showdown": "castformrainy"
-  },
-  {
-    "champout": "0351003",
-    "collection": "pokemon",
-    "id": "pokemon-0351003",
-    "showdown": "castformsnowy"
-  },
-  {
-    "champout": "0354000",
-    "collection": "pokemon",
-    "id": "pokemon-0354000",
-    "opgg": "banette"
-  },
-  {
-    "champout": "0354001",
-    "collection": "pokemon",
-    "id": "pokemon-0354001",
-    "opgg": "mega-banette"
-  },
-  {
-    "champout": "0358000",
-    "collection": "pokemon",
-    "id": "pokemon-0358000",
-    "opgg": "chimecho"
-  },
-  {
-    "champout": "0358001",
-    "collection": "pokemon",
-    "id": "pokemon-0358001",
-    "opgg": "mega-chimecho"
-  },
-  {
-    "champout": "0359000",
-    "collection": "pokemon",
-    "id": "pokemon-0359000",
-    "opgg": "absol"
-  },
-  {
-    "champout": "0359001",
-    "collection": "pokemon",
-    "id": "pokemon-0359001",
-    "opgg": "mega-absol"
-  },
-  {
-    "champout": "0359002",
-    "collection": "pokemon",
-    "id": "pokemon-0359002",
-    "opgg": "mega-absol-z"
-  },
-  {
-    "champout": "0362000",
-    "collection": "pokemon",
-    "id": "pokemon-0362000",
-    "opgg": "glalie"
-  },
-  {
-    "champout": "0362001",
-    "collection": "pokemon",
-    "id": "pokemon-0362001",
-    "opgg": "mega-glalie"
-  },
-  {
-    "champout": "0373000",
-    "collection": "pokemon",
-    "id": "pokemon-0373000",
-    "opgg": "salamence"
-  },
-  {
-    "champout": "0373001",
-    "collection": "pokemon",
-    "id": "pokemon-0373001",
-    "opgg": "mega-salamence"
-  },
-  {
-    "champout": "0376000",
-    "collection": "pokemon",
-    "id": "pokemon-0376000",
-    "opgg": "metagross"
-  },
-  {
-    "champout": "0376001",
-    "collection": "pokemon",
-    "id": "pokemon-0376001",
-    "opgg": "mega-metagross"
-  },
-  {
-    "champout": "0389000",
-    "collection": "pokemon",
-    "id": "pokemon-0389000",
-    "opgg": "torterra"
-  },
-  {
-    "champout": "0392000",
-    "collection": "pokemon",
-    "id": "pokemon-0392000",
-    "opgg": "infernape"
-  },
-  {
-    "champout": "0395000",
-    "collection": "pokemon",
-    "id": "pokemon-0395000",
-    "opgg": "empoleon"
-  },
-  {
-    "champout": "0398000",
-    "collection": "pokemon",
-    "id": "pokemon-0398000",
-    "opgg": "staraptor"
-  },
-  {
-    "champout": "0398001",
-    "collection": "pokemon",
-    "id": "pokemon-0398001",
-    "opgg": "mega-staraptor"
-  },
-  {
-    "champout": "0405000",
-    "collection": "pokemon",
-    "id": "pokemon-0405000",
-    "opgg": "luxray"
-  },
-  {
-    "champout": "0407000",
-    "collection": "pokemon",
-    "id": "pokemon-0407000",
-    "opgg": "roserade"
-  },
-  {
-    "champout": "0409000",
-    "collection": "pokemon",
-    "id": "pokemon-0409000",
-    "opgg": "rampardos"
-  },
-  {
-    "champout": "0411000",
-    "collection": "pokemon",
-    "id": "pokemon-0411000",
-    "opgg": "bastiodon"
-  },
-  {
-    "champout": "0428000",
-    "collection": "pokemon",
-    "id": "pokemon-0428000",
-    "opgg": "lopunny"
-  },
-  {
-    "champout": "0428001",
-    "collection": "pokemon",
-    "id": "pokemon-0428001",
-    "opgg": "mega-lopunny"
-  },
-  {
-    "champout": "0442000",
-    "collection": "pokemon",
-    "id": "pokemon-0442000",
-    "opgg": "spiritomb"
-  },
-  {
-    "champout": "0445000",
-    "collection": "pokemon",
-    "id": "pokemon-0445000",
-    "opgg": "garchomp"
-  },
-  {
-    "champout": "0445001",
-    "collection": "pokemon",
-    "id": "pokemon-0445001",
-    "opgg": "mega-garchomp"
-  },
-  {
-    "champout": "0445002",
-    "collection": "pokemon",
-    "id": "pokemon-0445002",
-    "opgg": "mega-garchomp-z"
-  },
-  {
-    "champout": "0448000",
-    "collection": "pokemon",
-    "id": "pokemon-0448000",
-    "opgg": "lucario"
-  },
-  {
-    "champout": "0448001",
-    "collection": "pokemon",
-    "id": "pokemon-0448001",
-    "opgg": "mega-lucario"
-  },
-  {
-    "champout": "0448002",
-    "collection": "pokemon",
-    "id": "pokemon-0448002",
-    "opgg": "mega-lucario-z"
-  },
-  {
-    "champout": "0450000",
-    "collection": "pokemon",
-    "id": "pokemon-0450000",
-    "opgg": "hippowdon"
-  },
-  {
-    "champout": "0454000",
-    "collection": "pokemon",
-    "id": "pokemon-0454000",
-    "opgg": "toxicroak"
-  },
-  {
-    "champout": "0460000",
-    "collection": "pokemon",
-    "id": "pokemon-0460000",
-    "opgg": "abomasnow"
-  },
-  {
-    "champout": "0460001",
-    "collection": "pokemon",
-    "id": "pokemon-0460001",
-    "opgg": "mega-abomasnow"
-  },
-  {
-    "champout": "0461000",
-    "collection": "pokemon",
-    "id": "pokemon-0461000",
-    "opgg": "weavile"
-  },
-  {
-    "champout": "0464000",
-    "collection": "pokemon",
-    "id": "pokemon-0464000",
-    "opgg": "rhyperior"
-  },
-  {
-    "champout": "0470000",
-    "collection": "pokemon",
-    "id": "pokemon-0470000",
-    "opgg": "leafeon"
-  },
-  {
-    "champout": "0471000",
-    "collection": "pokemon",
-    "id": "pokemon-0471000",
-    "opgg": "glaceon"
-  },
-  {
-    "champout": "0472000",
-    "collection": "pokemon",
-    "id": "pokemon-0472000",
-    "opgg": "gliscor"
-  },
-  {
-    "champout": "0473000",
-    "collection": "pokemon",
-    "id": "pokemon-0473000",
-    "opgg": "mamoswine"
-  },
-  {
-    "champout": "0475000",
-    "collection": "pokemon",
-    "id": "pokemon-0475000",
-    "opgg": "gallade"
-  },
-  {
-    "champout": "0475001",
-    "collection": "pokemon",
-    "id": "pokemon-0475001",
-    "opgg": "mega-gallade"
-  },
-  {
-    "champout": "0478000",
-    "collection": "pokemon",
-    "id": "pokemon-0478000",
-    "opgg": "froslass"
-  },
-  {
-    "champout": "0478001",
-    "collection": "pokemon",
-    "id": "pokemon-0478001",
-    "opgg": "mega-froslass"
-  },
-  {
-    "champout": "0479000",
-    "collection": "pokemon",
-    "id": "pokemon-0479000",
-    "opgg": "rotom"
-  },
-  {
-    "champout": "0479001",
-    "collection": "pokemon",
-    "id": "pokemon-0479001",
-    "opgg": "rotom-heat"
-  },
-  {
-    "champout": "0479002",
-    "collection": "pokemon",
-    "id": "pokemon-0479002",
-    "opgg": "rotom-wash"
-  },
-  {
-    "champout": "0479003",
-    "collection": "pokemon",
-    "id": "pokemon-0479003",
-    "opgg": "rotom-frost"
-  },
-  {
-    "champout": "0479004",
-    "collection": "pokemon",
-    "id": "pokemon-0479004",
-    "opgg": "rotom-fan"
-  },
-  {
-    "champout": "0479005",
-    "collection": "pokemon",
-    "id": "pokemon-0479005",
-    "opgg": "rotom-mow"
-  },
-  {
-    "champout": "0497000",
-    "collection": "pokemon",
-    "id": "pokemon-0497000",
-    "opgg": "serperior"
-  },
-  {
-    "champout": "0500000",
-    "collection": "pokemon",
-    "id": "pokemon-0500000",
-    "opgg": "emboar"
-  },
-  {
-    "champout": "0500001",
-    "collection": "pokemon",
-    "id": "pokemon-0500001",
-    "opgg": "mega-emboar"
-  },
-  {
-    "champout": "0503000",
-    "collection": "pokemon",
-    "id": "pokemon-0503000",
-    "opgg": "samurott"
-  },
-  {
-    "champout": "0503001",
-    "collection": "pokemon",
-    "id": "pokemon-0503001",
-    "opgg": "samurott-hisui"
-  },
-  {
-    "champout": "0505000",
-    "collection": "pokemon",
-    "id": "pokemon-0505000",
-    "opgg": "watchog"
-  },
-  {
-    "champout": "0510000",
-    "collection": "pokemon",
-    "id": "pokemon-0510000",
-    "opgg": "liepard"
-  },
-  {
-    "champout": "0512000",
-    "collection": "pokemon",
-    "id": "pokemon-0512000",
-    "opgg": "simisage"
-  },
-  {
-    "champout": "0514000",
-    "collection": "pokemon",
-    "id": "pokemon-0514000",
-    "opgg": "simisear"
-  },
-  {
-    "champout": "0516000",
-    "collection": "pokemon",
-    "id": "pokemon-0516000",
-    "opgg": "simipour"
-  },
-  {
-    "champout": "0518000",
-    "collection": "pokemon",
-    "id": "pokemon-0518000",
-    "opgg": "musharna"
-  },
-  {
-    "champout": "0530000",
-    "collection": "pokemon",
-    "id": "pokemon-0530000",
-    "opgg": "excadrill"
-  },
-  {
-    "champout": "0530001",
-    "collection": "pokemon",
-    "id": "pokemon-0530001",
-    "opgg": "mega-excadrill"
-  },
-  {
-    "champout": "0531000",
-    "collection": "pokemon",
-    "id": "pokemon-0531000",
-    "opgg": "audino"
-  },
-  {
-    "champout": "0531001",
-    "collection": "pokemon",
-    "id": "pokemon-0531001",
-    "opgg": "mega-audino"
-  },
-  {
-    "champout": "0534000",
-    "collection": "pokemon",
-    "id": "pokemon-0534000",
-    "opgg": "conkeldurr"
-  },
-  {
-    "champout": "0545000",
-    "collection": "pokemon",
-    "id": "pokemon-0545000",
-    "opgg": "scolipede"
-  },
-  {
-    "champout": "0545001",
-    "collection": "pokemon",
-    "id": "pokemon-0545001",
-    "opgg": "mega-scolipede"
-  },
-  {
-    "champout": "0547000",
-    "collection": "pokemon",
-    "id": "pokemon-0547000",
-    "opgg": "whimsicott"
-  },
-  {
-    "champout": "0553000",
-    "collection": "pokemon",
-    "id": "pokemon-0553000",
-    "opgg": "krookodile"
-  },
-  {
-    "champout": "0560000",
-    "collection": "pokemon",
-    "id": "pokemon-0560000",
-    "opgg": "scrafty"
-  },
-  {
-    "champout": "0560001",
-    "collection": "pokemon",
-    "id": "pokemon-0560001",
-    "opgg": "mega-scrafty"
-  },
-  {
-    "champout": "0563000",
-    "collection": "pokemon",
-    "id": "pokemon-0563000",
-    "opgg": "cofagrigus"
-  },
-  {
-    "champout": "0569000",
-    "collection": "pokemon",
-    "id": "pokemon-0569000",
-    "opgg": "garbodor"
-  },
-  {
-    "champout": "0571000",
-    "collection": "pokemon",
-    "id": "pokemon-0571000",
-    "opgg": "zoroark"
-  },
-  {
-    "champout": "0571001",
-    "collection": "pokemon",
-    "id": "pokemon-0571001",
-    "opgg": "zoroark-hisui"
-  },
-  {
-    "champout": "0579000",
-    "collection": "pokemon",
-    "id": "pokemon-0579000",
-    "opgg": "reuniclus"
-  },
-  {
-    "champout": "0584000",
-    "collection": "pokemon",
-    "id": "pokemon-0584000",
-    "opgg": "vanilluxe"
-  },
-  {
-    "champout": "0587000",
-    "collection": "pokemon",
-    "id": "pokemon-0587000",
-    "opgg": "emolga"
-  },
-  {
-    "champout": "0604000",
-    "collection": "pokemon",
-    "id": "pokemon-0604000",
-    "opgg": "eelektross"
-  },
-  {
-    "champout": "0604001",
-    "collection": "pokemon",
-    "id": "pokemon-0604001",
-    "opgg": "mega-eelektross"
-  },
-  {
-    "champout": "0609000",
-    "collection": "pokemon",
-    "id": "pokemon-0609000",
-    "opgg": "chandelure"
-  },
-  {
-    "champout": "0609001",
-    "collection": "pokemon",
-    "id": "pokemon-0609001",
-    "opgg": "mega-chandelure"
-  },
-  {
-    "champout": "0614000",
-    "collection": "pokemon",
-    "id": "pokemon-0614000",
-    "opgg": "beartic"
-  },
-  {
-    "champout": "0618000",
-    "collection": "pokemon",
-    "id": "pokemon-0618000",
-    "opgg": "stunfisk"
-  },
-  {
-    "champout": "0618001",
-    "collection": "pokemon",
-    "id": "pokemon-0618001",
-    "opgg": "stunfisk-galarian"
-  },
-  {
-    "champout": "0623000",
-    "collection": "pokemon",
-    "id": "pokemon-0623000",
-    "opgg": "golurk"
-  },
-  {
-    "champout": "0623001",
-    "collection": "pokemon",
-    "id": "pokemon-0623001",
-    "opgg": "mega-golurk"
-  },
-  {
-    "champout": "0635000",
-    "collection": "pokemon",
-    "id": "pokemon-0635000",
-    "opgg": "hydreigon"
-  },
-  {
-    "champout": "0637000",
-    "collection": "pokemon",
-    "id": "pokemon-0637000",
-    "opgg": "volcarona"
-  },
-  {
-    "champout": "0652000",
-    "collection": "pokemon",
-    "id": "pokemon-0652000",
-    "opgg": "chesnaught"
-  },
-  {
-    "champout": "0652001",
-    "collection": "pokemon",
-    "id": "pokemon-0652001",
-    "opgg": "mega-chesnaught"
-  },
-  {
-    "champout": "0655000",
-    "collection": "pokemon",
-    "id": "pokemon-0655000",
-    "opgg": "delphox"
-  },
-  {
-    "champout": "0655001",
-    "collection": "pokemon",
-    "id": "pokemon-0655001",
-    "opgg": "mega-delphox"
-  },
-  {
-    "champout": "0658000",
-    "collection": "pokemon",
-    "id": "pokemon-0658000",
-    "opgg": "greninja"
-  },
-  {
-    "champout": "0658003",
-    "collection": "pokemon",
-    "id": "pokemon-0658003",
-    "opgg": "mega-greninja"
-  },
-  {
-    "champout": "0660000",
-    "collection": "pokemon",
-    "id": "pokemon-0660000",
-    "opgg": "diggersby"
-  },
-  {
-    "champout": "0663000",
-    "collection": "pokemon",
-    "id": "pokemon-0663000",
-    "opgg": "talonflame"
-  },
-  {
-    "champout": "0666000",
-    "collection": "pokemon",
-    "id": "pokemon-0666000",
-    "opgg": "vivillon"
-  },
-  {
     "champout": "0666001",
     "collection": "pokemon",
     "form": "Polar Pattern",
@@ -1669,36 +133,6 @@
     "scope": "cosmetic"
   },
   {
-    "champout": "0668000",
-    "collection": "pokemon",
-    "id": "pokemon-0668000",
-    "opgg": "pyroar"
-  },
-  {
-    "champout": "0668001",
-    "collection": "pokemon",
-    "id": "pokemon-0668001",
-    "opgg": "mega-pyroar"
-  },
-  {
-    "champout": "0670005",
-    "collection": "pokemon",
-    "id": "pokemon-0670005",
-    "opgg": "floette-eternal-flower"
-  },
-  {
-    "champout": "0670006",
-    "collection": "pokemon",
-    "id": "pokemon-0670006",
-    "opgg": "mega-floette"
-  },
-  {
-    "champout": "0671000",
-    "collection": "pokemon",
-    "id": "pokemon-0671000",
-    "opgg": "florges"
-  },
-  {
     "champout": "0671001",
     "collection": "pokemon",
     "form": "Yellow Flower",
@@ -1725,24 +159,6 @@
     "form": "White Flower",
     "id": "pokemon-0671004",
     "scope": "cosmetic"
-  },
-  {
-    "champout": "0673000",
-    "collection": "pokemon",
-    "id": "pokemon-0673000",
-    "opgg": "gogoat"
-  },
-  {
-    "champout": "0675000",
-    "collection": "pokemon",
-    "id": "pokemon-0675000",
-    "opgg": "pangoro"
-  },
-  {
-    "champout": "0676000",
-    "collection": "pokemon",
-    "id": "pokemon-0676000",
-    "opgg": "furfrou"
   },
   {
     "champout": "0676001",
@@ -1808,467 +224,11 @@
     "scope": "cosmetic"
   },
   {
-    "champout": "0678000",
-    "collection": "pokemon",
-    "id": "pokemon-0678000",
-    "opgg": "meowstic-male"
-  },
-  {
-    "champout": "0678001",
-    "collection": "pokemon",
-    "id": "pokemon-0678001",
-    "opgg": "meowstic-female"
-  },
-  {
-    "champout": "0678002",
-    "collection": "pokemon",
-    "id": "pokemon-0678002",
-    "opgg": "mega-meowstic"
-  },
-  {
-    "champout": "0678003",
-    "collection": "pokemon",
-    "id": "pokemon-0678003",
-    "unmatched": "megameowstic"
-  },
-  {
-    "champout": "0681000",
-    "collection": "pokemon",
-    "id": "pokemon-0681000",
-    "opgg": "aegislash"
-  },
-  {
-    "champout": "0681001",
-    "collection": "pokemon",
-    "id": "pokemon-0681001",
-    "opgg": "aegislash-blade"
-  },
-  {
-    "champout": "0683000",
-    "collection": "pokemon",
-    "id": "pokemon-0683000",
-    "opgg": "aromatisse"
-  },
-  {
-    "champout": "0685000",
-    "collection": "pokemon",
-    "id": "pokemon-0685000",
-    "opgg": "slurpuff"
-  },
-  {
-    "champout": "0687000",
-    "collection": "pokemon",
-    "id": "pokemon-0687000",
-    "opgg": "malamar"
-  },
-  {
-    "champout": "0687001",
-    "collection": "pokemon",
-    "id": "pokemon-0687001",
-    "opgg": "mega-malamar"
-  },
-  {
-    "champout": "0689000",
-    "collection": "pokemon",
-    "id": "pokemon-0689000",
-    "opgg": "barbaracle"
-  },
-  {
-    "champout": "0689001",
-    "collection": "pokemon",
-    "id": "pokemon-0689001",
-    "opgg": "mega-barbaracle"
-  },
-  {
-    "champout": "0691000",
-    "collection": "pokemon",
-    "id": "pokemon-0691000",
-    "opgg": "dragalge"
-  },
-  {
-    "champout": "0691001",
-    "collection": "pokemon",
-    "id": "pokemon-0691001",
-    "opgg": "mega-dragalge"
-  },
-  {
-    "champout": "0693000",
-    "collection": "pokemon",
-    "id": "pokemon-0693000",
-    "opgg": "clawitzer"
-  },
-  {
-    "champout": "0695000",
-    "collection": "pokemon",
-    "id": "pokemon-0695000",
-    "opgg": "heliolisk"
-  },
-  {
-    "champout": "0697000",
-    "collection": "pokemon",
-    "id": "pokemon-0697000",
-    "opgg": "tyrantrum"
-  },
-  {
-    "champout": "0699000",
-    "collection": "pokemon",
-    "id": "pokemon-0699000",
-    "opgg": "aurorus"
-  },
-  {
-    "champout": "0700000",
-    "collection": "pokemon",
-    "id": "pokemon-0700000",
-    "opgg": "sylveon"
-  },
-  {
-    "champout": "0701000",
-    "collection": "pokemon",
-    "id": "pokemon-0701000",
-    "opgg": "hawlucha"
-  },
-  {
-    "champout": "0701001",
-    "collection": "pokemon",
-    "id": "pokemon-0701001",
-    "opgg": "mega-hawlucha"
-  },
-  {
-    "champout": "0702000",
-    "collection": "pokemon",
-    "id": "pokemon-0702000",
-    "opgg": "dedenne"
-  },
-  {
-    "champout": "0706000",
-    "collection": "pokemon",
-    "id": "pokemon-0706000",
-    "opgg": "goodra"
-  },
-  {
-    "champout": "0706001",
-    "collection": "pokemon",
-    "id": "pokemon-0706001",
-    "opgg": "goodra-hisui"
-  },
-  {
-    "champout": "0707000",
-    "collection": "pokemon",
-    "id": "pokemon-0707000",
-    "opgg": "klefki"
-  },
-  {
-    "champout": "0709000",
-    "collection": "pokemon",
-    "id": "pokemon-0709000",
-    "opgg": "trevenant"
-  },
-  {
-    "champout": "0711000",
-    "collection": "pokemon",
-    "id": "pokemon-0711000",
-    "opgg": "gourgeist-average"
-  },
-  {
-    "champout": "0711001",
-    "collection": "pokemon",
-    "id": "pokemon-0711001",
-    "opgg": "gourgeist-small"
-  },
-  {
-    "champout": "0711002",
-    "collection": "pokemon",
-    "id": "pokemon-0711002",
-    "opgg": "gourgeist-large"
-  },
-  {
-    "champout": "0711003",
-    "collection": "pokemon",
-    "id": "pokemon-0711003",
-    "opgg": "gourgeist-super"
-  },
-  {
-    "champout": "0713000",
-    "collection": "pokemon",
-    "id": "pokemon-0713000",
-    "opgg": "avalugg"
-  },
-  {
-    "champout": "0713001",
-    "collection": "pokemon",
-    "id": "pokemon-0713001",
-    "opgg": "avalugg-hisui"
-  },
-  {
-    "champout": "0715000",
-    "collection": "pokemon",
-    "id": "pokemon-0715000",
-    "opgg": "noivern"
-  },
-  {
-    "champout": "0724000",
-    "collection": "pokemon",
-    "id": "pokemon-0724000",
-    "opgg": "decidueye"
-  },
-  {
-    "champout": "0724001",
-    "collection": "pokemon",
-    "id": "pokemon-0724001",
-    "opgg": "decidueye-hisui"
-  },
-  {
-    "champout": "0727000",
-    "collection": "pokemon",
-    "id": "pokemon-0727000",
-    "opgg": "incineroar"
-  },
-  {
-    "champout": "0730000",
-    "collection": "pokemon",
-    "id": "pokemon-0730000",
-    "opgg": "primarina"
-  },
-  {
-    "champout": "0733000",
-    "collection": "pokemon",
-    "id": "pokemon-0733000",
-    "opgg": "toucannon"
-  },
-  {
-    "champout": "0740000",
-    "collection": "pokemon",
-    "id": "pokemon-0740000",
-    "opgg": "crabominable"
-  },
-  {
-    "champout": "0740001",
-    "collection": "pokemon",
-    "id": "pokemon-0740001",
-    "opgg": "mega-crabominable"
-  },
-  {
-    "champout": "0745000",
-    "collection": "pokemon",
-    "id": "pokemon-0745000",
-    "opgg": "lycanroc"
-  },
-  {
-    "champout": "0745001",
-    "collection": "pokemon",
-    "id": "pokemon-0745001",
-    "opgg": "lycanroc-midnight"
-  },
-  {
-    "champout": "0745002",
-    "collection": "pokemon",
-    "id": "pokemon-0745002",
-    "opgg": "lycanroc-dusk"
-  },
-  {
-    "champout": "0748000",
-    "collection": "pokemon",
-    "id": "pokemon-0748000",
-    "opgg": "toxapex"
-  },
-  {
-    "champout": "0750000",
-    "collection": "pokemon",
-    "id": "pokemon-0750000",
-    "opgg": "mudsdale"
-  },
-  {
-    "champout": "0752000",
-    "collection": "pokemon",
-    "id": "pokemon-0752000",
-    "opgg": "araquanid"
-  },
-  {
-    "champout": "0758000",
-    "collection": "pokemon",
-    "id": "pokemon-0758000",
-    "opgg": "salazzle"
-  },
-  {
-    "champout": "0763000",
-    "collection": "pokemon",
-    "id": "pokemon-0763000",
-    "opgg": "tsareena"
-  },
-  {
-    "champout": "0765000",
-    "collection": "pokemon",
-    "id": "pokemon-0765000",
-    "opgg": "oranguru"
-  },
-  {
-    "champout": "0766000",
-    "collection": "pokemon",
-    "id": "pokemon-0766000",
-    "opgg": "passimian"
-  },
-  {
-    "champout": "0768000",
-    "collection": "pokemon",
-    "id": "pokemon-0768000",
-    "opgg": "golisopod"
-  },
-  {
-    "champout": "0768001",
-    "collection": "pokemon",
-    "id": "pokemon-0768001",
-    "opgg": "mega-golisopod"
-  },
-  {
-    "champout": "0778000",
-    "collection": "pokemon",
-    "id": "pokemon-0778000",
-    "opgg": "mimikyu"
-  },
-  {
-    "champout": "0778001",
-    "collection": "pokemon",
-    "id": "pokemon-0778001",
-    "unmatched": "mimikyubustedform"
-  },
-  {
-    "champout": "0780000",
-    "collection": "pokemon",
-    "id": "pokemon-0780000",
-    "opgg": "drampa"
-  },
-  {
-    "champout": "0780001",
-    "collection": "pokemon",
-    "id": "pokemon-0780001",
-    "opgg": "mega-drampa"
-  },
-  {
-    "champout": "0784000",
-    "collection": "pokemon",
-    "id": "pokemon-0784000",
-    "opgg": "kommo-o"
-  },
-  {
-    "champout": "0812000",
-    "collection": "pokemon",
-    "id": "pokemon-0812000",
-    "opgg": "rillaboom"
-  },
-  {
-    "champout": "0815000",
-    "collection": "pokemon",
-    "id": "pokemon-0815000",
-    "opgg": "cinderace"
-  },
-  {
-    "champout": "0818000",
-    "collection": "pokemon",
-    "id": "pokemon-0818000",
-    "opgg": "inteleon"
-  },
-  {
-    "champout": "0823000",
-    "collection": "pokemon",
-    "id": "pokemon-0823000",
-    "opgg": "corviknight"
-  },
-  {
-    "champout": "0828000",
-    "collection": "pokemon",
-    "id": "pokemon-0828000",
-    "opgg": "thievul"
-  },
-  {
-    "champout": "0841000",
-    "collection": "pokemon",
-    "id": "pokemon-0841000",
-    "opgg": "flapple"
-  },
-  {
-    "champout": "0842000",
-    "collection": "pokemon",
-    "id": "pokemon-0842000",
-    "opgg": "appletun"
-  },
-  {
-    "champout": "0844000",
-    "collection": "pokemon",
-    "id": "pokemon-0844000",
-    "opgg": "sandaconda"
-  },
-  {
-    "champout": "0849000",
-    "collection": "pokemon",
-    "id": "pokemon-0849000",
-    "opgg": "toxtricity-amped"
-  },
-  {
-    "champout": "0849001",
-    "collection": "pokemon",
-    "id": "pokemon-0849001",
-    "opgg": "toxtricity-low-key"
-  },
-  {
-    "champout": "0853000",
-    "collection": "pokemon",
-    "id": "pokemon-0853000",
-    "opgg": "grapploct"
-  },
-  {
-    "champout": "0855000",
-    "collection": "pokemon",
-    "id": "pokemon-0855000",
-    "opgg": "polteageist"
-  },
-  {
     "champout": "0855001",
     "collection": "pokemon",
     "form": "Antique Form",
     "id": "pokemon-0855001",
     "scope": "cosmetic"
-  },
-  {
-    "champout": "0858000",
-    "collection": "pokemon",
-    "id": "pokemon-0858000",
-    "opgg": "hatterene"
-  },
-  {
-    "champout": "0861000",
-    "collection": "pokemon",
-    "id": "pokemon-0861000",
-    "opgg": "grimmsnarl"
-  },
-  {
-    "champout": "0863000",
-    "collection": "pokemon",
-    "id": "pokemon-0863000",
-    "opgg": "perrserker"
-  },
-  {
-    "champout": "0865000",
-    "collection": "pokemon",
-    "id": "pokemon-0865000",
-    "opgg": "sirfetchd"
-  },
-  {
-    "champout": "0866000",
-    "collection": "pokemon",
-    "id": "pokemon-0866000",
-    "opgg": "mr.-rime"
-  },
-  {
-    "champout": "0867000",
-    "collection": "pokemon",
-    "id": "pokemon-0867000",
-    "opgg": "runerigus"
-  },
-  {
-    "champout": "0869000",
-    "collection": "pokemon",
-    "id": "pokemon-0869000",
-    "opgg": "alcremie"
   },
   {
     "champout": "0869001",
@@ -2327,288 +287,6 @@
     "scope": "cosmetic"
   },
   {
-    "champout": "0870000",
-    "collection": "pokemon",
-    "id": "pokemon-0870000",
-    "opgg": "falinks"
-  },
-  {
-    "champout": "0870001",
-    "collection": "pokemon",
-    "id": "pokemon-0870001",
-    "opgg": "mega-falinks"
-  },
-  {
-    "champout": "0871000",
-    "collection": "pokemon",
-    "id": "pokemon-0871000",
-    "opgg": "pincurchin"
-  },
-  {
-    "champout": "0876000",
-    "collection": "pokemon",
-    "id": "pokemon-0876000",
-    "opgg": "indeedee-male"
-  },
-  {
-    "champout": "0876001",
-    "collection": "pokemon",
-    "id": "pokemon-0876001",
-    "opgg": "indeedee-female"
-  },
-  {
-    "champout": "0877000",
-    "collection": "pokemon",
-    "id": "pokemon-0877000",
-    "opgg": "morpeko"
-  },
-  {
-    "champout": "0877001",
-    "collection": "pokemon",
-    "id": "pokemon-0877001",
-    "unmatched": "morpekohangrymode"
-  },
-  {
-    "champout": "0887000",
-    "collection": "pokemon",
-    "id": "pokemon-0887000",
-    "opgg": "dragapult"
-  },
-  {
-    "champout": "0899000",
-    "collection": "pokemon",
-    "id": "pokemon-0899000",
-    "opgg": "wyrdeer"
-  },
-  {
-    "champout": "0900000",
-    "collection": "pokemon",
-    "id": "pokemon-0900000",
-    "opgg": "kleavor"
-  },
-  {
-    "champout": "0902000",
-    "collection": "pokemon",
-    "id": "pokemon-0902000",
-    "opgg": "basculegion-male"
-  },
-  {
-    "champout": "0902001",
-    "collection": "pokemon",
-    "id": "pokemon-0902001",
-    "opgg": "basculegion-female"
-  },
-  {
-    "champout": "0903000",
-    "collection": "pokemon",
-    "id": "pokemon-0903000",
-    "opgg": "sneasler"
-  },
-  {
-    "champout": "0904000",
-    "collection": "pokemon",
-    "id": "pokemon-0904000",
-    "opgg": "overqwil"
-  },
-  {
-    "champout": "0908000",
-    "collection": "pokemon",
-    "id": "pokemon-0908000",
-    "opgg": "meowscarada"
-  },
-  {
-    "champout": "0911000",
-    "collection": "pokemon",
-    "id": "pokemon-0911000",
-    "opgg": "skeledirge"
-  },
-  {
-    "champout": "0914000",
-    "collection": "pokemon",
-    "id": "pokemon-0914000",
-    "opgg": "quaquaval"
-  },
-  {
-    "champout": "0923000",
-    "collection": "pokemon",
-    "id": "pokemon-0923000",
-    "opgg": "pawmot"
-  },
-  {
-    "champout": "0925000",
-    "collection": "pokemon",
-    "id": "pokemon-0925000",
-    "opgg": "maushold-family-of-three"
-  },
-  {
-    "champout": "0925001",
-    "collection": "pokemon",
-    "id": "pokemon-0925001",
-    "opgg": "maushold-family-of-four"
-  },
-  {
-    "champout": "0930000",
-    "collection": "pokemon",
-    "id": "pokemon-0930000",
-    "opgg": "arboliva"
-  },
-  {
-    "champout": "0931000",
-    "collection": "pokemon",
-    "id": "pokemon-0931000",
-    "opgg": "squawkabilly-green-plumage"
-  },
-  {
-    "champout": "0931001",
-    "collection": "pokemon",
-    "id": "pokemon-0931001",
-    "opgg": "squawkabilly-blue-plumage"
-  },
-  {
-    "champout": "0931002",
-    "collection": "pokemon",
-    "id": "pokemon-0931002",
-    "opgg": "squawkabilly-yellow-plumage"
-  },
-  {
-    "champout": "0931003",
-    "collection": "pokemon",
-    "id": "pokemon-0931003",
-    "opgg": "squawkabilly-white-plumage"
-  },
-  {
-    "champout": "0934000",
-    "collection": "pokemon",
-    "id": "pokemon-0934000",
-    "opgg": "garganacl"
-  },
-  {
-    "champout": "0936000",
-    "collection": "pokemon",
-    "id": "pokemon-0936000",
-    "opgg": "armarouge"
-  },
-  {
-    "champout": "0937000",
-    "collection": "pokemon",
-    "id": "pokemon-0937000",
-    "opgg": "ceruledge"
-  },
-  {
-    "champout": "0939000",
-    "collection": "pokemon",
-    "id": "pokemon-0939000",
-    "opgg": "bellibolt"
-  },
-  {
-    "champout": "0943000",
-    "collection": "pokemon",
-    "id": "pokemon-0943000",
-    "opgg": "mabosstiff"
-  },
-  {
-    "champout": "0952000",
-    "collection": "pokemon",
-    "id": "pokemon-0952000",
-    "opgg": "scovillain"
-  },
-  {
-    "champout": "0952001",
-    "collection": "pokemon",
-    "id": "pokemon-0952001",
-    "opgg": "mega-scovillain"
-  },
-  {
-    "champout": "0956000",
-    "collection": "pokemon",
-    "id": "pokemon-0956000",
-    "opgg": "espathra"
-  },
-  {
-    "champout": "0959000",
-    "collection": "pokemon",
-    "id": "pokemon-0959000",
-    "opgg": "tinkaton"
-  },
-  {
-    "champout": "0964000",
-    "collection": "pokemon",
-    "id": "pokemon-0964000",
-    "opgg": "palafin"
-  },
-  {
-    "champout": "0964001",
-    "collection": "pokemon",
-    "id": "pokemon-0964001",
-    "opgg": "palafin-hero"
-  },
-  {
-    "champout": "0968000",
-    "collection": "pokemon",
-    "id": "pokemon-0968000",
-    "opgg": "orthworm"
-  },
-  {
-    "champout": "0970000",
-    "collection": "pokemon",
-    "id": "pokemon-0970000",
-    "opgg": "glimmora"
-  },
-  {
-    "champout": "0970001",
-    "collection": "pokemon",
-    "id": "pokemon-0970001",
-    "opgg": "mega-glimmora"
-  },
-  {
-    "champout": "0972000",
-    "collection": "pokemon",
-    "id": "pokemon-0972000",
-    "opgg": "houndstone"
-  },
-  {
-    "champout": "0979000",
-    "collection": "pokemon",
-    "id": "pokemon-0979000",
-    "opgg": "annihilape"
-  },
-  {
-    "champout": "0981000",
-    "collection": "pokemon",
-    "id": "pokemon-0981000",
-    "opgg": "farigiraf"
-  },
-  {
-    "champout": "0983000",
-    "collection": "pokemon",
-    "id": "pokemon-0983000",
-    "opgg": "kingambit"
-  },
-  {
-    "champout": "0998000",
-    "collection": "pokemon",
-    "id": "pokemon-0998000",
-    "opgg": "baxcalibur"
-  },
-  {
-    "champout": "0998001",
-    "collection": "pokemon",
-    "id": "pokemon-0998001",
-    "opgg": "mega-baxcalibur"
-  },
-  {
-    "champout": "1000000",
-    "collection": "pokemon",
-    "id": "pokemon-1000000",
-    "opgg": "gholdengo"
-  },
-  {
-    "champout": "1013000",
-    "collection": "pokemon",
-    "id": "pokemon-1013000",
-    "opgg": "sinistcha"
-  },
-  {
     "champout": "1013001",
     "collection": "pokemon",
     "form": "Masterpiece Form",
@@ -2616,39 +294,1773 @@
     "scope": "cosmetic"
   },
   {
+    "champout": "0003000",
+    "collection": "pokemon",
+    "id": "pokemon-0003000"
+  },
+  {
+    "champout": "0003001",
+    "collection": "pokemon",
+    "id": "pokemon-0003001"
+  },
+  {
+    "champout": "0006000",
+    "collection": "pokemon",
+    "id": "pokemon-0006000"
+  },
+  {
+    "champout": "0006001",
+    "collection": "pokemon",
+    "id": "pokemon-0006001"
+  },
+  {
+    "champout": "0006002",
+    "collection": "pokemon",
+    "id": "pokemon-0006002"
+  },
+  {
+    "champout": "0009000",
+    "collection": "pokemon",
+    "id": "pokemon-0009000"
+  },
+  {
+    "champout": "0009001",
+    "collection": "pokemon",
+    "id": "pokemon-0009001"
+  },
+  {
+    "champout": "0015000",
+    "collection": "pokemon",
+    "id": "pokemon-0015000"
+  },
+  {
+    "champout": "0015001",
+    "collection": "pokemon",
+    "id": "pokemon-0015001"
+  },
+  {
+    "champout": "0018000",
+    "collection": "pokemon",
+    "id": "pokemon-0018000"
+  },
+  {
+    "champout": "0018001",
+    "collection": "pokemon",
+    "id": "pokemon-0018001"
+  },
+  {
+    "champout": "0024000",
+    "collection": "pokemon",
+    "id": "pokemon-0024000"
+  },
+  {
+    "champout": "0025000",
+    "collection": "pokemon",
+    "id": "pokemon-0025000"
+  },
+  {
+    "champout": "0026000",
+    "collection": "pokemon",
+    "id": "pokemon-0026000"
+  },
+  {
+    "champout": "0026001",
+    "collection": "pokemon",
+    "id": "pokemon-0026001"
+  },
+  {
+    "champout": "0026002",
+    "collection": "pokemon",
+    "id": "pokemon-0026002"
+  },
+  {
+    "champout": "0026003",
+    "collection": "pokemon",
+    "id": "pokemon-0026003"
+  },
+  {
+    "champout": "0036000",
+    "collection": "pokemon",
+    "id": "pokemon-0036000"
+  },
+  {
+    "champout": "0036001",
+    "collection": "pokemon",
+    "id": "pokemon-0036001"
+  },
+  {
+    "champout": "0038000",
+    "collection": "pokemon",
+    "id": "pokemon-0038000"
+  },
+  {
+    "champout": "0038001",
+    "collection": "pokemon",
+    "id": "pokemon-0038001"
+  },
+  {
+    "champout": "0040000",
+    "collection": "pokemon",
+    "id": "pokemon-0040000"
+  },
+  {
+    "champout": "0045000",
+    "collection": "pokemon",
+    "id": "pokemon-0045000"
+  },
+  {
+    "champout": "0053000",
+    "collection": "pokemon",
+    "id": "pokemon-0053000"
+  },
+  {
+    "champout": "0053001",
+    "collection": "pokemon",
+    "id": "pokemon-0053001"
+  },
+  {
+    "champout": "0059000",
+    "collection": "pokemon",
+    "id": "pokemon-0059000"
+  },
+  {
+    "champout": "0059001",
+    "collection": "pokemon",
+    "id": "pokemon-0059001"
+  },
+  {
+    "champout": "0065000",
+    "collection": "pokemon",
+    "id": "pokemon-0065000"
+  },
+  {
+    "champout": "0065001",
+    "collection": "pokemon",
+    "id": "pokemon-0065001"
+  },
+  {
+    "champout": "0068000",
+    "collection": "pokemon",
+    "id": "pokemon-0068000"
+  },
+  {
+    "champout": "0071000",
+    "collection": "pokemon",
+    "id": "pokemon-0071000"
+  },
+  {
+    "champout": "0071001",
+    "collection": "pokemon",
+    "id": "pokemon-0071001"
+  },
+  {
+    "champout": "0080000",
+    "collection": "pokemon",
+    "id": "pokemon-0080000"
+  },
+  {
+    "champout": "0080001",
+    "collection": "pokemon",
+    "id": "pokemon-0080001"
+  },
+  {
+    "champout": "0080002",
+    "collection": "pokemon",
+    "id": "pokemon-0080002"
+  },
+  {
+    "champout": "0083000",
+    "collection": "pokemon",
+    "id": "pokemon-0083000"
+  },
+  {
+    "champout": "0094000",
+    "collection": "pokemon",
+    "id": "pokemon-0094000"
+  },
+  {
+    "champout": "0094001",
+    "collection": "pokemon",
+    "id": "pokemon-0094001"
+  },
+  {
+    "champout": "0115000",
+    "collection": "pokemon",
+    "id": "pokemon-0115000"
+  },
+  {
+    "champout": "0115001",
+    "collection": "pokemon",
+    "id": "pokemon-0115001"
+  },
+  {
+    "champout": "0121000",
+    "collection": "pokemon",
+    "id": "pokemon-0121000"
+  },
+  {
+    "champout": "0121001",
+    "collection": "pokemon",
+    "id": "pokemon-0121001"
+  },
+  {
+    "champout": "0122000",
+    "collection": "pokemon",
+    "id": "pokemon-0122000"
+  },
+  {
+    "champout": "0127000",
+    "collection": "pokemon",
+    "id": "pokemon-0127000"
+  },
+  {
+    "champout": "0127001",
+    "collection": "pokemon",
+    "id": "pokemon-0127001"
+  },
+  {
+    "champout": "0128000",
+    "collection": "pokemon",
+    "id": "pokemon-0128000"
+  },
+  {
+    "champout": "0128001",
+    "collection": "pokemon",
+    "id": "pokemon-0128001"
+  },
+  {
+    "champout": "0128002",
+    "collection": "pokemon",
+    "id": "pokemon-0128002"
+  },
+  {
+    "champout": "0128003",
+    "collection": "pokemon",
+    "id": "pokemon-0128003"
+  },
+  {
+    "champout": "0130000",
+    "collection": "pokemon",
+    "id": "pokemon-0130000"
+  },
+  {
+    "champout": "0130001",
+    "collection": "pokemon",
+    "id": "pokemon-0130001"
+  },
+  {
+    "champout": "0132000",
+    "collection": "pokemon",
+    "id": "pokemon-0132000"
+  },
+  {
+    "champout": "0134000",
+    "collection": "pokemon",
+    "id": "pokemon-0134000"
+  },
+  {
+    "champout": "0135000",
+    "collection": "pokemon",
+    "id": "pokemon-0135000"
+  },
+  {
+    "champout": "0136000",
+    "collection": "pokemon",
+    "id": "pokemon-0136000"
+  },
+  {
+    "champout": "0142000",
+    "collection": "pokemon",
+    "id": "pokemon-0142000"
+  },
+  {
+    "champout": "0142001",
+    "collection": "pokemon",
+    "id": "pokemon-0142001"
+  },
+  {
+    "champout": "0143000",
+    "collection": "pokemon",
+    "id": "pokemon-0143000"
+  },
+  {
+    "champout": "0149000",
+    "collection": "pokemon",
+    "id": "pokemon-0149000"
+  },
+  {
+    "champout": "0149001",
+    "collection": "pokemon",
+    "id": "pokemon-0149001"
+  },
+  {
+    "champout": "0154000",
+    "collection": "pokemon",
+    "id": "pokemon-0154000"
+  },
+  {
+    "champout": "0154001",
+    "collection": "pokemon",
+    "id": "pokemon-0154001"
+  },
+  {
+    "champout": "0157000",
+    "collection": "pokemon",
+    "id": "pokemon-0157000"
+  },
+  {
+    "champout": "0157001",
+    "collection": "pokemon",
+    "id": "pokemon-0157001"
+  },
+  {
+    "champout": "0160000",
+    "collection": "pokemon",
+    "id": "pokemon-0160000"
+  },
+  {
+    "champout": "0160001",
+    "collection": "pokemon",
+    "id": "pokemon-0160001"
+  },
+  {
+    "champout": "0168000",
+    "collection": "pokemon",
+    "id": "pokemon-0168000"
+  },
+  {
+    "champout": "0181000",
+    "collection": "pokemon",
+    "id": "pokemon-0181000"
+  },
+  {
+    "champout": "0181001",
+    "collection": "pokemon",
+    "id": "pokemon-0181001"
+  },
+  {
+    "champout": "0184000",
+    "collection": "pokemon",
+    "id": "pokemon-0184000"
+  },
+  {
+    "champout": "0186000",
+    "collection": "pokemon",
+    "id": "pokemon-0186000"
+  },
+  {
+    "champout": "0196000",
+    "collection": "pokemon",
+    "id": "pokemon-0196000"
+  },
+  {
+    "champout": "0197000",
+    "collection": "pokemon",
+    "id": "pokemon-0197000"
+  },
+  {
+    "champout": "0199000",
+    "collection": "pokemon",
+    "id": "pokemon-0199000"
+  },
+  {
+    "champout": "0199001",
+    "collection": "pokemon",
+    "id": "pokemon-0199001"
+  },
+  {
+    "champout": "0205000",
+    "collection": "pokemon",
+    "id": "pokemon-0205000"
+  },
+  {
+    "champout": "0208000",
+    "collection": "pokemon",
+    "id": "pokemon-0208000"
+  },
+  {
+    "champout": "0208001",
+    "collection": "pokemon",
+    "id": "pokemon-0208001"
+  },
+  {
+    "champout": "0211000",
+    "collection": "pokemon",
+    "id": "pokemon-0211000"
+  },
+  {
+    "champout": "0212000",
+    "collection": "pokemon",
+    "id": "pokemon-0212000"
+  },
+  {
+    "champout": "0212001",
+    "collection": "pokemon",
+    "id": "pokemon-0212001"
+  },
+  {
+    "champout": "0214000",
+    "collection": "pokemon",
+    "id": "pokemon-0214000"
+  },
+  {
+    "champout": "0214001",
+    "collection": "pokemon",
+    "id": "pokemon-0214001"
+  },
+  {
+    "champout": "0227000",
+    "collection": "pokemon",
+    "id": "pokemon-0227000"
+  },
+  {
+    "champout": "0227001",
+    "collection": "pokemon",
+    "id": "pokemon-0227001"
+  },
+  {
+    "champout": "0229000",
+    "collection": "pokemon",
+    "id": "pokemon-0229000"
+  },
+  {
+    "champout": "0229001",
+    "collection": "pokemon",
+    "id": "pokemon-0229001"
+  },
+  {
+    "champout": "0248000",
+    "collection": "pokemon",
+    "id": "pokemon-0248000"
+  },
+  {
+    "champout": "0248001",
+    "collection": "pokemon",
+    "id": "pokemon-0248001"
+  },
+  {
+    "champout": "0254000",
+    "collection": "pokemon",
+    "id": "pokemon-0254000"
+  },
+  {
+    "champout": "0254001",
+    "collection": "pokemon",
+    "id": "pokemon-0254001"
+  },
+  {
+    "champout": "0257000",
+    "collection": "pokemon",
+    "id": "pokemon-0257000"
+  },
+  {
+    "champout": "0257001",
+    "collection": "pokemon",
+    "id": "pokemon-0257001"
+  },
+  {
+    "champout": "0260000",
+    "collection": "pokemon",
+    "id": "pokemon-0260000"
+  },
+  {
+    "champout": "0260001",
+    "collection": "pokemon",
+    "id": "pokemon-0260001"
+  },
+  {
+    "champout": "0279000",
+    "collection": "pokemon",
+    "id": "pokemon-0279000"
+  },
+  {
+    "champout": "0282000",
+    "collection": "pokemon",
+    "id": "pokemon-0282000"
+  },
+  {
+    "champout": "0282001",
+    "collection": "pokemon",
+    "id": "pokemon-0282001"
+  },
+  {
+    "champout": "0302000",
+    "collection": "pokemon",
+    "id": "pokemon-0302000"
+  },
+  {
+    "champout": "0302001",
+    "collection": "pokemon",
+    "id": "pokemon-0302001"
+  },
+  {
+    "champout": "0303000",
+    "collection": "pokemon",
+    "id": "pokemon-0303000"
+  },
+  {
+    "champout": "0303001",
+    "collection": "pokemon",
+    "id": "pokemon-0303001"
+  },
+  {
+    "champout": "0306000",
+    "collection": "pokemon",
+    "id": "pokemon-0306000"
+  },
+  {
+    "champout": "0306001",
+    "collection": "pokemon",
+    "id": "pokemon-0306001"
+  },
+  {
+    "champout": "0308000",
+    "collection": "pokemon",
+    "id": "pokemon-0308000"
+  },
+  {
+    "champout": "0308001",
+    "collection": "pokemon",
+    "id": "pokemon-0308001"
+  },
+  {
+    "champout": "0310000",
+    "collection": "pokemon",
+    "id": "pokemon-0310000"
+  },
+  {
+    "champout": "0310001",
+    "collection": "pokemon",
+    "id": "pokemon-0310001"
+  },
+  {
+    "champout": "0317000",
+    "collection": "pokemon",
+    "id": "pokemon-0317000"
+  },
+  {
+    "champout": "0319000",
+    "collection": "pokemon",
+    "id": "pokemon-0319000"
+  },
+  {
+    "champout": "0319001",
+    "collection": "pokemon",
+    "id": "pokemon-0319001"
+  },
+  {
+    "champout": "0323000",
+    "collection": "pokemon",
+    "id": "pokemon-0323000"
+  },
+  {
+    "champout": "0323001",
+    "collection": "pokemon",
+    "id": "pokemon-0323001"
+  },
+  {
+    "champout": "0324000",
+    "collection": "pokemon",
+    "id": "pokemon-0324000"
+  },
+  {
+    "champout": "0334000",
+    "collection": "pokemon",
+    "id": "pokemon-0334000"
+  },
+  {
+    "champout": "0334001",
+    "collection": "pokemon",
+    "id": "pokemon-0334001"
+  },
+  {
+    "champout": "0350000",
+    "collection": "pokemon",
+    "id": "pokemon-0350000"
+  },
+  {
+    "champout": "0351000",
+    "collection": "pokemon",
+    "id": "pokemon-0351000"
+  },
+  {
+    "champout": "0351001",
+    "collection": "pokemon",
+    "id": "pokemon-0351001"
+  },
+  {
+    "champout": "0351002",
+    "collection": "pokemon",
+    "id": "pokemon-0351002"
+  },
+  {
+    "champout": "0351003",
+    "collection": "pokemon",
+    "id": "pokemon-0351003"
+  },
+  {
+    "champout": "0354000",
+    "collection": "pokemon",
+    "id": "pokemon-0354000"
+  },
+  {
+    "champout": "0354001",
+    "collection": "pokemon",
+    "id": "pokemon-0354001"
+  },
+  {
+    "champout": "0358000",
+    "collection": "pokemon",
+    "id": "pokemon-0358000"
+  },
+  {
+    "champout": "0358001",
+    "collection": "pokemon",
+    "id": "pokemon-0358001"
+  },
+  {
+    "champout": "0359000",
+    "collection": "pokemon",
+    "id": "pokemon-0359000"
+  },
+  {
+    "champout": "0359001",
+    "collection": "pokemon",
+    "id": "pokemon-0359001"
+  },
+  {
+    "champout": "0359002",
+    "collection": "pokemon",
+    "id": "pokemon-0359002"
+  },
+  {
+    "champout": "0362000",
+    "collection": "pokemon",
+    "id": "pokemon-0362000"
+  },
+  {
+    "champout": "0362001",
+    "collection": "pokemon",
+    "id": "pokemon-0362001"
+  },
+  {
+    "champout": "0373000",
+    "collection": "pokemon",
+    "id": "pokemon-0373000"
+  },
+  {
+    "champout": "0373001",
+    "collection": "pokemon",
+    "id": "pokemon-0373001"
+  },
+  {
+    "champout": "0376000",
+    "collection": "pokemon",
+    "id": "pokemon-0376000"
+  },
+  {
+    "champout": "0376001",
+    "collection": "pokemon",
+    "id": "pokemon-0376001"
+  },
+  {
+    "champout": "0389000",
+    "collection": "pokemon",
+    "id": "pokemon-0389000"
+  },
+  {
+    "champout": "0392000",
+    "collection": "pokemon",
+    "id": "pokemon-0392000"
+  },
+  {
+    "champout": "0395000",
+    "collection": "pokemon",
+    "id": "pokemon-0395000"
+  },
+  {
+    "champout": "0398000",
+    "collection": "pokemon",
+    "id": "pokemon-0398000"
+  },
+  {
+    "champout": "0398001",
+    "collection": "pokemon",
+    "id": "pokemon-0398001"
+  },
+  {
+    "champout": "0405000",
+    "collection": "pokemon",
+    "id": "pokemon-0405000"
+  },
+  {
+    "champout": "0407000",
+    "collection": "pokemon",
+    "id": "pokemon-0407000"
+  },
+  {
+    "champout": "0409000",
+    "collection": "pokemon",
+    "id": "pokemon-0409000"
+  },
+  {
+    "champout": "0411000",
+    "collection": "pokemon",
+    "id": "pokemon-0411000"
+  },
+  {
+    "champout": "0428000",
+    "collection": "pokemon",
+    "id": "pokemon-0428000"
+  },
+  {
+    "champout": "0428001",
+    "collection": "pokemon",
+    "id": "pokemon-0428001"
+  },
+  {
+    "champout": "0442000",
+    "collection": "pokemon",
+    "id": "pokemon-0442000"
+  },
+  {
+    "champout": "0445000",
+    "collection": "pokemon",
+    "id": "pokemon-0445000"
+  },
+  {
+    "champout": "0445001",
+    "collection": "pokemon",
+    "id": "pokemon-0445001"
+  },
+  {
+    "champout": "0445002",
+    "collection": "pokemon",
+    "id": "pokemon-0445002"
+  },
+  {
+    "champout": "0448000",
+    "collection": "pokemon",
+    "id": "pokemon-0448000"
+  },
+  {
+    "champout": "0448001",
+    "collection": "pokemon",
+    "id": "pokemon-0448001"
+  },
+  {
+    "champout": "0448002",
+    "collection": "pokemon",
+    "id": "pokemon-0448002"
+  },
+  {
+    "champout": "0450000",
+    "collection": "pokemon",
+    "id": "pokemon-0450000"
+  },
+  {
+    "champout": "0454000",
+    "collection": "pokemon",
+    "id": "pokemon-0454000"
+  },
+  {
+    "champout": "0460000",
+    "collection": "pokemon",
+    "id": "pokemon-0460000"
+  },
+  {
+    "champout": "0460001",
+    "collection": "pokemon",
+    "id": "pokemon-0460001"
+  },
+  {
+    "champout": "0461000",
+    "collection": "pokemon",
+    "id": "pokemon-0461000"
+  },
+  {
+    "champout": "0464000",
+    "collection": "pokemon",
+    "id": "pokemon-0464000"
+  },
+  {
+    "champout": "0470000",
+    "collection": "pokemon",
+    "id": "pokemon-0470000"
+  },
+  {
+    "champout": "0471000",
+    "collection": "pokemon",
+    "id": "pokemon-0471000"
+  },
+  {
+    "champout": "0472000",
+    "collection": "pokemon",
+    "id": "pokemon-0472000"
+  },
+  {
+    "champout": "0473000",
+    "collection": "pokemon",
+    "id": "pokemon-0473000"
+  },
+  {
+    "champout": "0475000",
+    "collection": "pokemon",
+    "id": "pokemon-0475000"
+  },
+  {
+    "champout": "0475001",
+    "collection": "pokemon",
+    "id": "pokemon-0475001"
+  },
+  {
+    "champout": "0478000",
+    "collection": "pokemon",
+    "id": "pokemon-0478000"
+  },
+  {
+    "champout": "0478001",
+    "collection": "pokemon",
+    "id": "pokemon-0478001"
+  },
+  {
+    "champout": "0479000",
+    "collection": "pokemon",
+    "id": "pokemon-0479000"
+  },
+  {
+    "champout": "0479001",
+    "collection": "pokemon",
+    "id": "pokemon-0479001"
+  },
+  {
+    "champout": "0479002",
+    "collection": "pokemon",
+    "id": "pokemon-0479002"
+  },
+  {
+    "champout": "0479003",
+    "collection": "pokemon",
+    "id": "pokemon-0479003"
+  },
+  {
+    "champout": "0479004",
+    "collection": "pokemon",
+    "id": "pokemon-0479004"
+  },
+  {
+    "champout": "0479005",
+    "collection": "pokemon",
+    "id": "pokemon-0479005"
+  },
+  {
+    "champout": "0497000",
+    "collection": "pokemon",
+    "id": "pokemon-0497000"
+  },
+  {
+    "champout": "0500000",
+    "collection": "pokemon",
+    "id": "pokemon-0500000"
+  },
+  {
+    "champout": "0500001",
+    "collection": "pokemon",
+    "id": "pokemon-0500001"
+  },
+  {
+    "champout": "0503000",
+    "collection": "pokemon",
+    "id": "pokemon-0503000"
+  },
+  {
+    "champout": "0503001",
+    "collection": "pokemon",
+    "id": "pokemon-0503001"
+  },
+  {
+    "champout": "0505000",
+    "collection": "pokemon",
+    "id": "pokemon-0505000"
+  },
+  {
+    "champout": "0510000",
+    "collection": "pokemon",
+    "id": "pokemon-0510000"
+  },
+  {
+    "champout": "0512000",
+    "collection": "pokemon",
+    "id": "pokemon-0512000"
+  },
+  {
+    "champout": "0514000",
+    "collection": "pokemon",
+    "id": "pokemon-0514000"
+  },
+  {
+    "champout": "0516000",
+    "collection": "pokemon",
+    "id": "pokemon-0516000"
+  },
+  {
+    "champout": "0518000",
+    "collection": "pokemon",
+    "id": "pokemon-0518000"
+  },
+  {
+    "champout": "0530000",
+    "collection": "pokemon",
+    "id": "pokemon-0530000"
+  },
+  {
+    "champout": "0530001",
+    "collection": "pokemon",
+    "id": "pokemon-0530001"
+  },
+  {
+    "champout": "0531000",
+    "collection": "pokemon",
+    "id": "pokemon-0531000"
+  },
+  {
+    "champout": "0531001",
+    "collection": "pokemon",
+    "id": "pokemon-0531001"
+  },
+  {
+    "champout": "0534000",
+    "collection": "pokemon",
+    "id": "pokemon-0534000"
+  },
+  {
+    "champout": "0545000",
+    "collection": "pokemon",
+    "id": "pokemon-0545000"
+  },
+  {
+    "champout": "0545001",
+    "collection": "pokemon",
+    "id": "pokemon-0545001"
+  },
+  {
+    "champout": "0547000",
+    "collection": "pokemon",
+    "id": "pokemon-0547000"
+  },
+  {
+    "champout": "0553000",
+    "collection": "pokemon",
+    "id": "pokemon-0553000"
+  },
+  {
+    "champout": "0560000",
+    "collection": "pokemon",
+    "id": "pokemon-0560000"
+  },
+  {
+    "champout": "0560001",
+    "collection": "pokemon",
+    "id": "pokemon-0560001"
+  },
+  {
+    "champout": "0563000",
+    "collection": "pokemon",
+    "id": "pokemon-0563000"
+  },
+  {
+    "champout": "0569000",
+    "collection": "pokemon",
+    "id": "pokemon-0569000"
+  },
+  {
+    "champout": "0571000",
+    "collection": "pokemon",
+    "id": "pokemon-0571000"
+  },
+  {
+    "champout": "0571001",
+    "collection": "pokemon",
+    "id": "pokemon-0571001"
+  },
+  {
+    "champout": "0579000",
+    "collection": "pokemon",
+    "id": "pokemon-0579000"
+  },
+  {
+    "champout": "0584000",
+    "collection": "pokemon",
+    "id": "pokemon-0584000"
+  },
+  {
+    "champout": "0587000",
+    "collection": "pokemon",
+    "id": "pokemon-0587000"
+  },
+  {
+    "champout": "0604000",
+    "collection": "pokemon",
+    "id": "pokemon-0604000"
+  },
+  {
+    "champout": "0604001",
+    "collection": "pokemon",
+    "id": "pokemon-0604001"
+  },
+  {
+    "champout": "0609000",
+    "collection": "pokemon",
+    "id": "pokemon-0609000"
+  },
+  {
+    "champout": "0609001",
+    "collection": "pokemon",
+    "id": "pokemon-0609001"
+  },
+  {
+    "champout": "0614000",
+    "collection": "pokemon",
+    "id": "pokemon-0614000"
+  },
+  {
+    "champout": "0618000",
+    "collection": "pokemon",
+    "id": "pokemon-0618000"
+  },
+  {
+    "champout": "0618001",
+    "collection": "pokemon",
+    "id": "pokemon-0618001"
+  },
+  {
+    "champout": "0623000",
+    "collection": "pokemon",
+    "id": "pokemon-0623000"
+  },
+  {
+    "champout": "0623001",
+    "collection": "pokemon",
+    "id": "pokemon-0623001"
+  },
+  {
+    "champout": "0635000",
+    "collection": "pokemon",
+    "id": "pokemon-0635000"
+  },
+  {
+    "champout": "0637000",
+    "collection": "pokemon",
+    "id": "pokemon-0637000"
+  },
+  {
+    "champout": "0652000",
+    "collection": "pokemon",
+    "id": "pokemon-0652000"
+  },
+  {
+    "champout": "0652001",
+    "collection": "pokemon",
+    "id": "pokemon-0652001"
+  },
+  {
+    "champout": "0655000",
+    "collection": "pokemon",
+    "id": "pokemon-0655000"
+  },
+  {
+    "champout": "0655001",
+    "collection": "pokemon",
+    "id": "pokemon-0655001"
+  },
+  {
+    "champout": "0658000",
+    "collection": "pokemon",
+    "id": "pokemon-0658000"
+  },
+  {
+    "champout": "0658003",
+    "collection": "pokemon",
+    "id": "pokemon-0658003"
+  },
+  {
+    "champout": "0660000",
+    "collection": "pokemon",
+    "id": "pokemon-0660000"
+  },
+  {
+    "champout": "0663000",
+    "collection": "pokemon",
+    "id": "pokemon-0663000"
+  },
+  {
+    "champout": "0666000",
+    "collection": "pokemon",
+    "id": "pokemon-0666000"
+  },
+  {
+    "champout": "0668000",
+    "collection": "pokemon",
+    "id": "pokemon-0668000"
+  },
+  {
+    "champout": "0668001",
+    "collection": "pokemon",
+    "id": "pokemon-0668001"
+  },
+  {
+    "champout": "0670005",
+    "collection": "pokemon",
+    "id": "pokemon-0670005"
+  },
+  {
+    "champout": "0670006",
+    "collection": "pokemon",
+    "id": "pokemon-0670006"
+  },
+  {
+    "champout": "0671000",
+    "collection": "pokemon",
+    "id": "pokemon-0671000"
+  },
+  {
+    "champout": "0673000",
+    "collection": "pokemon",
+    "id": "pokemon-0673000"
+  },
+  {
+    "champout": "0675000",
+    "collection": "pokemon",
+    "id": "pokemon-0675000"
+  },
+  {
+    "champout": "0676000",
+    "collection": "pokemon",
+    "id": "pokemon-0676000"
+  },
+  {
+    "champout": "0678000",
+    "collection": "pokemon",
+    "id": "pokemon-0678000"
+  },
+  {
+    "champout": "0678001",
+    "collection": "pokemon",
+    "id": "pokemon-0678001"
+  },
+  {
+    "champout": "0678002",
+    "collection": "pokemon",
+    "id": "pokemon-0678002"
+  },
+  {
+    "champout": "0678003",
+    "collection": "pokemon",
+    "id": "pokemon-0678003"
+  },
+  {
+    "champout": "0681000",
+    "collection": "pokemon",
+    "id": "pokemon-0681000"
+  },
+  {
+    "champout": "0681001",
+    "collection": "pokemon",
+    "id": "pokemon-0681001"
+  },
+  {
+    "champout": "0683000",
+    "collection": "pokemon",
+    "id": "pokemon-0683000"
+  },
+  {
+    "champout": "0685000",
+    "collection": "pokemon",
+    "id": "pokemon-0685000"
+  },
+  {
+    "champout": "0687000",
+    "collection": "pokemon",
+    "id": "pokemon-0687000"
+  },
+  {
+    "champout": "0687001",
+    "collection": "pokemon",
+    "id": "pokemon-0687001"
+  },
+  {
+    "champout": "0689000",
+    "collection": "pokemon",
+    "id": "pokemon-0689000"
+  },
+  {
+    "champout": "0689001",
+    "collection": "pokemon",
+    "id": "pokemon-0689001"
+  },
+  {
+    "champout": "0691000",
+    "collection": "pokemon",
+    "id": "pokemon-0691000"
+  },
+  {
+    "champout": "0691001",
+    "collection": "pokemon",
+    "id": "pokemon-0691001"
+  },
+  {
+    "champout": "0693000",
+    "collection": "pokemon",
+    "id": "pokemon-0693000"
+  },
+  {
+    "champout": "0695000",
+    "collection": "pokemon",
+    "id": "pokemon-0695000"
+  },
+  {
+    "champout": "0697000",
+    "collection": "pokemon",
+    "id": "pokemon-0697000"
+  },
+  {
+    "champout": "0699000",
+    "collection": "pokemon",
+    "id": "pokemon-0699000"
+  },
+  {
+    "champout": "0700000",
+    "collection": "pokemon",
+    "id": "pokemon-0700000"
+  },
+  {
+    "champout": "0701000",
+    "collection": "pokemon",
+    "id": "pokemon-0701000"
+  },
+  {
+    "champout": "0701001",
+    "collection": "pokemon",
+    "id": "pokemon-0701001"
+  },
+  {
+    "champout": "0702000",
+    "collection": "pokemon",
+    "id": "pokemon-0702000"
+  },
+  {
+    "champout": "0706000",
+    "collection": "pokemon",
+    "id": "pokemon-0706000"
+  },
+  {
+    "champout": "0706001",
+    "collection": "pokemon",
+    "id": "pokemon-0706001"
+  },
+  {
+    "champout": "0707000",
+    "collection": "pokemon",
+    "id": "pokemon-0707000"
+  },
+  {
+    "champout": "0709000",
+    "collection": "pokemon",
+    "id": "pokemon-0709000"
+  },
+  {
+    "champout": "0711000",
+    "collection": "pokemon",
+    "id": "pokemon-0711000"
+  },
+  {
+    "champout": "0711001",
+    "collection": "pokemon",
+    "id": "pokemon-0711001"
+  },
+  {
+    "champout": "0711002",
+    "collection": "pokemon",
+    "id": "pokemon-0711002"
+  },
+  {
+    "champout": "0711003",
+    "collection": "pokemon",
+    "id": "pokemon-0711003"
+  },
+  {
+    "champout": "0713000",
+    "collection": "pokemon",
+    "id": "pokemon-0713000"
+  },
+  {
+    "champout": "0713001",
+    "collection": "pokemon",
+    "id": "pokemon-0713001"
+  },
+  {
+    "champout": "0715000",
+    "collection": "pokemon",
+    "id": "pokemon-0715000"
+  },
+  {
+    "champout": "0724000",
+    "collection": "pokemon",
+    "id": "pokemon-0724000"
+  },
+  {
+    "champout": "0724001",
+    "collection": "pokemon",
+    "id": "pokemon-0724001"
+  },
+  {
+    "champout": "0727000",
+    "collection": "pokemon",
+    "id": "pokemon-0727000"
+  },
+  {
+    "champout": "0730000",
+    "collection": "pokemon",
+    "id": "pokemon-0730000"
+  },
+  {
+    "champout": "0733000",
+    "collection": "pokemon",
+    "id": "pokemon-0733000"
+  },
+  {
+    "champout": "0740000",
+    "collection": "pokemon",
+    "id": "pokemon-0740000"
+  },
+  {
+    "champout": "0740001",
+    "collection": "pokemon",
+    "id": "pokemon-0740001"
+  },
+  {
+    "champout": "0745000",
+    "collection": "pokemon",
+    "id": "pokemon-0745000"
+  },
+  {
+    "champout": "0745001",
+    "collection": "pokemon",
+    "id": "pokemon-0745001"
+  },
+  {
+    "champout": "0745002",
+    "collection": "pokemon",
+    "id": "pokemon-0745002"
+  },
+  {
+    "champout": "0748000",
+    "collection": "pokemon",
+    "id": "pokemon-0748000"
+  },
+  {
+    "champout": "0750000",
+    "collection": "pokemon",
+    "id": "pokemon-0750000"
+  },
+  {
+    "champout": "0752000",
+    "collection": "pokemon",
+    "id": "pokemon-0752000"
+  },
+  {
+    "champout": "0758000",
+    "collection": "pokemon",
+    "id": "pokemon-0758000"
+  },
+  {
+    "champout": "0763000",
+    "collection": "pokemon",
+    "id": "pokemon-0763000"
+  },
+  {
+    "champout": "0765000",
+    "collection": "pokemon",
+    "id": "pokemon-0765000"
+  },
+  {
+    "champout": "0766000",
+    "collection": "pokemon",
+    "id": "pokemon-0766000"
+  },
+  {
+    "champout": "0768000",
+    "collection": "pokemon",
+    "id": "pokemon-0768000"
+  },
+  {
+    "champout": "0768001",
+    "collection": "pokemon",
+    "id": "pokemon-0768001"
+  },
+  {
+    "champout": "0778000",
+    "collection": "pokemon",
+    "id": "pokemon-0778000"
+  },
+  {
+    "champout": "0778001",
+    "collection": "pokemon",
+    "id": "pokemon-0778001"
+  },
+  {
+    "champout": "0780000",
+    "collection": "pokemon",
+    "id": "pokemon-0780000"
+  },
+  {
+    "champout": "0780001",
+    "collection": "pokemon",
+    "id": "pokemon-0780001"
+  },
+  {
+    "champout": "0784000",
+    "collection": "pokemon",
+    "id": "pokemon-0784000"
+  },
+  {
+    "champout": "0812000",
+    "collection": "pokemon",
+    "id": "pokemon-0812000"
+  },
+  {
+    "champout": "0815000",
+    "collection": "pokemon",
+    "id": "pokemon-0815000"
+  },
+  {
+    "champout": "0818000",
+    "collection": "pokemon",
+    "id": "pokemon-0818000"
+  },
+  {
+    "champout": "0823000",
+    "collection": "pokemon",
+    "id": "pokemon-0823000"
+  },
+  {
+    "champout": "0828000",
+    "collection": "pokemon",
+    "id": "pokemon-0828000"
+  },
+  {
+    "champout": "0841000",
+    "collection": "pokemon",
+    "id": "pokemon-0841000"
+  },
+  {
+    "champout": "0842000",
+    "collection": "pokemon",
+    "id": "pokemon-0842000"
+  },
+  {
+    "champout": "0844000",
+    "collection": "pokemon",
+    "id": "pokemon-0844000"
+  },
+  {
+    "champout": "0849000",
+    "collection": "pokemon",
+    "id": "pokemon-0849000"
+  },
+  {
+    "champout": "0849001",
+    "collection": "pokemon",
+    "id": "pokemon-0849001"
+  },
+  {
+    "champout": "0853000",
+    "collection": "pokemon",
+    "id": "pokemon-0853000"
+  },
+  {
+    "champout": "0855000",
+    "collection": "pokemon",
+    "id": "pokemon-0855000"
+  },
+  {
+    "champout": "0858000",
+    "collection": "pokemon",
+    "id": "pokemon-0858000"
+  },
+  {
+    "champout": "0861000",
+    "collection": "pokemon",
+    "id": "pokemon-0861000"
+  },
+  {
+    "champout": "0863000",
+    "collection": "pokemon",
+    "id": "pokemon-0863000"
+  },
+  {
+    "champout": "0865000",
+    "collection": "pokemon",
+    "id": "pokemon-0865000"
+  },
+  {
+    "champout": "0866000",
+    "collection": "pokemon",
+    "id": "pokemon-0866000"
+  },
+  {
+    "champout": "0867000",
+    "collection": "pokemon",
+    "id": "pokemon-0867000"
+  },
+  {
+    "champout": "0869000",
+    "collection": "pokemon",
+    "id": "pokemon-0869000"
+  },
+  {
+    "champout": "0870000",
+    "collection": "pokemon",
+    "id": "pokemon-0870000"
+  },
+  {
+    "champout": "0870001",
+    "collection": "pokemon",
+    "id": "pokemon-0870001"
+  },
+  {
+    "champout": "0871000",
+    "collection": "pokemon",
+    "id": "pokemon-0871000"
+  },
+  {
+    "champout": "0876000",
+    "collection": "pokemon",
+    "id": "pokemon-0876000"
+  },
+  {
+    "champout": "0876001",
+    "collection": "pokemon",
+    "id": "pokemon-0876001"
+  },
+  {
+    "champout": "0877000",
+    "collection": "pokemon",
+    "id": "pokemon-0877000"
+  },
+  {
+    "champout": "0877001",
+    "collection": "pokemon",
+    "id": "pokemon-0877001"
+  },
+  {
+    "champout": "0887000",
+    "collection": "pokemon",
+    "id": "pokemon-0887000"
+  },
+  {
+    "champout": "0899000",
+    "collection": "pokemon",
+    "id": "pokemon-0899000"
+  },
+  {
+    "champout": "0900000",
+    "collection": "pokemon",
+    "id": "pokemon-0900000"
+  },
+  {
+    "champout": "0902000",
+    "collection": "pokemon",
+    "id": "pokemon-0902000"
+  },
+  {
+    "champout": "0902001",
+    "collection": "pokemon",
+    "id": "pokemon-0902001"
+  },
+  {
+    "champout": "0903000",
+    "collection": "pokemon",
+    "id": "pokemon-0903000"
+  },
+  {
+    "champout": "0904000",
+    "collection": "pokemon",
+    "id": "pokemon-0904000"
+  },
+  {
+    "champout": "0908000",
+    "collection": "pokemon",
+    "id": "pokemon-0908000"
+  },
+  {
+    "champout": "0911000",
+    "collection": "pokemon",
+    "id": "pokemon-0911000"
+  },
+  {
+    "champout": "0914000",
+    "collection": "pokemon",
+    "id": "pokemon-0914000"
+  },
+  {
+    "champout": "0923000",
+    "collection": "pokemon",
+    "id": "pokemon-0923000"
+  },
+  {
+    "champout": "0925000",
+    "collection": "pokemon",
+    "id": "pokemon-0925000"
+  },
+  {
+    "champout": "0925001",
+    "collection": "pokemon",
+    "id": "pokemon-0925001"
+  },
+  {
+    "champout": "0930000",
+    "collection": "pokemon",
+    "id": "pokemon-0930000"
+  },
+  {
+    "champout": "0931000",
+    "collection": "pokemon",
+    "id": "pokemon-0931000"
+  },
+  {
+    "champout": "0931001",
+    "collection": "pokemon",
+    "id": "pokemon-0931001"
+  },
+  {
+    "champout": "0931002",
+    "collection": "pokemon",
+    "id": "pokemon-0931002"
+  },
+  {
+    "champout": "0931003",
+    "collection": "pokemon",
+    "id": "pokemon-0931003"
+  },
+  {
+    "champout": "0934000",
+    "collection": "pokemon",
+    "id": "pokemon-0934000"
+  },
+  {
+    "champout": "0936000",
+    "collection": "pokemon",
+    "id": "pokemon-0936000"
+  },
+  {
+    "champout": "0937000",
+    "collection": "pokemon",
+    "id": "pokemon-0937000"
+  },
+  {
+    "champout": "0939000",
+    "collection": "pokemon",
+    "id": "pokemon-0939000"
+  },
+  {
+    "champout": "0943000",
+    "collection": "pokemon",
+    "id": "pokemon-0943000"
+  },
+  {
+    "champout": "0952000",
+    "collection": "pokemon",
+    "id": "pokemon-0952000"
+  },
+  {
+    "champout": "0952001",
+    "collection": "pokemon",
+    "id": "pokemon-0952001"
+  },
+  {
+    "champout": "0956000",
+    "collection": "pokemon",
+    "id": "pokemon-0956000"
+  },
+  {
+    "champout": "0959000",
+    "collection": "pokemon",
+    "id": "pokemon-0959000"
+  },
+  {
+    "champout": "0964000",
+    "collection": "pokemon",
+    "id": "pokemon-0964000"
+  },
+  {
+    "champout": "0964001",
+    "collection": "pokemon",
+    "id": "pokemon-0964001"
+  },
+  {
+    "champout": "0968000",
+    "collection": "pokemon",
+    "id": "pokemon-0968000"
+  },
+  {
+    "champout": "0970000",
+    "collection": "pokemon",
+    "id": "pokemon-0970000"
+  },
+  {
+    "champout": "0970001",
+    "collection": "pokemon",
+    "id": "pokemon-0970001"
+  },
+  {
+    "champout": "0972000",
+    "collection": "pokemon",
+    "id": "pokemon-0972000"
+  },
+  {
+    "champout": "0979000",
+    "collection": "pokemon",
+    "id": "pokemon-0979000"
+  },
+  {
+    "champout": "0981000",
+    "collection": "pokemon",
+    "id": "pokemon-0981000"
+  },
+  {
+    "champout": "0983000",
+    "collection": "pokemon",
+    "id": "pokemon-0983000"
+  },
+  {
+    "champout": "0998000",
+    "collection": "pokemon",
+    "id": "pokemon-0998000"
+  },
+  {
+    "champout": "0998001",
+    "collection": "pokemon",
+    "id": "pokemon-0998001"
+  },
+  {
+    "champout": "1000000",
+    "collection": "pokemon",
+    "id": "pokemon-1000000"
+  },
+  {
+    "champout": "1013000",
+    "collection": "pokemon",
+    "id": "pokemon-1013000"
+  },
+  {
     "champout": "1018000",
     "collection": "pokemon",
-    "id": "pokemon-1018000",
-    "opgg": "archaludon"
+    "id": "pokemon-1018000"
   },
   {
     "champout": "1019000",
     "collection": "pokemon",
-    "id": "pokemon-1019000",
-    "opgg": "hydrapple"
-  },
-  {
-    "collection": "pokemon",
-    "opgg": "vileplume-female",
-    "reason": "same-number-stats-abilities-learnset; sex represented on base record",
-    "scope": "cosmetic"
-  },
-  {
-    "collection": "pokemon",
-    "opgg": "blaziken-female",
-    "reason": "same-number-stats-abilities-learnset; sex represented on base record",
-    "scope": "cosmetic"
-  },
-  {
-    "collection": "pokemon",
-    "opgg": "staraptor-female",
-    "reason": "same-number-stats-abilities-learnset; sex represented on base record",
-    "scope": "cosmetic"
-  },
-  {
-    "collection": "pokemon",
-    "opgg": "pyroar-female",
-    "reason": "same-number-stats-abilities-learnset; sex represented on base record",
-    "scope": "cosmetic"
+    "id": "pokemon-1019000"
   }
 ]

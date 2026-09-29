@@ -2,53 +2,53 @@
   "collections": {
     "abilities": {
       "excluded": 0,
-      "fieldsExpected": 1256,
-      "fieldsPublished": 838,
-      "inventoried": 314,
+      "fieldsExpected": 860,
+      "fieldsPublished": 860,
+      "inventoried": 215,
       "recordsPublished": 215
     },
     "battle-rules": {
       "excluded": 0,
       "fieldsExpected": 64,
-      "fieldsPublished": 24,
+      "fieldsPublished": 64,
       "inventoried": 16,
-      "recordsPublished": 6
+      "recordsPublished": 16
     },
     "effects": {
       "excluded": 0,
-      "fieldsExpected": 360,
-      "fieldsPublished": 293,
-      "inventoried": 72,
-      "recordsPublished": 72
+      "fieldsExpected": 370,
+      "fieldsPublished": 370,
+      "inventoried": 74,
+      "recordsPublished": 74
     },
     "interactions": {
-      "associationsAwaitingClassification": 312,
+      "associationsAwaitingClassification": 0,
       "excluded": 0,
-      "fieldsExpected": 447,
-      "fieldsPublished": 447,
-      "inventoried": 149,
-      "recordsPublished": 149
+      "fieldsExpected": 462,
+      "fieldsPublished": 462,
+      "inventoried": 154,
+      "recordsPublished": 154
     },
     "items": {
       "excluded": 0,
       "fieldsExpected": 996,
-      "fieldsPublished": 851,
+      "fieldsPublished": 996,
       "inventoried": 166,
-      "recordsPublished": 162
+      "recordsPublished": 166
     },
     "learnsets": {
-      "excluded": 3,
-      "fieldsExpected": 88884,
-      "fieldsPublished": 85984,
-      "inventoried": 22224,
-      "recordsPublished": 21496
+      "excluded": 278,
+      "fieldsExpected": 87720,
+      "fieldsPublished": 87720,
+      "inventoried": 22208,
+      "recordsPublished": 21930
     },
     "moves": {
-      "excluded": 405,
-      "fieldsExpected": 10304,
-      "fieldsPublished": 9509,
+      "excluded": 408,
+      "fieldsExpected": 12288,
+      "fieldsPublished": 12288,
       "inventoried": 920,
-      "recordsPublished": 502
+      "recordsPublished": 512
     },
     "natures": {
       "excluded": 0,
@@ -60,42 +60,1015 @@
     "pokemon": {
       "excluded": 0,
       "fieldsExpected": 5310,
-      "fieldsPublished": 5194,
+      "fieldsPublished": 5310,
       "inventoried": 354,
-      "recordsPublished": 351
+      "recordsPublished": 354
     },
     "regulations": {
       "excluded": 0,
-      "fieldsExpected": 29,
-      "fieldsPublished": 8,
-      "inventoried": 3,
+      "fieldsExpected": 6,
+      "fieldsPublished": 6,
+      "inventoried": 1,
       "recordsPublished": 1
     },
     "species": {
       "excluded": 0,
       "fieldsExpected": 924,
-      "fieldsPublished": 915,
+      "fieldsPublished": 924,
       "inventoried": 231,
       "recordsPublished": 231
     },
     "types": {
       "excluded": 0,
-      "fieldsExpected": 378,
-      "fieldsPublished": 378,
+      "fieldsExpected": 72,
+      "fieldsPublished": 72,
       "inventoried": 18,
       "recordsPublished": 18
     }
   },
   "complete": false,
   "pendingByReason": {
-    "association-needs-semantic-review": 1,
-    "association-not-fully-classified": 312,
-    "conflict": 634,
-    "missing": 275,
-    "missing-endpoint": 11,
-    "uncorroborated": 2038
+    "not-fully-structured": 1
   },
-  "pendingCount": 3271,
-  "scope": "Inventario reconciliado de los catálogos capturados; las asociaciones sin clasificación y mecánicas aún no modeladas siguen pendientes.",
+  "pendingCount": 1,
+  "scope": "Tablas y textos de champout en el commit capturado, con complementos limitados a los 147 huecos autorizados. No certifica legalidad integral ni cobertura completa de mecánicas.",
+  "sourcePolicy": {
+    "availability": "Presencia y banderas de las tablas capturadas; no equivale a legalidad en un reglamento ni garantiza que el volcado incorpore el último parche.",
+    "locale": "esp",
+    "minimumProviders": 1,
+    "missing": "Solo los 147 huecos autorizados pueden completarse con otro proveedor. Champout siempre prevalece cuando aporta el campo.",
+    "mode": "champout-primary",
+    "provider": "champout",
+    "supplementalClaims": {
+      "battle-rules/ability-copying/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/ability-copying/available"
+      },
+      "battle-rules/ability-copying/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/ability-copying/identity"
+      },
+      "battle-rules/ability-copying/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/ability-copying/name"
+      },
+      "battle-rules/ability-copying/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/ability-copying/rule"
+      },
+      "battle-rules/accuracy-evasion/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/available"
+      },
+      "battle-rules/accuracy-evasion/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/identity"
+      },
+      "battle-rules/accuracy-evasion/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/name"
+      },
+      "battle-rules/accuracy-evasion/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/rule"
+      },
+      "battle-rules/critical-hits/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/critical-hits/available"
+      },
+      "battle-rules/critical-hits/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/critical-hits/identity"
+      },
+      "battle-rules/critical-hits/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/critical-hits/name"
+      },
+      "battle-rules/critical-hits/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/critical-hits/rule"
+      },
+      "battle-rules/damage-calculation/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/damage-calculation/available"
+      },
+      "battle-rules/damage-calculation/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/damage-calculation/identity"
+      },
+      "battle-rules/damage-calculation/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/damage-calculation/name"
+      },
+      "battle-rules/damage-calculation/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/damage-calculation/rule"
+      },
+      "battle-rules/mega-evolution/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/mega-evolution/available"
+      },
+      "battle-rules/mega-evolution/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/mega-evolution/identity"
+      },
+      "battle-rules/mega-evolution/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/mega-evolution/name"
+      },
+      "battle-rules/mega-evolution/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/mega-evolution/rule"
+      },
+      "battle-rules/move-copying/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/move-copying/available"
+      },
+      "battle-rules/move-copying/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/move-copying/identity"
+      },
+      "battle-rules/move-copying/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/move-copying/name"
+      },
+      "battle-rules/move-copying/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/move-copying/rule"
+      },
+      "battle-rules/stat-calculation/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-calculation/available"
+      },
+      "battle-rules/stat-calculation/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-calculation/identity"
+      },
+      "battle-rules/stat-calculation/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-calculation/name"
+      },
+      "battle-rules/stat-calculation/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-calculation/rule"
+      },
+      "battle-rules/stat-stages/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-stages/available"
+      },
+      "battle-rules/stat-stages/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-stages/identity"
+      },
+      "battle-rules/stat-stages/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-stages/name"
+      },
+      "battle-rules/stat-stages/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/stat-stages/rule"
+      },
+      "battle-rules/switching/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/switching/available"
+      },
+      "battle-rules/switching/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/switching/identity"
+      },
+      "battle-rules/switching/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/switching/name"
+      },
+      "battle-rules/switching/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/switching/rule"
+      },
+      "battle-rules/turn-order/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/turn-order/available"
+      },
+      "battle-rules/turn-order/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/turn-order/identity"
+      },
+      "battle-rules/turn-order/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/turn-order/name"
+      },
+      "battle-rules/turn-order/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/turn-order/rule"
+      },
+      "interactions/item-673--0448000/available": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-673--0448000"
+      },
+      "interactions/item-673--0448000/identity": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-673--0448000"
+      },
+      "interactions/item-673--0448000/rule": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-673--0448000"
+      },
+      "interactions/item-677--0359000/available": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-677--0359000"
+      },
+      "interactions/item-677--0359000/identity": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-677--0359000"
+      },
+      "interactions/item-677--0359000/rule": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-677--0359000"
+      },
+      "interactions/item-683--0445000/available": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-683--0445000"
+      },
+      "interactions/item-683--0445000/identity": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-683--0445000"
+      },
+      "interactions/item-683--0445000/rule": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "interactions/item-683--0445000"
+      },
+      "items/item-236/restrictions": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "items/item-236/restrictions"
+      },
+      "items/item-259/restrictions": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "items/item-259/restrictions"
+      },
+      "moves/move-037/target": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "moves/move-037/target"
+      },
+      "moves/move-080/target": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "moves/move-080/target"
+      },
+      "moves/move-165/description": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "moves/move-165/description"
+      },
+      "moves/move-165/target": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "moves/move-165/target"
+      },
+      "moves/move-200/target": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "moves/move-200/target"
+      },
+      "moves/move-253/target": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "moves/move-253/target"
+      },
+      "moves/move-833/target": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "moves/move-833/target"
+      },
+      "natures/adamant/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/adamant/decreased"
+      },
+      "natures/adamant/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/adamant/increased"
+      },
+      "natures/adamant/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/adamant/multipliers"
+      },
+      "natures/bashful/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/bashful/decreased"
+      },
+      "natures/bashful/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/bashful/increased"
+      },
+      "natures/bashful/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/bashful/multipliers"
+      },
+      "natures/bold/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/bold/decreased"
+      },
+      "natures/bold/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/bold/increased"
+      },
+      "natures/bold/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/bold/multipliers"
+      },
+      "natures/brave/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/brave/decreased"
+      },
+      "natures/brave/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/brave/increased"
+      },
+      "natures/brave/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/brave/multipliers"
+      },
+      "natures/calm/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/calm/decreased"
+      },
+      "natures/calm/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/calm/increased"
+      },
+      "natures/calm/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/calm/multipliers"
+      },
+      "natures/careful/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/careful/decreased"
+      },
+      "natures/careful/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/careful/increased"
+      },
+      "natures/careful/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/careful/multipliers"
+      },
+      "natures/docile/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/docile/decreased"
+      },
+      "natures/docile/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/docile/increased"
+      },
+      "natures/docile/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/docile/multipliers"
+      },
+      "natures/gentle/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/gentle/decreased"
+      },
+      "natures/gentle/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/gentle/increased"
+      },
+      "natures/gentle/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/gentle/multipliers"
+      },
+      "natures/hardy/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/hardy/decreased"
+      },
+      "natures/hardy/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/hardy/increased"
+      },
+      "natures/hardy/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/hardy/multipliers"
+      },
+      "natures/hasty/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/hasty/decreased"
+      },
+      "natures/hasty/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/hasty/increased"
+      },
+      "natures/hasty/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/hasty/multipliers"
+      },
+      "natures/impish/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/impish/decreased"
+      },
+      "natures/impish/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/impish/increased"
+      },
+      "natures/impish/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/impish/multipliers"
+      },
+      "natures/jolly/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/jolly/decreased"
+      },
+      "natures/jolly/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/jolly/increased"
+      },
+      "natures/jolly/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/jolly/multipliers"
+      },
+      "natures/lax/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/lax/decreased"
+      },
+      "natures/lax/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/lax/increased"
+      },
+      "natures/lax/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/lax/multipliers"
+      },
+      "natures/lonely/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/lonely/decreased"
+      },
+      "natures/lonely/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/lonely/increased"
+      },
+      "natures/lonely/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/lonely/multipliers"
+      },
+      "natures/mild/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/mild/decreased"
+      },
+      "natures/mild/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/mild/increased"
+      },
+      "natures/mild/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/mild/multipliers"
+      },
+      "natures/modest/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/modest/decreased"
+      },
+      "natures/modest/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/modest/increased"
+      },
+      "natures/modest/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/modest/multipliers"
+      },
+      "natures/naive/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/naive/decreased"
+      },
+      "natures/naive/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/naive/increased"
+      },
+      "natures/naive/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/naive/multipliers"
+      },
+      "natures/naughty/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/naughty/decreased"
+      },
+      "natures/naughty/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/naughty/increased"
+      },
+      "natures/naughty/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/naughty/multipliers"
+      },
+      "natures/quiet/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/quiet/decreased"
+      },
+      "natures/quiet/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/quiet/increased"
+      },
+      "natures/quiet/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/quiet/multipliers"
+      },
+      "natures/quirky/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/quirky/decreased"
+      },
+      "natures/quirky/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/quirky/increased"
+      },
+      "natures/quirky/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/quirky/multipliers"
+      },
+      "natures/rash/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/rash/decreased"
+      },
+      "natures/rash/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/rash/increased"
+      },
+      "natures/rash/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/rash/multipliers"
+      },
+      "natures/relaxed/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/relaxed/decreased"
+      },
+      "natures/relaxed/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/relaxed/increased"
+      },
+      "natures/relaxed/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/relaxed/multipliers"
+      },
+      "natures/sassy/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/sassy/decreased"
+      },
+      "natures/sassy/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/sassy/increased"
+      },
+      "natures/sassy/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/sassy/multipliers"
+      },
+      "natures/serious/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/serious/decreased"
+      },
+      "natures/serious/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/serious/increased"
+      },
+      "natures/serious/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/serious/multipliers"
+      },
+      "natures/timid/decreased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/timid/decreased"
+      },
+      "natures/timid/increased": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "natures/timid/increased"
+      },
+      "natures/timid/multipliers": {
+        "providers": [
+          "opgg",
+          "showdown"
+        ],
+        "scope": "natures/timid/multipliers"
+      },
+      "regulations/m-c/available": {
+        "providers": [
+          "pokemon"
+        ],
+        "scope": "regulations/current"
+      },
+      "regulations/m-c/identity": {
+        "providers": [
+          "pokemon"
+        ],
+        "scope": "regulations/current"
+      },
+      "regulations/m-c/name": {
+        "providers": [
+          "pokemon"
+        ],
+        "scope": "regulations/current"
+      },
+      "regulations/m-c/rules": {
+        "providers": [
+          "pokemon"
+        ],
+        "scope": "regulations/current"
+      },
+      "regulations/m-c/validFrom": {
+        "providers": [
+          "pokemon"
+        ],
+        "scope": "regulations/current"
+      },
+      "regulations/m-c/validUntil": {
+        "providers": [
+          "pokemon"
+        ],
+        "scope": "regulations/current"
+      },
+      "types/bug/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/bug/effectiveness"
+      },
+      "types/dark/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/dark/effectiveness"
+      },
+      "types/dragon/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/dragon/effectiveness"
+      },
+      "types/electric/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/electric/effectiveness"
+      },
+      "types/fairy/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/fairy/effectiveness"
+      },
+      "types/fighting/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/fighting/effectiveness"
+      },
+      "types/fire/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/fire/effectiveness"
+      },
+      "types/flying/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/flying/effectiveness"
+      },
+      "types/ghost/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/ghost/effectiveness"
+      },
+      "types/grass/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/grass/effectiveness"
+      },
+      "types/ground/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/ground/effectiveness"
+      },
+      "types/ice/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/ice/effectiveness"
+      },
+      "types/normal/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/normal/effectiveness"
+      },
+      "types/poison/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/poison/effectiveness"
+      },
+      "types/psychic/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/psychic/effectiveness"
+      },
+      "types/rock/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/rock/effectiveness"
+      },
+      "types/steel/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/steel/effectiveness"
+      },
+      "types/water/effectiveness": {
+        "providers": [
+          "opgg"
+        ],
+        "scope": "types/water/effectiveness"
+      }
+    },
+    "supplementalScope": "rules/supplemental-scope.json"
+  },
   "unknownIsNotImpossible": true
 }

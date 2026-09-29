@@ -1,3 +1,5 @@
+> Investigación histórica. Desde el 29 de septiembre de 2026, por decisión del propietario, champout es la fuente principal y otras fuentes cubren únicamente los 147 huecos autorizados. Las recomendaciones de contraste de este documento no describen la política activa; véase [aprovisionamiento.md](aprovisionamiento.md).
+
 # Fuentes de datos para ChampionsDB
 
 Investigación realizada el 28 de septiembre de 2026. Objetivo: tablas con filtros de Pokémon Champions en español de España, publicadas en `https://disboard.es/ChampionsDB/`.

@@ -443,7 +443,7 @@ export function displayValue(value, graph) {
   if (value === true) return "Sí";
   if (value === false) return "No";
   if (value === null) return "No modifica";
-  if (value === undefined) return "Pendiente";
+  if (value === undefined) return "Sin dato";
   if (typeof value === "string" && graph) {
     for (const map of Object.values(graph.maps)) {
       const r = map.get(value);

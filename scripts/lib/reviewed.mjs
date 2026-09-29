@@ -3,8 +3,8 @@ import {hash,json} from './io.mjs';
 export function applyReviewed(store,reviewed){
   for(const rule of reviewed.rules||[]){
     const evidence=rule.bindings.map(binding=>(store.claims.get(binding.claim)||[]).find(o=>o.document===binding.document&&o.locator===binding.locator&&hash(json(o.observed))===binding.observedHash));
-    store.expect(rule.collection,rule.entity);
-    if(evidence.some(e=>!e)||new Set(evidence.map(e=>e.provider)).size<2){
+    if(!store.inventory.has(`${rule.collection}/${rule.entity}`))store.expect(rule.collection,rule.entity);
+    if(evidence.some(e=>!e||(store.policy?.provider&&e.provider!==store.policy.provider))||new Set(evidence.map(e=>e.provider)).size<(store.policy?.minimumProviders||2)){
       store.extraPending.push({claim:`${rule.collection}/${rule.entity}/${rule.field}`,reason:'review-evidence-changed',review:rule.id});continue;
     }
     for(const o of evidence){

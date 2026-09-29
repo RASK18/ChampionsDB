@@ -2,7 +2,9 @@
 
 Base estática de datos de combate de **Pokémon Champions**, en español de España. JSON y JavaScript ESM, sin servidor ni base de datos. Incluye una web de tablas y filtros combinables preparada para `https://disboard.es/ChampionsDB/`. El despliegue en GitHub queda pendiente de configurar el remoto y activar Pages.
 
-**La cobertura es parcial y se mide explícitamente.** Solo se publican campos y relaciones corroborados por dos proveedores distintos. Los conflictos, las ausencias y las reglas aún sin interpretar se enumeran en [el informe de pendientes](data/reports/pending.json). No se incluyen datos de uso, tiers, winrates ni recomendaciones competitivas.
+**La cobertura es parcial y se mide explícitamente.** La fuente principal es **champout**, con los textos `esp`. Otras fuentes específicas de Champions completan únicamente los 147 huecos autorizados. Se publican sus datos sin exigir un segundo proveedor, conservando evidencias y validación de integridad. Las ausencias y las reglas aún sin interpretar se enumeran en [el informe de pendientes](data/reports/pending.json). No se incluyen datos de uso, tiers, winrates ni recomendaciones competitivas.
+
+La captura representa el commit de champout, no una certificación de la versión vigente del juego. OP.GG, el módulo Champions de Showdown y el anuncio oficial completan 146 de esos huecos. Sigue pendiente el marcador global de todas las interacciones y excepciones de combate; no equivale a un único dato. Véase [el alcance y sus fuentes](docs/suplementos.md).
 
 ## Uso
 
@@ -17,7 +19,7 @@ npm run data:rebuild
 npm run site:dev
 ```
 
-- `data:update`: descarga las fuentes, reutiliza capturas inmutables, normaliza, contrasta, valida y publica una generación completa.
+- `data:update`: descarga champout y los complementos autorizados, reutiliza capturas inmutables, normaliza, valida y publica una generación completa.
 - `data:validate`: verifica todos los registros, referencias, evidencias, esquemas y huellas del conjunto publicado.
 - `data:rebuild`: reconstruye sin red a partir del manifiesto y las capturas locales. Una ejecución sin cambios conserva los archivos y su informe de cambios.
 - `site:build`: genera la web completa en `dist/`, con cobertura compacta y evidencias por entidad.
@@ -42,7 +44,7 @@ db.relatedToEffect('paralysis');
 db.conditions();
 db.berries();
 db.megaStones();
-db.regulation('m-c');
+db.regulation('m-c'); // Reglamento oficial, periodo y restricciones documentadas; no valida un equipo completo.
 ```
 
 Los índices se generan una vez en memoria. Lluvia distingue creación directa y rutas condicionales mediante copia de habilidades; no presenta Nado Rápido como productor. La elegibilidad de una habilidad copiada **no se evalúa como en un simulador**: la ruta devuelve los requisitos pendientes de cumplir.
@@ -59,7 +61,8 @@ Este repositorio todavía no tiene remoto configurado. Para activar el workflow 
 - [Web: filtros, arquitectura, pruebas y activación de GitHub Pages](docs/web.md).
 - [Fuentes, normalización y límites de cobertura](docs/aprovisionamiento.md).
 - [Operación, reconstrucción y revisión de nuevas mecánicas](docs/operacion.md).
+- [Complementos de los 147 huecos y límites](docs/suplementos.md).
 - [Registro de proveedores y dependencias conocidas](sources/providers.json).
-- [Reglas y equivalencias revisadas, vinculadas a sus evidencias](rules/reviewed.json).
+- [Reglas y equivalencias revisadas, vinculadas a sus evidencias](rules/champout-reviewed.json).
 
 El código conserva la licencia del repositorio. Los nombres y textos de Pokémon y las fuentes externas mantienen sus respectivos derechos; no se les atribuye automáticamente la licencia del código.
