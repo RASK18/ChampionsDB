@@ -22,7 +22,7 @@ La construcción comprueba las huellas de los JSON de combate, genera el catálo
 
 Los ocho accesos principales incluyen vistas adicionales de especies, aprendizajes, interacciones y reglamentos. Las tablas usan 50 filas por página (25/50/100), columna de identificación y cabecera fijas. El selector de columnas ofrece todos los campos, incluidos los parámetros y requisitos anidados. La tabla de tipos permite alternar a la matriz atacante → defensor. El detalle incluye campos, relaciones y evidencias a petición.
 
-La configuración se conserva en memoria por sección y se pierde al recargar. No se escriben preferencias en localStorage, sessionStorage, cookies ni URL. El tema inicial sigue el sistema; el cambio manual dura la visita. Los enlaces a una tabla relacionada reemplazan su consulta por una selección explícita, que admite nuevas condiciones y puede eliminarse desde el editor avanzado.
+La búsqueda y el árbol de filtros de Pokémon se conservan en la entrada actual del historial del navegador al recargar o regresar a la página. Las demás preferencias se conservan en memoria por sección y se pierden al recargar. No se escriben preferencias en localStorage, sessionStorage, cookies ni URL; la búsqueda conservada no es un enlace compartible. El tema inicial sigue el sistema; el cambio manual dura la visita. Los enlaces a una tabla relacionada reemplazan su consulta por una selección explícita, que admite nuevas condiciones y puede eliminarse desde el editor avanzado.
 
 ### Árbol de consulta
 
@@ -41,7 +41,15 @@ Ejemplo de árbol: Pokémon que aprenden un movimiento de Agua y Especial de pot
 }
 ```
 
-Los controles rápidos y avanzados editan el mismo árbol. Las operaciones de conjunto admiten alguno, todos, ninguno y conjunto exacto. `none` en un grupo significa «no cumple ninguna», equivalente a negar `any`. Los valores de una lista avanzada se eligen con selección múltiple; los filtros rápidos ofrecen casillas. El buscador normaliza tildes y mayúsculas; no admite expresiones regulares.
+Los controles de exploración y avanzados editan el mismo árbol. Las operaciones de conjunto admiten alguno, todos, ninguno y conjunto exacto. `none` en un grupo significa «no cumple ninguna», equivalente a negar `any`. Los valores de una lista avanzada se eligen con selección múltiple; los filtros rápidos de las demás tablas ofrecen casillas. El buscador normaliza tildes y mayúsculas; no admite expresiones regulares.
+
+### Exploración visual de Pokémon
+
+La vista Pokémon ofrece ejemplos editables de necesidades de equipo y un constructor en lenguaje natural para combinar habilidad, tipo, estadística, un movimiento aprendido, cobertura ofensiva, defensa por tipo y el rol exploratorio «Atacante para Espacio Raro». Las propiedades dentro de «Debe aprender un movimiento que…» se aplican al **mismo movimiento**. «Todos los campos» conserva el árbol general para grupos anidados y relaciones adicionales. Los resultados confirmados muestran testigos de las condiciones en «Por qué coincide»; los posibles explican el dato que falta. Los ejemplos sustituyen la búsqueda textual anterior para que un texto oculto no vacíe sus resultados.
+
+«Cobertura frente a todos los tipos» exige un movimiento ofensivo conocido que cause daño al menos neutral contra cada uno de los 18 tipos por separado. «Supereficaz contra un tipo» exige multiplicador mayor que 1. No se calculan combinaciones de dos tipos, daño real, disponibilidad simultánea en un set de cuatro movimientos ni la legalidad de una build. Sin testigo y con aprendizajes abiertos, el resultado sigue siendo posible.
+
+Las etiquetas «Movimiento de cambio» y «Multigolpe» usan listas de IDs revisadas contra los datos de `pokemon-showdown` 0.11.11 y las descripciones publicadas. «Limita acciones del rival» usa exclusivamente `properties.coercion` de champout: Anulación, Atracción, Otra Vez, Tormento y Mofa. No incluye todo el apoyo o control de velocidad. Los IDs revisados están fijados en `site/move-tags.mjs`; la prueba de cobertura exige revisar cualquier ID nuevo antes de publicarlo.
 
 ### Cobertura y límites
 

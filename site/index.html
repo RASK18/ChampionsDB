@@ -38,7 +38,7 @@
             <div class="eyebrow">EXPLORA EL CATÁLOGO</div>
             <h1 id="title">Pokémon</h1>
             <p id="subtitle">
-              Una fila por forma. Todas las posibilidades, con sus requisitos.
+              Encuentra Pokémon para probar ideas de equipo y builds.
             </p>
           </div>
           <button
@@ -50,6 +50,13 @@
           </button>
         </div>
         <div id="subnav"></div>
+        <section id="inspiration" class="inspiration" aria-labelledby="inspiration-title">
+          <div>
+            <h2 id="inspiration-title">¿Qué necesitas para tu equipo?</h2>
+            <p>Prueba una búsqueda y cambia después cualquiera de sus condiciones.</p>
+          </div>
+          <div id="idea-list" class="idea-list"></div>
+        </section>
         <div class="layout">
           <aside id="filters" aria-label="Filtros">
             <div class="filter-heading">
@@ -57,9 +64,10 @@
               <button id="reset" class="text-button">Restablecer</button>
             </div>
             <div class="filter-tabs">
-              <button id="quick-tab" aria-pressed="true">Rápidos</button
-              ><button id="advanced-tab" aria-pressed="false">Avanzados</button>
+              <button id="quick-tab" aria-pressed="true">Explorar</button
+              ><button id="advanced-tab" aria-pressed="false">Todos los campos</button>
             </div>
+            <button id="jump-results" type="button">Ver resultados</button>
             <div id="filter-editor"></div>
             <div id="filter-summary" class="filter-summary"></div>
             <p class="help">
@@ -81,7 +89,7 @@
             </div>
             <div id="columns-panel" class="settings" hidden></div>
             <div id="sort-panel" class="settings" hidden></div>
-            <div class="result-line">
+            <div class="result-line" aria-live="polite" aria-atomic="true">
               <div class="result-tabs">
                 <button id="confirmed-tab" aria-pressed="true">
                   Confirmados <strong id="confirmed-count">0</strong></button
@@ -91,6 +99,7 @@
               </div>
               <span id="result-note" class="muted"></span>
             </div>
+            <p class="table-hint">Desliza la tabla para ver habilidades y estadísticas →</p>
             <div id="table-wrap" class="table-wrap"></div>
             <div id="pagination" class="pagination"></div>
           </section>

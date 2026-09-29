@@ -32,6 +32,8 @@ test("carga diferida, paginación, búsqueda, memoria de sección y recarga", as
         .some((r) => r.name.includes("/learnsets.json")),
     ),
   ).toBe(false);
+  expect(await page.evaluate(() => performance.getEntriesByType("resource")
+    .some((r) => r.name.includes("/moves.json")))).toBe(false);
   await expect(page.locator("tbody tr")).toHaveCount(50);
   await page.getByRole("button", { name: "Siguiente", exact: true }).click();
   await expect(page.locator("#pagination")).toContainText("51–100");
@@ -49,39 +51,80 @@ test("carga diferida, paginación, búsqueda, memoria de sección y recarga", as
   await expect(page.getByRole("searchbox")).toHaveValue("Venusaur");
   await expect(page.locator("tbody tr")).toHaveCount(2);
   await page.reload();
-  await expect(page.getByRole("searchbox")).toHaveValue("");
-  await expect(page.locator("tbody tr")).toHaveCount(50);
+  await expect(page.locator("#search")).toHaveValue("Venusaur");
+  await expect(page.locator("tbody tr")).toHaveCount(2);
 });
-test("filtro rápido inclusivo y exclusivo refleja el mismo grupo avanzado", async ({
+test("un usuario añade y excluye un tipo desde el explorador", async ({
   page,
 }) => {
-  const types = page
-    .locator(".quick-field")
-    .filter({ has: page.getByText("Tipos", { exact: true }) });
-  await types.locator("summary").click();
-  await types.getByLabel("Agua", { exact: true }).check();
+  await page.getByLabel("Añadir criterio").selectOption("type");
+  const typeCard = page.locator(".explore-card");
+  await typeCard.getByLabel("Tipo", { exact: true }).selectOption("water");
   await expect(page.locator("#filter-summary")).toContainText("Agua");
   const count = Number(
     (await page.locator("#confirmed-count").innerText()).replaceAll(".", ""),
   );
   expect(count).toBeGreaterThan(0);
   expect(count).toBeLessThan(1000);
-  await types.getByLabel("Operación de Tipos").selectOption("none");
-  await expect(page.locator("#filter-summary")).toContainText(
-    "No contiene ninguno",
-  );
-  await page.getByRole("button", { name: "Avanzados", exact: true }).click();
+  await typeCard.getByLabel("Condición").selectOption("exclude");
+  await expect(page.locator("#filter-summary")).toContainText("Ninguna");
+  await page.getByRole("button", { name: "Todos los campos", exact: true }).click();
   await expect(page.getByLabel("Campo", { exact: true })).toHaveValue(
     "typeIds",
   );
   await expect(page.getByLabel("Operador", { exact: true })).toHaveValue(
-    "none",
+    "some",
   );
+});
+test("las cinco búsquedas guiadas crean condiciones editables y explican coincidencias", async ({ page }) => {
+  await page.getByRole("searchbox").fill("Venusaur");
+  for (const title of [
+    "Intimidación y cambio", "Cobertura amplia", "Atacante para Espacio Raro",
+    "Bromista y control", "Experto y multigolpe",
+  ]) {
+    await page.getByRole("button", { name: new RegExp(`^${title}`) }).click();
+    await expect(page.locator("#search")).toHaveValue("");
+    await expect(page.locator("#confirmed-count")).not.toHaveText("0");
+    await expect(page.locator(".explore-card").first()).toBeVisible();
+    if (title === "Intimidación y cambio") {
+      const countBeforeReload = await page.locator("#confirmed-count").innerText();
+      await page.reload();
+      await expect(page.locator("#confirmed-count")).toHaveText(countBeforeReload);
+      await expect(page.locator(".explore-card")).toHaveCount(2);
+    }
+  }
+  const movement = page.locator(".explore-card").filter({ hasText: "Debe aprender un movimiento que" });
+  await expect(movement).toContainText("mismo movimiento");
+  await movement.getByLabel("Potencia", { exact: true }).fill("20");
+  await expect(page.locator("#filter-summary")).toContainText("20");
+  await movement.getByLabel("Potencia", { exact: true }).fill("60");
+  await expect(page.locator("#confirmed-count")).not.toHaveText("0");
+  await page.locator("tbody .why summary").first().click();
+  await expect(page.locator("tbody .why li").first()).toContainText(/Experto|Aprende|Velocidad/);
+  await movement.getByLabel("Propiedad del movimiento").first().selectOption("id");
+  await page.getByRole("button", { name: "Todos los campos", exact: true }).click();
+  await expect(page.locator(".relation .clause").getByLabel("Movimiento", { exact: true })).toBeVisible();
+  for (const title of ["Atacante especial rápido", "Prioridad ofensiva"]) {
+    await page.getByRole("button", { name: new RegExp(`^${title}`) }).click();
+    await expect(page.locator("#confirmed-count")).not.toHaveText("0");
+  }
+});
+test("el rol editado muestra sus criterios actuales y el motivo posible es visible en móvil", async ({ page }) => {
+  await page.getByRole("button", { name: /^Atacante para Espacio Raro/ }).click();
+  await page.getByRole("button", { name: "Todos los campos", exact: true }).click();
+  await page.getByLabel("Valor", { exact: true }).first().fill("100");
+  await page.getByRole("button", { name: "Explorar", exact: true }).click();
+  await expect(page.locator(".explore-card .card-hint")).toContainText("Velocidad ≤ 100");
+  await page.setViewportSize({ width: 375, height: 812 });
+  await page.getByRole("button", { name: /^Experto y multigolpe/ }).click();
+  await page.locator("#possible-tab").click();
+  await expect(page.locator("tbody .mobile-reason").first()).toBeVisible();
+  await expect(page.locator("tbody .mobile-reason").first()).toContainText("cobertura");
 });
 test("relación anidada y resultados desconocidos; columnas y ordenación", async ({
   page,
 }) => {
-  await page.getByRole("button", { name: "Avanzados", exact: true }).click();
+  await page.getByRole("button", { name: "Todos los campos", exact: true }).click();
   await page.getByRole("button", { name: "+ Relación", exact: true }).click();
   await page.getByLabel("Relación", { exact: true }).selectOption("moves");
   await page.getByLabel("Cuantificador").selectOption("none");
@@ -199,7 +242,7 @@ test("aprendizajes paginados con nombres resueltos y filtros sobre datos anidado
   await page
     .getByRole("button", { name: "Interacciones", exact: true })
     .click();
-  await page.getByRole("button", { name: "Avanzados", exact: true }).click();
+  await page.getByRole("button", { name: "Todos los campos", exact: true }).click();
   await page.getByRole("button", { name: "+ Condición", exact: true }).click();
   await page.getByLabel("Campo", { exact: true }).selectOption("rule.relation");
   await page
