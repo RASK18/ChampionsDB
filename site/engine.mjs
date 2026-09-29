@@ -7,6 +7,7 @@ import {
   referenceCollection,
 } from "./catalog.mjs";
 import { createIndexes } from "../lib/queries.mjs";
+import { moveTraits } from "./move-tags.mjs";
 export const UNKNOWN = null;
 export const fold = (s) =>
   String(s)
@@ -162,12 +163,16 @@ export function createGraph(data, coverage = {}) {
           back("learn-p", row.id).map((l) => l.moveId),
         );
       if (key === "interactions" || key === "effects") {
-        const ids = new Set([
-          ...(row.abilityIds || []),
-          ...back("learn-p", row.id).map((l) => l.moveId),
-        ]);
+        const known = [
+          ["pokemon", row],
+          ...lookup("abilities", row.abilityIds).map((r) => ["abilities", r]),
+          ...lookup("moves", back("learn-p", row.id).map((l) => l.moveId)).map((r) => ["moves", r]),
+        ];
         rows = full.interactions.filter(
-          (i) => ids.has(i.rule.source.id) || matches(i.rule.target, c, row),
+          (i) => known.some(([collection, record]) =>
+            matches(i.rule.source, collection, record) ||
+            matches(i.rule.target, collection, record),
+          ),
         );
         if (key === "effects")
           rows = rows.flatMap((i) =>
@@ -338,8 +343,61 @@ export function countResult(min, max, op, value) {
       ? false
       : null;
 }
+function pokemonCoverage(row, target, graph) {
+  const learned = graph.related("pokemon", row, "moves");
+  const defenders = target === "all"
+    ? graph.data.types
+    : [graph.maps.types.get(target)].filter(Boolean);
+  if (!defenders.length) return null;
+  let unknown = !learned.complete;
+  const attackTypes = new Map();
+  for (const move of learned.rows) {
+    if (move.category === "status" || move.power?.kind === "not-applicable") continue;
+    if (!["physical", "special"].includes(move.category) || !move.power?.kind ||
+      (move.power.kind === "fixed" && !(move.power.value > 0))) {
+      unknown = true;
+      continue;
+    }
+    const attackType = graph.maps.types.get(move.typeId);
+    if (attackType) attackTypes.set(attackType.id, attackType);
+    else unknown = true;
+  }
+  const checks = defenders.map((defender) => {
+    for (const attackType of attackTypes.values()) {
+      const multiplier = attackType?.effectiveness?.[defender.id];
+      if (typeof multiplier !== "number") continue;
+      if (target === "all" ? multiplier >= 1 : multiplier > 1) return true;
+    }
+    return unknown || [...attackTypes.values()].some((type) =>
+      typeof type.effectiveness?.[defender.id] !== "number") ? null : false;
+  });
+  // A claim about every type needs the complete defensive type catalogue.
+  if (target === "all" && graph.data.types.length !== 18) checks.push(null);
+  return and(checks);
+}
+function pokemonDefense(row, typeId, mode, graph) {
+  if (!["resist", "immune", "weak"].includes(mode)) return null;
+  if (!Array.isArray(row.typeIds)) return null;
+  const attackType = graph.maps.types.get(typeId);
+  if (!attackType) return null;
+  const factors = row.typeIds.map((id) => attackType.effectiveness?.[id]);
+  if (factors.includes(0)) return mode === "immune";
+  if (factors.some((factor) => typeof factor !== "number")) return null;
+  const multiplier = factors.reduce((value, factor) => value * factor, 1);
+  return mode === "immune" ? false : mode === "weak" ? multiplier > 1 : multiplier > 0 && multiplier < 1;
+}
 export function evaluate(node, c, row, graph) {
   if (!node) return true;
+  if (node.kind === "moveTrait") {
+    const value = c === "moves" ? moveTraits(row)[node.trait] : undefined;
+    return typeof value === "boolean" ? value : null;
+  }
+  if (node.kind === "coverage")
+    return c === "pokemon" ? pokemonCoverage(row, node.target, graph) : null;
+  if (node.kind === "defense")
+    return c === "pokemon"
+      ? pokemonDefense(row, node.typeId, node.mode, graph)
+      : null;
   if (node.kind === "group") {
     const values = node.children.map((n) => evaluate(n, c, row, graph));
     return node.mode === "any"
@@ -412,7 +470,13 @@ export function undecided(node, c, row, graph) {
   if (node.kind === "group")
     return node.children.flatMap((n) => undecided(n, c, row, graph));
   return [
-    node.kind === "relation"
+    node.kind === "moveTrait"
+      ? "Rasgo de movimiento sin clasificar"
+      : node.kind === "coverage"
+      ? "Cobertura ofensiva: aprendizajes o efectividades incompletos"
+      : node.kind === "defense"
+        ? "Defensa: tipos o efectividades incompletos"
+        : node.kind === "relation"
       ? `Relación «${relationLabels[node.relation]}»: cobertura o condiciones incompletas`
       : `Campo «${node.field}» pendiente o variable`,
   ];
