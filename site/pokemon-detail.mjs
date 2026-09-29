@@ -13,12 +13,12 @@ const el = (tag, attrs = {}, ...children) => {
   }
   return node;
 };
-const statNames = [
+export const statNames = [
   ["hp", "PS"], ["attack", "Ataque"], ["defense", "Defensa"],
   ["spAttack", "At. especial"], ["spDefense", "Def. especial"], ["speed", "Velocidad"],
 ];
-const categoryNames = { physical: "Físico", special: "Especial", status: "Estado" };
-const targetNames = {
+export const categoryNames = { physical: "Físico", special: "Especial", status: "Estado" };
+export const targetNames = {
   "selected-pokemon": "Pokémon seleccionado", "all-opponents": "Todos los rivales",
   "all-pokemon": "Todos los Pokémon", "all-other-pokemon": "Todos los demás Pokémon",
   "user": "Usuario", "user-or-ally": "Usuario o aliado", "user-and-allies": "Usuario y aliados",
@@ -26,29 +26,32 @@ const targetNames = {
   "user-field": "Campo propio", "users-field": "Campo propio", "entire-field": "Todo el campo",
   "random-opponent": "Rival aleatorio", "special": "Objetivo especial",
 };
-const propertyNames = {
+export const propertyNames = {
   contact: "Contacto", bite: "Mordisco", bullet: "Bala", coercion: "Coacción",
   dance: "Danza", explosion: "Explosión", healing: "Curación", powder: "Polvo",
   pulse: "Pulso", punch: "Puño", slicing: "Corte", sound: "Sonido", wind: "Viento",
 };
-const typeBadge = (type) => el("span", { class: "badge detail-type", "data-type": type.id }, type.name);
+export const typeBadge = (type) => el("span", { class: "badge detail-type", "data-type": type.id }, type.name);
 const choice = (label, values, onChange) => el("label", { class: "detail-select" },
   el("span", { class: "sr-only" }, label),
   el("select", { "aria-label": label, onchange: (event) => onChange(event.target.value) },
     values.map(([value, name]) => el("option", { value }, name))));
-function numberFact(fact, unit = "") {
+export function numberFact(fact, unit = "") {
   if (fact?.kind === "fixed" || fact?.kind === "percent") return `${fact.value}${unit}`;
   if (fact?.kind === "not-applicable") return "—";
   if (fact?.kind === "variable") return "Variable";
   return "Sin dato";
 }
-function moveTable(moves, types, complete) {
+const pokemonMoveFilters = new Map();
+function moveTable(pokemonId, moves, types, complete, openMove) {
   const section = el("section", { class: "pokemon-panel pokemon-moves", "aria-labelledby": "pokemon-moves-title" });
   const title = el("h2", { id: "pokemon-moves-title" }, `Movimientos (${moves.length})`);
-  const filters = { search: "", category: "", type: "", priority: "", target: "", contact: "", sort: "name" };
+  const filters = pokemonMoveFilters.get(pokemonId) || { search: "", category: "", type: "", priority: "", target: "", contact: "", sort: "name" };
+  pokemonMoveFilters.set(pokemonId, filters);
   const resultCount = el("p", { class: "detail-move-count", "aria-live": "polite" });
   const wrap = el("div", { class: "detail-move-scroll" });
   const search = el("input", { type: "search", placeholder: "Buscar movimiento…", "aria-label": "Buscar movimiento" });
+  search.value = filters.search;
   const categoryBar = el("div", { class: "detail-filter-chips", role: "group", "aria-label": "Categoría del movimiento" });
   const typeBar = el("div", { class: "detail-filter-chips", role: "group", "aria-label": "Tipo del movimiento" });
   const categoryButtons = [["", "Todo"], ...Object.entries(categoryNames)];
@@ -59,7 +62,7 @@ function moveTable(moves, types, complete) {
       for (const button of bar.querySelectorAll("button"))
         button.setAttribute("aria-pressed", String(button.value === filters[key]));
     const found = moves.filter((move) =>
-      (!filters.search || `${move.name} ${move.description || ""}`.toLocaleLowerCase("es").includes(filters.search)) &&
+      (!filters.search || `${move.name} ${move.description || ""}`.toLocaleLowerCase("es").includes(filters.search.toLocaleLowerCase("es"))) &&
       (!filters.category || move.category === filters.category) &&
       (!filters.type || move.typeId === filters.type) &&
       (!filters.priority || String(move.priority) === filters.priority) &&
@@ -79,7 +82,7 @@ function moveTable(moves, types, complete) {
       const properties = Object.entries(move.properties || {}).filter(([, enabled]) => enabled === true)
         .map(([key]) => propertyNames[key] || key);
       return el("tr", {},
-        el("td", {}, el("strong", {}, move.name), move.description && move.description !== "—"
+        el("td", {}, el("button", { class: "detail-row-link", type: "button", onclick: () => openMove(move) }, move.name), move.description && move.description !== "—"
           ? el("small", {}, move.description) : null),
         el("td", {}, type ? typeBadge(type) : "Sin dato"),
         el("td", {}, el("span", { class: `category-pill ${move.category}` }, categoryNames[move.category] || "Sin dato")),
@@ -97,20 +100,23 @@ function moveTable(moves, types, complete) {
       if (key === "type" && value) node.dataset.type = value;
       return node;
     }));
-  search.addEventListener("input", () => { filters.search = search.value.toLocaleLowerCase("es").trim(); render(); });
+  search.addEventListener("input", () => { filters.search = search.value; render(); });
   const priorities = [...new Set(moves.map((move) => move.priority))].sort((a, b) => b - a);
   const targets = [...new Set(moves.map((move) => move.target))].sort();
+  const priorityChoice = choice("Prioridad", [["", "Cualquier prioridad"], ...priorities.map((priority) => [String(priority), String(priority)])], (value) => { filters.priority = value; render(); });
+  const targetChoice = choice("Objetivo", [["", "Cualquier objetivo"], ...targets.map((target) => [target, targetNames[target] || target])], (value) => { filters.target = value; render(); });
+  const contactChoice = choice("Contacto", [["", "Contacto o sin contacto"], ["true", "Contacto"], ["false", "Sin contacto"]], (value) => { filters.contact = value; render(); });
+  const sortChoice = choice("Ordenar movimientos", [["name", "Nombre"], ["power", "Potencia"], ["priority", "Prioridad"]], (value) => { filters.sort = value; render(); });
+  for (const [node, value] of [[priorityChoice, filters.priority], [targetChoice, filters.target], [contactChoice, filters.contact], [sortChoice, filters.sort]])
+    node.querySelector("select").value = value;
   section.append(title, categoryBar, typeBar,
     el("div", { class: "detail-move-controls" }, search,
-      choice("Prioridad", [["", "Cualquier prioridad"], ...priorities.map((priority) => [String(priority), String(priority)])], (value) => { filters.priority = value; render(); }),
-      choice("Objetivo", [["", "Cualquier objetivo"], ...targets.map((target) => [target, targetNames[target] || target])], (value) => { filters.target = value; render(); }),
-      choice("Contacto", [["", "Contacto o sin contacto"], ["true", "Contacto"], ["false", "Sin contacto"]], (value) => { filters.contact = value; render(); }),
-      choice("Ordenar movimientos", [["name", "Nombre"], ["power", "Potencia"], ["priority", "Prioridad"]], (value) => { filters.sort = value; render(); })),
+      priorityChoice, targetChoice, contactChoice, sortChoice),
     resultCount, wrap);
   render();
   return section;
 }
-export function renderPokemonDetail(container, row, graph, { openEntry }) {
+export function renderPokemonDetail(container, row, graph, { openEntry, openMove }) {
   const types = graph.data.types || [];
   const abilities = row.abilityIds.map((id) => graph.maps.abilities.get(id)).filter(Boolean);
   const stats = statNames.map(([key]) => row.stats?.[key]);
@@ -156,5 +162,5 @@ export function renderPokemonDetail(container, row, graph, { openEntry }) {
       ? "Se obtiene mediante Mega Evolución durante el combate; no se selecciona directamente para el equipo."
       : "Para preparar el equipo, consulta los movimientos de la forma de entrada."),
     entry ? el("button", { type: "button", onclick: () => openEntry(entry) }, `Ver forma de entrada: ${entry.name}`) : null) : null;
-  container.replaceChildren(...[heading, notice, overview, abilitiesPanel, moveTable(knownMoves.rows, types, knownMoves.complete)].filter(Boolean));
+  container.replaceChildren(...[heading, notice, overview, abilitiesPanel, moveTable(row.id, knownMoves.rows, types, knownMoves.complete, openMove)].filter(Boolean));
 }

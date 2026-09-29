@@ -2,6 +2,7 @@ import { Database } from "./loader.mjs";
 import { moveTraitDefinitions } from "./move-tags.mjs";
 import { isTeamEntryForm } from "./form-roles.mjs";
 import { renderPokemonDetail } from "./pokemon-detail.mjs";
+import { renderMoveDetail } from "./move-detail.mjs";
 import {
   titles,
   defaults,
@@ -63,6 +64,7 @@ let current = "pokemon",
   searchTimer,
   detailRequest = 0,
   pokemonDetailId = null,
+  moveDetailId = null,
   listFocus = null,
   listScrollY = 0,
   lastFocus;
@@ -178,31 +180,34 @@ function hasRelation(n) {
     (n.kind === "group" && n.children.some(hasRelation))
   );
 }
-function savePokemonHistory() {
-  if (current !== "pokemon") return;
+function saveListHistory() {
   const s = state();
   history.replaceState({ ...history.state, championsDB: {
+    collection: current,
     query: clone(s.query), search: s.search, includeBattleForms: s.includeBattleForms,
     columns: [...s.columns], sort: clone(s.sort), page: s.page, size: s.size,
     bucket: s.bucket, matrix: s.matrix,
   } }, "");
 }
-function detailHash(id) {
-  return `#pokemon/${encodeURIComponent(id)}`;
+function detailHash(kind, id) {
+  return `#${kind}/${encodeURIComponent(id)}`;
 }
-function hashPokemonId() {
-  const match = /^#pokemon\/([^/]+)$/.exec(location.hash);
+function hashDetail() {
+  const match = /^#(pokemon|moves)\/([^/]+)$/.exec(location.hash);
   if (!match) return null;
-  try { return decodeURIComponent(match[1]); } catch { return null; }
+  try { return { kind: match[1], id: decodeURIComponent(match[2]) }; } catch { return null; }
 }
-function hidePokemonDetail({ restoreFocus = false } = {}) {
+function hideDetail({ restoreFocus = false } = {}) {
   pokemonDetailId = null;
+  moveDetailId = null;
   detailRequest++;
   document.body.classList.remove("pokemon-detail-open");
   $("pokemon-detail-view").hidden = true;
+  $("move-detail-view").hidden = true;
   $("workspace").hidden = false;
   document.querySelector(".skip").href = "#results";
   document.title = "ChampionsDB · Datos de combate";
+  renderNavigation();
   if (restoreFocus) {
     requestAnimationFrame(() => {
       window.scrollTo(0, listScrollY);
@@ -212,19 +217,22 @@ function hidePokemonDetail({ restoreFocus = false } = {}) {
 }
 async function openPokemonDetail(row, { push = true } = {}) {
   if (push) {
-    savePokemonHistory();
-    listFocus = document.activeElement;
-    listScrollY = scrollY;
-    history.pushState({ ...history.state, pokemonDetailId: row.id, fromList: true }, "", detailHash(row.id));
+    saveListHistory();
+    if (!pokemonDetailId && !moveDetailId) { listFocus = document.activeElement; listScrollY = scrollY; }
+    history.pushState({ ...history.state, detailKind: "pokemon", detailId: row.id, fromView: true, returnDetailKind: moveDetailId ? "moves" : null }, "", detailHash("pokemon", row.id));
   } else if (pokemonDetailId && pokemonDetailId !== row.id) {
-    history.replaceState({ ...history.state, pokemonDetailId: row.id }, "", detailHash(row.id));
+    history.replaceState({ ...history.state, detailKind: "pokemon", detailId: row.id }, "", detailHash("pokemon", row.id));
   }
   if ($("detail").open) $("detail").close();
   pokemonDetailId = row.id;
+  moveDetailId = null;
+  renderNavigation();
   const token = ++detailRequest;
   document.body.classList.add("pokemon-detail-open");
   $("workspace").hidden = true;
   $("pokemon-detail-view").hidden = false;
+  $("move-detail-view").hidden = true;
+  $("pokemon-back").textContent = history.state?.returnDetailKind === "moves" ? "← Volver al movimiento" : "← Volver a resultados";
   document.querySelector(".skip").href = "#pokemon-detail-title";
   $("pokemon-detail-content").replaceChildren(el("p", { class: "muted" }, "Cargando datos de combate…"));
   document.title = `${row.name} · ChampionsDB`;
@@ -235,6 +243,7 @@ async function openPokemonDetail(row, { push = true } = {}) {
     graph = database.graph;
     renderPokemonDetail($("pokemon-detail-content"), row, graph, {
       openEntry: (entry) => openPokemonDetail(entry, { push: false }),
+      openMove: (move) => openMoveDetail(move),
     });
     $("pokemon-back").focus({ preventScroll: true });
   } catch (e) {
@@ -242,11 +251,46 @@ async function openPokemonDetail(row, { push = true } = {}) {
       $("pokemon-detail-content").replaceChildren(el("p", { class: "error" }, `No se pudo cargar la ficha: ${e.message}`), button("Reintentar", () => openPokemonDetail(row, { push: false })));
   }
 }
-function closePokemonDetail() {
-  if (history.state?.fromList) history.back();
+async function openMoveDetail(row, { push = true } = {}) {
+  if (push) {
+    saveListHistory();
+    if (!pokemonDetailId && !moveDetailId) { listFocus = document.activeElement; listScrollY = scrollY; }
+    history.pushState({ ...history.state, detailKind: "moves", detailId: row.id, fromView: true, returnDetailKind: pokemonDetailId ? "pokemon" : null }, "", detailHash("moves", row.id));
+  }
+  if ($("detail").open) $("detail").close();
+  moveDetailId = row.id;
+  pokemonDetailId = null;
+  renderNavigation();
+  const token = ++detailRequest;
+  document.body.classList.add("pokemon-detail-open");
+  $("workspace").hidden = true;
+  $("pokemon-detail-view").hidden = true;
+  $("move-detail-view").hidden = false;
+  const moveBackLabel = history.state?.returnDetailKind === "pokemon" ? "Volver al Pokémon" : "Volver a resultados";
+  $("move-back").textContent = `← ${moveBackLabel}`;
+  $("move-back").setAttribute("aria-label", moveBackLabel);
+  document.querySelector(".skip").href = "#move-detail-title";
+  $("move-detail-content").replaceChildren(el("p", { class: "muted" }, "Cargando datos de combate…"));
+  document.title = `${row.name} · ChampionsDB`;
+  window.scrollTo(0, 0);
+  try {
+    await database.relations();
+    if (token !== detailRequest) return;
+    graph = database.graph;
+    renderMoveDetail($("move-detail-content"), row, graph, {
+      openPokemon: (pokemon) => openPokemonDetail(pokemon),
+    });
+    $("move-back").focus({ preventScroll: true });
+  } catch (e) {
+    if (token === detailRequest)
+      $("move-detail-content").replaceChildren(el("p", { class: "error" }, `No se pudo cargar la ficha: ${e.message}`), button("Reintentar", () => openMoveDetail(row, { push: false })));
+  }
+}
+function closeDetail() {
+  if (history.state?.fromView) history.back();
   else {
-    history.replaceState({ ...history.state, pokemonDetailId: null, fromList: false }, "", location.pathname + location.search);
-    hidePokemonDetail({ restoreFocus: true });
+    history.replaceState({ ...history.state, detailKind: null, detailId: null, fromView: false }, "", location.pathname + location.search);
+    hideDetail({ restoreFocus: true });
   }
 }
 function error(message, retry) {
@@ -271,7 +315,7 @@ async function refresh() {
   }
   $("filter-summary").textContent = summary(s.query, c);
   $("filter-count").textContent = s.query.children.length;
-  savePokemonHistory();
+  saveListHistory();
   $("results").setAttribute("aria-busy", "true");
   $("result-note").textContent = "Actualizando resultados…";
   try {
@@ -304,10 +348,11 @@ async function refresh() {
     if (token === request) $("results").removeAttribute("aria-busy");
   }
 }
-function navigate(c) {
-  if (pokemonDetailId) {
-    history.pushState({ ...history.state, pokemonDetailId: null, fromList: false }, "", location.pathname + location.search);
-    hidePokemonDetail();
+function navigate(c, { fromHistory = false } = {}) {
+  if (pokemonDetailId || moveDetailId) {
+    if (!fromHistory)
+      history.pushState({ ...history.state, detailKind: null, detailId: null, fromView: false }, "", location.pathname + location.search);
+    hideDetail();
   }
   current = c;
   const s = state();
@@ -332,6 +377,7 @@ function navigate(c) {
   refresh();
 }
 function renderNavigation() {
+  const shown = pokemonDetailId ? "pokemon" : moveDetailId ? "moves" : current;
   const sections = [
     "pokemon",
     "moves",
@@ -346,16 +392,16 @@ function renderNavigation() {
     ...sections.map((c) =>
       button(c === "battle-rules" ? "Reglas" : titles[c], () => navigate(c), {
         "aria-current":
-          c === current ||
-          (c === "pokemon" && ["species", "learnsets"].includes(current)) ||
+          c === shown ||
+          (c === "pokemon" && ["species", "learnsets"].includes(shown)) ||
           (c === "battle-rules" &&
-            ["interactions", "regulations"].includes(current))
+            ["interactions", "regulations"].includes(shown))
             ? "page"
             : "false",
         class:
-          c === current ||
+          c === shown ||
           (c === "battle-rules" &&
-            ["interactions", "regulations"].includes(current))
+            ["interactions", "regulations"].includes(shown))
             ? "active"
             : "",
       }),
@@ -1592,6 +1638,7 @@ function openDialog(title) {
 }
 async function showDetail(c, row) {
   if (c === "pokemon") return openPokemonDetail(row);
+  if (c === "moves") return openMoveDetail(row);
   const token = ++detailRequest;
   const box = openDialog(name(c, row));
   const fields = el("dl", { class: "detail-fields" });
@@ -1881,16 +1928,26 @@ for (const name of ["columns", "sort"])
     );
   };
 $("close-detail").onclick = () => $("detail").close();
-$("pokemon-back").onclick = closePokemonDetail;
-window.addEventListener("popstate", () => {
-  const id = hashPokemonId();
-  if (id) {
-    const row = database?.data.pokemon?.find((item) => item.id === id);
+$("pokemon-back").onclick = closeDetail;
+$("move-back").onclick = closeDetail;
+window.addEventListener("popstate", async () => {
+  const detail = hashDetail();
+  const source = history.state?.championsDB?.collection;
+  if (detail) {
+    if (source && collections.includes(source) && source !== current)
+      navigate(source, { fromHistory: true });
+    await database?.ensure([detail.kind]);
+    if (hashDetail()?.id !== detail.id || hashDetail()?.kind !== detail.kind) return;
+    const row = database?.data[detail.kind]?.find((item) => item.id === detail.id);
     if (row) {
-      if (current !== "pokemon") navigate("pokemon");
-      openPokemonDetail(row, { push: false });
+      if (detail.kind === "pokemon") openPokemonDetail(row, { push: false });
+      else openMoveDetail(row, { push: false });
     }
-  } else if (pokemonDetailId) hidePokemonDetail({ restoreFocus: true });
+  } else {
+    if (pokemonDetailId || moveDetailId) hideDetail({ restoreFocus: true });
+    if (source && collections.includes(source) && source !== current)
+      navigate(source, { fromHistory: true });
+  }
 });
 $("detail").addEventListener("close", () => {
   detailRequest++;
@@ -1904,11 +1961,12 @@ async function start() {
     database = await new Database().init();
     graph = database.graph;
     const saved = history.state?.championsDB;
+    const savedCollection = collections.includes(saved?.collection) ? saved.collection : hashDetail()?.kind === "moves" ? "moves" : "pokemon";
     if (saved?.query?.kind === "group" &&
       ["all", "any", "none"].includes(saved.query.mode) &&
       Array.isArray(saved.query.children) && saved.query.children.length <= 30 &&
       typeof saved.search === "string" && saved.search.length <= 200) {
-      const restored = newState("pokemon");
+      const restored = newState(savedCollection);
       restored.query = clone(saved.query);
       restored.search = saved.search;
       restored.includeBattleForms = saved.includeBattleForms === true;
@@ -1918,16 +1976,20 @@ async function start() {
       if ([15, 25, 50, 100].includes(saved.size)) restored.size = saved.size;
       if (["confirmed", "possible"].includes(saved.bucket)) restored.bucket = saved.bucket;
       restored.matrix = saved.matrix === true;
-      states.set("pokemon", restored);
+      states.set(savedCollection, restored);
     }
     $("workspace").hidden = false;
     $("version").textContent =
       `champout · ${database.manifest.context.revision.slice(0, 8)}`;
-    navigate("pokemon");
-    const id = hashPokemonId();
-    if (id) {
-      const row = database.data.pokemon.find((item) => item.id === id);
-      if (row) openPokemonDetail(row, { push: false });
+    navigate(savedCollection);
+    const detail = hashDetail();
+    if (detail) {
+      await database.ensure([detail.kind]);
+      const row = database.data[detail.kind].find((item) => item.id === detail.id);
+      if (row) {
+        if (detail.kind === "pokemon") openPokemonDetail(row, { push: false });
+        else openMoveDetail(row, { push: false });
+      }
     }
   } catch (e) {
     error(e.message, start);

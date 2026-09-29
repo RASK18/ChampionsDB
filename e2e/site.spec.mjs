@@ -200,6 +200,74 @@ test('volver de la ficha conserva condiciones y paginación', async ({ page }) =
   await page.getByRole('button', {name:'Volver a resultados'}).click();
   await expect(page.locator('#pagination')).toContainText('51–100');
 });
+test('ficha de movimiento muestra Pokémon con imágenes y conserva el filtro al volver', async ({ page }) => {
+  await page.getByRole('navigation').getByRole('button', {name:'Movimientos', exact:true}).click();
+  const category = page.locator('.quick-field').filter({hasText:'Categoría'});
+  await category.locator('summary').click();
+  await category.getByLabel('Físico', {exact:true}).check();
+  await expect(page.locator('#filter-summary')).toContainText('Físico');
+  await page.locator('#search').fill('Fitoimpulso');
+  await expect(page.locator('#confirmed-count')).toHaveText('1');
+  await page.locator('#workspace tbody .name-button').first().click();
+  await expect(page).toHaveURL(/#moves\/move-803/);
+  await expect(page.locator('#move-detail-view')).toBeVisible();
+  await expect(page.getByRole('dialog')).not.toBeVisible();
+  await expect(page.locator('#move-detail-title')).toHaveText('Fitoimpulso');
+  await expect(page.locator('.move-summary')).toContainText('Planta');
+  await expect(page.locator('.move-summary')).toContainText('Potencia55');
+  await expect(page.locator('.move-users-count')).toContainText('Pokémon confirmados');
+  await expect.poll(() => page.locator('.move-user-name img').first().evaluate((image) => image.complete && image.naturalWidth > 0)).toBe(true);
+  await page.screenshot({ path: 'test-results/fitoimpulso-detail.png', fullPage: true });
+  await page.getByRole('searchbox', {name:'Buscar Pokémon que aprende este movimiento'}).fill('Rillaboom');
+  await expect(page.locator('.move-users-scroll tbody tr')).toHaveCount(1);
+  await page.locator('.move-users-scroll').getByRole('button', {name:'Rillaboom'}).click();
+  await expect(page.locator('#pokemon-detail-title')).toHaveText('Rillaboom');
+  await page.getByRole('button', {name:'Volver al movimiento'}).click();
+  await expect(page.locator('#move-detail-title')).toHaveText('Fitoimpulso');
+  await expect(page.getByRole('searchbox', {name:'Buscar Pokémon que aprende este movimiento'})).toHaveValue('Rillaboom');
+  await page.getByRole('button', {name:'Volver a resultados'}).click();
+  await expect(page.locator('#title')).toHaveText('Movimientos');
+  await expect(page.locator('#search')).toHaveValue('Fitoimpulso');
+  await expect(page.locator('#filter-summary')).toContainText('Físico');
+  await expect(page.locator('#workspace tbody tr')).toHaveCount(1);
+});
+test('ficha de movimiento conserva paginación y enlace directo', async ({ page }) => {
+  await page.getByRole('navigation').getByRole('button', {name:'Movimientos', exact:true}).click();
+  await page.getByRole('button', {name:'Siguiente', exact:true}).click();
+  await expect(page.locator('#pagination')).toContainText('51–100');
+  await page.locator('#workspace tbody .name-button').first().click();
+  const title = await page.locator('#move-detail-title').innerText();
+  await page.reload();
+  await expect(page.locator('#move-detail-title')).toHaveText(title);
+  await page.getByRole('button', {name:'Volver a resultados'}).click();
+  await expect(page.locator('#pagination')).toContainText('51–100');
+  await expect(page.locator('#title')).toHaveText('Movimientos');
+});
+test('un movimiento abierto desde un Pokémon vuelve a su filtro de movimientos', async ({ page }) => {
+  await page.locator('#search').fill('Blastoise');
+  await expect(page.locator('#confirmed-count')).toHaveText('1');
+  await page.locator('#workspace tbody .name-button').first().click();
+  await page.getByRole('searchbox', {name:'Buscar movimiento'}).fill('Hidrobomba');
+  await expect(page.locator('.detail-move-scroll tbody tr')).toHaveCount(1);
+  await page.locator('.detail-move-scroll').getByRole('button', {name:'Hidrobomba'}).click();
+  await expect(page.locator('#move-detail-title')).toHaveText('Hidrobomba');
+  await page.getByRole('button', {name:'Volver al Pokémon'}).click();
+  await expect(page.locator('#pokemon-detail-title')).toHaveText('Blastoise');
+  await expect(page.getByRole('searchbox', {name:'Buscar movimiento'})).toHaveValue('Hidrobomba');
+  await page.getByRole('button', {name:'Volver a resultados'}).click();
+  await expect(page.locator('#search')).toHaveValue('Blastoise');
+});
+test('ficha de movimiento en móvil sin desbordamiento de la página', async ({ page }) => {
+  await page.setViewportSize({width: 320, height: 720});
+  await page.getByRole('navigation').getByRole('button', {name:'Movimientos', exact:true}).click();
+  await page.locator('#search').fill('Fitoimpulso');
+  await expect(page.locator('#confirmed-count')).toHaveText('1');
+  await page.locator('#workspace tbody .name-button').first().click();
+  await expect(page.locator('#move-detail-view')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
+  await expect(page.locator('.move-users-scroll')).toBeVisible();
+  await page.screenshot({ path: 'test-results/mobile-move-detail.png', fullPage: true });
+});
 test("relación anidada y resultados desconocidos; columnas y ordenación", async ({
   page,
 }) => {
