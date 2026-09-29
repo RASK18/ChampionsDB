@@ -1,6 +1,6 @@
 # ChampionsDB
 
-Base estática de datos de combate de **Pokémon Champions**, en español de España. JSON y JavaScript ESM, sin servidor ni base de datos. Incluye una web de tablas y filtros combinables preparada para `https://disboard.es/ChampionsDB/`. El despliegue en GitHub queda pendiente de configurar el remoto y activar Pages.
+Base estática de datos de combate de **Pokémon Champions**, en español de España. JSON y JavaScript ESM, sin servidor ni base de datos. Incluye una web de tablas y filtros combinables preparada para `https://disboard.es/ChampionsDB/`. El código está publicado en [RASK18/ChampionsDB](https://github.com/RASK18/ChampionsDB). El despliegue de la web queda pendiente de activar GitHub Pages.
 
 **La cobertura es parcial y se mide explícitamente.** La fuente principal es **champout**, con los textos `esp`. Otras fuentes específicas de Champions completan únicamente los 147 huecos autorizados. Se publican sus datos sin exigir un segundo proveedor, conservando evidencias y validación de integridad. Las ausencias y las reglas aún sin interpretar se enumeran en [el informe de pendientes](data/reports/pending.json). No se incluyen datos de uso, tiers, winrates ni recomendaciones competitivas.
 
@@ -53,7 +53,7 @@ Los índices se generan una vez en memoria. Lluvia distingue creación directa y
 
 [El workflow](.github/workflows/update-data.yml) tiene ejecución manual y semanal, los lunes a las **04:17 UTC**. Comprueba las pruebas y la publicación, verifica la reconstrucción sin red y hace commit únicamente de `data/` y `sources/snapshot.json` cuando cambian. Las capturas e informes se guardan como artefactos durante 30 días.
 
-Este repositorio todavía no tiene remoto configurado. Para activar el workflow hay que alojarlo en GitHub, usar la rama `main` y permitir escritura al token de Actions. Una protección de rama que prohíba esos commits debe configurarse por el propietario. No se ha modificado el dominio ni desplegado una web.
+El remoto `origin` apunta a [RASK18/ChampionsDB](https://github.com/RASK18/ChampionsDB), con `main` como rama principal. Los workflows están publicados; la actualización semanal solicita escritura al token de Actions. Una protección de rama que prohíba esos commits debe configurarse por el propietario. No se ha modificado el dominio ni desplegado una web.
 
 ## Documentación
 

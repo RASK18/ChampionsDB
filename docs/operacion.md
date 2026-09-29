@@ -32,4 +32,4 @@ La política mantiene champout como origen prioritario. `rules/supplemental-scop
 
 El workflow semanal descarga champout y los complementos, valida y prueba el nuevo conjunto, verifica su reconstrucción sin red y hace commit solo de `data/` y `sources/snapshot.json`. No modifica código ni reglas y no crea commits vacíos. Guarda capturas e informes como artefactos y llama al workflow reutilizable de la web.
 
-La ejecución programada se activa al alojar el repositorio en GitHub y habilitar escritura de Actions en `main`. Esta configuración no modifica el dominio ni inicia una tarea local permanente.
+El repositorio público [RASK18/ChampionsDB](https://github.com/RASK18/ChampionsDB) ya contiene el workflow en `main`, con permiso `contents: write` solicitado para la actualización semanal. Esta configuración no modifica el dominio ni inicia una tarea local permanente.
