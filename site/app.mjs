@@ -1,6 +1,7 @@
 import { Database } from "./loader.mjs";
 import { moveTraitDefinitions } from "./move-tags.mjs";
-import { isTeamEntryForm, entryFormId } from "./form-roles.mjs";
+import { isTeamEntryForm } from "./form-roles.mjs";
+import { renderPokemonDetail } from "./pokemon-detail.mjs";
 import {
   titles,
   defaults,
@@ -61,6 +62,9 @@ let current = "pokemon",
   request = 0,
   searchTimer,
   detailRequest = 0,
+  pokemonDetailId = null,
+  listFocus = null,
+  listScrollY = 0,
   lastFocus;
 function newState(c) {
   return {
@@ -179,7 +183,71 @@ function savePokemonHistory() {
   const s = state();
   history.replaceState({ ...history.state, championsDB: {
     query: clone(s.query), search: s.search, includeBattleForms: s.includeBattleForms,
+    columns: [...s.columns], sort: clone(s.sort), page: s.page, size: s.size,
+    bucket: s.bucket, matrix: s.matrix,
   } }, "");
+}
+function detailHash(id) {
+  return `#pokemon/${encodeURIComponent(id)}`;
+}
+function hashPokemonId() {
+  const match = /^#pokemon\/([^/]+)$/.exec(location.hash);
+  if (!match) return null;
+  try { return decodeURIComponent(match[1]); } catch { return null; }
+}
+function hidePokemonDetail({ restoreFocus = false } = {}) {
+  pokemonDetailId = null;
+  detailRequest++;
+  document.body.classList.remove("pokemon-detail-open");
+  $("pokemon-detail-view").hidden = true;
+  $("workspace").hidden = false;
+  document.querySelector(".skip").href = "#results";
+  document.title = "ChampionsDB · Datos de combate";
+  if (restoreFocus) {
+    requestAnimationFrame(() => {
+      window.scrollTo(0, listScrollY);
+      listFocus?.focus({ preventScroll: true });
+    });
+  }
+}
+async function openPokemonDetail(row, { push = true } = {}) {
+  if (push) {
+    savePokemonHistory();
+    listFocus = document.activeElement;
+    listScrollY = scrollY;
+    history.pushState({ ...history.state, pokemonDetailId: row.id, fromList: true }, "", detailHash(row.id));
+  } else if (pokemonDetailId && pokemonDetailId !== row.id) {
+    history.replaceState({ ...history.state, pokemonDetailId: row.id }, "", detailHash(row.id));
+  }
+  if ($("detail").open) $("detail").close();
+  pokemonDetailId = row.id;
+  const token = ++detailRequest;
+  document.body.classList.add("pokemon-detail-open");
+  $("workspace").hidden = true;
+  $("pokemon-detail-view").hidden = false;
+  document.querySelector(".skip").href = "#pokemon-detail-title";
+  $("pokemon-detail-content").replaceChildren(el("p", { class: "muted" }, "Cargando datos de combate…"));
+  document.title = `${row.name} · ChampionsDB`;
+  window.scrollTo(0, 0);
+  try {
+    await database.relations();
+    if (token !== detailRequest) return;
+    graph = database.graph;
+    renderPokemonDetail($("pokemon-detail-content"), row, graph, {
+      openEntry: (entry) => openPokemonDetail(entry, { push: false }),
+    });
+    $("pokemon-back").focus({ preventScroll: true });
+  } catch (e) {
+    if (token === detailRequest)
+      $("pokemon-detail-content").replaceChildren(el("p", { class: "error" }, `No se pudo cargar la ficha: ${e.message}`), button("Reintentar", () => openPokemonDetail(row, { push: false })));
+  }
+}
+function closePokemonDetail() {
+  if (history.state?.fromList) history.back();
+  else {
+    history.replaceState({ ...history.state, pokemonDetailId: null, fromList: false }, "", location.pathname + location.search);
+    hidePokemonDetail({ restoreFocus: true });
+  }
 }
 function error(message, retry) {
   $("notice").replaceChildren(
@@ -237,6 +305,10 @@ async function refresh() {
   }
 }
 function navigate(c) {
+  if (pokemonDetailId) {
+    history.pushState({ ...history.state, pokemonDetailId: null, fromList: false }, "", location.pathname + location.search);
+    hidePokemonDetail();
+  }
   current = c;
   const s = state();
   $("search").value = s.search;
@@ -1519,21 +1591,9 @@ function openDialog(title) {
   return $("detail-body");
 }
 async function showDetail(c, row) {
+  if (c === "pokemon") return openPokemonDetail(row);
   const token = ++detailRequest;
   const box = openDialog(name(c, row));
-  if (c === 'pokemon') box.append(el('div', {class: 'detail-hero'},
-    el('img', {src: `./site/sprites/${row.id}.png`, alt: '', width: '92', height: '92'}),
-    el('div', {},
-      el('strong', {}, row.name),
-      el('p', {class: 'muted'}, row.typeIds.map((id) => label('types', id)).join(' · ')))));
-  if (c === 'pokemon' && !isTeamEntryForm(row)) {
-    const entry = entryFormId(row) && graph?.maps.pokemon.get(entryFormId(row));
-    box.append(el('p', {class:'help'},
-      row.form?.kind === 'mega'
-        ? 'Forma obtenida por Mega Evolución durante el combate; no es una entrada de equipo independiente.'
-        : 'Forma que aparece durante el combate. Sus movimientos para preparar el equipo se consultan en la forma de entrada.'),
-      entry ? button(`Abrir forma de entrada: ${entry.name}`, ()=>showDetail('pokemon', entry), {class:'mini'}) : null);
-  }
   const fields = el("dl", { class: "detail-fields" });
   for (const f of database.catalog[c])
     fields.append(el("dt", {}, f.label), el("dd", {}, cell(c, row, f.path)));
@@ -1821,6 +1881,17 @@ for (const name of ["columns", "sort"])
     );
   };
 $("close-detail").onclick = () => $("detail").close();
+$("pokemon-back").onclick = closePokemonDetail;
+window.addEventListener("popstate", () => {
+  const id = hashPokemonId();
+  if (id) {
+    const row = database?.data.pokemon?.find((item) => item.id === id);
+    if (row) {
+      if (current !== "pokemon") navigate("pokemon");
+      openPokemonDetail(row, { push: false });
+    }
+  } else if (pokemonDetailId) hidePokemonDetail({ restoreFocus: true });
+});
 $("detail").addEventListener("close", () => {
   detailRequest++;
   lastFocus?.focus();
@@ -1841,12 +1912,23 @@ async function start() {
       restored.query = clone(saved.query);
       restored.search = saved.search;
       restored.includeBattleForms = saved.includeBattleForms === true;
+      if (Array.isArray(saved.columns)) restored.columns = saved.columns;
+      if (Array.isArray(saved.sort)) restored.sort = saved.sort;
+      if (Number.isInteger(saved.page) && saved.page > 0) restored.page = saved.page;
+      if ([15, 25, 50, 100].includes(saved.size)) restored.size = saved.size;
+      if (["confirmed", "possible"].includes(saved.bucket)) restored.bucket = saved.bucket;
+      restored.matrix = saved.matrix === true;
       states.set("pokemon", restored);
     }
     $("workspace").hidden = false;
     $("version").textContent =
       `champout · ${database.manifest.context.revision.slice(0, 8)}`;
     navigate("pokemon");
+    const id = hashPokemonId();
+    if (id) {
+      const row = database.data.pokemon.find((item) => item.id === id);
+      if (row) openPokemonDetail(row, { push: false });
+    }
   } catch (e) {
     error(e.message, start);
   }
