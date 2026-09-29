@@ -256,6 +256,15 @@ aside {
   padding-top: 14px;
   margin-top: 18px;
 }
+.form-scope {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.form-scope input { flex: none; margin-top: 2px; }
 .filter-summary {
   font-size: 12px;
   line-height: 1.7;

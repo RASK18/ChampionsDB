@@ -1,5 +1,6 @@
 import { Database } from "./loader.mjs";
 import { moveTraitDefinitions } from "./move-tags.mjs";
+import { isTeamEntryForm, entryFormId } from "./form-roles.mjs";
 import {
   titles,
   defaults,
@@ -80,6 +81,7 @@ function newState(c) {
     size: 50,
     bucket: "confirmed",
     matrix: false,
+    includeBattleForms: false,
   };
 }
 function state() {
@@ -176,7 +178,7 @@ function savePokemonHistory() {
   if (current !== "pokemon") return;
   const s = state();
   history.replaceState({ ...history.state, championsDB: {
-    query: clone(s.query), search: s.search,
+    query: clone(s.query), search: s.search, includeBattleForms: s.includeBattleForms,
   } }, "");
 }
 function error(message, retry) {
@@ -185,8 +187,7 @@ function error(message, retry) {
   );
 }
 function notice() {
-  const count = database.coverage.pendingCount;
-  const text = `Datos con cobertura parcial: ${count.toLocaleString("es")} ${count === 1 ? "campo o regla pendiente" : "campos o reglas pendientes"}. Consulta «Cobertura y fuentes».`;
+  const text = 'Aprendizajes certificados para la captura de Champions. La legalidad del equipo y todas las mecánicas de combate aún no están certificadas. Consulta «Cobertura y fuentes».';
   if ($("notice").textContent !== text) $("notice").textContent = text;
 }
 async function refresh() {
@@ -215,14 +216,17 @@ async function refresh() {
       await database.relations();
     if (token !== request) return;
     graph = database.graph;
+    const searchable = c === 'pokemon' && !s.includeBattleForms
+      ? database.data[c].filter(isTeamEntryForm) : database.data[c];
     const result = queryRows(
-      database.data[c],
+      searchable,
       c,
       s.query,
       s.search,
       s.sort,
       graph,
     );
+    result.scopeCount = searchable.length;
     s.lastResult = result;
     renderResults(result);
     notice();
@@ -685,8 +689,13 @@ function quickEditor() {
 function renderEditor() {
   $("quick-tab").setAttribute("aria-pressed", String(mode === "quick"));
   $("advanced-tab").setAttribute("aria-pressed", String(mode === "advanced"));
+  const editor = mode === "quick" ? current === "pokemon" ? exploreEditor() : quickEditor() : renderGroup(state().query, current);
   $("filter-editor").replaceChildren(
-    mode === "quick" ? current === "pokemon" ? exploreEditor() : quickEditor() : renderGroup(state().query, current),
+    current === 'pokemon' ? el('label', {class:'form-scope'},
+      el('input', {type:'checkbox', checked:state().includeBattleForms,
+        onchange:(event)=>{state().includeBattleForms=event.target.checked;state().page=1;refresh();}}),
+      ' Incluir Mega y otras formas que aparecen solo en combate') : null,
+    editor,
   );
   $("filter-summary").textContent = summary(state().query, current);
 }
@@ -1276,12 +1285,14 @@ function matchEvidence(node, c, row) {
 function renderResults(result) {
   const s = state(),
     c = current;
+  if (!result.possible.length && s.bucket === "possible") s.bucket = "confirmed";
   const rows = result[s.bucket];
   s.page = Math.max(1, Math.min(s.page, Math.ceil(rows.length / s.size) || 1));
   $("confirmed-count").textContent =
     result.confirmed.length.toLocaleString("es");
   $("possible-count").textContent = result.possible.length.toLocaleString("es");
-  $("jump-results").textContent = `Ver ${result.confirmed.length.toLocaleString("es")} confirmados${result.possible.length ? ` · ${result.possible.length.toLocaleString("es")} posibles` : ""}`;
+  $("possible-tab").hidden = result.possible.length === 0;
+  $("jump-results").textContent = `Ver ${result.confirmed.length.toLocaleString("es")} confirmados${result.possible.length ? ` · ${result.possible.length.toLocaleString("es")} sin verificar` : ""}`;
   $("confirmed-tab").setAttribute(
     "aria-pressed",
     String(s.bucket === "confirmed"),
@@ -1293,7 +1304,7 @@ function renderResults(result) {
   $("result-note").textContent =
     s.bucket === "possible"
       ? "No se puede determinar si cumplen todas las condiciones."
-      : `${database.data[c].length.toLocaleString("es")} registros publicados`;
+      : `${(result.scopeCount ?? database.data[c].length).toLocaleString("es")} ${c === 'pokemon' && !s.includeBattleForms ? 'formas de entrada' : 'registros'} de la captura de Champions`;
   if (s.matrix && c === "types") {
     renderMatrix(rows);
     return;
@@ -1306,7 +1317,7 @@ function renderResults(result) {
     el(
       "caption",
       { class: "sr-only" },
-      `${titles[c]}: ${s.bucket === "confirmed" ? "coincidencias confirmadas" : "posibles coincidencias"}`,
+      `${titles[c]}: ${s.bucket === "confirmed" ? "coincidencias confirmadas" : "registros sin verificar"}`,
     ),
   );
   const header = el("tr");
@@ -1391,7 +1402,7 @@ function renderResults(result) {
             "p",
             {},
             result.possible.length
-              ? "Consulta «Posibles» para ver los casos pendientes de verificar."
+              ? "Hay registros sin verificar; consulta su motivo antes de sacar conclusiones."
               : "Prueba a quitar una condición o ampliar un rango.",
           ),
         ),
@@ -1502,6 +1513,14 @@ function openDialog(title) {
 async function showDetail(c, row) {
   const token = ++detailRequest;
   const box = openDialog(name(c, row));
+  if (c === 'pokemon' && !isTeamEntryForm(row)) {
+    const entry = entryFormId(row) && graph?.maps.pokemon.get(entryFormId(row));
+    box.append(el('p', {class:'help'},
+      row.form?.kind === 'mega'
+        ? 'Forma obtenida por Mega Evolución durante el combate; no es una entrada de equipo independiente.'
+        : 'Forma que aparece durante el combate. Sus movimientos para preparar el equipo se consultan en la forma de entrada.'),
+      entry ? button(`Abrir forma de entrada: ${entry.name}`, ()=>showDetail('pokemon', entry), {class:'mini'}) : null);
+  }
   const fields = el("dl", { class: "detail-fields" });
   for (const f of database.catalog[c])
     fields.append(el("dt", {}, f.label), el("dd", {}, cell(c, row, f.path)));
@@ -1586,7 +1605,7 @@ async function showDetail(c, row) {
       el(
         "p",
         { class: "help" },
-        "Las listas pueden estar incompletas. Una lista vacía no demuestra imposibilidad.",
+        "La ficha indica qué listas están cerradas para esta captura; las relaciones abiertas no permiten descartar casos por ausencia.",
       ),
     );
     for (const [key, target] of Object.entries(relationDefs[c] || {})) {
@@ -1642,7 +1661,7 @@ async function showDetail(c, row) {
           includeIndirect,
         });
         section.replaceChildren(
-          el("h3", {}, "Pokémon que provocan este efecto"),
+          el("h3", {}, "Pokémon capaces de provocar este efecto si se cumplen los requisitos"),
           el(
             "label",
             {},
@@ -1812,6 +1831,7 @@ async function start() {
       const restored = newState("pokemon");
       restored.query = clone(saved.query);
       restored.search = saved.search;
+      restored.includeBattleForms = saved.includeBattleForms === true;
       states.set("pokemon", restored);
     }
     $("workspace").hidden = false;

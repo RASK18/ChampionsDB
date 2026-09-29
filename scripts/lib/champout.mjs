@@ -53,7 +53,9 @@ export async function normalizeChampout(snapshot,{tables:t,rows}){
   const allPokemon=t['champout/masterdata/personal'];
   const pRows=allPokemon.filter(p=>{
     const form=table(p.ms_form,'usa')[p.ms_form_lbl]||'';
-    if(['666','671','676','869','855','1013'].includes(p.no)&&p.fo!=='0'&&!form.startsWith('Mega ')){
+    // Vivillon Fancy Pattern is an exact form code in the official M-C roster.
+    // Preserve its captured row; do not substitute the Polar form for it.
+    if(['666','671','676','869','855','1013'].includes(p.no)&&p.fo!=='0'&&!form.startsWith('Mega ')&&p.id!=='0666018'){
       c.mapping.push({collection:'pokemon',id:ids.pokemon(p.id),champout:p.id,scope:'cosmetic',form});return false;
     }return true;
   });

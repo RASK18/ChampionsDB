@@ -118,12 +118,30 @@ export async function supplement(store){
     if(!rosterMatch)throw new Error('Official roster format changed');
     const roster=JSON.parse(rosterMatch[1]);
     if(!roster.length||roster.some(r=>!Array.isArray(r)||r.length!==3||!/^\d{4}-\d{3}$/.test(r[0])||r[1]!==1||typeof r[2]!=='string'))throw new Error('Invalid official roster');
+    const notice=(id)=>{const page=load(need(id));page('script,style').remove();return text(page('body').text());};
+    const regularNotice=notice('supplement/official/roster-m-c');
+    const specialNotice=notice('supplement/official/special-roster-m-c');
+    if(!regularNotice.includes('Regular Roster M-C features Pokémon eligible for Ranked Battles in Regulation Set M-C.')||
+      !specialNotice.includes('following Pokémon that are included in Regulation Set M-C.'))
+      throw new Error('Official M-C roster notice changed');
+    const fromNotices=[
+      ['Squawkabilly (Blue Plumage)','pokemon-0931001',regularNotice],
+      ['Squawkabilly (White Plumage)','pokemon-0931003',regularNotice],
+      ['Maushold (Family of Three)','pokemon-0925000',specialNotice],
+    ];
+    for(const [name,id,body] of fromNotices)
+      if(!body.includes(name)||!pokemon.some(p=>p.id===id))throw new Error(`Official M-C form not mapped: ${name}`);
     rules.eligiblePokemonNames=roster.map(r=>r[2]);
-    rules.eligiblePokemon=roster.map(r=>'pokemon-'+r[0].replace('-','')).filter(id=>pokemon.some(p=>p.id===id));
-    rules.unmappedPokemonNames=roster.filter(r=>!pokemon.some(p=>p.id==='pokemon-'+r[0].replace('-',''))).map(r=>r[2]);
+    rules.eligiblePokemonFromNotices=fromNotices.map(([,id])=>id);
+    rules.eligiblePokemon=[...new Set([...roster.map(r=>'pokemon-'+r[0].replace('-','')).filter(id=>pokemon.some(p=>p.id===id)),...rules.eligiblePokemonFromNotices])];
+    const unmapped=roster.filter(r=>!pokemon.some(p=>p.id==='pokemon-'+r[0].replace('-','')));
+    rules.unmappedPokemonNames=unmapped.map(r=>r[2]);
+    rules.unmappedPokemonCodes=unmapped.map(r=>r[0]);
     rules.eligibilityScope='Lista oficial de formas de entrada al equipo; las transformaciones en combate se documentan por separado. No valida movimientos, habilidades u objetos del equipo.';
     for(const [field,value] of Object.entries({identity:true,available:true,name:'Reglamento M-C',validFrom:{date:from,precision:'day'},validUntil:{date:until,precision:'day'},rules}))add(`regulations/m-c/${field}`,value,official,'Reglamento M-C: periodo, mecánicas, objetos y límites',body);
     add('regulations/m-c/rules',rules,rosterDoc,'const pokemons: lista oficial del reglamento enlazado',roster);
+    add('regulations/m-c/rules',rules,'supplement/official/roster-m-c','Pokémon recién añadidos al roster M-C',regularNotice);
+    add('regulations/m-c/rules',rules,'supplement/official/special-roster-m-c','Pokémon incluidos en el reglamento M-C',specialNotice);
     store.context.regulation='m-c';
   }else store.extraPending.push({claim:'regulations/current',reason:'current-regulation-needs-sources'});
   // Remove a placeholder only when its replacement has actually been provided.

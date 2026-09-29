@@ -51,9 +51,9 @@ Los índices se generan una vez en memoria. Lluvia distingue creación directa y
 
 ## Actualización en GitHub
 
-[El workflow](.github/workflows/update-data.yml) tiene ejecución manual y semanal, los lunes a las **04:17 UTC**. Comprueba las pruebas y la publicación, verifica la reconstrucción sin red y hace commit únicamente de `data/` y `sources/snapshot.json` cuando cambian. Las capturas e informes se guardan como artefactos durante 30 días.
+[El workflow](.github/workflows/update-data.yml) tiene ejecución manual y diaria a las **04:17 UTC**. Comprueba las pruebas y la publicación, verifica la reconstrucción sin red y hace commit únicamente de `data/` y `sources/snapshot.json` cuando cambian. Las capturas e informes se guardan como artefactos durante 30 días. La frecuencia de captura no garantiza que un proveedor ya haya incorporado un cambio del juego.
 
-El remoto `origin` apunta a [RASK18/ChampionsDB](https://github.com/RASK18/ChampionsDB), con `main` como rama principal. Los workflows están publicados; la actualización semanal solicita escritura al token de Actions. Una protección de rama que prohíba esos commits debe configurarse por el propietario. No se ha modificado el dominio ni desplegado una web.
+El remoto `origin` apunta a [RASK18/ChampionsDB](https://github.com/RASK18/ChampionsDB), con `main` como rama principal. Los workflows están publicados; la actualización diaria solicita escritura al token de Actions. Una protección de rama que prohíba esos commits debe configurarse por el propietario. No se ha modificado el dominio ni desplegado una web.
 
 ## Documentación
 

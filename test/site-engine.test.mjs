@@ -21,7 +21,8 @@ const data = Object.fromEntries(
     collections.map(async (c) => [c, await read(`data/${c}.json`)]),
   ),
 );
-const graph = createGraph(data);
+const learnsetCompleteness = await read('data/reports/learnset-completeness.json');
+const graph = createGraph(data, {relations: learnsetCompleteness.relations});
 test("referencias con el mismo ID distinguen tipo y condición de combate", () => {
   assert.equal(
     referenceText("types", "poison", graph),
@@ -183,14 +184,14 @@ test("Experto no combina multigolpe de potencia alta con otro movimiento débil"
   data.moves[0].power.value = 25;
   assert.equal(evaluate(search, "pokemon", p, createGraph(data)), true);
 });
-test("Arbok queda posible sin atribuirle un movimiento de cambio", () => {
+test("Arbok queda descartado al certificar sus aprendizajes de Champions", () => {
   const arbok = data.pokemon.find((row) => row.name === "Arbok");
   const pivot = relation("moves", group("all", {kind: "moveTrait", trait: "pivot"}));
   const learned = graph.related("pokemon", arbok, "moves");
-  assert.equal(learned.complete, false);
-  assert.equal(evaluate(pivot, "pokemon", arbok, graph), null);
-  assert.match(undecided(pivot, "pokemon", arbok, graph).join(" "),
-    new RegExp(`Ninguno de sus ${learned.rows.length} movimientos documentados es de cambio`));
+  assert.equal(learned.complete, true);
+  assert.equal(learned.rows.length, 70);
+  assert.equal(evaluate(pivot, "pokemon", arbok, graph), false);
+  assert.deepEqual(undecided(pivot, "pokemon", arbok, graph), []);
 });
 test("ausencia de aprendizaje abierta; conjuntos vacíos certificados y todos no vacuo", () => {
   const p = { id: "p", typeIds: [], abilityIds: [] };
@@ -440,15 +441,15 @@ test("Pokémon enlaza interacciones cuyo movimiento aprendido coincide con un se
   assert.deepEqual(g.related("pokemon", pokemon, "interactions").rows.map((r) => r.id), [interaction.id]);
   assert.deepEqual(g.related("pokemon", pokemon, "effects").rows.map((r) => r.id), ["rain"]);
 });
-test("consultas con más de 21.000 aprendizajes y separación confirmados/posibles", () => {
+test("las consultas por aprendizajes certificados descartan los no coincidentes", () => {
   assert.ok(data.learnsets.length > 21000);
   const q = relation("moves", condition("name", "contains", "lluvia"));
   const result = queryRows(data.pokemon, "pokemon", q, "", [], graph);
   assert.ok(result.confirmed.length);
-  assert.ok(result.possible.length);
+  assert.equal(result.possible.length, 0);
   assert.equal(
-    result.confirmed.length + result.possible.length,
-    data.pokemon.length,
+    result.confirmed.length + result.possible.length < data.pokemon.length,
+    true,
   );
 });
 test("cargador rechaza mezcla de generaciones y recupera descargas fallidas", async () => {

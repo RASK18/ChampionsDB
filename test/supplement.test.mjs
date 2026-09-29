@@ -79,7 +79,13 @@ test('official regulation preserves unmatched names and does not claim complete 
   for(const r of regulations){
     assert.equal(r.rules.eligibilityComplete,false);
     assert.ok(r.rules.startsAtUtc<r.rules.endsAtUtc);
-    assert.equal(r.rules.eligiblePokemon.length+r.rules.unmappedPokemonNames.length,r.rules.eligiblePokemonNames.length);
+    assert.equal(r.rules.eligiblePokemon.length-r.rules.eligiblePokemonFromNotices.length+r.rules.unmappedPokemonNames.length,r.rules.eligiblePokemonNames.length);
+    assert.deepEqual(r.rules.eligiblePokemonFromNotices,[
+      'pokemon-0931001','pokemon-0931003','pokemon-0925000',
+    ]);
+    assert.deepEqual(r.rules.unmappedPokemonCodes,[]);
+    assert.ok(r.rules.eligiblePokemon.includes('pokemon-0666018'));
+    assert.ok(!r.rules.eligiblePokemon.includes('pokemon-0666000'));
     for(const ref of references('regulations',r))assert.ok(pokemon.some(p=>p.id===ref.id));
   }
 });

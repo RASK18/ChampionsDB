@@ -1,9 +1,11 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
+import { isTeamEntryForm } from "../site/form-roles.mjs";
 const count = (collection) => JSON.parse(readFileSync(new URL(`../data/${collection}.json`, import.meta.url))).length.toLocaleString("es");
+const entryCount = JSON.parse(readFileSync(new URL('../data/pokemon.json', import.meta.url))).filter(isTeamEntryForm).length.toLocaleString('es');
 test.beforeEach(async ({ page }) => {
   await page.goto("./");
-  await expect(page.locator("#confirmed-count")).toHaveText(count("pokemon"));
+  await expect(page.locator("#confirmed-count")).toHaveText(entryCount);
 });
 
 test("complementos visibles: efectividades, naturalezas y fuentes delimitadas", async ({ page }) => {
@@ -38,7 +40,7 @@ test("carga diferida, paginación, búsqueda, memoria de sección y recarga", as
   await page.getByRole("button", { name: "Siguiente", exact: true }).click();
   await expect(page.locator("#pagination")).toContainText("51–100");
   await page.getByRole("searchbox").fill("Venusaur");
-  await expect(page.locator("#confirmed-count")).toHaveText("2");
+  await expect(page.locator("#confirmed-count")).toHaveText("1");
   await page
     .getByRole("navigation")
     .getByRole("button", { name: "Movimientos", exact: true })
@@ -49,10 +51,10 @@ test("carga diferida, paginación, búsqueda, memoria de sección y recarga", as
     .getByRole("button", { name: "Pokémon", exact: true })
     .click();
   await expect(page.getByRole("searchbox")).toHaveValue("Venusaur");
-  await expect(page.locator("tbody tr")).toHaveCount(2);
+  await expect(page.locator("tbody tr")).toHaveCount(1);
   await page.reload();
   await expect(page.locator("#search")).toHaveValue("Venusaur");
-  await expect(page.locator("tbody tr")).toHaveCount(2);
+  await expect(page.locator("tbody tr")).toHaveCount(1);
 });
 test("un usuario añade y excluye un tipo desde el explorador", async ({
   page,
@@ -85,6 +87,8 @@ test("las cinco búsquedas guiadas crean condiciones editables y explican coinci
     await page.getByRole("button", { name: new RegExp(`^${title}`) }).click();
     await expect(page.locator("#search")).toHaveValue("");
     await expect(page.locator("#confirmed-count")).not.toHaveText("0");
+    await expect(page.locator("#possible-count")).toHaveText("0");
+    await expect(page.locator("#possible-tab")).toBeHidden();
     await expect(page.locator(".explore-card").first()).toBeVisible();
     if (title === "Intimidación y cambio") {
       const countBeforeReload = await page.locator("#confirmed-count").innerText();
@@ -109,7 +113,7 @@ test("las cinco búsquedas guiadas crean condiciones editables y explican coinci
     await expect(page.locator("#confirmed-count")).not.toHaveText("0");
   }
 });
-test("el rol editado muestra sus criterios actuales y el motivo posible es visible en móvil", async ({ page }) => {
+test("el rol editado muestra sus criterios actuales y oculta dudas inexistentes en móvil", async ({ page }) => {
   await page.getByRole("button", { name: /^Atacante para Espacio Raro/ }).click();
   await page.getByRole("button", { name: "Todos los campos", exact: true }).click();
   await page.getByLabel("Valor", { exact: true }).first().fill("100");
@@ -117,17 +121,26 @@ test("el rol editado muestra sus criterios actuales y el motivo posible es visib
   await expect(page.locator(".explore-card .card-hint")).toContainText("Velocidad ≤ 100");
   await page.setViewportSize({ width: 375, height: 812 });
   await page.getByRole("button", { name: /^Experto y multigolpe/ }).click();
-  await page.locator("#possible-tab").click();
-  await expect(page.locator("tbody .mobile-reason").first()).toBeVisible();
-  await expect(page.locator("tbody .mobile-reason").first()).toContainText("cobertura");
+  await expect(page.locator("#possible-count")).toHaveText("0");
+  await expect(page.locator("#possible-tab")).toBeHidden();
 });
-test("Arbok aparece como posible sin atribuirle un movimiento de cambio", async ({ page }) => {
+test("Arbok queda descartado y no se ofrece una pestaña sin verificar", async ({ page }) => {
   await page.getByRole("button", { name: /^Intimidación y cambio/ }).click();
-  await page.locator("#possible-tab").click();
+  await expect(page.locator("#possible-count")).toHaveText("0");
+  await expect(page.locator("#possible-tab")).toBeHidden();
   await page.locator("#search").fill("Arbok");
-  await expect(page.locator("tbody tr")).toHaveCount(1);
-  await expect(page.locator("tbody tr")).toContainText("Arbok");
-  await expect(page.locator("tbody .reason")).toContainText(/Ninguno de sus \d+ movimientos documentados es de cambio/);
+  await expect(page.locator("#confirmed-count")).toHaveText("0");
+  await expect(page.locator("tbody tr")).toHaveCount(0);
+});
+test("las formas de combate se consultan aparte y enlazan su forma de entrada", async ({ page }) => {
+  await expect(page.locator('#result-note')).toContainText('266 formas de entrada');
+  const include = page.getByRole('checkbox', {name:/Incluir Mega y otras formas/});
+  await include.check();
+  await expect(page.locator('#result-note')).toContainText('355 registros');
+  await page.locator('#search').fill('Morpeko');
+  await page.getByRole('button', {name:'Morpeko (Forma Voraz)', exact:true}).click();
+  await expect(page.locator('#detail-body')).toContainText('forma de entrada');
+  await expect(page.getByRole('button', {name:/Abrir forma de entrada: Morpeko/})).toBeVisible();
 });
 test("relación anidada y resultados desconocidos; columnas y ordenación", async ({
   page,
@@ -141,12 +154,9 @@ test("relación anidada y resultados desconocidos; columnas y ordenación", asyn
     .getByRole("button", { name: "+ Condición", exact: true })
     .click();
   await page.getByLabel("Valor", { exact: true }).fill("lluvia");
-  await expect(page.locator("#confirmed-count")).toHaveText("0");
-  await expect(page.locator("#possible-count")).not.toHaveText("0");
-  await page.locator("#possible-tab").click();
-  await expect(page.locator("tbody .reason").first()).toContainText(
-    "cobertura",
-  );
+  await expect(page.locator("#confirmed-count")).not.toHaveText("0");
+  await expect(page.locator("#possible-count")).toHaveText("0");
+  await expect(page.locator("#possible-tab")).toBeHidden();
   await page.getByRole("button", { name: "Columnas", exact: true }).click();
   await page
     .locator("#columns-panel")
@@ -172,7 +182,7 @@ test("Lluvia, evidencias por entidad y matriz de tipos", async ({ page }) => {
     .getByRole("button", { name: "Lluvia", exact: true })
     .click();
   await expect(
-    page.getByText("Pokémon que provocan este efecto", { exact: true }),
+    page.getByText("Pokémon capaces de provocar este efecto si se cumplen los requisitos", { exact: true }),
   ).toBeVisible();
   await page.getByLabel("Incluir rutas indirectas condicionadas").check();
   await page
@@ -290,7 +300,7 @@ test("todas las secciones, detalles y captura de escritorio sin errores de conso
     .getByRole("navigation")
     .getByRole("button", { name: "Pokémon", exact: true })
     .click();
-  await expect(page.locator("#confirmed-count")).toHaveText(count("pokemon"));
+  await expect(page.locator("#confirmed-count")).toHaveText(entryCount);
   await page.screenshot({ path: "test-results/desktop.png", fullPage: true });
   expect(errors).toEqual([]);
 });

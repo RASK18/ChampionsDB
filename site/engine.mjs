@@ -73,7 +73,7 @@ export const relationLabels = {
   moves: "Movimientos",
   learnsets: "Aprendizajes",
   interactions: "Interacciones",
-  effects: "Efectos",
+  effects: "Efectos relacionados",
   forms: "Formas",
   pokemon: "Pokémon",
   items: "Objetos",

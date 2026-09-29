@@ -8,6 +8,8 @@ Cada ejecución fija un commit y captura `personal`, `waza`, `waza_learn`, `item
 
 Los nombres de forma se combinan con la especie cuando el texto solo dice «Forma Sol», «Forma de Hisui», etc. Los movimientos aprendibles se leen por forma, sin herencia. Se excluyen las variantes puramente cosméticas indicadas en `mappings.json`. Las banderas `is_valid` y `available` delimitan Pokémon y movimientos. Los objetos proceden de la tabla de objetos de combate; `unlock` no indica legalidad o disponibilidad actual. Las habilidades se obtienen de las asignaciones de los Pokémon.
 
+La actualización certifica las listas de aprendizaje de cada forma publicada contra la tabla `waza_learn` capturada. Exige que todo movimiento de la lista figure como relación publicada o como exclusión por `available=0`, y que no haya relaciones adicionales. El informe `reports/learnset-completeness.json` vincula las marcas de completitud a la revisión y al SHA-256 de la tabla. Si falla una comprobación, se conserva la publicación anterior.
+
 **La presencia en el volcado no acredita legalidad ni actualidad del último parche.** La versión del juego y el reglamento no se deducen de la fecha del commit. La versión sigue en `null`; el reglamento se identifica con su anuncio oficial y periodo vigente en la captura; la web muestra la revisión de champout. Un cambio oficial que todavía no haya llegado a champout tampoco aparecerá aquí.
 
 ## Interpretación y evidencia
@@ -21,6 +23,8 @@ Las reglas de interpretación están en `rules/champout-reviewed.json`, vinculad
 ## Límites
 
 Los complementos proporcionan matriz de tipos, modificadores de naturalezas, reglas generales y reglamento. Las reglas generales describen mecanismos principales y marcan `exceptionsComplete: false`: no equivalen a todas las excepciones de un simulador. Los textos se publican completos aunque sus reglas estructuradas no estén terminadas. Por eso `complete` permanece en `false`.
+
+La lista oficial enlazada desde M-C conserva sus códigos exactos. Los anuncios oficiales del roster ordinario y especial aportan tres afirmaciones positivas adicionales: Squawkabilly azul, Squawkabilly blanco y Maushold familia de tres. El código oficial `0666-018` identifica a Vivillon Motivo Fantasía; su fila y sus aprendizajes se publican desde champout con ese mismo código, sin sustituirla por Motivo Polar. `eligibilityComplete` sigue en `false`; la ausencia en la lista no es un veto reglamentario.
 
 Los informes mantienen registros y campos esperados/publicados, huecos e interpretaciones por completar. `excluded.json` recoge las banderas explícitas de exclusión; `withdrawn.json`, las bajas explícitas respecto de la publicación anterior. Una fila que desaparece sin una bandera negativa se considera ausente, no retirada. `stale.json` separa valores anteriores que ya no pueden publicarse bajo la política actual; no se consultan como datos vigentes.
 

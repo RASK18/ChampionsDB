@@ -9,6 +9,7 @@ import {packEvidence,unpackEvidence} from './lib/evidence.mjs';
 import {validateDataset} from './lib/validate.mjs';
 import {collections} from './lib/model.mjs';
 import {reports} from './lib/reports.mjs';
+import {certifyLearnsets} from './lib/certify-learnsets.mjs';
 import {captureSupplemental} from './lib/supplemental-capture.mjs';
 import {supplement} from './lib/supplement.mjs';
 
@@ -33,6 +34,10 @@ export async function update({offline=false,snapshotFile,output=path.join(root,'
   store.snapshot=snapshot;
   const supplements=await supplement(store);
   const result=reconcile(store,reviewed),report=reports(store,result,previous);
+  const learnsetCompleteness=certifyLearnsets({
+    tables:inputs.tables,data:result.data,excluded:report.excluded,snapshot,
+    cosmetic:store.mapping.filter(row=>row.collection==='pokemon'&&row.scope==='cosmetic'),
+  });
   for(const [claim,entry] of Object.entries(primary.evidence))if(json(result.evidence[claim])!==json(entry))throw new Error(`Supplement altered champout evidence: ${claim}`);
   await validateDataset({...result,snapshot,policy:store.policy});
   const files=Object.fromEntries(collections.map(c=>[`${c}.json`,result.data[c]]));
@@ -40,10 +45,11 @@ export async function update({offline=false,snapshotFile,output=path.join(root,'
   files['reports/coverage.json']=report.coverage;files['reports/pending.json']=report.pending;
   files['reports/mappings.json']=store.mapping;files['reports/stale.json']=report.stale;files['reports/withdrawn.json']=report.withdrawn;
   files['reports/excluded.json']=report.excluded;
+  files['reports/learnset-completeness.json']=learnsetCompleteness;
   files['reports/supplements.json']={authorized:147,claims:supplements.scopes.map(scope=>({scope,fields:Object.entries(store.policy.supplementalClaims||{}).filter(([claim,entry])=>entry.scope===scope&&result.evidence[claim]).map(([claim])=>claim),resolved:scope==='interactions/full-mechanics'?false:scope==='regulations/current'?store.context.regulation==='m-c':Boolean(result.evidence[scope]||result.evidence[scope+'/rule'])}))};
   files['snapshot.json']=snapshot;
   const rulesHash=hash(json({primary:reviewed,supplemental:supplements.reviewed,scope:supplements.scopes}));
-  const datasetId=hash(json({data:result.data,evidence:result.evidence,coverage:report.coverage,pending:report.pending,mappings:store.mapping,policy:store.policy,context:store.context,rules:rulesHash}));
+  const datasetId=hash(json({data:result.data,evidence:result.evidence,coverage:report.coverage,pending:report.pending,learnsetCompleteness,mappings:store.mapping,policy:store.policy,context:store.context,rules:rulesHash}));
   // A no-op must not replace the previous change report or touch tracked files.
   if(previous?.manifest.datasetId===datasetId){console.log('Sin cambios en los datos publicados, sus evidencias ni cobertura.');return previous.manifest;}
   files['reports/changes.json']=report.diff;

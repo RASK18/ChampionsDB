@@ -2,7 +2,7 @@ name: Actualizar datos de Champions
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4 * * 1'
+    - cron: '17 4 * * *'
 permissions:
   contents: write
 concurrency:

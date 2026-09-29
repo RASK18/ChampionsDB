@@ -12,6 +12,8 @@ export async function captureSupplemental(snapshot,{offline=false}={}){
   const add=(id,url,provider,revision='live')=>jobs.push({id,url,provider,revision});
   for(const route of ['natures','types','moves','items','pokedex'])add(`supplement/opgg/${route}`,`https://op.gg/es/pokemon-champions/${route}`,'opgg');
   add('supplement/official/regulation','https://champions-news.pokemon-home.com/es/page/816.html','pokemon');
+  add('supplement/official/roster-m-c','https://champions-news.pokemon-home.com/en/page/821.html','pokemon');
+  add('supplement/official/special-roster-m-c','https://champions-news.pokemon-home.com/en/page/834.html','pokemon');
   for(const name of ['scripts','abilities','moves','items','conditions','rulesets'])add(`supplement/showdown/champions/${name}`,`https://raw.githubusercontent.com/smogon/pokemon-showdown/${showdown}/data/mods/champions/${name}.ts`,'showdown',showdown);
   for(const name of ['scripts','abilities','moves','items','conditions','rulesets'])add(`supplement/showdown/base/${name}`,`https://raw.githubusercontent.com/smogon/pokemon-showdown/${showdown}/data/${name}.ts`,'showdown',showdown);
   for(const name of ['battle-actions','pokemon','battle','battle-queue'])add(`supplement/showdown/sim/${name}`,`https://raw.githubusercontent.com/smogon/pokemon-showdown/${showdown}/sim/${name}.ts`,'showdown',showdown);

@@ -159,6 +159,7 @@
         "pokemon-0658000",
         "pokemon-0660000",
         "pokemon-0663000",
+        "pokemon-0666018",
         "pokemon-0668000",
         "pokemon-0670005",
         "pokemon-0671000",
@@ -269,7 +270,15 @@
         "pokemon-1000000",
         "pokemon-1013000",
         "pokemon-1018000",
-        "pokemon-1019000"
+        "pokemon-1019000",
+        "pokemon-0931001",
+        "pokemon-0931003",
+        "pokemon-0925000"
+      ],
+      "eligiblePokemonFromNotices": [
+        "pokemon-0931001",
+        "pokemon-0931003",
+        "pokemon-0925000"
       ],
       "eligiblePokemonNames": [
         "Venusaur",
@@ -542,9 +551,8 @@
       "startsAtUtc": "2026-09-09T02:00:00Z",
       "teamPreviewSeconds": 90,
       "turnTimeSeconds": 45,
-      "unmappedPokemonNames": [
-        "Vivillon"
-      ]
+      "unmappedPokemonCodes": [],
+      "unmappedPokemonNames": []
     },
     "validFrom": {
       "date": "2026-09-09",
