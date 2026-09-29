@@ -6103,6 +6103,35 @@
   },
   {
     "abilityIds": [
+      "ability-014",
+      "ability-019",
+      "ability-132"
+    ],
+    "available": true,
+    "form": {
+      "kind": "alternate"
+    },
+    "id": "pokemon-0666018",
+    "identity": true,
+    "name": "Vivillon (Motivo Fantasía)",
+    "sex": "mixed",
+    "speciesId": "species-666",
+    "stats": {
+      "attack": 52,
+      "defense": 50,
+      "hp": 80,
+      "spAttack": 90,
+      "spDefense": 50,
+      "speed": 89
+    },
+    "typeIds": [
+      "bug",
+      "flying"
+    ],
+    "weightKg": 17
+  },
+  {
+    "abilityIds": [
       "ability-079",
       "ability-127",
       "ability-153"

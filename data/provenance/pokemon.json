@@ -21663,6 +21663,106 @@
         "f82f420c568f21e0375069f2a7b6a963f86414ef65501d2036134566c211e018"
       ]
     },
+    "pokemon/pokemon-0666018/abilityIds": {
+      "value": [
+        "ability-014",
+        "ability-019",
+        "ability-132"
+      ],
+      "witnesses": [
+        "f91df47ebf26dd2f274ba9519ea155046c4e64c5e28444f4dda2505321d3670d"
+      ]
+    },
+    "pokemon/pokemon-0666018/available": {
+      "value": true,
+      "witnesses": [
+        "a344348b18a66e16b349fc78a744c2a6e77bf2eac98c70359985910048962252"
+      ]
+    },
+    "pokemon/pokemon-0666018/form": {
+      "value": {
+        "kind": "alternate"
+      },
+      "witnesses": [
+        "e4b430140505b92a29ff1b1a50e2017e46ec8dedde5f726a943d6edabddebfa7"
+      ]
+    },
+    "pokemon/pokemon-0666018/identity": {
+      "value": true,
+      "witnesses": [
+        "a344348b18a66e16b349fc78a744c2a6e77bf2eac98c70359985910048962252"
+      ]
+    },
+    "pokemon/pokemon-0666018/name": {
+      "value": "Vivillon (Motivo Fantasía)",
+      "witnesses": [
+        "41b922eb00a8a93d2f6a7fb94b1e90585f8935ef83e816655de90f6c0096b984",
+        "0aa8d3ea946bbcdec084bb16ece6efae8eb2028c59fef299b2eeaa55e090e672"
+      ]
+    },
+    "pokemon/pokemon-0666018/sex": {
+      "value": "mixed",
+      "witnesses": [
+        "c7a9dd1ee96eba5f9b257d73e51f1d6f70eeb0a56466abf3fb43c10c63800eae"
+      ]
+    },
+    "pokemon/pokemon-0666018/speciesId": {
+      "value": "species-666",
+      "witnesses": [
+        "4cef3a9bb19586caec523d78d25f2dfcef7959ba7c0c4817a578dca535ac0bb5"
+      ]
+    },
+    "pokemon/pokemon-0666018/stats.attack": {
+      "value": 52,
+      "witnesses": [
+        "e07778f955c8d949734886177d3879e935a3225d3cebcbf309ca30074b6a0ce7"
+      ]
+    },
+    "pokemon/pokemon-0666018/stats.defense": {
+      "value": 50,
+      "witnesses": [
+        "a41b24ce8c286371472c796e80fcbd99a923dc3c4cad597eb408440cc817966a"
+      ]
+    },
+    "pokemon/pokemon-0666018/stats.hp": {
+      "value": 80,
+      "witnesses": [
+        "6339bde532367d3f67f1704e9b7f5eed50ee95240a9801f6923427658a49e30c"
+      ]
+    },
+    "pokemon/pokemon-0666018/stats.spAttack": {
+      "value": 90,
+      "witnesses": [
+        "5145a4bc88c274628f31ada6a29e02ac0348696e04a207565c9b2f68e4e0143e"
+      ]
+    },
+    "pokemon/pokemon-0666018/stats.spDefense": {
+      "value": 50,
+      "witnesses": [
+        "f3c2deab6a04cdab7dbc46a005de50a05aa63cd4de9455bb3d63847833fed789"
+      ]
+    },
+    "pokemon/pokemon-0666018/stats.speed": {
+      "value": 89,
+      "witnesses": [
+        "24e14fbf9df8dc09bcf35b6623b1f40f00655abdb118f23b39e2fb9c2ce25bcc"
+      ]
+    },
+    "pokemon/pokemon-0666018/typeIds": {
+      "value": [
+        "bug",
+        "flying"
+      ],
+      "witnesses": [
+        "b77ff616b2fdfbe694e0e03906ba5b01510deba4430f890b420cd7218b9bbff6"
+      ]
+    },
+    "pokemon/pokemon-0666018/weightKg": {
+      "value": 17,
+      "witnesses": [
+        "27bea96ec7c99e7bc8ff1a9607a7e8508dbf3bcc930de6b6f7c76027e11bd18b"
+      ]
+    },
     "pokemon/pokemon-0668000/abilityIds": {
       "value": [
         "ability-079",
@@ -37282,6 +37382,15 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": "species-584"
     },
+    "0aa8d3ea946bbcdec084bb16ece6efae8eb2028c59fef299b2eeaa55e090e672": {
+      "context": "champions-champout-capture",
+      "document": "champout/esp/zkn_form_syn",
+      "locator": "ZKN_FORM_666_018",
+      "observed": "Motivo Fantasía",
+      "provider": "champout",
+      "sha256": "a3dfaa1dcceedddccfe84c8258084190d3739dd41e531ca5475377acb909ce2e",
+      "value": "Vivillon (Motivo Fantasía)"
+    },
     "0aae629ca35448578fadf549829b644303476dd51ff370bac2369093f47d9a81": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -43379,6 +43488,15 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 82
     },
+    "24e14fbf9df8dc09bcf35b6623b1f40f00655abdb118f23b39e2fb9c2ce25bcc": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].agi",
+      "observed": "89",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 89
+    },
     "24e7214429ead53acd4dc0def119619105aec7f866cd455ad3c1e6d39dbfc7ae": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -44186,6 +44304,15 @@
         "ability-105",
         "ability-154"
       ]
+    },
+    "27bea96ec7c99e7bc8ff1a9607a7e8508dbf3bcc930de6b6f7c76027e11bd18b": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].weight",
+      "observed": "170",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 17
     },
     "27d0b612d387f4c15aec90f6ea7430d2a18e99ea5a1c9615d0e27ce69f542cd5": {
       "context": "champions-champout-capture",
@@ -50084,6 +50211,15 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 93
     },
+    "41b922eb00a8a93d2f6a7fb94b1e90585f8935ef83e816655de90f6c0096b984": {
+      "context": "champions-champout-capture",
+      "document": "champout/esp/monsname_syn",
+      "locator": "MONSNAME_666",
+      "observed": "Vivillon",
+      "provider": "champout",
+      "sha256": "835521c965c6051761a442f123f73024e41d91127eec0ab050155576833a647a",
+      "value": "Vivillon (Motivo Fantasía)"
+    },
     "41b99a0439e5638e9ec4bb62c7213861e69c7493ae62e3c9c9ff078558e88283": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -53219,6 +53355,15 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 95
     },
+    "4cef3a9bb19586caec523d78d25f2dfcef7959ba7c0c4817a578dca535ac0bb5": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].no",
+      "observed": "666",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": "species-666"
+    },
     "4cf7bb1cb2fc08711b06dabadfcc8e82a7cf36c2a4b6ffa61abfa9687dd8e7ce": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -54205,6 +54350,15 @@
         "ability-018",
         "ability-133"
       ]
+    },
+    "5145a4bc88c274628f31ada6a29e02ac0348696e04a207565c9b2f68e4e0143e": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].spatk",
+      "observed": "90",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 90
     },
     "516bcb8155c585ef830fd4aeb666dd1a5c72cc68f3a6f3845e3287131c1eac60": {
       "context": "champions-champout-capture",
@@ -58903,6 +59057,15 @@
       "provider": "champout",
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 100
+    },
+    "6339bde532367d3f67f1704e9b7f5eed50ee95240a9801f6923427658a49e30c": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].hp",
+      "observed": "80",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 80
     },
     "634a3847aceb17773d059f9cc4f85eedf48c017b15bf18ffbc609529a44eb7c2": {
       "context": "champions-champout-capture",
@@ -74875,6 +75038,50 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 75
     },
+    "a344348b18a66e16b349fc78a744c2a6e77bf2eac98c70359985910048962252": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018]",
+      "observed": {
+        "agi": "89",
+        "atk": "52",
+        "cod": "0666000",
+        "def": "50",
+        "disp_form": "1",
+        "ff": "29",
+        "ffge": "0",
+        "fo": "18",
+        "hp": "80",
+        "id": "0666018",
+        "is_same": "0",
+        "is_valid": "1",
+        "merge_fo": "18",
+        "ms_form": "zkn_form_syn",
+        "ms_form_lbl": "ZKN_FORM_666_018",
+        "ms_form_mini": "",
+        "ms_form_mini_lbl": "",
+        "ms_name": "monsname_syn",
+        "ms_name_lbl": "MONSNAME_666",
+        "no": "666",
+        "poke_class": "0",
+        "reg_no": "1",
+        "rr": "00",
+        "sex": "0",
+        "spatk": "90",
+        "spdef": "50",
+        "toku0": "19",
+        "toku1": "14",
+        "toku2": "132",
+        "type1": "6",
+        "type2": "2",
+        "weight": "170",
+        "weight_ms": "zkn_weight",
+        "weight_ms_lbl": "ZKN_WEIGHT_666_018"
+      },
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": true
+    },
     "a36384c7f2bd4eca39892cb7c00e3c3476f712b3023bb1b7eb3e42836a9eb406": {
       "context": "champions-champout-capture",
       "document": "champout/usa/zkn_form_syn",
@@ -75151,6 +75358,15 @@
       "provider": "champout",
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 62
+    },
+    "a41b24ce8c286371472c796e80fcbd99a923dc3c4cad597eb408440cc817966a": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].def",
+      "observed": "50",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 50
     },
     "a445efef64b2f8c5f4d927c95cfe06c9a04cdee4e4b46ed130b07d0e9e2648a3": {
       "context": "champions-champout-capture",
@@ -80011,6 +80227,21 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 80
     },
+    "b77ff616b2fdfbe694e0e03906ba5b01510deba4430f890b420cd7218b9bbff6": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].type1/type2",
+      "observed": [
+        "6",
+        "2"
+      ],
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": [
+        "bug",
+        "flying"
+      ]
+    },
     "b78b053581fabb9083d2145b28ec2feb37e672155998f1424db20ce695ba9969": {
       "context": "champions-champout-capture",
       "document": "champout/usa/zkn_form_syn",
@@ -84149,6 +84380,15 @@
       "provider": "champout",
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 70
+    },
+    "c7a9dd1ee96eba5f9b257d73e51f1d6f70eeb0a56466abf3fb43c10c63800eae": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].sex",
+      "observed": "0",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": "mixed"
     },
     "c7af4144e69d023e00993affca1b58534dcd179eb8ee1e18f37752e461f6973b": {
       "context": "champions-champout-capture",
@@ -90489,6 +90729,15 @@
         "ability-158"
       ]
     },
+    "e07778f955c8d949734886177d3879e935a3225d3cebcbf309ca30074b6a0ce7": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].atk",
+      "observed": "52",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 52
+    },
     "e0812c7ac85161c83088a2d21f5d9beb51a345c1a81c4907923d0fabb7e0ba06": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -91443,6 +91692,17 @@
       "provider": "champout",
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": "mixed"
+    },
+    "e4b430140505b92a29ff1b1a50e2017e46ec8dedde5f726a943d6edabddebfa7": {
+      "context": "champions-champout-capture",
+      "document": "champout/usa/zkn_form_syn",
+      "locator": "ZKN_FORM_666_018",
+      "observed": "Fancy Pattern",
+      "provider": "champout",
+      "sha256": "f5aee898684e0ef87b167af6c66f1d6f75d2131bed68711d27cedac1f480100c",
+      "value": {
+        "kind": "alternate"
+      }
     },
     "e4b5599b27973548f474272dad0561fc87ad1d8f51a8e478a69814465f083721": {
       "context": "champions-champout-capture",
@@ -95420,6 +95680,15 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 32
     },
+    "f3c2deab6a04cdab7dbc46a005de50a05aa63cd4de9455bb3d63847833fed789": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].spdef",
+      "observed": "50",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 50
+    },
     "f3cf80b0b2d289c4d1e99c9a8a6da27f8ff3efb3b986c01d24a73e360af1ff42": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -96620,6 +96889,23 @@
       "provider": "champout",
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": true
+    },
+    "f91df47ebf26dd2f274ba9519ea155046c4e64c5e28444f4dda2505321d3670d": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].toku0/toku1/toku2",
+      "observed": [
+        "19",
+        "14",
+        "132"
+      ],
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": [
+        "ability-014",
+        "ability-019",
+        "ability-132"
+      ]
     },
     "f9241487486bd528dbb3fb7efe74e88d531a55840a72874044f3080ef2aa47ee": {
       "context": "champions-champout-capture",

@@ -1,4 +1,6 @@
 import { Database } from "./loader.mjs";
+import { moveTraitDefinitions } from "./move-tags.mjs";
+import { isTeamEntryForm, entryFormId } from "./form-roles.mjs";
 import {
   titles,
   defaults,
@@ -11,6 +13,7 @@ import {
 } from "./catalog.mjs";
 import {
   queryRows,
+  evaluate,
   relationDefs,
   relationLabels,
   displayValue,
@@ -78,6 +81,7 @@ function newState(c) {
     size: 50,
     bucket: "confirmed",
     matrix: false,
+    includeBattleForms: false,
   };
 }
 function state() {
@@ -135,6 +139,9 @@ function safeCondition(c) {
   };
 }
 function summary(n, c) {
+  if (n.kind === "coverage") return n.target === "all" ? "Cobertura al menos neutral frente a cada tipo" : `Supereficaz contra ${label("types", n.target)}`;
+  if (n.kind === "defense") return `${{ resist: "Resiste", immune: "Inmune a", weak: "Débil a" }[n.mode]} ${label("types", n.typeId)}`;
+  if (n.kind === "moveTrait") return traitChoices.find(([id]) => id === n.trait)?.[1] || n.trait;
   if (n.kind === "group") {
     if (!n.children.length) return "Sin condiciones";
     return `${n.mode === "all" ? "Todas" : n.mode === "any" ? "Alguna" : "Ninguna"}: (${n.children.map((x) => summary(x, c)).join(" · ")})`;
@@ -144,6 +151,7 @@ function summary(n, c) {
   return `${field(c, n.field).label} ${opLabels[n.op]} ${["known", "unknown", "na"].includes(n.op) ? "" : pretty(n.value)}`;
 }
 function validate(n) {
+  if (["coverage", "defense", "moveTrait"].includes(n.kind)) return true;
   if (n.kind === "group") return n.children.every(validate);
   if (n.kind === "relation")
     return (
@@ -162,9 +170,16 @@ function validate(n) {
 }
 function hasRelation(n) {
   return (
-    n.kind === "relation" ||
+    n.kind === "relation" || n.kind === "coverage" ||
     (n.kind === "group" && n.children.some(hasRelation))
   );
+}
+function savePokemonHistory() {
+  if (current !== "pokemon") return;
+  const s = state();
+  history.replaceState({ ...history.state, championsDB: {
+    query: clone(s.query), search: s.search, includeBattleForms: s.includeBattleForms,
+  } }, "");
 }
 function error(message, retry) {
   $("notice").replaceChildren(
@@ -172,8 +187,7 @@ function error(message, retry) {
   );
 }
 function notice() {
-  const m = database.manifest;
-  const text = `Fuente principal: champout · revisión ${m.context.revision.slice(0, 8)}. Complementos limitados a los huecos autorizados. ${database.coverage.pendingCount.toLocaleString("es")} campos o reglas sin dato o sin interpretar.`;
+  const text = 'Aprendizajes certificados para la captura de Champions. La legalidad del equipo y todas las mecánicas de combate aún no están certificadas. Consulta «Cobertura y fuentes».';
   if ($("notice").textContent !== text) $("notice").textContent = text;
 }
 async function refresh() {
@@ -189,6 +203,7 @@ async function refresh() {
   }
   $("filter-summary").textContent = summary(s.query, c);
   $("filter-count").textContent = s.query.children.length;
+  savePokemonHistory();
   $("results").setAttribute("aria-busy", "true");
   $("result-note").textContent = "Actualizando resultados…";
   try {
@@ -201,14 +216,17 @@ async function refresh() {
       await database.relations();
     if (token !== request) return;
     graph = database.graph;
+    const searchable = c === 'pokemon' && !s.includeBattleForms
+      ? database.data[c].filter(isTeamEntryForm) : database.data[c];
     const result = queryRows(
-      database.data[c],
+      searchable,
       c,
       s.query,
       s.search,
       s.sort,
       graph,
     );
+    result.scopeCount = searchable.length;
     s.lastResult = result;
     renderResults(result);
     notice();
@@ -229,12 +247,13 @@ function navigate(c) {
   $("pagination").replaceChildren();
   $("subtitle").textContent =
     c === "pokemon"
-      ? "Una fila por forma. Explora estadísticas, habilidades y movimientos."
+      ? "Encuentra Pokémon por habilidad, movimiento, rol, estadísticas y cobertura."
       : c === "regulations"
         ? "Las restricciones pendientes no implican que un Pokémon sea legal."
         : "Consulta los campos documentados y sus relaciones de combate.";
   renderNavigation();
   renderSubnav();
+  renderIdeas();
   renderEditor();
   renderColumns();
   renderSort();
@@ -324,6 +343,206 @@ function setQuick(path, value, op) {
       quick: path,
     });
   s.page = 1;
+}
+const statChoices = [
+  ["stats.speed", "Velocidad"], ["stats.attack", "Ataque"],
+  ["stats.spAttack", "At. Especial"], ["stats.defense", "Defensa"],
+  ["stats.spDefense", "Def. Especial"], ["stats.hp", "PS"],
+];
+const traitChoices = [
+  ["pivot", "Movimiento de cambio"],
+  ["multihit", "Multigolpe"],
+  ["control", "Limita acciones del rival"],
+];
+const moveFields = [
+  ["id", "Movimiento concreto"], ["trait", "Característica"],
+  ["typeId", "Tipo"], ["category", "Categoría"],
+  ["power.value", "Potencia"], ["priority", "Prioridad"],
+  ["target", "Objetivo"], ["properties.contact", "Contacto"],
+  ["properties.sound", "Sonido"], ["properties.punch", "Puño"],
+  ["properties.bite", "Mordisco"], ["properties.slicing", "Corte"],
+];
+const criterion = (field, op, value) => ({ kind: "condition", field, op, value });
+const moveBlock = (...children) => ({
+  kind: "relation", relation: "moves", quantifier: "some",
+  query: { kind: "group", mode: "all", children },
+});
+const role = (name, ...children) => ({
+  kind: "group", mode: "all", role: name, children,
+});
+function abilityCriterion(name) {
+  const found = database.data.abilities.find((a) => a.name === name);
+  if (!found) throw Error(`No se encuentra la habilidad ${name}`);
+  return criterion("abilityIds", "some", [found.id]);
+}
+const ideas = [
+  ["Intimidación y cambio", "Intimidación + un movimiento que permite salir y entrar a un compañero.", () => [abilityCriterion("Intimidación"), moveBlock({ kind: "moveTrait", trait: "pivot" })]],
+  ["Cobertura amplia", "Velocidad base ≥ 100 y daño al menos neutral frente a cada tipo por separado.", () => [criterion("stats.speed", "gte", 100), { kind: "coverage", target: "all" }]],
+  ["Atacante para Espacio Raro", "Velocidad base ≤ 40 y Ataque o At. Especial ≥ 100. Es una regla exploratoria, no una recomendación de set.", () => [role("Atacante para Espacio Raro", criterion("stats.speed", "lte", 40), { kind: "group", mode: "any", children: [criterion("stats.attack", "gte", 100), criterion("stats.spAttack", "gte", 100)] })]],
+  ["Bromista y control", "Bromista + Anulación, Atracción, Otra Vez, Tormento o Mofa. Esta búsqueda no incluye todos los movimientos de apoyo.", () => [abilityCriterion("Bromista"), moveBlock({ kind: "moveTrait", trait: "control" })]],
+  ["Experto y multigolpe", "Experto + un mismo movimiento multigolpe de potencia como máximo 60.", () => [abilityCriterion("Experto"), moveBlock({ kind: "moveTrait", trait: "multihit" }, criterion("power.value", "lte", 60))]],
+  ["Atacante especial rápido", "Velocidad base y At. Especial de 100 o más; ajusta ambos umbrales a tu equipo.", () => [criterion("stats.speed", "gte", 100), criterion("stats.spAttack", "gte", 100)]],
+  ["Prioridad ofensiva", "Aprende un mismo movimiento de prioridad positiva y potencia conocida superior a cero.", () => [moveBlock(criterion("priority", "gte", 1), criterion("power.value", "gte", 1))]],
+];
+function renderIdeas() {
+  $("inspiration").hidden = current !== "pokemon";
+  if (current !== "pokemon") return;
+  $("idea-list").replaceChildren(...ideas.map(([title, description, make]) =>
+    button(title, () => {
+      state().query = { kind: "group", mode: "all", children: make() };
+      state().search = "";
+      $("search").value = "";
+      state().page = 1;
+      state().bucket = "confirmed";
+      mode = "quick";
+      filterOpen = true;
+      document.querySelector(".layout").classList.remove("collapsed");
+      $("filters-toggle").setAttribute("aria-expanded", "true");
+      renderEditor();
+      refresh();
+      if (innerWidth <= 700) $("filters").scrollIntoView({ block: "start" });
+    }, { class: "idea", title: description, "aria-label": `${title}. ${description}` }),
+  ));
+}
+function addExplore(kind) {
+  let node;
+  if (kind === "ability") node = criterion("abilityIds", "some", [database.data.abilities[0].id]);
+  if (kind === "type") node = criterion("typeIds", "some", [database.data.types[0].id]);
+  if (kind === "stat") node = criterion("stats.speed", "gte", 100);
+  if (kind === "move") node = moveBlock();
+  if (kind === "coverage") node = { kind: "coverage", target: "all" };
+  if (kind === "defense") node = { kind: "defense", typeId: "water", mode: "resist" };
+  if (kind === "role") node = ideas[2][2]()[0];
+  state().query.children.push(node);
+  mutate();
+}
+async function ensureMoveOptions() {
+  try {
+    if (!database.data.moves) await database.ensure(["moves"]);
+    graph = database.graph;
+    return true;
+  } catch (e) {
+    error(e.message, refresh);
+    return false;
+  }
+}
+function choice(label, entries, value, change) {
+  return el("label", { class: "explore-control" }, label,
+    select(entries, value, change, { "aria-label": label }));
+}
+function searchableChoice(label, rows, value, change) {
+  const picker = select(rows.map((row) => [row.id, row.name]), value, change, { "aria-label": label });
+  const search = el("input", { type: "search", placeholder: `Buscar ${label.toLocaleLowerCase("es")}…`,
+    "aria-label": `Buscar ${label.toLocaleLowerCase("es")}`,
+    oninput: (event) => {
+      const selected = picker.value;
+      const term = event.target.value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase("es");
+      const filtered = rows.filter((row) => row.name.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase("es").includes(term));
+      picker.replaceChildren(el("option", { value: "", disabled: "" }, filtered.length ? "Selecciona una opción…" : "No hay coincidencias"),
+        ...filtered.map((row) => option(row.id, row.name)));
+      picker.value = filtered.some((row) => row.id === selected) ? selected : "";
+    } });
+  return el("div", { class: "explore-control" }, el("span", {}, label), search, picker);
+}
+function numberControl(label, value, change) {
+  return el("label", { class: "explore-control" }, label,
+    el("input", { type: "number", value, "aria-label": label,
+      oninput: (e) => { change(e.target.value === "" ? NaN : Number(e.target.value)); refresh(); } }));
+}
+function nodeTitle(node) {
+  if (node.kind === "relation") return "Debe aprender un movimiento que…";
+  if (node.kind === "coverage") return "Cobertura ofensiva";
+  if (node.kind === "defense") return "Defensa ante un tipo";
+  if (node.role) return node.role;
+  if (node.field === "abilityIds") return "Habilidad";
+  if (node.field === "typeIds") return "Tipo";
+  if (node.field?.startsWith("stats.")) return "Estadística base";
+  return "Condición";
+}
+function moveCondition(kind) {
+  if (kind === "trait") return { kind: "moveTrait", trait: "pivot" };
+  if (kind === "id") return criterion("id", "eq", database.data.moves[0].id);
+  if (["power.value", "priority"].includes(kind)) return criterion(kind, "lte", kind === "priority" ? 1 : 60);
+  if (kind.startsWith("properties.")) return criterion(kind, "eq", true);
+  return criterion(kind, "eq", kind === "typeId" ? database.data.types[0].id : kind === "category" ? "physical" : "selected-pokemon");
+}
+function renderMoveCondition(node, parent) {
+  const box = el("div", { class: "move-condition" });
+  const kind = node.kind === "moveTrait" ? "trait" : node.field;
+  box.append(choice("Propiedad del movimiento", moveFields, kind, async (v) => {
+    if (v === "id" && !(await ensureMoveOptions())) return;
+    parent.children[parent.children.indexOf(node)] = moveCondition(v); mutate();
+  }));
+  if (kind === "trait") box.append(choice("Característica", traitChoices, node.trait, (v) => { node.trait = v; mutate(); }),
+    el("p", { class: "card-hint" }, moveTraitDefinitions[node.trait]?.description));
+  else if (kind === "id") box.append(searchableChoice("Movimiento", database.data.moves, node.value, (v) => { node.value = v; refresh(); }));
+  else if (kind === "typeId") box.append(choice("Tipo", database.data.types.map((t) => [t.id, t.name]), node.value, (v) => { node.value = v; refresh(); }));
+  else if (kind === "category") box.append(choice("Categoría", [["physical", "Físico"], ["special", "Especial"], ["status", "Estado"]], node.value, (v) => { node.value = v; refresh(); }));
+  else if (kind === "target") box.append(choice("Objetivo", field("moves", "target").options.map((v) => [v, translate(v)]), node.value, (v) => { node.value = v; refresh(); }));
+  else if (kind.startsWith("properties.")) box.append(choice("Debe cumplir", [["true", "Sí"], ["false", "No"]], String(node.value), (v) => { node.value = v === "true"; refresh(); }));
+  else box.append(choice("Comparación", [["lte", "Como máximo"], ["gte", "Al menos"]], node.op, (v) => { node.op = v; refresh(); }), numberControl(kind === "priority" ? "Prioridad" : "Potencia", node.value, (v) => { node.value = v; }));
+  box.append(button("Quitar", () => { parent.children.splice(parent.children.indexOf(node), 1); mutate(); }, { class: "mini", "aria-label": `Quitar ${moveFields.find(([id]) => id === kind)?.[1] || "propiedad"}` }));
+  return box;
+}
+function renderExploreCard(raw) {
+  const root = state().query;
+  const excluded = raw.kind === "group" && raw.excluded;
+  const node = excluded ? raw.children[0] : raw;
+  const box = el("article", { class: "explore-card" });
+  box.append(el("div", { class: "explore-card-head" },
+    el("strong", {}, nodeTitle(node)),
+    button("Quitar", () => { root.children.splice(root.children.indexOf(raw), 1); mutate(); }, { class: "mini" })));
+  if (!node.role) box.append(choice("Condición", [["include", "Debe cumplir"], ["exclude", "Excluir"]], excluded ? "exclude" : "include", (v) => {
+    root.children[root.children.indexOf(raw)] = v === "exclude" ? { kind: "group", mode: "none", excluded: true, children: [node] } : node;
+    mutate();
+  }));
+  if (node.kind === "relation" && node.relation === "moves") {
+    box.append(el("p", { class: "card-hint" }, "Todas estas propiedades pertenecen a un mismo movimiento aprendido."));
+    for (const child of node.query.children) box.append(renderMoveCondition(child, node.query));
+    box.append(choice("Añadir propiedad", [["", "Selecciona una propiedad…"], ...moveFields], "", async (v) => {
+      if (!v) return;
+      if (v === "id" && !(await ensureMoveOptions())) return;
+      node.query.children.push(moveCondition(v)); mutate();
+    }));
+  } else if (node.kind === "coverage") {
+    box.append(choice("Qué debe cubrir", [["all", "Todos los tipos (daño al menos neutral)"], ...database.data.types.map((t) => [t.id, `Supereficaz contra ${t.name}`])], node.target, (v) => { node.target = v; refresh(); }));
+    box.append(el("p", { class: "card-hint" }, "Se comprueba cada tipo defensor por separado con los movimientos aprendidos. No implica cubrir todas las combinaciones de dos tipos."));
+  } else if (node.kind === "defense") {
+    box.append(choice("Tipo atacante", database.data.types.map((t) => [t.id, t.name]), node.typeId, (v) => { node.typeId = v; refresh(); }),
+      choice("Resultado", [["resist", "Resiste (menos de 1×)"], ["immune", "Es inmune (0×)"], ["weak", "Es débil (más de 1×)"]], node.mode, (v) => { node.mode = v; refresh(); }));
+  } else if (node.role) {
+    const speed = node.children.find((part) => part.field === "stats.speed");
+    const offense = node.children.find((part) => part.kind === "group" && part.mode === "any");
+    const attack = offense?.children.find((part) => part.field === "stats.attack");
+    const special = offense?.children.find((part) => part.field === "stats.spAttack");
+    const clearRule = speed?.op === "lte" && attack?.op === "gte" && special?.op === "gte";
+    const ruleText = clearRule
+      ? `Criterios actuales: Velocidad ≤ ${speed.value} y Ataque ≥ ${attack.value} o At. Especial ≥ ${special.value}.`
+      : `Criterios actuales: ${summary(node, "pokemon")}.`;
+    box.append(el("p", { class: "card-hint" }, ruleText, " ",
+      speed?.value > 45 ? "Has ampliado la velocidad por encima del umbral habitual de Espacio Raro. " : "",
+      "Es una regla exploratoria, no una recomendación de set."),
+      button("Editar los umbrales", () => { mode = "advanced"; renderEditor(); }, { class: "mini" }));
+  } else if (node.field === "abilityIds" || node.field === "typeIds") {
+    const rows = node.field === "abilityIds" ? database.data.abilities : database.data.types;
+    box.append(node.field === "abilityIds"
+      ? searchableChoice("Habilidad", rows, node.value[0], (v) => { node.value = [v]; refresh(); })
+      : choice("Tipo", rows.map((r) => [r.id, r.name]), node.value[0], (v) => { node.value = [v]; refresh(); }));
+  } else if (node.field?.startsWith("stats.")) {
+    box.append(choice("Estadística", statChoices, node.field, (v) => { node.field = v; refresh(); }),
+      choice("Comparación", [["gte", "Al menos"], ["lte", "Como máximo"]], node.op, (v) => { node.op = v; refresh(); }),
+      numberControl("Valor base", node.value, (v) => { node.value = v; }));
+  } else box.append(el("p", { class: "card-hint" }, "Esta condición se edita en «Todos los campos»."));
+  return box;
+}
+function exploreEditor() {
+  const box = el("div", { class: "explore-editor" });
+  const root = state().query;
+  box.append(choice("Cómo combinar", [["all", "Cumplir todas"], ["any", "Cumplir cualquiera"], ["none", "No cumplir ninguna"]], root.mode, (v) => { root.mode = v; refresh(); }));
+  if (!root.children.length) box.append(el("p", { class: "card-hint" }, "Elige una idea de arriba o añade una condición para empezar."));
+  for (const child of root.children) box.append(renderExploreCard(child));
+  box.append(choice("Añadir criterio", [["", "Selecciona un criterio…"], ["ability", "Habilidad"], ["type", "Tipo"], ["stat", "Estadística"], ["move", "Movimiento aprendido"], ["coverage", "Cobertura ofensiva"], ["defense", "Resistencia o debilidad"], ["role", "Atacante para Espacio Raro"]], "", (v) => { if (v) addExplore(v); }));
+  return box;
 }
 function quickEditor() {
   const c = current,
@@ -470,8 +689,13 @@ function quickEditor() {
 function renderEditor() {
   $("quick-tab").setAttribute("aria-pressed", String(mode === "quick"));
   $("advanced-tab").setAttribute("aria-pressed", String(mode === "advanced"));
+  const editor = mode === "quick" ? current === "pokemon" ? exploreEditor() : quickEditor() : renderGroup(state().query, current);
   $("filter-editor").replaceChildren(
-    mode === "quick" ? quickEditor() : renderGroup(state().query, current),
+    current === 'pokemon' ? el('label', {class:'form-scope'},
+      el('input', {type:'checkbox', checked:state().includeBattleForms,
+        onchange:(event)=>{state().includeBattleForms=event.target.checked;state().page=1;refresh();}}),
+      ' Incluir Mega y otras formas que aparecen solo en combate') : null,
+    editor,
   );
   $("filter-summary").textContent = summary(state().query, current);
 }
@@ -533,6 +757,8 @@ function renderGroup(node, c, parent) {
         ? renderGroup(child, c, node)
         : child.kind === "relation"
           ? renderRelation(child, c, node)
+          : ["coverage", "defense", "moveTrait"].includes(child.kind)
+            ? renderSemantic(child, node)
           : renderClause(child, c, node),
     );
   const add = el(
@@ -579,10 +805,31 @@ function renderGroup(node, c, parent) {
   box.append(add);
   return box;
 }
+function renderSemantic(node, parent) {
+  const box = el("div", { class: "clause" }, itemTools(parent, node));
+  if (node.kind === "coverage") box.append(
+    el("strong", {}, "Cobertura ofensiva"),
+    choice("Qué debe cubrir", [["all", "Todos los tipos: daño al menos neutral"], ...database.data.types.map((t) => [t.id, `Supereficaz contra ${t.name}`])], node.target, (v) => { node.target = v; refresh(); }),
+  );
+  if (node.kind === "defense") box.append(
+    el("strong", {}, "Defensa ante un tipo"),
+    choice("Tipo atacante", database.data.types.map((t) => [t.id, t.name]), node.typeId, (v) => { node.typeId = v; refresh(); }),
+    choice("Resultado", [["resist", "Resiste"], ["immune", "Inmune"], ["weak", "Débil"]], node.mode, (v) => { node.mode = v; refresh(); }),
+  );
+  if (node.kind === "moveTrait") box.append(
+    el("strong", {}, "Característica del movimiento"),
+    choice("Característica", traitChoices, node.trait, (v) => { node.trait = v; refresh(); }),
+  );
+  return box;
+}
 function renderClause(node, c, parent) {
   const f = field(c, node.field);
   const box = el("div", { class: "clause" }, itemTools(parent, node));
-  if (node.field === "id") {
+  if (node.field === "id" && c === "moves" && typeof node.value === "string") {
+    box.append(searchableChoice("Movimiento", database.data.moves, node.value, (v) => { node.value = v; refresh(); }));
+    return box;
+  }
+  if (node.field === "id" && Array.isArray(node.value)) {
     box.append(
       el("span", {}, `Selección de ${node.value.length} registros vinculados`),
       el("details", {}, el("summary", {}, "Ver selección"), pretty(node.value)),
@@ -977,14 +1224,75 @@ function cell(c, row, path) {
     text,
   );
 }
+function matchEvidence(node, c, row) {
+  if (node.kind === "group") {
+    if (node.mode === "none") return ["No cumple las condiciones excluidas"];
+    const selected = node.mode === "any"
+      ? node.children.filter((child) => evaluate(child, c, row, graph) === true).slice(0, 1)
+      : node.children;
+    return selected.flatMap((child) => matchEvidence(child, c, row));
+  }
+  if (node.kind === "relation" && node.relation === "moves" && node.quantifier === "some") {
+    const witness = graph.related(c, row, "moves").rows.find((move) =>
+      evaluate(node.query, "moves", move, graph) === true);
+    if (!witness) return [];
+    const details = node.query.children.map((child) =>
+      child.kind === "moveTrait"
+        ? traitChoices.find(([id]) => id === child.trait)?.[1]
+        : child.field === "power.value"
+          ? `potencia ${witness.power?.value ?? "variable"}`
+          : child.field === "priority"
+            ? `prioridad ${witness.priority}`
+            : child.field === "typeId"
+              ? label("types", witness.typeId)
+              : child.field === "category"
+                ? translate(witness.category)
+                : child.field === "id" ? "movimiento elegido" : summary(child, "moves"),
+    ).filter(Boolean);
+    return [`Aprende ${witness.name}${details.length ? ` · ${details.join(", ")}` : ""}`];
+  }
+  if (node.kind === "coverage") {
+    const moves = graph.related("pokemon", row, "moves").rows.filter((move) =>
+      ["physical", "special"].includes(move.category) &&
+      move.power?.kind &&
+      move.power?.kind !== "not-applicable" &&
+      (move.power?.kind !== "fixed" || move.power.value > 0));
+    const defenders = node.target === "all"
+      ? graph.data.types : [graph.maps.types.get(node.target)].filter(Boolean);
+    return defenders.map((defender) => {
+      const witness = moves.map((move) => ({
+        move, multiplier: graph.maps.types.get(move.typeId)?.effectiveness?.[defender.id],
+      })).filter(({ multiplier }) => multiplier >= (node.target === "all" ? 1 : 2))
+        .sort((a, b) => b.multiplier - a.multiplier)[0];
+      return witness
+        ? `Contra ${defender.name}: ${witness.move.name} (${label("types", witness.move.typeId)}, ${witness.multiplier}×)`
+        : `Contra ${defender.name}: sin testigo conocido`;
+    });
+  }
+  if (node.kind === "defense") {
+    const attack = graph.maps.types.get(node.typeId);
+    const multiplier = row.typeIds.reduce((value, typeId) => value * attack.effectiveness[typeId], 1);
+    return [`${summary(node, c)}: daño de ${label("types", node.typeId)} ${multiplier}× sobre ${row.typeIds.map((id) => label("types", id)).join("/")}`];
+  }
+  if (node.kind === "condition") {
+    if (node.field === "abilityIds") return [`Habilidad: ${node.value.map((id) => label("abilities", id)).join(", ")}`];
+    if (node.field === "typeIds") return [`Tipo: ${node.value.map((id) => label("types", id)).join(", ")}`];
+    if (node.field?.startsWith("stats.")) return [`${field(c, node.field).label}: ${fieldValue(row, node.field).value}`];
+    return [summary(node, c)];
+  }
+  return [summary(node, c)];
+}
 function renderResults(result) {
   const s = state(),
     c = current;
+  if (!result.possible.length && s.bucket === "possible") s.bucket = "confirmed";
   const rows = result[s.bucket];
   s.page = Math.max(1, Math.min(s.page, Math.ceil(rows.length / s.size) || 1));
   $("confirmed-count").textContent =
     result.confirmed.length.toLocaleString("es");
   $("possible-count").textContent = result.possible.length.toLocaleString("es");
+  $("possible-tab").hidden = result.possible.length === 0;
+  $("jump-results").textContent = `Ver ${result.confirmed.length.toLocaleString("es")} confirmados${result.possible.length ? ` · ${result.possible.length.toLocaleString("es")} sin verificar` : ""}`;
   $("confirmed-tab").setAttribute(
     "aria-pressed",
     String(s.bucket === "confirmed"),
@@ -996,7 +1304,7 @@ function renderResults(result) {
   $("result-note").textContent =
     s.bucket === "possible"
       ? "No se puede determinar si cumplen todas las condiciones."
-      : `${database.data[c].length.toLocaleString("es")} registros publicados`;
+      : `${(result.scopeCount ?? database.data[c].length).toLocaleString("es")} ${c === 'pokemon' && !s.includeBattleForms ? 'formas de entrada' : 'registros'} de la captura de Champions`;
   if (s.matrix && c === "types") {
     renderMatrix(rows);
     return;
@@ -1009,7 +1317,7 @@ function renderResults(result) {
     el(
       "caption",
       { class: "sr-only" },
-      `${titles[c]}: ${s.bucket === "confirmed" ? "coincidencias confirmadas" : "posibles coincidencias"}`,
+      `${titles[c]}: ${s.bucket === "confirmed" ? "coincidencias confirmadas" : "registros sin verificar"}`,
     ),
   );
   const header = el("tr");
@@ -1048,6 +1356,16 @@ function renderResults(result) {
   table.append(el("thead", {}, header));
   const body = el("tbody");
   for (const row of shown) {
+    const why = c === "pokemon" && s.bucket === "confirmed" && s.query.children.length
+      ? el("details", { class: "why" }, el("summary", {}, "Por qué coincide"))
+      : null;
+    why?.addEventListener("toggle", () => {
+      if (why.open && !why.querySelector("ul"))
+        why.append(el("ul", {}, matchEvidence(s.query, c, row).map((line) => el("li", {}, line))));
+    });
+    const mobileReason = s.bucket === "possible"
+      ? el("div", { class: "mobile-reason" }, undecided(s.query, c, row, graph).join(" · "))
+      : null;
     const tr = el(
       "tr",
       {},
@@ -1057,6 +1375,8 @@ function renderResults(result) {
         button(name(c, row), () => showDetail(c, row), {
           class: "name-button",
         }),
+        why,
+        mobileReason,
       ),
     );
     for (const path of columns) tr.append(el("td", {}, cell(c, row, path)));
@@ -1082,7 +1402,7 @@ function renderResults(result) {
             "p",
             {},
             result.possible.length
-              ? "Consulta «Posibles» para ver los casos pendientes de verificar."
+              ? "Hay registros sin verificar; consulta su motivo antes de sacar conclusiones."
               : "Prueba a quitar una condición o ampliar un rango.",
           ),
         ),
@@ -1193,6 +1513,14 @@ function openDialog(title) {
 async function showDetail(c, row) {
   const token = ++detailRequest;
   const box = openDialog(name(c, row));
+  if (c === 'pokemon' && !isTeamEntryForm(row)) {
+    const entry = entryFormId(row) && graph?.maps.pokemon.get(entryFormId(row));
+    box.append(el('p', {class:'help'},
+      row.form?.kind === 'mega'
+        ? 'Forma obtenida por Mega Evolución durante el combate; no es una entrada de equipo independiente.'
+        : 'Forma que aparece durante el combate. Sus movimientos para preparar el equipo se consultan en la forma de entrada.'),
+      entry ? button(`Abrir forma de entrada: ${entry.name}`, ()=>showDetail('pokemon', entry), {class:'mini'}) : null);
+  }
   const fields = el("dl", { class: "detail-fields" });
   for (const f of database.catalog[c])
     fields.append(el("dt", {}, f.label), el("dd", {}, cell(c, row, f.path)));
@@ -1277,7 +1605,7 @@ async function showDetail(c, row) {
       el(
         "p",
         { class: "help" },
-        "Las listas pueden estar incompletas. Una lista vacía no demuestra imposibilidad.",
+        "La ficha indica qué listas están cerradas para esta captura; las relaciones abiertas no permiten descartar casos por ausencia.",
       ),
     );
     for (const [key, target] of Object.entries(relationDefs[c] || {})) {
@@ -1333,7 +1661,7 @@ async function showDetail(c, row) {
           includeIndirect,
         });
         section.replaceChildren(
-          el("h3", {}, "Pokémon que provocan este efecto"),
+          el("h3", {}, "Pokémon capaces de provocar este efecto si se cumplen los requisitos"),
           el(
             "label",
             {},
@@ -1456,6 +1784,7 @@ $("filters-toggle").onclick = () => {
   document.querySelector(".layout").classList.toggle("collapsed", !filterOpen);
   $("filters-toggle").setAttribute("aria-expanded", String(filterOpen));
 };
+$("jump-results").onclick = () => $("results").scrollIntoView({ behavior: "smooth", block: "start" });
 document.querySelector(".layout").classList.toggle("collapsed", !filterOpen);
 $("filters-toggle").setAttribute("aria-expanded", String(filterOpen));
 $("reset").onclick = () => {
@@ -1494,6 +1823,17 @@ async function start() {
   try {
     database = await new Database().init();
     graph = database.graph;
+    const saved = history.state?.championsDB;
+    if (saved?.query?.kind === "group" &&
+      ["all", "any", "none"].includes(saved.query.mode) &&
+      Array.isArray(saved.query.children) && saved.query.children.length <= 30 &&
+      typeof saved.search === "string" && saved.search.length <= 200) {
+      const restored = newState("pokemon");
+      restored.query = clone(saved.query);
+      restored.search = saved.search;
+      restored.includeBattleForms = saved.includeBattleForms === true;
+      states.set("pokemon", restored);
+    }
     $("workspace").hidden = false;
     $("version").textContent =
       `champout · ${database.manifest.context.revision.slice(0, 8)}`;

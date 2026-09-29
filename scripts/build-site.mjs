@@ -61,18 +61,22 @@ const coverage = await json("data/reports/coverage.json");
 const pending = await json("data/reports/pending.json");
 const excluded = await json("data/reports/excluded.json");
 const snapshot = await json("data/snapshot.json");
+const learnsetCompleteness = await json("data/reports/learnset-completeness.json");
+if (learnsetCompleteness.revision !== snapshot.revisions.champout ||
+  learnsetCompleteness.sha256 !== snapshot.documents[learnsetCompleteness.source]?.sha256)
+  throw new Error('La certificación de aprendizajes no corresponde a la captura publicada');
 const availability = {
   complete: coverage.complete,
   collections: coverage.collections,
   pendingCount: coverage.pendingCount,
   fields: {},
-  relations: {},
+  relations: learnsetCompleteness.relations,
   excluded: excluded.map((x) => x.entity),
 };
 for (const p of pending) {
   if (p.claim) availability.fields[p.claim] = p.reason;
 }
-// No exhaustive learnset/interaction lists are inferred from missing pending claims.
+// Other relationships remain open until their source inventory is certified.
 await emit("data/availability.json", availability);
 await emit("data/catalog.json", catalog);
 for (const c of collections) {

@@ -21,7 +21,8 @@ const data = Object.fromEntries(
     collections.map(async (c) => [c, await read(`data/${c}.json`)]),
   ),
 );
-const graph = createGraph(data);
+const learnsetCompleteness = await read('data/reports/learnset-completeness.json');
+const graph = createGraph(data, {relations: learnsetCompleteness.relations});
 test("referencias con el mismo ID distinguen tipo y condición de combate", () => {
   assert.equal(
     referenceText("types", "poison", graph),
@@ -166,6 +167,32 @@ test("las condiciones de movimiento deben coincidir sobre el MISMO movimiento", 
     true,
   );
 });
+test("Experto no combina multigolpe de potencia alta con otro movimiento débil", () => {
+  const p = {id: "p", abilityIds: ["technician"]};
+  const data = {
+    pokemon: [p],
+    moves: [
+      {id: "move-042", category: "physical", power: {kind: "fixed", value: 100}},
+      {id: "move-001", category: "physical", power: {kind: "fixed", value: 40}},
+    ],
+    learnsets: [{id: "a", pokemonId: "p", moveId: "move-042"}, {id: "b", pokemonId: "p", moveId: "move-001"}],
+  };
+  const graph = createGraph(data, {relations: {"pokemon/p/moves": true}});
+  const search = group("all", condition("abilityIds", "some", ["technician"]),
+    relation("moves", group("all", {kind: "moveTrait", trait: "multihit"}, condition("power.value", "lte", 60))));
+  assert.equal(evaluate(search, "pokemon", p, graph), false);
+  data.moves[0].power.value = 25;
+  assert.equal(evaluate(search, "pokemon", p, createGraph(data)), true);
+});
+test("Arbok queda descartado al certificar sus aprendizajes de Champions", () => {
+  const arbok = data.pokemon.find((row) => row.name === "Arbok");
+  const pivot = relation("moves", group("all", {kind: "moveTrait", trait: "pivot"}));
+  const learned = graph.related("pokemon", arbok, "moves");
+  assert.equal(learned.complete, true);
+  assert.equal(learned.rows.length, 70);
+  assert.equal(evaluate(pivot, "pokemon", arbok, graph), false);
+  assert.deepEqual(undecided(pivot, "pokemon", arbok, graph), []);
+});
 test("ausencia de aprendizaje abierta; conjuntos vacíos certificados y todos no vacuo", () => {
   const p = { id: "p", typeIds: [], abilityIds: [] };
   const g = createGraph({ pokemon: [p] });
@@ -253,6 +280,60 @@ test("potencia variable, no aplicable y naturalezas neutras conservan significad
     ),
     true,
   );
+});
+test("cobertura ofensiva exige testigos aprendidos y conserva la ausencia abierta", () => {
+  const ids = ["water", "electric", "steel", "ground", ...Array.from({length: 14}, (_, i) => `type-${i}`)];
+  const types = ids.map((id) => ({
+    id,
+    effectiveness: Object.fromEntries(ids.map((other) => [other, 1])),
+  }));
+  types[0].effectiveness.steel = 2;
+  types[0].effectiveness.ground = 0;
+  types[1].effectiveness.steel = 0.5;
+  const p = {id: "p", typeIds: ["steel"]};
+  const moves = [{id: "water-move", typeId: "water", category: "special", power: {kind: "fixed", value: 80}}, {id: "electric-move", typeId: "electric", category: "special", power: {kind: "fixed", value: 80}}, {id: "status-move", typeId: "water", category: "status", power: {kind: "not-applicable"}}];
+  const make = (moveId, complete = false) => createGraph({
+    types, pokemon: [p], moves,
+    learnsets: [{id: "learn", pokemonId: "p", moveId}],
+  }, complete ? {relations: {"pokemon/p/moves": true}} : {});
+  assert.equal(evaluate({kind: "coverage", target: "steel"}, "pokemon", p, make("water-move")), true);
+  assert.equal(evaluate({kind: "coverage", target: "steel"}, "pokemon", p, make("electric-move")), null);
+  assert.equal(evaluate({kind: "coverage", target: "steel"}, "pokemon", p, make("electric-move", true)), false);
+  assert.equal(evaluate({kind: "coverage", target: "steel"}, "pokemon", p, make("status-move", true)), false);
+  assert.equal(evaluate({kind: "coverage", target: "all"}, "pokemon", p, make("water-move")), null);
+  assert.equal(evaluate({kind: "coverage", target: "all"}, "pokemon", p, make("water-move", true)), false);
+  const neutral = {id: "neutral", typeId: "steel", category: "physical", power: {kind: "fixed", value: 50}};
+  const complete = createGraph({types, pokemon: [p], moves: [neutral], learnsets: [{id: "n", pokemonId: "p", moveId: "neutral"}]});
+  assert.equal(evaluate({kind: "coverage", target: "all"}, "pokemon", p, complete), true);
+});
+test("defensa combina los tipos y distingue resistencia de inmunidad", () => {
+  const types = [
+    {id: "water", effectiveness: {steel: 0.5, flying: 1, ground: 2}},
+    {id: "electric", effectiveness: {steel: 1, flying: 2, ground: 0}},
+    {id: "steel"}, {id: "flying"}, {id: "ground"},
+  ];
+  const g = createGraph({types});
+  const p = {id: "p", typeIds: ["steel", "flying"]};
+  const q = {id: "q", typeIds: ["ground", "flying"]};
+  const check = (row, typeId, mode) => evaluate({kind: "defense", typeId, mode}, "pokemon", row, g);
+  assert.equal(check(p, "water", "resist"), true);
+  assert.equal(check(p, "water", "immune"), false);
+  assert.equal(check(p, "electric", "weak"), true);
+  assert.equal(check(p, "water", "weak"), false);
+  assert.equal(check(q, "water", "weak"), true);
+  assert.equal(check(q, "electric", "immune"), true);
+  assert.equal(check(q, "electric", "resist"), false);
+  assert.equal(check({id: "pending"}, "water", "resist"), null);
+  assert.equal(check(p, "unknown", "resist"), null);
+});
+test("rasgos de movimiento usan la clasificación revisada y su alcance estrecho", () => {
+  const check = (move, trait) => evaluate({kind: "moveTrait", trait}, "moves", move, graph);
+  assert.equal(check({id: "move-369"}, "pivot"), true);
+  assert.equal(check({id: "move-863"}, "pivot"), false);
+  assert.equal(check({id: "move-042"}, "multihit"), true);
+  assert.equal(check({id: "other", properties: {coercion: true}}, "control"), true);
+  assert.equal(check({id: "other", properties: {coercion: false}}, "control"), false);
+  assert.equal(check({id: "other"}, "undocumented"), null);
 });
 test("ordenación múltiple estable antes de paginar; desconocidos al final en ambos sentidos", () => {
   const rows = [
@@ -342,15 +423,33 @@ test("relaciones inversas, selectores de tipos, bayas, formas y estados", () => 
       .rows.length > 1,
   );
 });
-test("consultas con más de 21.000 aprendizajes y separación confirmados/posibles", () => {
+test("Pokémon enlaza interacciones cuyo movimiento aprendido coincide con un selector", () => {
+  const pokemon = {id: "p", abilityIds: []};
+  const move = {id: "water-move", typeId: "water"};
+  const interaction = {
+    id: "rain-boosts-water", rule: {
+      relation: "boosts",
+      source: {collection: "effects", id: "rain"},
+      target: {collection: "moves", selector: {typeId: "water"}},
+    },
+  };
+  const g = createGraph({
+    pokemon: [pokemon], moves: [move],
+    learnsets: [{id: "learn", pokemonId: "p", moveId: "water-move"}],
+    effects: [{id: "rain"}], interactions: [interaction],
+  });
+  assert.deepEqual(g.related("pokemon", pokemon, "interactions").rows.map((r) => r.id), [interaction.id]);
+  assert.deepEqual(g.related("pokemon", pokemon, "effects").rows.map((r) => r.id), ["rain"]);
+});
+test("las consultas por aprendizajes certificados descartan los no coincidentes", () => {
   assert.ok(data.learnsets.length > 21000);
   const q = relation("moves", condition("name", "contains", "lluvia"));
   const result = queryRows(data.pokemon, "pokemon", q, "", [], graph);
   assert.ok(result.confirmed.length);
-  assert.ok(result.possible.length);
+  assert.equal(result.possible.length, 0);
   assert.equal(
-    result.confirmed.length + result.possible.length,
-    data.pokemon.length,
+    result.confirmed.length + result.possible.length < data.pokemon.length,
+    true,
   );
 });
 test("cargador rechaza mezcla de generaciones y recupera descargas fallidas", async () => {

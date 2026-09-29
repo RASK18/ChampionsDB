@@ -85,7 +85,8 @@ select {
 input:focus,
 select:focus,
 button:focus-visible,
-a:focus-visible {
+a:focus-visible,
+summary:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
@@ -202,7 +203,7 @@ p {
 }
 .layout {
   display: grid;
-  grid-template-columns: 290px minmax(0, 1fr);
+  grid-template-columns: 350px minmax(0, 1fr);
   gap: 20px;
   align-items: start;
 }
@@ -255,6 +256,15 @@ aside {
   padding-top: 14px;
   margin-top: 18px;
 }
+.form-scope {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.form-scope input { flex: none; margin-top: 2px; }
 .filter-summary {
   font-size: 12px;
   line-height: 1.7;
@@ -264,6 +274,52 @@ aside {
 .filter-summary:empty {
   display: none;
 }
+#jump-results, .table-hint { display: none; }
+.inspiration {
+  display: flex;
+  gap: 14px 22px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.inspiration h2 { margin: 0 0 3px; }
+.inspiration p { margin: 0; color: var(--muted); font-size: 12px; }
+.idea-list { display: flex; flex-wrap: wrap; gap: 7px; }
+.idea {
+  border-radius: 99px;
+  padding: 8px 12px;
+  color: var(--accent);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.explore-editor { display: grid; gap: 11px; }
+.explore-card {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface2);
+  display: grid;
+  gap: 9px;
+}
+.explore-card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.explore-card-head strong { font-size: 13px; }
+.explore-control { display: grid; gap: 4px; font-size: 12px; font-weight: 600; }
+.explore-control select, .explore-control input { width: 100%; background: var(--surface); }
+.card-hint { margin: 0; font-size: 12px; line-height: 1.45; color: var(--muted); }
+.move-condition {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr) auto;
+  align-items: end;
+  gap: 6px;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+}
+.move-condition > .explore-control:nth-child(3) { grid-column: 2; }
+.move-condition > button { grid-column: 3; grid-row: 1; }
 .quick-field {
   display: grid;
   gap: 6px;
@@ -451,6 +507,11 @@ tr:hover td {
   line-height: 1.5;
   font-weight: 600;
 }
+.why { margin-top: 4px; font-size: 11px; font-weight: 400; color: var(--muted); }
+.why summary { cursor: pointer; color: var(--accent); white-space: nowrap; }
+.why ul { margin: 6px 0 0; padding-left: 16px; min-width: 200px; line-height: 1.45; white-space: normal; }
+.why li + li { margin-top: 3px; }
+.mobile-reason { display: none; }
 .cell-value {
   display: block;
   max-width: 280px;
@@ -693,7 +754,7 @@ dialog::backdrop {
 }
 @media (max-width: 1000px) {
   .layout {
-    grid-template-columns: 250px minmax(0, 1fr);
+    grid-template-columns: 300px minmax(0, 1fr);
   }
   main {
     padding: 16px;
@@ -708,6 +769,16 @@ dialog::backdrop {
   }
 }
 @media (max-width: 700px) {
+  .mobile-reason { display: block; max-width: 160px; margin-top: 5px; color: var(--warning); font-size: 11px; font-weight: 400; line-height: 1.35; white-space: normal; }
+  .inspiration { padding: 12px; }
+  .inspiration p { max-width: 100%; }
+  .idea-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
+  .idea { white-space: normal; min-height: 44px; text-align: left; line-height: 1.25; }
+  #jump-results { display: block; width: 100%; margin: -5px 0 14px; background: var(--accent); color: var(--surface); font-weight: 700; }
+  .table-hint { display: block; margin: 0; padding: 6px 10px; background: var(--surface); border-inline: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+  .move-condition { grid-template-columns: minmax(0, 1fr) auto; }
+  .move-condition > .explore-control { grid-column: 1; }
+  .move-condition > button { grid-column: 2; }
   .topbar {
     height: 72px;
     padding: 12px 16px;

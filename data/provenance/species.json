@@ -3619,25 +3619,29 @@
     "species/species-666/available": {
       "value": true,
       "witnesses": [
-        "768da665d33ff4c4eafb989d38684a3e6a018c67ebc1633c4e5bd89301791506"
+        "768da665d33ff4c4eafb989d38684a3e6a018c67ebc1633c4e5bd89301791506",
+        "64d183869572c81aee1bf03bd1da7352e7e42a1567978cacbfed7086b8bb1bad"
       ]
     },
     "species/species-666/identity": {
       "value": true,
       "witnesses": [
-        "768da665d33ff4c4eafb989d38684a3e6a018c67ebc1633c4e5bd89301791506"
+        "768da665d33ff4c4eafb989d38684a3e6a018c67ebc1633c4e5bd89301791506",
+        "64d183869572c81aee1bf03bd1da7352e7e42a1567978cacbfed7086b8bb1bad"
       ]
     },
     "species/species-666/name": {
       "value": "Vivillon",
       "witnesses": [
+        "ba5e31aa49e0e96112aa51720ec25ce6b5f19855dace0e6fb9fca9352637c041",
         "ba5e31aa49e0e96112aa51720ec25ce6b5f19855dace0e6fb9fca9352637c041"
       ]
     },
     "species/species-666/nationalDex": {
       "value": 666,
       "witnesses": [
-        "065bc1f78f7696d2ab7d553a715eb0145705194efd0eb00d7552a1ca9743fd07"
+        "065bc1f78f7696d2ab7d553a715eb0145705194efd0eb00d7552a1ca9743fd07",
+        "9683fdefaf9f6d0f33d4476d2d8a2f6deae018072ad046a4d885c580d4521d09"
       ]
     },
     "species/species-668/available": {
@@ -9224,6 +9228,15 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": true
     },
+    "64d183869572c81aee1bf03bd1da7352e7e42a1567978cacbfed7086b8bb1bad": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018]",
+      "observed": "666",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": true
+    },
     "6549a0a10928cb969bb7eb43d56c7c260ac4ebff0c5edaa785c5cf797f4b64fc": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -10870,6 +10883,15 @@
       "provider": "champout",
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": 257
+    },
+    "9683fdefaf9f6d0f33d4476d2d8a2f6deae018072ad046a4d885c580d4521d09": {
+      "context": "champions-champout-capture",
+      "document": "champout/masterdata/personal",
+      "locator": "[id=0666018].no",
+      "observed": "666",
+      "provider": "champout",
+      "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": 666
     },
     "96e60d635de7ecb4e39401641f0dadb45e250d2e21efefb4100696c77808e707": {
       "context": "champions-champout-capture",
