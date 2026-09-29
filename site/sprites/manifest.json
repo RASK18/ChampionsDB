@@ -1,0 +1,1422 @@
+{
+  "pokemon-0003000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/venusaur.png",
+    "sha256": "b59fed943479add5943cc41141af9e1d0cf1f2c5a65c719a3569d622aad6181e"
+  },
+  "pokemon-0003001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/venusaur-mega.png",
+    "sha256": "085699b024c38143d2abb8ae247cda43a1fcdb173da6c1c8b5b8663fd2ce12aa"
+  },
+  "pokemon-0006000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/charizard.png",
+    "sha256": "d4b2802dd40b22ba668107e5dd4c0ac4eee33128d251502883c9148abd6a38f7"
+  },
+  "pokemon-0006001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/charizard-megax.png",
+    "sha256": "15b15296714ec552526f9850f4be55aba8b20e7d17631fca4fec60de690977f3"
+  },
+  "pokemon-0006002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/charizard-megay.png",
+    "sha256": "8d74345ecb86f73b8d2b5d4c049bbeba28c7a5d130cd675a318218e0b2632618"
+  },
+  "pokemon-0009000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/blastoise.png",
+    "sha256": "052a87a7be155f154392f1e14e281a2245a4ccc611e1ee543497c056d1ec4350"
+  },
+  "pokemon-0009001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/blastoise-mega.png",
+    "sha256": "9520927731abe549a0033887a7f1e76db0cfd4045ba2d5b1574997fc9f7422fc"
+  },
+  "pokemon-0015000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/beedrill.png",
+    "sha256": "6d7a3dacb6bda83e2c28ce7aef6b6ee56505a9cdff1d83b37c92a60823416044"
+  },
+  "pokemon-0015001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/beedrill-mega.png",
+    "sha256": "6c5c0f604d2104b04bcbab901a6fd33bee0b8775fc51b3260642df6b7f82cfae"
+  },
+  "pokemon-0018000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pidgeot.png",
+    "sha256": "c8e8bab585192d2d87abf880fce3e4393ae4ce6b32c1a787defa3301ea65b069"
+  },
+  "pokemon-0018001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pidgeot-mega.png",
+    "sha256": "828ee55eac9c1832ae889e1a4882c1dbc5b4f155d96931e43db1cc553b2abab2"
+  },
+  "pokemon-0024000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/arbok.png",
+    "sha256": "95deb64e37c4f94e968a8c31f6e458ac8667649e4ff0c88578c3d4de478fcd19"
+  },
+  "pokemon-0025000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pikachu.png",
+    "sha256": "dd519d3bab2b8fd5710ea618c616ec5011dd0907586f9bd8c23bebe94333df56"
+  },
+  "pokemon-0026000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/raichu.png",
+    "sha256": "3a5ab73e2d0b6e3e4ffecf39024d94505eb567ef27989a45f852fdeef04d8ec2"
+  },
+  "pokemon-0026001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/raichu-alola.png",
+    "sha256": "a14f82a686a62a7e39820554a8b6ec585e7e7534adaf70d2ac48969335d224c5"
+  },
+  "pokemon-0026002": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10304.png",
+    "sha256": "dd5b7b7cd905189bc68fb7633a73865005c95a496fa20d22e170e4f91490d85b"
+  },
+  "pokemon-0026003": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10305.png",
+    "sha256": "31b620f4422613f698b27c6eeec60bb4c85e85627c655396b201e808ef661822"
+  },
+  "pokemon-0036000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/clefable.png",
+    "sha256": "987d89ea8837d537b0b42be096c273c4da6eacc8353d9d2f31b2afb2ac4b286c"
+  },
+  "pokemon-0036001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/clefable-mega.png",
+    "sha256": "7470feffc25c32f9294f1a5d7b65ef09595cd5444a9f608a02080825f5711a23"
+  },
+  "pokemon-0038000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/ninetales.png",
+    "sha256": "f5c0f170ea279b86cdaaaca0ec451f92eda8ef184ff2f9f899e764f6b7ada428"
+  },
+  "pokemon-0038001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/ninetales-alola.png",
+    "sha256": "0fea7748fb3e19d3d1c50349dfab4bc19d2d2fc0d5166d7d9b73f7d52444c3ca"
+  },
+  "pokemon-0040000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/wigglytuff.png",
+    "sha256": "c0337947ae7782b424afd15bfae9690e51284a7f8e0d09c6a9fa14465cb7643a"
+  },
+  "pokemon-0045000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/vileplume.png",
+    "sha256": "a4da246602799aa5d2a4569b2f0b06ce106956f30710ba534046772a0ab94642"
+  },
+  "pokemon-0053000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/persian.png",
+    "sha256": "9865b9512b462c6fe2d13ee5407b013409cb3a682ec681617500ae4763e188c8"
+  },
+  "pokemon-0053001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/persian-alola.png",
+    "sha256": "cf1641db8e3648a0a37b29a2ced5a316d0862484613f0020548e5c5dd2f1094a"
+  },
+  "pokemon-0059000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/arcanine.png",
+    "sha256": "cc68bb91296326489be2ab83642c22b2f89e43f60f3ea96d48b3fd69562f0211"
+  },
+  "pokemon-0059001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/arcanine-hisui.png",
+    "sha256": "df532350318f61e36e73039ffcc126557c9c5293f8110d04eb6ee0c6d259be47"
+  },
+  "pokemon-0065000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/alakazam.png",
+    "sha256": "4733821af7974ebb45f418659ad67f95cabc3853c86cc0aae07bc88eb6f11580"
+  },
+  "pokemon-0065001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/alakazam-mega.png",
+    "sha256": "1a0723930388e2e3e4a06ee97936afeac71233b6d5cc44ea4082923af2df76ec"
+  },
+  "pokemon-0068000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/machamp.png",
+    "sha256": "132efceee2c7754fb714b7b72a03199ca3f38dc2e14fed4246f893b72a3614a3"
+  },
+  "pokemon-0071000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/victreebel.png",
+    "sha256": "79b36ae0cabfe0e303e03a3f3a04b5b964cc758fb37ebd724a0ff39dbfa87beb"
+  },
+  "pokemon-0071001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/victreebel-mega.png",
+    "sha256": "13c882e2c1b7a784606cacba031927fb1d9e46bbc85135528a796438d84d16fc"
+  },
+  "pokemon-0080000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/slowbro.png",
+    "sha256": "a86b2774b63b3dc111d1b7f89066cc81035c52ee9ea264a9fe814923d66e46ed"
+  },
+  "pokemon-0080001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/slowbro-mega.png",
+    "sha256": "53d6a72d7247817b019d7be86e13d98622e662b76d6440ef8c2fea2dbfa4f626"
+  },
+  "pokemon-0080002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/slowbro-galar.png",
+    "sha256": "e7385f5b8bef7a1ba6f9f192438906595b10463ee5e88cbae0bbd7ee9ea4cc54"
+  },
+  "pokemon-0083000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/farfetchd.png",
+    "sha256": "6a9deb30bdfed80eb5a172afb04764e434ae719ed99ad1f9bbc794286a658d73"
+  },
+  "pokemon-0094000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gengar.png",
+    "sha256": "3145d4f8b51202a3c4353efb5b8d75693b9a248b2c419425259b105cad91d195"
+  },
+  "pokemon-0094001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gengar-mega.png",
+    "sha256": "b10c7cb7a1c8d47bfd91ea20b32c36876df2d58b809bc97e2ca1ce27355f3e5e"
+  },
+  "pokemon-0115000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/kangaskhan.png",
+    "sha256": "850342173aa92e3535de4ead2c4bbdd046dd110829beca5b3d16301c9ccca002"
+  },
+  "pokemon-0115001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/kangaskhan-mega.png",
+    "sha256": "59d78dfa1d4695121242c1f0131c9b3ad20a9c3f349467d17d9063f7fce46cc0"
+  },
+  "pokemon-0121000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/starmie.png",
+    "sha256": "6a3423f05f00081aef172b65125fa5919265148b4321b24ba8eefcc0022c5c78"
+  },
+  "pokemon-0121001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/starmie-mega.png",
+    "sha256": "b1be4d80629a8cecb199088244555d074b47df9e229f19abd5693729f3427af8"
+  },
+  "pokemon-0122000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mrmime.png",
+    "sha256": "cc7d472aa5e8aaf52b4cb8a9ab9edb9f66267a6188d344693301012f19ff276a"
+  },
+  "pokemon-0127000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pinsir.png",
+    "sha256": "6cd86eb8284ca6d31a708ac37ad7907cfe9c494148be4ad475877e0e6ac56fe1"
+  },
+  "pokemon-0127001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pinsir-mega.png",
+    "sha256": "b455f99afbb61f8825f297c4dfb86e62e56ca67f94bd6eb854e2e349a855229b"
+  },
+  "pokemon-0128000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tauros.png",
+    "sha256": "eacd0989938d36169b00ff941c836eff48a49fccfb015a3f1f15e59f3cf37d19"
+  },
+  "pokemon-0128001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tauros-paldeacombat.png",
+    "sha256": "66d100c0d1591492f4557017a670c8b5ec24d574c09d291c684ab9ed7473263c"
+  },
+  "pokemon-0128002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tauros-paldeablaze.png",
+    "sha256": "4082a81c2384e79a3bf9ff2deef03d7d00923979b1709eba08d340fbcda81998"
+  },
+  "pokemon-0128003": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tauros-paldeaaqua.png",
+    "sha256": "91d607fb7ff7503a1622f2e77fe8353dac3fa7fb70cfb8f45108fbe4e6f8d596"
+  },
+  "pokemon-0130000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gyarados.png",
+    "sha256": "10582ca1f3c38ef6c9c5d9fecb25efbe5761503db173127f381219e8de428ea3"
+  },
+  "pokemon-0130001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gyarados-mega.png",
+    "sha256": "bb575c030a35e5956610f097475c9108943fcd9a4aad7c0440e7c0048c1169c1"
+  },
+  "pokemon-0132000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/ditto.png",
+    "sha256": "c7a05c4aefb9d638b6b59c3cef91b9f2a19f1600b7bce9a051d5942daa3999cc"
+  },
+  "pokemon-0134000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/vaporeon.png",
+    "sha256": "75bce3c17ee617fbee47f9a8756e6b121ee50cd95f464d99d0e4686bc8ede504"
+  },
+  "pokemon-0135000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/jolteon.png",
+    "sha256": "b7f63afe0b38febcff1dda72cbe6020fb4774cf0d02741bbfae1a45a49a6cb6a"
+  },
+  "pokemon-0136000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/flareon.png",
+    "sha256": "8cc21974e3720c7ff09022e3c0490041080acdecf73d5d09fd672bc866fa3a6a"
+  },
+  "pokemon-0142000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aerodactyl.png",
+    "sha256": "071a8decea77167477545c35ec05633485a64008f3dcc490b90639819f85b9ec"
+  },
+  "pokemon-0142001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aerodactyl-mega.png",
+    "sha256": "7d93bde66025e9d09ad117baccb042e839378d7f8100f35001ac014c1cd3f2ac"
+  },
+  "pokemon-0143000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/snorlax.png",
+    "sha256": "0225610dc45ff23d91a9403596ca2b4cf1c4216ffff90d11d510f887f6ebef37"
+  },
+  "pokemon-0149000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/dragonite.png",
+    "sha256": "c97ebd19b812b5a2eca5319870fb74598805f698dd8249fa88b2d73f324a59be"
+  },
+  "pokemon-0149001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/dragonite-mega.png",
+    "sha256": "799576a703a9f2397f8f89731c61b715810ea726f1a10783c624516c86bfb897"
+  },
+  "pokemon-0154000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/meganium.png",
+    "sha256": "f7ef6983d25ec53879864e2eca81c99c1c52c1a94c3e46d20c562d6bbb983346"
+  },
+  "pokemon-0154001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/meganium-mega.png",
+    "sha256": "9cc9d4bbc6dcd2b15961b7cf794d233086f8240d6bb8fb01df1d526a21e25455"
+  },
+  "pokemon-0157000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/typhlosion.png",
+    "sha256": "db090ceeae6ccf748436c40d4b3334ab27e227387638957dabb087e8f199eaad"
+  },
+  "pokemon-0157001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/typhlosion-hisui.png",
+    "sha256": "4e1f39564ee98b28fa6e840127d5f355e883dd6697d61ea52c3377d7c2b75473"
+  },
+  "pokemon-0160000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/feraligatr.png",
+    "sha256": "d33d7a5739c161c86acc0764babd4423dd020d1d9399eacc4bcdcac30e76e23d"
+  },
+  "pokemon-0160001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/feraligatr-mega.png",
+    "sha256": "3d47dd72bcd641f69f2193f6129f6e2f24b29d92dfcce2c6eeca1c841445ccb9"
+  },
+  "pokemon-0168000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/ariados.png",
+    "sha256": "f9dc519056c4f3f0ba71e2d8709351f0825d68658fef8f8866c69b6952bf9701"
+  },
+  "pokemon-0181000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/ampharos.png",
+    "sha256": "776df5e38b8d47decf7749bf22f13bf7d192324c6b17bba5ac8e16780857ce8b"
+  },
+  "pokemon-0181001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/ampharos-mega.png",
+    "sha256": "0cf36ba1d6fafa33936626a242e8c197295e7170c45c6bf89c6d68155b542788"
+  },
+  "pokemon-0184000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/azumarill.png",
+    "sha256": "35e9ebb2ab7997a65bbb87ec2b44cfddcb4e8c2ff80f827450b012dd67a8d149"
+  },
+  "pokemon-0186000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/politoed.png",
+    "sha256": "ffedffbcae7e4484614c90344f8f262f0c75f00a514e1d20e9b52981e3bd56c5"
+  },
+  "pokemon-0196000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/espeon.png",
+    "sha256": "6428869926fb641dfba6a33b513f803ad4732878686b7598354e4c4e76cc957d"
+  },
+  "pokemon-0197000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/umbreon.png",
+    "sha256": "438afb6112f5363984e5514e4bcd2451b6d0943dd0cc0f0007a09b21bdaf46fb"
+  },
+  "pokemon-0199000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/slowking.png",
+    "sha256": "bfc82d43e6067cce50acc68dca3c900b8751b321c8c4e7e28346eb13af5fd06f"
+  },
+  "pokemon-0199001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/slowking-galar.png",
+    "sha256": "7bb35f66b88307fa0df7c14326489fa4b8e85a3617ff6fa79e3ee51c7b9d1929"
+  },
+  "pokemon-0205000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/forretress.png",
+    "sha256": "23e258cc33e3eb835f877d0e23391ea431450318316f545fa3b3d453c78d3397"
+  },
+  "pokemon-0208000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/steelix.png",
+    "sha256": "e30ab24cedc95ee517509878e056bbd69b05b28b5234166ffbe7d1420f52d7dd"
+  },
+  "pokemon-0208001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/steelix-mega.png",
+    "sha256": "c092d2ef09c9ea0a1d0e48ad5b0530b3d52f12142bf2e70ba355e9c66cd84441"
+  },
+  "pokemon-0211000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/qwilfish.png",
+    "sha256": "8f921d714535de6b5ea1a48eb4d61f922e928476ba20423fe4a565f9a43c792d"
+  },
+  "pokemon-0212000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/scizor.png",
+    "sha256": "8ffbdc521220c5fcea42e311ba448c19799fec8cb6dcdec342913e1ba387646a"
+  },
+  "pokemon-0212001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/scizor-mega.png",
+    "sha256": "6b5e17c1d2e4044e3086667922183572c5850ee2444a85a40a89f3c41921d979"
+  },
+  "pokemon-0214000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/heracross.png",
+    "sha256": "c86ce5d0e207bd60e93183f7baa0379ee5feb5f203ecde244a0f70695ec40083"
+  },
+  "pokemon-0214001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/heracross-mega.png",
+    "sha256": "c3b86aa317e799c2414c2a320db0c0bb4f111462b871568254c85b0f7ab9a8c8"
+  },
+  "pokemon-0227000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/skarmory.png",
+    "sha256": "cd0e93a222f9324923c8a69f30264f702d0c697b1fd94cedbbd7a31a0824e630"
+  },
+  "pokemon-0227001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/skarmory-mega.png",
+    "sha256": "72cb62773f711038385a0dfe22a9fa4791ba179ff1cd25c1905d266d1dd5bbe2"
+  },
+  "pokemon-0229000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/houndoom.png",
+    "sha256": "0ba3c38e05f7bd282b084ce655d1986a3a91dc9d99555a3ae906e43e1a190a19"
+  },
+  "pokemon-0229001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/houndoom-mega.png",
+    "sha256": "913180be43987b7db932b773d24bdf35c1f838ffee8b8f2975d4ba8216fad9d6"
+  },
+  "pokemon-0248000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tyranitar.png",
+    "sha256": "40e6c46fe10c2901b4a3429484141ddac1ded8aee25b785d4f7642b1da7d69de"
+  },
+  "pokemon-0248001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tyranitar-mega.png",
+    "sha256": "e84d8201cac90953e76950121f3041a54cc2c185cc6dee35b112070e5ff0d3e8"
+  },
+  "pokemon-0254000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sceptile.png",
+    "sha256": "e52213de749c38da428b272faea7faaaf74498bc31f9bdc9e0301ea538ee8244"
+  },
+  "pokemon-0254001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sceptile-mega.png",
+    "sha256": "c246e1da887ba942ce4f27dd964de05022d43c600c0664a284318ebaecb20afd"
+  },
+  "pokemon-0257000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/blaziken.png",
+    "sha256": "35d26ebe30a77bf20e19019c1eafbafc74e003d92487435c8c3a5a08dbd39eba"
+  },
+  "pokemon-0257001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/blaziken-mega.png",
+    "sha256": "f0bbf0e5cfceda64bdc95eb36381097bc58de04fb0dd65f60d8a3d6d5c6eaf30"
+  },
+  "pokemon-0260000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/swampert.png",
+    "sha256": "70ddc81db996d387f5291ec2b8a91130ad7ead1b1308720b9c19a02b8019da43"
+  },
+  "pokemon-0260001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/swampert-mega.png",
+    "sha256": "256aa57db96b64309c046aafd8444908e1c3fcf13a9e50e8d36512a37327e255"
+  },
+  "pokemon-0279000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pelipper.png",
+    "sha256": "ec7dc077d44651316dcf1beef68063d2d964ecc58a5d1518a574edb142a04add"
+  },
+  "pokemon-0282000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gardevoir.png",
+    "sha256": "0cf5f1e59eb1821350d50044baa1f3f7fe7fdfbba28a5d7a85b4938d3ffb6b28"
+  },
+  "pokemon-0282001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gardevoir-mega.png",
+    "sha256": "d3d14e5db9fb5908423b63300b1394802f50f804fdf519da4b9971d3f633e2ff"
+  },
+  "pokemon-0302000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sableye.png",
+    "sha256": "825d581232932a9e2dbaac3d72867c254ff862b07421316714d06525d81fe01d"
+  },
+  "pokemon-0302001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sableye-mega.png",
+    "sha256": "9f637f732b6a1e0afd6f8dcd2854e9fbf36686357566b90eba4204f313b8821e"
+  },
+  "pokemon-0303000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mawile.png",
+    "sha256": "e7f2325092eb6d9cee06b079681975b6bb89c6d07f10a65df707f5cabe1cb58f"
+  },
+  "pokemon-0303001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mawile-mega.png",
+    "sha256": "4f8a6f9f6565f390eb81f7695b509f81dbdfe9b47c508527ba648fe6962087ca"
+  },
+  "pokemon-0306000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aggron.png",
+    "sha256": "bd44ee3cccccf365c8fe990fff676513f74e21da65ab968506a9916073016680"
+  },
+  "pokemon-0306001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aggron-mega.png",
+    "sha256": "95fe84d3fc40c7a8e1757039c4e476fb2f4cd5ed5395475a00ae2704e23b284e"
+  },
+  "pokemon-0308000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/medicham.png",
+    "sha256": "4a7d5857d9a9b40f51cd4d156735107b7e45cd8e881a8b55880b3cd35e9feed8"
+  },
+  "pokemon-0308001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/medicham-mega.png",
+    "sha256": "cf02477e998c9bafaa0e220bef1c3184a22e17085e1a3e65b337f9111b257755"
+  },
+  "pokemon-0310000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/manectric.png",
+    "sha256": "fe7171737ce983b07ec51fd2f3d4c0e1a94d790d4261489d5870d6648300a5ba"
+  },
+  "pokemon-0310001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/manectric-mega.png",
+    "sha256": "b14cd88bded4e9ea17929605b623e56bc77fc8e53a4eeb67fa7f06113a5e0422"
+  },
+  "pokemon-0317000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/swalot.png",
+    "sha256": "42c926f6cbfdf54225cf82d0e7adb56014e2292a731e48288236a8aef98a0c32"
+  },
+  "pokemon-0319000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sharpedo.png",
+    "sha256": "cc5ba9c944d2abffad53bcb41606066b0bfe387ffbf69b9e04f82606bdb4313f"
+  },
+  "pokemon-0319001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sharpedo-mega.png",
+    "sha256": "a7fc94f557f460a44bfaa0eeb0b2175dae08c1baca327ea8c19b1d2c0c657a32"
+  },
+  "pokemon-0323000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/camerupt.png",
+    "sha256": "0031f177225c02252fa9052f2569c41779ff5f69e7195c7c269233a7ad2b0796"
+  },
+  "pokemon-0323001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/camerupt-mega.png",
+    "sha256": "808e8d5808f56f0badaec516181c34bf6c963d66acb54fa180587bb3f806cbe1"
+  },
+  "pokemon-0324000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/torkoal.png",
+    "sha256": "8997bdc6ec8a4dd66a7e4fbe3d54cbf312fbf015aa024c04315d07729b7f562d"
+  },
+  "pokemon-0334000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/altaria.png",
+    "sha256": "4632257b4a3affa843bff75899ce70df5472d3d098c28b61b09151b6e77e7520"
+  },
+  "pokemon-0334001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/altaria-mega.png",
+    "sha256": "de73b10002dcec54aaa5a6e41c431c690f90d320be0d0b65c0cd08b0ff09b62d"
+  },
+  "pokemon-0350000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/milotic.png",
+    "sha256": "29790b500473a5b006e8d969d831a0654fcd19f091454bb46927400890b28a75"
+  },
+  "pokemon-0351000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/castform.png",
+    "sha256": "158cb99f6132ac5812f32b1bafa02a821e3c93ff0bd8f328036a0d970e043a9c"
+  },
+  "pokemon-0351001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/castform-sunny.png",
+    "sha256": "fe97e6fac3ba2b93afc91c540c3374742cc586ae533d7b23b051598adbf36e76"
+  },
+  "pokemon-0351002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/castform-rainy.png",
+    "sha256": "43f94183fe9bff4c4245163233b9ea2ce943e4ecb6985338120ee320016c3971"
+  },
+  "pokemon-0351003": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/castform-snowy.png",
+    "sha256": "8af030dcb61fd354f2a3e9ea258d6abb16fcec5725c182e8e308f2ff7089b5ea"
+  },
+  "pokemon-0354000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/banette.png",
+    "sha256": "bf6f76ab108cb96a81479cdb63a134a59fd8a7ec4891c07e2a2dd0a0f472a69b"
+  },
+  "pokemon-0354001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/banette-mega.png",
+    "sha256": "90684bf2ee40f50feb544cc36c1e8a799445b6379e02eff26c4aea1a78497166"
+  },
+  "pokemon-0358000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/chimecho.png",
+    "sha256": "a92965647253b884de22a9a61f0ac92b3b9551b686450de4413c8a6530b89c66"
+  },
+  "pokemon-0358001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/chimecho-mega.png",
+    "sha256": "1d03247d947825edb2b8378a05c101279150d24f624d26514dd542106abac7f8"
+  },
+  "pokemon-0359000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/absol.png",
+    "sha256": "a1c2cb9ee36d06f0456d7db218480d451dc25ba4847c9812ec9dc92b042ff655"
+  },
+  "pokemon-0359001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/absol-mega.png",
+    "sha256": "c970a57c05e84497de6aa5f39ef4751a7d3d52c846e266400fd5e062ead53393"
+  },
+  "pokemon-0359002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/absol-megaz.png",
+    "sha256": "56c75d0281626d8b94daba6daeef63f97ae5cbb947d7b799574721e0fc4aa46c"
+  },
+  "pokemon-0362000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/glalie.png",
+    "sha256": "55d1d98d15315208c16ef066ebb52e153063eaa88ea624d695f6027752a7069a"
+  },
+  "pokemon-0362001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/glalie-mega.png",
+    "sha256": "3240c84433ca007ba72ac361862bfe1db40192dcb0fdec165f3aca827d6b2dc5"
+  },
+  "pokemon-0373000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/salamence.png",
+    "sha256": "f9130ec7b8f881b4c510fa978eea370de24dc4c781815e8e9e4d5f095322e347"
+  },
+  "pokemon-0373001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/salamence-mega.png",
+    "sha256": "60358a44f3f5cd2a8738daed10ee60c33a0d680286975670ca550af41c78af97"
+  },
+  "pokemon-0376000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/metagross.png",
+    "sha256": "ef81ca82e27e1144d87d69d3cbccef29808d810bfba13bdd87b13395359e577a"
+  },
+  "pokemon-0376001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/metagross-mega.png",
+    "sha256": "79923dfae8a7824ba7d2ae0f8bf7e7d350dae6ce3854a8fb13ea977b02aa3dd5"
+  },
+  "pokemon-0389000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/torterra.png",
+    "sha256": "accdeb3b5536a1d524d16d9fd85f1cafb2870cb232b139c242673d4922327cae"
+  },
+  "pokemon-0392000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/infernape.png",
+    "sha256": "c31987b83b8ca758782e6996f8e8236feda668c71cd380f0c941ba68d82dc040"
+  },
+  "pokemon-0395000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/empoleon.png",
+    "sha256": "98589c5be6bd8147e51a51d265a10a85dd716ae410b22e1938ec048961e09849"
+  },
+  "pokemon-0398000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/staraptor.png",
+    "sha256": "2c7c30aaf625cca016350ef5cb65ca3a6e03f551e05fbb8f1742f247e4c52062"
+  },
+  "pokemon-0398001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10308.png",
+    "sha256": "755e888cd010019fb5f862c35b4dc2321540dae1f5c17b01b7cc67fc447003ff"
+  },
+  "pokemon-0405000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/luxray.png",
+    "sha256": "055cfcae453caeb67bed11db23fd75ff9f924d7a510eaa9ba178e26ca6bad056"
+  },
+  "pokemon-0407000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/roserade.png",
+    "sha256": "338eb352479a02f37d5dc5dc26d1b96a289f696a1486a7d8ecee8bbde1bf1a61"
+  },
+  "pokemon-0409000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rampardos.png",
+    "sha256": "299cc209c27ac6fe38c9c1a2748859f091542248fda26fa34cb56c52e3aa4949"
+  },
+  "pokemon-0411000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/bastiodon.png",
+    "sha256": "8c526ebc2bd4def3245bfec4d2ed50db075e86e255f686fef0465ae10328a0a3"
+  },
+  "pokemon-0428000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lopunny.png",
+    "sha256": "0782a961803571a04afc8f201a2b00f45bcbf365d4401702cd300f0ca2f30616"
+  },
+  "pokemon-0428001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lopunny-mega.png",
+    "sha256": "e092a6e0eaf78223a2019a038c56d28abdea19eab6e81ef47688259e84120cd2"
+  },
+  "pokemon-0442000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/spiritomb.png",
+    "sha256": "f5bdc364a8904a12dbaf6d4a71f17781a8b2d50a9a0822e14b06e6c14e6f12e2"
+  },
+  "pokemon-0445000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/garchomp.png",
+    "sha256": "1ceb7b12f9c6e0ffb4fc6e7247aa50fd561789eb7b04927f2f0ff32463915363"
+  },
+  "pokemon-0445001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/garchomp-mega.png",
+    "sha256": "2afec19f7f9f822aef60e98ed352013e2859c1ad31f92d1ed1a758d27631213a"
+  },
+  "pokemon-0445002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/garchomp-megaz.png",
+    "sha256": "953febe5a561a43f610ba383cd59844bcc488ed06a392d0762ea61255fa67b8c"
+  },
+  "pokemon-0448000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lucario.png",
+    "sha256": "6648151b971eaf3aa2d6d437ac04f8eb0fa0ceff7675469ec5d206b89cfe1f41"
+  },
+  "pokemon-0448001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lucario-mega.png",
+    "sha256": "5b0f2e494e50c7fde328331e72fa252fdcfa7abad6d2a46cedb1d24b4dab844e"
+  },
+  "pokemon-0448002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lucario-megaz.png",
+    "sha256": "d82791db596b387d58d6253d25b2184d442080c6793c91571a3d223a7d038cce"
+  },
+  "pokemon-0450000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/hippowdon.png",
+    "sha256": "b0084cd8ab1f45aa51eb44211ebf6282c9d85a6a9da79d8e21b4c428902d355e"
+  },
+  "pokemon-0454000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/toxicroak.png",
+    "sha256": "8e49d618feced51182b7fa455fa063b52fd5c837b09b7839cfc0409029910c46"
+  },
+  "pokemon-0460000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/abomasnow.png",
+    "sha256": "753031616e1d9b322e353c47c6251d8f4a40126ca2299cac7227610783c2d899"
+  },
+  "pokemon-0460001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/abomasnow-mega.png",
+    "sha256": "ea669476d3817d6e620e7c955cc5bac3a059a6128d622adcc75795ae8b7d3acd"
+  },
+  "pokemon-0461000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/weavile.png",
+    "sha256": "61b16834141a2c29ca480ce68c1aac62b85aabf22d8eda720a9970a5db816e8b"
+  },
+  "pokemon-0464000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rhyperior.png",
+    "sha256": "cb994a6b8cec93217301ef8508f6945112bbd72472e9b92a19465853c500448b"
+  },
+  "pokemon-0470000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/leafeon.png",
+    "sha256": "61c891a4ab655c55fc312c7656417e3be05fb528ff2b50658a84a4acff91997b"
+  },
+  "pokemon-0471000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/glaceon.png",
+    "sha256": "a63b37c412e19fd10ae9771d535de40e8eb4f1ad190d4940b0db5c04fbdd82d7"
+  },
+  "pokemon-0472000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gliscor.png",
+    "sha256": "b9528957759043f73e31909ea3355c29ef7a05950fca5a7f21f0cad7f5753a53"
+  },
+  "pokemon-0473000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mamoswine.png",
+    "sha256": "5620cb4f397f545646664a7255ae0c18edab38104bc4df489468b18c58981e56"
+  },
+  "pokemon-0475000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gallade.png",
+    "sha256": "825f2bdd036afc081fb5d8d55741d96b396540ba8425f3b3c777ea295c7e85b7"
+  },
+  "pokemon-0475001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gallade-mega.png",
+    "sha256": "e4979bf2730b77eea99f233f1e7e20610191bd46d842226d5a0383da940c5524"
+  },
+  "pokemon-0478000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/froslass.png",
+    "sha256": "5df28930f8c3cc04900bece575bd3da4e800d0d2b74760dc8e53984b673f0528"
+  },
+  "pokemon-0478001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/froslass-mega.png",
+    "sha256": "9ea3c9e44dd5816aa0ecd3db0c97c3615b13acc51270b39b38db78301f6f8c28"
+  },
+  "pokemon-0479000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rotom.png",
+    "sha256": "97d44336a8c2d613b12e231639765bbe6cd0ae7ea9b5ffbb63bf39f859b343da"
+  },
+  "pokemon-0479001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rotom-heat.png",
+    "sha256": "c3d8f1c34e9fe4b4c703df111340f821b40359e77b641dd42da0c7297a742a27"
+  },
+  "pokemon-0479002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rotom-wash.png",
+    "sha256": "de7d9754622cdb976857e9f9ca91a978f4288bc51a6bef5b927297a860c82b85"
+  },
+  "pokemon-0479003": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rotom-frost.png",
+    "sha256": "896ff89e60e972c1a883ac8c94775e8b67a1237b537fdfc4b7a78fe8e23ecbb0"
+  },
+  "pokemon-0479004": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rotom-fan.png",
+    "sha256": "be643f696d99bea5575315f597c708e05fe9edfb2b96784848c695ae80d79ef2"
+  },
+  "pokemon-0479005": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rotom-mow.png",
+    "sha256": "4d7acbfe630dd06ce600f1e654cf7a3edd37c67f7011f906d2a5527445f01afc"
+  },
+  "pokemon-0497000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/serperior.png",
+    "sha256": "5b13546cfe881127784cda3ddc8fcab9304d28133ebc3913dfc18dc443f8676d"
+  },
+  "pokemon-0500000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/emboar.png",
+    "sha256": "114215ad2d5dfb7d5b452c826f74bcd956420d4d75f6eb2fb3c06fbe433e7434"
+  },
+  "pokemon-0500001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/emboar-mega.png",
+    "sha256": "69d916900c4a9588e0d0c94af08cf3406b6dfdaec43807c8e5681889b1abf86f"
+  },
+  "pokemon-0503000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/samurott.png",
+    "sha256": "ab2b4dff5e9ce620f1c1660b9346082b4882a03ceac0a8619a059c6a109a2b2b"
+  },
+  "pokemon-0503001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/samurott-hisui.png",
+    "sha256": "2e4b9a76ce2727ca9b6441d1e75c2cf9135a9c41b5e0e3a0e84065dae85f70c6"
+  },
+  "pokemon-0505000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/watchog.png",
+    "sha256": "53cd6497e5d2d6b33bad732d654c3a09caf9965d1a83d2025f16123ae2c90be7"
+  },
+  "pokemon-0510000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/liepard.png",
+    "sha256": "575568e597b7ab234b168301ace00bec2a01003b904850426e9b69f4536a50fc"
+  },
+  "pokemon-0512000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/simisage.png",
+    "sha256": "a24ab77cc9df7657b52dc240fa7571e5a4dec638c6272754a9495a1e364770e1"
+  },
+  "pokemon-0514000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/simisear.png",
+    "sha256": "dead0dc27b5c439a8b3b00a46da3a62958333d52d25c74243d39afe58f3e6475"
+  },
+  "pokemon-0516000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/simipour.png",
+    "sha256": "d9540637e221045eb35abe2d55b776d38971205e227b6f4c84252dc67c845cf2"
+  },
+  "pokemon-0518000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/musharna.png",
+    "sha256": "fbf271b1c644c247a82d05f5b58299e228f5ce8ff9685416a74327348c7233ba"
+  },
+  "pokemon-0530000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/excadrill.png",
+    "sha256": "88af42cd03f6f29edce9763008d9520d6307faaa5046ea5b8792378a215d9205"
+  },
+  "pokemon-0530001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/excadrill-mega.png",
+    "sha256": "da1b3081e2a47e6a2fe0ccb8db5065c4bf0c3705c393a25ed28f777ab289db13"
+  },
+  "pokemon-0531000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/audino.png",
+    "sha256": "fa6ad5989350a59e05499aadc1d2f9e31df971607ffef984c224ca8d8592d39a"
+  },
+  "pokemon-0531001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/audino-mega.png",
+    "sha256": "02438c9897c0c572c6eb4569cf5430c317f83ae80324362aee9228ac1cd78d0e"
+  },
+  "pokemon-0534000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/conkeldurr.png",
+    "sha256": "6415c64009554fd128c00d9e0a4f2e78d0b49a98f9f9cbf6e46e4cd85090464f"
+  },
+  "pokemon-0545000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/scolipede.png",
+    "sha256": "d73eef7a67ee74f46bd4cd6aff4e081b66afea423ccd77ef6adfd4b5ffa9d76f"
+  },
+  "pokemon-0545001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10288.png",
+    "sha256": "5d9fe3be17edcebd519004f66b597c9ed518d5155b807af2f752699d33029140"
+  },
+  "pokemon-0547000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/whimsicott.png",
+    "sha256": "53d98f49700b39ad84a29609cf2b8a639682806c07643d503ea20068977c9e5a"
+  },
+  "pokemon-0553000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/krookodile.png",
+    "sha256": "8a71cf2764260a986dcf29eb2c7fa58976b980538862060c03558e6f7e98db9a"
+  },
+  "pokemon-0560000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/scrafty.png",
+    "sha256": "d00eaa0d081ab0dcf9c38da6d5d2bcd9e6fa814cfc67a6c0560e83c2a039bd99"
+  },
+  "pokemon-0560001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10289.png",
+    "sha256": "d16d5a62936b8d0b545cba722e7a2e7087223b7f625fc5efcdcda2009fce8355"
+  },
+  "pokemon-0563000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/cofagrigus.png",
+    "sha256": "0e5220bb3c38500b2511d730dd361fa5ab09776dbdae001c207a6699a614d50e"
+  },
+  "pokemon-0569000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/garbodor.png",
+    "sha256": "e3512f323f867838afd59529da75af80024df0610603224a51cbf6dd44a68939"
+  },
+  "pokemon-0571000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/zoroark.png",
+    "sha256": "ab8d453cf8f67be9ca410180725c231501719b7368fe81dea0209d3f745b108c"
+  },
+  "pokemon-0571001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/zoroark-hisui.png",
+    "sha256": "5c1d25e04cf1da79a1fb87fb2d93e4adb749fe86ae3e87061bbe2c9f5f7f9deb"
+  },
+  "pokemon-0579000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/reuniclus.png",
+    "sha256": "7501f5b2d03c999bd815f296235667cb5be41f2045b12ef16fd89be39ced7c9a"
+  },
+  "pokemon-0584000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/vanilluxe.png",
+    "sha256": "d57fc0c45bba00d21681da385ddbe0f26be06d4e8e399a392dc220acffea5f69"
+  },
+  "pokemon-0587000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/emolga.png",
+    "sha256": "dc5c5d83275028edfd48728326cbe692e1063d534d23c74fa89eaf2054ee4e92"
+  },
+  "pokemon-0604000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/eelektross.png",
+    "sha256": "638b0dddf32c53dd0b370f5bb7944486c5aa61e3c687732b70dbc0550906ff18"
+  },
+  "pokemon-0604001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10290.png",
+    "sha256": "fc9251ed073766f0483d4eb1df130c18ef77ca648d3fe25953757c16dcb6a442"
+  },
+  "pokemon-0609000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/chandelure.png",
+    "sha256": "77972d9147e607fd12b2a2516fbcc9c906da106ff86803042b9b20c00dd31ee4"
+  },
+  "pokemon-0609001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/chandelure-mega.png",
+    "sha256": "f0c440969e025fd01e17e95c3a23e2f7adddff9db6ef1e563cea6c35852ac3e0"
+  },
+  "pokemon-0614000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/beartic.png",
+    "sha256": "a6b72de3a6feb817d43d629f611a1927a9a04c79a8ce94418cc9418c88eb4c8f"
+  },
+  "pokemon-0618000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/stunfisk.png",
+    "sha256": "b641b63e80dbd7756f8d6171dc56c0a321c9d5dccf07f77d4af679bc2f54f26a"
+  },
+  "pokemon-0618001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/stunfisk-galar.png",
+    "sha256": "b0e2a5c9e9604041f5468a0fcd673534c28885fc8b17eb28261e2033b7763255"
+  },
+  "pokemon-0623000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/golurk.png",
+    "sha256": "9d80c569a6211938da0c1f22191963a0a579b02894ae6048ed4a29ab691581b1"
+  },
+  "pokemon-0623001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/golurk-mega.png",
+    "sha256": "1c8f1a586f3c1e834616876a9329dfbe350f24b23a7741581520542a8eb6804c"
+  },
+  "pokemon-0635000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/hydreigon.png",
+    "sha256": "aea378daee1303c676c0a47a9cd0c113e491e709f659dc339b8724a1dd4e42a3"
+  },
+  "pokemon-0637000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/volcarona.png",
+    "sha256": "424ecacf0c79c493ca85f128a3652c064eb161d538719460de09dcbfc77d0976"
+  },
+  "pokemon-0652000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/chesnaught.png",
+    "sha256": "f5a2d05f097b151b85dced39450433252063b06fe6cd420bcb666d13465ce9e7"
+  },
+  "pokemon-0652001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/chesnaught-mega.png",
+    "sha256": "68ca884098198f7cb53c6ce871f5f4352e12908eae2008915548053dbb37876c"
+  },
+  "pokemon-0655000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/delphox.png",
+    "sha256": "8fa3cd984393db963a447e6b3f0513c644ea830f317d039a8d52f514304840db"
+  },
+  "pokemon-0655001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/delphox-mega.png",
+    "sha256": "a143f1254b89b97de805f39220528fba7bc7e80d4f4ff8b921992d376e113c93"
+  },
+  "pokemon-0658000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/greninja.png",
+    "sha256": "7d4986d5646a61ee426e7eb5eabfe7f9d656b34d6d95792336d10af07198d071"
+  },
+  "pokemon-0658003": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/greninja-mega.png",
+    "sha256": "95dd8ad341a8f7e3e771f14027ab7dbcb1338003eb73c5da4bf20a2b8e718bd1"
+  },
+  "pokemon-0660000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/diggersby.png",
+    "sha256": "104bdb3987bf82bca5c19a5c29946c4edaf5791f89e97bdc35d0452a60780d4b"
+  },
+  "pokemon-0663000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/talonflame.png",
+    "sha256": "196d8d9df6e355d94b41e9b81d494fb981656744409ed85b0a4d0f8d51459d61"
+  },
+  "pokemon-0666000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/vivillon-polar.png",
+    "sha256": "9904576ceb4ea05ab5b96aa9e5f1e736a1ea8dcbaf9b75110bd2bbc93c161897"
+  },
+  "pokemon-0666018": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/vivillon-fancy.png",
+    "sha256": "e406cc56ce90ad8c06cc55bd5ff2e6d52466317e6edf8ac2f4c4436516f81f09"
+  },
+  "pokemon-0668000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pyroar.png",
+    "sha256": "5b9c793eff8e975c14262bd51062c08f84a52374c4df42f9e8d0938aefb5bd71"
+  },
+  "pokemon-0668001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10295.png",
+    "sha256": "3ec1aca714ec301f083e51d0b75c226491acba00b5fa160e890a8e18a41115e8"
+  },
+  "pokemon-0670005": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/floette-eternal.png",
+    "sha256": "951d89ddbacac4d769f2f26f7ef97b0f3ef718018e131df23f933b7212bb94b9"
+  },
+  "pokemon-0670006": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/floette-mega.png",
+    "sha256": "c57498ca799953462a1f661675c2c4845b2691c0eb27b7b0ec0fc50c1de4f2a8"
+  },
+  "pokemon-0671000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/florges.png",
+    "sha256": "91cf0af2c22cacd4f7fc5b07e9487ffc67da83e06d02ff39139ae07c8ef15452"
+  },
+  "pokemon-0673000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gogoat.png",
+    "sha256": "942662f59b4ca1824769914934d10e58031f38bf188e7463889b9c10de44f1e5"
+  },
+  "pokemon-0675000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pangoro.png",
+    "sha256": "1aefdd69b5eaee5e36a134cf3ec05f5deade953fa3fe4ea474c5996a93148b05"
+  },
+  "pokemon-0676000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/furfrou.png",
+    "sha256": "6e33eb1258887b41af4c82fe56da00a96757cce41e923e9571005b7c09dbe332"
+  },
+  "pokemon-0678000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/meowstic.png",
+    "sha256": "19748522a3bcae44512d14d9b108183e5a72e6aea20c6c8738d2b2bd540df421"
+  },
+  "pokemon-0678001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/meowstic-f.png",
+    "sha256": "72468a67d84ff62758bb03bf82e03a586f2a6441b558d362af60a50c031e24e2"
+  },
+  "pokemon-0678002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/meowstic-mmega.png",
+    "sha256": "0801d50669b37b6181f20b3fee2ee45ef8a09592e8c2fd4c8cc8fc895944e6b7"
+  },
+  "pokemon-0678003": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/meowstic-fmega.png",
+    "sha256": "0801d50669b37b6181f20b3fee2ee45ef8a09592e8c2fd4c8cc8fc895944e6b7"
+  },
+  "pokemon-0681000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aegislash.png",
+    "sha256": "0ea7e37b716ac3bd65381cfe057d7a191c5b97198e91e66d18a5580f3021a299"
+  },
+  "pokemon-0681001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aegislash-blade.png",
+    "sha256": "344794f5a28dd81ec0874317ac15623ab876fe697c8337e0ac23eb53e5c01b38"
+  },
+  "pokemon-0683000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aromatisse.png",
+    "sha256": "244ae7b7bb767d110858dba5f460ecda472fab459b4a4fb711b7adeaa0f54fcb"
+  },
+  "pokemon-0685000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/slurpuff.png",
+    "sha256": "33d520f5cc72e16579740845b29341fd2dcd14b1a493f8549ea552b776fa3a7f"
+  },
+  "pokemon-0687000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/malamar.png",
+    "sha256": "c7b821693a6b226b4a2b8c5e2533dae468e2dda0a21996a351e925fb6db00e4f"
+  },
+  "pokemon-0687001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10297.png",
+    "sha256": "a68022ff62cea0307b446049ddde961afd2958caa5ff270cdd0b391a5764939f"
+  },
+  "pokemon-0689000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/barbaracle.png",
+    "sha256": "07e2b798da6337f55d93cc11e8ee0f1ef2edc13d18ad0df444239d4279cab492"
+  },
+  "pokemon-0689001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10298.png",
+    "sha256": "9d81b010aaab7ae6bcd50a0759ff5c6f022c0e276550d17856a9d53222ce9b50"
+  },
+  "pokemon-0691000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/dragalge.png",
+    "sha256": "45bd23a962a573e038338c11be9db9d85e2735403003ad2929ce9e030ea64540"
+  },
+  "pokemon-0691001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10299.png",
+    "sha256": "b5a92a2a5a4d2fec837ad3b2186ec74c03c753985b9d21afae4eb394820b99ab"
+  },
+  "pokemon-0693000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/clawitzer.png",
+    "sha256": "3b37cb4ed402f16b4c57d0f67b9cd8daf84f7a3805062cb6731e6db41dbc1166"
+  },
+  "pokemon-0695000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/heliolisk.png",
+    "sha256": "dd76149570c1bb1682368bfc1b50830853b7bfb085039492ae7751bc3ff89538"
+  },
+  "pokemon-0697000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tyrantrum.png",
+    "sha256": "8ece731bf8f81f2a61b412ebd42889e04e849c26f3503ab469a140b0fd497bef"
+  },
+  "pokemon-0699000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/aurorus.png",
+    "sha256": "dc89be7cebe8d9d5eb31afc01942ced8d57919fe28876b2d544e47534de36760"
+  },
+  "pokemon-0700000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sylveon.png",
+    "sha256": "49c1dcbd61d2a15b78b9d33373821b32759dfc31f9dbf3356ecbbdf85c0ca1ab"
+  },
+  "pokemon-0701000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/hawlucha.png",
+    "sha256": "460959acfe192ce9a87e9b8c382b42b5c60a273f319a81d21766a0ae581c03c9"
+  },
+  "pokemon-0701001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/hawlucha-mega.png",
+    "sha256": "f620b5ecdcfeb21921c60a4e271ffa5ebea8838e179d0cd39940581239456ef4"
+  },
+  "pokemon-0702000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/dedenne.png",
+    "sha256": "9d8a670027bd9a36b840787bf08c4da44a1bb5cade3522f38519881d7c5236ad"
+  },
+  "pokemon-0706000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/goodra.png",
+    "sha256": "35892df43cd731998892e0b28175502cf62d6dc8ac0b3537b5c05eeb0a45ee69"
+  },
+  "pokemon-0706001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/goodra-hisui.png",
+    "sha256": "30e389c5df74a1d356bd54646ac31885ce71d2f28fc997dc1910f303b21a7fd5"
+  },
+  "pokemon-0707000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/klefki.png",
+    "sha256": "2043ae736b37a12d2c87a3c31350744ae9714dd9d18b39a36110327dd8a5b4b3"
+  },
+  "pokemon-0709000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/trevenant.png",
+    "sha256": "8794d18089cc1e4c687dba1e590df579c592b8f2102f5be37f7e1bd8a2ac3e8e"
+  },
+  "pokemon-0711000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gourgeist.png",
+    "sha256": "bd59bfbd38f46ef8e5bfe3a9da2d6571a80100b2b5aa4235dcdb061829df81e5"
+  },
+  "pokemon-0711001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gourgeist-small.png",
+    "sha256": "80735c93008217464482208b761c4b4b06792b2287dcfc1a8428aee85a2e2434"
+  },
+  "pokemon-0711002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gourgeist-large.png",
+    "sha256": "be7845d6f010e76a64d7138d61cd12dd3240a123acc39fb0d7612d121c5646a6"
+  },
+  "pokemon-0711003": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gourgeist-super.png",
+    "sha256": "f713053deb4a0a73fe9d310b716ad866b019a77638d9aaab0b3c93664a7b3e1f"
+  },
+  "pokemon-0713000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/avalugg.png",
+    "sha256": "e61f7b9a5b50b94b6f37941a9e23abd7dcb6edfdc1b7a83c2a7033a43fe8c8dc"
+  },
+  "pokemon-0713001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/avalugg-hisui.png",
+    "sha256": "dfcd9f371dff0ad69594f950e75223f417f1c10488125c38b15d8d442aea63c4"
+  },
+  "pokemon-0715000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/noivern.png",
+    "sha256": "7cf18a0088158ce3eec7c216a0df22dff8077b160d6f4e05744d52739db3908c"
+  },
+  "pokemon-0724000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/decidueye.png",
+    "sha256": "db9427e4100de0d073fcf3cdc3a53907bb138eb1a96d26d650232472c4df8cb0"
+  },
+  "pokemon-0724001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/decidueye-hisui.png",
+    "sha256": "f537d06fc82d026dc91b1c2fea541ec90320d1a3115523ce74e37bbc3ef71ee6"
+  },
+  "pokemon-0727000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/incineroar.png",
+    "sha256": "8b67a66a4c3401aceba52f7bac0358d5e0ce964d144c7bd8401041f152901d07"
+  },
+  "pokemon-0730000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/primarina.png",
+    "sha256": "cc92a8012359510cfae1c144c3179cb58020663977e9258cab5e48fc083f640f"
+  },
+  "pokemon-0733000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/toucannon.png",
+    "sha256": "6a5d09ee0eafdbd48cbbed9e42d0006bf3f4cbc9182ffb9c98c5ea173c0c82df"
+  },
+  "pokemon-0740000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/crabominable.png",
+    "sha256": "9dd4f84b7a23592698c548477738c48e1af9b128ed26602731fdbd87092707d0"
+  },
+  "pokemon-0740001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/crabominable-mega.png",
+    "sha256": "a96fa48ef8e244a4c9c4be5dd8657de5254143938852021d1a0fa2e3abac1759"
+  },
+  "pokemon-0745000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lycanroc.png",
+    "sha256": "7b98d6b0d9aef18db4fb422e50508bb07dd018c98f04a44eabb62652188e004e"
+  },
+  "pokemon-0745001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lycanroc-midnight.png",
+    "sha256": "683261356a64195fbb74c3e21a0e2e36777f0b4cd527bf35ff972c81547765ff"
+  },
+  "pokemon-0745002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/lycanroc-dusk.png",
+    "sha256": "6ef4422d04014809e2cfdea54ff4fd75f8985403ea1f0fe90f3ebc0c4f5fefb7"
+  },
+  "pokemon-0748000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/toxapex.png",
+    "sha256": "09603075299bdf420e9cc0a5bbbc597a6ff53d8fad1f99b2ef7c88e234015525"
+  },
+  "pokemon-0750000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mudsdale.png",
+    "sha256": "1a7bb40cfef6f18c9e51c10098c89216ce14539f4885cd0de09c47f1d7b59110"
+  },
+  "pokemon-0752000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/araquanid.png",
+    "sha256": "ff48f5fba49864b1a27ea928c5e68e8121759f2defbb90bb419b103d858a48d2"
+  },
+  "pokemon-0758000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/salazzle.png",
+    "sha256": "7c2d9b3974775142c377debe44b3dcab3eb5f75f1a9b7944e22d7304f3c1e6f9"
+  },
+  "pokemon-0763000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tsareena.png",
+    "sha256": "954926fd643a6b716c5d1047c3482edf84b3b5b8b001aace8ecbd406f22fd2dd"
+  },
+  "pokemon-0765000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/oranguru.png",
+    "sha256": "3bcc4058ffe0c0e8e4e5d538f4f1faa92f4e665f86552f028f31ace8ddf8ca3b"
+  },
+  "pokemon-0766000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/passimian.png",
+    "sha256": "57e895a414cdbffda180f846686cb317316122abef11b9f809155b694953645f"
+  },
+  "pokemon-0768000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/golisopod.png",
+    "sha256": "43396de48947ffbb439cacfe29b301bf7d4b54443002f28f319c4ded2f1d8fa3"
+  },
+  "pokemon-0768001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/golisopod-mega.png",
+    "sha256": "71ea3f54bd95cc7517a11f41f280abbdfa6c77f54f2f608b1298a98622437946"
+  },
+  "pokemon-0778000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mimikyu.png",
+    "sha256": "5ad8791603e024fb4adc64732cc3b3711eef4b00bb02d8a9b201e86180b19772"
+  },
+  "pokemon-0778001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mimikyu-busted.png",
+    "sha256": "0af190b39fc058d7cf3b26cf5bd9d437626a23c9330243ed4f9953d7f6d00f92"
+  },
+  "pokemon-0780000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/drampa.png",
+    "sha256": "810f6b417b0ee67d05653ef5de674bc66a2c9ecaff50bffda779436f20602ece"
+  },
+  "pokemon-0780001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/drampa-mega.png",
+    "sha256": "f20ccb952840dafadc8e8f160fb28e90592e2d85cd1eede881f19efe7f441ddf"
+  },
+  "pokemon-0784000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/kommoo.png",
+    "sha256": "3b4956d226148c98c3b913a0563af57aa70b105eb30fbc6ac54f72178b2f7a51"
+  },
+  "pokemon-0812000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/rillaboom.png",
+    "sha256": "4119adfcea7bde1f770d0664cc0358f76e4aaf8ba01d2032934e5b172e6ce1e5"
+  },
+  "pokemon-0815000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/cinderace.png",
+    "sha256": "ea54c14c13f94fe4710f87578532ce6c8c7ff9b063c9b99fc0db28bc474d42cd"
+  },
+  "pokemon-0818000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/inteleon.png",
+    "sha256": "67950f16d0076d5d8d7f8f2952e5a9a6b616cb66679fdc1069ec75763ef49e20"
+  },
+  "pokemon-0823000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/corviknight.png",
+    "sha256": "42d853377011ccae7036d272ee9362dc4bfe62f73ebe3f64dc2baa7cc2a4da99"
+  },
+  "pokemon-0828000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/thievul.png",
+    "sha256": "9ac2a04a5409ab8ddb46d1eb294d2a8cd35f6563bea3062c1741dd3185a3a606"
+  },
+  "pokemon-0841000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/flapple.png",
+    "sha256": "450643840195f9d82300a3a7de48fd3ebd827c2eb1acf944ca32596309e51fa4"
+  },
+  "pokemon-0842000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/appletun.png",
+    "sha256": "0f69509574e78a175f423cfed7f47c19b747573ce425792ab0e5f02187c9c97a"
+  },
+  "pokemon-0844000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sandaconda.png",
+    "sha256": "836548d717233e69905523b097eab8ea27015e187ebe2eb5e97227b2bfbe9c6d"
+  },
+  "pokemon-0849000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/toxtricity.png",
+    "sha256": "7ac219c2ab001ea74d26b935a60b722988faeb8e6dd3f5e3f3ae90e19df26671"
+  },
+  "pokemon-0849001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/toxtricity-lowkey.png",
+    "sha256": "5aa0f1fe130b357aef669f628bba9e02f2d4c1e640b06df6c3c9c5f03c7c0289"
+  },
+  "pokemon-0853000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/grapploct.png",
+    "sha256": "b3dbab2dfaedefe61898c3a0a5204a77497b262aa66afe7c4216e4077837aace"
+  },
+  "pokemon-0855000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/polteageist.png",
+    "sha256": "e25ef63ddba1984346f477ad1dbe566881eb99b09f79523e0de2d329a24943c7"
+  },
+  "pokemon-0858000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/hatterene.png",
+    "sha256": "68c829b31554a5081bf1635a714961001b6e2baaffd61b841cfc5bce8b8b3358"
+  },
+  "pokemon-0861000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/grimmsnarl.png",
+    "sha256": "86ddc125fc62296ca471e71a5700e62f4f98c0302be34ab44909593fdd3a2f14"
+  },
+  "pokemon-0863000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/perrserker.png",
+    "sha256": "1b134a5aba571228d80ab12453a5060c979e7d5985b4f967fba3c023795155fd"
+  },
+  "pokemon-0865000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sirfetchd.png",
+    "sha256": "a154e4222bba2afe98a1e419bf1cc0043ecbd07843f260fe98613de08126501e"
+  },
+  "pokemon-0866000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mrrime.png",
+    "sha256": "cb1d7a7336e116925b88217424abcc4032ce29586b399b7a2278361a94b9218e"
+  },
+  "pokemon-0867000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/runerigus.png",
+    "sha256": "e1b7078f9bd2bcefe908a33b0ed256c63d06edd572cfa7b475ca20525c8d32a1"
+  },
+  "pokemon-0869000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/alcremie.png",
+    "sha256": "f977b2ecb5a0f20278c01a9f2db5165ea7cd24f7bdfca803e910083d05d376f9"
+  },
+  "pokemon-0870000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/falinks.png",
+    "sha256": "ed59b3ad6dd0fa756ae2e6fa5f9af7f6b4119be9ab9f2b5f84491c7525de1425"
+  },
+  "pokemon-0870001": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10303.png",
+    "sha256": "2c58d76943010ab1546cdef54dd2876207335d22bd5c11abdefa48ddab52a99b"
+  },
+  "pokemon-0871000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pincurchin.png",
+    "sha256": "84684f274b32a7fe106319db43fb703ee68a5b4d69a84220c0cad0350ba6bead"
+  },
+  "pokemon-0876000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/indeedee.png",
+    "sha256": "1df832d50e1fb3ac46a465bd25254bd515602c543641962386e5822c72d2f513"
+  },
+  "pokemon-0876001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/indeedee-f.png",
+    "sha256": "622c65f2b88345aee9068336037cc675034a78500560a6e607df6f6a04bcdf66"
+  },
+  "pokemon-0877000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/morpeko.png",
+    "sha256": "4681c443b60f4fa1342951abb8fc2e450c4d72ee176b2f6e72146c6002591a99"
+  },
+  "pokemon-0877001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/morpeko-hangry.png",
+    "sha256": "89f41dc3cc113dcea07cb90d1e92d50689ac389318019bd3bd4adbaef08ba4d5"
+  },
+  "pokemon-0887000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/dragapult.png",
+    "sha256": "9ee0ef4f45e85d53f587499ec6e0c48a14af5a989e9cb6680321349660743c96"
+  },
+  "pokemon-0899000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/wyrdeer.png",
+    "sha256": "23f9cf801893de5384c1207c7682ec572ca03c0cbc9255ab7aa5aa7ff755bb3f"
+  },
+  "pokemon-0900000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/kleavor.png",
+    "sha256": "fa8fe8f720e5a0dfde9be795892dde24531097e1a024c3c9d12de192d96c3b56"
+  },
+  "pokemon-0902000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/basculegion.png",
+    "sha256": "112be4e391349a9fa46e2d183eaaf2b7601a083936cc989bab387fe657a5234f"
+  },
+  "pokemon-0902001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/basculegion-f.png",
+    "sha256": "dcc0ca3c85c1f19c98502866662ffe57acd9b539e64999e9eac158768abcceff"
+  },
+  "pokemon-0903000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sneasler.png",
+    "sha256": "eb1e858deb514168c10b5c3628e353aa6abd68c7e25a342f404619d7aa7f5cdb"
+  },
+  "pokemon-0904000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/overqwil.png",
+    "sha256": "01e6c0d67029cfedb4afbcb2067dc0f2eac9f81f639fe2c0b9772e1c6d3df1eb"
+  },
+  "pokemon-0908000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/meowscarada.png",
+    "sha256": "55e02758d4b768a6242dd9017a0f2a584139d052505dd263d7b1c2e136f094c8"
+  },
+  "pokemon-0911000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/skeledirge.png",
+    "sha256": "9b34366d80c901a90cd0a539c8892fdd8ca88101c04414cfd80b2df975b062da"
+  },
+  "pokemon-0914000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/quaquaval.png",
+    "sha256": "a671af85713f098830ccf3ec8c3da2a761c100cc851bfff9347fe6b17c4bad69"
+  },
+  "pokemon-0923000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/pawmot.png",
+    "sha256": "6357b14510fbe1771e1a46ac4d817e0d14b15be7ba7bd7a68c1c802b84409165"
+  },
+  "pokemon-0925000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/maushold.png",
+    "sha256": "5abb8d283b88ffdfd3d1c94e7c4322dec8e125447c523ca1018302db05a44443"
+  },
+  "pokemon-0925001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/maushold-four.png",
+    "sha256": "eb5e8386b3cfe8c8f09974692c424e85abe38fafe19ffcedf9f3c1a8d2f94652"
+  },
+  "pokemon-0930000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/arboliva.png",
+    "sha256": "6ec07269be6f30d79aaeedbb077ab33fc7e28e04d56bd7a6f83603260191c18f"
+  },
+  "pokemon-0931000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly.png",
+    "sha256": "02d8773902c3b7def23beecae849db9afbf366c61bd1906e3457900afd025764"
+  },
+  "pokemon-0931001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly-blue.png",
+    "sha256": "17f0f38ffe451877f1d3336ec5ba66d156b7080999f41df9b955141e578880ae"
+  },
+  "pokemon-0931002": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly-yellow.png",
+    "sha256": "7db039147d1b979eb090e8d9080d7bf744a20867710f91c8549c3829aa7412f5"
+  },
+  "pokemon-0931003": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly-white.png",
+    "sha256": "62c5e5c1e90d25f6db70f5c612e7b098ccbd389edd6eb4968cee1275e8dc5c8c"
+  },
+  "pokemon-0934000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/garganacl.png",
+    "sha256": "1a37a4111c743905de327542fe66fe2633a8bbfa7db08a4e68360b0e584a50c8"
+  },
+  "pokemon-0936000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/armarouge.png",
+    "sha256": "89556dd538ccd271d2b1fbbec46b7e7284b8866b00d9104cfe00ee38b9ea5ac5"
+  },
+  "pokemon-0937000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/ceruledge.png",
+    "sha256": "bc67daaba43ef6c95801228b02108d1362b8687c4fb323cc99b1b87227e9f842"
+  },
+  "pokemon-0939000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/bellibolt.png",
+    "sha256": "a70f8210cad4a812d292d83075422ebd29264660f0210ad1737a678b50d62e7b"
+  },
+  "pokemon-0943000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/mabosstiff.png",
+    "sha256": "b69f78b4cfe512e8e7d58f83f3d49fa8e3fa6eda9904ed87d71a94ba85959b3c"
+  },
+  "pokemon-0952000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/scovillain.png",
+    "sha256": "6e91b1fe216257706983af466d27e52d95bee545943590d0dd7016bcc816748f"
+  },
+  "pokemon-0952001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/scovillain-mega.png",
+    "sha256": "edccd9f083fded49a443e899d1f4572dd1bb8f04fe2deeb416547a27547f9fda"
+  },
+  "pokemon-0956000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/espathra.png",
+    "sha256": "a50e5e40e8634d2bcc675d6dfd93324d4202c302dcde52a86cae1b83a1ff2b43"
+  },
+  "pokemon-0959000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/tinkaton.png",
+    "sha256": "3fc263e74eacc5a514bfa24fc1a05b47fd8b47a717ecee96e9c3a07fd5658e0a"
+  },
+  "pokemon-0964000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/palafin.png",
+    "sha256": "c759999ff4de78f0cd03de7888fb0d48fd18d0ace34cd393457027fc3366f997"
+  },
+  "pokemon-0964001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/palafin-hero.png",
+    "sha256": "a744688da17f71c36b6862418b51f5cf2848cfdb236edf615893ab4b06bfd14d"
+  },
+  "pokemon-0968000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/orthworm.png",
+    "sha256": "bd216622cc1200ab8a3eece5311566957a91d67e894a0068ad07fb30fd6d975f"
+  },
+  "pokemon-0970000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/glimmora.png",
+    "sha256": "57fbaf72b975738553d7beb2e5f19bef095f323ea3b234daf8a959817264a2c8"
+  },
+  "pokemon-0970001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/glimmora-mega.png",
+    "sha256": "70651d703baf26bebe928669b9876adc68594412408193520eee58c039cb2c5b"
+  },
+  "pokemon-0972000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/houndstone.png",
+    "sha256": "a4ddc9dfa589f2571a2daca07fe6ec0c4f325e34d9667c927931192756896a66"
+  },
+  "pokemon-0979000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/annihilape.png",
+    "sha256": "a645c20accce33086444c2a5b6228341afa1e827a172dbf7b4d786935bc647d7"
+  },
+  "pokemon-0981000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/farigiraf.png",
+    "sha256": "96d715e282a7db0b84cd607a553f6eb435e41508dca05d0d3122465814c93830"
+  },
+  "pokemon-0983000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/kingambit.png",
+    "sha256": "ef511f89f2d967970f7ead34cc1c895f9b151a169c246f4f3116c527ce3d85cf"
+  },
+  "pokemon-0998000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/baxcalibur.png",
+    "sha256": "d5b54252c67a39337cae29f67048099da66d5035f860a98a34cbef5710edc2ee"
+  },
+  "pokemon-0998001": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/baxcalibur-mega.png",
+    "sha256": "30ee26fcece29d6177a9a635886c440772fd3bc5f1c8746668431460a7cdb93f"
+  },
+  "pokemon-1000000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/gholdengo.png",
+    "sha256": "7ff7197ef5490cef26a84f570dc9f67f1fd676a5b17e230a14011f57124aa20e"
+  },
+  "pokemon-1013000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/sinistcha.png",
+    "sha256": "a8492f02cb3cf00bf9d988684cc9692599fbc4a43b76bcea157d607085d65bf6"
+  },
+  "pokemon-1018000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/archaludon.png",
+    "sha256": "c02b0cc10444b3f28ffee110babb84f5cdd9e690de25694692634e0f22afe1cc"
+  },
+  "pokemon-1019000": {
+    "source": "https://play.pokemonshowdown.com/sprites/gen5/hydrapple.png",
+    "sha256": "8338b598a554e544fad26978f9a0d5628777605b7fe3c6dfe3868f8c2676283d"
+  }
+}

@@ -23,10 +23,11 @@ npm run site:dev
 - `data:validate`: verifica todos los registros, referencias, evidencias, esquemas y huellas del conjunto publicado.
 - `data:rebuild`: reconstruye sin red a partir del manifiesto y las capturas locales. Una ejecución sin cambios conserva los archivos y su informe de cambios.
 - `site:build`: genera la web completa en `dist/`, con cobertura compacta y evidencias por entidad.
+- `sprites:update`: vuelve a capturar los sprites usados por las 355 formas publicadas y guarda su origen y SHA-256 en `site/sprites/manifest.json`.
 - `site:dev`: construye y sirve la web en `http://127.0.0.1:4173/ChampionsDB/`.
 - `test:browser`: comprueba tablas, filtros, detalles, teclado y móvil con Playwright (instalar antes Chromium con `npx playwright install chromium`).
 
-Los JSON de consulta están en [`data/`](data/). El [manifiesto](data/manifest.json), la [cobertura](data/reports/coverage.json) y la [procedencia por colección](data/provenance/) permiten auditar la publicación. `complete: false` es una limitación real, no una etiqueta decorativa.
+Los JSON de consulta están en [`data/`](data/). El [manifiesto](data/manifest.json), la [cobertura](data/reports/coverage.json) y la [procedencia por colección](data/provenance/) permiten auditar la publicación. Los sprites se sirven desde el propio sitio, sin solicitudes externas del navegador. `complete: false` es una limitación real, no una etiqueta decorativa.
 
 ## Consultas sin servidor
 
@@ -65,4 +66,4 @@ El remoto `origin` apunta a [RASK18/ChampionsDB](https://github.com/RASK18/Champ
 - [Registro de proveedores y dependencias conocidas](sources/providers.json).
 - [Reglas y equivalencias revisadas, vinculadas a sus evidencias](rules/champout-reviewed.json).
 
-El código conserva la licencia del repositorio. Los nombres y textos de Pokémon y las fuentes externas mantienen sus respectivos derechos; no se les atribuye automáticamente la licencia del código.
+El código conserva la licencia del repositorio. Los nombres, textos e imágenes de Pokémon y las fuentes externas mantienen sus respectivos derechos; no se les atribuye automáticamente la licencia del código.

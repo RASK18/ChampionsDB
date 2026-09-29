@@ -12,6 +12,7 @@
     "data:validate": "node scripts/validate.mjs",
     "test": "node --test test/*.test.mjs",
     "site:build": "node scripts/build-site.mjs",
+    "sprites:update": "node scripts/fetch-sprites.mjs --download",
     "site:dev": "npm run site:build && node scripts/serve-site.mjs",
     "site:preview": "node scripts/serve-site.mjs",
     "site:check": "node scripts/check-site.mjs",
