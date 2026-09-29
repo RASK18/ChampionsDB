@@ -183,6 +183,15 @@ test("Experto no combina multigolpe de potencia alta con otro movimiento débil"
   data.moves[0].power.value = 25;
   assert.equal(evaluate(search, "pokemon", p, createGraph(data)), true);
 });
+test("Arbok queda posible sin atribuirle un movimiento de cambio", () => {
+  const arbok = data.pokemon.find((row) => row.name === "Arbok");
+  const pivot = relation("moves", group("all", {kind: "moveTrait", trait: "pivot"}));
+  const learned = graph.related("pokemon", arbok, "moves");
+  assert.equal(learned.complete, false);
+  assert.equal(evaluate(pivot, "pokemon", arbok, graph), null);
+  assert.match(undecided(pivot, "pokemon", arbok, graph).join(" "),
+    new RegExp(`Ninguno de sus ${learned.rows.length} movimientos documentados es de cambio`));
+});
 test("ausencia de aprendizaje abierta; conjuntos vacíos certificados y todos no vacuo", () => {
   const p = { id: "p", typeIds: [], abilityIds: [] };
   const g = createGraph({ pokemon: [p] });

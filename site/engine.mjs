@@ -469,6 +469,19 @@ export function undecided(node, c, row, graph) {
   if (evaluate(node, c, row, graph) !== null) return [];
   if (node.kind === "group")
     return node.children.flatMap((n) => undecided(n, c, row, graph));
+  if (node.kind === "relation" && c === "pokemon" && node.relation === "moves" && node.quantifier === "some") {
+    const related = graph.related(c, row, "moves");
+    const checks = related.rows.map((move) => evaluate(node.query, "moves", move, graph));
+    if (!checks.includes(true) && !checks.includes(null) && !related.complete) {
+      const only = node.query.kind === "group" && node.query.children.length === 1
+        ? node.query.children[0] : node.query;
+      const criterion = only.kind === "moveTrait" && only.trait === "pivot"
+        ? "es de cambio" : "cumple todas las propiedades solicitadas";
+      return [`Ninguno de sus ${related.rows.length} movimientos documentados ${criterion}; la lista de aprendizajes no está confirmada como completa.`];
+    }
+    if (checks.includes(null))
+      return ["Faltan propiedades confirmadas de algunos movimientos o aprendizajes por documentar."];
+  }
   return [
     node.kind === "moveTrait"
       ? "Rasgo de movimiento sin clasificar"

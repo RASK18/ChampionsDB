@@ -121,6 +121,14 @@ test("el rol editado muestra sus criterios actuales y el motivo posible es visib
   await expect(page.locator("tbody .mobile-reason").first()).toBeVisible();
   await expect(page.locator("tbody .mobile-reason").first()).toContainText("cobertura");
 });
+test("Arbok aparece como posible sin atribuirle un movimiento de cambio", async ({ page }) => {
+  await page.getByRole("button", { name: /^Intimidación y cambio/ }).click();
+  await page.locator("#possible-tab").click();
+  await page.locator("#search").fill("Arbok");
+  await expect(page.locator("tbody tr")).toHaveCount(1);
+  await expect(page.locator("tbody tr")).toContainText("Arbok");
+  await expect(page.locator("tbody .reason")).toContainText(/Ninguno de sus \d+ movimientos documentados es de cambio/);
+});
 test("relación anidada y resultados desconocidos; columnas y ordenación", async ({
   page,
 }) => {
