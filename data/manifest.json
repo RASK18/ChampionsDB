@@ -7,7 +7,7 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "43a9fd94353b81a1ea7c22d7e660b0abe8b8724c5aa9a5da6fa78e6e33ff65b3",
+  "datasetId": "f0c6e514c3333615ec7d4444402e447e4f1c51446bd8780a028f0b8768ad376b",
   "files": {
     "abilities.json": {
       "bytes": 49177,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "a86994a2960543916076b6a545e3f9f6a1bc8bd02379c650ff67e58cb5583f7f"
+      "sha256": "50029eb776360a12fc3709b797c789c8785bd1266b3bb50ca785a0d692277aea"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "60935e7f9b1189fa30ea0a7f11e38f834243cb440f84979191f58dd5f4709638"
+      "sha256": "f7708d2cfde8678949d9cdb67f609d35e34f3e1cdcdeef0a9215d0a36d17e586"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "4b062fb3007d1c905658d37de6d841ece47a7530810f394a8ae7714d9b41bef4"
+      "sha256": "3be63ba321af7b4b9e31329e705d0906d380dd1a31d172947bbb1f5f4c8142e8"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "b3b8236db06ec1e8f6279658eee2c26efde8a6b917c1dd61c0c1f29ee0b3484c"
+      "sha256": "012a27c2f99517c49b1dd27afe1d79ff49d0fd799d51fdedd9c557262de06b49"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -98,8 +98,8 @@
       "sha256": "a8b0bd0c883e8d3c4e5c70e0029952f61a8a60c11f59029e8682232648699b98"
     },
     "reports/changes.json": {
-      "bytes": 4519,
-      "sha256": "92eb00d822af4a3fe375234667ae775f4bb28583f3b2471fcd5448e7e9280e3c"
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     "reports/coverage.json": {
       "bytes": 26538,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29558,
-      "sha256": "23a7d051457001e3ea155dee83284ce72e6eced4fac595922b29010cf8505e96"
+      "sha256": "3c7a90300e2b914570c557663008afa7c96083cca9fb9ac9555b7a5559f41d4d"
     },
     "species.json": {
       "bytes": 29136,
@@ -1131,6 +1131,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "a5df8274e85b0889bf2a9b3422a08b39732374fc"
+    "showdown": "4434c2b4707f9b5b5dd70ea9841ab454cdcc0826"
   }
 }
