@@ -10,9 +10,9 @@
     "battle-rules": {
       "excluded": 0,
       "fieldsExpected": 64,
-      "fieldsPublished": 64,
+      "fieldsPublished": 40,
       "inventoried": 16,
-      "recordsPublished": 16
+      "recordsPublished": 10
     },
     "effects": {
       "excluded": 0,
@@ -88,9 +88,11 @@
   },
   "complete": false,
   "pendingByReason": {
-    "not-fully-structured": 1
+    "missing": 24,
+    "not-fully-structured": 1,
+    "supplemental-review-evidence-changed": 6
   },
-  "pendingCount": 1,
+  "pendingCount": 31,
   "scope": "Tablas y textos de champout en el commit capturado, con complementos limitados a los 147 huecos autorizados. No certifica legalidad integral ni cobertura completa de mecánicas.",
   "sourcePolicy": {
     "availability": "Presencia y banderas de las tablas capturadas; no equivale a legalidad en un reglamento ni garantiza que el volcado incorpore el último parche.",
@@ -100,30 +102,6 @@
     "mode": "champout-primary",
     "provider": "champout",
     "supplementalClaims": {
-      "battle-rules/ability-copying/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/available"
-      },
-      "battle-rules/ability-copying/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/identity"
-      },
-      "battle-rules/ability-copying/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/name"
-      },
-      "battle-rules/ability-copying/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/rule"
-      },
       "battle-rules/accuracy-evasion/available": {
         "providers": [
           "showdown"
@@ -147,102 +125,6 @@
           "showdown"
         ],
         "scope": "battle-rules/accuracy-evasion/rule"
-      },
-      "battle-rules/critical-hits/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/available"
-      },
-      "battle-rules/critical-hits/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/identity"
-      },
-      "battle-rules/critical-hits/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/name"
-      },
-      "battle-rules/critical-hits/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/rule"
-      },
-      "battle-rules/damage-calculation/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/available"
-      },
-      "battle-rules/damage-calculation/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/identity"
-      },
-      "battle-rules/damage-calculation/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/name"
-      },
-      "battle-rules/damage-calculation/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/rule"
-      },
-      "battle-rules/mega-evolution/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/available"
-      },
-      "battle-rules/mega-evolution/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/identity"
-      },
-      "battle-rules/mega-evolution/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/name"
-      },
-      "battle-rules/mega-evolution/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/rule"
-      },
-      "battle-rules/move-copying/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/available"
-      },
-      "battle-rules/move-copying/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/identity"
-      },
-      "battle-rules/move-copying/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/name"
-      },
-      "battle-rules/move-copying/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/rule"
       },
       "battle-rules/stat-calculation/available": {
         "providers": [
@@ -291,30 +173,6 @@
           "showdown"
         ],
         "scope": "battle-rules/stat-stages/rule"
-      },
-      "battle-rules/switching/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/available"
-      },
-      "battle-rules/switching/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/identity"
-      },
-      "battle-rules/switching/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/name"
-      },
-      "battle-rules/switching/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/rule"
       },
       "battle-rules/turn-order/available": {
         "providers": [

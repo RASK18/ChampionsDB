@@ -1,7 +1,151 @@
 [
   {
+    "claim": "battle-rules/ability-copying/available",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/ability-copying/identity",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/ability-copying/name",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/ability-copying/rule",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/critical-hits/available",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/critical-hits/identity",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/critical-hits/name",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/critical-hits/rule",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/damage-calculation/available",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/damage-calculation/identity",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/damage-calculation/name",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/damage-calculation/rule",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/mega-evolution/available",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/mega-evolution/identity",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/mega-evolution/name",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/mega-evolution/rule",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/move-copying/available",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/move-copying/identity",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/move-copying/name",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/move-copying/rule",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/switching/available",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/switching/identity",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/switching/name",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
+    "claim": "battle-rules/switching/rule",
+    "observations": [],
+    "reason": "missing"
+  },
+  {
     "claim": "interactions/full-mechanics",
     "detail": "Los textos están publicados; con_ref y buf_ref son asociaciones, no reglas causales completas.",
     "reason": "not-fully-structured"
+  },
+  {
+    "claim": "battle-rules/damage-calculation/rule",
+    "reason": "supplemental-review-evidence-changed"
+  },
+  {
+    "claim": "battle-rules/critical-hits/rule",
+    "reason": "supplemental-review-evidence-changed"
+  },
+  {
+    "claim": "battle-rules/switching/rule",
+    "reason": "supplemental-review-evidence-changed"
+  },
+  {
+    "claim": "battle-rules/mega-evolution/rule",
+    "reason": "supplemental-review-evidence-changed"
+  },
+  {
+    "claim": "battle-rules/ability-copying/rule",
+    "reason": "supplemental-review-evidence-changed"
+  },
+  {
+    "claim": "battle-rules/move-copying/rule",
+    "reason": "supplemental-review-evidence-changed"
   }
 ]

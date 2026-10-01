@@ -1,16 +1,6 @@
 [
   {
     "available": true,
-    "id": "ability-copying",
-    "identity": true,
-    "name": "Copia de habilidades",
-    "rule": {
-      "description": "Rastro elige una habilidad copiable de un rival adyacente; excluye las marcadas como no copiables. Imitación falla si ambas habilidades ya coinciden, si la del objetivo impide Imitación o si la del usuario no puede sustituirse. La presencia de una habilidad de copia no garantiza una ruta concreta.",
-      "exceptionsComplete": false
-    }
-  },
-  {
-    "available": true,
     "id": "accuracy-evasion",
     "identity": true,
     "name": "Precisión y evasión",
@@ -54,51 +44,6 @@
   },
   {
     "available": true,
-    "id": "critical-hits",
-    "identity": true,
-    "name": "Golpes críticos",
-    "rule": {
-      "criticalChanceDenominators": [
-        24,
-        8,
-        2,
-        1
-      ],
-      "damageMultiplier": 1.5,
-      "description": "Probabilidades desde el nivel normal hasta tres aumentos: 1/24, 1/8, 1/2 y 1. Las habilidades y movimientos pueden modificar o impedir el crítico.",
-      "exceptionsComplete": false,
-      "ignoresNegativeAttackStages": true,
-      "ignoresPositiveDefenseStages": true
-    }
-  },
-  {
-    "available": true,
-    "id": "damage-calculation",
-    "identity": true,
-    "name": "Cálculo de daño",
-    "rule": {
-      "baseFormula": "B = suelo(suelo(suelo(2 × nivel / 5 + 2) × potencia × ataque / defensa) / 50) + 2",
-      "description": "Ataque/Defensa para movimientos físicos; Ataque Especial/Defensa Especial para especiales, salvo sustituciones del movimiento. Los modificadores se aplican sucesivamente con redondeos del motor; la fórmula base no es un simulador completo.",
-      "exceptionsComplete": false,
-      "modifierOrder": [
-        "objetivos múltiples",
-        "clima",
-        "golpe crítico",
-        "azar",
-        "mismo tipo",
-        "efectividad",
-        "quemadura",
-        "modificadores finales"
-      ],
-      "randomMaximumPercent": 100,
-      "randomMinimumPercent": 85,
-      "randomOutcomes": 16,
-      "spreadMultiplier": 0.75,
-      "stabMultiplier": 1.5
-    }
-  },
-  {
-    "available": true,
     "id": "freezing",
     "identity": true,
     "name": "Congelado",
@@ -106,28 +51,6 @@
       "forcedThawTurn": 3,
       "thawProbability": 0.25,
       "trigger": "attempt-move"
-    }
-  },
-  {
-    "available": true,
-    "id": "mega-evolution",
-    "identity": true,
-    "name": "Megaevolución",
-    "rule": {
-      "description": "La piedra equipada determina la forma compatible. Solo puede megaevolucionar un Pokémon de cada equipo por combate. La forma mega se conserva al debilitarse; las interacciones de reanimación no confirmadas no se dan por resueltas.",
-      "exceptionsComplete": false,
-      "perSideLimit": 1,
-      "requiresHeldStone": true
-    }
-  },
-  {
-    "available": true,
-    "id": "move-copying",
-    "identity": true,
-    "name": "Copia y ejecución de otros movimientos",
-    "rule": {
-      "description": "Copión ejecuta el último movimiento utilizado si existe y sus propiedades permiten copiarlo. Una copia temporal no añade ese movimiento al aprendizaje permanente. Mímico, Esquema y Metrónomo están marcados como no disponibles en el módulo Champions consultado; no se deduce disponibilidad de las tablas genéricas.",
-      "exceptionsComplete": false
     }
   },
   {
@@ -190,19 +113,6 @@
       "maximumStage": 6,
       "minimumStage": -6,
       "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
-    }
-  },
-  {
-    "available": true,
-    "id": "switching",
-    "identity": true,
-    "name": "Cambios de Pokémon",
-    "rule": {
-      "clearTemporaryMoveCopies": true,
-      "description": "Un cambio ordinario elimina los cambios temporales de estadísticas y los estados volátiles y restaura movimientos y habilidad de base. Los movimientos que transfieren efectos al relevo tienen tratamiento específico.",
-      "exceptionsComplete": false,
-      "resetStatStages": true,
-      "restoreBaseAbility": true
     }
   },
   {

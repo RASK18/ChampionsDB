@@ -2,31 +2,23 @@
   "authorized": 147,
   "claims": [
     {
-      "fields": [
-        "battle-rules/ability-copying/available"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/ability-copying/available"
     },
     {
-      "fields": [
-        "battle-rules/ability-copying/identity"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/ability-copying/identity"
     },
     {
-      "fields": [
-        "battle-rules/ability-copying/name"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/ability-copying/name"
     },
     {
-      "fields": [
-        "battle-rules/ability-copying/rule"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/ability-copying/rule"
     },
     {
@@ -58,115 +50,83 @@
       "scope": "battle-rules/accuracy-evasion/rule"
     },
     {
-      "fields": [
-        "battle-rules/critical-hits/available"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/critical-hits/available"
     },
     {
-      "fields": [
-        "battle-rules/critical-hits/identity"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/critical-hits/identity"
     },
     {
-      "fields": [
-        "battle-rules/critical-hits/name"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/critical-hits/name"
     },
     {
-      "fields": [
-        "battle-rules/critical-hits/rule"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/critical-hits/rule"
     },
     {
-      "fields": [
-        "battle-rules/damage-calculation/available"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/damage-calculation/available"
     },
     {
-      "fields": [
-        "battle-rules/damage-calculation/identity"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/damage-calculation/identity"
     },
     {
-      "fields": [
-        "battle-rules/damage-calculation/name"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/damage-calculation/name"
     },
     {
-      "fields": [
-        "battle-rules/damage-calculation/rule"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/damage-calculation/rule"
     },
     {
-      "fields": [
-        "battle-rules/mega-evolution/available"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/mega-evolution/available"
     },
     {
-      "fields": [
-        "battle-rules/mega-evolution/identity"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/mega-evolution/identity"
     },
     {
-      "fields": [
-        "battle-rules/mega-evolution/name"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/mega-evolution/name"
     },
     {
-      "fields": [
-        "battle-rules/mega-evolution/rule"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/mega-evolution/rule"
     },
     {
-      "fields": [
-        "battle-rules/move-copying/available"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/move-copying/available"
     },
     {
-      "fields": [
-        "battle-rules/move-copying/identity"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/move-copying/identity"
     },
     {
-      "fields": [
-        "battle-rules/move-copying/name"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/move-copying/name"
     },
     {
-      "fields": [
-        "battle-rules/move-copying/rule"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/move-copying/rule"
     },
     {
@@ -226,31 +186,23 @@
       "scope": "battle-rules/stat-stages/rule"
     },
     {
-      "fields": [
-        "battle-rules/switching/available"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/switching/available"
     },
     {
-      "fields": [
-        "battle-rules/switching/identity"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/switching/identity"
     },
     {
-      "fields": [
-        "battle-rules/switching/name"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/switching/name"
     },
     {
-      "fields": [
-        "battle-rules/switching/rule"
-      ],
-      "resolved": true,
+      "fields": [],
+      "resolved": false,
       "scope": "battle-rules/switching/rule"
     },
     {

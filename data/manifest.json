@@ -7,15 +7,15 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "f0c6e514c3333615ec7d4444402e447e4f1c51446bd8780a028f0b8768ad376b",
+  "datasetId": "2510366a808798fe774dba2745568ae3fb02e5eea2bac204eb1f43c23b425d2b",
   "files": {
     "abilities.json": {
       "bytes": 49177,
       "sha256": "903cb81ef95f111d8f0e1a4aac32df903c96237c1dfe09401a4144a30e7b9d66"
     },
     "battle-rules.json": {
-      "bytes": 7018,
-      "sha256": "0f52c9b11c8753af81bfb27228d69faa08dfcb00405c0b3642a09f7e5ae6fc69"
+      "bytes": 3513,
+      "sha256": "5328e36e81caaea8eded97ca0324485492dc86db477f128a3cd00d22f97c2d5b"
     },
     "effects.json": {
       "bytes": 20122,
@@ -50,8 +50,8 @@
       "sha256": "d21487410beec39c54cc682bc7c5afd31c5a426f4defec2d525d8354849fc9a3"
     },
     "provenance/battle-rules.json": {
-      "bytes": 312134,
-      "sha256": "86564ad63453ed6efb434340b4d2c801210d891e0f6cd64404882e6ecd8d0400"
+      "bytes": 54039,
+      "sha256": "b18c15e71d9b4dad6530f38c7e11ab1b6740b0db9a187b4259721cdf940c8f52"
     },
     "provenance/effects.json": {
       "bytes": 204005,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "50029eb776360a12fc3709b797c789c8785bd1266b3bb50ca785a0d692277aea"
+      "sha256": "7531fac4670bf8d34951815596bcdb8d911b4b335b6d223b11d27b336c7ad7a1"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "f7708d2cfde8678949d9cdb67f609d35e34f3e1cdcdeef0a9215d0a36d17e586"
+      "sha256": "36811004c4c1d99fea628d02b7923e6abfa3abae330dd3948fe92a40609a9156"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "3be63ba321af7b4b9e31329e705d0906d380dd1a31d172947bbb1f5f4c8142e8"
+      "sha256": "d3a6de94c9e70a9e329c5ed6fda0f697b814ea7f0a8321885191fe83d4781171"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "012a27c2f99517c49b1dd27afe1d79ff49d0fd799d51fdedd9c557262de06b49"
+      "sha256": "dca4a8a14af44df79bf36944841e45440f6c9ed2d9a59c289e452146d4cbc2ec"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -91,19 +91,19 @@
     },
     "provenance/types.json": {
       "bytes": 139701,
-      "sha256": "f25c129d83ee1cf6d8139dcb36e568c30c8deb5bf7ab8da8ce1db8a490deb756"
+      "sha256": "1ae288653bdbc2f8b1aa1633b138ac24388545b11c5254de85170c6e1311fdb7"
     },
     "regulations.json": {
       "bytes": 14114,
       "sha256": "a8b0bd0c883e8d3c4e5c70e0029952f61a8a60c11f59029e8682232648699b98"
     },
     "reports/changes.json": {
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 570,
+      "sha256": "b5f59af645de4e4fee67cd610956a06b7ec3ad9f42a877b864e6fb4749612e38"
     },
     "reports/coverage.json": {
-      "bytes": 26538,
-      "sha256": "9dc426470840b2091ac610a262fba5865a3ec9244decfd4f9bcc2fff5ff269ea"
+      "bytes": 22681,
+      "sha256": "228ff3e4df386a4d7ebec84f666d2a963f22d54b85f1da17e585504758a537ea"
     },
     "reports/excluded.json": {
       "bytes": 340087,
@@ -118,16 +118,16 @@
       "sha256": "a4a83e6904b8d5c824eba72ccb5011817a367105c49270ea68083619689e6c65"
     },
     "reports/pending.json": {
-      "bytes": 206,
-      "sha256": "e26cb8d07cf5981e57295fd376a64679338f8be17fd240ea1e91c100f7684161"
+      "bytes": 3455,
+      "sha256": "f7fd3bd5811d87c4ba2a124514d5cc325fc1ad8919f6ff6393b9d3aacf81ffa1"
     },
     "reports/stale.json": {
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 4981,
+      "sha256": "7f8bdd2c8e9d9ffe579a3dcd9daf2b6893c3695cb0aa046cbad7667113125238"
     },
     "reports/supplements.json": {
-      "bytes": 22085,
-      "sha256": "64a294fd7321e1a05d8fcae07944f20d5d60399a760097086e94161748bbd5b8"
+      "bytes": 20867,
+      "sha256": "9511ce5134e478e18a206e3517b8a5a16719e33c032cdc68c75827c0a84f0da4"
     },
     "reports/withdrawn.json": {
       "bytes": 3,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29558,
-      "sha256": "3c7a90300e2b914570c557663008afa7c96083cca9fb9ac9555b7a5559f41d4d"
+      "sha256": "cd93277e893d23584a00d19b9bd48b7217d5fc3d35ff0ed8d0662090eea609c5"
     },
     "species.json": {
       "bytes": 29136,
@@ -159,30 +159,6 @@
     "mode": "champout-primary",
     "provider": "champout",
     "supplementalClaims": {
-      "battle-rules/ability-copying/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/available"
-      },
-      "battle-rules/ability-copying/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/identity"
-      },
-      "battle-rules/ability-copying/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/name"
-      },
-      "battle-rules/ability-copying/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/ability-copying/rule"
-      },
       "battle-rules/accuracy-evasion/available": {
         "providers": [
           "showdown"
@@ -206,102 +182,6 @@
           "showdown"
         ],
         "scope": "battle-rules/accuracy-evasion/rule"
-      },
-      "battle-rules/critical-hits/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/available"
-      },
-      "battle-rules/critical-hits/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/identity"
-      },
-      "battle-rules/critical-hits/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/name"
-      },
-      "battle-rules/critical-hits/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/critical-hits/rule"
-      },
-      "battle-rules/damage-calculation/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/available"
-      },
-      "battle-rules/damage-calculation/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/identity"
-      },
-      "battle-rules/damage-calculation/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/name"
-      },
-      "battle-rules/damage-calculation/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/damage-calculation/rule"
-      },
-      "battle-rules/mega-evolution/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/available"
-      },
-      "battle-rules/mega-evolution/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/identity"
-      },
-      "battle-rules/mega-evolution/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/name"
-      },
-      "battle-rules/mega-evolution/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/mega-evolution/rule"
-      },
-      "battle-rules/move-copying/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/available"
-      },
-      "battle-rules/move-copying/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/identity"
-      },
-      "battle-rules/move-copying/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/name"
-      },
-      "battle-rules/move-copying/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/move-copying/rule"
       },
       "battle-rules/stat-calculation/available": {
         "providers": [
@@ -350,30 +230,6 @@
           "showdown"
         ],
         "scope": "battle-rules/stat-stages/rule"
-      },
-      "battle-rules/switching/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/available"
-      },
-      "battle-rules/switching/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/identity"
-      },
-      "battle-rules/switching/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/name"
-      },
-      "battle-rules/switching/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/switching/rule"
       },
       "battle-rules/turn-order/available": {
         "providers": [
@@ -1131,6 +987,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "4434c2b4707f9b5b5dd70ea9841ab454cdcc0826"
+    "showdown": "1ce9b34f971867b1c63689b167641d9ec552a985"
   }
 }
