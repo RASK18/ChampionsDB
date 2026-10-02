@@ -7,7 +7,7 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "2510366a808798fe774dba2745568ae3fb02e5eea2bac204eb1f43c23b425d2b",
+  "datasetId": "9fbedeb49bbd464575a50cfd37a2918152d7d20b1175aeaa040f9646f21283b8",
   "files": {
     "abilities.json": {
       "bytes": 49177,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "7531fac4670bf8d34951815596bcdb8d911b4b335b6d223b11d27b336c7ad7a1"
+      "sha256": "981dd67dd3b45fb8606f0a8974d0199a46037371d8bc5b60487cb2fadbe6e755"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "36811004c4c1d99fea628d02b7923e6abfa3abae330dd3948fe92a40609a9156"
+      "sha256": "32158f3c2600729a4bfc25ae4842c5ad2c16941fdabd62aa15c10147bbb4175e"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "d3a6de94c9e70a9e329c5ed6fda0f697b814ea7f0a8321885191fe83d4781171"
+      "sha256": "22319bae0bfadc154f5f538f7cdab077e98960caa33dc2329e5c94d1e9773ff3"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "dca4a8a14af44df79bf36944841e45440f6c9ed2d9a59c289e452146d4cbc2ec"
+      "sha256": "349fe16baeacc239a7ae01f0a7050693a360a21e7e062971be8faae380d04971"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -98,8 +98,8 @@
       "sha256": "a8b0bd0c883e8d3c4e5c70e0029952f61a8a60c11f59029e8682232648699b98"
     },
     "reports/changes.json": {
-      "bytes": 570,
-      "sha256": "b5f59af645de4e4fee67cd610956a06b7ec3ad9f42a877b864e6fb4749612e38"
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     "reports/coverage.json": {
       "bytes": 22681,
@@ -122,8 +122,8 @@
       "sha256": "f7fd3bd5811d87c4ba2a124514d5cc325fc1ad8919f6ff6393b9d3aacf81ffa1"
     },
     "reports/stale.json": {
-      "bytes": 4981,
-      "sha256": "7f8bdd2c8e9d9ffe579a3dcd9daf2b6893c3695cb0aa046cbad7667113125238"
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     "reports/supplements.json": {
       "bytes": 20867,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29558,
-      "sha256": "cd93277e893d23584a00d19b9bd48b7217d5fc3d35ff0ed8d0662090eea609c5"
+      "sha256": "1b60e659a5fc4b19feee27b40c2925c5845a75391f90f8accae5bcae4532875b"
     },
     "species.json": {
       "bytes": 29136,
@@ -987,6 +987,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "1ce9b34f971867b1c63689b167641d9ec552a985"
+    "showdown": "de9d7f93083c1f7f40d48f8da3a6b4dd09141110"
   }
 }
