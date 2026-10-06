@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-05T11:30:31.364Z",
+  "asOf": "2026-10-06T11:17:32.397Z",
   "documents": {
     "champout/esp/btl_condition": {
       "bytes": 14241,
@@ -380,202 +380,202 @@
       "url": "https://champions-news.pokemon-home.com/en/page/834.html"
     },
     "supplement/opgg/items": {
-      "bytes": 896863,
-      "capturedAt": "2026-10-05T11:30:31.364Z",
+      "bytes": 905835,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/opgg/items",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "54ab690165007fbc7f257e510abd4d3be51917d4d5121d130f15f6846b8ecd98",
+      "sha256": "59bc216c4e24ea9147b994b0b80519ac068561bb21a21edbf5fded3d9feb8ee4",
       "url": "https://op.gg/es/pokemon-champions/items"
     },
     "supplement/opgg/moves": {
-      "bytes": 3654402,
-      "capturedAt": "2026-10-05T11:30:31.364Z",
+      "bytes": 3663443,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/opgg/moves",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "48fe5a1bcb7b6c094a658660b7b8c7f5266981d42dc25f2cc355a68ec1a9d57e",
+      "sha256": "f4354e40b293555a42d21a9b253491100ff2bdf649daa546499efbe3247881c1",
       "url": "https://op.gg/es/pokemon-champions/moves"
     },
     "supplement/opgg/natures": {
-      "bytes": 331314,
-      "capturedAt": "2026-10-05T11:30:31.364Z",
+      "bytes": 340412,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/opgg/natures",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "e7a465f3769926623ec1970656a10934afe8a1a28991fab2c029a8ba54573284",
+      "sha256": "c1e7d9d10baa0c8a9336a936f151019cdc1ae12a28699bc970301aec7fcc6705",
       "url": "https://op.gg/es/pokemon-champions/natures"
     },
     "supplement/opgg/pokedex": {
-      "bytes": 2068905,
-      "capturedAt": "2026-10-05T11:30:31.364Z",
+      "bytes": 2077576,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/opgg/pokedex",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "1d8da27848dadbcb9f6f80d4c37823c028f8b9aa48dee01e6ca8c0bd56c0684a",
+      "sha256": "a275f18cf1c5a9400b80444aa9463463d9c5774deafae3c6aac088a4b1c0a289",
       "url": "https://op.gg/es/pokemon-champions/pokedex"
     },
     "supplement/opgg/type-chart": {
-      "bytes": 32113,
-      "capturedAt": "2026-10-01T10:58:19.834Z",
+      "bytes": 32511,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/opgg/type-chart",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "a36ac409196194eea4c6751981df9449879c072ba2bdc52232a13d621de6c05b",
-      "url": "https://s-stats-platform-cdn.op.gg/app-router/_next/static/chunks/3sjvg2geozgce.js"
+      "sha256": "4a55df3bbf6768860aa428549338cf0868e1ffa8da734b65afd18d41221afee9",
+      "url": "https://s-stats-platform-cdn.op.gg/app-router/_next/static/chunks/0bre3lhykf756.js"
     },
     "supplement/opgg/types": {
-      "bytes": 740948,
-      "capturedAt": "2026-10-05T11:30:31.364Z",
+      "bytes": 749965,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/opgg/types",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "dfbea27fa4b6f8d9976075eb2dc215e0cd1e8e587f9381509a05b08eef1a780c",
+      "sha256": "d0c767abcda59289ca0b636968db62c063e85dbf90fc0a7ef8a013b6e3e0323c",
       "url": "https://op.gg/es/pokemon-champions/types"
     },
     "supplement/showdown/base/abilities": {
-      "bytes": 156871,
-      "capturedAt": "2026-10-01T10:58:19.834Z",
+      "bytes": 157025,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/showdown/base/abilities",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
-      "sha256": "6baacc416212eeb47ad3decd490523fefbd9c5a1eb97ebae7787bfea35fbb180",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/abilities.ts"
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
+      "sha256": "53d8558979e337c675907b76b5375185b28a0877f770d7456025b94535e1064d",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/abilities.ts"
     },
     "supplement/showdown/base/conditions": {
-      "bytes": 28860,
-      "capturedAt": "2026-09-29T06:35:43.188Z",
+      "bytes": 28787,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/showdown/base/conditions",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
-      "sha256": "03ec1b90913f864a0baab0574a70abb856d5e84f722acf96ab11a7601a72fc35",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/conditions.ts"
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
+      "sha256": "015909443db5138b7981b1a28c69fe1ec346bda0bf0f06b24b4cd4d024babb14",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/conditions.ts"
     },
     "supplement/showdown/base/items": {
       "bytes": 163747,
       "capturedAt": "2026-09-29T06:35:43.188Z",
       "id": "supplement/showdown/base/items",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "75da206e2cb09868bb549360f38a144c2f50b24e1d189e03b485d550a4f6357a",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/items.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/items.ts"
     },
     "supplement/showdown/base/moves": {
       "bytes": 484848,
       "capturedAt": "2026-10-01T10:58:19.834Z",
       "id": "supplement/showdown/base/moves",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "738b8cfc1ca491537c0188546ab697942aaa313c5e6be83a5432edd5dd8997f7",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/moves.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/moves.ts"
     },
     "supplement/showdown/base/rulesets": {
       "bytes": 180968,
       "capturedAt": "2026-09-29T06:35:43.188Z",
       "id": "supplement/showdown/base/rulesets",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "ec02d9a93f6d2fc7238bae31f2f1ec8518d331610d6167d48422ccfb5ef6aa12",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/rulesets.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/rulesets.ts"
     },
     "supplement/showdown/base/scripts": {
       "bytes": 56,
       "capturedAt": "2026-09-29T06:35:43.188Z",
       "id": "supplement/showdown/base/scripts",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "54c7522b3d5d05f6a020d78b129589e7b2e57fbb9d095800c78c33a64a8ff383",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/scripts.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/scripts.ts"
     },
     "supplement/showdown/champions/abilities": {
-      "bytes": 2526,
-      "capturedAt": "2026-09-29T06:35:43.188Z",
+      "bytes": 2736,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/showdown/champions/abilities",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
-      "sha256": "86c3843d402f1ff7be276d8f2da08d6744b8a8822349560b300ddcfa9c1fbc52",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/mods/champions/abilities.ts"
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
+      "sha256": "5c10f24808e26605d2a104139cd25ae76cb9ba12c3cd5331e29cb70659b37bb0",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/mods/champions/abilities.ts"
     },
     "supplement/showdown/champions/conditions": {
       "bytes": 1834,
       "capturedAt": "2026-09-29T06:35:43.188Z",
       "id": "supplement/showdown/champions/conditions",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "851507309dde0b58807e33b17d8ce7e607dad70893546f67bad294ad70249005",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/mods/champions/conditions.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/mods/champions/conditions.ts"
     },
     "supplement/showdown/champions/items": {
       "bytes": 16006,
       "capturedAt": "2026-09-29T06:35:43.188Z",
       "id": "supplement/showdown/champions/items",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "b39dafa66d136ebb1a8576367ced2c9f4519aa1c17d5d65c59b368ac15d7de77",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/mods/champions/items.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/mods/champions/items.ts"
     },
     "supplement/showdown/champions/moves": {
       "bytes": 18642,
       "capturedAt": "2026-10-01T10:58:19.834Z",
       "id": "supplement/showdown/champions/moves",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "4471bcc8eb98f4697d040953008330d7951d0bcc70688f3c85e77099b28ea228",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/mods/champions/moves.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/mods/champions/moves.ts"
     },
     "supplement/showdown/champions/rulesets": {
       "bytes": 2469,
       "capturedAt": "2026-09-29T06:35:43.188Z",
       "id": "supplement/showdown/champions/rulesets",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "31671152a6ff1f09d81a5306baadaa1593ef235e5c7cdcc9180c67bac8e84cd9",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/mods/champions/rulesets.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/mods/champions/rulesets.ts"
     },
     "supplement/showdown/champions/scripts": {
-      "bytes": 22236,
-      "capturedAt": "2026-10-01T10:58:19.834Z",
+      "bytes": 21794,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/showdown/champions/scripts",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
-      "sha256": "a6cc11eeb525ad58dee9010dd0d42274a5b4dacb39ce8653f4888cbd2f4f459d",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/data/mods/champions/scripts.ts"
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
+      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/data/mods/champions/scripts.ts"
     },
     "supplement/showdown/sim/battle": {
-      "bytes": 116400,
-      "capturedAt": "2026-09-29T06:35:43.188Z",
+      "bytes": 116252,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/showdown/sim/battle",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
-      "sha256": "852dc6eed2876100787090cf049e27d2b061fdb6e808a1edd261468390afaa1f",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/sim/battle.ts"
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
+      "sha256": "3eb941313832729ee043407c39ced894b4338301fed5d29a45ae8b36e49a09f2",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/sim/battle.ts"
     },
     "supplement/showdown/sim/battle-actions": {
-      "bytes": 73067,
-      "capturedAt": "2026-09-29T06:35:43.188Z",
+      "bytes": 72590,
+      "capturedAt": "2026-10-06T11:17:32.397Z",
       "id": "supplement/showdown/sim/battle-actions",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
-      "sha256": "a30408e2f9a53a43333bf4a865366d6adbe26d3d91a836ba51042accce4d9437",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/sim/battle-actions.ts"
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
+      "sha256": "190e468c353ce8687ea4f8c6eb9d2b3af2e43ead27462de7b1c28d896f6f2635",
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/sim/battle-actions.ts"
     },
     "supplement/showdown/sim/battle-queue": {
       "bytes": 12013,
       "capturedAt": "2026-10-01T10:58:19.834Z",
       "id": "supplement/showdown/sim/battle-queue",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "3d9dd71dfb7abc788f961d6123b1b9f7308ccab947af6527f1752dd1d94b95ed",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/sim/battle-queue.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/sim/battle-queue.ts"
     },
     "supplement/showdown/sim/pokemon": {
       "bytes": 76376,
       "capturedAt": "2026-10-01T10:58:19.834Z",
       "id": "supplement/showdown/sim/pokemon",
       "provider": "showdown",
-      "revision": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e",
+      "revision": "14546894d86f9589ac11130c510bbe73b6968665",
       "sha256": "02b19ec0f4ccdcca8a83cd5ca7340a8af7983813e192deb3f2704f82b8cf1da5",
-      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e/sim/pokemon.ts"
+      "url": "https://raw.githubusercontent.com/smogon/pokemon-showdown/14546894d86f9589ac11130c510bbe73b6968665/sim/pokemon.ts"
     }
   },
   "formatVersion": 1,
@@ -583,6 +583,6 @@
   "locale": "es-ES",
   "revisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e"
+    "showdown": "14546894d86f9589ac11130c510bbe73b6968665"
   }
 }

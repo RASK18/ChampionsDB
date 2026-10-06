@@ -1,19 +1,6 @@
 [
   {
     "available": true,
-    "id": "accuracy-evasion",
-    "identity": true,
-    "name": "Precisión y evasión",
-    "rule": {
-      "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
-      "exceptionsComplete": false,
-      "maximumStage": 6,
-      "minimumStage": -6,
-      "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
-    }
-  },
-  {
-    "available": true,
     "id": "bad-poison",
     "identity": true,
     "name": "Grav. envenenado",
@@ -113,18 +100,6 @@
       "maximumStage": 6,
       "minimumStage": -6,
       "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
-    }
-  },
-  {
-    "available": true,
-    "id": "turn-order",
-    "identity": true,
-    "name": "Orden de acciones",
-    "rule": {
-      "description": "Los cambios ordinarios se resuelven antes de las megaevoluciones y estas antes de los movimientos. Dentro de los movimientos manda la prioridad, después la Velocidad. Espacio Raro invierte la comparación de Velocidad dentro de la prioridad. Efectos específicos pueden alterar el orden.",
-      "exceptionsComplete": false,
-      "normalSpeedOrder": "descendente",
-      "trickRoomSpeedOrder": "ascendente"
     }
   }
 ]

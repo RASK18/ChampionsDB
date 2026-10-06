@@ -7,15 +7,15 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "98016e346465c41f4dc1730c3ccb22f8818d0169ae780d4508a5b4349cef4c1b",
+  "datasetId": "7ef1d95dd1064e8a55214c96082465f1a59e904a9faf36b7e57796d1674b889c",
   "files": {
     "abilities.json": {
       "bytes": 49177,
       "sha256": "903cb81ef95f111d8f0e1a4aac32df903c96237c1dfe09401a4144a30e7b9d66"
     },
     "battle-rules.json": {
-      "bytes": 3513,
-      "sha256": "5328e36e81caaea8eded97ca0324485492dc86db477f128a3cd00d22f97c2d5b"
+      "bytes": 2384,
+      "sha256": "3c12f6c175784b7c2c9b96747576b0ddce8f47f719729549c53df957c25f8822"
     },
     "effects.json": {
       "bytes": 20122,
@@ -50,8 +50,8 @@
       "sha256": "d21487410beec39c54cc682bc7c5afd31c5a426f4defec2d525d8354849fc9a3"
     },
     "provenance/battle-rules.json": {
-      "bytes": 54039,
-      "sha256": "b18c15e71d9b4dad6530f38c7e11ab1b6740b0db9a187b4259721cdf940c8f52"
+      "bytes": 30675,
+      "sha256": "1d91a70d974ed4dd616a0aebf91faccce66b00b1ecd9ba32fe503cf0d108fdde"
     },
     "provenance/effects.json": {
       "bytes": 204005,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "c48a0887a0d9daed139058df7adbf3f77cf114bc73f5b4227316d61947660311"
+      "sha256": "a3ee5d679e493869a5a7e2ca1c71f6fc7ee26c2460c09a9a83063c0dcff5bdc4"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "a78400bfa9fc52e75ed8f55caacc4ed664d719a611ec8705b43c933a00794aff"
+      "sha256": "6282011751e8a829b5b4da2a811c9020ebf608cc457a7ba5b293b481711817a9"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "2474691cb80817035a191b721001fd8cc441cbb67d0e7ab5b1f52afd106d4eec"
+      "sha256": "425454cf9e95f30473dfb6b2736dc93017e2a772597f7208a3741e412f7dfd71"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "a0e69cf36f2415f3e12d19b15cb576bfa1ca149abbdf2ee66cdd95766bd87dfc"
+      "sha256": "d4c6d1a4e7de7c3f7545868e91f8743369c196396da0531231ccff210e66ad3c"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -91,19 +91,19 @@
     },
     "provenance/types.json": {
       "bytes": 139701,
-      "sha256": "1ae288653bdbc2f8b1aa1633b138ac24388545b11c5254de85170c6e1311fdb7"
+      "sha256": "f25c129d83ee1cf6d8139dcb36e568c30c8deb5bf7ab8da8ce1db8a490deb756"
     },
     "regulations.json": {
       "bytes": 14114,
       "sha256": "a8b0bd0c883e8d3c4e5c70e0029952f61a8a60c11f59029e8682232648699b98"
     },
     "reports/changes.json": {
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 191,
+      "sha256": "fea28a8d8b99d02ed1db0b76add426508827e1a1d3fdc294f3f3ffc2a9a4cd82"
     },
     "reports/coverage.json": {
-      "bytes": 22681,
-      "sha256": "228ff3e4df386a4d7ebec84f666d2a963f22d54b85f1da17e585504758a537ea"
+      "bytes": 21380,
+      "sha256": "061c5d5e139caeefe0fa9ba5443fd4ab0571d63edf5e767d21d7d6e70e10a268"
     },
     "reports/excluded.json": {
       "bytes": 340087,
@@ -118,16 +118,16 @@
       "sha256": "a4a83e6904b8d5c824eba72ccb5011817a367105c49270ea68083619689e6c65"
     },
     "reports/pending.json": {
-      "bytes": 3455,
-      "sha256": "f7fd3bd5811d87c4ba2a124514d5cc325fc1ad8919f6ff6393b9d3aacf81ffa1"
+      "bytes": 4533,
+      "sha256": "29081878efb3ac295e4c17fe663faec23ef2c3aff7923c98765fe284438a3d6f"
     },
     "reports/stale.json": {
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 1612,
+      "sha256": "e47607b297eb0f3fd0a3cf3a433f28463143a0106c95cd5aebd9d3c08b02615f"
     },
     "reports/supplements.json": {
-      "bytes": 20867,
-      "sha256": "9511ce5134e478e18a206e3517b8a5a16719e33c032cdc68c75827c0a84f0da4"
+      "bytes": 20465,
+      "sha256": "93fd5403cd21cd67058e3b30c627e740717abf165dc91f1b2cba2d28e4353815"
     },
     "reports/withdrawn.json": {
       "bytes": 3,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29558,
-      "sha256": "8962cb1d9959cd14597b0ed173f3c29717cb9d6573d4c8e83d076955bbf614f5"
+      "sha256": "91934b890bd6a8042f9c8f50089b0d6596e6543664de5fdc480c3174d568a46d"
     },
     "species.json": {
       "bytes": 29136,
@@ -159,30 +159,6 @@
     "mode": "champout-primary",
     "provider": "champout",
     "supplementalClaims": {
-      "battle-rules/accuracy-evasion/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/available"
-      },
-      "battle-rules/accuracy-evasion/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/identity"
-      },
-      "battle-rules/accuracy-evasion/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/name"
-      },
-      "battle-rules/accuracy-evasion/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/rule"
-      },
       "battle-rules/stat-calculation/available": {
         "providers": [
           "showdown"
@@ -230,30 +206,6 @@
           "showdown"
         ],
         "scope": "battle-rules/stat-stages/rule"
-      },
-      "battle-rules/turn-order/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/turn-order/available"
-      },
-      "battle-rules/turn-order/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/turn-order/identity"
-      },
-      "battle-rules/turn-order/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/turn-order/name"
-      },
-      "battle-rules/turn-order/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/turn-order/rule"
       },
       "interactions/item-673--0448000/available": {
         "providers": [
@@ -987,6 +939,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "9fb3a5b99f1a0bea17f495c5cc1bfe04fdd19c3e"
+    "showdown": "14546894d86f9589ac11130c510bbe73b6968665"
   }
 }
