@@ -22,23 +22,31 @@
       "scope": "battle-rules/ability-copying/rule"
     },
     {
-      "fields": [],
-      "resolved": false,
+      "fields": [
+        "battle-rules/accuracy-evasion/available"
+      ],
+      "resolved": true,
       "scope": "battle-rules/accuracy-evasion/available"
     },
     {
-      "fields": [],
-      "resolved": false,
+      "fields": [
+        "battle-rules/accuracy-evasion/identity"
+      ],
+      "resolved": true,
       "scope": "battle-rules/accuracy-evasion/identity"
     },
     {
-      "fields": [],
-      "resolved": false,
+      "fields": [
+        "battle-rules/accuracy-evasion/name"
+      ],
+      "resolved": true,
       "scope": "battle-rules/accuracy-evasion/name"
     },
     {
-      "fields": [],
-      "resolved": false,
+      "fields": [
+        "battle-rules/accuracy-evasion/rule"
+      ],
+      "resolved": true,
       "scope": "battle-rules/accuracy-evasion/rule"
     },
     {

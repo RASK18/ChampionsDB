@@ -1,5 +1,39 @@
 {
   "facts": {
+    "battle-rules/accuracy-evasion/available": {
+      "value": true,
+      "witnesses": [
+        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
+        "055207a0510047cd63e774810612ff72f5875c67ab03d109fea79b7fbca0298f"
+      ]
+    },
+    "battle-rules/accuracy-evasion/identity": {
+      "value": true,
+      "witnesses": [
+        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
+        "055207a0510047cd63e774810612ff72f5875c67ab03d109fea79b7fbca0298f"
+      ]
+    },
+    "battle-rules/accuracy-evasion/name": {
+      "value": "Precisión y evasión",
+      "witnesses": [
+        "cb82112b78ca8a60ac787807f1ccfcd59c598d656aeb8a44720f3f311d856fce",
+        "c0c0c892510005f4b5cfe68e8e88b74847b498eb874d12b91bfb684b285ddbfc"
+      ]
+    },
+    "battle-rules/accuracy-evasion/rule": {
+      "value": {
+        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
+      },
+      "witnesses": [
+        "1d34f888e302302b44502a1ddf42337203d45e9ef7115644e84ec9ee84baa8c3",
+        "c09f44df46ee4da7c2d31f01a9297f56563e9e1e22f4de2f9993822b8610ef9b"
+      ]
+    },
     "battle-rules/bad-poison/available": {
       "value": true,
       "witnesses": [
@@ -217,21 +251,21 @@
       "value": true,
       "witnesses": [
         "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "87985c6953ee6f4e7193d184f620962d54a3895e49aab48ba467873a106a3a16"
+        "af27d1483fed1da176e9cdf57c0fd7716bf231460e3a305d0fdf5619659b1847"
       ]
     },
     "battle-rules/stat-stages/identity": {
       "value": true,
       "witnesses": [
         "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "87985c6953ee6f4e7193d184f620962d54a3895e49aab48ba467873a106a3a16"
+        "af27d1483fed1da176e9cdf57c0fd7716bf231460e3a305d0fdf5619659b1847"
       ]
     },
     "battle-rules/stat-stages/name": {
       "value": "Niveles de características",
       "witnesses": [
         "f44fbd040d0ba8b4e7e17856b8a5bad3b9bbc3a8589524479384e592e7f345fc",
-        "2783a7aa1c3feb69ad478572e0fb22ebdb3ce1943d304f9f8a90f0f4d1a0331d"
+        "4633b796cf1e899f75dd09e725fd3084fc50675018ce2dd49ee84673263f2a89"
       ]
     },
     "battle-rules/stat-stages/rule": {
@@ -244,25 +278,19 @@
       },
       "witnesses": [
         "7353f36602f47dfdaf837653eed42fdf6c8bbb10f3c9be6dc6f9f47de7e40665",
-        "128e081b94b90820cac0f5212a3aa0177673240e300c59b1a3dd684f30b6e6b4"
+        "b183abed250e4a61483575d833346843486e295b5910cd3b1d746097ad19f1d5"
       ]
     }
   },
   "observations": {
-    "128e081b94b90820cac0f5212a3aa0177673240e300c59b1a3dd684f30b6e6b4": {
+    "055207a0510047cd63e774810612ff72f5875c67ab03d109fea79b7fbca0298f": {
       "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/pokemon",
-      "locator": "Pokemon.calculateStat boost table",
-      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
+      "document": "supplement/showdown/sim/battle-actions",
+      "locator": "BattleActions.trySpreadMoveHit accuracy",
+      "observed": "\t\t\tlet accuracy = move.accuracy;\n\t\t\tif (move.ohko) { // bypasses accuracy modifiers\n\t\t\t\tif (!target.isSemiInvulnerable()) {\n\t\t\t\t\taccuracy = 30;\n\t\t\t\t\tif (move.ohko === 'Ice' && this.battle.gen >= 7 && !pokemon.hasType('Ice')) {\n\t\t\t\t\t\taccuracy = 20;\n\t\t\t\t\t}\n\t\t\t\t\tif (!target.volatiles['dynamax'] && pokemon.level >= target.level &&\n\t\t\t\t\t\t(move.ohko === true || !target.hasType(move.ohko))) {\n\t\t\t\t\t\taccuracy += (pokemon.level - target.level);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.battle.add('-immune', target, '[ohko]');\n\t\t\t\t\t\thitResults[i] = false;\n\t\t\t\t\t\tcontinue;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('ModifyAccuracy', target, pokemon, move, accuracy);\n\t\t\t\tif (accuracy !== true) {\n\t\t\t\t\tlet boost = 0;\n\t\t\t\t\tif (!move.ignoreAccuracy) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', pokemon, null, null, { ...pokemon.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boosts['accuracy'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (!move.ignoreEvasion) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', target, null, null, { ...target.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boost - boosts['evasion'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (boost > 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * (3 + boost) / 3);\n\t\t\t\t\t} else if (boost < 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * 3 / (3 - boost));\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (\n\t\t\t\tmove.alwaysHit || (move.id === 'toxic' && this.battle.gen >= 8 && pokemon.hasType('Poison')) ||\n\t\t\t\t(move.target === 'self' && move.category === 'Status' && !target.isSemiInvulnerable())\n\t\t\t) {\n\t\t\t\taccuracy = true; // bypasses ohko accuracy modifiers\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('Accuracy', target, pokemon, move, accuracy);\n\t\t\t}\n\t\t\tif (accuracy !== true && !this.battle.randomChance(accuracy, 100)) {\n\t\t\t\tif (move.smartTarget) {\n\t\t\t\t\tmove.smartTarget = false;\n\t\t\t\t} else {\n\t\t\t\t\tif (!move.spreadHit) this.battle.attrLastMove('[miss]');\n\t\t\t\t\tthis.battle.add('-miss', pokemon, target);",
       "provider": "showdown",
-      "sha256": "02b19ec0f4ccdcca8a83cd5ca7340a8af7983813e192deb3f2704f82b8cf1da5",
-      "value": {
-        "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
-        "exceptionsComplete": false,
-        "maximumStage": 6,
-        "minimumStage": -6,
-        "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
-      }
+      "sha256": "4342d03aa909875ce0a4c4f3f54027ae1933b60e22be778409cef992300ecb9d",
+      "value": true
     },
     "13db923eac7274e4e09f9ec4a4d499ad5e36e5470f7fa1dafb5010bbd74c7cdc": {
       "context": "champions-supplemental-gap",
@@ -305,6 +333,21 @@
       "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
       "value": true
     },
+    "1d34f888e302302b44502a1ddf42337203d45e9ef7115644e84ec9ee84baa8c3": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/champions/scripts",
+      "locator": "Scripts.gen = 9 (Champions)",
+      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
+      "provider": "showdown",
+      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
+      "value": {
+        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
+      }
+    },
     "2364aa7dfef47c187a36d65140f49a2a5c2a52a9792779b0bb37e12f23d82040": {
       "context": "champions-current-capture",
       "document": "champout/esp/btl_condition",
@@ -320,15 +363,6 @@
         ]
       }
     },
-    "2783a7aa1c3feb69ad478572e0fb22ebdb3ce1943d304f9f8a90f0f4d1a0331d": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/pokemon",
-      "locator": "Pokemon.calculateStat boost table",
-      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
-      "provider": "showdown",
-      "sha256": "02b19ec0f4ccdcca8a83cd5ca7340a8af7983813e192deb3f2704f82b8cf1da5",
-      "value": "Niveles de características"
-    },
     "3ca96d861e68bef69b6583462f65cc5e1d468bc5a67487b86820435c0b7f1668": {
       "context": "champions-current-capture",
       "document": "champout/esp/ui_control",
@@ -337,6 +371,15 @@
       "provider": "champout",
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Quemado"
+    },
+    "4633b796cf1e899f75dd09e725fd3084fc50675018ce2dd49ee84673263f2a89": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/sim/pokemon",
+      "locator": "Pokemon.calculateStat boost table",
+      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
+      "provider": "showdown",
+      "sha256": "e36493e502858c7f7fa8e899f4b4439295fefa452f96c5017e974494f1c4a688",
+      "value": "Niveles de características"
     },
     "499df9c0e410a95b0dfc3c62f3ec9ba4403b1ee3988291e13c1edcd77bde8bc5": {
       "context": "champions-current-capture",
@@ -370,15 +413,6 @@
         "minimumStage": -6,
         "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
       }
-    },
-    "87985c6953ee6f4e7193d184f620962d54a3895e49aab48ba467873a106a3a16": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/pokemon",
-      "locator": "Pokemon.calculateStat boost table",
-      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
-      "provider": "showdown",
-      "sha256": "02b19ec0f4ccdcca8a83cd5ca7340a8af7983813e192deb3f2704f82b8cf1da5",
-      "value": true
     },
     "8f2d9d7802425bae46fb48d35648b0a06f888eaf89733563448f1c7250eaa1a2": {
       "context": "champions-current-capture",
@@ -455,6 +489,30 @@
         "resetOnSwitch": true
       }
     },
+    "af27d1483fed1da176e9cdf57c0fd7716bf231460e3a305d0fdf5619659b1847": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/sim/pokemon",
+      "locator": "Pokemon.calculateStat boost table",
+      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
+      "provider": "showdown",
+      "sha256": "e36493e502858c7f7fa8e899f4b4439295fefa452f96c5017e974494f1c4a688",
+      "value": true
+    },
+    "b183abed250e4a61483575d833346843486e295b5910cd3b1d746097ad19f1d5": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/sim/pokemon",
+      "locator": "Pokemon.calculateStat boost table",
+      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
+      "provider": "showdown",
+      "sha256": "e36493e502858c7f7fa8e899f4b4439295fefa452f96c5017e974494f1c4a688",
+      "value": {
+        "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
+      }
+    },
     "ba9059c35c40687899669533d4d8c1751d3db92729910f93cdf8593375be42e4": {
       "context": "champions-current-capture",
       "document": "champout/esp/ui_control",
@@ -464,6 +522,30 @@
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Grav. envenenado"
     },
+    "c09f44df46ee4da7c2d31f01a9297f56563e9e1e22f4de2f9993822b8610ef9b": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/sim/battle-actions",
+      "locator": "BattleActions.trySpreadMoveHit accuracy",
+      "observed": "\t\t\tlet accuracy = move.accuracy;\n\t\t\tif (move.ohko) { // bypasses accuracy modifiers\n\t\t\t\tif (!target.isSemiInvulnerable()) {\n\t\t\t\t\taccuracy = 30;\n\t\t\t\t\tif (move.ohko === 'Ice' && this.battle.gen >= 7 && !pokemon.hasType('Ice')) {\n\t\t\t\t\t\taccuracy = 20;\n\t\t\t\t\t}\n\t\t\t\t\tif (!target.volatiles['dynamax'] && pokemon.level >= target.level &&\n\t\t\t\t\t\t(move.ohko === true || !target.hasType(move.ohko))) {\n\t\t\t\t\t\taccuracy += (pokemon.level - target.level);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.battle.add('-immune', target, '[ohko]');\n\t\t\t\t\t\thitResults[i] = false;\n\t\t\t\t\t\tcontinue;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('ModifyAccuracy', target, pokemon, move, accuracy);\n\t\t\t\tif (accuracy !== true) {\n\t\t\t\t\tlet boost = 0;\n\t\t\t\t\tif (!move.ignoreAccuracy) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', pokemon, null, null, { ...pokemon.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boosts['accuracy'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (!move.ignoreEvasion) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', target, null, null, { ...target.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boost - boosts['evasion'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (boost > 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * (3 + boost) / 3);\n\t\t\t\t\t} else if (boost < 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * 3 / (3 - boost));\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (\n\t\t\t\tmove.alwaysHit || (move.id === 'toxic' && this.battle.gen >= 8 && pokemon.hasType('Poison')) ||\n\t\t\t\t(move.target === 'self' && move.category === 'Status' && !target.isSemiInvulnerable())\n\t\t\t) {\n\t\t\t\taccuracy = true; // bypasses ohko accuracy modifiers\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('Accuracy', target, pokemon, move, accuracy);\n\t\t\t}\n\t\t\tif (accuracy !== true && !this.battle.randomChance(accuracy, 100)) {\n\t\t\t\tif (move.smartTarget) {\n\t\t\t\t\tmove.smartTarget = false;\n\t\t\t\t} else {\n\t\t\t\t\tif (!move.spreadHit) this.battle.attrLastMove('[miss]');\n\t\t\t\t\tthis.battle.add('-miss', pokemon, target);",
+      "provider": "showdown",
+      "sha256": "4342d03aa909875ce0a4c4f3f54027ae1933b60e22be778409cef992300ecb9d",
+      "value": {
+        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
+      }
+    },
+    "c0c0c892510005f4b5cfe68e8e88b74847b498eb874d12b91bfb684b285ddbfc": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/sim/battle-actions",
+      "locator": "BattleActions.trySpreadMoveHit accuracy",
+      "observed": "\t\t\tlet accuracy = move.accuracy;\n\t\t\tif (move.ohko) { // bypasses accuracy modifiers\n\t\t\t\tif (!target.isSemiInvulnerable()) {\n\t\t\t\t\taccuracy = 30;\n\t\t\t\t\tif (move.ohko === 'Ice' && this.battle.gen >= 7 && !pokemon.hasType('Ice')) {\n\t\t\t\t\t\taccuracy = 20;\n\t\t\t\t\t}\n\t\t\t\t\tif (!target.volatiles['dynamax'] && pokemon.level >= target.level &&\n\t\t\t\t\t\t(move.ohko === true || !target.hasType(move.ohko))) {\n\t\t\t\t\t\taccuracy += (pokemon.level - target.level);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.battle.add('-immune', target, '[ohko]');\n\t\t\t\t\t\thitResults[i] = false;\n\t\t\t\t\t\tcontinue;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('ModifyAccuracy', target, pokemon, move, accuracy);\n\t\t\t\tif (accuracy !== true) {\n\t\t\t\t\tlet boost = 0;\n\t\t\t\t\tif (!move.ignoreAccuracy) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', pokemon, null, null, { ...pokemon.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boosts['accuracy'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (!move.ignoreEvasion) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', target, null, null, { ...target.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boost - boosts['evasion'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (boost > 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * (3 + boost) / 3);\n\t\t\t\t\t} else if (boost < 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * 3 / (3 - boost));\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (\n\t\t\t\tmove.alwaysHit || (move.id === 'toxic' && this.battle.gen >= 8 && pokemon.hasType('Poison')) ||\n\t\t\t\t(move.target === 'self' && move.category === 'Status' && !target.isSemiInvulnerable())\n\t\t\t) {\n\t\t\t\taccuracy = true; // bypasses ohko accuracy modifiers\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('Accuracy', target, pokemon, move, accuracy);\n\t\t\t}\n\t\t\tif (accuracy !== true && !this.battle.randomChance(accuracy, 100)) {\n\t\t\t\tif (move.smartTarget) {\n\t\t\t\t\tmove.smartTarget = false;\n\t\t\t\t} else {\n\t\t\t\t\tif (!move.spreadHit) this.battle.attrLastMove('[miss]');\n\t\t\t\t\tthis.battle.add('-miss', pokemon, target);",
+      "provider": "showdown",
+      "sha256": "4342d03aa909875ce0a4c4f3f54027ae1933b60e22be778409cef992300ecb9d",
+      "value": "Precisión y evasión"
+    },
     "c9a1e393ac2db6213f918a89583f49f991a87b9e305df4a67712a58abbb4e874": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
@@ -472,6 +554,15 @@
       "provider": "showdown",
       "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
       "value": "Cálculo de estadísticas"
+    },
+    "cb82112b78ca8a60ac787807f1ccfcd59c598d656aeb8a44720f3f311d856fce": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/champions/scripts",
+      "locator": "Scripts.gen = 9 (Champions)",
+      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
+      "provider": "showdown",
+      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
+      "value": "Precisión y evasión"
     },
     "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093": {
       "context": "champions-supplemental-gap",

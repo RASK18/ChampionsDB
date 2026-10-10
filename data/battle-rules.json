@@ -1,6 +1,19 @@
 [
   {
     "available": true,
+    "id": "accuracy-evasion",
+    "identity": true,
+    "name": "Precisión y evasión",
+    "rule": {
+      "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
+      "exceptionsComplete": false,
+      "maximumStage": 6,
+      "minimumStage": -6,
+      "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
+    }
+  },
+  {
+    "available": true,
     "id": "bad-poison",
     "identity": true,
     "name": "Grav. envenenado",

@@ -10,9 +10,9 @@
     "battle-rules": {
       "excluded": 0,
       "fieldsExpected": 64,
-      "fieldsPublished": 32,
+      "fieldsPublished": 36,
       "inventoried": 16,
-      "recordsPublished": 8
+      "recordsPublished": 9
     },
     "effects": {
       "excluded": 0,
@@ -88,11 +88,11 @@
   },
   "complete": false,
   "pendingByReason": {
-    "missing": 32,
+    "missing": 28,
     "not-fully-structured": 1,
-    "supplemental-review-evidence-changed": 8
+    "supplemental-review-evidence-changed": 7
   },
-  "pendingCount": 41,
+  "pendingCount": 36,
   "scope": "Tablas y textos de champout en el commit capturado, con complementos limitados a los 147 huecos autorizados. No certifica legalidad integral ni cobertura completa de mecánicas.",
   "sourcePolicy": {
     "availability": "Presencia y banderas de las tablas capturadas; no equivale a legalidad en un reglamento ni garantiza que el volcado incorpore el último parche.",
@@ -102,6 +102,30 @@
     "mode": "champout-primary",
     "provider": "champout",
     "supplementalClaims": {
+      "battle-rules/accuracy-evasion/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/available"
+      },
+      "battle-rules/accuracy-evasion/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/identity"
+      },
+      "battle-rules/accuracy-evasion/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/name"
+      },
+      "battle-rules/accuracy-evasion/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/rule"
+      },
       "battle-rules/stat-calculation/available": {
         "providers": [
           "showdown"

@@ -20,26 +20,6 @@
     "reason": "missing"
   },
   {
-    "claim": "battle-rules/accuracy-evasion/available",
-    "observations": [],
-    "reason": "missing"
-  },
-  {
-    "claim": "battle-rules/accuracy-evasion/identity",
-    "observations": [],
-    "reason": "missing"
-  },
-  {
-    "claim": "battle-rules/accuracy-evasion/name",
-    "observations": [],
-    "reason": "missing"
-  },
-  {
-    "claim": "battle-rules/accuracy-evasion/rule",
-    "observations": [],
-    "reason": "missing"
-  },
-  {
     "claim": "battle-rules/critical-hits/available",
     "observations": [],
     "reason": "missing"
@@ -170,10 +150,6 @@
   },
   {
     "claim": "battle-rules/critical-hits/rule",
-    "reason": "supplemental-review-evidence-changed"
-  },
-  {
-    "claim": "battle-rules/accuracy-evasion/rule",
     "reason": "supplemental-review-evidence-changed"
   },
   {

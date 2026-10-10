@@ -7,15 +7,15 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "da0f9f36fefaf3a7b6932614dea7623fa8cbbe289433aef029f25568f497c570",
+  "datasetId": "9ae6429c4bde6906db9827e2c27f71c02c8ebd5624d1b1a724e128c7cfc19e3c",
   "files": {
     "abilities.json": {
       "bytes": 49177,
       "sha256": "903cb81ef95f111d8f0e1a4aac32df903c96237c1dfe09401a4144a30e7b9d66"
     },
     "battle-rules.json": {
-      "bytes": 2384,
-      "sha256": "3c12f6c175784b7c2c9b96747576b0ddce8f47f719729549c53df957c25f8822"
+      "bytes": 2951,
+      "sha256": "48537cd465f2b2de817c9601359441a730c497a5b3e01bc1194889650ae89cc0"
     },
     "effects.json": {
       "bytes": 20122,
@@ -50,8 +50,8 @@
       "sha256": "d21487410beec39c54cc682bc7c5afd31c5a426f4defec2d525d8354849fc9a3"
     },
     "provenance/battle-rules.json": {
-      "bytes": 30675,
-      "sha256": "1d91a70d974ed4dd616a0aebf91faccce66b00b1ecd9ba32fe503cf0d108fdde"
+      "bytes": 41882,
+      "sha256": "77118d20685cf196897591c2344d4c2c30d0a8ad38ba12961137f966370f62b8"
     },
     "provenance/effects.json": {
       "bytes": 204005,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "48a95774b8ea1e7b3503095ddf23215eca665d7681575b8418785209887ff777"
+      "sha256": "b69b8eab800033c362dedbaca9d8721ab2c4f0156ffc6fe5a97c3ec9a7b961a5"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "ef785eb24fc0d6e29c4c9c8a5e61c8693d9c55d54c9238d310c8bd0b498b263e"
+      "sha256": "7004f18667d20f6ceb5e736cae9914ff99fc03544f079c9315a985546319733f"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "e1105b0d5e078dc87f8462fd74983a4d412fcf353b451f80d0024952509951d4"
+      "sha256": "d7636c5cee6b11d2e9f945c77027c6fd59f6558c52a257f34c3ca4d1008a6f20"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "17d40b05dbbadc2c4e158ad17e2096b9d535d6b2b0605ab42b7555ae51a58ea8"
+      "sha256": "b74a77830a0cbb0c4671ed91f77bee9b708a807aa9df99e3541a429b3539ecd7"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -98,12 +98,12 @@
       "sha256": "a8b0bd0c883e8d3c4e5c70e0029952f61a8a60c11f59029e8682232648699b98"
     },
     "reports/changes.json": {
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 98,
+      "sha256": "2df0748da6ac2b5e54f9214c8f1f3fa7a1f8b2272c2c5b691600ca5c9673d36c"
     },
     "reports/coverage.json": {
-      "bytes": 21380,
-      "sha256": "061c5d5e139caeefe0fa9ba5443fd4ab0571d63edf5e767d21d7d6e70e10a268"
+      "bytes": 22054,
+      "sha256": "9d184da19ba3c311f01b97b0756d7b691202820a68320a56b016b55e7f225620"
     },
     "reports/excluded.json": {
       "bytes": 340087,
@@ -118,16 +118,16 @@
       "sha256": "a4a83e6904b8d5c824eba72ccb5011817a367105c49270ea68083619689e6c65"
     },
     "reports/pending.json": {
-      "bytes": 4533,
-      "sha256": "29081878efb3ac295e4c17fe663faec23ef2c3aff7923c98765fe284438a3d6f"
+      "bytes": 3979,
+      "sha256": "374f3a8895f8ce0b708db979c783de9c863a70c386a398f3cb2c92861626c8ac"
     },
     "reports/stale.json": {
       "bytes": 3,
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     "reports/supplements.json": {
-      "bytes": 20465,
-      "sha256": "93fd5403cd21cd67058e3b30c627e740717abf165dc91f1b2cba2d28e4353815"
+      "bytes": 20678,
+      "sha256": "872ab4a4c2d23ec07a4f3c818842527b6a42fc53f0eee07967056b28e9cf7017"
     },
     "reports/withdrawn.json": {
       "bytes": 3,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29558,
-      "sha256": "be69a92f831fc51d614cb392dd1c56d7b4ebb36078d75eb08045231b5adda1f6"
+      "sha256": "9b8bf04cec9c2fc3943232978b5c436827ea8c39176b5f42916c63ce81886f88"
     },
     "species.json": {
       "bytes": 29136,
@@ -159,6 +159,30 @@
     "mode": "champout-primary",
     "provider": "champout",
     "supplementalClaims": {
+      "battle-rules/accuracy-evasion/available": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/available"
+      },
+      "battle-rules/accuracy-evasion/identity": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/identity"
+      },
+      "battle-rules/accuracy-evasion/name": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/name"
+      },
+      "battle-rules/accuracy-evasion/rule": {
+        "providers": [
+          "showdown"
+        ],
+        "scope": "battle-rules/accuracy-evasion/rule"
+      },
       "battle-rules/stat-calculation/available": {
         "providers": [
           "showdown"
@@ -939,6 +963,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "7332b60e22b9e8194bb53549549eba241d73cc9a"
+    "showdown": "942cda71d14bf0618bd57991708a2e2734b6daba"
   }
 }
