@@ -2085,7 +2085,7 @@
     "moves/move-037/target": {
       "value": "random-opponent",
       "witnesses": [
-        "6dc5b8935212b96a447abd0f256b39e310e89f56bc0f4a3980c0a8f6855f1dee"
+        "258012478317a797af7dc5ae6e5c67f353c372d69ed89cb497061973505ab786"
       ]
     },
     "moves/move-037/typeId": {
@@ -5522,7 +5522,7 @@
     "moves/move-080/target": {
       "value": "random-opponent",
       "witnesses": [
-        "c727aef3206550ea3b8ea2b16bd6a9dd84fc5008a2bb9dc15e3031fb4646cb6c"
+        "4ab660bc440f17ec8718acc3ff9dac72caad060a434712a5818a3679868178c6"
       ]
     },
     "moves/move-080/typeId": {
@@ -11668,7 +11668,7 @@
     "moves/move-165/description": {
       "value": "Solo se usa como último recurso al acabarse los PP. Hiere un poco al agresor.",
       "witnesses": [
-        "1980e2223d7ec886301e698dd81f6323f50daf53ff624e3dc51c03888b6d250d"
+        "03b8aaa6fbbc3ffe2038b7f6bec6b83b3f53070d3ea46594b59b492ef289b11c"
       ]
     },
     "moves/move-165/identity": {
@@ -11785,7 +11785,7 @@
     "moves/move-165/target": {
       "value": "random-opponent",
       "witnesses": [
-        "23c766853a1da68a7332929b6e8c277342c3f3deb90a84f5a4c417a00e72514e"
+        "38ecaf43d99e289a1f57f496c157727e9e4d76054a4b38c4d0c837698f4ac128"
       ]
     },
     "moves/move-165/typeId": {
@@ -15213,7 +15213,7 @@
     "moves/move-200/target": {
       "value": "random-opponent",
       "witnesses": [
-        "fe14b031addf847d8209bcdfb2b5c5911b46ae5f89e9dfeb478efac616a86fe3"
+        "b1c42de14492aa053399f00df78b677fb3750b050047a343df57574fbd744951"
       ]
     },
     "moves/move-200/typeId": {
@@ -20726,7 +20726,7 @@
     "moves/move-253/target": {
       "value": "random-opponent",
       "witnesses": [
-        "bad94b02b3eb735215b5fb919984b89248534c0852a1f1aa88ac250065273200"
+        "0e7111f477cbb2608e88ededfe48ec672ff62f7c70197209861bb9d64199aef5"
       ]
     },
     "moves/move-253/typeId": {
@@ -68676,7 +68676,7 @@
     "moves/move-833/target": {
       "value": "random-opponent",
       "witnesses": [
-        "2745a7029438e1a07acfb3fb1a3819f1895a3e889faf04e23517154588d9753e"
+        "c1f2411d66c8bc80859161f7d0827d6ea66546defdf9c2b994de303ca9be4dee"
       ]
     },
     "moves/move-833/typeId": {
@@ -77257,6 +77257,15 @@
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": false
     },
+    "03b8aaa6fbbc3ffe2038b7f6bec6b83b3f53070d3ea46594b59b492ef289b11c": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/moves",
+      "locator": "moves[id=165].description",
+      "observed": "Solo se usa como último recurso al acabarse los PP. Hiere un poco al agresor.",
+      "provider": "opgg",
+      "sha256": "a08fb3f9e5e7ba5d4cb717e94c63e82e9b06ccc064b09351b5ad5a470eef904c",
+      "value": "Solo se usa como último recurso al acabarse los PP. Hiere un poco al agresor."
+    },
     "03cda8bd8ce73bb4fe0e802ec441879bbebcac1f5d3cd4ddfd14dacd7ed7fae4": {
       "context": "champions-champout-capture",
       "document": "champout/esp/wazainfo_syn",
@@ -79827,6 +79836,15 @@
       "sha256": "f379170eb64eed39fde79a28df75583a5777aced4b3d73068536a0ff5193a565",
       "value": "Doble Equipo"
     },
+    "0e7111f477cbb2608e88ededfe48ec672ff62f7c70197209861bb9d64199aef5": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/moves",
+      "locator": "moves[id=253].target",
+      "observed": "random-opponent",
+      "provider": "opgg",
+      "sha256": "a08fb3f9e5e7ba5d4cb717e94c63e82e9b06ccc064b09351b5ad5a470eef904c",
+      "value": "random-opponent"
+    },
     "0e8094a804cb0cb8aba957f2d80feeb3e77750b1f4b8acc9c93cf994440faf3e": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/waza",
@@ -82306,15 +82324,6 @@
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": "user"
     },
-    "1980e2223d7ec886301e698dd81f6323f50daf53ff624e3dc51c03888b6d250d": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/moves",
-      "locator": "moves[id=165].description",
-      "observed": "Solo se usa como último recurso al acabarse los PP. Hiere un poco al agresor.",
-      "provider": "opgg",
-      "sha256": "ce4aa82bdb5dd7a67e5003cc1c6074c2a9b7ed1ef79638fa6b77e485f8d1ed12",
-      "value": "Solo se usa como último recurso al acabarse los PP. Hiere un poco al agresor."
-    },
     "198e35a4bf7f0b4712ab54fda7f5a055a9126aa8435b58ab857f9680d1435c42": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/waza",
@@ -84688,15 +84697,6 @@
       "sha256": "f379170eb64eed39fde79a28df75583a5777aced4b3d73068536a0ff5193a565",
       "value": "Bostezo"
     },
-    "23c766853a1da68a7332929b6e8c277342c3f3deb90a84f5a4c417a00e72514e": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/moves",
-      "locator": "moves[id=165].target",
-      "observed": "random-opponent",
-      "provider": "opgg",
-      "sha256": "ce4aa82bdb5dd7a67e5003cc1c6074c2a9b7ed1ef79638fa6b77e485f8d1ed12",
-      "value": "random-opponent"
-    },
     "23d01dbd615bd8e80727f09050523521ceb68e7035633942e1371f7df78ac359": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/waza",
@@ -85153,6 +85153,15 @@
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": "status"
     },
+    "258012478317a797af7dc5ae6e5c67f353c372d69ed89cb497061973505ab786": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/moves",
+      "locator": "moves[id=37].target",
+      "observed": "random-opponent",
+      "provider": "opgg",
+      "sha256": "a08fb3f9e5e7ba5d4cb717e94c63e82e9b06ccc064b09351b5ad5a470eef904c",
+      "value": "random-opponent"
+    },
     "259db76255dd5ac2b28cc373c4c534750b11766d38db6002dd0bbfe1f5f82752": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/waza",
@@ -85554,15 +85563,6 @@
       "provider": "champout",
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": "physical"
-    },
-    "2745a7029438e1a07acfb3fb1a3819f1895a3e889faf04e23517154588d9753e": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/moves",
-      "locator": "moves[id=833].target",
-      "observed": "random-opponent",
-      "provider": "opgg",
-      "sha256": "ce4aa82bdb5dd7a67e5003cc1c6074c2a9b7ed1ef79638fa6b77e485f8d1ed12",
-      "value": "random-opponent"
     },
     "27553fb30703e104132ccbfb3ad6f107d1d3bc8a77b7332254bcb2db09559c52": {
       "context": "champions-champout-capture",
@@ -89834,6 +89834,15 @@
         "value": 85
       }
     },
+    "38ecaf43d99e289a1f57f496c157727e9e4d76054a4b38c4d0c837698f4ac128": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/moves",
+      "locator": "moves[id=165].target",
+      "observed": "random-opponent",
+      "provider": "opgg",
+      "sha256": "a08fb3f9e5e7ba5d4cb717e94c63e82e9b06ccc064b09351b5ad5a470eef904c",
+      "value": "random-opponent"
+    },
     "38fa9830c63d26c8f208810b99c56ba58b06ceef8ba7fc871118a67c914eb451": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/waza",
@@ -94024,6 +94033,15 @@
       "provider": "champout",
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": false
+    },
+    "4ab660bc440f17ec8718acc3ff9dac72caad060a434712a5818a3679868178c6": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/moves",
+      "locator": "moves[id=80].target",
+      "observed": "random-opponent",
+      "provider": "opgg",
+      "sha256": "a08fb3f9e5e7ba5d4cb717e94c63e82e9b06ccc064b09351b5ad5a470eef904c",
+      "value": "random-opponent"
     },
     "4ab80ec28e32a1bef441bf7868a731da7617fba8442b0b20f1347d341a93179a": {
       "context": "champions-champout-capture",
@@ -102643,15 +102661,6 @@
         "kind": "fixed",
         "value": 40
       }
-    },
-    "6dc5b8935212b96a447abd0f256b39e310e89f56bc0f4a3980c0a8f6855f1dee": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/moves",
-      "locator": "moves[id=37].target",
-      "observed": "random-opponent",
-      "provider": "opgg",
-      "sha256": "ce4aa82bdb5dd7a67e5003cc1c6074c2a9b7ed1ef79638fa6b77e485f8d1ed12",
-      "value": "random-opponent"
     },
     "6dd410c652e4bf8cb9b064578b72e3c55235a8d3fa79b6a3411800904e47d674": {
       "context": "champions-champout-capture",
@@ -119128,6 +119137,15 @@
       "sha256": "7f7e94710aba87615633ae5a37ed62ffcc014b9724c6508e429ad5d35e8ae87d",
       "value": "Tiene una probabilidad del 30 % de reducir un nivel la Defensa del objetivo."
     },
+    "b1c42de14492aa053399f00df78b677fb3750b050047a343df57574fbd744951": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/moves",
+      "locator": "moves[id=200].target",
+      "observed": "random-opponent",
+      "provider": "opgg",
+      "sha256": "a08fb3f9e5e7ba5d4cb717e94c63e82e9b06ccc064b09351b5ad5a470eef904c",
+      "value": "random-opponent"
+    },
     "b1c8bca6e9d389caeb0ed172113735a53eaa0da1fc7e3e0d9c9029dfe3ac7ae0": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/waza",
@@ -121237,15 +121255,6 @@
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": true
     },
-    "bad94b02b3eb735215b5fb919984b89248534c0852a1f1aa88ac250065273200": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/moves",
-      "locator": "moves[id=253].target",
-      "observed": "random-opponent",
-      "provider": "opgg",
-      "sha256": "ce4aa82bdb5dd7a67e5003cc1c6074c2a9b7ed1ef79638fa6b77e485f8d1ed12",
-      "value": "random-opponent"
-    },
     "bad969a9a7c935b21f86dec88a98b0dd846ef43777bcc06a79541248eb307af1": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/waza",
@@ -122820,6 +122829,15 @@
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": true
     },
+    "c1f2411d66c8bc80859161f7d0827d6ea66546defdf9c2b994de303ca9be4dee": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/moves",
+      "locator": "moves[id=833].target",
+      "observed": "random-opponent",
+      "provider": "opgg",
+      "sha256": "a08fb3f9e5e7ba5d4cb717e94c63e82e9b06ccc064b09351b5ad5a470eef904c",
+      "value": "random-opponent"
+    },
     "c208260ee66d07671880d4efc86979d1fbe8202795a900cec0c0c5d035490d79": {
       "context": "champions-champout-capture",
       "document": "champout/esp/wazainfo_syn",
@@ -123893,15 +123911,6 @@
       "provider": "champout",
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": 0
-    },
-    "c727aef3206550ea3b8ea2b16bd6a9dd84fc5008a2bb9dc15e3031fb4646cb6c": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/moves",
-      "locator": "moves[id=80].target",
-      "observed": "random-opponent",
-      "provider": "opgg",
-      "sha256": "ce4aa82bdb5dd7a67e5003cc1c6074c2a9b7ed1ef79638fa6b77e485f8d1ed12",
-      "value": "random-opponent"
     },
     "c72fbed5e7f808472e2ca9b088b3b4529797042b79404f8118ffe2dad9a41acb": {
       "context": "champions-champout-capture",
@@ -137164,15 +137173,6 @@
       "provider": "champout",
       "sha256": "f6bfc143b78410ead2d69bebf52dff7ddbed9bb08bfaf7fd0ca2d28f21838ffa",
       "value": 12
-    },
-    "fe14b031addf847d8209bcdfb2b5c5911b46ae5f89e9dfeb478efac616a86fe3": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/moves",
-      "locator": "moves[id=200].target",
-      "observed": "random-opponent",
-      "provider": "opgg",
-      "sha256": "ce4aa82bdb5dd7a67e5003cc1c6074c2a9b7ed1ef79638fa6b77e485f8d1ed12",
-      "value": "random-opponent"
     },
     "fe1fa2a29529e018fc82cd878398c516b8734b7fe08f1ab2f206a18e8c5633cc": {
       "context": "champions-champout-capture",
