@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "collection": "battle-rules",
+    "id": "accuracy-evasion",
+    "lastVerified": {
+      "available": true,
+      "id": "accuracy-evasion",
+      "identity": true,
+      "name": "Precisión y evasión",
+      "rule": {
+        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
+      }
+    },
+    "previousDataset": "41f758a9162c4eeefd7512d1b115e4ca60ad195a24296053a35b1dc2e64b9772",
+    "reason": "not-in-current-source"
+  },
+  {
+    "collection": "battle-rules",
+    "id": "stat-stages",
+    "lastVerified": {
+      "available": true,
+      "id": "stat-stages",
+      "identity": true,
+      "name": "Niveles de características",
+      "rule": {
+        "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
+        "exceptionsComplete": false,
+        "maximumStage": 6,
+        "minimumStage": -6,
+        "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
+      }
+    },
+    "previousDataset": "41f758a9162c4eeefd7512d1b115e4ca60ad195a24296053a35b1dc2e64b9772",
+    "reason": "not-in-current-source"
+  }
+]

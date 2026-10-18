@@ -1,39 +1,5 @@
 {
   "facts": {
-    "battle-rules/accuracy-evasion/available": {
-      "value": true,
-      "witnesses": [
-        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "055207a0510047cd63e774810612ff72f5875c67ab03d109fea79b7fbca0298f"
-      ]
-    },
-    "battle-rules/accuracy-evasion/identity": {
-      "value": true,
-      "witnesses": [
-        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "055207a0510047cd63e774810612ff72f5875c67ab03d109fea79b7fbca0298f"
-      ]
-    },
-    "battle-rules/accuracy-evasion/name": {
-      "value": "Precisión y evasión",
-      "witnesses": [
-        "cb82112b78ca8a60ac787807f1ccfcd59c598d656aeb8a44720f3f311d856fce",
-        "c0c0c892510005f4b5cfe68e8e88b74847b498eb874d12b91bfb684b285ddbfc"
-      ]
-    },
-    "battle-rules/accuracy-evasion/rule": {
-      "value": {
-        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
-        "exceptionsComplete": false,
-        "maximumStage": 6,
-        "minimumStage": -6,
-        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
-      },
-      "witnesses": [
-        "1d34f888e302302b44502a1ddf42337203d45e9ef7115644e84ec9ee84baa8c3",
-        "c09f44df46ee4da7c2d31f01a9297f56563e9e1e22f4de2f9993822b8610ef9b"
-      ]
-    },
     "battle-rules/bad-poison/available": {
       "value": true,
       "witnesses": [
@@ -214,22 +180,22 @@
     "battle-rules/stat-calculation/available": {
       "value": true,
       "witnesses": [
-        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "5560a8e4c2e90c8b61c257207e172fedc3d85f88951b76d2a4d1b558aa94933e"
+        "c12714da920ab77ed37a466354a400fc01ac0fc4c00bd4bc5e279c3eb6360280",
+        "0591264f4d26d1084ff69e81282d7cfec9cecad3a9c60601c9238f6f5afef8c0"
       ]
     },
     "battle-rules/stat-calculation/identity": {
       "value": true,
       "witnesses": [
-        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "5560a8e4c2e90c8b61c257207e172fedc3d85f88951b76d2a4d1b558aa94933e"
+        "c12714da920ab77ed37a466354a400fc01ac0fc4c00bd4bc5e279c3eb6360280",
+        "0591264f4d26d1084ff69e81282d7cfec9cecad3a9c60601c9238f6f5afef8c0"
       ]
     },
     "battle-rules/stat-calculation/name": {
       "value": "Cálculo de estadísticas",
       "witnesses": [
-        "c9a1e393ac2db6213f918a89583f49f991a87b9e305df4a67712a58abbb4e874",
-        "f9768677698661521c22c4211f87b147ff0b2ce8b05a31919c7ab0de73bef53b"
+        "b5d582797b29ce7157ce59291ec3336673b0a9803606562c54715e342a504c3c",
+        "59f2414ddc43fc9724ef5575bda1536274cbc2bb9d460e9ee6e0da042cf2c923"
       ]
     },
     "battle-rules/stat-calculation/rule": {
@@ -243,71 +209,20 @@
         "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
       },
       "witnesses": [
-        "13db923eac7274e4e09f9ec4a4d499ad5e36e5470f7fa1dafb5010bbd74c7cdc",
-        "9eea52e378e40b5936d3c5569cd66c95280475bd823412c0fac3bc298bd7d845"
-      ]
-    },
-    "battle-rules/stat-stages/available": {
-      "value": true,
-      "witnesses": [
-        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "af27d1483fed1da176e9cdf57c0fd7716bf231460e3a305d0fdf5619659b1847"
-      ]
-    },
-    "battle-rules/stat-stages/identity": {
-      "value": true,
-      "witnesses": [
-        "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093",
-        "af27d1483fed1da176e9cdf57c0fd7716bf231460e3a305d0fdf5619659b1847"
-      ]
-    },
-    "battle-rules/stat-stages/name": {
-      "value": "Niveles de características",
-      "witnesses": [
-        "f44fbd040d0ba8b4e7e17856b8a5bad3b9bbc3a8589524479384e592e7f345fc",
-        "4633b796cf1e899f75dd09e725fd3084fc50675018ce2dd49ee84673263f2a89"
-      ]
-    },
-    "battle-rules/stat-stages/rule": {
-      "value": {
-        "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
-        "exceptionsComplete": false,
-        "maximumStage": 6,
-        "minimumStage": -6,
-        "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
-      },
-      "witnesses": [
-        "7353f36602f47dfdaf837653eed42fdf6c8bbb10f3c9be6dc6f9f47de7e40665",
-        "b183abed250e4a61483575d833346843486e295b5910cd3b1d746097ad19f1d5"
+        "4492264fcdf485a7166d6892bf62b7e43b4230d5bae0044b021643471213cd87",
+        "6efb027148d17c66a230e7359505580ea34a8f885fd316b19d072e5182300050"
       ]
     }
   },
   "observations": {
-    "055207a0510047cd63e774810612ff72f5875c67ab03d109fea79b7fbca0298f": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/battle-actions",
-      "locator": "BattleActions.trySpreadMoveHit accuracy",
-      "observed": "\t\t\tlet accuracy = move.accuracy;\n\t\t\tif (move.ohko) { // bypasses accuracy modifiers\n\t\t\t\tif (!target.isSemiInvulnerable()) {\n\t\t\t\t\taccuracy = 30;\n\t\t\t\t\tif (move.ohko === 'Ice' && this.battle.gen >= 7 && !pokemon.hasType('Ice')) {\n\t\t\t\t\t\taccuracy = 20;\n\t\t\t\t\t}\n\t\t\t\t\tif (!target.volatiles['dynamax'] && pokemon.level >= target.level &&\n\t\t\t\t\t\t(move.ohko === true || !target.hasType(move.ohko))) {\n\t\t\t\t\t\taccuracy += (pokemon.level - target.level);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.battle.add('-immune', target, '[ohko]');\n\t\t\t\t\t\thitResults[i] = false;\n\t\t\t\t\t\tcontinue;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('ModifyAccuracy', target, pokemon, move, accuracy);\n\t\t\t\tif (accuracy !== true) {\n\t\t\t\t\tlet boost = 0;\n\t\t\t\t\tif (!move.ignoreAccuracy) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', pokemon, null, null, { ...pokemon.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boosts['accuracy'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (!move.ignoreEvasion) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', target, null, null, { ...target.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boost - boosts['evasion'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (boost > 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * (3 + boost) / 3);\n\t\t\t\t\t} else if (boost < 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * 3 / (3 - boost));\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (\n\t\t\t\tmove.alwaysHit || (move.id === 'toxic' && this.battle.gen >= 8 && pokemon.hasType('Poison')) ||\n\t\t\t\t(move.target === 'self' && move.category === 'Status' && !target.isSemiInvulnerable())\n\t\t\t) {\n\t\t\t\taccuracy = true; // bypasses ohko accuracy modifiers\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('Accuracy', target, pokemon, move, accuracy);\n\t\t\t}\n\t\t\tif (accuracy !== true && !this.battle.randomChance(accuracy, 100)) {\n\t\t\t\tif (move.smartTarget) {\n\t\t\t\t\tmove.smartTarget = false;\n\t\t\t\t} else {\n\t\t\t\t\tif (!move.spreadHit) this.battle.attrLastMove('[miss]');\n\t\t\t\t\tthis.battle.add('-miss', pokemon, target);",
-      "provider": "showdown",
-      "sha256": "4342d03aa909875ce0a4c4f3f54027ae1933b60e22be778409cef992300ecb9d",
-      "value": true
-    },
-    "13db923eac7274e4e09f9ec4a4d499ad5e36e5470f7fa1dafb5010bbd74c7cdc": {
+    "0591264f4d26d1084ff69e81282d7cfec9cecad3a9c60601c9238f6f5afef8c0": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
+      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
+      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
       "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": {
-        "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
-        "exceptionsComplete": false,
-        "hpFormula": "PS = PS base + puntos de PS + 75",
-        "natureBoostMultiplier": 1.1,
-        "natureDropMultiplier": 0.9,
-        "natureNeutralMultiplier": 1,
-        "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
-      }
+      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
+      "value": true
     },
     "187a1045a9f51afac9b60746df6af78ae47e7a58e80ff893150383591be7bf7d": {
       "context": "champions-current-capture",
@@ -333,21 +248,6 @@
       "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
       "value": true
     },
-    "1d34f888e302302b44502a1ddf42337203d45e9ef7115644e84ec9ee84baa8c3": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
-      "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": {
-        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
-        "exceptionsComplete": false,
-        "maximumStage": 6,
-        "minimumStage": -6,
-        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
-      }
-    },
     "2364aa7dfef47c187a36d65140f49a2a5c2a52a9792779b0bb37e12f23d82040": {
       "context": "champions-current-capture",
       "document": "champout/esp/btl_condition",
@@ -372,14 +272,22 @@
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Quemado"
     },
-    "4633b796cf1e899f75dd09e725fd3084fc50675018ce2dd49ee84673263f2a89": {
+    "4492264fcdf485a7166d6892bf62b7e43b4230d5bae0044b021643471213cd87": {
       "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/pokemon",
-      "locator": "Pokemon.calculateStat boost table",
-      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
+      "document": "supplement/showdown/champions/scripts",
+      "locator": "Scripts.gen = 9 (Champions)",
+      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
       "provider": "showdown",
-      "sha256": "e36493e502858c7f7fa8e899f4b4439295fefa452f96c5017e974494f1c4a688",
-      "value": "Niveles de características"
+      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
+      "value": {
+        "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
+        "exceptionsComplete": false,
+        "hpFormula": "PS = PS base + puntos de PS + 75",
+        "natureBoostMultiplier": 1.1,
+        "natureDropMultiplier": 0.9,
+        "natureNeutralMultiplier": 1,
+        "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
+      }
     },
     "499df9c0e410a95b0dfc3c62f3ec9ba4403b1ee3988291e13c1edcd77bde8bc5": {
       "context": "champions-current-capture",
@@ -390,28 +298,30 @@
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Dormido"
     },
-    "5560a8e4c2e90c8b61c257207e172fedc3d85f88951b76d2a4d1b558aa94933e": {
+    "59f2414ddc43fc9724ef5575bda1536274cbc2bb9d460e9ee6e0da042cf2c923": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
       "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
       "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
       "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": true
+      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
+      "value": "Cálculo de estadísticas"
     },
-    "7353f36602f47dfdaf837653eed42fdf6c8bbb10f3c9be6dc6f9f47de7e40665": {
+    "6efb027148d17c66a230e7359505580ea34a8f885fd316b19d072e5182300050": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
+      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
+      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
       "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
+      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
       "value": {
-        "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
+        "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
         "exceptionsComplete": false,
-        "maximumStage": 6,
-        "minimumStage": -6,
-        "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
+        "hpFormula": "PS = PS base + puntos de PS + 75",
+        "natureBoostMultiplier": 1.1,
+        "natureDropMultiplier": 0.9,
+        "natureNeutralMultiplier": 1,
+        "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
       }
     },
     "8f2d9d7802425bae46fb48d35648b0a06f888eaf89733563448f1c7250eaa1a2": {
@@ -423,23 +333,6 @@
       "review": "review-battle-rules-freezing-rule",
       "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
       "value": true
-    },
-    "9eea52e378e40b5936d3c5569cd66c95280475bd823412c0fac3bc298bd7d845": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
-      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
-      "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": {
-        "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
-        "exceptionsComplete": false,
-        "hpFormula": "PS = PS base + puntos de PS + 75",
-        "natureBoostMultiplier": 1.1,
-        "natureDropMultiplier": 0.9,
-        "natureNeutralMultiplier": 1,
-        "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
-      }
     },
     "a0470d3e0c96daa1bb983232bdf0958b5d0594385faf680e992d556464098c61": {
       "context": "champions-current-capture",
@@ -489,29 +382,14 @@
         "resetOnSwitch": true
       }
     },
-    "af27d1483fed1da176e9cdf57c0fd7716bf231460e3a305d0fdf5619659b1847": {
+    "b5d582797b29ce7157ce59291ec3336673b0a9803606562c54715e342a504c3c": {
       "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/pokemon",
-      "locator": "Pokemon.calculateStat boost table",
-      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
+      "document": "supplement/showdown/champions/scripts",
+      "locator": "Scripts.gen = 9 (Champions)",
+      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
       "provider": "showdown",
-      "sha256": "e36493e502858c7f7fa8e899f4b4439295fefa452f96c5017e974494f1c4a688",
-      "value": true
-    },
-    "b183abed250e4a61483575d833346843486e295b5910cd3b1d746097ad19f1d5": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/pokemon",
-      "locator": "Pokemon.calculateStat boost table",
-      "observed": "\n\t\t// stat boosts\n\t\tlet boosts: SparseBoostsTable = {};\n\t\tconst boostName = statName as BoostID;\n\t\tboosts[boostName] = boost;\n\t\tboosts = this.battle.runEvent('ModifyBoost', statUser || this, null, null, boosts);\n\t\tboost = boosts[boostName]!;\n\t\tconst boostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];\n\t\tif (boost > 6) boost = 6;\n\t\tif (boost < -6) boost = -6;\n\t\tif (boost >= 0) {\n\t\t\tstat = Math.floor(stat * boostTable[boost]);\n\t\t} else {\n\t\t\tstat = Math.floor(stat / boostTable[-boost]);\n\t\t}\n\n\t\t// stat modifier\n\t\treturn this.battle.modify(stat, (modifier || 1));\n\t}\n",
-      "provider": "showdown",
-      "sha256": "e36493e502858c7f7fa8e899f4b4439295fefa452f96c5017e974494f1c4a688",
-      "value": {
-        "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
-        "exceptionsComplete": false,
-        "maximumStage": 6,
-        "minimumStage": -6,
-        "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
-      }
+      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
+      "value": "Cálculo de estadísticas"
     },
     "ba9059c35c40687899669533d4d8c1751d3db92729910f93cdf8593375be42e4": {
       "context": "champions-current-capture",
@@ -522,55 +400,13 @@
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Grav. envenenado"
     },
-    "c09f44df46ee4da7c2d31f01a9297f56563e9e1e22f4de2f9993822b8610ef9b": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/battle-actions",
-      "locator": "BattleActions.trySpreadMoveHit accuracy",
-      "observed": "\t\t\tlet accuracy = move.accuracy;\n\t\t\tif (move.ohko) { // bypasses accuracy modifiers\n\t\t\t\tif (!target.isSemiInvulnerable()) {\n\t\t\t\t\taccuracy = 30;\n\t\t\t\t\tif (move.ohko === 'Ice' && this.battle.gen >= 7 && !pokemon.hasType('Ice')) {\n\t\t\t\t\t\taccuracy = 20;\n\t\t\t\t\t}\n\t\t\t\t\tif (!target.volatiles['dynamax'] && pokemon.level >= target.level &&\n\t\t\t\t\t\t(move.ohko === true || !target.hasType(move.ohko))) {\n\t\t\t\t\t\taccuracy += (pokemon.level - target.level);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.battle.add('-immune', target, '[ohko]');\n\t\t\t\t\t\thitResults[i] = false;\n\t\t\t\t\t\tcontinue;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('ModifyAccuracy', target, pokemon, move, accuracy);\n\t\t\t\tif (accuracy !== true) {\n\t\t\t\t\tlet boost = 0;\n\t\t\t\t\tif (!move.ignoreAccuracy) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', pokemon, null, null, { ...pokemon.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boosts['accuracy'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (!move.ignoreEvasion) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', target, null, null, { ...target.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boost - boosts['evasion'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (boost > 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * (3 + boost) / 3);\n\t\t\t\t\t} else if (boost < 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * 3 / (3 - boost));\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (\n\t\t\t\tmove.alwaysHit || (move.id === 'toxic' && this.battle.gen >= 8 && pokemon.hasType('Poison')) ||\n\t\t\t\t(move.target === 'self' && move.category === 'Status' && !target.isSemiInvulnerable())\n\t\t\t) {\n\t\t\t\taccuracy = true; // bypasses ohko accuracy modifiers\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('Accuracy', target, pokemon, move, accuracy);\n\t\t\t}\n\t\t\tif (accuracy !== true && !this.battle.randomChance(accuracy, 100)) {\n\t\t\t\tif (move.smartTarget) {\n\t\t\t\t\tmove.smartTarget = false;\n\t\t\t\t} else {\n\t\t\t\t\tif (!move.spreadHit) this.battle.attrLastMove('[miss]');\n\t\t\t\t\tthis.battle.add('-miss', pokemon, target);",
-      "provider": "showdown",
-      "sha256": "4342d03aa909875ce0a4c4f3f54027ae1933b60e22be778409cef992300ecb9d",
-      "value": {
-        "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
-        "exceptionsComplete": false,
-        "maximumStage": 6,
-        "minimumStage": -6,
-        "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
-      }
-    },
-    "c0c0c892510005f4b5cfe68e8e88b74847b498eb874d12b91bfb684b285ddbfc": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/sim/battle-actions",
-      "locator": "BattleActions.trySpreadMoveHit accuracy",
-      "observed": "\t\t\tlet accuracy = move.accuracy;\n\t\t\tif (move.ohko) { // bypasses accuracy modifiers\n\t\t\t\tif (!target.isSemiInvulnerable()) {\n\t\t\t\t\taccuracy = 30;\n\t\t\t\t\tif (move.ohko === 'Ice' && this.battle.gen >= 7 && !pokemon.hasType('Ice')) {\n\t\t\t\t\t\taccuracy = 20;\n\t\t\t\t\t}\n\t\t\t\t\tif (!target.volatiles['dynamax'] && pokemon.level >= target.level &&\n\t\t\t\t\t\t(move.ohko === true || !target.hasType(move.ohko))) {\n\t\t\t\t\t\taccuracy += (pokemon.level - target.level);\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.battle.add('-immune', target, '[ohko]');\n\t\t\t\t\t\thitResults[i] = false;\n\t\t\t\t\t\tcontinue;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('ModifyAccuracy', target, pokemon, move, accuracy);\n\t\t\t\tif (accuracy !== true) {\n\t\t\t\t\tlet boost = 0;\n\t\t\t\t\tif (!move.ignoreAccuracy) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', pokemon, null, null, { ...pokemon.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boosts['accuracy'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (!move.ignoreEvasion) {\n\t\t\t\t\t\tconst boosts = this.battle.runEvent('ModifyBoost', target, null, null, { ...target.boosts });\n\t\t\t\t\t\tboost = this.battle.clampIntRange(boost - boosts['evasion'], -6, 6);\n\t\t\t\t\t}\n\t\t\t\t\tif (boost > 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * (3 + boost) / 3);\n\t\t\t\t\t} else if (boost < 0) {\n\t\t\t\t\t\taccuracy = this.battle.trunc(accuracy * 3 / (3 - boost));\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (\n\t\t\t\tmove.alwaysHit || (move.id === 'toxic' && this.battle.gen >= 8 && pokemon.hasType('Poison')) ||\n\t\t\t\t(move.target === 'self' && move.category === 'Status' && !target.isSemiInvulnerable())\n\t\t\t) {\n\t\t\t\taccuracy = true; // bypasses ohko accuracy modifiers\n\t\t\t} else {\n\t\t\t\taccuracy = this.battle.runEvent('Accuracy', target, pokemon, move, accuracy);\n\t\t\t}\n\t\t\tif (accuracy !== true && !this.battle.randomChance(accuracy, 100)) {\n\t\t\t\tif (move.smartTarget) {\n\t\t\t\t\tmove.smartTarget = false;\n\t\t\t\t} else {\n\t\t\t\t\tif (!move.spreadHit) this.battle.attrLastMove('[miss]');\n\t\t\t\t\tthis.battle.add('-miss', pokemon, target);",
-      "provider": "showdown",
-      "sha256": "4342d03aa909875ce0a4c4f3f54027ae1933b60e22be778409cef992300ecb9d",
-      "value": "Precisión y evasión"
-    },
-    "c9a1e393ac2db6213f918a89583f49f991a87b9e305df4a67712a58abbb4e874": {
+    "c12714da920ab77ed37a466354a400fc01ac0fc4c00bd4bc5e279c3eb6360280": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
       "locator": "Scripts.gen = 9 (Champions)",
       "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
       "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": "Cálculo de estadísticas"
-    },
-    "cb82112b78ca8a60ac787807f1ccfcd59c598d656aeb8a44720f3f311d856fce": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
-      "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": "Precisión y evasión"
-    },
-    "d724d46c7eea7d093ef253da52a9c1a90564a0cfeab1aaf9b990ce5acf78f093": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
-      "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
+      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
       "value": true
     },
     "d9bde6cb57e7f80bf1f763427dd755ac7acdd283b9d62de7ae3cdad727e7610a": {
@@ -609,15 +445,6 @@
       "sha256": "b971cd4ad8b12baa7bf910f8b209d7358c7022202c897cfdd1fab2c9d3d4f40f",
       "value": true
     },
-    "f44fbd040d0ba8b4e7e17856b8a5bad3b9bbc3a8589524479384e592e7f345fc": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
-      "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": "Niveles de características"
-    },
     "f68d8c8005145d676ddd29a7863cb2f80a0f0cde301413f1acaa5c994f93a4d8": {
       "context": "champions-current-capture",
       "document": "champout/esp/btl_condition",
@@ -632,15 +459,6 @@
         "restWakeTurn": 3,
         "secondTurnWakeChanceDisplayedPercent": 33
       }
-    },
-    "f9768677698661521c22c4211f87b147ff0b2ce8b05a31919c7ab0de73bef53b": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
-      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
-      "provider": "showdown",
-      "sha256": "21c26e520804d648493f43a6ec94e5c7d65a79cc41eb58feeb39df7a2914c126",
-      "value": "Cálculo de estadísticas"
     },
     "fad8c872e1fdf285fc9a1b07f66ef806849dbcf63f5ee2a07e084c383f869b96": {
       "context": "champions-current-capture",

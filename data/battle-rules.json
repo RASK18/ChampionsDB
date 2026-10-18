@@ -1,19 +1,6 @@
 [
   {
     "available": true,
-    "id": "accuracy-evasion",
-    "identity": true,
-    "name": "Precisión y evasión",
-    "rule": {
-      "description": "Se aplica el factor a la precisión del movimiento con truncamiento. Golpes fulminantes, movimientos que nunca fallan y efectos específicos tienen excepciones.",
-      "exceptionsComplete": false,
-      "maximumStage": 6,
-      "minimumStage": -6,
-      "stageFormula": "n = limitar(precisión del usuario − evasión del objetivo, −6, 6); si n ≥ 0, factor = (3+n)/3; si n < 0, factor = 3/(3−n)"
-    }
-  },
-  {
-    "available": true,
     "id": "bad-poison",
     "identity": true,
     "name": "Grav. envenenado",
@@ -100,19 +87,6 @@
       "natureDropMultiplier": 0.9,
       "natureNeutralMultiplier": 1,
       "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
-    }
-  },
-  {
-    "available": true,
-    "id": "stat-stages",
-    "identity": true,
-    "name": "Niveles de características",
-    "rule": {
-      "description": "Aplicable a Ataque, Defensa, Ataque Especial, Defensa Especial y Velocidad. Precisión y Evasión usan su propia tabla; PS no usa niveles.",
-      "exceptionsComplete": false,
-      "maximumStage": 6,
-      "minimumStage": -6,
-      "stageFormula": "Si n ≥ 0: factor = (2+n)/2. Si n < 0: factor = 2/(2−n). Se redondea hacia abajo."
     }
   }
 ]

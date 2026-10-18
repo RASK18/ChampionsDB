@@ -7,15 +7,15 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "41f758a9162c4eeefd7512d1b115e4ca60ad195a24296053a35b1dc2e64b9772",
+  "datasetId": "60e2018164fc4e4cc741d5ab4764547119ef16d4c555aedbb2064e79ddadde9d",
   "files": {
     "abilities.json": {
       "bytes": 49177,
       "sha256": "903cb81ef95f111d8f0e1a4aac32df903c96237c1dfe09401a4144a30e7b9d66"
     },
     "battle-rules.json": {
-      "bytes": 2951,
-      "sha256": "48537cd465f2b2de817c9601359441a730c497a5b3e01bc1194889650ae89cc0"
+      "bytes": 1884,
+      "sha256": "f04bd7d1954aad09b43c7941f8f61b6335a9abd259cea7dd1010d370c6608f8d"
     },
     "effects.json": {
       "bytes": 20122,
@@ -50,8 +50,8 @@
       "sha256": "d21487410beec39c54cc682bc7c5afd31c5a426f4defec2d525d8354849fc9a3"
     },
     "provenance/battle-rules.json": {
-      "bytes": 41882,
-      "sha256": "77118d20685cf196897591c2344d4c2c30d0a8ad38ba12961137f966370f62b8"
+      "bytes": 24552,
+      "sha256": "c6b1a8848113a767d0498d799938636d3e6512765a654d2ee75d377d9a4aeff2"
     },
     "provenance/effects.json": {
       "bytes": 204005,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "0346538b04380d8485a6f84f6eaf7404d6cb460e276fe36a9c0792274eff07aa"
+      "sha256": "3a80e19877092fece38cdc5248f9b70991f964d76c63893b3e30d7129350e0df"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "5a753b604d7bfe4f4c01d8e7776b44b728cd98c4d629f33e9bee4ab0f614a632"
+      "sha256": "4d6681204876214b0a3dcc37d8438951c293769773433fb51ac92856194acaaa"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "36db0dd34a6e9de9185a6547fe0aa3526ef238e1fdb0f52338102a55129329f3"
+      "sha256": "0e68682341a21ab2af5c4db6b15b48d05f9b637796cf2a1a1901da695c40e9bc"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "cab23ec19f731f6b568e55755e04acda9d22c3cf0f3936f73db3991491844702"
+      "sha256": "213fb55d93f742814ddfbb84779014bbfcba3c5505bc994668a08f6b0174dea6"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -91,19 +91,19 @@
     },
     "provenance/types.json": {
       "bytes": 139701,
-      "sha256": "78334af2384f20e868a0b7183a44f0d7a6577f7ca514034630421835e266fac8"
+      "sha256": "47a8647801be84649189ab6c8e927b8beaf03f922c315c1b36da93d6b66aec6a"
     },
     "regulations.json": {
       "bytes": 14114,
       "sha256": "a8b0bd0c883e8d3c4e5c70e0029952f61a8a60c11f59029e8682232648699b98"
     },
     "reports/changes.json": {
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 192,
+      "sha256": "76cbd6658c9ccdd58265d1f0bb4c32ea3334082795b22f63eee3609fa0673774"
     },
     "reports/coverage.json": {
-      "bytes": 22054,
-      "sha256": "9d184da19ba3c311f01b97b0756d7b691202820a68320a56b016b55e7f225620"
+      "bytes": 20746,
+      "sha256": "ad46f425ef850f9aeac092f921d527e8ef0a1823e0ba10171e0a1e42a55bb6ff"
     },
     "reports/excluded.json": {
       "bytes": 340087,
@@ -118,16 +118,16 @@
       "sha256": "a4a83e6904b8d5c824eba72ccb5011817a367105c49270ea68083619689e6c65"
     },
     "reports/pending.json": {
-      "bytes": 3979,
-      "sha256": "374f3a8895f8ce0b708db979c783de9c863a70c386a398f3cb2c92861626c8ac"
+      "bytes": 5062,
+      "sha256": "dcc6490e970e10c3fe0699ef70abdc09b9a6dd9f734ce40af635f862c0fcc1e1"
     },
     "reports/stale.json": {
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 1553,
+      "sha256": "0326d60a467e7b665bd9bc0cf796c32d87bdb5d1306e16d2c09ff9d898c10c59"
     },
     "reports/supplements.json": {
-      "bytes": 20678,
-      "sha256": "872ab4a4c2d23ec07a4f3c818842527b6a42fc53f0eee07967056b28e9cf7017"
+      "bytes": 20272,
+      "sha256": "cfbae2d6adbbfeaaf11301c1630b054e2f54d1d0b479d6f1f1c9f5d5256d822e"
     },
     "reports/withdrawn.json": {
       "bytes": 3,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29558,
-      "sha256": "76124db9871d538ed14563c6bb02ccb1cc2857d01d5d664602c919623755e9cb"
+      "sha256": "5bd767b501c5eadfbc4805a237bc790505641d4ce7cab9e23e9e3242ff92a17a"
     },
     "species.json": {
       "bytes": 29136,
@@ -159,30 +159,6 @@
     "mode": "champout-primary",
     "provider": "champout",
     "supplementalClaims": {
-      "battle-rules/accuracy-evasion/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/available"
-      },
-      "battle-rules/accuracy-evasion/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/identity"
-      },
-      "battle-rules/accuracy-evasion/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/name"
-      },
-      "battle-rules/accuracy-evasion/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/accuracy-evasion/rule"
-      },
       "battle-rules/stat-calculation/available": {
         "providers": [
           "showdown"
@@ -206,30 +182,6 @@
           "showdown"
         ],
         "scope": "battle-rules/stat-calculation/rule"
-      },
-      "battle-rules/stat-stages/available": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/stat-stages/available"
-      },
-      "battle-rules/stat-stages/identity": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/stat-stages/identity"
-      },
-      "battle-rules/stat-stages/name": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/stat-stages/name"
-      },
-      "battle-rules/stat-stages/rule": {
-        "providers": [
-          "showdown"
-        ],
-        "scope": "battle-rules/stat-stages/rule"
       },
       "interactions/item-673--0448000/available": {
         "providers": [
@@ -963,6 +915,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "7244fe8e28fa8bc4d0809ae30d183c608b62bb2b"
+    "showdown": "56bc083aaeac250ce1f0555dec366b2050d25a1b"
   }
 }
