@@ -7,7 +7,7 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "fa6a9ed353e59d661ac4ffe186d8593c11ea1caaf176cf3e4c8ab887451db2fa",
+  "datasetId": "828d2b61a4ad611177244ab5d98c3cca58963283221f98c1679344cb4b2821b5",
   "files": {
     "abilities.json": {
       "bytes": 49177,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "f16caa086fab6fc84e8ba1675b53117a7be6983a7c1376fdc6830f21743ca534"
+      "sha256": "91c7d3a03d4362a7abc3bcc7bf486366d7f07a9eab091dc0d33f2ddbb83dc457"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "b22c69cddf467c1400f64b9696f87e6c52e73c413bb5ca297f93ad4255b653c3"
+      "sha256": "df0ef480955817611e92f5c538943c5da689bacdc1e9bf7ed2b5c4577cfecc0b"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "b5a064c28cc675e00c22957759596f88cae4308d04ae8a8d2e06b5934a0f4182"
+      "sha256": "8c3e733f13f0daa2c8abbf74078db9cc65e613e8550f59a347481df89f9c2700"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "d8ea193c07a3522cc7d8eb547d3de16b2bbf8bd174a087997b1b648ef8d320de"
+      "sha256": "1f6f132de0022e666c89dda609fddfa1f0d76fd84d38cdfcfd9d97ac3595cc11"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29558,
-      "sha256": "1e4e1981496fd45cf95b086abd781f68628412cd7ed7e69b2aa16313213acf23"
+      "sha256": "a4f42d04c57df781019df8d480a4ac2a084da3db22c92e668bb8205405447f25"
     },
     "species.json": {
       "bytes": 29136,
@@ -915,6 +915,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "5b01be81011ec12efa25dcfff49ea279a6029d6f"
+    "showdown": "d106d9675a900df7b563ce12b527dcd0369fb34e"
   }
 }
