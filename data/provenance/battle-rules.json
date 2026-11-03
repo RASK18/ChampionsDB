@@ -180,22 +180,22 @@
     "battle-rules/stat-calculation/available": {
       "value": true,
       "witnesses": [
-        "c12714da920ab77ed37a466354a400fc01ac0fc4c00bd4bc5e279c3eb6360280",
-        "0591264f4d26d1084ff69e81282d7cfec9cecad3a9c60601c9238f6f5afef8c0"
+        "2b9ae27baec54b186d9473ad4880d73339ef9f67cd6708df4e3da1f01fc3fbad",
+        "4bf6a95e9eba479b891178570991d1cb86975f599a2dff2b435d49e90f081660"
       ]
     },
     "battle-rules/stat-calculation/identity": {
       "value": true,
       "witnesses": [
-        "c12714da920ab77ed37a466354a400fc01ac0fc4c00bd4bc5e279c3eb6360280",
-        "0591264f4d26d1084ff69e81282d7cfec9cecad3a9c60601c9238f6f5afef8c0"
+        "2b9ae27baec54b186d9473ad4880d73339ef9f67cd6708df4e3da1f01fc3fbad",
+        "4bf6a95e9eba479b891178570991d1cb86975f599a2dff2b435d49e90f081660"
       ]
     },
     "battle-rules/stat-calculation/name": {
       "value": "Cálculo de estadísticas",
       "witnesses": [
-        "b5d582797b29ce7157ce59291ec3336673b0a9803606562c54715e342a504c3c",
-        "59f2414ddc43fc9724ef5575bda1536274cbc2bb9d460e9ee6e0da042cf2c923"
+        "74f54fd0eabe42c7b8853cec0a800a96b546152d79a967c8611bb8016e9b6b62",
+        "352b0c9061e6c963002fece470958864881c28f314dad6e8d972c9916328ea36"
       ]
     },
     "battle-rules/stat-calculation/rule": {
@@ -209,21 +209,12 @@
         "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
       },
       "witnesses": [
-        "4492264fcdf485a7166d6892bf62b7e43b4230d5bae0044b021643471213cd87",
-        "6efb027148d17c66a230e7359505580ea34a8f885fd316b19d072e5182300050"
+        "7fdfbce3e7079291ec3d1509e8581390f48a65d24ac2eb02597ce29f0d372b70",
+        "bdf9d94f782858656e40a50e8ca82d0a61b0c4972b05f61e3579608dcd7c780e"
       ]
     }
   },
   "observations": {
-    "0591264f4d26d1084ff69e81282d7cfec9cecad3a9c60601c9238f6f5afef8c0": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
-      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
-      "provider": "showdown",
-      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
-      "value": true
-    },
     "187a1045a9f51afac9b60746df6af78ae47e7a58e80ff893150383591be7bf7d": {
       "context": "champions-current-capture",
       "document": "champout/esp/btl_condition",
@@ -263,6 +254,24 @@
         ]
       }
     },
+    "2b9ae27baec54b186d9473ad4880d73339ef9f67cd6708df4e3da1f01fc3fbad": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/champions/scripts",
+      "locator": "Scripts.gen = 9 (Champions)",
+      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
+      "provider": "showdown",
+      "sha256": "b8c0005064c70d5066f807ad07e9959dd79ac2146d7ea5c4a92808df336b0df8",
+      "value": true
+    },
+    "352b0c9061e6c963002fece470958864881c28f314dad6e8d972c9916328ea36": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/champions/scripts",
+      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
+      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
+      "provider": "showdown",
+      "sha256": "b8c0005064c70d5066f807ad07e9959dd79ac2146d7ea5c4a92808df336b0df8",
+      "value": "Cálculo de estadísticas"
+    },
     "3ca96d861e68bef69b6583462f65cc5e1d468bc5a67487b86820435c0b7f1668": {
       "context": "champions-current-capture",
       "document": "champout/esp/ui_control",
@@ -271,23 +280,6 @@
       "provider": "champout",
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Quemado"
-    },
-    "4492264fcdf485a7166d6892bf62b7e43b4230d5bae0044b021643471213cd87": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
-      "provider": "showdown",
-      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
-      "value": {
-        "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
-        "exceptionsComplete": false,
-        "hpFormula": "PS = PS base + puntos de PS + 75",
-        "natureBoostMultiplier": 1.1,
-        "natureDropMultiplier": 0.9,
-        "natureNeutralMultiplier": 1,
-        "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
-      }
     },
     "499df9c0e410a95b0dfc3c62f3ec9ba4403b1ee3988291e13c1edcd77bde8bc5": {
       "context": "champions-current-capture",
@@ -298,22 +290,31 @@
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Dormido"
     },
-    "59f2414ddc43fc9724ef5575bda1536274cbc2bb9d460e9ee6e0da042cf2c923": {
+    "4bf6a95e9eba479b891178570991d1cb86975f599a2dff2b435d49e90f081660": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
       "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
       "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
       "provider": "showdown",
-      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
+      "sha256": "b8c0005064c70d5066f807ad07e9959dd79ac2146d7ea5c4a92808df336b0df8",
+      "value": true
+    },
+    "74f54fd0eabe42c7b8853cec0a800a96b546152d79a967c8611bb8016e9b6b62": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/showdown/champions/scripts",
+      "locator": "Scripts.gen = 9 (Champions)",
+      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
+      "provider": "showdown",
+      "sha256": "b8c0005064c70d5066f807ad07e9959dd79ac2146d7ea5c4a92808df336b0df8",
       "value": "Cálculo de estadísticas"
     },
-    "6efb027148d17c66a230e7359505580ea34a8f885fd316b19d072e5182300050": {
+    "7fdfbce3e7079291ec3d1509e8581390f48a65d24ac2eb02597ce29f0d372b70": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
-      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
+      "locator": "Scripts.gen = 9 (Champions)",
+      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
       "provider": "showdown",
-      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
+      "sha256": "b8c0005064c70d5066f807ad07e9959dd79ac2146d7ea5c4a92808df336b0df8",
       "value": {
         "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
         "exceptionsComplete": false,
@@ -382,15 +383,6 @@
         "resetOnSwitch": true
       }
     },
-    "b5d582797b29ce7157ce59291ec3336673b0a9803606562c54715e342a504c3c": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
-      "provider": "showdown",
-      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
-      "value": "Cálculo de estadísticas"
-    },
     "ba9059c35c40687899669533d4d8c1751d3db92729910f93cdf8593375be42e4": {
       "context": "champions-current-capture",
       "document": "champout/esp/ui_control",
@@ -400,14 +392,22 @@
       "sha256": "97e10f6fdedb85553c357389a2901882bff804a18307d9b831f76d3f9d0e160e",
       "value": "Grav. envenenado"
     },
-    "c12714da920ab77ed37a466354a400fc01ac0fc4c00bd4bc5e279c3eb6360280": {
+    "bdf9d94f782858656e40a50e8ca82d0a61b0c4972b05f61e3579608dcd7c780e": {
       "context": "champions-supplemental-gap",
       "document": "supplement/showdown/champions/scripts",
-      "locator": "Scripts.gen = 9 (Champions)",
-      "observed": "export const Scripts: ModdedBattleScriptsData = {\n\tgen: 9,\n\tinit() {",
+      "locator": "Scripts.statModify: normal mode, excluding levelclausemod",
+      "observed": "\tstatModify(baseStats, set, statName) {\n\t\tconst tr = this.trunc;\n\t\tlet stat = baseStats[statName];\n\t\tconst evs = set.evs[statName];\n\t\tif (this.ruleTable.has('levelclausemod')) {\n\t\t\t// Stat calculation is modified to depend on level\n\t\t\t// We use the formula from main line formats\n\t\t\t// The first stat point gives 4 EVs and the others give 8 EVs.\n\t\t\tconst level = set.level;\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + level + 10;\n\t\t\t}\n\t\t\tstat = tr((2 * stat + 31 + Math.max(2 * evs - 1, 0)) * level / 100) + 5;\n\t\t} else {\n\t\t\tif (statName === 'hp') {\n\t\t\t\treturn stat + evs + 75;\n\t\t\t}\n\t\t\tstat = stat + evs + 20;\n\t\t}\n\t\tconst nature = this.dex.natures.get(set.nature);\n\t\t// Natures are calculated with 16-bit truncation.\n\t\t// This only affects Eternatus-Eternamax in Pure Hackmons.\n\t\tif (nature.plus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 595) : stat;\n\t\t\tstat = tr(tr(stat * 110, 16) / 100);\n\t\t} else if (nature.minus === statName) {\n\t\t\tstat = this.ruleTable.has('overflowstatmod') ? Math.min(stat, 728) : stat;\n\t\t\tstat = tr(tr(stat * 90, 16) / 100);\n\t\t}\n\t\treturn stat;\n\t},\n\tcalculatePP(move, ppUps) {",
       "provider": "showdown",
-      "sha256": "ad8f41b53ee4ec256e442ba9c03ffd799ebe36fdd8e6c287ae03feea8ecc4666",
-      "value": true
+      "sha256": "b8c0005064c70d5066f807ad07e9959dd79ac2146d7ea5c4a92808df336b0df8",
+      "value": {
+        "description": "Fórmulas normales de Champions; se excluye la variante opcional de Showdown con nivel configurable.",
+        "exceptionsComplete": false,
+        "hpFormula": "PS = PS base + puntos de PS + 75",
+        "natureBoostMultiplier": 1.1,
+        "natureDropMultiplier": 0.9,
+        "natureNeutralMultiplier": 1,
+        "statFormula": "Característica = suelo((base + puntos + 20) × naturaleza)"
+      }
     },
     "d9bde6cb57e7f80bf1f763427dd755ac7acdd283b9d62de7ae3cdad727e7610a": {
       "context": "champions-current-capture",
