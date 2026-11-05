@@ -7,7 +7,7 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "12c7ee8eacc5b013b06b9cdfc66f54033ac0dfd4d2f8aeb0989ec39f083839c5",
+  "datasetId": "66c88132a99a422065cd8e6396472e3e956e774c1fc9d07b0ed38e894ac2aa19",
   "files": {
     "abilities.json": {
       "bytes": 49177,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "82e30ca0cf0b8ab398dda972297e78aed7de78c0ce9156710cb1b4f77b3ff5f9"
+      "sha256": "59d049cd56c2b91db2b0150d743a45734168b36e8163f1e4e49f03c1dc38b699"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "3d9c2b7d57fb0a8ea42f2d36b1269d608ea4b73468ebbd96cf75290b0dfe7661"
+      "sha256": "24bdfbae352e2c27070d55d6151bc603d7331d8562fe72b7dd3762f4f7d3291f"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "cecabd67c98b362b5bffe51f6051da17ff701e49d27d5f0ec98bfdd3dbdf6cff"
+      "sha256": "bfe30aed906f75bc1486c4b1195acdd681f6df4f710184bd693a4eb5f57bfb80"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "c53b6bdb0b3704696ffbc2764a00858d8615e41ac97c9528d5cd446b098c1ef6"
+      "sha256": "8e475295f1c83d78866c1120b03fba2e01813ecbeaa6cbab52735e8c2af1d652"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -91,7 +91,7 @@
     },
     "provenance/types.json": {
       "bytes": 139701,
-      "sha256": "2d0708faa3146f347e58732220d529dc12b46ace0de75e17087ff27feb5a1dae"
+      "sha256": "fad7fa91bbec279d0e3496faa46133efeaa7edcfeb74d598d304925438ae5a6e"
     },
     "regulations.json": {
       "bytes": 14114,
@@ -134,8 +134,8 @@
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     "snapshot.json": {
-      "bytes": 29558,
-      "sha256": "b6eee86a740426b3abd40dcec372e8a03c9631b66431ce534adf48620c1dc6ac"
+      "bytes": 29559,
+      "sha256": "547198e2b78eeaf0ff48a6a5e45a00e39477b355fa2e018bd2f104bc2a697f7e"
     },
     "species.json": {
       "bytes": 29136,
