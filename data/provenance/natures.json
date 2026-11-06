@@ -9,7 +9,7 @@
     "natures/adamant/decreased": {
       "value": "spAttack",
       "witnesses": [
-        "a2802eaf455280b44db6ef19ec5d452a4aa7f54461178281375a23160d936616"
+        "ceb9d25a9bffaa49de483891a90e11b713c14a480c4e58202b71f1642b369eda"
       ]
     },
     "natures/adamant/identity": {
@@ -21,7 +21,7 @@
     "natures/adamant/increased": {
       "value": "attack",
       "witnesses": [
-        "3e65ceb08882bc2d2b9c18148a4e77d231e0ab12104434dee542645cb72cbf65"
+        "f98f4608ca4b65b544ed7eb6ade5588b94397d62fa617ffa3bc9ba5ac3b2878e"
       ]
     },
     "natures/adamant/multipliers": {
@@ -30,7 +30,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "330417b652aa8bd688666d5fbd3af8f05eacd4b5f45db8c0a8ae785832af6ede",
+        "16442eeba22083ce02768232a67233540a4c4aab7d5b008fd2b58ebdb917a389",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -49,7 +49,7 @@
     "natures/bashful/decreased": {
       "value": null,
       "witnesses": [
-        "3622c7e39ba4b5abc8b76beb4e5f5ee3a959fb9b79a0cfcdce83a632c75bca75"
+        "b703503d0c6cb610539d733ca6c1a9ce861f37eed85a4732a78f484f17757458"
       ]
     },
     "natures/bashful/identity": {
@@ -61,7 +61,7 @@
     "natures/bashful/increased": {
       "value": null,
       "witnesses": [
-        "f5f3605d27e5664b80658f6f4d1e955ef82ba04f2e4cb6d1c4528ccb352b3930"
+        "e592057c1d86f812fcbc01a91423e93161a516a76644b2d1276358dc53556e2e"
       ]
     },
     "natures/bashful/multipliers": {
@@ -70,7 +70,7 @@
         "increased": 1
       },
       "witnesses": [
-        "0265d74dea7434a7b75b5bc7f70dafee62ba39015023bd072e19b25af84db0ba",
+        "4cdf1768c742307a41d63c19d2837a1e85e5cfd79917d2e52997e9da3895dd21",
         "2035291d5f6526e497bc08dd29e27897f2a3213ef60aea2c8398b9c870d25e51"
       ]
     },
@@ -89,7 +89,7 @@
     "natures/bold/decreased": {
       "value": "attack",
       "witnesses": [
-        "d30612cd10ae7ba4490421d91359c50d529d2f0c2940781eb97d5a12a73add55"
+        "66ebfde4bc547de31216139a06d9d51e890e8cce7dd91cfad70757ff039a7210"
       ]
     },
     "natures/bold/identity": {
@@ -101,7 +101,7 @@
     "natures/bold/increased": {
       "value": "defense",
       "witnesses": [
-        "3dbdba449136d2b659690d03043d3609da603ea1b56548ce650119edc971b752"
+        "77704b2bef181bb08c96d2a95402b014052252217fb7afc83bd61d4a5e73ff5d"
       ]
     },
     "natures/bold/multipliers": {
@@ -110,7 +110,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "627f29000ded24d1808ebad221287fc165f49fb04d277f4b399dafd34d3e9e9e",
+        "1d1b318dd5533a4b46cedd0fc77131f6c9688dd2642a442f4d91b765495a12e7",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -129,7 +129,7 @@
     "natures/brave/decreased": {
       "value": "speed",
       "witnesses": [
-        "b390629ad1eb0cdd6c529f750575289d5846242f0e04088c847d04020d944a92"
+        "c9a0702e9316b0c957a9ee9d0d59d38bee62cda72a46789f1e4f7762582efc0d"
       ]
     },
     "natures/brave/identity": {
@@ -141,7 +141,7 @@
     "natures/brave/increased": {
       "value": "attack",
       "witnesses": [
-        "9249ab8c7e30620b7700ccda05bb18bb1db0745348a3a1f1d57cb88b398e97e9"
+        "ec09a8fc4fab36f7f621fc8aa61b0c619d28e1a939c340af226dfa449e8d5601"
       ]
     },
     "natures/brave/multipliers": {
@@ -150,7 +150,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "f7af64bec02183176fbc6d9a11a8105c66818db9b8be5e23c4c1e1fc75d01ac2",
+        "da23acf3bb733ab4f46ba3798149df60438f6ea79576be3eaf2e2e67080d8bd8",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -169,7 +169,7 @@
     "natures/calm/decreased": {
       "value": "attack",
       "witnesses": [
-        "2a946802bdf39a97d4f9b1457d09006dcf75365ceb0adbf489cc4984ef8f0d5f"
+        "8e28287ee5607c37fce3a57958728ec79eab2a9fc65f737fd5681645bd23f390"
       ]
     },
     "natures/calm/identity": {
@@ -181,7 +181,7 @@
     "natures/calm/increased": {
       "value": "spDefense",
       "witnesses": [
-        "12b5150f3a2709c05ab98a09efea3114b909513deb270c2e62b610ed22c621ab"
+        "bc03dba761798113d00b38d94c61c3a97fe8266cd01089b47aa6a9744631136e"
       ]
     },
     "natures/calm/multipliers": {
@@ -190,7 +190,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "e6e3004b103fb202e4d95d62799de1a7c5c97ef990b632bd052b22725d62c827",
+        "e00eafa95bdef9a467e9d71c94b8463f86d2d9026afb8770a221554a70713188",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -209,7 +209,7 @@
     "natures/careful/decreased": {
       "value": "spAttack",
       "witnesses": [
-        "d52b6d3375ca57784db583e658d3add063c0b660dddba3b490a853ba5f74d91a"
+        "7ac091a95e868772c95179ad2e84f629139fb7a083aa8d293551105760bded77"
       ]
     },
     "natures/careful/identity": {
@@ -221,7 +221,7 @@
     "natures/careful/increased": {
       "value": "spDefense",
       "witnesses": [
-        "51e6bf263daad020204ad02927771ea025bb3706c2663e5478c748ce7a760255"
+        "8596d5b20ad436de16811fc4e85b7131921a0ac3cd4b26de883fdb4ae9a0287e"
       ]
     },
     "natures/careful/multipliers": {
@@ -230,7 +230,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "e86ae26029d0cfd2482c4583e2146c8a8c0b481e5495644c8944703cddccafed",
+        "beef15dee5d98f8760214c0b0ded930d76043941b6185e2eccf6326d9de9d82f",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -249,7 +249,7 @@
     "natures/docile/decreased": {
       "value": null,
       "witnesses": [
-        "3c53c34c5aba9ad70e3199fa9e4840361787ddfa61bee5f47867d4bb4432a977"
+        "8b0ee0a034c2d8c555779f3e411d4c5eb4dccf5677d4a3b3d024d3f3a2a76945"
       ]
     },
     "natures/docile/identity": {
@@ -261,7 +261,7 @@
     "natures/docile/increased": {
       "value": null,
       "witnesses": [
-        "25d9cb4107ed48bcc97f6b916f3d3c5db3ad609b871cdd9abfa8511c8d262844"
+        "b6834e71281b413f4e147380deabba5acc2f28de3db710656ec485501ef98293"
       ]
     },
     "natures/docile/multipliers": {
@@ -270,7 +270,7 @@
         "increased": 1
       },
       "witnesses": [
-        "702bf787783d01fd8c16581a40cc109886c210a877ba23ef4f437c79ca8c59ec",
+        "fdf2679fa7614a184a823c44cdd6bc0d6f9d6a3a258a5c451e43d77c312b0b1f",
         "2035291d5f6526e497bc08dd29e27897f2a3213ef60aea2c8398b9c870d25e51"
       ]
     },
@@ -289,7 +289,7 @@
     "natures/gentle/decreased": {
       "value": "defense",
       "witnesses": [
-        "00aef9622cd97c5c3ed4f6e81ad4c156f2366b37801981fe3728c86fe19ecefc"
+        "bc8c9a7bcdad758848b62f6e472b003d923fd0a01a319a6bc62798d7adbd34e6"
       ]
     },
     "natures/gentle/identity": {
@@ -301,7 +301,7 @@
     "natures/gentle/increased": {
       "value": "spDefense",
       "witnesses": [
-        "b7f4c4d26189aa107c3ff9723c97ff6cbaa8298ce32bd8dfdc4862cae52b3552"
+        "2f221e248b21c51d60667dae85992e8246de39eb2afcc4a345857f58d508d2db"
       ]
     },
     "natures/gentle/multipliers": {
@@ -310,7 +310,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "3689e237c0636128d87ff276c5da77bdab7b79a43bccea214515ce33e3913f8a",
+        "2acb3634e9e979037bf71d2b6d69e96ad708a275d33387130e78a7efd24273e8",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -329,7 +329,7 @@
     "natures/hardy/decreased": {
       "value": null,
       "witnesses": [
-        "76b0be6199c932e6a5192d09a58bcb396318dd16d2951754737be82a31b087d3"
+        "4d9344e150fb6bddcb06acb379f077690951284e54f3d24a75bd7fc5f967d8f8"
       ]
     },
     "natures/hardy/identity": {
@@ -341,7 +341,7 @@
     "natures/hardy/increased": {
       "value": null,
       "witnesses": [
-        "97d725ce3a8400b45fa6616f5bc538e77f438037657e72458725d00a319c6ae4"
+        "26e8e77077423030296f1eb26add141b00f195e8be2c5af9bd94acc7df570940"
       ]
     },
     "natures/hardy/multipliers": {
@@ -350,7 +350,7 @@
         "increased": 1
       },
       "witnesses": [
-        "492e155246f9b9d94f983a6bdac7aaa6982c0d8c2e7bca5f8cccc30e46536033",
+        "ef1c5d116b00f95c5555a6606c41b0f2921b15607082fd42612299efec7f5d39",
         "2035291d5f6526e497bc08dd29e27897f2a3213ef60aea2c8398b9c870d25e51"
       ]
     },
@@ -369,7 +369,7 @@
     "natures/hasty/decreased": {
       "value": "defense",
       "witnesses": [
-        "25e7d1d2a379fef50de3f2ac8f6a49a96e299c92431bb89b5e21bd91df24d384"
+        "1cc5195c8fdfe21594270531735b190ffad6ddf1ad1f28a4b97d8ff30f294c6a"
       ]
     },
     "natures/hasty/identity": {
@@ -381,7 +381,7 @@
     "natures/hasty/increased": {
       "value": "speed",
       "witnesses": [
-        "29546433adcb3e90e8b3e0bb5997bc86da4d921dc85556c6970b3726b8a6cf7e"
+        "a8f27530d7d2208f21decf7f2cde4c41a3b6a7b265081023379c095ffff8a161"
       ]
     },
     "natures/hasty/multipliers": {
@@ -390,7 +390,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "9201cf5b329a3c3be4f5a44bb92edabf2dfbcd13521066c8d90c833727d5e8a1",
+        "9e0cbda626dfc00cc470518a43e23a1e197fa4d4fc9e16ccc2c4b553f159641f",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -409,7 +409,7 @@
     "natures/impish/decreased": {
       "value": "spAttack",
       "witnesses": [
-        "7acaa7f7644dd210c8fddcb58ddda1fbbfdedfb2dd9781fbce27359d866c32c3"
+        "0ffaef5003f7ebcd6b7518f65513e261e538a8444e12fa1b4d51089ab429295b"
       ]
     },
     "natures/impish/identity": {
@@ -421,7 +421,7 @@
     "natures/impish/increased": {
       "value": "defense",
       "witnesses": [
-        "8faecbcdd0d985b3b5abf97a0c7c865097e0b01d57590fc22a941341e779489b"
+        "bbd7ca71e778d9dc9302009dacde07ea58b37337a50d87e96ccb92131c723afc"
       ]
     },
     "natures/impish/multipliers": {
@@ -430,7 +430,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "078802f9bf007cd5c4410dbe7ff38a3d0615f6e6f70ffabfbc5e8c2ed8b12288",
+        "3ea2066472817d7a1ccf1f7b7a1dcbe076366a3bffd40a718950ec536c7ec74c",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -449,7 +449,7 @@
     "natures/jolly/decreased": {
       "value": "spAttack",
       "witnesses": [
-        "1eb19a02d3e26da14458882020a3be1d45ac4fc80cc0f12eaf88a7b21f3760f8"
+        "d534df6a4d213de2777469539d46822c510cee1b5dea2391b9c7589757c1be05"
       ]
     },
     "natures/jolly/identity": {
@@ -461,7 +461,7 @@
     "natures/jolly/increased": {
       "value": "speed",
       "witnesses": [
-        "84ca0cb6347e1bae75021a34b2a104fe36bd0f47079935482193a6704875588e"
+        "d29b7a93207f0a171973dc979f6ffc6b616a7f5f6923549ec4b3ad10f2d5ea90"
       ]
     },
     "natures/jolly/multipliers": {
@@ -470,7 +470,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "e76e5b37a2de24c857197a2890b11489fce1cb314b2c4177ea2cece199a235ac",
+        "822f4f4bb9baa3410055881d008d72bcb82c79fcf0fe2d30ea1cb4625e1726d9",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -489,7 +489,7 @@
     "natures/lax/decreased": {
       "value": "spDefense",
       "witnesses": [
-        "3d405ca85d77e0e2f00e508ef426c38c44fd05dae9638cbadefae442c72dbf1a"
+        "a3833112baae8ff2d7e6545d26f2036f53da60ac115d559ca0bb17a57744b961"
       ]
     },
     "natures/lax/identity": {
@@ -501,7 +501,7 @@
     "natures/lax/increased": {
       "value": "defense",
       "witnesses": [
-        "fa57bcd3fc5ef9cb6a30b93caee616df79b3e3a338573a65d6733f91e0d42e50"
+        "4bbf41781b33d85a5886bfadab72e15ef30b72ad0594db16581f36ecb6025f96"
       ]
     },
     "natures/lax/multipliers": {
@@ -510,7 +510,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "53324a44e1a6db927398133c51f146ef19df7ce7f8ae9cd6e3a8226557e64e45",
+        "81cc76678c5a1b76e3b7ecbc33552aae0804f586d8460f076ca87eaa3e433c53",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -529,7 +529,7 @@
     "natures/lonely/decreased": {
       "value": "defense",
       "witnesses": [
-        "d2b983701f4f34f8e2eb73a59116c906ca98607ab1971a7e689cabf686078be4"
+        "cfc61584cf6cf755f44623a6f01e33a24700b04af50129bd826539f7c722e9a6"
       ]
     },
     "natures/lonely/identity": {
@@ -541,7 +541,7 @@
     "natures/lonely/increased": {
       "value": "attack",
       "witnesses": [
-        "7323b7e17f8badad46401f375d29fe2f1196af25ea918fbbdc086df5aab43e68"
+        "e52b46c7c711de57b8044ad7facaba2c0b9ae32b95bf061b929b3855f9a2bfae"
       ]
     },
     "natures/lonely/multipliers": {
@@ -550,7 +550,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "2406eafe24f6bd664ea33f0a14259197c9d95037f3f3398c054a63ed39ef24cb",
+        "6cc69ee0c5607654b60f9754dcf293f7e3d08ac9d27ab7b2010c2a88be68dc97",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -569,7 +569,7 @@
     "natures/mild/decreased": {
       "value": "defense",
       "witnesses": [
-        "ba402d7fb6f1a7e200982f1f9d4670715067afb5cb1c5c579ba99d3adfa6b741"
+        "927f470895e74d437005dd47409cb637df08b34aa87697f60c3b5b0304fbf71c"
       ]
     },
     "natures/mild/identity": {
@@ -581,7 +581,7 @@
     "natures/mild/increased": {
       "value": "spAttack",
       "witnesses": [
-        "f24d623d6b825f0aefb4de771fcce32889265e5b4eaf355612ef81042a1b83db"
+        "01b1682378d6f08c1977e72ce71eab51272cbd07443a25078eee5c83d9e551f9"
       ]
     },
     "natures/mild/multipliers": {
@@ -590,7 +590,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "c6dfcf31939e4b681309de391c117c62f0dd06c58e27741eba5d4a1d904f8aa2",
+        "25b0eb540d72cee447de899a4eaeaf5c20092ce2ed51527faaf4173018529e0c",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -609,7 +609,7 @@
     "natures/modest/decreased": {
       "value": "attack",
       "witnesses": [
-        "cd301d54e1fbfe9fd3f23be1adf88bb71241bcbf29f68aa6a50108b89945c7b1"
+        "25944a1a54057fa1d36d71e84cdcf4d9da8a770bfb41abdde0d3c0fbf4575d67"
       ]
     },
     "natures/modest/identity": {
@@ -621,7 +621,7 @@
     "natures/modest/increased": {
       "value": "spAttack",
       "witnesses": [
-        "927288845a0cd69972f8b0584a4b01c90ab3a8e2263a99661a62db533c658348"
+        "9f757cb57da75be6e4347b6e66be68cca66617934adf26be27da84b5936f5e56"
       ]
     },
     "natures/modest/multipliers": {
@@ -630,7 +630,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "405290d50407d8ff3c20e238bac59c019604534dd9311f4bafba342bebd26884",
+        "68ed59333b703898d694e6dad32518a09579994bbdfa2eda8abc4f55a1a38900",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -649,7 +649,7 @@
     "natures/naive/decreased": {
       "value": "spDefense",
       "witnesses": [
-        "356f2f2f6da1b16729425a4c365714b2f0a4867fff2236049cf1d1810700dea1"
+        "b50012cb6dacc3d464b1013bbce58fdcd9b2e9b75d91ab42052a7a6d9c3c1266"
       ]
     },
     "natures/naive/identity": {
@@ -661,7 +661,7 @@
     "natures/naive/increased": {
       "value": "speed",
       "witnesses": [
-        "a04a2692f6914e9fc95c648497d88e6ac0953b1d9f637af05aacbe0166c5c2f9"
+        "1b6a9212bda129e4cdebec6a2371a1bc17ec0824aec98a6e7c00e7fdbae7bf35"
       ]
     },
     "natures/naive/multipliers": {
@@ -670,7 +670,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "fae3284c98874a20d944c2a60540cb9701bb14a597ff2a02854fa1994edc1ad8",
+        "70e5f384b3424da241864bab340e82f9409e0af39a16e3a7857e3fa7a82a5d57",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -689,7 +689,7 @@
     "natures/naughty/decreased": {
       "value": "spDefense",
       "witnesses": [
-        "a98c83acb6de344a75d4e805ce470fac065503f302a2b0b80eac93718e6db4e9"
+        "4bb6c929e80ad5786d0461258496b293a1ed12fa3d50e2511c9af1de162a0ed4"
       ]
     },
     "natures/naughty/identity": {
@@ -701,7 +701,7 @@
     "natures/naughty/increased": {
       "value": "attack",
       "witnesses": [
-        "be069ce4885190c3845099a5e1414d624f3ac21981566076af1272c469cf5835"
+        "95fedf5adacb680a5b3a3df9a02cddf769f9bb6135fc9bcb19335f371249baf1"
       ]
     },
     "natures/naughty/multipliers": {
@@ -710,7 +710,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "4c88c98c0beaead6aad5c28f90f45484af5471afbfebf94b656582d8aecdc53f",
+        "37b8d2b32925ea9302ff7c75f0ca989527df7ec69897d78bae315f2cef93abfe",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -729,7 +729,7 @@
     "natures/quiet/decreased": {
       "value": "speed",
       "witnesses": [
-        "ba1c5f263b16313c8875c2ae3587a376304e5935b17b63cb9bdf614fa32b82f4"
+        "e0c6dbcd5ccb51d89fb6ae3c7fb8526f249fbf6cb8c2919c25b6ee67e008edc2"
       ]
     },
     "natures/quiet/identity": {
@@ -741,7 +741,7 @@
     "natures/quiet/increased": {
       "value": "spAttack",
       "witnesses": [
-        "e31569dd699f96d2e193da1ae44806c682738a3ffc02b1d743e7cccf23180c2a"
+        "b656e9d1c0863d761a9cc2daf9346bba4b8e386bc0a0c8b8232aa7bff413bb16"
       ]
     },
     "natures/quiet/multipliers": {
@@ -750,7 +750,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "907595b14b89cd1ec5d8e2a731d1f881a4d2ddf67b10046804e6a6a9a3d2d861",
+        "ac91a6e4853cc91c8018447cf025dcf7c7cb10c2a74d34745bb23a874a83c73a",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -769,7 +769,7 @@
     "natures/quirky/decreased": {
       "value": null,
       "witnesses": [
-        "a385948c1e977f94f4f907f256a15e5613dd9fee3a69faf3a546e61bf942c366"
+        "14dd92a9b21a812355ab5ee9e91b991331499b420fa49d52c8e9b53a3bf9d3a1"
       ]
     },
     "natures/quirky/identity": {
@@ -781,7 +781,7 @@
     "natures/quirky/increased": {
       "value": null,
       "witnesses": [
-        "33c15d2d90849cc33b3086b32f8aac295236fb362d839ee0dc3dd26dd347f4b8"
+        "8b60caaf785b205ebca4e6951bdf17ceda1c7f5d1e7aa4f3cbea451d0fec9a5a"
       ]
     },
     "natures/quirky/multipliers": {
@@ -790,7 +790,7 @@
         "increased": 1
       },
       "witnesses": [
-        "2f9afb6b54acc835a190df149558c2be71db884ccde5671265a992e2943b90dd",
+        "a203b85d83d210447ce0b72a0866bdba804733f3d85c4e8bfad2b503e063a498",
         "2035291d5f6526e497bc08dd29e27897f2a3213ef60aea2c8398b9c870d25e51"
       ]
     },
@@ -809,7 +809,7 @@
     "natures/rash/decreased": {
       "value": "spDefense",
       "witnesses": [
-        "5faa81bf830185730a261465caa1dd1e1993e5a9deb873383009af8d9b711378"
+        "a867d35324e8448b054b2396339e251f988cbcdb6b710e02d0a94ba198327d1d"
       ]
     },
     "natures/rash/identity": {
@@ -821,7 +821,7 @@
     "natures/rash/increased": {
       "value": "spAttack",
       "witnesses": [
-        "3a25550c8d9e68901c18c60c7c4301bfaa36e9da0062f1c5577201d5d5f4b7c2"
+        "586374c5967c36c70c521295522b68d428f638f1f43a505cdbb29b3f2dd221ba"
       ]
     },
     "natures/rash/multipliers": {
@@ -830,7 +830,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "9e5a4c8e3a857cff30f52ca0e83a41754914b64009256f45d275c6e95d0239bb",
+        "4e4a9ed4d64e69ee5ea848fab0a175f358c5247711868ac94be152a6df34eadb",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -849,7 +849,7 @@
     "natures/relaxed/decreased": {
       "value": "speed",
       "witnesses": [
-        "dd48b9ac5ad9a88664ac4bd5a0d5fe8cc2a7f80fa5809628716a0d1e44307686"
+        "bf5c334e5df3da9c9c3a221619e36e67519cbd9a6b28e8e18f2076c457fd8501"
       ]
     },
     "natures/relaxed/identity": {
@@ -861,7 +861,7 @@
     "natures/relaxed/increased": {
       "value": "defense",
       "witnesses": [
-        "227124b28c39110dd8b74869bf25aa1e1ea0fc4c4bfc4f1cd2bb62c1c4b16f1a"
+        "49e2c656c287200d04993190b8ede36d3e98101dc1002784e13ec7ccd6596292"
       ]
     },
     "natures/relaxed/multipliers": {
@@ -870,7 +870,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "2a7827b2d5c86586c34b9a634eeefd4bd31c02baa3bdf958bc96f758b49021b8",
+        "50bde7c9c0b4c9aca5273f7266e23a429f73d6e8056f6a04ec4ab718f980eb74",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -889,7 +889,7 @@
     "natures/sassy/decreased": {
       "value": "speed",
       "witnesses": [
-        "cf63f6544836088043c84f853b639f7dd8df104067e2ba59d877177ed2e7aa8a"
+        "629452701fa930a65ef215890db8f2411bc9de3f2a459d25d306244c2ab9a87b"
       ]
     },
     "natures/sassy/identity": {
@@ -901,7 +901,7 @@
     "natures/sassy/increased": {
       "value": "spDefense",
       "witnesses": [
-        "3e69d1c8367c0397e6e33db39bd0934ce9497cac8fb0cfdc89d7e8cced0d362f"
+        "8de2abd820beb976b9626f76fec0be10dc7f2c70956568ebe5b52916675c326e"
       ]
     },
     "natures/sassy/multipliers": {
@@ -910,7 +910,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "358e16cbec072a8d1f6d0abcfed90c538140421c932e7961a9c23587e2f94361",
+        "223dca76541ac40af4c93a4be7cf94d88221a5e294b0e9c294f5960d6a1e66b5",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -929,7 +929,7 @@
     "natures/serious/decreased": {
       "value": null,
       "witnesses": [
-        "a2624af63729658b1b1ef0b5933afe5ad2a360fe01ea3eff3c4b128938791b49"
+        "ebe96f75c41fc80ee48d7b8d740fda59c2b76c5f60495267a71982a77528adec"
       ]
     },
     "natures/serious/identity": {
@@ -941,7 +941,7 @@
     "natures/serious/increased": {
       "value": null,
       "witnesses": [
-        "3cf9257229792e8469575a97911e4e8876b7cd9d159fce4a3ab64c50fd3c7c50"
+        "6e75c05bae829cc986f7b1e5c746790ce3058e62a35b570b8d0bdb06da6a3ed0"
       ]
     },
     "natures/serious/multipliers": {
@@ -950,7 +950,7 @@
         "increased": 1
       },
       "witnesses": [
-        "544479e19757192f6fa0fbcf6adec8755670c404c06849b7695e2580a8c8721c",
+        "48d6abcf5e2963dae3da59beae58dce31913b64a96a8c6c812cd51c4dfe7e9ce",
         "2035291d5f6526e497bc08dd29e27897f2a3213ef60aea2c8398b9c870d25e51"
       ]
     },
@@ -969,7 +969,7 @@
     "natures/timid/decreased": {
       "value": "attack",
       "witnesses": [
-        "b1964f26524f5f5285b428464761a29fb564e77fe0d4e62efc47e1e2730d0e88"
+        "a3a23345d622253d0bbe8cfa7192964e6dbeb6656ff9a951dbabae056be9161a"
       ]
     },
     "natures/timid/identity": {
@@ -981,7 +981,7 @@
     "natures/timid/increased": {
       "value": "speed",
       "witnesses": [
-        "401330e32a30dfc5469a3a1035dece9efcf39da2aaf9ed0d49010b9f49283504"
+        "4e041acb52ccfe45ea351063ec0e0330ce2c760cd7684e72632449739b08f5f7"
       ]
     },
     "natures/timid/multipliers": {
@@ -990,7 +990,7 @@
         "increased": 1.1
       },
       "witnesses": [
-        "227538810f9fbd28a97dcac177da31b4e86b8711e506ff3a5691279a4b8ea737",
+        "7a21de1374ab837c7627a751617027596c2058845de3ea8ec02cedac27b21c7f",
         "fdd7ca23132aedd6fd9f482d968192e3da0f7299101ba952fa6e341439181375"
       ]
     },
@@ -1002,50 +1002,14 @@
     }
   },
   "observations": {
-    "00aef9622cd97c5c3ed4f6e81ad4c156f2366b37801981fe3728c86fe19ecefc": {
+    "01b1682378d6f08c1977e72ce71eab51272cbd07443a25078eee5c83d9e551f9": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=gentle].decreased",
-      "observed": "defense",
+      "locator": "natures[key=mild].increased",
+      "observed": "spAttack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "defense"
-    },
-    "0265d74dea7434a7b75b5bc7f70dafee62ba39015023bd072e19b25af84db0ba": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=bashful]",
-      "observed": {
-        "decreased": null,
-        "id": 18,
-        "increased": null,
-        "key": "bashful",
-        "name": "Tímida"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 1,
-        "increased": 1
-      }
-    },
-    "078802f9bf007cd5c4410dbe7ff38a3d0615f6e6f70ffabfbc5e8c2ed8b12288": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=impish]",
-      "observed": {
-        "decreased": "spAttack",
-        "id": 8,
-        "increased": "defense",
-        "key": "impish",
-        "name": "Agitada"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spAttack"
     },
     "0e546af5fc48b1b327c62970f69fa08791f861cc060329e2e2b77131d73fe22c": {
       "context": "champions-champout-capture",
@@ -1056,14 +1020,23 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Cauta"
     },
-    "12b5150f3a2709c05ab98a09efea3114b909513deb270c2e62b610ed22c621ab": {
+    "0ffaef5003f7ebcd6b7518f65513e261e538a8444e12fa1b4d51089ab429295b": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=calm].increased",
-      "observed": "spDefense",
+      "locator": "natures[key=impish].decreased",
+      "observed": "spAttack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spDefense"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spAttack"
+    },
+    "14dd92a9b21a812355ab5ee9e91b991331499b420fa49d52c8e9b53a3bf9d3a1": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=quirky].decreased",
+      "observed": null,
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": null
     },
     "15f2b3a3fa76ee141850fa1516a38fd87dd7b46dd0645ac22e470ab8cd2eb60f": {
       "context": "champions-champout-capture",
@@ -1074,6 +1047,33 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
+    "16442eeba22083ce02768232a67233540a4c4aab7d5b008fd2b58ebdb917a389": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=adamant]",
+      "observed": {
+        "decreased": "spAttack",
+        "id": 3,
+        "increased": "attack",
+        "key": "adamant",
+        "name": "Firme"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
+    },
+    "1b6a9212bda129e4cdebec6a2371a1bc17ec0824aec98a6e7c00e7fdbae7bf35": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=naive].increased",
+      "observed": "speed",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
+    },
     "1c2f56af6280be985d911bbe6fa81c98a68d9eb2702763aaeefb027db1b4c3f4": {
       "context": "champions-champout-capture",
       "document": "champout/esp/seikaku",
@@ -1083,14 +1083,32 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "1eb19a02d3e26da14458882020a3be1d45ac4fc80cc0f12eaf88a7b21f3760f8": {
+    "1cc5195c8fdfe21594270531735b190ffad6ddf1ad1f28a4b97d8ff30f294c6a": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=jolly].decreased",
-      "observed": "spAttack",
+      "locator": "natures[key=hasty].decreased",
+      "observed": "defense",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spAttack"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "defense"
+    },
+    "1d1b318dd5533a4b46cedd0fc77131f6c9688dd2642a442f4d91b765495a12e7": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=bold]",
+      "observed": {
+        "decreased": "attack",
+        "id": 5,
+        "increased": "defense",
+        "key": "bold",
+        "name": "Osada"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
     },
     "1fca165d87beb791346137c096133efe303a0bb10bab14ac00c0424b8b9f605e": {
       "context": "champions-champout-capture",
@@ -1113,28 +1131,19 @@
         "increased": 1
       }
     },
-    "227124b28c39110dd8b74869bf25aa1e1ea0fc4c4bfc4f1cd2bb62c1c4b16f1a": {
+    "223dca76541ac40af4c93a4be7cf94d88221a5e294b0e9c294f5960d6a1e66b5": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=relaxed].increased",
-      "observed": "defense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "defense"
-    },
-    "227538810f9fbd28a97dcac177da31b4e86b8711e506ff3a5691279a4b8ea737": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=timid]",
+      "locator": "natures[key=sassy]",
       "observed": {
-        "decreased": "attack",
-        "id": 10,
-        "increased": "speed",
-        "key": "timid",
-        "name": "Miedosa"
+        "decreased": "speed",
+        "id": 22,
+        "increased": "spDefense",
+        "key": "sassy",
+        "name": "Grosera"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
@@ -1149,169 +1158,43 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "2406eafe24f6bd664ea33f0a14259197c9d95037f3f3398c054a63ed39ef24cb": {
+    "25944a1a54057fa1d36d71e84cdcf4d9da8a770bfb41abdde0d3c0fbf4575d67": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=lonely]",
-      "observed": {
-        "decreased": "defense",
-        "id": 1,
-        "increased": "attack",
-        "key": "lonely",
-        "name": "Huraña"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
-    },
-    "25d9cb4107ed48bcc97f6b916f3d3c5db3ad609b871cdd9abfa8511c8d262844": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=docile].increased",
-      "observed": null,
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": null
-    },
-    "25e7d1d2a379fef50de3f2ac8f6a49a96e299c92431bb89b5e21bd91df24d384": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=hasty].decreased",
-      "observed": "defense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "defense"
-    },
-    "29546433adcb3e90e8b3e0bb5997bc86da4d921dc85556c6970b3726b8a6cf7e": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=hasty].increased",
-      "observed": "speed",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
-    },
-    "2a7827b2d5c86586c34b9a634eeefd4bd31c02baa3bdf958bc96f758b49021b8": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=relaxed]",
-      "observed": {
-        "decreased": "speed",
-        "id": 7,
-        "increased": "defense",
-        "key": "relaxed",
-        "name": "Plácida"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
-    },
-    "2a946802bdf39a97d4f9b1457d09006dcf75365ceb0adbf489cc4984ef8f0d5f": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=calm].decreased",
+      "locator": "natures[key=modest].decreased",
       "observed": "attack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": "attack"
     },
-    "2f9afb6b54acc835a190df149558c2be71db884ccde5671265a992e2943b90dd": {
+    "25b0eb540d72cee447de899a4eaeaf5c20092ce2ed51527faaf4173018529e0c": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=quirky]",
+      "locator": "natures[key=mild]",
       "observed": {
-        "decreased": null,
-        "id": 24,
-        "increased": null,
-        "key": "quirky",
-        "name": "Rara"
+        "decreased": "defense",
+        "id": 16,
+        "increased": "spAttack",
+        "key": "mild",
+        "name": "Afable"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 1,
-        "increased": 1
-      }
-    },
-    "30d9b41ac70ec24759dba46f7ec936df75dd42c4e05e6eeec16b5c134679c792": {
-      "context": "champions-champout-capture",
-      "document": "champout/esp/seikaku",
-      "locator": "SEIKAKU_022",
-      "observed": "Grosera",
-      "provider": "champout",
-      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
-      "value": "Grosera"
-    },
-    "330417b652aa8bd688666d5fbd3af8f05eacd4b5f45db8c0a8ae785832af6ede": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=adamant]",
-      "observed": {
-        "decreased": "spAttack",
-        "id": 3,
-        "increased": "attack",
-        "key": "adamant",
-        "name": "Firme"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
       }
     },
-    "33c15d2d90849cc33b3086b32f8aac295236fb362d839ee0dc3dd26dd347f4b8": {
+    "26e8e77077423030296f1eb26add141b00f195e8be2c5af9bd94acc7df570940": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=quirky].increased",
+      "locator": "natures[key=hardy].increased",
       "observed": null,
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": null
     },
-    "356f2f2f6da1b16729425a4c365714b2f0a4867fff2236049cf1d1810700dea1": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=naive].decreased",
-      "observed": "spDefense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spDefense"
-    },
-    "358e16cbec072a8d1f6d0abcfed90c538140421c932e7961a9c23587e2f94361": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=sassy]",
-      "observed": {
-        "decreased": "speed",
-        "id": 22,
-        "increased": "spDefense",
-        "key": "sassy",
-        "name": "Grosera"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
-    },
-    "3622c7e39ba4b5abc8b76beb4e5f5ee3a959fb9b79a0cfcdce83a632c75bca75": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=bashful].decreased",
-      "observed": null,
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": null
-    },
-    "3689e237c0636128d87ff276c5da77bdab7b79a43bccea214515ce33e3913f8a": {
+    "2acb3634e9e979037bf71d2b6d69e96ad708a275d33387130e78a7efd24273e8": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
       "locator": "natures[key=gentle]",
@@ -1323,11 +1206,29 @@
         "name": "Amable"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
       }
+    },
+    "2f221e248b21c51d60667dae85992e8246de39eb2afcc4a345857f58d508d2db": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=gentle].increased",
+      "observed": "spDefense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spDefense"
+    },
+    "30d9b41ac70ec24759dba46f7ec936df75dd42c4e05e6eeec16b5c134679c792": {
+      "context": "champions-champout-capture",
+      "document": "champout/esp/seikaku",
+      "locator": "SEIKAKU_022",
+      "observed": "Grosera",
+      "provider": "champout",
+      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
+      "value": "Grosera"
     },
     "371403b3696c619f2f01450fbc1e0c0a9b70ed2fab59c0f4835bd3f5f203305b": {
       "context": "champions-champout-capture",
@@ -1338,6 +1239,24 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Miedosa"
     },
+    "37b8d2b32925ea9302ff7c75f0ca989527df7ec69897d78bae315f2cef93abfe": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=naughty]",
+      "observed": {
+        "decreased": "spDefense",
+        "id": 4,
+        "increased": "attack",
+        "key": "naughty",
+        "name": "Pícara"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
+    },
     "3831b033761f7c8f46cbb56dd35da54780a73e5fc419300e0c837baeeaf643ec": {
       "context": "champions-champout-capture",
       "document": "champout/esp/seikaku",
@@ -1347,91 +1266,19 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "3a25550c8d9e68901c18c60c7c4301bfaa36e9da0062f1c5577201d5d5f4b7c2": {
+    "3ea2066472817d7a1ccf1f7b7a1dcbe076366a3bffd40a718950ec536c7ec74c": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=rash].increased",
-      "observed": "spAttack",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spAttack"
-    },
-    "3c53c34c5aba9ad70e3199fa9e4840361787ddfa61bee5f47867d4bb4432a977": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=docile].decreased",
-      "observed": null,
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": null
-    },
-    "3cf9257229792e8469575a97911e4e8876b7cd9d159fce4a3ab64c50fd3c7c50": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=serious].increased",
-      "observed": null,
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": null
-    },
-    "3d405ca85d77e0e2f00e508ef426c38c44fd05dae9638cbadefae442c72dbf1a": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=lax].decreased",
-      "observed": "spDefense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spDefense"
-    },
-    "3dbdba449136d2b659690d03043d3609da603ea1b56548ce650119edc971b752": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=bold].increased",
-      "observed": "defense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "defense"
-    },
-    "3e65ceb08882bc2d2b9c18148a4e77d231e0ab12104434dee542645cb72cbf65": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=adamant].increased",
-      "observed": "attack",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "attack"
-    },
-    "3e69d1c8367c0397e6e33db39bd0934ce9497cac8fb0cfdc89d7e8cced0d362f": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=sassy].increased",
-      "observed": "spDefense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spDefense"
-    },
-    "401330e32a30dfc5469a3a1035dece9efcf39da2aaf9ed0d49010b9f49283504": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=timid].increased",
-      "observed": "speed",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
-    },
-    "405290d50407d8ff3c20e238bac59c019604534dd9311f4bafba342bebd26884": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=modest]",
+      "locator": "natures[key=impish]",
       "observed": {
-        "decreased": "attack",
-        "id": 15,
-        "increased": "spAttack",
-        "key": "modest",
-        "name": "Modesta"
+        "decreased": "spAttack",
+        "id": 8,
+        "increased": "defense",
+        "key": "impish",
+        "name": "Agitada"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
@@ -1455,64 +1302,118 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "492e155246f9b9d94f983a6bdac7aaa6982c0d8c2e7bca5f8cccc30e46536033": {
+    "48d6abcf5e2963dae3da59beae58dce31913b64a96a8c6c812cd51c4dfe7e9ce": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=hardy]",
+      "locator": "natures[key=serious]",
       "observed": {
         "decreased": null,
-        "id": 0,
+        "id": 12,
         "increased": null,
-        "key": "hardy",
-        "name": "Fuerte"
+        "key": "serious",
+        "name": "Seria"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 1,
         "increased": 1
       }
     },
-    "4c88c98c0beaead6aad5c28f90f45484af5471afbfebf94b656582d8aecdc53f": {
+    "49e2c656c287200d04993190b8ede36d3e98101dc1002784e13ec7ccd6596292": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=naughty]",
+      "locator": "natures[key=relaxed].increased",
+      "observed": "defense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "defense"
+    },
+    "4bb6c929e80ad5786d0461258496b293a1ed12fa3d50e2511c9af1de162a0ed4": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=naughty].decreased",
+      "observed": "spDefense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spDefense"
+    },
+    "4bbf41781b33d85a5886bfadab72e15ef30b72ad0594db16581f36ecb6025f96": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=lax].increased",
+      "observed": "defense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "defense"
+    },
+    "4cdf1768c742307a41d63c19d2837a1e85e5cfd79917d2e52997e9da3895dd21": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=bashful]",
       "observed": {
-        "decreased": "spDefense",
-        "id": 4,
-        "increased": "attack",
-        "key": "naughty",
-        "name": "Pícara"
+        "decreased": null,
+        "id": 18,
+        "increased": null,
+        "key": "bashful",
+        "name": "Tímida"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 1,
+        "increased": 1
+      }
+    },
+    "4d9344e150fb6bddcb06acb379f077690951284e54f3d24a75bd7fc5f967d8f8": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=hardy].decreased",
+      "observed": null,
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": null
+    },
+    "4e041acb52ccfe45ea351063ec0e0330ce2c760cd7684e72632449739b08f5f7": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=timid].increased",
+      "observed": "speed",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
+    },
+    "4e4a9ed4d64e69ee5ea848fab0a175f358c5247711868ac94be152a6df34eadb": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=rash]",
+      "observed": {
+        "decreased": "spDefense",
+        "id": 19,
+        "increased": "spAttack",
+        "key": "rash",
+        "name": "Alocada"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
       }
     },
-    "51e6bf263daad020204ad02927771ea025bb3706c2663e5478c748ce7a760255": {
+    "50bde7c9c0b4c9aca5273f7266e23a429f73d6e8056f6a04ec4ab718f980eb74": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=careful].increased",
-      "observed": "spDefense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spDefense"
-    },
-    "53324a44e1a6db927398133c51f146ef19df7ce7f8ae9cd6e3a8226557e64e45": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=lax]",
+      "locator": "natures[key=relaxed]",
       "observed": {
-        "decreased": "spDefense",
-        "id": 9,
+        "decreased": "speed",
+        "id": 7,
         "increased": "defense",
-        "key": "lax",
-        "name": "Floja"
+        "key": "relaxed",
+        "name": "Plácida"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
@@ -1526,24 +1427,6 @@
       "provider": "champout",
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Mansa"
-    },
-    "544479e19757192f6fa0fbcf6adec8755670c404c06849b7695e2580a8c8721c": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=serious]",
-      "observed": {
-        "decreased": null,
-        "id": 12,
-        "increased": null,
-        "key": "serious",
-        "name": "Seria"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 1,
-        "increased": 1
-      }
     },
     "54494b78aea94d70e250c83a72862c92db4b07ecb23046e7d7738a5e0954ac2c": {
       "context": "champions-champout-capture",
@@ -1581,14 +1464,14 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "5faa81bf830185730a261465caa1dd1e1993e5a9deb873383009af8d9b711378": {
+    "586374c5967c36c70c521295522b68d428f638f1f43a505cdbb29b3f2dd221ba": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=rash].decreased",
-      "observed": "spDefense",
+      "locator": "natures[key=rash].increased",
+      "observed": "spAttack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spDefense"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spAttack"
     },
     "606a69a00a88fda71a3cf584305a143e653677d86dd58f3450496f9b743b2a09": {
       "context": "champions-champout-capture",
@@ -1599,19 +1482,55 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "627f29000ded24d1808ebad221287fc165f49fb04d277f4b399dafd34d3e9e9e": {
+    "629452701fa930a65ef215890db8f2411bc9de3f2a459d25d306244c2ab9a87b": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=bold]",
+      "locator": "natures[key=sassy].decreased",
+      "observed": "speed",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
+    },
+    "66ebfde4bc547de31216139a06d9d51e890e8cce7dd91cfad70757ff039a7210": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=bold].decreased",
+      "observed": "attack",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "attack"
+    },
+    "68ed59333b703898d694e6dad32518a09579994bbdfa2eda8abc4f55a1a38900": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=modest]",
       "observed": {
         "decreased": "attack",
-        "id": 5,
-        "increased": "defense",
-        "key": "bold",
-        "name": "Osada"
+        "id": 15,
+        "increased": "spAttack",
+        "key": "modest",
+        "name": "Modesta"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
+    },
+    "6cc69ee0c5607654b60f9754dcf293f7e3d08ac9d27ab7b2010c2a88be68dc97": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=lonely]",
+      "observed": {
+        "decreased": "defense",
+        "id": 1,
+        "increased": "attack",
+        "key": "lonely",
+        "name": "Huraña"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
@@ -1626,41 +1545,59 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Fuerte"
     },
-    "702bf787783d01fd8c16581a40cc109886c210a877ba23ef4f437c79ca8c59ec": {
+    "6e75c05bae829cc986f7b1e5c746790ce3058e62a35b570b8d0bdb06da6a3ed0": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=docile]",
-      "observed": {
-        "decreased": null,
-        "id": 6,
-        "increased": null,
-        "key": "docile",
-        "name": "Dócil"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 1,
-        "increased": 1
-      }
-    },
-    "7323b7e17f8badad46401f375d29fe2f1196af25ea918fbbdc086df5aab43e68": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=lonely].increased",
-      "observed": "attack",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "attack"
-    },
-    "76b0be6199c932e6a5192d09a58bcb396318dd16d2951754737be82a31b087d3": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=hardy].decreased",
+      "locator": "natures[key=serious].increased",
       "observed": null,
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": null
+    },
+    "70e5f384b3424da241864bab340e82f9409e0af39a16e3a7857e3fa7a82a5d57": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=naive]",
+      "observed": {
+        "decreased": "spDefense",
+        "id": 14,
+        "increased": "speed",
+        "key": "naive",
+        "name": "Ingenua"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
+    },
+    "77704b2bef181bb08c96d2a95402b014052252217fb7afc83bd61d4a5e73ff5d": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=bold].increased",
+      "observed": "defense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "defense"
+    },
+    "7a21de1374ab837c7627a751617027596c2058845de3ea8ec02cedac27b21c7f": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=timid]",
+      "observed": {
+        "decreased": "attack",
+        "id": 10,
+        "increased": "speed",
+        "key": "timid",
+        "name": "Miedosa"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
     },
     "7aace375618ead6ae45cfd0a555ded074bf644b5694f835789981d7aa5f2ec71": {
       "context": "champions-champout-capture",
@@ -1671,14 +1608,32 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Alocada"
     },
-    "7acaa7f7644dd210c8fddcb58ddda1fbbfdedfb2dd9781fbce27359d866c32c3": {
+    "7ac091a95e868772c95179ad2e84f629139fb7a083aa8d293551105760bded77": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=impish].decreased",
+      "locator": "natures[key=careful].decreased",
       "observed": "spAttack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": "spAttack"
+    },
+    "81cc76678c5a1b76e3b7ecbc33552aae0804f586d8460f076ca87eaa3e433c53": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=lax]",
+      "observed": {
+        "decreased": "spDefense",
+        "id": 9,
+        "increased": "defense",
+        "key": "lax",
+        "name": "Floja"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
     },
     "81df01c60a5b6c3f69ca6357e8100b2d8fc1e74086f5d5c7e7edfb5e593e450b": {
       "context": "champions-champout-capture",
@@ -1689,14 +1644,32 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "84ca0cb6347e1bae75021a34b2a104fe36bd0f47079935482193a6704875588e": {
+    "822f4f4bb9baa3410055881d008d72bcb82c79fcf0fe2d30ea1cb4625e1726d9": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=jolly].increased",
-      "observed": "speed",
+      "locator": "natures[key=jolly]",
+      "observed": {
+        "decreased": "spAttack",
+        "id": 13,
+        "increased": "speed",
+        "key": "jolly",
+        "name": "Alegre"
+      },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
+    },
+    "8596d5b20ad436de16811fc4e85b7131921a0ac3cd4b26de883fdb4ae9a0287e": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=careful].increased",
+      "observed": "spDefense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spDefense"
     },
     "89c42cc6108001de1aa22a20b841a3a9c3c9bb7e9b2e1a61dff6c88bafede8d8": {
       "context": "champions-champout-capture",
@@ -1716,32 +1689,41 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Osada"
     },
-    "8faecbcdd0d985b3b5abf97a0c7c865097e0b01d57590fc22a941341e779489b": {
+    "8b0ee0a034c2d8c555779f3e411d4c5eb4dccf5677d4a3b3d024d3f3a2a76945": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=impish].increased",
-      "observed": "defense",
+      "locator": "natures[key=docile].decreased",
+      "observed": null,
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "defense"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": null
     },
-    "907595b14b89cd1ec5d8e2a731d1f881a4d2ddf67b10046804e6a6a9a3d2d861": {
+    "8b60caaf785b205ebca4e6951bdf17ceda1c7f5d1e7aa4f3cbea451d0fec9a5a": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=quiet]",
-      "observed": {
-        "decreased": "speed",
-        "id": 17,
-        "increased": "spAttack",
-        "key": "quiet",
-        "name": "Mansa"
-      },
+      "locator": "natures[key=quirky].increased",
+      "observed": null,
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": null
+    },
+    "8de2abd820beb976b9626f76fec0be10dc7f2c70956568ebe5b52916675c326e": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=sassy].increased",
+      "observed": "spDefense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spDefense"
+    },
+    "8e28287ee5607c37fce3a57958728ec79eab2a9fc65f737fd5681645bd23f390": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=calm].decreased",
+      "observed": "attack",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "attack"
     },
     "91e3e3bc5de31fca2da121cb8eb96e1c4197fdeec71b94b529651d949e8ecfb5": {
       "context": "champions-champout-capture",
@@ -1752,7 +1734,43 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Alegre"
     },
-    "9201cf5b329a3c3be4f5a44bb92edabf2dfbcd13521066c8d90c833727d5e8a1": {
+    "927f470895e74d437005dd47409cb637df08b34aa87697f60c3b5b0304fbf71c": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=mild].decreased",
+      "observed": "defense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "defense"
+    },
+    "9515b5a3de18b8f20077601492a65e0e1345026deadf23469e98c1281934285f": {
+      "context": "champions-champout-capture",
+      "document": "champout/esp/seikaku",
+      "locator": "SEIKAKU_018",
+      "observed": "Tímida",
+      "provider": "champout",
+      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
+      "value": "Tímida"
+    },
+    "95fedf5adacb680a5b3a3df9a02cddf769f9bb6135fc9bcb19335f371249baf1": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=naughty].increased",
+      "observed": "attack",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "attack"
+    },
+    "976b7a5de6dad62886a9cf96450240bd3eb524775a09376d8eb11f2cd74625ad": {
+      "context": "champions-champout-capture",
+      "document": "champout/esp/seikaku",
+      "locator": "SEIKAKU_006",
+      "observed": true,
+      "provider": "champout",
+      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
+      "value": true
+    },
+    "9e0cbda626dfc00cc470518a43e23a1e197fa4d4fc9e16ccc2c4b553f159641f": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
       "locator": "natures[key=hasty]",
@@ -1764,83 +1782,20 @@
         "name": "Activa"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
       }
     },
-    "9249ab8c7e30620b7700ccda05bb18bb1db0745348a3a1f1d57cb88b398e97e9": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=brave].increased",
-      "observed": "attack",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "attack"
-    },
-    "927288845a0cd69972f8b0584a4b01c90ab3a8e2263a99661a62db533c658348": {
+    "9f757cb57da75be6e4347b6e66be68cca66617934adf26be27da84b5936f5e56": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
       "locator": "natures[key=modest].increased",
       "observed": "spAttack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": "spAttack"
-    },
-    "9515b5a3de18b8f20077601492a65e0e1345026deadf23469e98c1281934285f": {
-      "context": "champions-champout-capture",
-      "document": "champout/esp/seikaku",
-      "locator": "SEIKAKU_018",
-      "observed": "Tímida",
-      "provider": "champout",
-      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
-      "value": "Tímida"
-    },
-    "976b7a5de6dad62886a9cf96450240bd3eb524775a09376d8eb11f2cd74625ad": {
-      "context": "champions-champout-capture",
-      "document": "champout/esp/seikaku",
-      "locator": "SEIKAKU_006",
-      "observed": true,
-      "provider": "champout",
-      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
-      "value": true
-    },
-    "97d725ce3a8400b45fa6616f5bc538e77f438037657e72458725d00a319c6ae4": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=hardy].increased",
-      "observed": null,
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": null
-    },
-    "9e5a4c8e3a857cff30f52ca0e83a41754914b64009256f45d275c6e95d0239bb": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=rash]",
-      "observed": {
-        "decreased": "spDefense",
-        "id": 19,
-        "increased": "spAttack",
-        "key": "rash",
-        "name": "Alocada"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
-    },
-    "a04a2692f6914e9fc95c648497d88e6ac0953b1d9f637af05aacbe0166c5c2f9": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=naive].increased",
-      "observed": "speed",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
     },
     "a14e5b924cce935ff907086818b47a5d456b94220cfc19cb94675f7992d5319b": {
       "context": "champions-champout-capture",
@@ -1851,32 +1806,41 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "a2624af63729658b1b1ef0b5933afe5ad2a360fe01ea3eff3c4b128938791b49": {
+    "a203b85d83d210447ce0b72a0866bdba804733f3d85c4e8bfad2b503e063a498": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=serious].decreased",
-      "observed": null,
+      "locator": "natures[key=quirky]",
+      "observed": {
+        "decreased": null,
+        "id": 24,
+        "increased": null,
+        "key": "quirky",
+        "name": "Rara"
+      },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": null
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 1,
+        "increased": 1
+      }
     },
-    "a2802eaf455280b44db6ef19ec5d452a4aa7f54461178281375a23160d936616": {
+    "a3833112baae8ff2d7e6545d26f2036f53da60ac115d559ca0bb17a57744b961": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=adamant].decreased",
-      "observed": "spAttack",
+      "locator": "natures[key=lax].decreased",
+      "observed": "spDefense",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spAttack"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spDefense"
     },
-    "a385948c1e977f94f4f907f256a15e5613dd9fee3a69faf3a546e61bf942c366": {
+    "a3a23345d622253d0bbe8cfa7192964e6dbeb6656ff9a951dbabae056be9161a": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=quirky].decreased",
-      "observed": null,
+      "locator": "natures[key=timid].decreased",
+      "observed": "attack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": null
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "attack"
     },
     "a567e9f8e8360755a7766a62a192fb5e8e3598898578ae70b891410b8cee84f5": {
       "context": "champions-champout-capture",
@@ -1896,14 +1860,23 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Floja"
     },
-    "a98c83acb6de344a75d4e805ce470fac065503f302a2b0b80eac93718e6db4e9": {
+    "a867d35324e8448b054b2396339e251f988cbcdb6b710e02d0a94ba198327d1d": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=naughty].decreased",
+      "locator": "natures[key=rash].decreased",
       "observed": "spDefense",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": "spDefense"
+    },
+    "a8f27530d7d2208f21decf7f2cde4c41a3b6a7b265081023379c095ffff8a161": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=hasty].increased",
+      "observed": "speed",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
     },
     "aa8545cfc91e4d16766fdaadfda7b8669a6c43909a51792c149c51f489dcef24": {
       "context": "champions-champout-capture",
@@ -1913,6 +1886,24 @@
       "provider": "champout",
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Firme"
+    },
+    "ac91a6e4853cc91c8018447cf025dcf7c7cb10c2a74d34745bb23a874a83c73a": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=quiet]",
+      "observed": {
+        "decreased": "speed",
+        "id": 17,
+        "increased": "spAttack",
+        "key": "quiet",
+        "name": "Mansa"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
     },
     "acff98af2343421c8ed2d443cf580428219353c86aed4d25c636c6497013cd89": {
       "context": "champions-champout-capture",
@@ -1950,15 +1941,6 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "b1964f26524f5f5285b428464761a29fb564e77fe0d4e62efc47e1e2730d0e88": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=timid].decreased",
-      "observed": "attack",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "attack"
-    },
     "b319407d49711b1827ab7b0a8e72703fa4fe1892c2464d2caf7f9b8f6cad00a5": {
       "context": "champions-champout-capture",
       "document": "champout/esp/seikaku",
@@ -1968,14 +1950,14 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Plácida"
     },
-    "b390629ad1eb0cdd6c529f750575289d5846242f0e04088c847d04020d944a92": {
+    "b50012cb6dacc3d464b1013bbce58fdcd9b2e9b75d91ab42052a7a6d9c3c1266": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=brave].decreased",
-      "observed": "speed",
+      "locator": "natures[key=naive].decreased",
+      "observed": "spDefense",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spDefense"
     },
     "b65141749befdae85bd171d85e4c58f351a81ff26a994f7afffdfe7d7ea0c86a": {
       "context": "champions-champout-capture",
@@ -1986,6 +1968,33 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Afable"
     },
+    "b656e9d1c0863d761a9cc2daf9346bba4b8e386bc0a0c8b8232aa7bff413bb16": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=quiet].increased",
+      "observed": "spAttack",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spAttack"
+    },
+    "b6834e71281b413f4e147380deabba5acc2f28de3db710656ec485501ef98293": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=docile].increased",
+      "observed": null,
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": null
+    },
+    "b703503d0c6cb610539d733ca6c1a9ce861f37eed85a4732a78f484f17757458": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=bashful].decreased",
+      "observed": null,
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": null
+    },
     "b75e8e580180eeff4b44024681b8683faa0bf1451ffaf4a64b88754aecaa1851": {
       "context": "champions-champout-capture",
       "document": "champout/esp/seikaku",
@@ -1994,15 +2003,6 @@
       "provider": "champout",
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
-    },
-    "b7f4c4d26189aa107c3ff9723c97ff6cbaa8298ce32bd8dfdc4862cae52b3552": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=gentle].increased",
-      "observed": "spDefense",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spDefense"
     },
     "b84d814257144a7e5906b19605071b4101cc0c852c977da9e27514ebcad54e90": {
       "context": "champions-champout-capture",
@@ -2013,32 +2013,59 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Huraña"
     },
-    "ba1c5f263b16313c8875c2ae3587a376304e5935b17b63cb9bdf614fa32b82f4": {
+    "bbd7ca71e778d9dc9302009dacde07ea58b37337a50d87e96ccb92131c723afc": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=quiet].decreased",
-      "observed": "speed",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
-    },
-    "ba402d7fb6f1a7e200982f1f9d4670715067afb5cb1c5c579ba99d3adfa6b741": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=mild].decreased",
+      "locator": "natures[key=impish].increased",
       "observed": "defense",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": "defense"
     },
-    "be069ce4885190c3845099a5e1414d624f3ac21981566076af1272c469cf5835": {
+    "bc03dba761798113d00b38d94c61c3a97fe8266cd01089b47aa6a9744631136e": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=naughty].increased",
-      "observed": "attack",
+      "locator": "natures[key=calm].increased",
+      "observed": "spDefense",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "attack"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spDefense"
+    },
+    "bc8c9a7bcdad758848b62f6e472b003d923fd0a01a319a6bc62798d7adbd34e6": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=gentle].decreased",
+      "observed": "defense",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "defense"
+    },
+    "beef15dee5d98f8760214c0b0ded930d76043941b6185e2eccf6326d9de9d82f": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=careful]",
+      "observed": {
+        "decreased": "spAttack",
+        "id": 23,
+        "increased": "spDefense",
+        "key": "careful",
+        "name": "Cauta"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
+    },
+    "bf5c334e5df3da9c9c3a221619e36e67519cbd9a6b28e8e18f2076c457fd8501": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=relaxed].decreased",
+      "observed": "speed",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
     },
     "c44efe689f4c6892412f84a3361eac401f12824d0d60ccc4c28e91966a842e94": {
       "context": "champions-champout-capture",
@@ -2067,24 +2094,6 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "c6dfcf31939e4b681309de391c117c62f0dd06c58e27741eba5d4a1d904f8aa2": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=mild]",
-      "observed": {
-        "decreased": "defense",
-        "id": 16,
-        "increased": "spAttack",
-        "key": "mild",
-        "name": "Afable"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
-    },
     "c8fe88ab1448ec0a14898374a64f6a5ae66d575ebaf29483126a1f85e48e7358": {
       "context": "champions-champout-capture",
       "document": "champout/esp/seikaku",
@@ -2093,6 +2102,15 @@
       "provider": "champout",
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
+    },
+    "c9a0702e9316b0c957a9ee9d0d59d38bee62cda72a46789f1e4f7762582efc0d": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=brave].decreased",
+      "observed": "speed",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
     },
     "cb822bb7091af2fa59218a2308c03d36552cedabf8c4bcb3a4261baa083c9eab": {
       "context": "champions-champout-capture",
@@ -2103,41 +2121,32 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "cd301d54e1fbfe9fd3f23be1adf88bb71241bcbf29f68aa6a50108b89945c7b1": {
+    "ceb9d25a9bffaa49de483891a90e11b713c14a480c4e58202b71f1642b369eda": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=modest].decreased",
-      "observed": "attack",
+      "locator": "natures[key=adamant].decreased",
+      "observed": "spAttack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "attack"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "spAttack"
     },
-    "cf63f6544836088043c84f853b639f7dd8df104067e2ba59d877177ed2e7aa8a": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=sassy].decreased",
-      "observed": "speed",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
-    },
-    "d2b983701f4f34f8e2eb73a59116c906ca98607ab1971a7e689cabf686078be4": {
+    "cfc61584cf6cf755f44623a6f01e33a24700b04af50129bd826539f7c722e9a6": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
       "locator": "natures[key=lonely].decreased",
       "observed": "defense",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": "defense"
     },
-    "d30612cd10ae7ba4490421d91359c50d529d2f0c2940781eb97d5a12a73add55": {
+    "d29b7a93207f0a171973dc979f6ffc6b616a7f5f6923549ec4b3ad10f2d5ea90": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=bold].decreased",
-      "observed": "attack",
+      "locator": "natures[key=jolly].increased",
+      "observed": "speed",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "attack"
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
     },
     "d3cf7f1db65c6eaa41cac14ce03ef467ccb936de9c680549cdfd168b936cd0c8": {
       "context": "champions-champout-capture",
@@ -2148,14 +2157,32 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Modesta"
     },
-    "d52b6d3375ca57784db583e658d3add063c0b660dddba3b490a853ba5f74d91a": {
+    "d534df6a4d213de2777469539d46822c510cee1b5dea2391b9c7589757c1be05": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=careful].decreased",
+      "locator": "natures[key=jolly].decreased",
       "observed": "spAttack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": "spAttack"
+    },
+    "da23acf3bb733ab4f46ba3798149df60438f6ea79576be3eaf2e2e67080d8bd8": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=brave]",
+      "observed": {
+        "decreased": "speed",
+        "id": 2,
+        "increased": "attack",
+        "key": "brave",
+        "name": "Audaz"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 0.9,
+        "increased": 1.1
+      }
     },
     "dbcf815c2839979dd2d8749236d0834c65ffe00233f5edced1c8b2c08470a0f1": {
       "context": "champions-champout-capture",
@@ -2166,15 +2193,6 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "dd48b9ac5ad9a88664ac4bd5a0d5fe8cc2a7f80fa5809628716a0d1e44307686": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=relaxed].decreased",
-      "observed": "speed",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "speed"
-    },
     "de764bca817d9276e9f8c79b6613809a8b04ea0f677392230e0c6e45afc7d7f8": {
       "context": "champions-champout-capture",
       "document": "champout/esp/seikaku",
@@ -2184,34 +2202,7 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Pícara"
     },
-    "e31569dd699f96d2e193da1ae44806c682738a3ffc02b1d743e7cccf23180c2a": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=quiet].increased",
-      "observed": "spAttack",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spAttack"
-    },
-    "e581b540dfea6bc03cc5c880409e7cc28519e7702a3c18984bfd8d8dc5d87ad7": {
-      "context": "champions-champout-capture",
-      "document": "champout/esp/seikaku",
-      "locator": "SEIKAKU_011",
-      "observed": true,
-      "provider": "champout",
-      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
-      "value": true
-    },
-    "e62712beee1393d3cf8e95ca15fe40099a4c3cba3bfd014b7eeb59e0c58e031f": {
-      "context": "champions-champout-capture",
-      "document": "champout/esp/seikaku",
-      "locator": "SEIKAKU_008",
-      "observed": "Agitada",
-      "provider": "champout",
-      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
-      "value": "Agitada"
-    },
-    "e6e3004b103fb202e4d95d62799de1a7c5c97ef990b632bd052b22725d62c827": {
+    "e00eafa95bdef9a467e9d71c94b8463f86d2d9026afb8770a221554a70713188": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
       "locator": "natures[key=calm]",
@@ -2223,47 +2214,56 @@
         "name": "Serena"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
         "decreased": 0.9,
         "increased": 1.1
       }
     },
-    "e76e5b37a2de24c857197a2890b11489fce1cb314b2c4177ea2cece199a235ac": {
+    "e0c6dbcd5ccb51d89fb6ae3c7fb8526f249fbf6cb8c2919c25b6ee67e008edc2": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=jolly]",
-      "observed": {
-        "decreased": "spAttack",
-        "id": 13,
-        "increased": "speed",
-        "key": "jolly",
-        "name": "Alegre"
-      },
+      "locator": "natures[key=quiet].decreased",
+      "observed": "speed",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "speed"
     },
-    "e86ae26029d0cfd2482c4583e2146c8a8c0b481e5495644c8944703cddccafed": {
+    "e52b46c7c711de57b8044ad7facaba2c0b9ae32b95bf061b929b3855f9a2bfae": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=careful]",
-      "observed": {
-        "decreased": "spAttack",
-        "id": 23,
-        "increased": "spDefense",
-        "key": "careful",
-        "name": "Cauta"
-      },
+      "locator": "natures[key=lonely].increased",
+      "observed": "attack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "attack"
+    },
+    "e581b540dfea6bc03cc5c880409e7cc28519e7702a3c18984bfd8d8dc5d87ad7": {
+      "context": "champions-champout-capture",
+      "document": "champout/esp/seikaku",
+      "locator": "SEIKAKU_011",
+      "observed": true,
+      "provider": "champout",
+      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
+      "value": true
+    },
+    "e592057c1d86f812fcbc01a91423e93161a516a76644b2d1276358dc53556e2e": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=bashful].increased",
+      "observed": null,
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": null
+    },
+    "e62712beee1393d3cf8e95ca15fe40099a4c3cba3bfd014b7eeb59e0c58e031f": {
+      "context": "champions-champout-capture",
+      "document": "champout/esp/seikaku",
+      "locator": "SEIKAKU_008",
+      "observed": "Agitada",
+      "provider": "champout",
+      "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
+      "value": "Agitada"
     },
     "e9d1b9566129dd2055650ed853f7a3a628850274a6215e2d4f1ded0ec63470a1": {
       "context": "champions-champout-capture",
@@ -2283,40 +2283,40 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": "Rara"
     },
-    "f24d623d6b825f0aefb4de771fcce32889265e5b4eaf355612ef81042a1b83db": {
+    "ebe96f75c41fc80ee48d7b8d740fda59c2b76c5f60495267a71982a77528adec": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=mild].increased",
-      "observed": "spAttack",
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "spAttack"
-    },
-    "f5f3605d27e5664b80658f6f4d1e955ef82ba04f2e4cb6d1c4528ccb352b3930": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=bashful].increased",
+      "locator": "natures[key=serious].decreased",
       "observed": null,
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": null
     },
-    "f7af64bec02183176fbc6d9a11a8105c66818db9b8be5e23c4c1e1fc75d01ac2": {
+    "ec09a8fc4fab36f7f621fc8aa61b0c619d28e1a939c340af226dfa449e8d5601": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=brave]",
+      "locator": "natures[key=brave].increased",
+      "observed": "attack",
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "attack"
+    },
+    "ef1c5d116b00f95c5555a6606c41b0f2921b15607082fd42612299efec7f5d39": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=hardy]",
       "observed": {
-        "decreased": "speed",
-        "id": 2,
-        "increased": "attack",
-        "key": "brave",
-        "name": "Audaz"
+        "decreased": null,
+        "id": 0,
+        "increased": null,
+        "key": "hardy",
+        "name": "Fuerte"
       },
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
       "value": {
-        "decreased": 0.9,
-        "increased": 1.1
+        "decreased": 1,
+        "increased": 1
       }
     },
     "f7b1a979b1848b80af8cfbc7dc670d68a377ec602fb3a3bfd2f535aab836c706": {
@@ -2328,32 +2328,14 @@
       "sha256": "45be6e7dbb4fad2ba0dff483e69820afb6182766d2f81009f7361f0944cfd261",
       "value": true
     },
-    "fa57bcd3fc5ef9cb6a30b93caee616df79b3e3a338573a65d6733f91e0d42e50": {
+    "f98f4608ca4b65b544ed7eb6ade5588b94397d62fa617ffa3bc9ba5ac3b2878e": {
       "context": "champions-supplemental-gap",
       "document": "supplement/opgg/natures",
-      "locator": "natures[key=lax].increased",
-      "observed": "defense",
+      "locator": "natures[key=adamant].increased",
+      "observed": "attack",
       "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": "defense"
-    },
-    "fae3284c98874a20d944c2a60540cb9701bb14a597ff2a02854fa1994edc1ad8": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/natures",
-      "locator": "natures[key=naive]",
-      "observed": {
-        "decreased": "spDefense",
-        "id": 14,
-        "increased": "speed",
-        "key": "naive",
-        "name": "Ingenua"
-      },
-      "provider": "opgg",
-      "sha256": "7f8d2460f9530e6ca8f40615cf9b3bd134134a9f98999fe0fe4937cffce497d4",
-      "value": {
-        "decreased": 0.9,
-        "increased": 1.1
-      }
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": "attack"
     },
     "fcdbfc34406d0d4af38a83844b659819e32cbdf019fee77eec6188c7dbbc3cfe": {
       "context": "champions-champout-capture",
@@ -2374,6 +2356,24 @@
       "value": {
         "decreased": 0.9,
         "increased": 1.1
+      }
+    },
+    "fdf2679fa7614a184a823c44cdd6bc0d6f9d6a3a258a5c451e43d77c312b0b1f": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/natures",
+      "locator": "natures[key=docile]",
+      "observed": {
+        "decreased": null,
+        "id": 6,
+        "increased": null,
+        "key": "docile",
+        "name": "Dócil"
+      },
+      "provider": "opgg",
+      "sha256": "5bc568028339361585edf2fad5d5f2a1011195f01961cf95ca29a9ddd1014923",
+      "value": {
+        "decreased": 1,
+        "increased": 1
       }
     }
   }
