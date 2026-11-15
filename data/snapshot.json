@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-14T11:28:52.875Z",
+  "asOf": "2026-11-15T11:57:42.634Z",
   "documents": {
     "champout/esp/btl_condition": {
       "bytes": 14241,
@@ -381,38 +381,38 @@
     },
     "supplement/opgg/items": {
       "bytes": 1937091,
-      "capturedAt": "2026-11-14T11:28:52.875Z",
+      "capturedAt": "2026-11-15T11:57:42.634Z",
       "id": "supplement/opgg/items",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "8dfb142580a616de1618f2efa686fc25ee0a5ae1ae255eaf6e4a49b0f2d6c43c",
+      "sha256": "09482ba3daf63546d6bb046ffbb86a39a846b7d63240c63e6c5d515d2e3f4aae",
       "url": "https://op.gg/es/pokemon-champions/items"
     },
     "supplement/opgg/moves": {
       "bytes": 8657658,
-      "capturedAt": "2026-11-14T11:28:52.875Z",
+      "capturedAt": "2026-11-15T11:57:42.634Z",
       "id": "supplement/opgg/moves",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "c41987083351044c368bf2eeb25911522ab59889164d66385bdd7dd352d9becd",
+      "sha256": "07b3b88083f431f5140971bbb365670a37685fb8984b51f108492a43010433d2",
       "url": "https://op.gg/es/pokemon-champions/moves"
     },
     "supplement/opgg/natures": {
       "bytes": 381165,
-      "capturedAt": "2026-11-14T11:28:52.875Z",
+      "capturedAt": "2026-11-15T11:57:42.634Z",
       "id": "supplement/opgg/natures",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "4962b47808aa8c8097fc126c256d8041a4e05461bed55a58d132f7cb493c5309",
+      "sha256": "957c2182ce14c87f76c140fe362e3174fb3debb9490de41b2fd3784d85e10d87",
       "url": "https://op.gg/es/pokemon-champions/natures"
     },
     "supplement/opgg/pokedex": {
       "bytes": 2224027,
-      "capturedAt": "2026-11-14T11:28:52.875Z",
+      "capturedAt": "2026-11-15T11:57:42.634Z",
       "id": "supplement/opgg/pokedex",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "3a2fedf4912e79ebf408a259d0d4a909a1192df02a409a6432657bf40f961ccc",
+      "sha256": "4144cd0dcd7503ad34585cf4ff4f12d9b2ea7f06418282baac03d9fc38550e30",
       "url": "https://op.gg/es/pokemon-champions/pokedex"
     },
     "supplement/opgg/type-chart": {
@@ -426,11 +426,11 @@
     },
     "supplement/opgg/types": {
       "bytes": 854219,
-      "capturedAt": "2026-11-14T11:28:52.875Z",
+      "capturedAt": "2026-11-15T11:57:42.634Z",
       "id": "supplement/opgg/types",
       "provider": "opgg",
       "revision": "live",
-      "sha256": "348e0f8414f4f99b17340131e99d69b4227b421a6935232b607b72ea8b87472c",
+      "sha256": "a87becfd287c2f8fe00bf33e0a193a7a601342f4dfd543e8ef514aa98afeafa4",
       "url": "https://op.gg/es/pokemon-champions/types"
     },
     "supplement/showdown/base/abilities": {
