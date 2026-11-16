@@ -1374,7 +1374,7 @@
         }
       ],
       "witnesses": [
-        "92a6e8ef4511900daeee076603cdccf55f412d5928f60c0b88a55e0eded80be2"
+        "e12681a1ee441652cdaafd1d09e4a63cdb5771725b682be31615b6f33e3a36ad"
       ]
     },
     "items/item-237/available": {
@@ -3160,7 +3160,7 @@
         }
       ],
       "witnesses": [
-        "60b92181d841748f1e79df9777de702b536e7cbbbc5ec19aa6255cdaff4bd506"
+        "8cb9a5044238c4aee69a938bb909f1652af591d3018d4b63bc691aa9e9a1236a"
       ]
     },
     "items/item-2635/available": {
@@ -10814,34 +10814,6 @@
       "sha256": "26d2e9becb6d123b77f93ea50a47a4edfb34fc6900987a8943a561b351639d69",
       "value": "Reduce a la mitad el daño de un ataque supereficaz de tipo Roca que el portador reciba. Puede usarse una vez por combate."
     },
-    "60b92181d841748f1e79df9777de702b536e7cbbbc5ec19aa6255cdaff4bd506": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=259].affectedPokemonKeys",
-      "observed": {
-        "affectedPokemonKeys": [
-          "farfetchd",
-          "sirfetchd"
-        ],
-        "effect": "Si lo lleva Farfetch’d o Sirfetch’d, este tallo de puerro largo y rígido aumenta la probabilidad de que sus movimientos asesten un golpe crítico."
-      },
-      "provider": "opgg",
-      "sha256": "09482ba3daf63546d6bb046ffbb86a39a846b7d63240c63e6c5d515d2e3f4aae",
-      "value": [
-        {
-          "any": [
-            {
-              "pokemonId": "pokemon-0083000",
-              "predicate": "form-is"
-            },
-            {
-              "pokemonId": "pokemon-0865000",
-              "predicate": "form-is"
-            }
-          ]
-        }
-      ]
-    },
     "611f5e61a055e02d41a4c4a45f7fc58d57e40be55071b6cfaa92801d9e8d1505": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/item",
@@ -12882,6 +12854,34 @@
       "sha256": "26d2e9becb6d123b77f93ea50a47a4edfb34fc6900987a8943a561b351639d69",
       "value": "Si la lleva Blaziken, le permite megaevolucionar."
     },
+    "8cb9a5044238c4aee69a938bb909f1652af591d3018d4b63bc691aa9e9a1236a": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=259].affectedPokemonKeys",
+      "observed": {
+        "affectedPokemonKeys": [
+          "farfetchd",
+          "sirfetchd"
+        ],
+        "effect": "Si lo lleva Farfetch’d o Sirfetch’d, este tallo de puerro largo y rígido aumenta la probabilidad de que sus movimientos asesten un golpe crítico."
+      },
+      "provider": "opgg",
+      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
+      "value": [
+        {
+          "any": [
+            {
+              "pokemonId": "pokemon-0083000",
+              "predicate": "form-is"
+            },
+            {
+              "pokemonId": "pokemon-0865000",
+              "predicate": "form-is"
+            }
+          ]
+        }
+      ]
+    },
     "8cbe76a4d1c1381d89f24091029c4165498fa62bc3f564755ad89c2ca944f731": {
       "context": "champions-champout-capture",
       "document": "champout/esp/itemname",
@@ -13118,29 +13118,6 @@
       "provider": "champout",
       "sha256": "556ad830a535d6280310379f8dfa738f45ef3f38896b86f4a3981aae8269df5e",
       "value": "mega-stone"
-    },
-    "92a6e8ef4511900daeee076603cdccf55f412d5928f60c0b88a55e0eded80be2": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=236].affectedPokemonKeys",
-      "observed": {
-        "affectedPokemonKeys": [
-          "pikachu"
-        ],
-        "effect": "Si la lleva Pikachu, le duplica el Ataque y el Ataque Especial."
-      },
-      "provider": "opgg",
-      "sha256": "09482ba3daf63546d6bb046ffbb86a39a846b7d63240c63e6c5d515d2e3f4aae",
-      "value": [
-        {
-          "any": [
-            {
-              "pokemonId": "pokemon-0025000",
-              "predicate": "form-is"
-            }
-          ]
-        }
-      ]
     },
     "92e09c8a56feef22aba272e0244e755d928642564e2b86335508a110bd7d8c41": {
       "context": "champions-champout-capture",
@@ -16385,6 +16362,29 @@
       "provider": "champout",
       "sha256": "556ad830a535d6280310379f8dfa738f45ef3f38896b86f4a3981aae8269df5e",
       "value": "held-item"
+    },
+    "e12681a1ee441652cdaafd1d09e4a63cdb5771725b682be31615b6f33e3a36ad": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=236].affectedPokemonKeys",
+      "observed": {
+        "affectedPokemonKeys": [
+          "pikachu"
+        ],
+        "effect": "Si la lleva Pikachu, le duplica el Ataque y el Ataque Especial."
+      },
+      "provider": "opgg",
+      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
+      "value": [
+        {
+          "any": [
+            {
+              "pokemonId": "pokemon-0025000",
+              "predicate": "form-is"
+            }
+          ]
+        }
+      ]
     },
     "e1471e223195eca2fdc6791d9a6dd21c0de8347345ff8183ec3e386c5ed2b4df": {
       "context": "champions-champout-capture",
