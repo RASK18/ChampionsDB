@@ -3636,13 +3636,13 @@
     "interactions/item-673--0448000/available": {
       "value": true,
       "witnesses": [
-        "566d288d28f5fb79faf88d6ed619bb4015affbef6b37fd94de0f4cde340947b0"
+        "e1e8b18a5152ce7a7d2c544d9a592c56bd392e89173a3027ce969981f4c62329"
       ]
     },
     "interactions/item-673--0448000/identity": {
       "value": true,
       "witnesses": [
-        "566d288d28f5fb79faf88d6ed619bb4015affbef6b37fd94de0f4cde340947b0"
+        "e1e8b18a5152ce7a7d2c544d9a592c56bd392e89173a3027ce969981f4c62329"
       ]
     },
     "interactions/item-673--0448000/rule": {
@@ -3673,7 +3673,7 @@
         "trigger": "mega-evolution"
       },
       "witnesses": [
-        "a3dfe55528e1d77740f5c73ea93eb43f8d774918033ef33f282fd0634e2b2fe8"
+        "91e71a27fa35385700c54a10ad5eb96cbd2d021e4d1b9adc79064f79d8d20c1d"
       ]
     },
     "interactions/item-674--0460000--transforms--0460001/available": {
@@ -3826,13 +3826,13 @@
     "interactions/item-677--0359000/available": {
       "value": true,
       "witnesses": [
-        "2167f5f0065182170e6572f19475599c8456c79fb8921fb55e0f2f3f5cc2ddce"
+        "db9723f2da34e3acabacccb9022f6bc4a37c81ef6120031d8a575b53be426334"
       ]
     },
     "interactions/item-677--0359000/identity": {
       "value": true,
       "witnesses": [
-        "2167f5f0065182170e6572f19475599c8456c79fb8921fb55e0f2f3f5cc2ddce"
+        "db9723f2da34e3acabacccb9022f6bc4a37c81ef6120031d8a575b53be426334"
       ]
     },
     "interactions/item-677--0359000/rule": {
@@ -3863,7 +3863,7 @@
         "trigger": "mega-evolution"
       },
       "witnesses": [
-        "8d3946ff88450193de704542b24a1901c45bc76f8df2a5296cd9fe40474141d3"
+        "f649943e526f5e5e37b917bdc9ccad9915ba142c7acb4647dd47fc7a06736c79"
       ]
     },
     "interactions/item-678--0006000--transforms--0006002/available": {
@@ -4114,13 +4114,13 @@
     "interactions/item-683--0445000/available": {
       "value": true,
       "witnesses": [
-        "02499e1420de6b55b2b6aa8bad47e37587ad553ef3b4584b788e3cc3027784d0"
+        "9dd7a051e284596ba5d91944ce26a26121e9668a29f89010204b67c367699308"
       ]
     },
     "interactions/item-683--0445000/identity": {
       "value": true,
       "witnesses": [
-        "02499e1420de6b55b2b6aa8bad47e37587ad553ef3b4584b788e3cc3027784d0"
+        "9dd7a051e284596ba5d91944ce26a26121e9668a29f89010204b67c367699308"
       ]
     },
     "interactions/item-683--0445000/rule": {
@@ -4151,7 +4151,7 @@
         "trigger": "mega-evolution"
       },
       "witnesses": [
-        "f04593ad939859a9a8faa9bbc388a75042f36db221942b80577a5896ee6e2fe6"
+        "5f307b676783401d0ae1f630555f15d262dad55cf2fe3b6606639618e86a8ba3"
       ]
     },
     "interactions/item-752--0260000--transforms--0260001/available": {
@@ -7124,18 +7124,6 @@
       "sha256": "7f7e94710aba87615633ae5a37ed62ffcc014b9724c6508e429ad5d35e8ae87d",
       "value": true
     },
-    "02499e1420de6b55b2b6aa8bad47e37587ad553ef3b4584b788e3cc3027784d0": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=683].pokemon_key",
-      "observed": {
-        "pokemon_key": "mega-garchomp",
-        "target": "Mega-Garchomp"
-      },
-      "provider": "opgg",
-      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
-      "value": true
-    },
     "036b898a4f505cdea438171634469a0aa2288ee612126b12b80a8747dbd40942": {
       "context": "champions-champout-capture",
       "document": "champout/esp/iteminfo_syn",
@@ -9024,18 +9012,6 @@
       "observed": "0780000",
       "provider": "champout",
       "sha256": "556ad830a535d6280310379f8dfa738f45ef3f38896b86f4a3981aae8269df5e",
-      "value": true
-    },
-    "2167f5f0065182170e6572f19475599c8456c79fb8921fb55e0f2f3f5cc2ddce": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=677].pokemon_key",
-      "observed": {
-        "pokemon_key": "mega-absol",
-        "target": "Mega-Absol"
-      },
-      "provider": "opgg",
-      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
       "value": true
     },
     "218e5422b9c41922f45bebe72c677312c5ae91edb78d4049bbe9ba5d35245289": {
@@ -12313,18 +12289,6 @@
         "trigger": "mega-evolution"
       }
     },
-    "566d288d28f5fb79faf88d6ed619bb4015affbef6b37fd94de0f4cde340947b0": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=673].pokemon_key",
-      "observed": {
-        "pokemon_key": "mega-lucario",
-        "target": "Mega-Lucario"
-      },
-      "provider": "opgg",
-      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
-      "value": true
-    },
     "56fa332592619ef599e1559861b1c38765113ee661a2c9cdaa64acc89bbda9d3": {
       "context": "champions-champout-capture",
       "document": "champout/esp/iteminfo_syn",
@@ -13158,6 +13122,43 @@
           "id": "snow"
         },
         "trigger": "on-use"
+      }
+    },
+    "5f307b676783401d0ae1f630555f15d262dad55cf2fe3b6606639618e86a8ba3": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=683].pokemon_key",
+      "observed": {
+        "pokemon_key": "mega-garchomp",
+        "target": "Mega-Garchomp"
+      },
+      "provider": "opgg",
+      "sha256": "a91bdfcdd0404c3b050debdcd70c8a84f503916ca20167e2021e1445fb8be80d",
+      "value": {
+        "parameters": {},
+        "recipient": "holder",
+        "relation": "transforms",
+        "requirements": {
+          "all": [
+            {
+              "pokemonId": "pokemon-0445000",
+              "predicate": "form-is"
+            },
+            {
+              "itemId": "item-683",
+              "predicate": "holds-item"
+            }
+          ]
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-683"
+        },
+        "target": {
+          "collection": "pokemon",
+          "id": "pokemon-0445001"
+        },
+        "trigger": "mega-evolution"
       }
     },
     "603d720337c6107ef2ac86c1c0af50ab5733ce7c81290fa9012c132a858e2a40": {
@@ -16141,43 +16142,6 @@
         "trigger": "mega-evolution"
       }
     },
-    "8d3946ff88450193de704542b24a1901c45bc76f8df2a5296cd9fe40474141d3": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=677].pokemon_key",
-      "observed": {
-        "pokemon_key": "mega-absol",
-        "target": "Mega-Absol"
-      },
-      "provider": "opgg",
-      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
-      "value": {
-        "parameters": {},
-        "recipient": "holder",
-        "relation": "transforms",
-        "requirements": {
-          "all": [
-            {
-              "pokemonId": "pokemon-0359000",
-              "predicate": "form-is"
-            },
-            {
-              "itemId": "item-677",
-              "predicate": "holds-item"
-            }
-          ]
-        },
-        "source": {
-          "collection": "items",
-          "id": "item-677"
-        },
-        "target": {
-          "collection": "pokemon",
-          "id": "pokemon-0359001"
-        },
-        "trigger": "mega-evolution"
-      }
-    },
     "8dadfe2bec8f36d9e2e39d1fe6a550e0eeae42f5190267e5a478164033e928c2": {
       "context": "champions-champout-capture",
       "document": "champout/esp/iteminfo_syn",
@@ -16399,6 +16363,43 @@
         "target": {
           "collection": "pokemon",
           "id": "pokemon-0655001"
+        },
+        "trigger": "mega-evolution"
+      }
+    },
+    "91e71a27fa35385700c54a10ad5eb96cbd2d021e4d1b9adc79064f79d8d20c1d": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=673].pokemon_key",
+      "observed": {
+        "pokemon_key": "mega-lucario",
+        "target": "Mega-Lucario"
+      },
+      "provider": "opgg",
+      "sha256": "a91bdfcdd0404c3b050debdcd70c8a84f503916ca20167e2021e1445fb8be80d",
+      "value": {
+        "parameters": {},
+        "recipient": "holder",
+        "relation": "transforms",
+        "requirements": {
+          "all": [
+            {
+              "pokemonId": "pokemon-0448000",
+              "predicate": "form-is"
+            },
+            {
+              "itemId": "item-673",
+              "predicate": "holds-item"
+            }
+          ]
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-673"
+        },
+        "target": {
+          "collection": "pokemon",
+          "id": "pokemon-0448001"
         },
         "trigger": "mega-evolution"
       }
@@ -17396,6 +17397,18 @@
       "sha256": "395fc437eb84f9ef73ef9948c2bd677e2ed6c65bdd6f176aee91aad51c79bb96",
       "value": true
     },
+    "9dd7a051e284596ba5d91944ce26a26121e9668a29f89010204b67c367699308": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=683].pokemon_key",
+      "observed": {
+        "pokemon_key": "mega-garchomp",
+        "target": "Mega-Garchomp"
+      },
+      "provider": "opgg",
+      "sha256": "a91bdfcdd0404c3b050debdcd70c8a84f503916ca20167e2021e1445fb8be80d",
+      "value": true
+    },
     "9e6ad3239b3ad6516827d464f3e47e8f42ff86843093ea4a7e7b4e14a5ceff7d": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/item",
@@ -17826,43 +17839,6 @@
         "target": {
           "collection": "pokemon",
           "id": "pokemon-0560001"
-        },
-        "trigger": "mega-evolution"
-      }
-    },
-    "a3dfe55528e1d77740f5c73ea93eb43f8d774918033ef33f282fd0634e2b2fe8": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=673].pokemon_key",
-      "observed": {
-        "pokemon_key": "mega-lucario",
-        "target": "Mega-Lucario"
-      },
-      "provider": "opgg",
-      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
-      "value": {
-        "parameters": {},
-        "recipient": "holder",
-        "relation": "transforms",
-        "requirements": {
-          "all": [
-            {
-              "pokemonId": "pokemon-0448000",
-              "predicate": "form-is"
-            },
-            {
-              "itemId": "item-673",
-              "predicate": "holds-item"
-            }
-          ]
-        },
-        "source": {
-          "collection": "items",
-          "id": "item-673"
-        },
-        "target": {
-          "collection": "pokemon",
-          "id": "pokemon-0448001"
         },
         "trigger": "mega-evolution"
       }
@@ -22241,6 +22217,18 @@
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
       "value": true
     },
+    "db9723f2da34e3acabacccb9022f6bc4a37c81ef6120031d8a575b53be426334": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=677].pokemon_key",
+      "observed": {
+        "pokemon_key": "mega-absol",
+        "target": "Mega-Absol"
+      },
+      "provider": "opgg",
+      "sha256": "a91bdfcdd0404c3b050debdcd70c8a84f503916ca20167e2021e1445fb8be80d",
+      "value": true
+    },
     "dbaa0a22223530fb49bbd5386e6f26a49951d02d4e0ab098c18e89cf1ba79175": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/item",
@@ -22788,6 +22776,18 @@
       },
       "provider": "champout",
       "sha256": "5ab5444e4e08cc692c1c309dc0c113e8ba63e23187f9f6331cc4505db3ab96a7",
+      "value": true
+    },
+    "e1e8b18a5152ce7a7d2c544d9a592c56bd392e89173a3027ce969981f4c62329": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=673].pokemon_key",
+      "observed": {
+        "pokemon_key": "mega-lucario",
+        "target": "Mega-Lucario"
+      },
+      "provider": "opgg",
+      "sha256": "a91bdfcdd0404c3b050debdcd70c8a84f503916ca20167e2021e1445fb8be80d",
       "value": true
     },
     "e1ee711f7c8acde101fafe03a33b3a15062f992e38ab97ba6e987a3a41b46803": {
@@ -24148,43 +24148,6 @@
         "trigger": "mega-evolution"
       }
     },
-    "f04593ad939859a9a8faa9bbc388a75042f36db221942b80577a5896ee6e2fe6": {
-      "context": "champions-supplemental-gap",
-      "document": "supplement/opgg/items",
-      "locator": "items[id=683].pokemon_key",
-      "observed": {
-        "pokemon_key": "mega-garchomp",
-        "target": "Mega-Garchomp"
-      },
-      "provider": "opgg",
-      "sha256": "828c2e5305b15df47130cfa9da5a4e77f5168b5fc31bb9dcc33177661bd845e7",
-      "value": {
-        "parameters": {},
-        "recipient": "holder",
-        "relation": "transforms",
-        "requirements": {
-          "all": [
-            {
-              "pokemonId": "pokemon-0445000",
-              "predicate": "form-is"
-            },
-            {
-              "itemId": "item-683",
-              "predicate": "holds-item"
-            }
-          ]
-        },
-        "source": {
-          "collection": "items",
-          "id": "item-683"
-        },
-        "target": {
-          "collection": "pokemon",
-          "id": "pokemon-0445001"
-        },
-        "trigger": "mega-evolution"
-      }
-    },
     "f08476a4c83ac5059bba76b4923d4997e4b50e3010764f5bf8b861364737eb6b": {
       "context": "champions-champout-capture",
       "document": "champout/masterdata/personal",
@@ -24880,6 +24843,43 @@
         "target": {
           "collection": "pokemon",
           "id": "pokemon-0970001"
+        },
+        "trigger": "mega-evolution"
+      }
+    },
+    "f649943e526f5e5e37b917bdc9ccad9915ba142c7acb4647dd47fc7a06736c79": {
+      "context": "champions-supplemental-gap",
+      "document": "supplement/opgg/items",
+      "locator": "items[id=677].pokemon_key",
+      "observed": {
+        "pokemon_key": "mega-absol",
+        "target": "Mega-Absol"
+      },
+      "provider": "opgg",
+      "sha256": "a91bdfcdd0404c3b050debdcd70c8a84f503916ca20167e2021e1445fb8be80d",
+      "value": {
+        "parameters": {},
+        "recipient": "holder",
+        "relation": "transforms",
+        "requirements": {
+          "all": [
+            {
+              "pokemonId": "pokemon-0359000",
+              "predicate": "form-is"
+            },
+            {
+              "itemId": "item-677",
+              "predicate": "holds-item"
+            }
+          ]
+        },
+        "source": {
+          "collection": "items",
+          "id": "item-677"
+        },
+        "target": {
+          "collection": "pokemon",
+          "id": "pokemon-0359001"
         },
         "trigger": "mega-evolution"
       }

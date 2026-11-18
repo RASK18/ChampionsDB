@@ -7,7 +7,7 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "6a716ced77e926b46d1795bd0fc9f79e0955aad6aa324ab76474bcd44822d7e7",
+  "datasetId": "ed9121cba5f4b7cbdf79f3225f7388c98e3d587a8e90808823ed741e729f9f94",
   "files": {
     "abilities.json": {
       "bytes": 49177,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "570853d8206ced147f57f763f70d6bf3adc1afdcf93036e953681128892f01ae"
+      "sha256": "877fa8d68db20b9e593688ea6d3ba58b961d0efded49ff7dbc224ed2fb39af06"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "6ac8a343566b8c8b2779663e486da9cad0745ebffc977ed211e20ce16a7933ae"
+      "sha256": "a03286ce3ebf636c71ac5b46dd13e9addd23f95c2e0a472c8c908facad8bee6c"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "58043049a07b339cc6bc1817e3cec57b1049b352e747f301b7470fc09aa21571"
+      "sha256": "ec1545e717c1b0ea3faf1ea6839262bbe4b9e4c773fe92d71941386ae4cf324e"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "5c1ca96b82a1c850e24fa40703ba7687c5a78786cfd694dfea1d3768fa0254f8"
+      "sha256": "b4009c3342031d31e39f46e5acb4985d483913e535e628145aa140afc06029c8"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -91,7 +91,7 @@
     },
     "provenance/types.json": {
       "bytes": 139701,
-      "sha256": "19c32d413e8e1352965f176ceebb5b1b38161a4587d193438c845cdc1db3a0b9"
+      "sha256": "3a21d68b265eebc633eb1d865572f7074fe10ce984457cebb49e5884c7458421"
     },
     "regulations.json": {
       "bytes": 14114,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29559,
-      "sha256": "9a3baa222d8f545ebadb3791ee09c3344991de39cbdb59f90b8eab23b90f39fa"
+      "sha256": "e8a015a63b1c91e02ebeb7844856dde531269f34a5a62fa5978775543434fb01"
     },
     "species.json": {
       "bytes": 29136,
