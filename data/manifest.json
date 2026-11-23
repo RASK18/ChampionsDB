@@ -7,7 +7,7 @@
     "revision": "50e7233b78c3b81df29563f9695386c28e77fc95",
     "source": "champout"
   },
-  "datasetId": "24124a7ee0a01b956a83cdaa8be68c443604a069694bdb00096d9f5fabf6e29f",
+  "datasetId": "74bdc0adc821b3c8fc0e707bb4370c9af1c8e482137835d24a1d8caa78ae2f8b",
   "files": {
     "abilities.json": {
       "bytes": 49177,
@@ -59,11 +59,11 @@
     },
     "provenance/interactions.json": {
       "bytes": 791543,
-      "sha256": "50fadd826bc1cf38aef036a46f92c6aa7ffe3ffda3bb1c5afdaf72903f9eb337"
+      "sha256": "6dd7f361a6d86b2df9fcc28dbfbcb0fa590a53d2530b7df6cbb1a2690ae1a459"
     },
     "provenance/items.json": {
       "bytes": 619632,
-      "sha256": "2aaa65720ddd5ceea01b08d523aa8e90f990ab2c9cdcf1dd98a8ec6dcb9877ab"
+      "sha256": "905470b7912df983529a28fc25e53ffcae98e6f45961bd773ceb2174740737c4"
     },
     "provenance/learnsets.json": {
       "bytes": 31057941,
@@ -71,11 +71,11 @@
     },
     "provenance/moves.json": {
       "bytes": 4672394,
-      "sha256": "758cb7c9631d1fe8d56b658989a40b1d6399cf6561fdb00ac087c7f33a386892"
+      "sha256": "70e9f71fedeb00a0c3c773c8cbb9d6a30f11abc8739227a20f42e2ea52f90a48"
     },
     "provenance/natures.json": {
       "bytes": 81648,
-      "sha256": "43b8764985fee1611ced41085ac884a141e6642698c6760ab966567ec7e2ef76"
+      "sha256": "6bae97db6c042e924a5455b2c68a1e25c2cabf96c21078284b72fd563dc542f1"
     },
     "provenance/pokemon.json": {
       "bytes": 3292568,
@@ -91,7 +91,7 @@
     },
     "provenance/types.json": {
       "bytes": 139701,
-      "sha256": "3a21d68b265eebc633eb1d865572f7074fe10ce984457cebb49e5884c7458421"
+      "sha256": "64bcb4530b1689d0a6ec9d7f505f25c1d57de8964e199008e8e4b75cc4012bd9"
     },
     "regulations.json": {
       "bytes": 14114,
@@ -135,7 +135,7 @@
     },
     "snapshot.json": {
       "bytes": 29559,
-      "sha256": "c09c88c2643bf3f4d21c8fc577721b687a61f64ce06bb43ad1892bc04a2f8b5f"
+      "sha256": "f7b25bedfb11e47699b1a6cddb450f473c9a8955c5214065aacfa8b40e462c90"
     },
     "species.json": {
       "bytes": 29136,
@@ -915,6 +915,6 @@
   },
   "sourceRevisions": {
     "champout": "50e7233b78c3b81df29563f9695386c28e77fc95",
-    "showdown": "f1040ecb5f5dba252e0e351e392dc409a5089ace"
+    "showdown": "e7f50cd7bcb36348c631534a97ae8323b8189541"
   }
 }
